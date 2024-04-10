@@ -17,6 +17,12 @@ import requests
 import torch
 import os
 
+'''
+相关文章：
+    https://github.com/langchain-ai/langchain/discussions/12148
+    https://github.com/langchain-ai/langchain/issues/5787
+'''
+
 class SearchInput(BaseModel):
     product_name: str = Field(default=None, description="保险名称，比如珍守护定期寿险")
     insurance_type: str = Field(default=None, description="保险类型，包括'健康保险', '两全保险', '人寿保险', '年金保险', '医疗保险','其他'这些种类")

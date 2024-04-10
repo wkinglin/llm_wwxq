@@ -439,7 +439,10 @@ def get_document(product_name=None ,insurance_type=None ,age_limit=None ,insuran
     response = requests.post(url, headers=headers, json=data)
     return response.text
 
-func_messages = []
+func_messages = [{
+        'role': 'system',
+        'content': "你是一个保险产品推荐和信息查询小助手，当用户在询问保险产品有关的问题时，请使用get_document函数来获取相关信息回答"
+    }]
 @app.post("/func_call")
 async def create_item(args:argsString):
     llm = get_chat_model({
@@ -448,11 +451,12 @@ async def create_item(args:argsString):
         'api_key': 'EMPTY',
     })
 
-    # Step 1: send the conversation and available functions to the model
+    prompt = f"给定一个问题，如果需要推荐保险或查询保险信息，请使用get_document函数。问题：{args.query}"
 
+    # Step 1: send the conversation and available functions to the model    
     func_messages.append({
         'role': 'user',
-        'content': f"请回答{args.query}，如果未提供相关信息，请使用函数查询信息，不确定的函数参数请不要填写。"
+        'content': prompt
     })
     functions = [{
         'name': 'get_document',
@@ -525,11 +529,15 @@ async def create_item(args:argsString):
         print(responses[0])
         func_messages.extend(responses)
     
-    return responses[0]
+    return responses[0]['content']
 
 @app.post("/reset_history")
 async def create_item():
     history = []
+    func_messages = [{
+        'role': 'system',
+        'content': "你是一个保险产品推荐和信息查询小助手，当用户在询问保险产品有关的问题时，请使用get_document函数来获取相关信息回答"
+    }]
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8001)
