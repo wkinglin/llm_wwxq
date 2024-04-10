@@ -112,6 +112,6 @@ agent = initialize_agent(
 
 while True:
     query = input('user question: ')
-    res = agent.run(f"回答下面的问题: {query}")
+    res = agent.invoke({"input":f"回答下面的问题: {query}"})
     print(f"res: {res}")
     print(f"memory: {memory}")

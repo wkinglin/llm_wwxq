@@ -6,12 +6,13 @@ from langchain.llms import OpenAI
 from langchain.pydantic_v1 import BaseModel, Field
 from langchain.memory import ConversationBufferMemory
 from langchain.tools import BaseTool, StructuredTool, tool
+from langchain_core.callbacks import BaseCallbackHandler
 from langchain.callbacks.manager import (
     AsyncCallbackManagerForToolRun,
     CallbackManagerForToolRun,
 )
 from custom_llm import Qwen_custom
-from typing import Optional, Type
+from typing import Any, Optional, Type
 import requests
 import torch
 import os
@@ -76,9 +77,13 @@ class CustomSearchTool(BaseTool):
         """Use the tool asynchronously."""
         raise NotImplementedError("custom_search does not support async")
 
+class MyCustomHandler(BaseCallbackHandler):
+    def on_llm_end(self, response: Any, **kwargs: Any) -> Any:
+        print(f"My custom handler, response: {response}")
 
 os.environ["SERPAPI_API_KEY"] = "47b7d51fbd0e8d0cffd0676ccf44d5b27f26495b12128bc98f98e61307e56126"
 
+handler = MyCustomHandler()
 llm_cfg = {
         # 如果使用自行部署的OpenAI API模型服务：
         'model': "/mnt/resource/public_models/Qwen_Qwen-14B-Chat",
@@ -113,5 +118,17 @@ agent = initialize_agent(
 
 while True:
     query = input('user question: ')
-    res = agent.invoke({"input":f"回答下面的问题: {query}"})
-    print(f"res: {res}")
+    res = agent.invoke({"input":f"回答下面的问题: {query}"},{"callbacks":[handler]})
+    print(f"res: {res['output']}")
+    if len(res['intermediate_steps'])>0:
+        tp = res['intermediate_steps'][0]
+        observation = tp[1]
+        # print(observation)
+        # print(memory)
+        chat_memory = memory.chat_memory
+        messageHistory = chat_memory.messages
+        lastAIMessage = messageHistory[-1]
+        lastAIMessage.content = lastAIMessage.content + observation
+        messageHistory[-1] = lastAIMessage
+        chat_memory.messages = messageHistory
+        # print(memory)
