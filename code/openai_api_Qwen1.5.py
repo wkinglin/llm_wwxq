@@ -448,7 +448,7 @@ async def create_chat_completion(request: ChatCompletionRequest):
 
         generated_ids = model.generate(
             model_inputs.input_ids,
-            max_new_tokens=512
+            max_new_tokens=1024
         )
         generated_ids = [
             output_ids[len(input_ids):] for input_ids, output_ids in zip(model_inputs.input_ids, generated_ids)

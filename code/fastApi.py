@@ -410,9 +410,34 @@ async def create_item(args: argsinput):
     
     return answer
 
-# Example dummy function hard coded to return the same weather
-# In production, this could be your backend API or an external API
 def get_document(product_name=None ,insurance_type=None ,age_limit=None ,insurance_time=None):
+    conditions = []
+
+    if product_name is not None:
+        conditions.append({"match": {"product_name": product_name}})
+    if insurance_type is not None:
+        conditions.append({"match": {"insurance_type": insurance_type}})
+    if age_limit is not None:
+        conditions.append({"match": {"age_limit": age_limit}})
+    if insurance_time is not None:
+        conditions.append({"match": {"insurance_time": insurance_time}})
+
+    url = 'http://localhost:9200/insurance_products/_search'
+    headers = {'Content-Type': 'application/json'}
+    data = {
+        "size": 5,     
+        "query": {
+            "bool": {
+                "should": conditions
+            }
+        }
+    }
+    print(f"esData:{data}")
+    # 发送 POST 请求
+    response = requests.post(url, headers=headers, json=data)
+    return response.text
+
+def get_documents(product_name=None ,insurance_type=None ,age_limit=None ,insurance_time=None):
     conditions = []
 
     if product_name is not None:
@@ -460,7 +485,33 @@ async def create_item(args:argsString):
     })
     functions = [{
         'name': 'get_document',
-        'description': '获得保险的相关信息',
+        'description': '当需要进行保险的推荐时，或者是需要展示多个保险产品的场景时，请使用此函数来获得保险产品列表',
+        'parameters': {
+            'type': 'object',
+            'properties': {
+                'product_name': {
+                    'type': 'string',
+                    'description': '保险名称，比如珍守护定期寿险',
+                },
+                'insurance_type': {
+                    'type': 'string',
+                    'enum': [ '健康保险', '两全保险', '人寿保险', '年金保险', '医疗保险','其他']
+                },
+                'age_limit': {
+                    'type': 'string',
+                    'description': '保险的年龄限制，比如大于18周岁，小于70周岁',
+                },
+                'insurance_time': {
+                    'type': 'string',
+                    'description': '保险的生效期限，比如一年期保险，比如终身保险',
+                },
+            },
+            'required': ['product_name', 'insurance_type' ,'age_limit' ,'insurance_time'],
+        },
+    },
+    {
+        'name': 'get_documents',
+        'description': '当需要查询保险的详细信息时，请使用此函数来获得保险的相关信息',
         'parameters': {
             'type': 'object',
             'properties': {
