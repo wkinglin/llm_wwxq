@@ -1,0 +1,1566 @@
+ 
+SGM8198 
+High-side Measurement 
+Current Shunt Monitor 
+ 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+AUGUST 2022 – REV. A. 3 
+  
+GENERAL DESCRIPTION 
+The SGM8198 series is a high-side, unipolar, current 
+shunt monitor that operates from 2.7V to 36V single 
+supply, consuming only 65µA quiescent current. The 
+device also features a wide input common mode 
+voltage range from 2.7V to 36V. Therefore, either side 
+of the shunt current can be connected to the power 
+supply, and the error is minimized. 
+The SGM8198 is designed to set any gain from 1 to 
+100 or more with one external resistor. Differential input 
+voltage can be converted into output current, and the 
+output current is converted back to voltage through load 
+resistance. In addition to current shunt measurement, 
+the device is also very suitable for measurement and 
+level shifting. 
+The SGM8198 is available in a Green SOT-23-5 
+package. It is specified for the -40 ℃ to +125 ℃ 
+temperature range. 
+ 
+FEATURES 
+● Unipolar High-side Current Measurement Circuit 
+● Wide Supply Voltage Range: 2.7V to 36V 
+● Wide Range of Common Mode Voltage: 2.7V to 
+36V 
+● Single Gain Set Resistor 
+● Low Quiescent Current: 65μA (TYP) 
+● -40℃ to +125℃ Operating Temperature Range 
+● Available in a Green SOT-23-5 Package 
+ 
+ 
+APPLICATIONS 
+Current Measurement 
+Portable Devices 
+Battery-Powered Equipment 
+Charging Systems 
+Power Managements 
+Mobile Phones 
+Precision Current Sources 
+ 
+ 
+TYPICAL APPLICATION 
+VIN+
+Up to 36V
+RS
+IS
+Load
+1kΩ 
+1kΩ 
+VCC
+5
+GND
+2
+VIN-
+VIN+
+4
+3
+OUT
+RL
+VOUT = IS×RS×RL/1kΩ 
+1
+ 
+Figure 1. Typical Application Circuit 
+ 
+ 
+
+High-side Measurement 
+SGM8198 
+Current Shunt Monitor 
+ 
+ 
+2
+AUGUST 2022 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM8198 
+SOT-23-5 
+-40℃ to +125℃ 
+SGM8198XN5G/TR 
+GMCXX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XX = Date Code. 
+Date Code - Year 
+Date Code - Week 
+Serial Number
+YYY X X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Supply Voltage Range ....................................... -0.3V to 40V 
+Analog Inputs (VIN+, VIN-) Common Mode Voltage Range 
+ 
+........................................................................... -0.3V to 40V 
+Analog Output Voltage Range, VOUT .................. -0.3V to 40V 
+Input Current into Any Pin 
+............................................. 
+10mA 
+Package Thermal Resistance 
+SOT-23-5, θJA .......................................................... 199℃/W 
+SOT-23-5, θJB ............................................................ 85℃/W 
+SOT-23-5, θJC .......................................................... 126℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+2000V 
+CDM 
+............................................................................. 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Voltage Range 
+..................................... 
+2.7V to 36V 
+Operating Temperature Range .................... -40℃ to +125℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+PIN CONFIGURATION 
+ (TOP VIEW) 
+ 
+SOT-23-5 
+ 
+ 
+ 
+ 
+ 
+VCC
+VIN-
+3
+4
+5
+1
+2
+GND
+VIN+
+OUT
+
+High-side Measurement 
+SGM8198 
+Current Shunt Monitor 
+ 
+ 
+3
+AUGUST 2022 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(At TA = -40℃ to +125℃, VCC = 5V, VIN+ = 12V and RL = 1kΩ, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Input Characteristics 
+Full-Scale Sense Voltage 
+ 
+VSENSE = VIN+ - VIN- 
+ 
+100 
+500 
+mV 
+Input Offset Voltage (1) RTI 
+VOS 
+VIN+ = 2.7V to 36V 
+ 
+±30 
+±550 
+μV 
+Input Offset Voltage Drift 
+ΔVOS/ΔT 
+ 
+ 
+1 
+ 
+μV/℃ 
+Input Bias Current 
+IB 
+ 
+ 
+16 
+ 
+μA 
+Input Common Mode Voltage Range 
+VCM 
+ 
+2.7 
+ 
+36 
+V 
+Common Mode Rejection Ratio 
+CMRR 
+VIN+ = 2.7V to 36V, VSENSE = 50mV 
+104 
+140 
+ 
+dB 
+Output Characteristics 
+Transconductance 
+gm 
+VSENSE = 10mV to 150mV 
+990 
+1000 
+1010 
+μA/V 
+Transconductance vs. Temperature 
+Δgm/ΔT 
+VSENSE = 10mV to 150mV 
+ 
+10 
+ 
+nA/V/℃ 
+Nonlinearity Error 
+INL 
+VSENSE = 10mV to 150mV 
+ 
+±0.01 
+±0.13 
+% 
+Total Output Error 
+ 
+VSENSE = 100mV 
+ 
+±0.25 
+±1.8 
+% 
+Output Voltage 
+ 
+Swing to power supply, VCC 
+VCC - 1.85 
+VCC - 1.6 
+ 
+V 
+ 
+Swing to common mode, VCM 
+VCM - 1.25 
+VCM - 1 
+ 
+Power Supply 
+Operating Voltage Range 
+VCC 
+ 
+2.7 
+ 
+36 
+V 
+Quiescent Current 
+IQ 
+VSENSE = 0mV, IOUT = 0A 
+ 
+65 
+90 
+μA 
+Power Supply Rejection Ratio 
+PSRR 
+VCC = 2.7V to 36V, VSENSE = 50mV 
+ 
+0.1 
+5 
+μV/V 
+Frequency Response 
+Bandwidth 
+BW 
+RL = 10kΩ 
+ 
+480 
+ 
+kHz 
+RL = 20kΩ 
+ 
+270 
+ 
+Settling Time to 0.1% 
+ 
+5V step, RL = 10kΩ 
+ 
+15 
+ 
+μs 
+ 
+5V step, RL = 20kΩ 
+ 
+15 
+ 
+Noise 
+Total Output Current Noise 
+ 
+BW = 100kHz 
+ 
+6 
+ 
+nARMS 
+Output Current Noise Density 
+ 
+ 
+ 
+20 
+ 
+pA/
+HZ  
+ 
+NOTE: 
+1. The definition of the VOS is that the value of VSENSE which can make the output voltage of the SGM8198 equal to 0mV. 
+ 
+ 
+ 
+ 
+
+High-side Measurement 
+SGM8198 
+Current Shunt Monitor 
+ 
+ 
+4
+AUGUST 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+At TA = +25℃, VCC = 5V, VIN+ = 12V and RL = 1kΩ, unless otherwise noted. 
+ 
+     Total Output Error vs. Supply Voltage  
+     Quiescent Current vs. Supply Voltage 
+ 
+ 
+     Total Output Error vs. Input Voltage 
+    Gain vs. Frequency 
+ 
+ 
+     CMRR vs. Frequency 
+      PSRR vs. Frequency 
+ 
+ 
+ 
+ 
+-1.5
+-1
+-0.5
+0
+0.5
+1
+0
+5
+10
+15
+20
+25
+30
+35
+40
+Total Output Error (%) 
+Supply Voltage (V) 
+— G = 1 
+— G = 10 
+— G = 25 
+10
+20
+30
+40
+50
+60
+70
+80
+0
+5
+10
+15
+20
+25
+30
+35
+40
+Quiescent Current (μA) 
+Supply Voltage (V) 
+— -55℃ 
+— -40℃ 
+— +25℃ 
+— +125℃ 
+— +150℃ 
+-1
+-0.5
+0
+0.5
+1
+1.5
+0
+25
+50
+75
+100
+125
+150
+175
+200
+Total Output Error (%) 
+Input Voltage (mV) 
+— -40℃ 
+— +25℃ 
+— +125℃ 
+-40
+-20
+0
+20
+40
+60
+0.1
+1
+10
+100
+1000
+10000
+Gain (dB) 
+Frequency (kHz) 
+RL = 1kΩ 
+RL = 10kΩ 
+RL = 100kΩ 
+-140
+-120
+-100
+-80
+-60
+-40
+-20
+0
+0.01
+0.1
+1
+10
+100
+1000
+Common Mode Rejection Ratio (dB) 
+Frequency (kHz) 
+— G= 1 
+— G= 10 
+— G = 100 
+-150
+-120
+-90
+-60
+-30
+0
+0.01
+0.1
+1
+10
+100
+1000
+10000
+Power Supply Rejection Ratio (dB) 
+Frequency (kHz) 
+— G = 1 
+— G = 10 
+— G = 100 
+
+High-side Measurement 
+SGM8198 
+Current Shunt Monitor 
+ 
+ 
+5
+AUGUST 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TA = +25℃, VCC = 5V, VIN+ = 12V and RL = 1kΩ, unless otherwise noted. 
+ 
+ 
+Step Response 
+ 
+ 
+ 
+Step Response 
+ 
+ 
+ 
+ 
+ 
+ 
+1.5V 
+ 
+ 
+ 
+0.5V 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1V 
+ 
+ 
+ 
+0V 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (20μs/div) 
+ 
+ 
+ 
+Time (10μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Step Response 
+ 
+ 
+ 
+Step Response 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1V 
+ 
+ 
+ 
+0V 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2V 
+ 
+ 
+ 
+0V 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (20μs/div) 
+ 
+ 
+ 
+Time (10μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+G = 100 
+G = 50 
+G = 100 
+G = 10 
+
+High-side Measurement 
+SGM8198 
+Current Shunt Monitor 
+ 
+ 
+6
+AUGUST 2022 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAM 
+GND
+2
+OUT
+1
+VCC
+5
+VIN+ 3
+VIN- 4
+ 
+Figure 2. Functional Block Diagram 
+ 
+ 
+FEATURE DESCRIPTION 
+Overview 
+The features of the SGM8198 are high voltage, 
+precision measurement, precision resistors trimmed for 
+meeting the absolute tolerance and the ability of low 
+noise. Also, the SGM8198 can be powered by a single 
+power supply and the input voltage level can exceed the 
+supply voltage level. In addition, the SGM8198 can 
+measure the small sense voltage at a higher common 
+mode voltage level. The Functional Block Diagram 
+illustrates the internal structure of the SGM8198. 
+ 
+Range of Output Voltage 
+The load resistor RL is used to convert the output 
+current into voltage accurately. The maximum output 
+swing of the SGM8198 is limited by the supply voltage, 
+the common mode voltage, and the sense voltage. 
+Bandwidth 
+The value of the load resistor (RL) has a significant 
+effect on the measurement bandwidth. A narrower 
+measurement bandwidth due to high gain is generated 
+by the high RL values. Therefore, the widest possible 
+bandwidth can be obtained when the capacitive load on 
+the output is kept to a minimum. For details of 
+bandwidth reduction due to capacitive load, please 
+refer to Typical Performance Characteristics. 
+As shown in Figure 5, adding a capacitor to the output 
+can achieve the bandwidth limitation (filtering). And this 
+operation will not cause system instability. 
+ 
+Device Functional Modes 
+The device specifications are shown in Electrical 
+Characteristics. For proper operation, the following 
+recommendations 
+should 
+be 
+met 
+for 
+operating 
+SGM8198:  
+ The device should be powered within the voltage 
+range from 2.7V to 36V.  
+ The input common mode voltage range is from 2.7V 
+to 36V.  
+ 
+ 
+
+High-side Measurement 
+SGM8198 
+Current Shunt Monitor 
+ 
+ 
+7
+AUGUST 2022 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+Operation 
+The basic structure of SGM8198 is shown in Figure 3. 
+The measured load current is drawn from the supply 
+voltage of the SGM8198. The internal amplifier forces 
+the current to flow into the drain of the MOSFET (M1). 
+The load resistor RL is used to convert the output 
+current into output voltage. 
+The calculation of IOUT is shown in Equation 1: 
+(
+)
+OUT
+m
+IN+
+IN-
+I
+ = g  
+ V
+ - V
+×
+            (1) 
+where gm = 1000µA/V. 
+The value of IS × RS is equal to (VIN+ - VIN-) and the 
+output voltage is equal to IOUT × RL. The transconductance, 
+gm, is equal to 1000μA/V. The relationship between IS 
+and VOUT is shown in Equation 2: 
+OUT
+S
+S
+L
+V
+ = I  
+ R  
+ (1000μA/V) 
+ R
+×
+×
+×
+      (2) 
+For accuracy measurement, the maximum sense 
+voltage is limited to 0.5V, which can produce 500μA 
+output current for the load. The maximum sense 
+voltage that will not cause damage is 2V. For normal 
+operation, the voltage applied to pin 3 should be 
+greater than pin 4. If the applied voltage at pin 3 is 
+smaller than that of pin 4, the SGM8198 will not be 
+damaged and the output current is equal to 0μA. 
+ 
+ 
+Voltage Gain 
+Exact RL (Ω) 
+Nearest 1% RL (Ω) 
+1 
+1k 
+1k 
+2 
+2k 
+2k 
+5 
+5k 
+4.99k 
+10 
+10k 
+10k 
+20 
+20k 
+20k 
+50 
+50k 
+49k 
+100 
+100k 
+100k 
+ 
+Shunt
+RS
+IS
+Load
+RG1
+1kΩ 
+RG2
+1kΩ 
+5
+GND
+2
+VIN-
+VIN+
+4
+3
+OUT
+RL
+VOUT 
+1
+VP
+Load Power Supply 
+2.7V to 36V
+2.7V ≤ VCC ≤ 36V
+VCC power can be common or 
+independent of load supply. 
+IOUT
+SGM8198
+M1
+VCC
+ 
+ 
+Figure 3. Basic Circuit Connections 
+ 
+ 
+
+High-side Measurement 
+SGM8198 
+Current Shunt Monitor 
+ 
+ 
+8
+AUGUST 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL APPLICATIONS 
+The SGM8198 is available for most applications. The 
+examples are shown from Figure 7 to Figure 10. 
+ 
+Buffering Output to Drive an ADC 
+ 
+RL
+ZIN
+SGM8955
+Use the SGM8955 operational amplifier as 
+a buffer to avoid affecting voltage gain of 
+SGM8198 when driving the ADC.
+IS
+4
+3
+SGM8198
+ 
+Figure 4. Buffering Output to Drive the A/D Converter 
+ 
+Design Requirements 
+Digitize the output of the SGM8198 device using a 
+1MSPS Analog-to-Digital converter (ADC). 
+ 
+Detailed Design Procedure 
+Selecting RS and RL 
+The choice of RS is related to the accuracy of the small 
+input signal and the maximum allowable voltage drop 
+across RS of the measured line. For measuring low 
+current, a larger RS can be taken into account to 
+minimize the effect of the offset voltage and then 
+enhance the accuracy. Lower RS can reduce the 
+voltage loss dramatically in supply line. The best 
+performance of the SGM8198 for the sense voltage 
+should be in the range of 50mV to 100mV, and the 
+maximum allowable sense voltage for accurate 
+measurement is 500mV, which can handle most of the 
+applications.  
+The desired output voltage for the SGM8198 is 
+determined by the value of RL. Because of the high 
+impedance structure of the SGM8198, the device 
+allows the maximum resistance of RL to be 100kΩ. For 
+enhancing the accuracy of the measurement, the input 
+impedance of the external circuitry which is connected to 
+the output of the SGM8198 should be much larger than 
+100kΩ. 
+The Analog-to-Digital converters (ADC) may have the 
+input impedance that will affect the gain of the 
+SGM8198 since it can be paralleled with RL. 
+Alternatively, the buffer should be placed between the 
+ADC and SGM8198. The output impedance of the 
+SGM8198 is significant larger as it is a current source. 
+The load resistor RL is used to convert the load current 
+to the specific desired voltage. The ratio of the value of 
+the load resistor to the internal resistor RG determines 
+the voltage gain of the device. 
+For most of the applications which need to digitize the 
+output of the SGM8198, an ADC is required for 
+completing this requirement. However, for the analog 
+input stage of ADC, there is a dynamic input impedance 
+which can be paralleled with RL and affect the voltage 
+gain of SGM8198. Also, the accuracy of the SGM8198 
+cannot be guaranteed for this situation. To avoid any 
+external impedance which is paralleled with RL, a buffer 
+should be placed between the output of SGM8198 and 
+the analog input of ADC. The SGM8955 is a good 
+choice for the buffer. 
+Figure 4 shows how to digitize the output of SGM8198 
+with an addition buffer. Between the output of the buffer 
+and the input of the ADC, an RC filter can be added.  
+The capacitor should provide any instantaneous 
+current demand for the input stage of ADC. The resistor 
+should be considered to isolate the buffer output from 
+the load capacitor to enhance the stability. The values 
+of the resistor and the capacitor for the filter should be 
+varied for different selections of buffer and ADC. 
+ 
+ 
+ 
+ 
+
+High-side Measurement 
+SGM8198 
+Current Shunt Monitor 
+ 
+ 
+9
+AUGUST 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL APPLICATIONS (Continued) 
+Output Filter 
+ 
+RL
+CL
+VOUT
+f-3dB
+-3dB
+L
+L
+1
+f
+2 R C
+=
+π
+4
+3
+SGM8198
+ 
+ 
+Figure 5. Output Filter 
+ 
+Design Requirements 
+Filter the output of the SGM8198 device. 
+ 
+Detailed Design Procedure 
+Placing a capacitor which is paralleled with the load 
+resistor RL can form an RC filter. First, select a suitable 
+value of RL to achieve the desired voltage gain. Second, 
+select a suitable value of CL to achieve the desired 
+cutoff frequency with the equation shown in Figure 5. 
+Figure 6 illustrates the frequency response for different 
+gain settings with RL. 
+ 
+Application Curve 
+ 
+ 
+Figure 6. Gain vs. Frequency 
+ 
+Offsetting the Output Voltage 
+If the customers need to offset the output voltage away 
+from GND when there is no load current flowing 
+through RS for single power supply, SGMICRO 
+recommends the following two methods, as shown in 
+Figure 7. The voltage divider method is shown in the 
+left hand side. This method can locate the level of 
+output voltage at the center of VR when there is no 
+current flowing through RS. With this method, the gain 
+of the SGM8198 is determined by the parallel 
+combination of R1 and R2 and the offset level is 
+determined by the voltage divider of them. If the 
+customers need a fixed offset level which is not related 
+with its supply voltage, a constant current source can 
+be taken into account. With this method, the gain is 
+determined by RL and the offset voltage is determined 
+by the multiplication product of constant current which 
+is provided by the current source and the load resistor 
+RL. 
+ 
+Gain Set by RL
+Output Offset = (100μA) (RL)
+(independent of VCC)
+b) Using current source.
+Gain Set by R1 || R2
+Output Offset = (VR) R2
+R1 + R2
+a) Using resistor divider.
+1
+VOUT
+R2
+R1
+VR
+4
+3
+SGM8198
+VOUT
+1
+RL
+100μA
+VCC
+4
+3
+SGM8198
+ 
+Figure 7. Offsetting the Output Voltage 
+ 
+ 
+ 
+-40
+-20
+0
+20
+40
+60
+0.1
+1
+10
+100
+1000
+10000
+Gain (dB) 
+Frequency (kHz) 
+RL = 1kΩ 
+RL = 10kΩ 
+RL = 100kΩ 
+
+High-side Measurement 
+SGM8198 
+Current Shunt Monitor 
+ 
+ 
+10
+AUGUST 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL APPLICATIONS (Continued) 
+Bipolar Current Measurement 
+The following circuitry can be taken into account for the 
+applications which needs to measure positive and 
+negative current flowing through the RSH. The two 
+inputs of each SGM8198 are connected at the two 
+sides of RSH together. The comparator can indicate if 
+the current flowing is positive or negative. The 
+magnitude of the output voltage is determined by the 
+resistor which is located between the labeled output 
+and the GND. In this application, the 20V/V gain is 
+generated by the 20kΩ resistor. The two 10kΩ resistors 
+provide a voltage input for the SGM8740. In this 
+example, there is only one SGM8198 can operate at a 
+time as the two SGM8198 measures positive and 
+negative current respectively, so two diodes should be 
+placed at the output of them to prevent the current 
+flowing into the output.
+ 
+VIN+
+VIN-
+GND
+1kΩ 
+1kΩ 
+SGM8198
+OUT
+VIN+
+VIN-
+GND
+1kΩ 
+1kΩ 
+SGM8198
+VCC
+OUT
+10kΩ 
+10kΩ 
+5V
+1N4148
+1N4148
+20kΩ 
+Load 
+Current
+SGM8740
+Sign
+Output
+RSH
+1Ω 
++/-1A
+Load Current
+Bus 
+Voltage
+VCC
+5V
+ 
+ 
+Figure 8. Bipolar Current Measurement 
+ 
+ 
+ 
+
+High-side Measurement 
+SGM8198 
+Current Shunt Monitor 
+ 
+ 
+11
+AUGUST 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL APPLICATIONS (Continued) 
+Bipolar Current Measurement Using a Differential Input of the A/D Converter 
+The SGM8198 can be used with a programmable ADC and the input of the ADC is differential. The application is 
+used to measure the positive and negative current flowing from VCC. The output voltage depends on the polarity of 
+the measured current flowing, one of the outputs of SGM8198 must have a corresponding value and the other one is 
+0V. In this method, the ADC can illustrate the polarity of the current without addition circuitry. 
+ 
+RS
+VCC
+The programmed A/D converter is used for differential mode operation. 
+In this configuration, one of the SGM8198s provides an output voltage 
+while the other has an output voltage of zero.
+SGM58200
+MUX
+PGA
+24-Bit 
+A/D 
+Converter
+5V
+3
+4
+RL
+25kΩ 
+SGM8198
+1
+2
+5V
+SGM8198
+1
+2
+3
+4
+5
+RL
+25kΩ 
+5V
+5
+ 
+ 
+Figure 9. Bipolar Current Measurement Using a Differential Input of the A/D Converter 
+ 
+ 
+ 
+
+High-side Measurement 
+SGM8198 
+Current Shunt Monitor 
+ 
+ 
+12
+AUGUST 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL APPLICATIONS (Continued) 
+Multiplexed Measurement Using Logic Signal for Power 
+The following application is used to measure the multiples loads. The VCC pin of each SGM8198 is powered by the 
+I/O pins of SGM58200, so as to control on or off for multiplexing.  
+ 
+RL
+SGM8198
+SGM8198
+VCC
+VCC
+Other SGM8198s
+1N4148
+SGM58200
+MUX
+PGA
+24-Bit 
+A/D 
+Converter
+Digital I/O 
+of MCU
+5V
+ 
+ 
+Figure 10. Multiplexed Measurement Using Logic Signal for Power 
+ 
+ 
+ 
+Power Supply Recommendations 
+The two input pins can measure the differential voltage accurately though their input common mode voltage which is 
+higher than the supply voltage of the SGM8198. For instance, the two input pins can measure the current from a 
+36V system with 5V power supply voltage. A 0.1μF bypass capacitor should be placed as close as possible to the 
+supply pin. For noisy power supply applications, an additional capacitor will be required. 
+ 
+ 
+ 
+ 
+
+High-side Measurement 
+SGM8198 
+Current Shunt Monitor 
+ 
+ 
+13
+AUGUST 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL APPLICATIONS (Continued) 
+Layout 
+Layout Guidelines 
+The recommendation of PCB layout for SGM8198 is 
+shown in Figure 11. The input pins of SGM8198 should 
+be placed closely to the measured load current to 
+minimize the resistance which is in series with the 
+shunt resistor RS. The output resistor RL is connected 
+between OUT and GND pins. For enhancing the 
+accuracy of the measurement, the operator should 
+measure the voltage at the RL directly. In some 
+high-current systems, the high-current can flow into the 
+ground connections, which may cause inaccuracy. 
+The SGM8198 does not need any bypass capacitors 
+for its stability. However, for noisy power supply, the 
+capacitors are needed and should be placed as close 
+as possible to the power supply pin for rejecting any 
+noise from the power supply. 
+ 
+Layout Example 
+ 
+ 
+ 
+Figure 11. Typical Layout Example 
+ 
+ 
+ 
+ 
+
+High-side Measurement 
+SGM8198 
+Current Shunt Monitor 
+ 
+ 
+14
+AUGUST 2022 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+AUGUST 2022 ‒ REV.A.2 to REV.A.3 
+Page 
+Updated Absolute Maximum Ratings section 
+....................................................................................................................................................... 
+2 
+ 
+JANUARY 2021 ‒ REV.A.1 to REV.A.2 
+Page 
+Updated Absolute Maximum Ratings section 
+....................................................................................................................................................... 
+2 
+ 
+AUGUST 2019 ‒ REV.A to REV.A.1 
+Page 
+Updated Electrical Characteristics section ........................................................................................................................................................... 
+3 
+ 
+Changes from Original (DECEMBER 2018) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00033.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOT-23-5 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+1.050 
+1.250 
+0.041 
+0.049 
+A1 
+0.000 
+0.100 
+0.000 
+0.004 
+A2 
+1.050 
+1.150 
+0.041 
+0.045 
+b 
+0.300 
+0.500 
+0.012 
+0.020 
+c 
+0.100 
+0.200 
+0.004 
+0.008 
+D 
+2.820 
+3.020 
+0.111 
+0.119 
+E 
+1.500 
+1.700 
+0.059 
+0.067 
+E1 
+2.650 
+2.950 
+0.104 
+0.116 
+e 
+0.950 BSC 
+0.037 BSC 
+e1 
+1.900 BSC 
+0.075 BSC 
+L 
+0.300 
+0.600 
+0.012 
+0.024 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+E
+E1
+e
+e1
+b
+D
+A1
+A2
+A
+c
+L
+θ
+0.2
+RECOMMENDED LAND PATTERN (Unit: mm)
+1.90
+2.59
+0.99
+0.69
+0.95
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+SOT-23-5 
+7″ 
+9.5 
+3.20 
+3.20 
+1.40 
+4.0 
+4.0 
+2.0 
+8.0 
+Q3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 

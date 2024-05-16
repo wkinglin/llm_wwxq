@@ -1,0 +1,1417 @@
+ 
+SGM84782 
+4Ω, High Speed, Low Voltage 
+Analog Switch/Multiplexer 
+ 
+ 
+APRIL 2014 –REV. B. 2 
+SG Micro Corp 
+www.sg-micro.com 
+GENERAL DESCRIPTION 
+The SGM84782 is a TTL/CMOS compatible analog 
+multiplexer which consists of two 4-channel multiplexers. 
+It operates from a 1.8V to 4.2V single power supply 
+that can handle rail-to-rail analog signals. 
+The SGM84782 features low voltage, low on-resistance 
+and fast switching times. The high performances 
+make it very suitable for multiple applications, such as 
+cellular phones, audio and video signal routing, etc. 
+The SGM84782 can and is available in Green 
+TQFN-3×3-16L and TSSOP-16 packages. It operates 
+over an ambient temperature range of -40 ℃ to 
++85℃. 
+ 
+ 
+ 
+ 
+ 
+FEATURES 
+ Single Supply Voltage Range: 1.8V to 4.2V 
+ -3dB Bandwidth: 150MHz 
+ Low On-Resistance: 4Ω (TYP) at 4.2V 
+ Low On-Resistance Flatness 
+ Low Crosstalk: -92dB (RL = 50Ω, f = 10MHz) 
+ Fast Switching Times at V+ = 4.2V: 
+tON: 17ns 
+tOFF: 9ns 
+ High Off-Isolation: -40dB (RL = 50Ω, f = 10MHz) 
+ Rail-to-Rail Input and Output Operation 
+ Low Power Consumption 
+ Break-Before-Make Switching 
+ TTL/CMOS Compatible 
+ -40℃ to +85℃ Operating Temperature Range 
+ Available in Green TQFN-3×3-16L and TSSOP-16 
+Packages 
+ 
+ 
+ 
+APPLICATIONS 
+Cellular Phones 
+Portable Equipment 
+Computer Peripherals 
+Sample-and-Hold Circuits 
+Data Acquisition Systems 
+Battery-Powered Systems 
+Audio and Video Signal Routing 
+ 
+ 
+ 
+ 
+
+4Ω, High Speed, Low Voltage 
+SGM84782 
+Analog Switch/Multiplexer 
+ 
+ 
+2 
+APRIL 2014 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM84782 
+TQFN-3×3-16L 
+-40℃ to +85℃ 
+SGM84782YTQ16/TR 
+84782 
+XXXXX 
+Tape and Reel, 3000 
+TSSOP-16 
+-40℃ to +85℃ 
+SGM84782YTS/TR 
+SGM84782 
+YTS 
+XXXXX 
+Tape and Reel, 3000 
+NOTE: XXXXX = Date Code and Vendor Code. 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+V+ to GND 
+.............................................................. 
+0V to 4.6V 
+Analog, Digital Voltage Range ................ -0.3V to (V+) + 0.3V 
+Continuous Current NO, NC, or COM 
+....................... 
+±100mA 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ........................ 
+-65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+MM 
+................................................................................. 
+400V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Supply Voltage Range ........................................ 
+1.8V to 4.2V 
+Operating Temperature Range ....................... 
+-40℃ to +85℃ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed may cause permanent damage 
+to the device. Functional operation of the device at these or 
+any other conditions beyond those indicated in the operational 
+section of the specification is not implied. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged by ESD if you don’t 
+pay attention to ESD protection. SGMICRO recommends that 
+all integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance 
+degradation 
+to 
+complete 
+device 
+failure. 
+Precision integrated circuits may be more susceptible to 
+damage because very small parametric changes could cause 
+the device not to meet its published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, specification or other related things if 
+necessary without notice at any time. 
+ 
+ 
+ 
+
+4Ω, High Speed, Low Voltage 
+SGM84782 
+Analog Switch/Multiplexer 
+ 
+ 
+3 
+APRIL 2014 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+   (TOP VIEW) 
+   (TOP VIEW) 
+ENABLE
+LOGIC
+`
+Y
+Y3
+Y1
+Y2
+Y0
+V+
+X2
+X1
+X
+X0
+X3
+N.C.
+GND
+B
+A
+12
+16
+15
+14
+13
+4
+3
+2
+1
+11
+9
+10
+5
+6
+7
+8
+ 
+B
+GND
+A
+X3
+X0
+X
+X1
+X2
+ENABLE
+LOGIC
+N.C.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+LOGIC
+V+
+Y0
+Y2
+Y
+Y3
+Y1
+16
+15
+14
+13
+12
+11
+10
+ 
+    TQFN-3×3-16L 
+   TSSOP-16 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+TSSOP-16 
+TQFN-3×3-16L 
+1, 5, 2, 4 
+15, 3, 16, 2 
+Y0-Y3 
+Analog Switch Y Inputs Y0-Y3. 
+3 
+1 
+Y 
+Analog Switch Y Output Pin. 
+6 
+4 
+ENABLE  
+Digital Enable Control Pin. Normally connect to GND. Drive to logic high 
+to set all switches off. 
+7 
+5 
+N.C. 
+Not Internally Connected. 
+8 
+6 
+GND 
+Ground. 
+9 
+7 
+B 
+Digital Address B Input Pin. 
+10 
+8 
+A 
+Digital Address A Input Pin. 
+12, 14, 15, 11 
+10, 12, 13, 9 
+X0-X3 
+Analog Switch X Inputs X0-X3. 
+13 
+11 
+X 
+Analog Switch X Output Pin. 
+16 
+14 
+V+ 
+Positive Power Supply Pin. 
+‒ 
+Exposed Pad 
+GND 
+Exposed Pad. Connect exposed pad to GND. 
+ 
+ 
+FUNCTION TABLE 
+CONTROL INPUTS 
+ON SWITCHES 
+ENABLE 
+SELECT 
+B 
+A 
+L 
+L 
+L 
+X-X0     Y-Y0 
+L 
+L 
+H 
+X-X1     Y-Y1 
+L 
+H 
+L 
+X-X2     Y-Y2 
+L 
+H 
+H 
+X-X3     Y-Y3 
+H 
+√ 
+√ 
+All Switches Open 
+√ = Don’t Care. 
+ 
+ 
+ 
+
+4Ω, High Speed, Low Voltage 
+SGM84782 
+Analog Switch/Multiplexer 
+ 
+ 
+4 
+APRIL 2014 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(V+ = 4.2V, GND = 0V, VIH = 1.6V, VIL = 0.6V, Full = -40℃ to +85℃. Typical values are at V+ = 4.2V, TA = +25℃, unless otherwise 
+noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN 
+TYP 
+MAX 
+UNITS 
+ANALOG SWITCH 
+Analog Signal Range 
+VX_, VY_,  
+VX, VY 
+ 
+Full 
+0 
+ 
+V+ 
+V 
+On-Resistance 
+RON 
+V+ = 4.2V, IX_, IY_ = -100mA, 
+VX, VY = 1V, Test Circuit 1 
++25℃ 
+ 
+4 
+5.5 
+Ω 
+Full 
+ 
+ 
+6.5 
+On-Resistance Match Between 
+Channels 
+∆RON 
+V+ = 4.2V, IX_, IY_ = -100mA, 
+VX, VY = 1V, Test Circuit 1 
++25℃ 
+ 
+0.16 
+1 
+Ω 
+Full 
+ 
+ 
+1.5 
+On-Resistance Flatness 
+RFLAT(ON) 
+V+ = 4.2V, IX_, IY_ = -100mA, 
+VX, VY = 1V, 2.5V, Test Circuit 1 
++25℃ 
+ 
+1.6 
+2.2 
+Ω 
+Full 
+ 
+ 
+2.8 
+Source Off Leakage Current 
+IX_(OFF), 
+IY_(OFF) 
+V+ = 4.2V, VX_, VY_ = 3.3V, 0.3V, 
+VX, VY = 0.3V, 3.3V 
+Full 
+ 
+ 
+1 
+μA 
+Channel On Leakage Current 
+IX_(ON), IY_(ON), 
+IX(ON), IY(ON) 
+V+ = 4.2V, VX, VY = 0.3V, 3.3V, 
+VX_, VY_ = 0.3V, 3.3V or floating 
+Full 
+ 
+ 
+1 
+μA 
+DIGITAL INPUTS 
+Input High Voltage 
+VINH 
+ 
+Full 
+1.6 
+ 
+ 
+V 
+Input Low Voltage 
+VINL 
+ 
+Full 
+ 
+ 
+0.5 
+V 
+Input Leakage Current 
+IIN_ 
+VA, VB = VENABLE  = 0V or 4.2V 
+Full 
+ 
+ 
+1 
+μA 
+DYNAMIC CHARACTERISTICS 
+Turn-On Time 
+tON 
+VIN = 1.5V to 0.5V, VX or VY = 2.1V 
+RL = 50Ω, CL = 35pF, Test Circuit 2 
++25℃ 
+ 
+17.0 
+ 
+ns 
+Turn-Off Time 
+tOFF 
++25℃ 
+ 
+9.0 
+ 
+Address Transition Time 
+tTRANS 
+VIN = 4.2V to 0V, VX or VY = 2.1V, 
+RL = 50Ω, CL = 35pF, Test Circuit 3 
++25℃ 
+ 
+17.2 
+ 
+ns 
+Break-Before-Make Time Delay 
+tD 
+VIN = 4.2V to 0V, VX or VY = 2.1V, 
+RL = 50Ω, CL = 35pF, Test Circuit 4 
++25℃ 
+ 
+14.0 
+ 
+ns 
+Charge Injection 
+Q 
+CL = 1nF, Test Circuit 5 
++25℃ 
+ 
+-18 
+ 
+pC 
+Off Isolation 
+OISO 
+Signal = 0dBm, VBIAS = 2.1V, 
+RL = 50Ω, CL = 35pF, 
+Test Circuit 6 
+1MHz 
++25℃ 
+ 
+-60 
+ 
+dB 
+10MHz 
++25℃ 
+ 
+-40 
+ 
+Channel-to-Channel Crosstalk 
+XTALK 
+Signal = 0dBm, VBIAS = 2.1V, 
+RL = 50Ω, CL = 35pF, 
+Test Circuit 6 
+1MHz 
++25℃ 
+ 
+-105 
+ 
+dB 
+10MHz 
++25℃ 
+ 
+-92 
+ 
+-3dB Bandwidth 
+BW 
+Signal = 0dBm, VBIAS = 2.1V, 
+RL = 50Ω, Test Circuit 6 
++25℃ 
+ 
+150 
+ 
+MHz 
+Channel On Capacitance 
+CX_(ON), 
+CY_(ON), CX(ON), 
+CY(ON) 
+ 
++25℃ 
+ 
+51.6 
+ 
+pF 
+POWER REQUIREMENTS 
+Power Supply Range 
+V+ 
+ 
+Full 
+1.8 
+ 
+4.2 
+V 
+Power Supply Current 
+I+ 
+V+ = 4.2V, VA, VB, VENABLE  = 4.2V or 0V 
+Full 
+ 
+ 
+1 
+μA 
+ 
+ 
+
+4Ω, High Speed, Low Voltage 
+SGM84782 
+Analog Switch/Multiplexer 
+ 
+ 
+5 
+APRIL 2014 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(V+ = 2.7V to 3.6V, GND = 0V, VIH = 1.6V, VIL = 0.4V, Full = -40℃ to +85℃. Typical values are at V+ = 3V, TA = +25℃, unless 
+otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN 
+TYP 
+MAX 
+UNITS 
+ANALOG SWITCH 
+Analog Signal Range 
+VX_, VY_,  
+VX, VY 
+ 
+Full 
+0 
+ 
+V+ 
+V 
+On-Resistance 
+RON 
+V+ = 2.7V, IX_, IY_ = -100mA,  
+VX, VY = 1V, Test Circuit 1 
++25℃ 
+ 
+5 
+6 
+Ω 
+Full 
+ 
+ 
+7 
+On-Resistance Match Between 
+Channels 
+∆RON 
+V+ = 2.7V, IX_, IY_ = -100mA,  
+VX, VY = 1V, Test Circuit 1 
++25℃ 
+ 
+0.03 
+1 
+Ω 
+Full 
+ 
+ 
+1.5 
+On-Resistance Flatness 
+RFLAT(ON) 
+V+ = 2.7V, IX_, IY_ = -100mA,  
+VX, VY = 1V, 2.5V, Test Circuit 1 
++25℃ 
+ 
+1.8 
+2.2 
+Ω 
+Full 
+ 
+ 
+2.8 
+Source Off Leakage Current 
+IX_(OFF), 
+IY_(OFF) 
+V+ = 3.6V, VX_, VY_ = 3.3V, 0.3V,  
+VX, VY = 0.3V, 3.3V 
+Full 
+ 
+ 
+1 
+μA 
+Channel On Leakage Current 
+IX_(ON), IY_(ON), 
+IX(ON), IY(ON) 
+V+ = 3.6V, VX, VY = 0.3V, 3.3V, 
+VX_, VY_ = 0.3V, 3.3V or floating 
+Full 
+ 
+ 
+1 
+μA 
+DIGITAL INPUTS 
+Input High Voltage 
+VINH 
+ 
+Full 
+1.5 
+ 
+ 
+V 
+Input Low Voltage 
+VINL 
+ 
+Full 
+ 
+ 
+0.4 
+V 
+Input Leakage Current 
+IIN_ 
+VA, VB = VENABLE  = 0V or 2.7V 
+Full 
+ 
+ 
+1 
+μA 
+DYNAMIC CHARACTERISTICS 
+Turn-On Time 
+tON 
+VIN = 1.5V to 0.5V, VX or VY = 1.5V, 
+RL = 50Ω, CL = 35pF, Test Circuit 2 
++25℃ 
+ 
+33.0 
+ 
+ns 
+Turn-Off Time 
+tOFF 
++25℃ 
+ 
+9.0 
+ 
+Address Transition Time 
+tTRANS 
+VIN = 1.5V to 0V, VX or VY = 1.5V, 
+RL = 50Ω, CL = 35pF, Test Circuit 3 
++25℃ 
+ 
+17.5 
+ 
+ns 
+Break-Before-Make Time Delay 
+tD 
+VIN = 1.5V to 0V, VX or VY = 1.5V, 
+RL = 50Ω, CL = 35pF, Test Circuit 4 
++25℃ 
+ 
+14.5 
+ 
+ns 
+Charge Injection 
+Q 
+CL = 1nF, Test Circuit 5 
++25℃ 
+ 
+-18 
+ 
+pC 
+Off Isolation 
+OISO 
+Signal = 0dBm, VBIAS = 1.5V, 
+RL = 50Ω, CL = 35pF, 
+Test Circuit 6 
+1MHz 
++25℃ 
+ 
+-60 
+ 
+dB 
+10MHz 
++25℃ 
+ 
+-40 
+ 
+Channel-to-Channel Crosstalk 
+XTALK 
+Signal = 0dBm, VBIAS = 1.5V, 
+RL = 50Ω, CL = 35pF, 
+Test Circuit 6 
+1MHz 
++25℃ 
+ 
+-105 
+ 
+dB 
+10MHz 
++25℃ 
+ 
+-92 
+ 
+-3dB Bandwidth 
+BW 
+Signal = 0dBm, VBIAS = 1.5V, 
+RL = 50Ω, Test Circuit 6 
++25℃ 
+ 
+150 
+ 
+MHz 
+Channel On Capacitance 
+CX_(ON), 
+CY_(ON), CX(ON), 
+CY(ON) 
+ 
++25℃ 
+ 
+51.6 
+ 
+pF 
+ 
+ 
+
+4Ω, High Speed, Low Voltage 
+SGM84782 
+Analog Switch/Multiplexer 
+ 
+ 
+6 
+APRIL 2014 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+ 
+ 
+ 
+ 
+ 
+ 
+On Response vs. Frequency
+-9
+-6
+-3
+0
+3
+0.1
+1
+10
+100
+1000
+Frequency (MHz)
+On Response (dB)
+V+ = +4.2V
+TA = +25℃
+On Response vs. Frequency
+-9
+-6
+-3
+0
+3
+0.1
+1
+10
+100
+1000
+Frequency (MHz)
+On Response (dB)
+V+ = +3V
+TA = +25℃
+Response vs. Frequency
+-140
+-120
+-100
+-80
+-60
+-40
+-20
+0
+20
+0.01
+0.1
+1
+10
+100
+1000
+Frequency (MHz)
+On Response (dB)
+V+ = +4.2V
+TA = +25℃
+OFF-ISOLATION
+CROSSTALK
+Response vs. Frequency
+-140
+-120
+-100
+-80
+-60
+-40
+-20
+0
+20
+0.01
+0.1
+1
+10
+100
+1000
+Frequency (MHz)
+On Response (dB)
+V+ = +3V
+TA = +25℃
+OFF-ISOLATION
+CROSSTALK
+
+4Ω, High Speed, Low Voltage 
+SGM84782 
+Analog Switch/Multiplexer 
+ 
+ 
+7 
+APRIL 2014 
+SG Micro Corp 
+www.sg-micro.com 
+TEST CIRCUITS 
+RON = V1/100mA
+X_ or Y_  
+X, Y
+VX_ or VY_
+100mA
+GND
+V1
+ 
+ 
+Test Circuit 1. On-Resistance 
+ 
+ 
+VOUT 
+ENABLE
+X, Y
+V+
+GND
+RL
+CL
+A, B
+VOUT 
+50%
+90%
+50%
+90%
+tOFF 
+tON 
+V+
+0V
+0V
+V+
+X1, X2, X3,
+Y1, Y2, Y3
+X0, Y0
+V+
+tR < 5ns
+tF < 5ns
+V+
+0.1μF
+VENABLE
+VENABLE
+ 
+ 
+Test Circuit 2. Enable Switching Times (tON, tOFF) 
+ 
+ 
+VOUT 
+ENABLE
+X, Y
+VA, VB
+V+
+GND
+RL
+CL
+A, B
+VOUT 
+VA, VB 
+50%
+10%
+50%
+90%
+tTRANS 
+tTRANS 
+V+
+0V
+0V
+V+
+X1, X2, X3,
+Y1, Y2, Y3
+X0, Y0
+V+
+tR < 5ns
+tF < 5ns
+V+
+0.1μF
+ 
+ 
+Test Circuit 3. Address Transition Times (tTRANS) 
+ 
+ 
+ 
+
+4Ω, High Speed, Low Voltage 
+SGM84782 
+Analog Switch/Multiplexer 
+ 
+ 
+8 
+APRIL 2014 
+SG Micro Corp 
+www.sg-micro.com 
+TEST CIRCUITS (continued) 
+ 
+VOUT 
+ENABLE
+X, Y
+VA, VB
+V+
+GND
+RL
+CL
+A, B
+V+
+X0-X3, 
+Y0-Y3
+V+
+VOUT 
+VA, VB 
+50%
+90%
+tD 
+VX, VY
+0V
+0V
+V+
+tR < 5ns
+tF < 5ns
+0.1μF
+ 
+ 
+Test Circuit 4. Break-Before-Make Interval (tD) 
+ 
+ 
+VOUT 
+ΔVOUT 
+V+
+tR < 5ns
+tF < 5ns
+VOUT 
+ENABLE
+X, Y
+VENABLE
+V+
+GND
+CL
+A
+V+
+X_, Y_
+B
+0V
+VENABLE
+Channel
+Selection
+Q = ΔVOUT × CL
+0.1μF
+ 
+ 
+Test Circuit 5. Charge Injection (Q) 
+ 
+ 
+ 
+VOUT 
+Network
+Analyzer
+50Ω
+50Ω
+VIN 
+ENABLE
+X_, Y_
+V+
+GND
+A
+X, Y
+B
+V+
+10nF
+Channel
+Selection
+Off Isolation = 20log (VOUT/VIN) (Measured between X and "OFF" X_ Terminal on Each Switch)
+Channel-to-Channel Crosstalk = 20log (VOUT/VIN) (Measured from One Channel (X, Y) to All other Channels)  
+ 
+Test Circuit 6. -3dB Bandwidth, Off Isolation and Crosstalk 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00020.001 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TSSOP-16 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+ 
+1.200 
+ 
+0.047 
+A1 
+0.050 
+0.150 
+0.002 
+0.006 
+A2 
+0.800 
+1.050 
+0.031 
+0.041 
+b 
+0.190 
+0.300 
+0.007 
+0.012 
+c 
+0.090 
+0.200 
+0.004 
+0.008 
+D 
+4.860 
+5.100 
+0.191 
+0.201 
+E 
+4.300 
+4.500 
+0.169 
+0.177 
+E1 
+6.200 
+6.600 
+0.244 
+0.260 
+e 
+0.650 BSC 
+0.026 BSC 
+L 
+0.500 
+0.700 
+0.02 
+0.028 
+H 
+0.25 TYP 
+0.01 TYP 
+θ 
+1° 
+7° 
+1° 
+7° 
+ 
+ 
+ 
+E1
+E
+b
+e
+A
+A2
+A1
+c
+θ
+L
+H
+D
+1.78
+0.42
+0.65
+5.94
+RECOMMENDED LAND PATTERN (Unit: mm)
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00081.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TQFN-3×3-16L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.700 
+0.800 
+0.028 
+0.031 
+A1 
+0.000 
+0.050 
+0.000 
+0.002 
+A2 
+0.203 REF 
+0.008 REF 
+D 
+2.900 
+3.100 
+0.114 
+0.122 
+D1 
+1.600 
+1.800 
+0.063 
+0.071 
+E 
+2.900 
+3.100 
+0.114 
+0.122 
+E1 
+1.600 
+1.800 
+0.063 
+0.071 
+k 
+0.200 MIN 
+0.008 MIN 
+b 
+0.180 
+0.300 
+0.007 
+0.012 
+e 
+0.500 TYP 
+0.020 TYP 
+L 
+0.300 
+0.500 
+0.012 
+0.020 
+ 
+ 
+ 
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+A
+A2
+A1
+e
+E1
+b
+L
+k
+D1
+D
+E
+N1
+N5
+N16
+1.7
+1.7
+0.7
+2.2
+3.6
+0.5
+0.24
+RECOMMENDED LAND PATTERN (Unit: mm)
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TQFN-3×3-16L 
+13″ 
+12.4 
+3.35 
+3.35 
+1.13 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+TSSOP-16 
+13″ 
+12.4 
+6.90 
+5.60 
+1.20 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 
+ 
+ 

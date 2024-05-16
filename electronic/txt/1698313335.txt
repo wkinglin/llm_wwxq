@@ -1,0 +1,994 @@
+ 
+ 
+SGM6330 
+3A, 18V, 385kHz Buck Converter 
+ 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+OCTOBER2023–REV. B 
+GENERAL DESCRIPTION 
+The SGM6330 is a current-mode Buck regulator with 
+an internal power MOSFET. It can operate at an input 
+voltage from 4.5V to 18V with 0.8V to 15V adjustable 
+output. A fixed 385kHz switching frequency helps the 
+device to provide fast transient response. It also offers 
+a 3A continuous output current and a peak efficiency of 
+94% with excellent load and line regulations. 
+In off mode, the voltage regulator's supply current is 
+less than 18µA. This device also equips the 
+under-voltage lockout (UVLO), cycle-by-cycle current 
+limit and thermal shutdown features. The internal 
+soft-start function and the external adjustable soft-start 
+function help the device to limit the inrush current and 
+prevent output voltage overshooting. 
+The SGM6330 is available in a Green SOIC-8 
+(Exposed Pad) package. It operates over an ambient 
+temperature range of -40℃ to +85℃. 
+ 
+ 
+FEATURES 
+● 4.5V to 18V Input Voltage Range 
+● 0.8V to 15V Adjustable Output  
+● 3A Output Current 
+● Up to 94% High Efficiency  
+● Fixed 385kHz Switching Frequency 
+● Less than 18µA Shutdown Supply Current 
+● 100mΩ Internal Power MOSFET Switch 
+● Under-Voltage Lockout (UVLO) 
+● Thermal Shutdown Protection 
+● Stable with Low ESR Ceramic Capacitors  
+● -40℃ to +85℃ Operating Temperature Range 
+● Available in a Green SOIC-8 (Exposed Pad) Package 
+ 
+APPLICATIONS 
+Distributed Power Systems 
+Battery Chargers 
+Flat Panel TVs and Set-Top Boxes 
+DVD, PVR  
+Pre-Regulator for Linear Regulators 
+ 
+TYPICAL APPLICATION 
+IN
+BS
+SW
+FB
+COMP
+GND
+SS
+EN
+SGM6330
+C5
+10nF
+VIN
+4.5V to 18V
+Enable
+VOUT
+3.3V/3A
+C4
+0.1μF
+R3
+6.49kΩ
+R2
+10.5kΩ
+R1
+33kΩ
+L
+10μH
+C3
+5.6nF
+CIN
+22μF
+Ceramic Cap 
+Recommende
+d
+COUT
+47μF
+C6
+Optional
+D1
+B340A
+R4
+10Ω or shorted
+ 
+ 
+Figure 1. Typical Application Circuit
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+SGM6330 
+3A, 18V, 385kHz Buck Converter 
+ 
+ 
+2 
+OCTOBER 2023
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM6330 
+SOIC-8 
+(Exposed Pad) 
+-40°C to +85°C 
+SGM6330YPS8G/TR 
+SGM 
+6330YPS8 
+XXXXX 
+Tape and Reel, 2500 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code. 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Supply Voltage, VIN. 
+........................................... -0.3V to 20V 
+SW Voltage, VSW 
+....................................... 
+-0.5V to VIN + 0.3V 
+Boost Voltage, VBS 
+............................. 
+VSW - 0.3V to VSW + 6V 
+All Other Pins 
+....................................................... -0.3V to 6V 
+Package Thermal Resistance 
+SOIC-8 (Exposed Pad), θJA ....................................... 50℃/W 
+Junction Temperature ................................................. 
++150℃ 
+Storage Temperature Range 
+........................ -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+CDM .............................................................................. 
+250V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Ambient Temperature Range......... -40℃ to +85℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+
+ 
+SGM6330 
+3A, 18V, 385kHz Buck Converter 
+ 
+ 
+3 
+OCTOBER 2023
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+(TOP VIEW) 
+3
+1
+2
+GND
+BS
+SW
+4
+6
+8
+7
+5
+IN
+FB
+SS
+COMP
+EN
+GND
+ 
+SOIC-8 (Exposed Pad) 
+ 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1 
+BS 
+High-side Gate Drive Boost Input. This pin powers the driver for the high-side N-Channel MOSFET 
+switch. A 10nF or greater capacitor is placed between SW and BS to supply the high-side switch. 
+Connect a 10Ω resistor from SW to BS to reduce SW spike voltage. 
+2 
+IN 
+Power Input. Bypass this pin to GND with a large enough capacitor to reduce the noise. 
+3 
+SW 
+Switching Output. Connect the output LC filter from SW to the output load. A capacitor between SW 
+and BS is required to power the high-side switch. 
+4 
+GND 
+Ground.  
+5 
+FB 
+Feedback Input. The voltage at this pin is programmed to 0.8V. A resistor divider is used and put 
+between the output and ground to set output voltage. 
+6 
+COMP 
+Compensation Node. The RC network in series from COMP to GND compensates regulating control 
+loop. In some cases, an additional capacitor from COMP to GND is used. 
+7 
+EN 
+Enable Input. Pull EN high to enable the device, and pull EN low to disable it. When the device is 
+turned off, the output voltage is disabled. In automatic startup condition, EN pin is left unconnected. 
+8 
+SS 
+Soft-Start Control Input. A capacitor is placed between SS to GND to set the soft-start period. A 0.1µF 
+capacitor programs the soft-start period to 10ms. If disable this feature, leave SS unconnected. 
+Exposed 
+Pad 
+GND 
+Power Ground Exposed Pad.  
+ 
+ 
+ 
+
+ 
+SGM6330 
+3A, 18V, 385kHz Buck Converter 
+ 
+ 
+4 
+OCTOBER 2023
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VIN = 2.7V to 5.5V, VOUT = 9V. Full = -40℃ to +85℃, typical values are at TJ = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Input Voltage Range 
+VIN 
+ 
+4.5 
+ 
+18 
+V 
+Feedback Voltage 
+VFB 
+ 
+0.776 
+0.8 
+0.824 
+V 
+Shutdown Supply Current 
+ISHDN 
+VEN = 0V 
+ 
+10 
+18 
+μA 
+Quiescent Supply Current 
+IQ 
+VEN = 2.6V, VFB = 1V 
+ 
+0.8 
+1.7 
+mA 
+High-side Switch (M1) On-Resistance 
+RONH 
+ 
+ 
+100 
+ 
+mΩ 
+Low-side Switch (M2) On-Resistance 
+RONL 
+ 
+ 
+10 
+ 
+Ω 
+Error Amplifier Transconductance 
+GEA 
+∆VFB = ±12.5mV 
+500 
+800 
+1120 
+μA/V 
+Error Amplifier Voltage Gain 
+AEA 
+ 
+ 
+10000 
+ 
+V/V 
+SW Leakage Current 
+ILSW 
+VEN = 0V, VSW = 0V 
+ 
+ 
+1 
+μA 
+Current Limit 
+ILIM 
+ 
+ 
+4.2 
+ 
+A 
+Current Sense to COMP  
+Transconductance 
+GCS 
+ 
+ 
+6.2 
+ 
+A/V 
+Maximum Duty Cycle 
+DMAX 
+VFB = 0.6V 
+ 
+90 
+ 
+% 
+Minimum Duty Cycle 
+DMIN 
+VFB = 1V 
+ 
+0 
+ 
+% 
+EN Threshold Voltage  
+VIH 
+ 
+1.2 
+ 
+ 
+V 
+EN Threshold Voltage 
+VIL 
+ 
+ 
+ 
+0.4 
+V 
+EN Pull-Up Current 
+ 
+VEN = 0V 
+0.8 
+1.4 
+2 
+μA 
+Oscillator Frequency 
+fS 
+ 
+335 
+385 
+435 
+kHz 
+Short-Circuit Oscillator Frequency 
+ 
+VFB = 0V 
+25 
+38 
+60 
+kHz 
+Under-Voltage Lockout Threshold 
+ 
+VIN Rising 
+3.5 
+3.8 
+4.2 
+V 
+Under-Voltage Lockout Threshold 
+Hysteresis 
+ 
+ 
+ 
+230 
+ 
+mV 
+Soft-Start Period 
+ 
+CSS = 0.1μF 
+ 
+10 
+ 
+ms 
+Thermal Shutdown Temperature 
+TSHDN 
+ 
+ 
+160 
+ 
+℃ 
+ 
+ 
+
+ 
+SGM6330 
+3A, 18V, 385kHz Buck Converter 
+ 
+ 
+5 
+OCTOBER 2023
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS  
+At TJ = +25℃, VIN = 3.6V, VOUT = 9V, unless otherwise noted. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+IL 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Efficiency vs. Load Current
+30
+40
+50
+60
+70
+80
+90
+100
+0
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+Load Current (A)
+Efficiency (%)
+VIN = 5V
+VOUT =3.3V
+L = 10μH
+VIN = 12V
+ 
+Efficiency vs. Load Current
+30
+40
+50
+60
+70
+80
+90
+100
+0
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+Load Current (A)
+Efficiency (%)
+VIN = 9V
+VOUT = 5V
+L = 10μH
+VIN = 12V
+ 
+ 
+ 
+ 
+Switching Waveforms 
+1A/div 10mV/div 100mV/div 10V/div 
+ 
+IL 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+VIN 
+ 
+Time (2μs/div) 
+VIN = 12V, VOUT = 3.3V, RLOAD = 2Ω 
+ 
+Load Transient Response 
+VOUT 
+ 
+ 100mV/div     1A/div 
+ 
+Time (200μs/div) 
+VIN = 12V, VOUT = 3.3V, 1A to 2A Step 
+Turn-Off Waveforms 
+1V/div       1A/div 
+ 
+Time (100μs/div) 
+VOUT 
+ 
+ 
+ 
+ 
+IL 
+VIN = 12V, VOUT = 3.3V, RLOAD = 2Ω 
+ 
+Soft-Start Waveforms 
+1V/div             1A/div 
+Time (4ms/div) 
+VIN = 12V, VOUT = 3.3V, RLOAD = 2Ω 
+
+ 
+SGM6330 
+3A, 18V, 385kHz Buck Converter 
+ 
+ 
+6 
+OCTOBER 2023
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TJ = +25℃, VIN = 3.6V, VOUT = 9V, unless otherwise noted. 
+ 
+ 
+ 
+Feedback Voltage vs. Temperature
+0.77
+0.78
+0.79
+0.80
+0.81
+0.82
+0.83
+-50
+-25
+0
+25
+50
+75
+100
+Temperature (℃)
+Feedback Voltage (V)
+ 
+Oscillator Frequency vs. Temperature
+320
+340
+360
+380
+400
+420
+-50
+-25
+0
+25
+50
+75
+100
+Temperature (℃)
+Oscillator Frequency (kHz)
+ 
+Peak Current Limit vs. Temperature
+3.5
+3.7
+3.9
+4.1
+4.3
+4.5
+-50
+-25
+0
+25
+50
+75
+100
+Temperature (℃)
+Peak Current Limit (A)
+ 
+ 
+ 
+ 
+ 
+
+ 
+SGM6330 
+3A, 18V, 385kHz Buck Converter 
+ 
+ 
+7 
+OCTOBER 2023
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+OCTOBER 2023 ‒ REV.A.4 to REV.B 
+Page 
+Updated GENERAL DESCRIPTION section 
+........................................................................................................................................................ 
+1 
+ 
+JULY 2015 ‒ REV.A.3 to REV.A.4 
+Page 
+Changed TYPICAL APPLICATION and Input Capacitor .................................................................................................................................. 1, 8 
+ 
+JULY 2014 ‒ REV.A.2 to REV.A.3 
+Page 
+Added a 10Ω resistor between SW and BS pin in application circuit .......................................................................................................... 1, 3, 10 
+ 
+APRIL 2014 ‒ REV.A.1 to REV.A.2 
+Page 
+Changed shutdown supply current and electrical characteristics...................................................................................................................... 1, 4 
+ 
+JANUARY 2013 ‒ REV.A to REV.A.1 
+Page 
+Updated the Soft-Start Section ............................................................................................................................................................................ 7 
+ 
+Changes from Original (NOVEMBER 2012) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00013.003 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOIC-8 (Exposed Pad) 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+ 
+ 
+1.700 
+A1 
+0.000 
+- 
+0.150 
+A2 
+1.250 
+- 
+1.650 
+b 
+0.330 
+- 
+0.510 
+c 
+0.170 
+- 
+0.250 
+D 
+4.700 
+- 
+5.100 
+D1 
+3.020 
+- 
+3.420 
+E 
+3.800 
+- 
+4.000 
+E1 
+5.800 
+- 
+6.200 
+E2 
+2.130 
+- 
+2.530 
+e 
+1.27 BSC 
+L 
+0.400 
+- 
+1.270 
+θ 
+0° 
+- 
+8° 
+ccc 
+0.100 
+ 
+NOTES: 
+1. This drawing is subject to change without notice. 
+2. The dimensions do not include mold flashes, protrusions or gate burrs. 
+3. Reference JEDEC MS-012. 
+ 
+ 
+D
+E
+E1
+e
+b
+A2
+A1
+c
+L
+θ
+E2
+D1
+3.22
+2.33
+0.61
+1.27
+1.91
+5.56
+RECOMMENDED LAND PATTERN (Unit: mm)
+ccc C
+SEATING PLANE
+C
+A
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+SOIC-8 
+(Exposed Pad) 
+13″ 
+12.4 
+6.4 
+5.4 
+2.1 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

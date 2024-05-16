@@ -1,0 +1,874 @@
+ 
+SGM12033A 
+0.4GHz to 5.8GHz, 3P3T Switch 
+with MIPI RFFE Interface 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+NOVEMBER 2022 – REV.A 
+ 
+GENERAL DESCRIPTION 
+The SGM12033A is a three-pole/three-throw (3P3T) 
+addressable switch, which supports a wide operating 
+frequency from 0.4GHz to 5.8GHz. The device provides 
+low insertion loss and high isolation performance. 
+These specifications make the device appropriate for 
+2G/3G/4G/5G applications, which need high power 
+processing and high linearity. 
+The device has the ability to integrate serial control 
+system compatible with RFFE standard. Internal driver 
+and decoder for switch control signals are offered by 
+the controller, which makes it flexible in RF path routing 
+and bands selection. 
+No external DC blocking capacitors required on the RF 
+paths as long as no external DC voltage is applied, 
+which can save PCB area and cost. 
+The SGM12033A is available in a Green ULGA-2×2-16AL 
+package. 
+ 
+APPLICATIONS 
+Antenna Swapping 
+5G SRS Applications 
+ 
+FEATURES 
+● Operating Frequency Range: 0.4GHz to 5.8GHz 
+● Low Insertion Loss 
+● Input 0.1dB Compression Point: 38dBm 
+● High Isolation 
+● MIPI RFFE V2.1 Interface Compatible 
+● No External DC Blocking Capacitors Required 
+● Available in a Green ULGA-2×2-16AL Package  
+ 
+BLOCK DIAGRAM 
+MIPI RFFE Interface
+RFIN3
+RFOUT1
+RFOUT2
+VIO
+SDA
+USID
+SCL
+RFIN2
+RFIN1
+RFOUT3
+ 
+ 
+Figure 1. SGM12033A Block Diagram 
+ 
+ 
+ 
+ 
+ 
+ 
+
+0.4GHz to 5.8GHz, 3P3T Switch 
+SGM12033A 
+with MIPI RFFE Interface 
+ 
+ 
+ 
+2 
+NOVEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM12033A 
+ULGA-2×2-16AL 
+-40℃ to +85℃ 
+SGM12033AYULR16G/TR 
+GJN 
+XXXX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XXXX = Date Code, Trace Code and Vendor Code. 
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Supply Voltage, VIO 
+......................................................... 
+2.5V 
+SDA, SCL and USID Control Voltage 
+.............................. 
+2.5V 
+RF Input Power, PIN .................................................... 
+38dBm 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -55℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+2000V 
+CDM ............................................................................ 
+2000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Temperature Range ...................... -40℃ to +85℃ 
+Operating Frequency Range 
+..................... 0.4GHz to 5.8GHz 
+Supply Voltage, VIO 
+.......................................... 
+1.65V to1.95V 
+SDA, SCL High Voltage 
+............................... (0.8 × VIO) to VIO 
+SDA, SCL Low Voltage 
+................................. 
+0V to (0.2 × VIO) 
+USID Control Voltage .............................................. 0V to VIO 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+Y Y Y  
+Serial Number
+
+0.4GHz to 5.8GHz, 3P3T Switch 
+SGM12033A 
+with MIPI RFFE Interface 
+ 
+ 
+ 
+3 
+NOVEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+(TOP VIEW) 
+ 
+ULGA-2×2-16AL 
+ 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1, 3, 11, 13, 15 
+GND 
+Ground. 
+2 
+RFIN2 
+RFIN Port 2. 
+4 
+RFIN1 
+RFIN Port 1. 
+5 
+NC 
+No Connection. 
+6 
+VIO 
+Supply Voltage. 
+7 
+SDA 
+RFFE Data Signal. 
+8 
+SCL 
+RFFE Clock Signal. 
+9 
+USID 
+RFFE USID Select Pin. 
+10 
+RFOUT1 
+RFOUT Port 1. 
+12 
+RFOUT2 
+RFOUT Port 2. 
+14 
+RFOUT3 
+RFOUT Port 3. 
+16 
+RFIN3 
+RFIN Port 3. 
+Exposed Pad 
+GND 
+Ground. 
+ 
+ 
+ 
+GND
+RFIN2
+GND
+USID
+VIO
+SDA
+SCL
+RFOUT1
+GND
+RFOUT3
+RFIN3
+GND
+3
+7
+6
+5
+15
+13
+4
+14
+11
+12
+10
+1
+2
+8
+16
+9
+RFIN1
+NC
+RFOUT2
+GND
+GND
+
+0.4GHz to 5.8GHz, 3P3T Switch 
+SGM12033A 
+with MIPI RFFE Interface 
+ 
+ 
+ 
+4 
+NOVEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+Register_0 TRUTH TABLE 
+Table 1. Register_0 Truth Table 
+State 
+Mode 
+Register_0 Bits 
+D7 
+D6 
+D5 
+D4 
+D3 
+D2 
+D1 
+D0 
+1 
+RFIN1 Isolation 
+x 
+x 
+x 
+x 
+x 
+0 
+0 
+0 
+2 
+RFIN1 to RFOUT1 
+x 
+x 
+x 
+x 
+x 
+0 
+0 
+1 
+3 
+RFIN1 to RFOUT2 
+x 
+x 
+x 
+x 
+x 
+0 
+1 
+0 
+4 
+RFIN1 to RFOUT3 
+x 
+x 
+x 
+x 
+x 
+0 
+1 
+1 
+5 
+RFIN2 Isolation 
+x 
+x 
+0 
+0 
+0 
+x 
+x 
+x 
+6 
+RFIN2 to RFOUT1 
+x 
+x 
+0 
+0 
+1 
+x 
+x 
+x 
+7 
+RFIN2 to RFOUT2 
+x 
+x 
+0 
+1 
+0 
+x 
+x 
+x 
+8 
+RFIN2 to RFOUT3 
+x 
+x 
+0 
+1 
+1 
+x 
+x 
+x 
+ 
+Register_1 TRUTH TABLE 
+Table 2. Register_1 Truth Table 
+State 
+Mode 
+Register_1 Bits 
+D7 
+D6 
+D5 
+D4 
+D3 
+D2 
+D1 
+D0 
+1 
+RFIN3 Isolation 
+x 
+x 
+x 
+x 
+x 
+0 
+0 
+0 
+2 
+RFIN3 to RFOUT1 
+x 
+x 
+x 
+x 
+x 
+0 
+0 
+1 
+3 
+RFIN3 to RFOUT2 
+x 
+x 
+x 
+x 
+x 
+0 
+1 
+0 
+4 
+RFIN3 to RFOUT3 
+x 
+x 
+x 
+x 
+x 
+0 
+1 
+1 
+ 
+NOTE: x = Either 0 or 1. 
+ 
+ 
+
+0.4GHz to 5.8GHz, 3P3T Switch 
+SGM12033A 
+with MIPI RFFE Interface 
+ 
+ 
+ 
+5 
+NOVEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(TA = +25℃, VIO = 1.65V to 1.95V, typical values are at VIO = 1.8V, VIH = 1.8V, VIL = 0V, PIN = 0dBm, VSWR = 1:1, unless otherwise 
+noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+DC Characteristics 
+Supply Voltage 
+VIO 
+ 
+1.65 
+1.8 
+1.95 
+V 
+Supply Current 
+IVIO 
+ 
+ 
+100 
+160 
+μA 
+Turn-On Time  
+tON 
+50% VDD to 90% RF 
+ 
+ 
+10 
+μs 
+RF Path Switching Time  
+(One on Path to Another)  
+tSW  
+Switching CMD 50% SCL to 90%/10% RF 
+ 
+0.5 
+2.2 
+μs 
+Wake Up Time  
+tWK 
+End of low power state 50% SCL to 90% RF 
+ 
+ 
+10 
+μs 
+VIO Reset Time  
+tRST  
+VIO off to it starts to re-power up 
+10 
+ 
+ 
+μs 
+RF Characteristics 
+Insertion Loss 
+(RFINx to RFOUTx)  
+IL 
+f0 = 0.4GHz to 1.0GHz  
+ 
+0.65 
+0.90 
+dB 
+f0 = 1.0GHz to 2.0GHz  
+ 
+0.67 
+1.00 
+f0 = 2.0GHz to 2.7GHz  
+ 
+0.72 
+1.10 
+f0 = 3.0GHz to 3.8GHz  
+ 
+0.78 
+1.20 
+f0 = 4.8GHz to 5.8GHz  
+ 
+1.04 
+1.60 
+Isolation 
+(RFINx to RFOUTx) 
+ISO 
+f0 = 0.4GHz to 1.0GHz  
+35 
+49 
+ 
+dB 
+f0 = 1.0GHz to 2.0GHz  
+30 
+44 
+ 
+f0 = 2.0GHz to 2.7GHz  
+26 
+41 
+ 
+f0 = 3.0GHz to 3.8GHz  
+20 
+37 
+ 
+f0 = 4.8GHz to 5.8GHz  
+17 
+31 
+ 
+Input Return Loss  
+(RFINx to RFOUTx) 
+RL 
+f0 = 0.4GHz to 1.0GHz  
+ 
+26 
+ 
+dB 
+f0 = 1.0GHz to 2.0GHz  
+ 
+22 
+ 
+f0 = 2.0GHz to 2.7GHz  
+ 
+21 
+ 
+f0 = 3.0GHz to 3.8GHz  
+ 
+18 
+ 
+f0 = 4.8GHz to 5.8GHz  
+ 
+10 
+ 
+Input 0.1dB Compression Point  
+(RFINx to RFOUTx) 
+P0.1dB 
+f0 = 0.4GHz to 2.7GHz, CW 
+ 
+38 
+ 
+dBm 
+f0 = 3.0GHz to 5.8GHz, CW 
+ 
+36 
+ 
+2nd Harmonic 
+2f0 
+f0 = 900MHz at 35dBm  
+ 
+-51 
+ 
+dBm 
+3rd Harmonic 
+3f0 
+ 
+-41 
+ 
+dBm 
+2nd Harmonic 
+2f0 
+f0 = 1900MHz at 33dBm  
+ 
+-63 
+ 
+dBm 
+3rd Harmonic 
+3f0 
+ 
+-59 
+ 
+dBm 
+2nd Harmonic 
+2f0 
+f0 = 950MHz at 25dBm  
+ 
+-72 
+ 
+dBm 
+3rd Harmonic 
+3f0 
+ 
+-65 
+ 
+dBm 
+ 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00274.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+ULGA-2×2-16AL 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.510 
+0.550 
+0.590 
+A1 
+0.170 REF 
+A2 
+0.380 REF 
+b 
+0.150 
+0.200 
+0.250 
+D 
+1.950 
+2.000 
+2.050 
+E 
+1.950 
+2.000 
+2.050 
+D1 
+0.900 
+1.000 
+1.100 
+E1 
+0.900 
+1.000 
+1.100 
+e 
+0.400 BSC 
+L 
+0.150 
+0.200 
+0.250 
+k 
+0.200 TYP 
+eee 
+- 
+0.080 
+- 
+ 
+NOTE: This drawing is subject to change without notice.
+ 
+PIN 1#
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+RECOMMENDED LAND PATTERN (Unit: mm)
+D
+E
+b
+L
+e
+e
+D1
+E1
+k
+k
+0.20
+0.20
+0.40
+0.40
+1.80
+1.80
+A1
+A2
+A
+1.00
+1.00
+SEATING PLANE
+eee C
+C
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1 
+Quadrant 
+DD0001 
+ 
+ 
+ULGA-2×2-16AL 
+7″ 
+9.5 
+2.25 
+2.25 
+0.75 
+4.0 
+4.0 
+2.0 
+8.0 
+Q2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 

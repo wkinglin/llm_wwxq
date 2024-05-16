@@ -1,0 +1,1018 @@
+ 
+SGM3142 
+6-Channel Charge Pump White LED 
+Driver with Low Dropout Current Source 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+JANUARY2013–REV.A.2 
+GENERAL DESCRIPTION 
+The SGM3142 is a current-regulated white LED driver 
+with integrated low dropout current sources and a high 
+efficiency charge pump. The charge pump has an 
+automatically selectable 1×/1.5× fractional operation 
+mode. The SGM3142 is well suited for white LED 
+applications powered by a Li-Ion battery due to small 
+equivalent open-loop resistance in 1× mode. The 
+supply voltage operates from 2.7V to 5.5V. 
+The SGM3142 contains a 4-bit digital-to-analog 
+converter for 16-step LED current control. The LED 
+current can be set between 1.25mA and 20mA by a 
+serial pulse input signal into the EN/SET pin. Built-in 
+soft-start circuitry avoids excessive inrush current 
+during startup and mode transition. 
+The SGM3142 is available in a Green TQFN-4×4-16L 
+package. It is specified over an ambient temperature 
+range of -40℃ to +85℃. 
+FEATURES 
+● Input Voltage Range: 2.7V to 5.5V 
+● Support up to 6 LEDs at 20mA Each 
+● 16-Step LED Brightness Control through One-Wire 
+Interface 
+● 1× and 1.5× Charge Pump for High Conversion 
+Efficiency 
+● Automatic Charge Pump Mode Conversion 
+● Switching Frequency: 1MHz 
+● 1% Regulated LED Current Matching 
+● Built-in Soft-Start for Reducing Inrush Current 
+● Low Noise and Low EMI 
+● Protection Features 
+ Over-Current Protection 
+ Under-Voltage Lockout 
+ Thermal Shutdown 
+● Operating Temperature Range: -40℃ to +85℃ 
+● Available in Green TQFN-4×4-16L Package 
+ 
+ 
+APPLICATIONS 
+White LED Backlighting 
+Color (RGB) Lighting 
+Digital Still Cameras 
+ 
+ 
+ 
+
+6-Channel Charge Pump White LED Driver 
+SGM3142 
+with Low Dropout Current Source 
+ 
+ 
+2 
+JANUARY 2013 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM3142 
+TQFN-4×4-16L 
+-40℃ to +85℃ 
+SGM3142YTQE16G/TR 
+SGM3142 
+YTQE16 
+XXXXX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code and Vendor Code. 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+VIN to GND 
+....................................................... -0.3V to 6.0V 
+The Other Pins to GND 
+..................................... -0.3V to 6.0V 
+Package Thermal Resistance 
+TQFN-4×4-16L, θJA 
+.................................................... 50℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+2000V 
+MM 
+................................................................................. 
+300V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Temperature Range ....................... 
+-40℃ to +85℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+
+6-Channel Charge Pump White LED Driver 
+SGM3142 
+with Low Dropout Current Source 
+ 
+ 
+3 
+JANUARY 2013 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+ (TOP VIEW) 
+C2P
+VOUT
+C2N
+GND
+10
+VIN
+LED4
+5
+6
+7
+8
+2
+3
+4
+1
+9
+11
+12
+13
+14
+15
+16
+C1P
+C1N
+NC
+NC
+EN/
+SET
+LED1
+LED5
+LED2
+LED3
+LED6
+GND
+ 
+TQFN-4×4-16L 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1 
+LED2 
+Current Source 2. 
+2 
+LED5 
+Current Source 5. 
+3 
+LED6 
+Current Source 6. 
+4 
+LED3 
+Current Source 3. 
+5 
+LED4 
+Current Source 4. 
+6 
+C1P 
+Positive Terminal of the Flying Capacitor 1. Connect a 1μF ceramic capacitor close to the device. 
+7 
+C1N 
+Negative Terminal of the Flying Capacitor 1. Connect a 1μF ceramic capacitor close to the device. 
+8, 13 
+NC 
+No Connection. 
+9 
+VOUT 
+Output Voltage Source. 
+10 
+C2P 
+Positive Terminal of the Flying Capacitor 2. Connect a 1μF ceramic capacitor close to the device. 
+11 
+C2N 
+Negative Terminal of the Flying Capacitor 2. Connect a 1μF ceramic capacitor close to the device. 
+12 
+GND 
+Ground Pin. 
+14 
+VIN 
+Input Supply Pin. 
+15 
+EN/SET Active-High Enable Pin and Dimming Control. 
+16 
+LED1 
+Current Source 1. 
+Exposed Pad 
+GND 
+Exposed Pad. It should be soldered to PCB board and connected to GND. 
+ 
+ 
+ 
+
+6-Channel Charge Pump White LED Driver 
+SGM3142 
+with Low Dropout Current Source 
+ 
+ 
+4 
+JANUARY 2013 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VIN = 2.7V to 5.5V, CIN = COUT = C1 = C2 = 1μF, TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Input Power Supply 
+Input Supply Voltage 
+VIN 
+ 
+2.7 
+ 
+5.5 
+V 
+Under-Voltage Lockout Threshold 
+ 
+VIN Rising 
+1.8 
+2.2 
+2.5 
+V 
+Under-Voltage Lockout Hysteresis 
+ 
+ 
+ 
+100 
+ 
+mV 
+Quiescent Power Supply Current 
+IQ 
+1× Mode, VIN = 4V 
+ 
+0.3 
+1 
+mA 
+IQ 
+1.5× Mode, VIN = 3.3V 
+ 
+1 
+3.5 
+Shutdown Current 
+ISHDN 
+VEN = 0.4V 
+ 
+0.1 
+10 
+μA 
+1× Mode to 1.5× Mode  
+Transition Voltage (VIN falling) 
+VTS_×1.5 
+VF = 3.25V, IOUT = 120mA, 
+ILEDx = 20mA 
+ 
+3.68 
+ 
+V 
+Hysteresis of Mode Transition 
+ 
+ 
+ 
+350 
+ 
+mV 
+Output 
+Output Current 
+ILEDx 
+VIN = 3.5V,100% Setting 
+18 
+20 
+22 
+mA 
+Current Matching 
+ 
+VIN = 3.5V,100% Setting 
+-4 
+1 
+4 
+% 
+EN/SET Logic 
+Threshold 
+Logic-High Voltage 
+VIH 
+ 
+1.5 
+ 
+ 
+V 
+Logic-Low Voltage 
+VIL 
+ 
+ 
+ 
+0.4 
+V 
+Low Time for Dimming 
+TLO 
+ 
+0.5 
+ 
+75 
+µs 
+High Time for Dimming 
+THI 
+ 
+ 
+0.25 
+ 
+µs 
+EN/SET 
+Current 
+High Current 
+IIH 
+VIH = VIN 
+ 
+0.01 
+1 
+μA 
+Low Current 
+IIL 
+VIL = GND 
+ 
+0.01 
+1 
+μA 
+Low Time for Shutdown 
+TSHDN 
+PWM Dimming 
+ 
+0.3 
+0.5 
+ms 
+Frequency 
+Oscillator Frequency 
+fOSC 
+ 
+ 
+1000 
+ 
+kHz 
+ 
+ 
+ 
+
+6-Channel Charge Pump White LED Driver 
+SGM3142 
+with Low Dropout Current Source 
+ 
+ 
+5 
+JANUARY 2013 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+CIN = COUT = C1 = C2 = 1μF, TA = +25℃, unless otherwise noted. 
+ 
+ 
+ 
+ 
+Efficiency vs. Input Voltage (6×20mA)
+40
+50
+60
+70
+80
+90
+100
+2.7
+3.1
+3.5
+3.9
+4.3
+4.7
+5.1
+5.5
+Input Voltage (V)
+Efficiency (%)
+VDIODE = 3.25V
+ 
+ 
+ 
+ 
+ 
+ 
+Efficiency vs. Input Voltage (6×10mA)
+40
+50
+60
+70
+80
+90
+100
+2.7
+3.1
+3.5
+3.9
+4.3
+4.7
+5.1
+5.5
+Input Voltage (V)
+Efficiency (%)
+VDIODE = 3.1V
+ 
+ 
+ 
+ 
+
+6-Channel Charge Pump White LED Driver 
+SGM3142 
+with Low Dropout Current Source 
+ 
+ 
+6 
+JANUARY 2013 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+CIN = COUT = C1 = C2 = 1μF, TA = +25℃, unless otherwise noted. 
+I
+DIODE vs. Input Voltage (6×20mA)
+100
+105
+110
+115
+120
+125
+130
+2.7
+3.1
+3.5
+3.9
+4.3
+4.7
+5.1
+5.5
+Input Voltage (V)
+I
+DIODE (mA)
+VDIODE = 3.25V
+ 
+Enable Voltage vs. Input Voltage
+0.4
+0.6
+0.8
+1.0
+1.2
+1.4
+2.7
+3.1
+3.5
+3.9
+4.3
+4.7
+5.1
+5.5
+Input Voltage (V)
+EN Voltage Threshold (V)
+Rising
+Falling
+ 
+ 
+I
+DIODE vs. Input Voltage (6×10mA)
+50
+55
+60
+65
+70
+75
+80
+2.7
+3.1
+3.5
+3.9
+4.3
+4.7
+5.1
+5.5
+Input Voltage (V)
+I
+DIODE (mA)
+VDIODE = 3.1V
+ 
+ 
+ 
+ 
+ 
+
+6-Channel Charge Pump White LED Driver 
+SGM3142 
+with Low Dropout Current Source 
+ 
+ 
+7 
+JANUARY 2013 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL APPLICATION 
++
+CIN
+1μF
+LED4
+LED3
+LED2
+LED1
+C1N
+C2P
+C1P
+C2N
+SGM3142
+VIN
+EN/SET
+GND
+VBattery
+15
+12
+LED5
+LED6
+VOUT
+COUT
+1μF
+16
+1
+4
+5
+2
+3
+14
+9
+C1
+1μF
+C2
+1μF
+6
+7
+10
+11
+EN/SET
+ 
+Figure 1. For 6-WLED Application Circuit 
+ 
+ 
+ 
+ 
+
+6-Channel Charge Pump White LED Driver 
+SGM3142 
+with Low Dropout Current Source 
+ 
+ 
+8 
+JANUARY 2013 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL APPLICATION CIRCUITS 
++
+CIN
+1μF
+LED4
+LED3
+LED2
+LED1
+C1N
+C2P
+C1P
+C2N
+SGM3142
+VIN
+EN/SET
+GND
+VBattery
+15
+12
+LED5
+LED6
+VOUT
+COUT
+1μF
+14
+9
+C1
+1μF
+C2
+1μF
+6
+7
+10
+11
+EN/SET
+16
+1
+4
+5
+2
+3
+RB
+RB
+RB
+Resistor R is optional
+RB
+RB
+RB
+Resistor R is optional  
+ 
+Figure 2. Driving Two Groups of Paralleled White LEDs 
+ 
+ 
+ 
++
+CIN
+1μF
+LED4
+LED3
+LED2
+LED1
+C1N
+C2P
+C1P
+C2N
+SGM3142
+VIN
+EN/SET
+GND
+VBattery
+15
+12
+LED5
+LED6
+VOUT
+COUT
+1μF
+14
+9
+C1
+1μF
+C2
+1μF
+6
+7
+10
+11
+EN/SET
+16
+1
+4
+5
+2
+3
+RB
+RB
+RB
+Resistor R is optional
+RB
+RB
+RB
+Photo Flash LED
+ 
+ 
+ 
+Figure 3. Driving High Current Photo-Flash LED 
+ 
+ 
+ 
+
+6-Channel Charge Pump White LED Driver 
+SGM3142 
+with Low Dropout Current Source 
+ 
+ 
+9 
+JANUARY 2013 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+JANUARY 2013 ‒ REV.A.1 to REV.A.2 
+Page 
+Added Recommended Land Pattern section 
+...................................................................................................................................................... 
+12 
+Added Tape and Reel Information section ................................................................................................................................................... 13, 14 
+ 
+MAY 2011 ‒ REV.A to REV.A.1 
+Page 
+Changed Package Description .......................................................................................................................................................................... 
+All 
+ 
+Changes from Original (MAY 2010) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00084.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TQFN-4×4-16L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.700 
+0.800 
+0.028 
+0.031 
+A1 
+0.000 
+0.050 
+0.000 
+0.002 
+A2 
+0.203 REF 
+0.008 REF 
+D 
+3.900 
+4.100 
+0.154 
+0.161 
+D1 
+2.000 
+2.200 
+0.079 
+0.087 
+E 
+3.900 
+4.100 
+0.154 
+0.161 
+E1 
+2.000 
+2.200 
+0.079 
+0.087 
+k 
+0.200 MIN 
+0.008 MIN 
+b 
+0.250 
+0.350 
+0.010 
+0.014 
+e 
+0.650 TYP 
+0.026 TYP 
+L 
+0.450 
+0.650 
+0.018 
+0.026 
+ 
+ 
+ 
+RECOMMENDED LAND PATTERN (Unit: mm)
+N9
+k
+E1
+e
+E
+N16
+N5
+N1
+D
+D1
+L
+b
+A1
+A2
+A
+SIDE VIEW
+BOTTOM VIEW
+TOP VIEW
+0.3
+0.65
+2.1
+2.9 4.6
+0.85
+2.1
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TQFN-4×4-16L 
+13″ 
+12.4 
+4.30 
+4.30 
+1.10 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 

@@ -1,0 +1,4219 @@
+SGM5202-14 
+Low-Power, 14-Bit, 1MSPS, 
+8 Channels Unipolar Inputs Analog-to-Digital 
+Converter with Serial Interface 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DECEMBER 2023 – REV. A. 1 
+ 
+GENERAL DESCRIPTION 
+The SGM5202-14 is a 14-bit, high-precision, multi-channel 
+input, successive approximation (SAR) analog-to-digital 
+converter (ADC). 
+The SGM5202-14 supports 8 single-ended inputs. The 
+SGM5202-14 needs to work with an external voltage 
+reference. Its available range is 1.2V to 4.2V. The 
+digital interface is compatible to the traditional SPI 
+protocol. 
+The SGM5202-14 is available in Green TQFN-4×4-24L 
+and TSSOP-24 packages. It operates over an ambient 
+temperature range -40℃ to +125℃. 
+ 
+ 
+APPLICATIONS 
+Industrial Process Control 
+Factory Automation Equipment 
+Lab Instrumentations 
+ 
+FEATURES 
+● Supply Voltage Ranges: 
+ Analog Supply: 2.7V to 5.5V 
+ Digital I/O Supply: 2.7V to VA + 0.2V 
+● Sampling Rate: Up to 1MSPS 
+● Excellent DC Performance 
+ Integral Nonlinearity (INL):  
+±2LSB (TYP), 6LSB (MAX) at 2.7V 
+ Differential Nonlinearity (DNL): 
+±0.7LSB (TYP), 3LSB (MAX) at 2.7V 
+● Excellent AC Performance at 5V, fIN = 1kHz 
+ Signal-to-Noise Ratio (SNR): 81.5dB (TYP) 
+ Spurious Free Dynamic Range (SFDR):  
+90.4dB (TYP) 
+ Total Harmonic Distortion (THD): -87.9dB (TYP) 
+● Flexible Input Multiplexer 
+● Support Daisy-Chain Connection 
+● SPI-Compatible Serial Interface 
+● Available in Green TQFN-4×4-24L and TSSOP-24 
+Packages 
+ 
+ 
+ 
+ 
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+2 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM5202-14 
+TQFN-4×4-24L 
+-40℃ to +125℃ 
+SGM5202-14XTQF24G/TR 
+SGM008 
+XTQF24 
+XXXXX 
+Tape and Reel, 3000 
+SGM5202-14XTQF24SG/TR 
+SGM008 
+XTQF24 
+XXXXX 
+Tape and Reel, 500 
+TSSOP-24 
+-40℃ to +125℃ 
+SGM5202-14XTS24G/TR 
+SGM520214 
+XTS24 
+XXXXX 
+Tape and Reel, 4000 
+SGM5202-14XTS24SG/TR 
+SGM520214 
+XTS24 
+XXXXX 
+Tape and Reel, 500 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code. 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Voltage Range (with Respect to AGND) 
+INX, MUXOUT, ADCIN, REFP 
+................. 
+-0.3V to VA + 0.3V 
+COM, REFN 
+.................................................... -0.3V to 0.3V 
+VA ................................................................... -0.3V to 6.5V 
+Voltage Range (with Respect to DGND) 
+VBD ................................................................ -0.3V to 6.5V 
+AGND ............................................................. -0.3V to 0.3V 
+Digital Input Voltage 
+............................. -0.3V to VBD + 0.3V 
+Digital Output Voltage .......................... -0.3V to VBD + 0.3V 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Analog Supply Voltage Range, VA 
+ 
+........................................................... 
+2.7V to 5.5V, 3V (TYP) 
+Digital Supply Voltage Range, VBD 
+ 
+................................................... 
+2.7V to VA + 0.2V, 3V (TYP) 
+Operating Temperature Range ..................... 
+-40℃ to +125℃ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+3 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+   (TOP VIEW) 
+     (TOP VIEW) 
+1
+2
+3
+4
+5
+7
+8
+9
+10
+6
+11
+12
+24
+23
+22
+21
+20
+18
+17
+16
+15
+19
+14
+13
+IN2
+IN3
+nRESET
+nEOC/nINT/CDI
+SCLK
+FS/nCS
+SDI
+IN0
+COM
+MUXOUT
+ADCIN
+AGND
+REFN
+REFP
+VA
+VBD
+nCONVST
+DGND
+SDO
+SGM5202-14
+IN4
+IN5
+IN6
+IN7
+IN1
+ 
+1
+2
+3
+4
+5
+6
+18
+17
+16
+15
+14
+13
+24
+23
+22
+21
+20
+19
+7
+8
+9
+10
+11
+12
+nRESET
+nEOC/nINT/CDI
+ADCIN
+AGND
+REFN
+REFP
+VA
+VBD
+IN3
+IN2
+IN1
+IN0
+COM
+MUXOUT
+SCLK
+FS/nCS
+SDO
+DGND
+SDI
+nCONVST
+IN4
+IN6
+IN5
+IN7
+EP
+SGM5202-14
+ 
+   TSSOP-24 
+     TQFN-4×4-24L 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+TYPE (1) 
+FUNCTION 
+TSSOP-24 
+TQFN- 
+4×4-24L 
+1-7, 24 
+1-4, 21-24 
+IN0 to IN7 
+I 
+Channel 0 to Channel 7 Inputs to MUX (Multiplexer). 
+8 
+5 
+nRESET 
+I 
+External Reset Pin. Active low. 
+9 
+6 
+nEOC/ 
+nINT/ 
+CDI 
+O/O/I 
+Status Output Pin.  
+Used as end-of-conversion (nEOC) pin: active low (default) while a 
+conversion is in progress. The nEOC polarity is programmable. 
+Used as an interrupt (nINT) pin: active low (default) after the 
+end-of-conversion and returns high after FS/nCS goes low. The nINT polarity 
+is programmable. 
+Used as a chain data input (CDI) pin: when it is operated in daisy-chain 
+mode. 
+10 
+7 
+SCLK 
+I 
+SPI Serial Clock Input. 
+11 
+8 
+FS/nCS 
+I 
+Frame Synchronization Signal for Host Controller or Chip Select Input for 
+SPI. 
+12 
+9 
+SDI 
+I 
+SPI Serial Data Input. 
+13 
+10 
+SDO 
+O 
+SPI Serial Data Output. 
+14 
+11 
+DGND 
+— 
+Digital Ground. 
+15 
+12 
+nCONVST 
+I 
+Conversion Start Pin. Freeze sample and hold, start conversion. 
+16 
+13 
+VBD 
+— 
+Digital Power Supply. 
+17 
+14 
+VA 
+— 
+Analog Power Supply. 
+18 
+15 
+REFP 
+I 
+External Positive Reference Input. 
+19 
+16 
+REFN 
+— 
+External Negative Reference Input.  
+20 
+17 
+AGND 
+— 
+Analog Ground. 
+21 
+18 
+ADCIN 
+I 
+ADC Input. 
+22 
+19 
+MUXOUT 
+O 
+Mux Output. 
+23 
+20 
+COM 
+I 
+Common ADC Input. Connect it to AGND usually. 
+— 
+Exposed Pad 
+EP 
+— 
+Exposed pad. Connect it to analog ground. 
+NOTE: 1. I = Input, O = Output. 
+ 
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+4 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VA = 2.7V, VBD = 2.7V, VREF = 2.5V, and fSAMPLE = 1MSPS, TA = -40℃ to +125℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Analog Input 
+Full-Scale Input Voltage (1) 
+ 
+INX - COM, ADCIN - COM 
+0 
+ 
+VREF 
+V 
+Absolute Input Voltage 
+ 
+INX, ADCIN 
+AGND - 0.2 
+ 
+VA + 0.2 
+V 
+COM 
+AGND - 0.2 
+ 
+AGND + 0.2 
+Input Capacitance 
+ 
+ADCIN 
+ 
+40 
+ 
+pF 
+Input Leakage Current 
+ 
+Unselected ADC input 
+-1 
+ 
+1 
+μA 
+System Performance 
+Resolution 
+ 
+ 
+ 
+14 
+ 
+Bits 
+Integral Nonlinearity 
+INL 
+ 
+-6 
+±2 
+6 
+LSB (2) 
+Differential Nonlinearity 
+DNL 
+ 
+ 
+±0.7 
+3 
+LSB (2) 
+Offset Error (3) 
+EO 
+ 
+-3.5 
+±0.2 
+3.5 
+mV 
+Offset Error Drift 
+ 
+ 
+ 
+2 
+ 
+PPM/℃ 
+Offset Error Matching 
+ 
+ 
+ 
+±0.2 
+ 
+mV 
+Gain Error 
+EG 
+ 
+ 
+-0.08 
+ 
+%FSR 
+Gain Error Drift 
+ 
+ 
+ 
+±0.18 
+ 
+PPM/℃ 
+Gain Error Matching 
+ 
+ 
+ 
+0.003 
+ 
+%FSR 
+Transition Noise 
+ 
+ 
+ 
+65 
+ 
+μVRMS 
+Power Supply Rejection Ratio 
+PSRR 
+ 
+ 
+70 
+ 
+dB 
+Sampling Dynamics 
+Conversion Time 
+tCONV 
+ 
+ 
+18 
+ 
+CCLK 
+Acquisition Time 
+tSAMPLE1 
+Manual-trigger mode 
+3 
+ 
+ 
+CCLK 
+tSAMPLE2 
+Auto-trigger mode 
+ 
+3 
+ 
+Throughput Rate 
+ 
+ 
+ 
+ 
+1 
+MSPS 
+Dynamic Characteristics 
+Total Harmonic Distortion (4) 
+THD 
+VIN = 2.5VPP at 1kHz 
+ 
+-86.7 
+-73.3 
+dB 
+VIN = 2.5VPP at 10kHz 
+ 
+-85.9 
+-72.7 
+Signal-to-Noise Ratio 
+SNR 
+VIN = 2.5VPP at 1kHz 
+73.3 
+81.1 
+ 
+dB 
+VIN = 2.5VPP at 10kHz 
+74.1 
+80.6 
+ 
+Signal-to-Noise + Distortion 
+SINAD 
+VIN = 2.5VPP at 1kHz 
+71.3 
+80.0 
+ 
+dB 
+VIN = 2.5VPP at 10kHz 
+71.9 
+79.4 
+ 
+Spurious-Free Dynamic 
+Range 
+SFDR 
+VIN = 2.5VPP at 1kHz 
+72 
+89.1 
+ 
+dB 
+VIN = 2.5VPP at 10kHz 
+71.1 
+89.1 
+ 
+Crosstalk 
+ 
+VIN = 2.5VPP at 1kHz 
+ 
+120 
+ 
+dB 
+VIN = 2.5VPP at 100kHz 
+ 
+106 
+ 
+-3dB Small-Signal Bandwidth 
+ 
+INX - COM with MUXOUT tied to ADCIN 
+ 
+17 
+ 
+MHz 
+ADCIN - COM 
+ 
+30 
+ 
+ 
+ 
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+5 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(VA = 2.7V, VBD = 2.7V, VREF = 2.5V, and fSAMPLE = 1MSPS, TA = -40℃ to +125℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Clock 
+Internal Conversion Clock 
+Frequency (7) 
+ 
+ 
+17.3 
+21 
+25.1 
+MHz 
+SCLK External Serial Clock (8) 
+ 
+Used as I/O clock only 
+ 
+ 
+42 
+MHz 
+Used as both I/O clock and conversion 
+clock 
+1 
+ 
+42 
+MHz 
+External Voltage Reference Input 
+Input 
+Reference 
+Range (5) 
+(REFP) - (REFN) 
+VREF 
+ 
+1.2 
+ 
+2.525 
+V 
+(REFN) - AGND 
+ 
+-0.1 
+ 
+0.1 
+Resistance (6) 
+ 
+Reference input 
+ 
+50 
+ 
+kΩ 
+Digital Input/Output 
+Logic Family 
+ 
+ 
+CMOS 
+ 
+High-Level Input Voltage 
+VIH 
+2.7V < VBD < VA 
+0.8 × VBD 
+ 
+VBD + 0.3 
+V 
+Low-Level Input Voltage 
+VIL 
+2.7V < VBD < VA 
+-0.3 
+ 
+0.1 × VBD 
+V 
+Input Current 
+II 
+VIN = VBD or DGND 
+-1 
+ 
+1 
+μA 
+Input Capacitance 
+CI 
+ 
+ 
+3 
+ 
+pF 
+High-Level Output Voltage 
+VOH 
+VA ≥ VBD ≥ 2.7V, IO = 1mA 
+VBD - 0.4 
+ 
+VBD 
+V 
+Low-Level Output Voltage 
+VOL 
+VA ≥ VBD ≥ 2.7V, IO = -1mA 
+0 
+ 
+0.4 
+V 
+SDO Pin Capacitance 
+CO 
+3-state high impedance state 
+ 
+3 
+ 
+pF 
+Load Capacitance 
+CL 
+ 
+ 
+ 
+20 
+pF 
+Data Format 
+ 
+ 
+Straight binary 
+ 
+Power Supply Requirements 
+Analog Supply Voltage (5) 
+VA 
+ 
+2.7 
+ 
+3.6 
+V 
+Digital I/O Supply Voltage 
+VBD 
+ 
+2.7 
+ 
+VA + 0.2 
+V 
+Analog Supply Current 
+IA 
+fSAMPLE = 1MSPS 
+ 
+5.9 
+8.5 
+mA 
+fSAMPLE = 500kSPS in Auto-Nap mode 
+ 
+4.6 
+7 
+Nap mode, SCLK = VBD or DGND 
+ 
+2.4 
+4 
+mA 
+Deep PD mode, SCLK = VBD or DGND 
+ 
+20 
+48 
+μA 
+Digital I/O Supply Current 
+IBD 
+fSAMPLE = 1MSPS 
+ 
+1.5 
+2.8 
+mA 
+fSAMPLE = 500kSPS in Auto-Nap mode 
+ 
+1.1 
+2.2 
+Power Dissipation 
+ 
+VA = 2.7V, VBD = 2.7V, fSAMPLE = 1MSPS 
+ 
+20 
+30.6 
+mW 
+VA = 2.7V, VBD = 2.7V, fSAMPLE = 500kSPS 
+in Auto-Nap mode 
+ 
+15.4 
+ 
+NOTES: 
+1. Ideal input range, do not consider gain error or offset error. 
+2. LSB = Least Significant Bit. 
+3. The measurement is performed relative to an ideal full-scale input (INX - COM) of 2.5V at VA = 2.7V. 
+4. Accumulate the first nine harmonics of the input frequency. 
+5. The chip operates with VA from 2.7V to 5.5V and VREF from 1.2V to VA (maximum VREF ≤ 4.2V). However, when VA is between 
+3.6V and 4.5V, the chip may not meet the specifications shown in the Electrical Characteristics table. 
+6. Vary ±30%.  
+7. Sampling rate is up to 1MSPS in auto-trigger mode, while the internal conversion clock frequency is 21MHz. 
+8. Guaranteed by design and laboratory test, not tested in production. 
+ 
+ 
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+6 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(VA = 5V, VBD = 2.7V to 5V, VREF = 4.096V, and fSAMPLE = 1MSPS, TA = -40℃ to +125℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Analog Input 
+Full-Scale Input Voltage (1) 
+ 
+INX - COM, ADCIN - COM 
+0 
+ 
+VREF 
+V 
+Absolute Input Voltage 
+ 
+INX, ADCIN 
+AGND - 0.2 
+ 
+VA + 0.2 
+V 
+COM 
+AGND - 0.2 
+ 
+AGND + 0.2 
+Input Capacitance 
+ 
+ADCIN 
+ 
+40 
+ 
+pF 
+Input Leakage Current 
+ 
+Unselected ADC input 
+-1 
+ 
+1 
+μA 
+System Performance 
+Resolution 
+ 
+ 
+ 
+14 
+ 
+Bits 
+Integral Nonlinearity 
+INL 
+ 
+-6 
+±2 
+6 
+LSB (2) 
+Differential Nonlinearity 
+DNL 
+ 
+ 
+±0.7 
+2.5 
+LSB (2) 
+Offset Error (3) 
+EO 
+ 
+-4.3 
+±0.8 
+4.3 
+mV 
+Offset Error Drift 
+ 
+ 
+ 
+±1 
+ 
+PPM/℃ 
+Offset Error Matching 
+ 
+ 
+ 
+±0.5 
+ 
+mV 
+Gain Error 
+EG 
+ 
+ 
+-0.08 
+ 
+%FSR 
+Gain Error Drift 
+ 
+ 
+ 
+±0.18 
+ 
+PPM/℃ 
+Gain Error Matching 
+ 
+ 
+ 
+±0.005 
+ 
+%FSR 
+Transition Noise 
+ 
+ 
+ 
+60 
+ 
+μVRMS 
+Power Supply Rejection Ratio 
+PSRR 
+ 
+ 
+73 
+ 
+dB 
+Sampling Dynamics 
+Conversion Time 
+tCONV 
+ 
+ 
+18 
+ 
+CCLK 
+Acquisition Time 
+tSAMPLE1 
+Manual-trigger mode 
+3 
+ 
+ 
+CCLK 
+tSAMPLE2 
+Auto-trigger mode 
+ 
+3 
+ 
+Throughput Rate 
+ 
+ 
+ 
+ 
+1 
+MSPS 
+Dynamic Characteristics 
+Total Harmonic Distortion (4) 
+THD 
+VIN = 4.096VPP at 1kHz 
+ 
+-87.9 
+-72.3 
+dB 
+VIN = 4.096VPP at 10kHz 
+ 
+-85.7 
+-72 
+Signal-to-Noise Ratio 
+SNR 
+VIN = 4.096VPP at 1kHz 
+74.7 
+81.5 
+ 
+dB 
+VIN = 4.096VPP at 10kHz 
+74.6 
+81.8 
+ 
+Signal-to-Noise + Distortion 
+SINAD 
+VIN = 4.096VPP at 1kHz 
+71.8 
+80.5 
+ 
+dB 
+VIN = 4.096VPP at 10kHz 
+71.9 
+80.2 
+ 
+Spurious-Free Dynamic 
+Range 
+SFDR 
+VIN = 4.096VPP at 1kHz 
+70.9 
+90.4 
+ 
+dB 
+VIN = 4.096VPP at 10kHz 
+70.6 
+89.1 
+ 
+Crosstalk 
+ 
+VIN = 4.096VPP at 1kHz 
+ 
+120 
+ 
+dB 
+VIN = 4.096VPP at 100kHz 
+ 
+101 
+ 
+-3dB Small-Signal Bandwidth 
+ 
+INX - COM with MUXOUT tied to ADCIN 
+ 
+22 
+ 
+MHz 
+ADCIN - COM 
+ 
+40 
+ 
+ 
+ 
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+7 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(VA = 5V, VBD = 2.7V to 5V, VREF = 4.096V, and fSAMPLE = 1MSPS, TA = -40℃ to +125℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Clock 
+Internal Conversion Clock 
+Frequency (7) 
+ 
+ 
+17.3 
+21.2 
+25.7 
+MHz 
+SCLK External Serial Clock (8) 
+ 
+Used as I/O clock only 
+ 
+ 
+50 
+MHz 
+Used as both I/O clock and conversion 
+clock 
+1 
+ 
+42 
+External Voltage Reference Input 
+Input 
+Reference 
+Range (5) 
+(REFP) - (REFN) 
+VREF 
+ 
+1.2 
+4.096 
+4.2 
+V 
+(REFN) - AGND 
+ 
+-0.1 
+ 
+0.1 
+Resistance (6) 
+ 
+Reference input 
+ 
+50 
+ 
+kΩ 
+Digital Input/Output 
+Logic Family 
+ 
+ 
+CMOS 
+ 
+High-Level Input Voltage 
+VIH 
+2.7V < VBD < VA 
+0.8 × VBD 
+ 
+VBD + 0.3 
+V 
+Low-Level Input Voltage 
+VIL 
+2.7V < VBD < VA 
+-0.3 
+ 
+0.1 × VBD 
+V 
+Input Current 
+II 
+VIN = VBD or DGND 
+-1 
+ 
+1 
+µA 
+Input Capacitance 
+CI 
+ 
+ 
+3 
+ 
+pF 
+High-Level Output Voltage 
+VOH 
+VA ≥ VBD ≥ 2.7V, IO = 1mA 
+VBD - 0.3 
+ 
+VBD 
+V 
+Low-Level Output Voltage 
+VOL 
+VA ≥ VBD ≥ 2.7V, IO = -1mA 
+0 
+ 
+0.3 
+V 
+SDO Pin Capacitance 
+CO 
+HIZ state 
+ 
+3 
+ 
+pF 
+Load Capacitance 
+CL 
+ 
+ 
+ 
+20 
+pF 
+Data Format 
+ 
+ 
+Straight binary 
+ 
+Power Supply Requirements 
+Analog Supply Voltage (5) 
+VA 
+ 
+4.5 
+5 
+5.5 
+V 
+Digital I/O Supply Voltage 
+VBD 
+ 
+2.7 
+ 
+VA + 0.2 
+V 
+Analog Supply Current 
+IA 
+fSAMPLE = 1MSPS 
+ 
+7.5 
+11 
+mA 
+fSAMPLE = 500kSPS in Auto-Nap mode 
+ 
+5.8 
+8 
+Nap mode, SCLK = VBD or DGND 
+ 
+2.6 
+4 
+mA 
+Deep PD mode, SCLK = VBD or DGND 
+ 
+25.2 
+55 
+μA 
+Digital I/O Supply Current 
+IBD 
+fSAMPLE = 1MSPS 
+ 
+3.1 
+5.5 
+mA 
+fSAMPLE = 500kSPS in Auto-Nap mode 
+ 
+2.3 
+4 
+Power Dissipation 
+ 
+VA = 5V, VBD = 5V, fSAMPLE = 1MSPS 
+ 
+28.6 
+44.6 
+mW 
+VA = 5V, VBD = 5 V, fSAMPLE = 500kSPS in 
+Auto-Nap mode 
+ 
+21.9 
+ 
+ 
+NOTES:  
+1. Ideal input range, do not consider gain error or offset error. 
+2. LSB = Least Significant Bit. 
+3. The measurement is performed relative to an ideal full-scale input (INX - COM) of 4.096V at VA = 5V. 
+4. Accumulate the first nine harmonics of the input frequency. 
+5. The chip operates with VA from 2.7V to 5.5V and VREF from 1.2V to VA (maximum VREF ≤ 4.2V). However, when VA is between 
+3.6V and 4.5V, the chip may not meet the specifications shown in the Electrical Characteristics table. 
+6. Vary ±30%. 
+7. Sampling rate is up to 1MSPS in auto-trigger mode, while the internal conversion clock frequency is 21MHz. 
+8. Guaranteed by design and laboratory test, not tested in production. 
+ 
+ 
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+8 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TIMING REQUIREMENTS 
+(VA = VBD = 2.7V, TA = -40℃ to +125℃, unless otherwise noted.) (1) (2) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Frequency, Conversion Clock, CCLK 
+fCCLK 
+External, fCCLK = 1/2 fSCLK 
+0.5 
+ 
+21 
+MHz 
+Internal 
+17.3 
+21 
+25.1 
+Pulse Duration, nCONVST Low 
+t1 
+ 
+40 
+ 
+ 
+ns 
+nCS Hold Time with Respect to nEOC (3) 
+t2 
+Read while sampling 
+20 
+ 
+ 
+ns 
+Setup Time, Rising Edge of nCS to EOS 
+t3 
+Read while sampling 
+20 
+ 
+ 
+ns 
+Cycle Time, SCLK 
+t4 
+I/O clock only 
+23.8 
+ 
+ 
+ns 
+I/O and conversion clocks 
+23.8 
+ 
+1000 
+I/O clock, daisy-chain mode 
+23.8 
+ 
+ 
+I/O and conversion clocks, 
+daisy-chain mode 
+23.8 
+ 
+1000 
+Delay Time, Falling Edge of nCS to SDO Valid,  
+SDO MSB Output 
+t5 
+CLOAD = 10pF 
+ 
+ 
+13 
+ns 
+Delay Time, Falling Edge of SCLK to SDO Invalid 
+t6 
+CLOAD = 10pF 
+7.5 
+ 
+ 
+ns 
+Delay Time, Falling Edge of SCLK to SDO Valid 
+t7 
+CLOAD = 10pF 
+ 
+ 
+21 
+ns 
+Delay Time, Rising Edge of nCS to SDO 3-State 
+t8 
+CLOAD = 10pF 
+ 
+ 
+8 
+ns 
+Setup Time, SDI to Falling Edge of SCLK 
+t9 
+ 
+8 
+ 
+ 
+ns 
+Hold Time, SDI to Falling Edge of SCLK 
+t10 
+ 
+4 
+ 
+ 
+ns 
+nCS Hold Time with Respect to EOS 
+t11 
+Read while converting 
+25 
+ 
+ 
+ns 
+Setup Time, Rising Edge of nCS to nEOC (3) 
+t12 
+Read while converting 
+1 
+ 
+ 
+CCLK 
+Setup Time, Falling Edge of nCS to First Falling 
+Edge of SCLK 
+t13 
+ 
+5 
+ 
+ 
+ns 
+Pulse Duration, SCLK Low 
+t14 
+ 
+8 
+ 
+tSCLK - tWH2 
+ns 
+Pulse Duration, SCLK High 
+t15 
+ 
+8 
+ 
+tSCLK - tWL2 
+ns 
+Hold Time, Last Falling Edge of SCLK before 
+Rising Edge of nCS 
+t16 
+ 
+2 
+ 
+ 
+ns 
+Setup Time, Last Falling Edge of SCLK before 
+Rising Edge of nCS 
+t17 
+ 
+15 
+ 
+ 
+ns 
+Delay Time, Falling Edge of nCS to Deactivation of 
+nINT 
+t18 
+CLOAD = 10pF 
+ 
+ 
+40 
+ns 
+Setup Time, Rising Edge of SCLK to Rising Edge 
+of nCS 
+t19 (4) 
+ 
+10 
+ 
+ 
+ns 
+Hold Time, Rising Edge of SCLK to Rising Edge of 
+nCS 
+t20 (4) 
+ 
+2 
+ 
+ 
+ns 
+ 
+NOTES: 
+1. All input signals are specified with rising up time which is 1.5ns and falling down time which is 1.5ns (10% to 90% of VBD), and 
+timed from a voltage level of (VIL + VIH)/2. 
+2. Refer to the timing diagrams. 
+3. The EOS is the end of sampling. The nEOC is the end of conversion. They are the inverse of each other. 
+4. When sending 4-bit or 16-bit commands, this applies to the 5th or 17th rising SCLK. 
+ 
+ 
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+9 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TIMING REQUIREMENTS (continued) 
+(VA = VBD = 5V, TA = -40℃ to +125℃, unless otherwise noted.) (1) (2) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Frequency, Conversion Clock, CCLK 
+fCCLK 
+External, fCCLK = 1/2 fSCLK 
+0.5 
+ 
+21 
+MHz 
+Internal 
+17.3 
+21.2 
+25.7 
+Pulse Duration, nCONVST Low 
+t1 
+ 
+40 
+ 
+ 
+ns 
+nCS Hold Time with Respect to nEOC (3) 
+t2 
+Read while sampling 
+20 
+ 
+ 
+ns 
+Setup Time, Rising Edge of nCS to EOS 
+t3 
+Read while sampling 
+20 
+ 
+ 
+ns 
+Cycle Time, SCLK 
+t4 
+I/O clock only 
+20 
+ 
+ 
+ns 
+I/O and conversion clocks 
+23.8 
+ 
+1000 
+I/O clock, daisy-chain mode 
+20 
+ 
+ 
+I/O and conversion clocks, 
+daisy-chain mode 
+23.8 
+ 
+1000 
+Delay Time, Falling Edge of nCS to SDO Valid,  
+SDO MSB Output 
+t5 
+CLOAD = 10pF 
+ 
+ 
+9 
+ns 
+Delay Time, Falling Edge of SCLK to SDO Invalid 
+t6 
+CLOAD = 10pF 
+2 
+ 
+ 
+ns 
+Delay Time, Falling Edge of SCLK to SDO Valid 
+t7 
+CLOAD = 10pF 
+ 
+ 
+12 
+ns 
+Delay Time, Rising Edge of nCS to SDO 3-State 
+t8 
+CLOAD = 10pF 
+ 
+ 
+6 
+ns 
+Setup Time, SDI to Falling Edge of SCLK 
+t9 
+ 
+8 
+ 
+ 
+ns 
+Hold Time, SDI to Falling Edge of SCLK 
+t10 
+ 
+4 
+ 
+ 
+ns 
+nCS Hold Time with Respect to EOS 
+t11 
+Read while converting 
+20 
+ 
+ 
+ns 
+Setup Time, Rising Edge of nCS to nEOC (3) 
+t12 
+Read while converting 
+1 
+ 
+ 
+CCLK 
+Setup Time, Falling Edge of nCS to First Falling 
+Edge of SCLK 
+t13 
+ 
+5 
+ 
+ 
+ns 
+Pulse Duration, SCLK Low 
+t14 
+ 
+8 
+ 
+tSCLK - tWH2 
+ns 
+Pulse Duration, SCLK High 
+t15 
+ 
+8 
+ 
+tSCLK - tWL2 
+ns 
+Hold Time, Last Falling Edge of SCLK before 
+Rising Edge of nCS 
+t16 
+ 
+2 
+ 
+ 
+ns 
+Setup Time, Last Falling Edge of SCLK before 
+Rising Edge of nCS 
+t17 
+ 
+10 
+ 
+ 
+ns 
+Delay Time, Falling Edge of nCS to Deactivation of 
+nINT 
+t18 
+CLOAD = 10pF 
+ 
+ 
+20 
+ns 
+Setup Time, Rising Edge of SCLK to Rising Edge 
+of nCS 
+t19 (4) 
+ 
+10 
+ 
+ 
+ns 
+Hold Time, Rising Edge of SCLK to Rising Edge of 
+nCS 
+t20 (4) 
+ 
+2 
+ 
+ 
+ns 
+ 
+NOTES: 
+1. All input signals are specified with rising up time which is 1.5ns and falling down time which is1.5ns (10% to 90% of VBD), and 
+timed from a voltage level of (VIL + VIH)/2. 
+2. Refer to the timing diagrams. 
+3. The EOS is the end of sampling. The nEOC is the end of conversion. They are the inverse of each other. 
+4. When sending 4-bit or 16-bit commands, this applies to the 5th or 17th rising SCLK. 
+ 
+ 
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+10 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TIMING DIAGRAMS 
+nCS
+SCLK
+SDO
+t2
+1
+15
+2
+16
+MSB-1
+TAG1
+MSB
+TAG0
+t7
+t4
+t1
+t6
+nEOC
+nCONVST
+0
+0
+TAG2
+0
+0
+SDI
+X
+0
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+t3
+t5
+t8
+t9
+t10
+LSB
+14
+X
+ 
+ 
+Figure 1. Read While Sampling (Manual-Trigger Mode) 
+ 
+ 
+ 
+ 
+nCS
+SCLK
+SDO
+t11
+1
+15
+2
+16
+0
+MSB-1
+TAG1
+MSB
+TAG0
+t17
+t13
+t8
+nEOC
+nCONVST
+0
+TAG2
+0
+SDI
+X
+X
+X
+X
+X
+X
+X
+X
+X
+t12
+t5
+t16
+t9
+t10
+21 SCLK Cycles
+t14
+t15
+LSB
+X
+14
+ 
+ 
+Figure 2. Read While Converting (Auto-Trigger Mode at 1MSPS) 
+ 
+ 
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+11 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TIMING DIAGRAMS (continued) 
+nCS
+SCLK
+SDO
+1
+2
+MSB-1
+MSB
+t7
+t4
+t6
+LSB+1
+LSB
+SDI
+MSB
+MSB-1
+X
+LSB+1
+t5
+t8
+t9
+t10
+t19
+LSB
+t13
+0
+X
+t20
+ 
+Figure 3. SPI I/O 
+ 
+ 
+ 
+nCS
+t2
+nEOC
+nINT
+t18
+ 
+ 
+Figure 4. nCS, nEOC, and nINT Timing Diagram 
+ 
+ 
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+12 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS: DC PERFORMANCE 
+TA = +25℃, VREF (REFP - REFN) = 4.096V when VA = VBD = 5V or VREF (REFP - REFN) = 2.5V when VA = VBD = 2.7V, fSCLK = 
+21MHz, and fSAMPLE = 500kSPS, unless otherwise noted. 
+ 
+    Integral Nonlinearity vs. Output Code 
+    Integral Nonlinearity vs. Output Code 
+ 
+ 
+    Differential Nonlinearity vs. Output Code 
+    Differential Nonlinearity vs. Output Code 
+ 
+ 
+     Analog Supply Current vs. Analog Supply Voltage 
+     Analog Supply Current vs. Analog Supply Voltage 
+ 
+ 
+ 
+ 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+2.7
+2.8
+2.9
+3
+3.1
+3.2
+3.3
+3.4
+3.5
+3.6
+Analog Supply Current (mA) 
+Analog Supply Voltage (V) 
+VREF = 2.5V 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+4.5
+4.6
+4.7
+4.8
+4.9
+5
+5.1
+5.2
+5.3
+5.4
+5.5
+Analog Supply Current (mA) 
+Analog Supply Voltage (V) 
+VREF = 4.096V 
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+13 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, VREF (REFP - REFN) = 4.096V when VA = VBD = 5V or VREF (REFP - REFN) = 2.5V when VA = VBD = 2.7V, fSCLK = 
+21MHz, and fSAMPLE = 500kSPS, unless otherwise noted. 
+ 
+   Analog Supply Current in NAP Mode vs. Analog Supply Voltage  
+   Analog Supply Current in NAP Mode vs. Analog Supply Voltage 
+ 
+ 
+     Internal Clock Frequency vs. Analog Supply Voltage 
+     Internal Clock Frequency vs. Analog Supply Voltage 
+ 
+ 
+   Analog Supply Current vs. Sampling Rate in Auto-NAP Mode 
+     Deep Power-Down Current vs. Temperature 
+ 
+ 
+ 
+ 
+0
+1
+2
+3
+4
+5
+6
+7
+2.7
+2.8
+2.9
+3
+3.1
+3.2
+3.3
+3.4
+3.5
+3.6
+Nap Current (mA) 
+Analog Supply Voltage (V) 
+VREF = 2.5V 
+0
+1
+2
+3
+4
+5
+6
+7
+4.5
+4.6
+4.7
+4.8
+4.9
+5
+5.1
+5.2
+5.3
+5.4
+5.5
+Nap Current (mA) 
+Analog Supply Voltage (V) 
+VREF = 4.096V 
+20.9
+21.0
+21.1
+21.2
+21.3
+21.4
+21.5
+21.6
+2.7
+2.8
+2.9
+3
+3.1
+3.2
+3.3
+3.4
+3.5
+3.6
+Internal Clock Frequency (MHz) 
+Analog Supply Voltage (V) 
+VREF = 2.5V 
+20.9
+21.0
+21.1
+21.2
+21.3
+21.4
+21.5
+21.6
+4.5
+4.6
+4.7
+4.8
+4.9
+5
+5.1
+5.2
+5.3
+5.4
+5.5
+Internal Clock Frequency (MHz) 
+Analog Supply Voltage (V) 
+VREF = 4.096V 
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+4.0
+4.5
+5.0
+0
+60
+120
+180
+240
+300
+360
+420
+Analog Supply Current (mA) 
+Sampling Rate (kHz) 
+VA = VBD = 2.7V, VREF = 2.5V   
+VA = VBD = 5V, VREF = 4.096V   
+0
+5
+10
+15
+20
+25
+30
+35
+40
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Deep Power-Down Current (μA) 
+Temperature (℃) 
+VA = VBD = 2.7V, VREF = 2.5V 
+VA = VBD = 5V, VREF = 4.096V 
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+14 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, VREF (REFP - REFN) = 4.096V when VA = VBD = 5V or VREF (REFP - REFN) = 2.5V when VA = VBD = 2.7V, fSCLK = 
+21MHz, and fSAMPLE = 500kSPS, unless otherwise noted. 
+ 
+     Change in Gain vs. Temperature  
+     Change in Offset vs. Temperature 
+ 
+ 
+     Change in Digital Supply Current vs. Temperature 
+     Change in Internal Clock Frequency vs. Temperature 
+ 
+ 
+     Change in Analog Supply Current vs. Temperature 
+  Change in Analog Supply Current in NAP Mode vs. Temperature 
+ 
+ 
+ 
+ 
+-2.0
+-1.5
+-1.0
+-0.5
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+∆ Gain (LSB Relative to +25℃) 
+Temperature (℃) 
+VA = VBD = 2.7V, VREF = 2.5V 
+VA = VBD = 5V, VREF = 4.096V 
+-1.0
+-0.5
+0.0
+0.5
+1.0
+1.5
+2.0
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+∆ Offset (LSB Relative to +25℃) 
+Temperature (℃) 
+VA = VBD = 2.7V, VREF = 2.5V 
+VA = VBD = 5V, VREF = 4.096V 
+-0.04
+-0.03
+-0.02
+-0.01
+0.00
+0.01
+0.02
+0.03
+0.04
+0.05
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+∆ IBD (mA Relative to +25℃) 
+Temperature (℃) 
+VA = VBD = 2.7V, VREF = 2.5V 
+VA = VBD = 5V, VREF = 4.096V 
+-120
+-100
+-80
+-60
+-40
+-20
+0
+20
+40
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+∆ Frequency (kHz Relative to +25℃) 
+Temperature (℃) 
+VA = VBD = 2.7V, VREF = 2.5V 
+VA = VBD = 5V, VREF = 4.096V 
+-0.20
+-0.15
+-0.10
+-0.05
+0.00
+0.05
+0.10
+0.15
+0.20
+0.25
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+∆ IA (mA Relative to +25℃) 
+Temperature (℃) 
+VA = VBD = 2.7V, VREF = 2.5V 
+VA = VBD = 5V, VREF = 4.096V 
+-0.20
+-0.15
+-0.10
+-0.05
+0.00
+0.05
+0.10
+0.15
+0.20
+0.25
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+∆ Nap Current (mA Relative to +25℃) 
+Temperature (℃) 
+VA = VBD = 2.7V, VREF = 2.5V 
+VA = VBD = 5V, VREF = 4.096V 
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+15 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS: AC PERFORMANCE 
+TA = +25℃, VREF (REFP - REFN) = 4.096V when VA = VBD = 5V or VREF (REFP - REFN) = 2.5V when VA = VBD = 2.7V, fSCLK = 
+21MHz, and fSAMPLE = 500kSPS, unless otherwise noted. 
+ 
+     Output Code Histogram for a DC Input (8192 Conversions) 
+     Output Code Histogram for a DC Input (8192 Conversions) 
+ 
+ 
+    Frequency Spectrum (8192 Point FFT, fIN = 1.0376kHz, -0.2dB) 
+    Frequency Spectrum (8192 Point FFT, fIN = 1.0376kHz, -0.2dB) 
+ 
+ 
+   Frequency Spectrum (8192 Point FFT, fIN = 10.37598kHz, -0.2dB) 
+   Frequency Spectrum (8192 Point FFT, fIN = 10.37598kHz, -0.2dB) 
+ 
+ 
+ 
+ 
+0 
+98 
+8009 
+85 
+0 
+0
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+0x1FFE
+0x1FFF
+0x2000
+0x2001
+0x2002
+Number of Occurrences 
+Code 
+VA = VBD = 2.7V, 
+VREF = 2.5V   
+0 
+13 
+8179 
+0 
+0 
+0
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+0x1FFE
+0x1FFF
+0x2000
+0x2001
+0x2002
+Number of Occurrences 
+Code 
+VA = VBD = 5V, 
+VREF = 4.096V   
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+16 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, VREF (REFP - REFN) = 4.096V when VA = VBD = 5V or VREF (REFP - REFN) = 2.5V when VA = VBD = 2.7V, fSCLK = 
+21MHz, and fSAMPLE = 500kSPS, unless otherwise noted. 
+ 
+     Signal-to-Noise + Distortion vs. Temperature 
+     Signal-to-Noise Ratio vs. Input Frequency 
+ 
+ 
+     Total Harmonic Distortion vs. Input Frequency 
+     Spurious-Free Dynamic Range vs. Input Frequency 
+ 
+ 
+     Signal-to-Noise + Distortion vs. Input Frequency 
+     Effective Number of Bits vs. Input Frequency 
+ 
+ 
+ 
+ 
+79.0
+79.5
+80.0
+80.5
+81.0
+81.5
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Signal-to-Noise + Distortion (dB) 
+Temperature (℃) 
+VA = VBD = 2.7V, VREF = 2.5V 
+VA = VBD = 5V, VREF = 4.096V 
+64
+66
+68
+70
+72
+74
+76
+78
+80
+1
+10
+100
+1000
+Signal-to-Noise Ratio (dB) 
+Input Frequency (kHz) 
+VA = VBD = 2.7V, VREF = 2.5V   
+VA = VBD = 5V, VREF = 4.096V   
+-90
+-85
+-80
+-75
+-70
+-65
+1
+10
+100
+1000
+Total Harmonic Distortion (dB) 
+Input Frequency (kHz) 
+VA = VBD = 2.7V, VREF = 2.5V   
+VA = VBD = 5V, VREF = 4.096V   
+65
+70
+75
+80
+85
+90
+95
+1
+10
+100
+1000
+Spurious-Free Dynamic Range (dB) 
+Input Frequency (kHz) 
+VA = VBD = 2.7V, VREF = 2.5V   
+VA = VBD = 5V, VREF = 4.096V   
+62
+64
+66
+68
+70
+72
+74
+76
+78
+80
+1
+10
+100
+1000
+Signal-to-Noise + Distortion (dB) 
+Input Frequency (kHz) 
+VA = VBD = 2.7V, VREF = 2.5V   
+VA = VBD = 5V, VREF = 4.096V   
+10.0
+10.5
+11.0
+11.5
+12.0
+12.5
+13.0
+1
+10
+100
+1000
+Effective Number of Bits (Bits) 
+Input Frequency (kHz) 
+VA = VBD = 2.7V, VREF = 2.5V   
+VA = VBD = 5V, VREF = 4.096V   
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+17 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, VREF (REFP - REFN) = 4.096V when VA = VBD = 5V or VREF (REFP - REFN) = 2.5V when VA = VBD = 2.7V, fSCLK = 
+21MHz, and fSAMPLE = 500kSPS, unless otherwise noted. 
+ 
+      Crosstalk vs. Input Frequency 
+  Power-Supply Rejection Ratio vs. Power-Supply Ripple Frequency 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+-125
+-120
+-115
+-110
+-105
+-100
+-95
+1
+10
+100
+1000
+Crosstalk (dB) 
+Input Frequency (kHz) 
+VA = VBD = 2.7V, VREF = 2.5V   
+VA = VBD = 5V, VREF = 4.096V   
+30
+35
+40
+45
+50
+55
+60
+65
+70
+0.1
+1
+10
+100
+1000
+Power-Supply Rejection Ratio (dB) 
+Ripple Frequency (kHz) 
+VA = VBD = 2.7V, VREF = 2.5V   
+VA = VBD = 5V, VREF = 4.096V   
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+18 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAM 
+Control Logic
+&
+Sequencing
+SDO
+SDI
+SCLK
+FS/nCS
+VBD
+IN2
+IN1
+IN0
+MUXOUT
+ADCIN
+REFP
+VA
+AGND
+DGND
+ADC
+IN3
+IN6
+IN5
+IN4
+IN7
+COM
+REFN
+nCONVST
+nEOC/nINT/CDI
+nRESET
+ 
+Figure 5. Block Diagram 
+ 
+ 
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+19 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION 
+Overview 
+The SGM5202-14 is a low-power, high-speed, successive 
+approximation register (SAR) analog-to-digital converter 
+(ADC). It needs to work with an external voltage reference. 
+The SGM5202-14 has 8 single-ended input channels. All 
+inputs share the same common pin (COM pin). 
+The SGM5202-14 can be driven by either an internal clock, or 
+an external clock (SCLK). 
+The SGM5202-14 has two working modes, manual channel 
+select mode and auto channel select mode. 
+ 
+Signal Conditioning 
+For the input signal pre-conditioning, it is recommended to 
+add an amplifier or a PGA (Programmable Gain Amplifier) 
+between the MUXOUT pin and ADCIN pin. 
+ 
+Analog Input 
+The input signal applied to INx and COM must be limited to 
+the range listed in the Electrical Characteristics table. 
+The SGM5202-14 is a capacitor array SAR ADC. During the 
+sampling period, there is an input current flowing into the ADC. 
+The peak input current depends on the sampling rate, 
+reference 
+voltage, 
+input 
+voltage 
+and 
+signal 
+source 
+impedance. 
+A driver amplifier is usually recommended to buffer the signal 
+source. It makes the analog input source to charge the 
+equivalent input capacitor (48pF) to a 14-bit accuracy level in 
+the acquisition time (120ns). When the input capacitor is fully 
+charged, no further current flows. An equivalent input circuit is 
+shown in Figure 6. 
+ 
+Driver Amplifier Choice 
+In a demo circuit, the SGM8967-1 is used for the 
+source-follower (unity-gain) configuration, which is shown in 
+Figure 
+7 
+with 
+the 
+recommended 
+RC 
+filter 
+values. 
+Low-bandwidth input signals with low-pass filters can be used 
+to minimize noise. 
+ 
+11pF 
+126pF 
+44pF 
+1GΩ 
+MUXOUT
+ADCIN
+IN7
+NOTE: IN0 is assumed to be on, and IN7 is assumed to be off.
+11pF 50Ω 
+IN0
+50Ω 
+4pF 
+COM
+44pF 
+50Ω 
+11pF 
+56pF 
+50Ω 
+ 
+ 
+Figure 6. Equivalent Input Circuit 
+ 
+Analog_In
+MUXOUT
+SGM5202-14
+Digital Logic 
+and Interface
+SGM4029-4.096
+ADCIN
+50Ω 
+1000pF
+INx
+COM
+SGM8967-1
+ 
+ 
+Figure 7. Unipolar Input Drive Configuration 
+ 
+ 
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+20 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Device Functional Modes 
+Reference 
+The SGM5202-14 must be operated with an external voltage 
+reference. The available range is 1.2V to 4.2V. It is 
+recommended to place a 10μF decoupling capacitor between 
+the reference output and the ADC REF input pin.  
+ 
+Converter Operation 
+The ADC conversion of SGM5202-14 is driven by the 
+conversion clock (CCLK) source.  
+The CCLK source can be selected by software either from an 
+internal oscillator or an external clock (SCLK). 
+When the CCLK is from the internal oscillator, its minimum 
+frequency is 17.3MHz. The minimum sampling time is 3 
+CCLK cycles. The minimum conversion time is 18 CCLK 
+cycles. 
+When the CCLK is from the external clock (SCLK), its 
+maximum frequency is 42MHz. The frequency of SCLK is 
+divided by a factor of two, because the CCLK is toggled on 
+the rising edge of SCLK. In manual-trigger mode, the start of 
+a conversion is triggered by a specific rising edge of SCLK. It 
+will take a minimum 20ns to set up between the falling edge 
+of nCONVST and the rising edge of SCLK. The minimum 
+conversion time is 18 CCLK cycles. 
+When the SCLK is used to drive ADC conversion, it must 
+meet the minimum high time and low time requirements. The 
+SCLK must meet the minimum rise time, fall time and low 
+jitter to get the best converter performance.  
+ 
+Manual Channel Select Mode 
+To enter the manual channel select mode, it needs to take 
+two steps. The first step is to set the Configuration register 
+(CFR) to enable the manual channel select mode. The 
+second step is to set the target channel number by 
+configuring the Command register (CMR). Figure 8 shows a 
+demo of the channel switching timing sequence in manual 
+channel select mode.  
+ 
+ 
+ 
+ 
+ 
+Figure 8. Manual Channel Select Mode Timing 
+ 
+ 
+ 
+nCS
+SCLK
+MUX Switch
+SDI
+Frame N
+1
+2
+3
+16
+1
+2
+3
+Frame N+1
+Configure CFR to enter 
+manual select channel mode
+Configure CMR to enter 
+target channel
+Channel Old
+4
+Channel New
+< 30ns
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+21 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Auto Channel Select Mode 
+If the chip is configured to work in auto channel select mode, 
+the chip scans all channels in a fixed order and repeats the 
+cycle. The first channel of the cycle scanning starts the 
+channel in manual channel mode. For example, if in manual 
+channel mode, channel 3 is the conversion channel, the auto 
+scanning sequence is 3, 4, 5, 6, 7, 3, and so forth. Figure 9 
+shows a demo of the channel switching timing sequence in 
+auto channel select mode. The chip quits the scanning cycle 
+after CFR bit D[11] is cleared to 0. 
+ 
+Start of a Conversion 
+The input signal is sampled on the falling edge of nCONVST, 
+and the pin should be kept low for minimum of 60ns. After the 
+input signal is sampled, the conversion is started at the same 
+time. The conversion time is 18 CCLK cycles. The minimum 
+time between two nCONVST falling pulses is 21 CCLKs. The 
+time between a conversion completed and a new falling edge 
+of nCONVST is the acquisition time. 
+To allow multiple chips to sample simultaneously, the 
+nCONVST pins of all chips can be controlled by one common 
+logic controller's output (please consider the driving ability of 
+controller's output pin). 
+A conversion also can be triggered internally without an 
+nCONVST signal. To let the chip work in auto-trigger mode, 
+configure the CFR bit D[9] to 0. Under this auto-trigger mode, 
+when a conversion is completed, it will take 3 more CCLK 
+cycles (if the CFR bit D[8] is set to 0, see Table 4 and Table 5 
+for details), the next conversion is automatically triggered. 
+Total acquisition time and conversion time are 21 CCLK 
+cycles (if the CFR bit D[8] is set to 0, see Table 4 and Table 5 
+for details).  
+The different conversion modes are shown in Table 1. 
+Note that when the chip is configured to work with manual 
+channel select and auto-trigger mode, it is usually used for a 
+single channel conversion. If there is an input channel 
+switching in this mode, the chip must be set to manual-trigger 
+mode before an input MUX switching. After the channel 
+switching is completed, the chip can be re-configured to work 
+with manual channel select and auto-trigger mode. 
+ 
+ 
+Table 1. Different Conversion Types 
+Mode 
+Select Channel 
+Start Conversion 
+Automatic 
+Auto Channel Select (1): The chip scans the input channels 
+automatically. There is no need to write channel number to CMR. 
+More details refer to Auto Channel Select Mode section 
+Auto-Trigger Mode: Start a conversion with sequenced 
+CCLK automatically 
+Manual 
+Manual Channel Select: Select the channel number by CMR 
+command 
+Manual-Trigger Mode: Start a conversion with nCONVST 
+ 
+NOTE:  
+1. It is recommended that auto channel select mode should be worked with auto-trigger mode and TAG bit output enabled. 
+ 
+ 
+ 
+Figure 9. Channel Number Updated in Auto Channel Select Mode Timing 
+ 
+ 
+nEOC
+SCLK
+MUX Switch
+Channel Old
+Channel New
+ 1 CCLK Minimum
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+22 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Status Output Pin (nEOC/nINT) 
+The function of the nEOC/nINT pin is software configurable. 
+When the pin is used as nEOC output and its active polarity is 
+set low, the pin will keep low throughout the conversion and 
+go high if the conversion is completed. In manual-trigger 
+mode, the pin goes low immediately once the nCONVST 
+goes low, the pin will go high once the conversion is 
+completed. In auto-trigger mode, after finishing the previous 
+conversion, the pin goes high, and the pin will keep high for 
+the first 3 CCLK cycles in the next conversion process frame. 
+If the pin of nEOC/nINT is configured as an interrupt output 
+and active low, it goes low at the end of a conversion, and will 
+go high by the next read cycle.  
+The function of the pin nEOC/nINT is set by CFR bit D[6]. The 
+output polarity of the pin is set by CFR bit D[7]. 
+ 
+Power-Down Modes 
+The chip has 3 power-down modes, including Nap, Deep, and 
+Auto-Nap. They are all controlled by CFR according bits (refer 
+to Table 5 for details). 
+Once the Nap power-down mode is enabled, the power 
+consumption will reduce to around 2.6mA in 200ns. There are 
+several ways to call the chip to quit this power-down mode, 
+disable this mode, issue a wake-up command, reset CFR to 
+default value, or reset the chip (software or hardware, see 
+Table 4 and Table 5 for further information). It will take the 
+chip 3 CCLK cycles to wake up from Nap power-down mode. 
+If the Deep power-down mode is enabled, the chip will be 
+shut down and the power consumption will drop to about 
+25.2μA in 50ns. The wake-up time from this mode is about 
+150μs. The methods of calling the chip to wake up are the 
+same as waking from Nap power-down mode. 
+Once the Auto-Nap power-down mode is enabled, the chip 
+will go to Nap power-down automatically after the next 
+conversion is completed. The power consumption will reduce 
+to around 2.6mA in 200ns. To call the chip to quit Auto-Nap 
+power-down mode, besides the same method as the same as 
+quitting Nap power-down mode, issuing a manual channel 
+select command or starting a conversion also can call the 
+chip to wake up. It will take the chip 3 CCLK cycles to wake 
+up from Auto-Nap power-down mode. 
+Table 2 shows a comparison of the three power-down modes. 
+ 
+ 
+ 
+Table 2. Comparison of Power-Down Modes 
+Power-Down Type 
+Power 
+Consumption  
+at VA = 5V 
+Power-Down 
+by 
+Power-Down 
+Time 
+Wake-Up by 
+Wake-Up Time 
+Enable 
+Normal Operation 
+7.5mA 
+— 
+— 
+— 
+— 
+— 
+Deep Power-Down 
+25.2μA 
+Setting CFR bit 
+D[2] 
+50ns 
+Wake-up command 1011b 
+150μs 
+Set CFR bit 
+D[2] 
+Nap Power-Down 
+2.6mA 
+Setting CFR bit 
+D[3] 
+200ns 
+Wake-up command 1011b 
+3 CCLKs 
+Set CFR bit 
+D[3] 
+Auto-Nap Power-Down 
+2.6mA 
+nEOC (end of 
+conversion) 
+200ns 
+nCONVST, any channel select 
+command, default command 
+1111b, or wake-up command 
+1011b 
+3 CCLKs 
+Set CFR bit 
+D[4] 
+ 
+ 
+ 
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+23 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Auto-Nap and Acquisition Time 
+Figure 10 shows the timing diagram for nCONVST, nEOC 
+and Auto-Nap power-down signals in manual-trigger mode. 
+The nCONVST signal triggers the chip to wake up. It will take 
+at least 3 CCLK cycles (3 Conversion Clock Cycles) to wake 
+up and 3 CCLK cycles to acquire input. 
+The SGM5202-14 supports two kinds of sampling rate 
+1MSPS and 500kSPS in auto-trigger mode. In 1MSPS 
+sampling mode, it works in 21 CCLK cycles per conversion. In 
+500kSPS sampling mode, it works in 42 CCLK cycles per 
+conversion. 
+The Nap power-down and Deep power-down are both 
+available in 1MSPS and 500kSPS sampling modes. The 
+Auto-Nap power-down is only available in 500kSPS sampling 
+mode, because there is no time for the core to power down in 
+1MSPS sampling rate. 
+Figure 11 shows a timing diagram for the conversion 
+sequence in auto-trigger mode with Auto-Nap power-down 
+signals in 500kSPS sampling rate. For 16-bit word output, two 
+consecutive conversions are 42 CCLK cycles apart. Nap_IN 
+(active high, the signal powers down the ADC core) goes low 
+6 CCLK cycles ahead of the falling edge of nCONVST_IN 
+(internal signal, active low). Nap_IN calls up the ADC core. It 
+takes 3 CCLK cycles to power up the ADC core, and another 
+3 CCLK cycles are acquisition time. After the conversion is 
+completed, the chip goes power-down automatically. 
+ 
+ 
+Figure 10. Timing Diagram for nCONVST, nEOC, and Auto-Nap Power-Down Signals in Manual-Trigger Mode  
+(3 CCLKs for Acquisition) 
+ 
+ 
+CCLK
+nEOC
+(Active Low)
+nCONVST_IN
+(Internal Active Low)
+1
+19
+Nap_IN
+(Internal Active High)
+20
+43
+42
+37
+38
+ 
+Figure 11. Timing Diagram for Conversion Start and Auto-Nap Power-Down Signals in Auto-Trigger Mode  
+(500kSPS Sampling and 3 CCLKs for Acquisition) 
+ 
+ 
+nCONVST
+CCLK
+nEOC
+nCONVST_IN
+(Internal Active Low)
+1
+7
+6
+Nap_IN
+(Internal Active High)
+6 Cycles
+1 Cycle
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+24 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Table 3 lists the total of the acquisition time and conversion time for the different combinations of triggers and power-down 
+modes. 
+ 
+Table 3. Total Acquisition + Conversion Times 
+Mode 
+Acquisition + Conversion Time 
+Auto-Trigger at 1MSPS 
+= 21 CCLK 
+Manual-Trigger 
+≥ 21 CCLK 
+Manual-Trigger with Deep Power-Down 
+≥ 4 SCLK + 1μs + 3 CCLK + 18 CCLK + 16 SCLK + 150μs 
+Manual-Trigger with Nap Power-Down 
+≥ 4 SCLK + 3 CCLK + 3 CCLK + 18 CCLK + 16 SCLK + 200ns 
+Manual-Trigger with Auto-Nap Power-Down 
+≥ 4 SCLK + 3 CCLK + 3 CCLK + 18 CCLK + 1 CCLK + 200ns (using wake-up to resume) 
+≥ 3 CCLK + 3 CCLK + 18 CCLK + 1 CCLK + 200ns (using nCONVST to resume) 
+ 
+Figure 12 to Figure 14 show the different combinations of various trigger and power-down modes. 
+nCS
+(Read While Converting)
+nCS
+(Read While Sampling)
+nCONVST
+(Active Low)
+nEOC
+t11
+t12
+Read ADC Result N-1
+Read ADC Result N
+ADC Conversion N
+ADC Sample N+1
+N
+N+1
+t2
+t3
+ 
+ 
+Figure 12. Read While Converting vs. Read While Sampling (Manual-Trigger Mode) 
+ 
+ 
+nCS
+(Read While Sampling)
+nCS
+(Read While Converting)
+nCONVST
+(Active Low)
+Read ADC Result N-1
+t11
+ADC 
+Status
+Wake-Up
+Sample N
+Conversion N
+Acquisition (1)
+Power-Down
+Wake-Up
+Sample N+1
+Conversion N+1
+Acquisition (1)
+Power-Down
+N
+EOS
+EOC
+N+1
+EOS
+EOC
+Read ADC Result N
+NOTE (2)
+Read ADC 
+Result N-1
+Read ADC 
+Result N
+t11
+t3
+t3
+NOTES:
+1. The ADC is in acquisition time.
+2. Command on SDI pin is minimum 4 SCLK cycles.
+3. Command on SDI pin is minimum 16 SCLK cycles to set ADC into Nap or Deep power-down mode.
+≥ 3 CCLK
+18 CCLK
+≥ 3 CCLK
+18 CCLK
+NOTE (2)
+NOTE (2)
+NOTE (2)
+NOTE (3)
+NOTE (3)
+NOTE (3)
+NOTE (3)
+ 
+ 
+Figure 13. Read While Converting vs. Read While Sampling with Nap or Deep Power-Down (Manual-Trigger Mode) 
+ 
+ 
+ 
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+25 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+nCS
+(Read While Sampling)
+nCS
+(Read While Converting)
+nCONVST
+(Active Low)
+Read ADC result N-1
+t11
+ADC 
+Status
+Wake-up
+Sample N
+Conversion N
+Acquisition (1)
+Power-Down
+Wake-up
+Sample N+1
+Conversion N+1
+Acquisition (1)
+Power-Down
+N
+EOS
+EOC
+EOS
+EOC
+Read ADC Result N
+Read ADC 
+Result N-1
+Read ADC 
+Result N
+t11
+t3
+t3
+≥ 3 CCLK
+18 CCLK
+≥ 3 CCLK
+18 CCLK
+Manual-Trigger Case 1: Wake-Up Using nCONVST
+≥ 6 CCLK
+≥ 6 CCLK
+N+1
+nEOC
+(Active Low)
+t12
+t12
+Read ADC Result N-1
+t11
+Wake-up
+Sample N
+Conversion N
+NOTE (1)
+Power-Down
+Wake-up
+Sample N+1
+Conversion N+1
+Power-Down
+N
+EOS
+EOC
+EOS
+EOC
+Read ADC Result N
+Read ADC 
+Result N-1
+Read ADC 
+Result N
+t11
+t3
+t3
+≥ 3 CCLK
+18 CCLK
+≥ 3 CCLK
+18 CCLK
+Manual-Trigger Case 2: Wake-Up Using WAKEUP Command
+N+1
+t12
+t12
+NOTE (2)
+NOTE (2)
+NOTE (2)
+NOTE (2)
+t1
+NOTES:
+1. The time between the end of a conversion and Auto-Nap power-down is 1 CCLK cycle.
+2. Command on SDI pin is minimum 4 CCLK cycles.
+NOTE (1)
+nCS
+(Read While Sampling)
+nCS
+(Read While Converting)
+nCONVST
+(Active Low)
+ADC 
+Status
+nEOC
+(Active Low)
+ 
+ 
+Figure 14. Read While Converting vs. Read While Sampling with Auto-Nap Power-Down 
+ 
+ 
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+26 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Programming 
+Digital Interface 
+The SCLK operation frequency of the interface is up to 
+50MHz (VA = VBD = 5V). Each operation frame is started on 
+the falling edge of the FS/nCS. The data input and output are 
+both read on the falling edge of SCLK. The first bit of the 
+output data is the most significant bit (MSB). 
+One complete serial I/O operation frame starts with the falling 
+edge of FS/nCS, and ends on the 16th falling edge of SCLK. 
+The interface works with the controller typical SPI setting 
+CPOL = 1 (clock polarity) and CPHA = 0 (clock phase). This 
+means that the falling edge of FS/nCS may happens when 
+the SCLK is high. On the rising edge of the FS/nCS, it does 
+not need to consider whether the SCLK is high or low, as long 
+as there are enough SCLK falling edges before the rising 
+edge of FS/nCS. 
+ 
+Internal Register 
+The internal register is composed of 4 bits of the Command 
+register (CMR) and 12 bits of the Configuration register 
+(CFR). 
+ 
+Writing to the Converter 
+The chip supports two types of writing to the registers, a 4-bit 
+writing to CMR only and a 16-bit writing to CMR and CFR at 
+the same time. More details refer to Table 4 and Table 5. 
+When there is a 4-bit command, the command will take effect 
+on the 4th falling edge of SCLK. A 16-bit read or write 
+command will be at least 16 SCLK cycles, and in some 
+exceptional cases, it will need more than 16 SCLK cycles 
+(more details refer to Table 7). 
+ 
+Configuring the Converter and Default Mode 
+A 4-bit command will take effect on the 4th falling edge of 
+SCLK. A 16-bit command will take effect on the 16th falling 
+edge of SCLK. 
+After a power-on reset, or software reset, or hardware reset, 
+the CFR will be reset to the default value. 
+The SPI interface of SGM5202-14 is full duplex. For all 
+commands, except read CFR, the ADC conversion result is 
+output on the SDO pin. 
+ 
+Table 4. Command Set Defined by Command Register (CMR) (1) 
+D[15:12] 
+Hex 
+Command 
+D[11:0] 
+Wake-Up from 
+Auto-Nap 
+Minimum 
+SCLKs 
+Required 
+Type 
+0000b 
+0h 
+Select analog input channel 0 
+Don't care 
+Y 
+4 
+W 
+0001b 
+1h 
+Select analog input channel 1 
+Don't care 
+Y 
+4 
+W 
+0010b 
+2h 
+Select analog input channel 2 
+Don't care 
+Y 
+4 
+W 
+0011b 
+3h 
+Select analog input channel 3 
+Don't care 
+Y 
+4 
+W 
+0100b 
+4h 
+Select analog input channel 4 
+Don't care 
+Y 
+4 
+W 
+0101b 
+5h 
+Select analog input channel 5 
+Don't care 
+Y 
+4 
+W 
+0110b 
+6h 
+Select analog input channel 6 
+Don't care 
+Y 
+4 
+W 
+0111b 
+7h 
+Select analog input channel 7 
+Don't care 
+Y 
+4 
+W 
+1000b 
+8h 
+Reserved 
+Reserved 
+— 
+— 
+— 
+1001b 
+9h 
+Reserved 
+Reserved 
+— 
+— 
+— 
+1010b 
+Ah 
+Reserved 
+Reserved 
+— 
+— 
+— 
+1011b 
+Bh 
+Wake-up 
+Don't care 
+Y 
+4 
+W 
+1100b 
+Ch 
+Read CFR 
+Don't care 
+— 
+16 
+R 
+1101b 
+Dh 
+Read data 
+Don't care 
+— 
+16 
+R 
+1110b 
+Eh 
+Write CFR 
+CFR value 
+— 
+16 
+W 
+1111b 
+Fh 
+Default mode (load CFR with default value) 
+Don't care 
+Y 
+4 
+W 
+ 
+NOTE:  
+1. After the falling edge of FS/nCS, the first four bits of SDO are the four MSBs from the previous conversion result. The next 12 
+bits of SDO are the contents of the CFR. 
+ 
+ 
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+27 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Reading the Configuration Register 
+The controller can read back the content of CFR by issuing 
+the read command 1100b. The read-back data is composed 
+of 4-bit (MSBs) previous ADC conversion result plus 12-bit 
+CFR contents. When issuing a read CFR command, 
+nCONVST is not used and regardless of the activity of 
+nEOC/nINT pin. 
+ 
+Table 5. 12-Bit Configuration Register (CFR) Details 
+BITS 
+DESCRIPTION 
+COMMENT 
+D[11] 
+Channel Select Mode 
+0 = Manual channel select mode is enabled. Use CMR command to access a desired channel 
+1 = Auto channel select mode is enabled. Channels are scanned automatically until the cycle 
+after this bit is cleared to '0'. 
+ 
+D[10] 
+Conversion Clock (CCLK) Source Select 
+0 = Conversion clock (CCLK) = SCLK/2 
+1 = Conversion clock (CCLK) = internal OSC 
+ 
+D[9] 
+Trigger (Conversion Start) Select: Start Conversion at the End of Sampling (EOS) 
+0 = Auto-trigger mode: conversions are automatically trigged three conversion clocks after EOC 
+at 500kSPS 
+1 = Manual-trigger mode: conversions are manually trigged on the falling edge of nCONVST 
+When D[9] = 0 and D[8] = 0, D[4] bit 
+setting is ignored. 
+D[8] 
+Sample Rate for Auto-Trigger Mode 
+0 = 1MSPS (21 CCLKs) 
+1 = 500kSPS (42 CCLKs) 
+ 
+D[7] 
+Pin 10 Polarity Select when Used as an Output (nEOC/nINT) 
+0 = nEOC/nINT active high 
+1 = nEOC/nINT active low 
+ 
+D[6] 
+Pin 10 Function Select when Used as an Output (nEOC/nINT) 
+0 = Pin 10 is used as nINT 
+1 = Pin 10 is used as nEOC 
+ 
+D[5] 
+Pin 10 I/O Function Select for Daisy-Chain Mode Operation 
+0 = Pin 10 is used as CDI input (daisy-chain mode is enabled) 
+1 = Pin 10 is used as nEOC/nINT output 
+ 
+D[4] 
+Auto-Nap Power-Down Enable or Disable 
+0 = Auto-Nap power-down mode is enabled (not activated) 
+1 = Auto-Nap power-down mode is disabled 
+When D[9] = 0 and D[8] = 0, D[4] bit 
+setting is ignored. 
+D[3] 
+Nap Power-Down Enable or Disable 
+0 = Nap power-down is enabled 
+1 = Nap power-down is disabled (resume normal operation) 
+The bit is reset to 1 automatically by 
+wake-up command. 
+D[2] 
+Deep Power-Down Enable or Disable 
+0 = Deep power-down is enabled 
+1 = Deep power-down is disabled (resume normal operation) 
+The bit is reset to 1 automatically by 
+wake-up command. 
+D[1] 
+TAG Bit Output Enable 
+0 = TAG bit output is disabled 
+1 = TAG bit output is enabled. TAG bits are attached in tail position after conversion data 
+ 
+D[0] 
+Software Reset 
+0 = System reset, returns to 1 automatically 
+1 = Normal operation 
+ 
+ 
+NOTE:  
+1. Default = FFFh. 
+ 
+ 
+ 
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+28 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Reading the Conversion Result 
+The ADC conversion result is available when the nEOC goes 
+high and it is presented to the output register on the next 
+falling edge of FS/nCS. The host controller can shift out the 
+data on SDO pin at any time except the restricted quiet zone. 
+The quiet zone is defined as 20ns before and 20ns after the 
+end of sampling time (EOS). The EOS is defined as the falling 
+edge of nCONVST in manual-trigger mode. The EOS is 
+defined as the end of 3rd CCLK after nEOC in auto-trigger 
+mode. 
+The falling edge of FS/nCS should not be set at the moment 
+of the rising edge of nEOC, otherwise the ADC result will be 
+corrupted. If the falling edge of FS/nCS is ahead of the nEOC, 
+the previous result is read out.  
+The ADC result is in 14-bit strait binary format, as shown in 
+Table 6. In general, at least 14 SCLK cycles is used to read 
+out, and in some exceptional cases, more than 14 SCLK 
+cycles is needed, as shown in Table 7. The data is shifted out 
+by MSB first. If there are more SCLK cycles, 3 TAG bits (if 
+enabled) are attached at the trailing of the ADC data, the 
+others are filled with all 0s.  
+When FS/nCS is low, SDO is active and goes to 3-state on 
+the rising edge of FS/nCS. 
+Note that whenever SDO is in output state, the output number 
+of data bits depends on the number of SCLK cycles. For 
+example, if there are 4 SCLK cycles, the first MSBs of data 
+will be shifted out. If any kind of resets happen during the 
+output cycle, the SDO shifts all 1s immediately. 
+If SCLK is used for the CCLK, it is not possible to shift out the 
+14-bit ADC data during the sampling time (6 SCLKs) due to 
+the presence of quiet zone. In this case, it is recommended to 
+read the ADC result during the conversion time (36 SCLKs or 
+48 SCLKs in Auto-Nap mode). 
+ 
+TAG Mode 
+The SGM5202-14 supports TAG features, which is used to 
+indicate ADC result is from which input channel. When the 
+TAG is enabled, at least 19 SCLK cycles (14-bit data + 2-bit 0 
++ 3-bit TAG) are required to read out all data. The TAG bits 
+are attached the trailing of ADC result. TAG bits are set to 
+'000' for channel 0, '001' for channel 1, and so on. TAG bits 
+are set to '111' for channel 7.  
+ 
+ 
+ 
+Table 6. Ideal Input Voltages and Output Codes 
+Description 
+Analog Value 
+Digital Output Straight Binary 
+Binary Code 
+Hex Code 
+Full-Scale Range 
+VREF 
+— 
+— 
+Least Significant Bit (LSB) 
+VREF/16384 
+— 
+— 
+Full-Scale 
+VREF - 1LSB 
+11 1111 1111 1111 
+3FFF 
+Midscale 
+VREF/2 
+10 0000 0000 0000 
+2000 
+Midscale - 1LSB 
+VREF/2 - 1LSB 
+01 1111 1111 1111 
+1FFF 
+Zero 
+0V 
+00 0000 0000 0000 
+0000 
+ 
+ 
+ 
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+29 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Daisy-Chain Mode 
+The SGM5202-14 supports daisy-chain connection. The CFR 
+bit D[5] can configure the nEOC/nINT pin as the chain data 
+input (CDI) pin. CDI pin is used for a secondary serial data 
+input from an upstream converter. 
+Figure 15 shows a typical connection of three converters in 
+daisy-chain mode. 
+Figure 16 shows a timing diagram in a daisy connection, the 
+data in CDI pin goes through the chip to SDO, the serial input 
+passes through each chip with a 16 SCLK cycles delay (TAG 
+is not enabled, see Table 7 for more details about TAG) as 
+long as nCS is active. The 3 chips sample and convert 
+simultaneously in Figure 16. 
+ 
+SDI
+SCLK
+nCONVST
+SDI
+SCLK
+nCONVST
+SDI
+SCLK
+nCONVST
+SDO_H
+SCLK_H
+nCS_H3
+SDO
+CDI
+CDI
+SDO
+SDO
+EOC/nINT
+nCS
+nINT
+nCS_H1
+nCS_H2
+nCS
+nCS
+SDI_H
+SGM5202-14
+#1
+SGM5202-14
+#2
+SGM5202-14
+#3
+ Host Controller
+NOTE: 
+Device #1 CFR D[5] = 1,  Device #2 and Device #3 CFR D[5] = 0.
+ 
+ 
+Figure 15. Connect Multiple Converters in Daisy-Chain Mode 
+ 
+ 
+SCLK#1
+SDO#1
+Conversion N
+nCONVST #1
+nCONVST #2
+nCONVST #3
+nEOC
+(Active Low)
+nCS#1
+SCLK#2
+SCLK#3
+nCS#2
+nCS#3
+CDI#2
+SDO#2
+CDI#3
+1
+16
+1
+16
+Conversion N
+Conversion N
+From Device #1
+From Device #2
+From Device #1
+SDO#3
+Conversion N
+Conversion N
+From Device #3
+From Device #2
+1
+16
+Conversion N
+From Device #1
+SDI#1
+SDI#2
+SDI#3
+Config
+Read Data 
+Read Data
+ 
+ 
+Figure 16. Timing Diagram in Daisy-Chain Mode with Shared nCONVST and Continuous nCS 
+ 
+ 
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+30 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Note that in the daisy-chain connection, the nCS must be hold 
+low during the entirely data transferring period (in Figure 16, it 
+is 24 SCLK cycles. Assuming TAG is not enabled, see Table 
+7 for more details about TAG). 
+If the nCS is toggled during the data transferring in a 
+daisy-chain connection, the data stream cannot go through 
+the daisy-chain, each SDO data always repeats the chip 
+converter data in each nCS frame. An example of this case is 
+shown in Figure 17. 
+For one chip, the number of SCLK cycles of each read frame 
+is determined by the combination of different read modes. 
+There are different combination modes of daisy-chain mode, 
+TAG mode, and the manner in which a channel is selected 
+(such as auto channel select mode). Table 7 shows the 
+required numbers of SCLKs for different readout modes. 
+In a daisy-chain connection, the maximum SCLK frequency 
+may be affected by supply voltage and load when SCLK goes 
+through the connection net of the chips. When the chips are 
+configured in a daisy-chain mode, it is recommended to 
+reduce the SCLK frequency. 
+ 
+Reset Function 
+There are 3 methods to reset the chip to default status, 
+internal power-on reset (POR), software reset and hardware 
+reset by nRESET pin. 
+The internal POR circuit will reset the chip to default mode 
+when the chip is initially powered up. The software reset is 
+issued by software command (CFR bit D[0] is set to 0). The 
+software command will be automatically cleared to 1 after the 
+chip is reset. The hardware reset is issued by holding the 
+nRESET pin low at least 10ns. If the hardware reset function 
+is not used, this pin must be tied to VBD. 
+If a reset function is performed, it will take the chip at least 
+150μs to be ready to work. During this time, any operation will 
+be corrupted.  
+ 
+SCLK#1
+SDO#1
+Conversion N
+nCONVST #1
+nCONVST #2
+nCONVST #3
+EOC
+(Active Low)
+nCS#1
+SCLK#2
+SCLK#3
+nCS#2
+nCS#3
+CDI#2
+SDO#2
+CDI#3
+1
+16
+1
+16
+Conversion N
+From Device #1
+From Device #2
+SDO#3
+Conversion N
+Conversion N
+From Device #3
+From Device #3
+1
+16
+Conversion N
+From Device #3
+SDI#1
+SDI#2
+SDI#3
+Config
+Read Data 
+Read Data
+Conversion N
+Conversion N
+From Device #2
+Conversion N
+Conversion N
+From Device #1
+From Device #2
+From Device #1
+ 
+ 
+Figure 17. Timing Diagram in Daisy-Chain Mode with Shared nCONVST and Noncontinuous nCS 
+ 
+Table 7. Required SCLKs for Different Readout Mode Combinations 
+Daisy-Chain Mode 
+CFR D[5] 
+TAG Mode  
+CFR D[1] 
+Number of SCLK Cycles per SPI Read 
+Trailing Bits 
+1 
+0 
+14 
+None 
+1 
+1 
+≥ 19 
+TAG bits plus up to 5 zeros 
+0 
+0 
+16 
+None 
+0 
+1 
+24 
+TAG bits plus 5 zeros 
+ 
+ 
+
+Low-Power, 14-Bit, 1MSPS, 8 Channels Unipolar Inputs 
+SGM5202-14 
+Analog-to-Digital Converter with Serial Interface 
+ 
+ 
+31 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+A Typical Connection of SGM5202-14 
+A typical data acquisition circuit for the SGM5202-14 is shown 
+in Figure 18. 
+ 
+Power Supply Recommendations 
+The SGM5202-14 has analog power supply VA and digital 
+interface power supply VBD. If the two power supplies are not 
+from a single voltage source, it is recommended to power on 
+VA firstly and then power on VBD. The supply voltage VBD 
+should not be higher than the supply voltage VA. 
+After the VA and VBD are powered on, it will take the chip at 
+least 2ms to be ready to work. During this time, any operation 
+will be corrupted.  
+ 
+ 
+REF
+SGM4029-2.5
+REFP
+INx
+IN0
+MXOUT
+ADCIN
+REFN
+10μF 
+ADC
+Logic 
+& 
+Sequence
+40Ω 
+1500pF 
+40Ω 
+1500pF 
+SGM8967-1
+SGM8967-1
+SDO
+SDI
+SCLK
+FS/nCS
+nCONVST
+nEOC/nINT/CDI
+nRESET
+COM
+ 
+Figure 18. Typical Circuit Configuration 
+ 
+ 
+ 
+ 
+ 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+DECEMBER 2023 ‒ REV.A to REV.A.1 
+Page 
+Updated Package/Ordering Information section 
+................................................................................................................................................... 
+2 
+ 
+Changes from Original (JUNE 2023) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00086.001 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TQFN-4×4-24L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.700 
+- 
+0.800 
+A1 
+0.000 
+- 
+0.050 
+A2 
+0.203 REF 
+b 
+0.180 
+- 
+0.300 
+D 
+3.900 
+- 
+4.100 
+E 
+3.900 
+- 
+4.100 
+D1 
+2.600 
+- 
+2.800 
+E1 
+2.600 
+- 
+2.800 
+e 
+0.500 BSC 
+k 
+0.200 MIN 
+L 
+0.300 
+- 
+0.500 
+eee 
+0.080 
+ 
+NOTE: This drawing is subject to change without notice.
+ 
+ 
+RECOMMENDED LAND PATTERN (Unit: mm)
+e
+E
+N24
+N1
+D
+D1
+L
+b
+A
+SIDE VIEW
+BOTTOM VIEW
+TOP VIEW
+0.5
+0.24
+2.7 3.8
+2.7
+A1
+A2
+SEATING PLANE
+eee C
+C
+PIN 1#
+0.7
+3.8
+ALTERNATE A-1
+DETAIL A
+ALTERNATE TERMINAL
+CONSTRUCTION
+ALTERNATE A-2
+DETAIL A
+k
+E1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+TX00022.001 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TSSOP-24 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+- 
+- 
+1.200 
+A1 
+0.050 
+- 
+0.150 
+A2 
+0.800 
+- 
+1.050 
+b 
+0.190 
+- 
+0.300 
+c 
+0.090 
+- 
+0.200 
+D 
+7.700 
+- 
+7.900 
+E 
+4.300 
+- 
+4.500 
+E1 
+6.200 
+- 
+6.600 
+e 
+0.650 BSC 
+L 
+0.450 
+- 
+0.750 
+H 
+0.250 TYP 
+θ 
+0° 
+- 
+8° 
+ccc 
+0.100 
+ 
+NOTES: 
+1. This drawing is subject to change without notice. 
+2. The dimensions do not include mold flashes, protrusions or gate burrs. 
+3. Reference JEDEC MO-153. 
+ 
+ 
+E1
+E
+b
+D
+e
+A1
+A2
+c
+H
+L
+θ
+0.65
+0.42
+1.78
+RECOMMENDED LAND PATTERN (Unit: mm)
+5.94
+ccc C
+SEATING PLANE
+C
+A
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TQFN-4×4-24L 
+13″ 
+12.4 
+4.30 
+4.30 
+1.10 
+4.0 
+8.0 
+2.0 
+12.0 
+Q2 
+TSSOP-24 
+13″ 
+16.4 
+6.80 
+8.30 
+1.60 
+4.0 
+8.0 
+2.0 
+16.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

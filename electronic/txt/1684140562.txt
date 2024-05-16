@@ -1,0 +1,2367 @@
+ 
+ 
+SGM42630 
+Stepper Motor Driver IC 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+MAY2023–REV. B 
+ 
+GENERAL DESCRIPTION 
+The SGM42630 is a bipolar stepper motor driver suitable 
+for automated positioning and movement control in 
+equipment such as printers, scanners and robotic 
+mechanisms. To control the stepper motor, two H-bridges 
+are integrated in the device for the two motor windings 
+along with a microstepping indexer logic. Bridge currents 
+are regulated by chopping the motor supply voltage 
+across the windings. 
+The step (STEP) and direction (DIR) inputs are provided 
+for simple interfacing to the controller. The device also 
+provides two microstepping input pins (USM0 and USM1) 
+to choose the step size (full, half, quarter and eighth step). 
+Fast, slow and mixed (fast then slow) decay modes are 
+selectable by applying proper voltage to DECAY input. 
+Programmable blanking and off-time of the H-bridge 
+PWM and selectable decay modes make the device 
+very flexible and capable of driving a wide range of 
+stepper motors with up to 2.6A per winding. 
+A number of protection features are provided in the device 
+including under-voltage lockout, short-circuit, over-current 
+and over-temperature shutdown.  
+The device is available in a Green TSSOP-28 (Exposed 
+Pad) package. 
+ 
+FEATURES 
+● Motor Power Supply Voltage Range: 8V to 35V 
+● PWM with up to 2.6A Current for each Winding 
+● Low On-Resistance: 0.29Ω for HS + LS, @ +25℃ 
+● Microstepping Indexer: 1, 1/2, 1/4 and 1/8 
+● Step and Direction Interface 
+● Programmable Decay, Blanking and Off-Time 
+● Auto-Decay Mode 
+● UVLO for VM, VCC, VCP, VGD Voltages 
+● Over-Current Protection (OCP) 
+● Thermal Shutdown (TSD) 
+● Available in a Green TSSOP-28 (Exposed Pad) 
+Package 
+ 
+ 
+APPLICATIONS 
+Robotic Mechanisms 
+Textile Equipment 
+Scanners 
+Positioning and Tracking 
+Printers 
+ 
+ 
+ 
+SIMPLIFIED SCHEMATIC 
+MCU
+8V to 35V
+STEP
+2.6A
+2.6A
+Stepper
+Motor Driver
+with Protections
+Stepper
+Motor
+SGM42630
+DIR
+Step Size
+nHOME
+AOUT1
+AOUT2
+BOUT1
+BOUT2
+ 
+ 
+ 
+
+ 
+SGM42630 
+Stepper Motor Driver IC 
+ 
+ 
+2 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM42630 
+TSSOP-28 (Exposed Pad) 
+SGM42630YPTS28G/TR 
+SGM42630 
+YPTS28 
+XXXXX 
+Tape and Reel, 4000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code. 
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Motor Power Supply Voltage Range, VM (VMA or VMB) 
+............ 
+ 
+........................................................................... -0.3V to 38V 
+Logic Power Supply Voltage Range, VCC 
+............. -0.3V to 6V 
+Digital Pins Input Voltage Range ......................... -0.5V to 6V 
+VREF Input Voltage, VREF ....................................... 0V to VCC 
+ISENx Pins Voltage 
+....................................... -0.5V to 0.875V 
+Peak Output Current (Motor Drive) ............. Limited Internally 
+Package Thermal Resistance 
+TSSOP-28 (Exposed Pad), θJA .................................. 32℃/W 
+Operating Junction Temperature 
+................................. 
++150℃ 
+Storage Temperature Range 
+......................... 
+-65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+CDM ............................................................................ 
+1000V 
+ 
+ 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Motor Power Supply Voltage Range (1), VM 
+............. 
+8V to 35V 
+Logic Power Supply Voltage Range, VCC 
+............... 
+3V to 5.5V 
+VREF Input Voltage, VREF 
+....................................... 0V to VCC 
+RX Resistance Value, RX................................ 12kΩ to 100kΩ 
+CX Capacitance Value, CX .......................... 470pF to 3000pF 
+Operating Junction Temperature Range 
+...... -40℃ to +150℃ 
+NOTE: 1. VMA and VMB pins must be tied to the same 
+source (VM). 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+PIN CONFIGURATION 
+(TOP VIEW) 
+1
+2
+ISENA
+nHOME
+3
+4
+DIR
+AOUT1
+5
+6
+DECAY
+RCA
+7
+8
+GND
+VREF
+9
+10
+RCB
+VCC
+11
+12
+BOUT1
+USM1
+13
+14
+USM0
+ISENB
+GND
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+VMA
+nSLEEP
+nENABLE
+AOUT2
+CP2
+CP1
+VCP
+GND
+VGD
+STEP
+BOUT2
+nRESET
+nSR
+VMB
+ 
+TSSOP-28 (Exposed Pad) 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+
+ 
+SGM42630 
+Stepper Motor Driver IC 
+ 
+ 
+3 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN DESCRIPTIONS 
+PIN 
+TYPE 
+FUNCTION 
+NO. 
+NAME 
+1 
+ISENA 
+- 
+Bridge A ISENSE (GND). Connect with a sensing resistor to power ground.  
+2 
+nHOME 
+O 
+Home Position Logic Output. Pull this pin low when step table is at home state or pull this pin high at other 
+states. 
+3 
+DIR 
+I 
+Direction Input Pin. Control the direction of stepping. It has a weak internal pull-down. 
+4 
+AOUT1 
+O 
+Bridge A Node 1. Connect to one end (+) of the stepper motor winding A. 
+5 
+DECAY 
+I 
+Decay Mode Select with Weak Internal Pull-Down. Voltage applied to this pin sets one of the three decay 
+modes. See details in motor driver description. A 0.1μF ~ 0.22μF capacitor needs to be placed between 
+DECAY and GND pins. 
+6 
+RCA 
+I 
+Bridge A Blanking and Off-Time Setting. Connect it to the parallel programming resistor (RA) and capacitor 
+(CA). See Current Regulation section for the adjustment details and Equations 2, 3 and 4. 
+7, 21 
+GND 
+- 
+Ground Reference. 
+8 
+VREF 
+I 
+Reference Voltage for Current Set. Apply the reference voltage to set the full-scale winding current value. 
+9 
+RCB 
+I 
+Bridge B Blanking and Off-Time Setting. Connect it to the parallel programming resistor (RB) and capacitor 
+(CB). See Current Regulation section for the adjustment details and Equations 2, 3 and 4. 
+10 
+VCC 
+- 
+Digital Logic Supply Voltage (3V to 5.5V). A 0.1μF ceramic decoupling capacitor needs to be placed 
+between VCC and GND pins. 
+11 
+BOUT1 
+O 
+Bridge B Node 1. Connect it to one end (+) of the stepper motor winding B. 
+12 
+USM1 
+I 
+Micro-Step Mode Selection Logic Input 1. USM0 and USM1 are logic inputs to set the step size to one of 
+the 4 options (full, half, quarter and eight micro-steps/step). It has a weak internal pull-down. 
+13 
+USM0 
+I 
+Micro-Step Mode Selection Logic Input 0. USM0 and USM1 are logic inputs to set the step size to one of 
+the 4 options (full, half, quarter and eight micro-steps/step). It has a weak internal pull-down. 
+14 
+ISENB 
+- 
+Bridge B ISENSE (GND). Connect it to VM power ground through the current sense resistor for bridge B. 
+15 
+VMB 
+- 
+Power Supply for Bridge B. Connect it to the motor power supply (8V to 35V). VMA and VMB pins should 
+be tied to the same supply. 
+16 
+nSR 
+I 
+Synchronous Rectification Enable Input. Synchronous rectification is enabled if nSR pin is pulled low. Float 
+nSR pin to enter the auto-decay mode with synchronous rectification. With nSR = high, there is no 
+synchronous rectification and body diodes conducting the reverse current. In this case, maximum body 
+diode currents must be guaranteed to be less than 1.3A. 
+17 
+nRESET 
+I 
+Reset Input. Active low reset with weak internal VCC pulling up to initializes microstepping indexer logic 
+and disable H-bridge outputs. 
+18 
+BOUT2 
+O 
+Bridge B Node 2. Connect to the other end (-) of the stepper motor winding B. IB is positive from BOUT1 to 
+BOUT2. 
+19 
+STEP 
+I 
+Step Logic Input. Rising edge causes the microstepping indexer to move one step. It has a weak internal 
+pull-down. 
+20 
+VGD 
+IO 
+Gate Drive Voltage of the Low-side Switches. Decouple to GND with a 0.22μF ceramic capacitor. 
+22 
+VCP 
+IO 
+Gate Drive Voltage of the High-side Switches. Decouple with a 0.22μF ceramic capacitor to VM pin. 
+23 
+CP1 
+IO 
+Charge Pump Flying Capacitor. A 0.22μF capacitor is used between CP1 and CP2 pins. 
+24 
+CP2 
+IO 
+25 
+AOUT2 
+O 
+Bridge A Node 2. Connect it to the other end (-) of the stepper motor winding A. IA is positive from AOUT1 
+to AOUT2. 
+26 
+nENABLE 
+I 
+Enable Input. Active low enable logic input with weak internal pull-up to VCC. A low enables outputs. 
+27 
+nSLEEP 
+I 
+Sleep Mode Input. Active low sleep mode logic input with weak internal pull-down. Apply high to enable 
+device, and low to enter in the low-power sleep mode. 
+28 
+VMA 
+- 
+Power Supply for Bridge A. Connect to the motor power supply (8V to 35V). VMA and VMB pins should be 
+tied to the same supply. 
+Exposed 
+Pad 
+GND 
+G 
+Ground. 
+ 
+NOTE: I = input, O = output, IO = input or output, G = ground. 
+ 
+ 
+
+ 
+SGM42630 
+Stepper Motor Driver IC 
+ 
+ 
+4 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(TJ = +25℃, Full = -40℃ to +85℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN 
+TYP 
+MAX 
+UNITS 
+Power Supply 
+Motor Power Supply Voltage 
+VM 
+ 
++25℃ 
+8 
+12 or 24 
+35 
+V 
+Logic Power Supply Voltage 
+VCC 
+ 
++25℃ 
+3 
+3.3 
+5.5 
+V 
+VM Operating Supply Current  
+IVM 
+VM = 35V, fPWM < 50kHz 
++25℃ 
+ 
+0.45 
+0.6 
+mA 
+VCC Operating Supply Current  
+IVCC 
+fPWM < 50kHz 
++25℃ 
+ 
+1.1 
+1.5 
+mA 
+VM Sleep Mode Supply Current  
+IVMQ 
+VM = 35V 
++25℃ 
+ 
+20 
+330 
+nA 
+VCC Sleep Mode Supply Current  
+IVCCQ 
+ 
++25℃ 
+ 
+12 
+15 
+μA 
+VM Under-Voltage Lockout Voltage  
+VM_UVLO 
+VM rising 
++25℃ 
+ 
+6.7 
+7 
+V 
+VCC Under-Voltage Lockout Voltage  
+VCC_UVLO 
+VCC rising 
++25℃ 
+ 
+2.72 
+2.95 
+V 
+VREF Input 
+VREF Input Current 
+IREF 
+VREF = 3.3V 
++25℃ 
+-3 
+ 
+3 
+μA 
+Chopping Current Accuracy 
+ΔICHOP 
+VREF = 2.0V, 70% current 
++25℃ 
+-10 
+ 
+10 
+% 
+Logic Inputs 
+Pull-Up Resistance 
+RPU 
+nENABLE, nRESET 
++25℃ 
+ 
+270 
+ 
+kΩ 
+Pull-Down Resistance 
+RPD 
+DIR, STEP, nSLEEP, USM1, 
+USM0, nSR 
++25℃ 
+ 
+270 
+ 
+kΩ 
+Input Low Voltage 
+VIL 
+ 
+Full 
+ 
+ 
+0.2 × VCC 
+V 
+Input High Voltage 
+VIH 
+ 
+Full 
+0.8 × VCC 
+ 
+ 
+V 
+Input Hysteresis 
+VHYS 
+ 
++25℃ 
+ 
+0.4 × VCC 
+ 
+V 
+nHOME Output 
+Output Low Voltage 
+VOL 
+IO = 200μA 
++25℃ 
+ 
+ 
+0.3 × VCC 
+V 
+Output High Voltage 
+VOH 
+IO = -200μA 
++25℃ 
+0.7 × VCC 
+ 
+ 
+V 
+DECAY Input 
+Low Threshold 
+VIL 
+To select fast decay mode 
++25℃ 
+ 
+0.2 × VCC 
+ 
+V 
+Mid Level Threshold 
+VMID 
+To select mixed decay mode 
++25℃ 
+ 
+0.2 × VCC to 
+0.6 × VCC 
+ 
+V 
+High Threshold  
+VIH 
+To select slow decay mode 
++25℃ 
+ 
+0.6 × VCC 
+ 
+V 
+H-Bridge FETs 
+LS + HS FET On-Resistance 
+RDS(ON) 
+VM = 24V, IO = 0.4A 
++25℃ 
+ 
+290 
+380 
+mΩ 
+Off-State Leakage Current 
+IOFF 
+ 
++25℃ 
+-15 
+ 
+15 
+µA 
+Protection 
+Thermal Shutdown Temperature 
+TTSD 
+ 
++25℃ 
+ 
+160 
+ 
+℃ 
+Over-Current Protection  
+IOCP 
+ 
++25℃ 
+ 
+3.2 
+ 
+A 
+OCP Deglitch Time 
+tOCP 
+ 
++25℃ 
+ 
+1.5 
+ 
+µs 
+OCP Retry Time 
+tRET 
+ 
++25℃ 
+ 
+1 
+ 
+s 
+Motor Driver 
+Off-Time 
+tOFF 
+RX = 56kΩ, CX = 680pF 
++25℃ 
+30 
+42 
+52 
+μs 
+Current Sense Blanking Time 
+tBLANK 
+RX = 47kΩ, CX ≤ 1nF 
++25℃ 
+ 
+2.4 
+ 
+μs 
+Dead Time 
+tDT 
+nSR = 0 
++25℃ 
+100 
+200 
+800 
+ns 
+Rise Time 
+tR 
+ 
++25℃ 
+15 
+ 
+80 
+ns 
+Fall Time 
+tF 
+ 
++25℃ 
+15 
+ 
+80 
+ns 
+ 
+ 
+
+ 
+SGM42630 
+Stepper Motor Driver IC 
+ 
+ 
+5 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TIMING PARAMETERS AND REQUIREMENTS 
+(TJ = +25℃, unless otherwise noted.)  
+SYMBOL 
+FUNCTION 
+MIN 
+MAX 
+UNITS 
+fSTEP 
+Step frequency. 
+ 
+500 
+kHz 
+tWH (STEP) 
+Step pulse high duration. 
+1 
+ 
+μs 
+tWL (STEP) 
+Step pulse low duration. 
+1 
+ 
+μs 
+tSU (STEP) 
+Command set-up time, before STEP rising. 
+250 
+ 
+ns 
+tH (STEP) 
+Command hold time, after STEP rising. 
+250 
+ 
+ns 
+tWAKE 
+Wake-up time, exit sleep (nSLEEP rising) to STEP input cannot be accepted. 
+ 
+1 
+ms 
+tnSLEEP 
+Sleep time, enter sleep (nSLEEP falling) to outputs disabled. 
+ 
+2.5 
+μs 
+tnENABLE 
+Enable time, enable (nENABLE falling) to outputs enabled. 
+ 
+20 
+μs 
+tDISABLE 
+Disable time, disable (nENABLE rising) to outputs disabled. 
+ 
+20 
+μs 
+tnRESETR 
+Reset release time, (nRESET rising) to outputs enabled. 
+ 
+5 
+μs 
+tnRESET 
+Reset time, (nRESET falling) to outputs disabled. 
+ 
+5 
+μs 
+ 
+STEP
+DIR, USMx
+tWH (STEP)
+tWL (STEP)
+tSU (STEP)
+tH (STEP)
+fSTEP
+ 
+nSLEEP
+tWAKE
+tnSLEEP
+OUTPUT
+ 
+    Figure 1. STEP Timing Definition 
+Figure 2. nSLEEP Timing Definition 
+ 
+ 
+OUTPUT
+tnENABLE
+tDISABLE
+nENABLE
+ 
+tnRESETR
+tnRESET
+nRESET
+OUTPUT
+ 
+    Figure 3. nENABLE Timing Definition 
+Figure 4. nRESET Timing Definition 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+SGM42630 
+Stepper Motor Driver IC 
+ 
+ 
+6 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+ 
+ 
+     VM Operating Supply Current vs. Junction Temperature 
+   VM Sleep Mode Supply Current vs. Junction Temperature 
+ 
+ 
+     LS + HS FET On-Resistance vs. Junction Temperature 
+  LS + HS FET On-Resistance vs. Motor Power Supply Voltage 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+400
+420
+440
+460
+480
+500
+-50
+-25
+0
+25
+50
+75
+100
+VM Operating Supply Current (μA) 
+Temperature (℃) 
+VM = 35V 
+VM = 24V 
+VM = 8V 
+0
+20
+40
+60
+80
+100
+-50
+-25
+0
+25
+50
+75
+100
+VM Sleep Mode Supply Current (nA) 
+Temperature (℃) 
+VM = 35V 
+VM = 24V 
+VM = 8V 
+0
+100
+200
+300
+400
+500
+-50
+-25
+0
+25
+50
+75
+100
+LS +HS FET On-Resistance (mΩ) 
+Temperature (℃) 
+VM = 35V 
+0
+100
+200
+300
+400
+500
+6
+11
+16
+21
+26
+31
+36
+LS +HS FET On-Resistance (mΩ) 
+Motor Power Supply Voltage (V) 
+-40℃ 
++25℃ 
++85℃ 
+
+ 
+SGM42630 
+Stepper Motor Driver IC 
+ 
+ 
+7 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+ 
+Auto Mode 
+ 
+ 
+ 
+Mixed Decay 
+ 
+ 
+ 
+ 
+ 
+STEP 
+ 
+ 
+ 
+ 
+OUTA 
+ 
+5V/div    500mA/div 
+ 
+ 
+ 
+ 
+ 
+STEP 
+ 
+ 
+ 
+ 
+OUTA 
+ 
+     5V/div    500mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (200ms/div) 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Mixed Decay on Decreasing Steps 
+ 
+ 
+ 
+Mixed Decay on Increasing Steps 
+ 
+ 
+ 
+ 
+ 
+ 
+STEP 
+ 
+ 
+ 
+ 
+OUTA 
+ 
+        5V/div      500mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+STEP 
+ 
+ 
+ 
+ 
+OUTA 
+ 
+         5V/div    500mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (200μs/div) 
+ 
+ 
+ 
+Time (200μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+SGM42630 
+Stepper Motor Driver IC 
+ 
+ 
+8 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAM 
+CP1
+CP2
+VCP
+VMA
+AOUT1
+AOUT2
+ISENA
+VMB
+BOUT1
+BOUT2
+ISENB
+VCC
+VGD
+VCC
+VREF
+nENABLE
+nRESET
+nSLEEP
+STEP
+DIR
+USM0
+USM1
+nSR
+nHOME
+DECAY
+RCA
+RCB
+VCC
+VM
+VM
+VM
+VCC
+HVLDO5V
+Charge 
+Pump
+VM
+M
+Pre-
+Driver
+Pre-
+Driver
+HS/LS OC
+VREF
+RC Driver
+Mode 
+Detector
+DAC
+PWM
+DAC
+BGR
+OSC
+OTP
+START_UP
+UVLO
+VCC
+Indexer
+GND
+Indexer
+Indexer
+Trimming 
+& Fuse
+On/off 
+Sequence
+Protections
+Others
+CMP
+AMP
+Logic
+HS/LS OC
+CMP
+AMP
+ 
+ 
+ 
+ 
+
+ 
+SGM42630 
+Stepper Motor Driver IC 
+ 
+ 
+9 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION 
+Overview 
+The SGM42630 is a flexible, bipolar stepper motor driver 
+including two integrated H-bridges with current sense 
+and regulation control plus a microstepping indexer. It 
+accepts 8V to 35V motor power supply voltages and can 
+deliver up to 2.6A for each winding. Sleep mode can be 
+used to minimize power consumption by the driver when 
+the device is idle. It is easy to use driver due to its STEP 
+and DIR inputs and the internal indexer. It is capable of 
+accurately microstepping without current loop regulation 
+or controller management. 
+Decay mode is chosen based on the application needs. 
+For the SGM42630 fast, slow and mixed decay mode 
+options are available for flexible current regulation. 
+The driver can be adjusted to a wide range of stepper 
+motors by setting proper values for mixed decay, blanking, 
+and off-time. 
+ 
+Decay Mode 
+The current continues to flow in the same direction 
+during the off-time due to the large inductance of the 
+winding. There are two options for current flow direction 
+in the bridge switches during the off-time. Suppose that 
+by chopping, the drive current path S1 is stopped (by 
+turning off M1 or M1 & M4) in Figure 5. Then during the 
+off-time, the bridge can act in two different ways: the 
+current can be decayed by letting it circulate through the 
+lower switches (recirculation in M2/D2 and M4, shown as 
+path S0) or it can recycle the inductor energy back to the 
+VM source through M2/D2 and M3/D3 in path S2. In the 
+former case, the voltage across the winding will be 
+almost zero and current decay will be slow (slow decay), 
+but in the latter case, the voltage across the winding is 
+-VM and current decays in a faster rate (fast decay), 
+tending to reverse its direction. If synchronous mode is 
+on, switches are turned on to conduct rather than their 
+body diodes, otherwise, the diodes will conduct the 
+reverse current naturally. A short dead time is always 
+implemented before turning on M3 to avoid shoot 
+through in M3-M4 leg (similarly for the M3-M4 leg). 
+Synchronous rectification can be enabled by setting nSR 
+pin to logic low to use MOSFET on-channels rather than 
+their body diodes for conduction and reduce losses. In 
+synchronous mode, current reversal is not allowed and 
+bridge is disabled when the current approaches zero. (It 
+is 
+not 
+recommended 
+to 
+disable 
+synchronous 
+rectification unless it is guaranteed that body diode 
+currents remain below 1.3A.) 
+xOUT1
+S1
+S2
+S0
+VM
+xOUT2
+M1
+M2
+M3
+M4
+D1
+D3
+D2
+D4
+RSENSE
+S1: Increasing
+S2: Fast decay
+S0: Slow decay
+ 
+Figure 5. Slow and Fast Decay Modes Current Paths 
+Mixed decay mode is also supported in which decay 
+starts in fast mode for a programmed period of time (tFD) 
+and then shifts to the slow decay mode for the reminder 
+of the fixed off-time. 
+Decay mode is selected by the voltage on the DECAY 
+pin (VDECAY). If the voltage is higher than 0.6 × VCC, slow 
+decay mode is selected and if it is less than 0.2 × VCC, 
+fast decay mode is used. When VDECAY is between 
+these levels, mixed decay mode is enabled and the 
+duration of fast portion (tFD) is determined by VDECAY as 
+approximated by (1): 
+CC
+FD
+X
+X
+DECAY
+0.6
+V
+t
+R
+C
+ln
+V
+
+
+×
+=
+×
+×
+
+
+
+          (1)
+ 
+where RX and CX are the same resistor and capacitor 
+connected to RCx inputs. 
+Figure 6 shows the blanking, fixed off-time and the 
+mixed decay mode for two PWM cycles. Each step (or 
+micro-step) may last for several 
+PWM cycles 
+depending on the speed of rotation and the DC current 
+level is maintained by PWM chopping during the step 
+time. Current ripple is smaller with shorter PWM 
+off-time and higher VM voltage. 
+RCA or 
+RCB
+0.6 × VCC
+Pin DECAY Voltage
+0.2 × VCC
+Current
+Blanking
+Fast 
+Decay
+Slow 
+Decay
+ 
+Figure 6. PWM Waveform 
+
+ 
+SGM42630 
+Stepper Motor Driver IC 
+ 
+ 
+10 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Auto-Decay Mode 
+The device features an auto-decay mode in which it 
+can shift between mixed decay and slow decay 
+automatically to minimize current ripple. No external 
+decay setting is needed in this mode. The chip enters 
+auto-decay mode when nSR pin is floating. 
+ 
+Auto-Decay Performance 
+ 
+Current (2A/div) 
+ 
+ 
+ 
+Time (50ms/div) 
+ 
+ 
+Table 1. Decay Mode Selections 
+DECAY Pin Voltage 
+nSR 
+Decay Mode 
+0V ~ 0.2 × VCC 
+L 
+Fast Decay 
+0.2 × VCC ~ 0.6 × VCC 
+L 
+Mixed Decay 
+> 0.6 × VCC 
+L 
+Slow Decay 
+X 
+Floating 
+Auto-Decay 
+X 
+H 
+Fast Decay through Body 
+Diode 
+ 
+X = Don’t Care 
+Current Regulation 
+PWM chopping is used for current regulation in the 
+H-bridges. Motor windings typically have a large 
+inductance of a few mH with a few ohms of DC 
+resistance. H-bridge can apply VM, 0 or -VM voltage 
+across the winding and the current will start to rise or 
+fall depending on the applied voltage and polarity with a 
+time constant (L/R). Bridge current is sensed across 
+shunt resistor connected to ISENx and is multiplied by 
+a gain of 8 before being compared to the current setting 
+reference voltage coming from VREF input and scaling 
+DACs. Each PWM pulse will turn off (chopped) when 
+the comparator detects that the trip current level is 
+reached. The maximum current deliverable to the 
+winding (100% or full-scale) can be calculated by (2): 
+×
+REF
+FS
+SENSE
+V
+I = 8 R
+ 
+(2)
+ 
+Assuming RSENSE = 0.1Ω and VREF = 1.8V, the chopping 
+current (100% full-scale) will be 2.25A. 
+Microstepping is commonly used to get fractional step 
+sizes and smoother rotation. With microstepping, the 
+windings currents (IA and IB) are scaled with 
+predetermined ratios stored in a table, such that the 
+resulting magnetic field vector direction inside the 
+motor can be adjusted with small angle steps while 
+keeping the magnitude relatively constant for a steady 
+torque. Microstepping allows for very fine steps and 
+much less mechanical and electrical noise generation. 
+The cost is lower rotation speed and less than 
+maximum torque. Scaling of the current is implemented 
+by weighting the reference voltage using the DACs. 
+The microstepping indexer table is preloaded with the 
+scale values of each micro-step. More details are given 
+in the Microstepping Indexer section. 
+When the H-bridge starts a PWM pulse, the transient 
+noise may affect the current sensing circuit and cause 
+false detection. Therefore, for a short current sense 
+blanking time (tBLANK) that is typically a few micro- 
+seconds the current sensing is ignored. After the 
+blanking time, the current is sensed and when the 
+reference (chopping current value) is reached, the 
+pulse is switched off for a fixed off-time (tOFF) duration. 
+The resistor and capacitor connected to the RCx pins, 
+determine the blanking and off-time of bridge x (A or B) 
+that are approximated by (3) and (4): 
+OFF
+X
+X
+t
+ 
+ 1.1 
+ R  
+ C
+=
+×
+×
+             (3) 
+The recommended selection range for RX is 12kΩ to 
+100kΩ and for CX is 0.47nF to 3nF.  
+BLANK
+X
+t
+ 
+ 1.4 
+ C  
+ 1
+=
+×
++
+             (4) 
+The unit of CX is nF. tBLANK has a typical value of 2.4μs if 
+Cx is less than 1nF. Other cases can refer to the 
+Equation 4. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+SGM42630 
+Stepper Motor Driver IC 
+ 
+ 
+11 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Microstepping Indexer 
+Table 2 shows four main microstepping configurations 
+that are selectable for the embedded indexer using 
+USM1 and USM0 pins. The scaling values of A and B 
+currents for microstepping and the resulting step sizes 
+for all 4 options of USM1/USM0 (00, 01, 10, 11) are 
+shown in Table 3 for DIR = high direction. 
+With each rising edge of the STEP input, the indexer 
+goes to the next state in the table. With DIR = low, the 
+sequence is reversed. Current is defined positive when 
+it flows from OUT1 to OUT2. These specific values 
+form a near sinusoidal current in the windings (IA and IB) 
+when motor is stepped in a constant speed, resulting in 
+very 
+small 
+audible 
+noise 
+and 
+vibration 
+(wave 
+microstepping). The scale values set the chopping 
+threshold (ITRIP) for current regulation as a percentage 
+of the full-scale current (IFS) for each step. The home 
+state is at 45° in which A and B windings are both 
+excited with equal 71% of IFS. After a reset or power-up, 
+the indexer resets to the home state and output 
+nHOME pin is driven low only at this state. 
+Table 2. Microstepping Selection Bits 
+USM1 
+USM0 
+Step Mode 
+0 
+0 
+Full step (2-phase excitation) 
+0 
+1 
+1/2 step (1-2 phase excitation) 
+1 
+0 
+1/4 step (W1-2 phase excitation) 
+1 
+1 
+1/8 step 
+ 
+ 
+Table 3. Microstepping Indexer with DIR = 1 Direction 
+Full Step Pulsing 
+(USM = 00) 
+1/2 Step Pulsing  
+(USM = 01) 
+1/4 Step Pulsing 
+(USM = 10) 
+1/8 Step Pulsing 
+(USM = 11) 
+AOUTx Current 
+(% Full-Scale) 
+BOUTx Current 
+(% Full-Scale) 
+Step Angle (°) 
+ 
+1 
+1 
+1 
+100 
+0 
+0 
+ 
+ 
+ 
+2 
+98 
+20 
+11.25 
+ 
+ 
+2 
+3 
+92 
+38 
+22.5 
+ 
+ 
+ 
+4 
+83 
+56 
+33.75 
+1 
+2 
+3 
+5 
+71 
+71 
+45 (home state) 
+ 
+ 
+ 
+6 
+56 
+83 
+56.25 
+ 
+ 
+4 
+7 
+38 
+92 
+67.5 
+ 
+ 
+ 
+8 
+20 
+98 
+78.75 
+ 
+3 
+5 
+9 
+0 
+100 
+90 
+ 
+ 
+ 
+10 
+-20 
+98 
+101.25 
+ 
+ 
+6 
+11 
+-38 
+92 
+112.5 
+ 
+ 
+ 
+12 
+-56 
+83 
+123.75 
+2 
+4 
+7 
+13 
+-71 
+71 
+135 
+ 
+ 
+ 
+14 
+-83 
+56 
+146.25 
+ 
+ 
+8 
+15 
+-92 
+38 
+157.5 
+ 
+ 
+ 
+16 
+-98 
+20 
+168.75 
+ 
+5 
+9 
+17 
+-100 
+0 
+180 
+ 
+ 
+ 
+18 
+-98 
+-20 
+191.25 
+ 
+ 
+10 
+19 
+-92 
+-38 
+202.5 
+ 
+ 
+ 
+20 
+-83 
+-56 
+213.75 
+3 
+6 
+11 
+21 
+-71 
+-71 
+225 
+ 
+ 
+ 
+22 
+-56 
+-83 
+236.25 
+ 
+ 
+12 
+23 
+-38 
+-92 
+247.5 
+ 
+ 
+ 
+24 
+-20 
+-98 
+258.75 
+ 
+7 
+13 
+25 
+0 
+-100 
+270 
+ 
+ 
+ 
+26 
+20 
+-98 
+281.25 
+ 
+ 
+14 
+27 
+38 
+-92 
+292.5 
+ 
+ 
+ 
+28 
+56 
+-83 
+303.75 
+4 
+8 
+15 
+29 
+71 
+-71 
+315 
+ 
+ 
+ 
+30 
+83 
+-56 
+326.25 
+ 
+ 
+16 
+31 
+92 
+-38 
+337.5 
+ 
+ 
+ 
+32 
+98 
+-20 
+348.75 
+ 
+
+ 
+SGM42630 
+Stepper Motor Driver IC 
+ 
+ 
+12 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Protection Circuits 
+Over-Current Protection (OCP) 
+Each MOSFET is protected by its own preset over- 
+current limit. In case of an over-current (any direction), 
+the whole bridge will be disabled (shutdown) for about 
+1s, or until nENABLE pin is toggled high and low, or 
+until power is recycled. An over-current may occur due 
+to a short between a switching node and ground or to 
+the VM supply line or to the other node of the bridge (a 
+winding short). Current protections are independent of 
+PWM current sensing or VREF voltage. (If synchronous 
+rectification is disabled, current should not exceed 1.3A 
+in body diodes.) 
+Microstepping indexer will be reset to the home state if 
+an over-current shutdown happens. 
+ 
+Thermal Shutdown (TSD) 
+All bridges and drivers are shutdown if a junction over- 
+temperature occurs in the device and the microstepping 
+indexer is reset to the home state. Once the temperature 
+goes back to the safe level, device resumes its operation. 
+ 
+Under-Voltage Lockout (UVLO) 
+If any of the source voltage (VMA, VMB, VCP, VGD or 
+VCC) falls below the under-voltage lockout threshold, 
+device will be disabled, and the microstepping indexer 
+resets to the home state. Device resumes operation 
+when all of them go back above their UVLO thresholds.
+nRESET 
+When the nRESET pin is pulled low, the H-bridges are 
+both disabled and the microstepping indexer is reset to 
+the home state. Pulses on the STEP input are ignored 
+while nRESET is low. 
+ 
+nENABLE 
+The nENABLE pin controls the H-bridge drivers but has 
+no effect on the control logic or microstepping indexer 
+operation. Output drivers are enabled when nENABLE 
+is low, and goes to the high impedance state when 
+nENABLE is high. Other controls including the indexer 
+STEP and DIR inputs are functional when nENABLE is 
+high. 
+ 
+nSLEEP 
+To idle the device and put it in the low-power sleep 
+mode, the nSLEEP pin can be pulled low. In the sleep 
+mode, all H-bridges are disabled, internal clocks are 
+paused and the charge pumps for the gate drivers are 
+stopped. All logic inputs are ignored in sleep mode. 
+ 
+ 
+ 
+ 
+
+ 
+SGM42630 
+Stepper Motor Driver IC 
+ 
+ 
+13 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+Figure 7 shows a typical system application circuit of the SGM42630 for driving a bipolar stepper motor with the 
+design requirements given in Table 4. 
+VMA
+nSLEEP
+nENABLE
+AOUT2
+CP2
+CP1
+VCP
+GND
+VGD
+STEP
+BOUT2
+nRESET
+nSR
+VMB
+ISENA
+nHOME
+DIR
+AOUT1
+DECAY
+RCA
+VREF
+RCB
+VCC
+BOUT1
+USM1
+USM0
+ISENB
++
+0.1μF/50V
+VM
+Stepper
+Motor
+-
++
+-
+100μF
+VM
++
+100mΩ
+0.1μF/50V
+SGM42630
+10kΩ
+10kΩ
+VCC
+0.1μF
+1000pF
+10kΩ
+10kΩ
+VCC
+1000pF
+VCC
+47kΩ
+47kΩ
+100mΩ
+VM
+0.22μF
+0.22μF
+0.22μF/50V
+VM
+0.1μF
+ 
+Figure 7. Typical Application Schematic 
+ 
+Table 4. Design Parameters 
+Design Parameter 
+Example Value 
+Power Supply Voltage, VM 
+24V 
+Motor Winding Resistance, RL 
+4.0Ω 
+Motor Winding Inductance, IL 
+3.7mH 
+Motor Full Step Angle, θstep 
+1.8°/step 
+Target Microstepping Level, nm 
+8 micro-steps/step 
+Target Motor Speed, v 
+120rpm 
+Target Full-Scale Current, IFS 
+1.25A 
+ 
+Detailed Design Procedure 
+Rotation speed (rpm) and micro-step/step number (nm) 
+determine the pulse frequency needed for the SGM42630 
+driver. If a constant speed is required, a pulse 
+sequence with frequency of fSTEP should be applied to 
+the STEP pin. A high micro-step/step number results in 
+smoother motion, low vibration and audible noise. The 
+drawbacks of the high nm number are higher switching 
+losses due to higher fSTEP needed and less torque in the 
+motor plus the risk of motor stall if torque/speed 
+requirements are not considered. Motors have different 
+mechanical speed limits for startup and running that are 
+controlled by step frequency. Moreover, there are 
+maximum torque limits (for acceleration or deceleration) 
+that are mainly controlled by current. So, proper 
+acceleration and stepping profiles must be considered 
+in the controller to match the application needs. Using 
+the SGM42630 as driver, the controller can set the nm 
+using USM0 and USM1 inputs. 
+Equation 5 gives the required step frequency (fSTEP) to 
+run a motor with the rotational speed v (rpm), when nm 
+micro-step/step is used for a motor with a full step 
+angle of θstep degrees per step (°/step): 
+(
+)
+(
+)
+(
+)
+(
+)
+(
+)
+
+
+µ
+×
+°
+×
+
+
+µ
+
+
+× θ
+°
+µ
+STEP
+step
+steps
+v rpµ
+360
+/Rotation
+n
+step
+steps
+f
+Hz =
+=
+sec
+60 sec/µin
+/step
+ (5) 
+For this application, the required step frequency for 
+speed of 120rpm (2 turns/sec) will be: 
+×
+×
+×
+STEP
+120
+360
+8
+f
+ = 
+ = 3200Hz
+60 1.8
+          (6) 
+ 
+ 
+ 
+
+ 
+SGM42630 
+Stepper Motor Driver IC 
+ 
+ 
+14 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+Current Regulation Setting 
+The full-scale current (IFS) is the maximum current that 
+can be driven through each winding. As explained in 
+the current regulation section, with VREF analog voltage 
+input and RSENSE sense resistor, the full scale current is 
+given by Equation 7. 
+=
+=
+×
+×
+REF
+REF
+FS
+V
+SENSE
+SENSE
+V
+(V)
+V
+(V)
+I (A)
+A
+R
+(Ω)
+8
+R
+(Ω)       (7) 
+where AV = 8 is the internal current sense gain of the 
+SGM42630 applied on the shunt resistor voltage before 
+reaching the comparator. Winding inductance and the 
+total driving path resistance (winding, H-bridge switches 
+and RSENSE) determine the time constant (L/R) of the 
+winding that along with the motor supply voltage (VM) 
+determines the rise and fall times of the winding current 
+during a PWM pulse. IFS defines the maximum current 
+chopping threshold (ITRIP). Note that the chopping 
+frequency is higher and independent of the step 
+frequency that determines the mechanical speed of the 
+rotor. 
+ 
+Bulk and Decoupling Capacitance on 
+Motor Supply 
+To achieve small voltage ripple and decouple the 
+impact of supply line inductances from interfering with 
+the system operation, bulk local capacitance near the 
+motor driver (VM supply) is needed as shown in Figure 
+8. Also, to decouple switching currents of the H-bridges, 
+small 
+high 
+frequency 
+decoupling 
+capacitor 
+is 
+recommended between VMx and GND pins.  
+To select the local capacitance, several factors should 
+be considered including the following: 
+ Maximum current needed by the motor. 
+ Supply capacitance and current sourcing capability. 
+ Parasitic inductance of supply lines. 
+ Acceptable voltage ripple. 
+ Motor parameters and required acceleration. 
+The power supply inductance causes drops and 
+oscillation on VM line if the local bulk capacitance is 
+insufficient.  
+Motor datasheets generally advise for the capacitance 
+value, however, it is recommended to do a system level 
+test to size the bulk capacitors properly. 
+Power 
+Supply
+Motor
+Driver
+Bypass
+Capacitor
+Parasitic Wire
+Inductance
++
+Motor Driver System
+VM
+GND
+Bulk 
+Capacitor
+ 
+Figure 8. Example Set-Up of Motor Drive System with 
+External Power Supply 
+ 
+Capacitor voltage rating should be considered well 
+higher than the operating voltage, to provide enough 
+margin when the energy transfer is reversed from 
+motor windings back to the VM supply line and they get 
+charged by the driver. 
+ 
+ 
+ 
+ 
+
+ 
+SGM42630 
+Stepper Motor Driver IC 
+ 
+ 
+15 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+MAY 2023 ‒ REV.A.4 to REV.B 
+Page 
+Updated Auto-Decay Mode section 
+.................................................................................................................................................................... 
+10 
+ 
+JUNE 2022 ‒ REV.A.3 to REV.A.4 
+Page 
+Updated Electrical Characteristics section ........................................................................................................................................................... 
+4 
+Updated Detailed Description section ................................................................................................................................................................ 
+10 
+ 
+JANUARY 2022 ‒ REV.A.2 to REV.A.3 
+Page 
+Updated Timing Parameters and Requirements section ...................................................................................................................................... 
+5 
+ 
+OCTOBER 2021 ‒ REV.A.1 to REV.A.2 
+Page 
+Updated Typical Performance Characteristics section ......................................................................................................................................... 
+7 
+Updated Detailed Description section ................................................................................................................................................................ 
+11 
+Updated Package Outline Dimensions section .................................................................................................................................................. 
+17 
+ 
+JANUARY 2021 ‒ REV.A to REV.A.1 
+Page 
+Updated Absolute Maximum Ratings section 
+....................................................................................................................................................... 
+2 
+ 
+Changes from Original (DECEMBER 2019) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00153.001 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TSSOP-28 (Exposed Pad) 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+ 
+1.200 
+ 
+0.047 
+A1 
+0.050 
+0.150 
+0.002 
+0.006 
+A2 
+0.800 
+1.050 
+0.031 
+0.041 
+b 
+0.190 
+0.300 
+0.007 
+0.012 
+c 
+0.090 
+0.200 
+0.004 
+0.008 
+D 
+9.600 
+9.800 
+0.378 
+0.386 
+D1 
+5.300 
+5.700 
+0.209 
+0.224 
+E 
+4.300 
+4.500 
+0.169 
+0.177 
+E1 
+2.400 
+2.800 
+0.094 
+0.110 
+E2 
+6.200 
+6.600 
+0.244 
+0.260 
+e 
+0.650 BSC 
+0.026 BSC 
+L 
+1.000 BSC 
+0.039 BSC 
+L1 
+0.450 
+0.750 
+0.018 
+0.030 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+3. Reference JEDEC MO-153. 
+ 
+c
+L1
+θ
+E
+E2
+D
+b
+e
+A
+A1
+A2
+5.94
+0.65
+0.42
+1.78
+RECOMMENDED LAND PATTERN (Unit: mm)
+D1
+E1
+5.5
+2.6
+L
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TSSOP-28 
+(Exposed Pad) 
+13″ 
+17.6 
+6.80 
+10.20 
+1.60 
+4.0 
+8.0 
+2.0 
+16.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

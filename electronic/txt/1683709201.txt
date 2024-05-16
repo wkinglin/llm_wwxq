@@ -1,0 +1,2187 @@
+ 
+SGM4554 
+1-Bit Bidirectional Voltage-Level 
+Translator with Auto Direction Sensing 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+MAY 2023 – REV. A. 1 
+GENERAL DESCRIPTION 
+The SGM4554 is a 1-bit, non-inverting, bidirectional 
+voltage-level translator which features two independent 
+configurable power-supply lines. The A and B ports 
+track the VCCA supply and VCCB supply respectively. The 
+supply voltage range is 1.2V to 5.0V for A port and 
+1.65V to 5.5V for B port. The device provides a 
+bidirectional translation function among the different 
+voltage nodes (including 1.2V, 1.5V, 1.8V, 2.5V, 3.3V 
+and 5V). 
+The SGM4554 has an output enable (OE) function, 
+which controls the outputs states. When OE goes low, 
+all outputs enter into the high-impedance state. The OE 
+should be connected to GND via a pull-down resistor, 
+and the minimum resistor value is depended on the 
+current source capability of the driver. 
+The SGM4554 is available in Green UTDFN-1.45×1-6L 
+and SC70-6 packages. It operates over an ambient 
+temperature range of -40℃ to +85℃. 
+FEATURES 
+● Power Supply Voltage Range (VCCA ≤ VCCB) 
+ A Port: 1.2V to 5.0V 
+ B Port: 1.65V to 5.5V 
+● Support VCCA or VCCB Isolation 
+ When VCCA or VCCB is Low, Device Enters 
+Power-Down Mode 
+● OE Input Circuit Referenced to VCCA 
+● Support Partial-Power-Down Function 
+● Support Push-Pull Output 
+● Low Power Consumption 
+● -40℃ to +85℃ Operating Temperature Range 
+● Available in Green UTDFN-1.45×1-6L and SC70-6 
+Packages 
+ 
+APPLICATIONS 
+Universal Asynchronous Receiver/Transmitter  
+General Purpose I/O (GPIO) 
+ 
+ 
+ 
+ 
+ 
+TYPICAL APPLICATION 
+SGM4554
+1.8V
+Controller
+I/O
+GND
+GND
+GND
+A
+B
+I/O
+3.3V
+Controller
+1.8V
+3.3V
+VCCA
+VCCB
+OE
+0.1μF
+0.1μF
+ 
+Figure 1. Typical Application Circuit 
+ 
+ 
+
+1-Bit Bidirectional Voltage-Level 
+SGM4554 
+Translator with Auto Direction Sensing 
+ 
+ 
+2 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM4554 
+SC70-6 
+-40℃ to +85℃ 
+SGM4554YC6G/TR 
+SM1XX 
+Tape and Reel, 3000 
+UTDFN-1.45×1-6L 
+-40℃ to +85℃ 
+SGM4554YUDL6G/TR 
+N7X 
+Tape and Reel, 5000 
+ 
+MARKING INFORMATION 
+NOTE: X = Date Code. XX = Date Code. 
+SC70-6 
+UTDFN-1.45×1-6L 
+Date Code - Year 
+Date Code - Month 
+Serial Number
+YYY X X
+ 
+Date Code - Year 
+Serial Number
+YY X
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Supply Voltage Range 
+VCCA, VCCB .......................................................... -0.3V to 6V 
+Input Voltage Range, VI (1)  ................................. -0.3V to 6V 
+Output Voltage Range for the High-Impedance or Power-Off 
+State, VO (1) 
+A Port 
+................................................................. -0.3V to 6V 
+B Port 
+................................................................. -0.3V to 6V 
+Output Voltage Range for the High or Low State, VO (1) (2) 
+A Port 
+................................................... 
+-0.3V to VCCA + 0.3V 
+B Port 
+................................................... 
+-0.3V to VCCB + 0.3V 
+Input Clamp Current, IIK (VI < 0)  ................................. 
+-50mA 
+Output Clamp Current, IOK (VO < 0)  
+............................ 
+-50mA 
+Continuous Output Current, IO .................................... ±50mA 
+Continuous Current through VCCA, VCCB, or GND 
+ 
+.................................................................................. ±100mA 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s)  .......................... 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+MM 
+................................................................................. 
+400V 
+ 
+NOTES: 
+1. When the input and output current ratings are observed, 
+the input and I/O negative voltage ratings may be exceeded. 
+2. VCCA and VCCB values are shown in the recommended 
+operating conditions in Electrical Characteristics section. 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Temperature Range 
+....................... -40℃ to +85℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged by ESD if you don’t 
+pay attention to ESD protection. SGMICRO recommends that 
+all integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because very small parametric changes could cause the 
+device not to meet its published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+
+1-Bit Bidirectional Voltage-Level 
+SGM4554 
+Translator with Auto Direction Sensing 
+ 
+ 
+3 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+(TOP VIEW) 
+(TOP VIEW) 
+VCCB
+VCCA
+GND
+A
+B
+OE
+3
+2
+6
+5
+4
+1
+ 
+3
+2
+6
+5
+4
+1
+VCCB
+B
+OE
+VCCA
+GND
+A
+ 
+SC70-6 
+UTDFN-1.45×1-6L 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+SC70-6 
+UTDFN-1.45×1-6L 
+1 
+6 
+VCCA 
+Supply Voltage on A Port. It can be operated from 1.2V to 5.0V, and VCCA is 
+always ≤ VCCB.  
+2 
+5 
+GND 
+Ground. 
+3 
+4 
+A 
+Input/Output A. It tracks the VCCA supply. 
+4 
+3 
+B 
+Input/Output B. It tracks the VCCB supply. 
+5 
+2 
+OE 
+Output Enable Control Pin. Active high. When OE goes low, all outputs 
+enter into the high-impedance state. It tracks the VCCA supply. 
+6 
+1 
+VCCB 
+Supply Voltage on B Port. It can be operated from 1.65V to 5.5V.  
+ 
+ 
+ 
+ 
+
+1-Bit Bidirectional Voltage-Level 
+SGM4554 
+Translator with Auto Direction Sensing 
+ 
+ 
+4 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(Full = -40℃ to +85℃, typical values are at TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN 
+TYP 
+MAX 
+UNITS 
+Recommended Operating Conditions (1) 
+Supply Voltage 
+VCCA 
+ 
+ 
+1.2 
+ 
+5.0 
+V 
+VCCB 
+ 
+ 
+1.65 
+ 
+5.5 
+High-Level 
+Input Voltage 
+Data Inputs 
+VIH 
+VCCA = 1.2V to 5.0V, VCCB = 1.65V to 5.5V 
+ 
+VCCI × 
+0.85 
+ 
+VCCI 
+V 
+OE Input 
+VCCA = 1.2V to 5.0V, VCCB = 1.65V to 5.5V 
+ 
+VCCA × 
+0.85 
+ 
+5.5 
+Low-Level 
+Input Voltage 
+Data Inputs 
+VIL 
+VCCA = 1.2V to 5.0V, VCCB = 1.65V to 5.5V 
+ 
+0 
+ 
+VCCI × 
+0.2 
+V 
+OE Input 
+VCCA = 1.2V to 5.0V, VCCB = 1.65V to 5.5V 
+ 
+0 
+ 
+VCCA × 
+0.2 
+Input Transition 
+Rise or Fall Rate 
+A Port Input 
+Δt/ΔV 
+VCCA = 1.2V to 5.0V, VCCB = 1.65V to 5.5V 
+ 
+ 
+ 
+40 
+ns/V 
+B Port Input 
+VCCA = 1.2V to 5.0V, VCCB = 1.65V to 5.5V 
+ 
+ 
+ 
+40 
+Electrical Characteristics (1) (2) 
+A Port High-Level Output Voltage 
+VOHA 
+IOH = -20µA 
+VCCA = 1.2V 
++25℃ 
+ 
+1.05 
+ 
+V 
+VCCA = 1.4V to 5.0V 
+Full 
+VCCA - 0.4 
+ 
+ 
+A Port Low-Level Output Voltage 
+VOLA 
+IOL = 20µA 
+VCCA = 1.2V 
++25℃ 
+ 
+0.1 
+ 
+VCCA = 1.4V to 5.0V 
+Full 
+ 
+ 
+0.4 
+B Port High-Level Output Voltage 
+VOHB 
+IOH = -20µA 
+VCCB = 1.65V to 5.5V 
+Full 
+VCCB - 0.4 
+ 
+ 
+B Port Low-Level Output Voltage 
+VOLB 
+IOL = 20µA 
+VCCB = 1.65V to 5.5V 
+Full 
+ 
+ 
+0.4 
+Input Leakage 
+Current 
+OE 
+II 
+VCCA = 1.2V to 5.0V,  
+VCCB = 1.65V to 5.5V 
++25℃ 
+ 
+ 
+±1 
+μA 
+Full 
+ 
+ 
+±1.5 
+Power-Off Leakage 
+Current 
+A Port 
+IOFF 
+VI or VO = 0V to 5.0V,  
+VCCA = 0V, VCCB = 0V to 5.5V 
++25℃ 
+ 
+ 
+±0.5 
+Full 
+ 
+ 
+±1 
+B Port 
+VI or VO = 0V to 5.5V, 
+VCCA = 0V to 5.0V, VCCB = 0V 
++25℃ 
+ 
+ 
+±0.5 
+Full 
+ 
+ 
+±1 
+3-State Output 
+Leakage 
+A or B Port 
+IOZ 
+OE = GND, VCCA = 1.2V to 5.0V, 
+VCCB = 1.65V to 5.5V 
++25℃ 
+ 
+ 
+±0.5 
+Full 
+ 
+ 
+±1 
+Quiescent Supply Current 
+ICCA 
+VI = VCCI or GND, 
+IO = 0A 
+VCCA = 1.2V, 
+VCCB = 1.65V to 5.5V 
++25℃ 
+ 
+0.1 
+ 
+μA 
+VCCA = 1.4V to 5.0V,  
+VCCB = 1.65V to 5.5V 
+Full 
+ 
+ 
+10 
+VCCA = 5.0V,  
+VCCB = 0V 
+ 
+ 
+10 
+VCCA = 0V,  
+VCCB = 5.5V 
+ 
+ 
+-1 
+ICCB 
+VI = VCCI or GND, 
+IO = 0A 
+VCCA = 1.2V, 
+VCCB = 1.65V to 5.5V 
++25℃ 
+ 
+1 
+ 
+μA 
+VCCA = 1.4V to 5.0V,  
+VCCB = 1.65V to 5.5V 
+Full 
+ 
+ 
+10 
+VCCA = 5.0V,  
+VCCB = 0V 
+ 
+ 
+-1 
+VCCA = 0V,  
+VCCB = 5.5V 
+ 
+ 
+10 
+ 
+NOTES: 
+1. VCCI is the supply voltage associated with the input port. 
+2. VCCO is the supply voltage associated with the output port. 
+ 
+ 
+ 
+
+1-Bit Bidirectional Voltage-Level 
+SGM4554 
+Translator with Auto Direction Sensing 
+ 
+ 
+5 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(Full = -40℃ to +85℃, typical values are at TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN 
+TYP 
+MAX 
+UNITS 
+Quiescent Supply Current 
+ICCA + ICCB VI = VCCI or GND, 
+IO = 0A 
+VCCA = 1.2V, 
+VCCB = 1.65V to 5.5V 
++25℃ 
+ 
+1 
+ 
+μA 
+VCCA = 1.4V to 5.0V, 
+VCCB = 1.65V to 5.5V 
+Full 
+ 
+ 
+15 
+ICCZA 
+VI = VCCI or GND, 
+IO = 0A,  
+OE = GND 
+VCCA = 1.2V, 
+VCCB = 1.65V to 5.5V 
++25℃ 
+ 
+0.1 
+ 
+μA 
+VCCA = 1.4V to 5.0V, 
+VCCB = 1.65V to 5.5V 
+Full 
+ 
+ 
+10 
+ICCZB 
+VI = VCCI or GND, 
+IO = 0A,  
+OE = GND 
+VCCA = 1.2V, 
+VCCB = 1.65V to 5.5V 
++25℃ 
+ 
+0.1 
+ 
+μA 
+VCCA = 1.4V to 5.0V, 
+VCCB = 1.65V to 5.5V 
+Full 
+ 
+ 
+10 
+OE Input Capacitance () 
+CI 
+VCCA = 1.2V to 5.0V, VCCB = 1.65V to 5.5V 
++25℃ 
+ 
+4 
+ 
+pF 
+Input/Output 
+Capacitance  
+A Port 
+CIO 
+VCCA = 1.2V to 5.0V, VCCB = 1.65V to 5.5V 
++25℃ 
+ 
+4.5 
+ 
+pF 
+B Port 
+ 
+4.5 
+ 
+ 
+ 
+TIMING REQUIREMENTS 
+(TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+VCCB = 1.8V 
+VCCB = 2.5V 
+VCCB = 3.3V 
+VCCB = 5V 
+UNITS 
+TYP 
+TYP 
+TYP 
+TYP 
+(VCCA = 1.2V) 
+Data Rate 
+ 
+20 
+20 
+20 
+20 
+Mbps 
+Pulse Duration 
+(Data Inputs) 
+tW 
+50 
+50 
+50 
+50 
+ns 
+(VCCA = 1.5V) 
+Data Rate 
+ 
+40 
+40 
+40 
+40 
+Mbps 
+Pulse Duration 
+(Data Inputs) 
+tW 
+25 
+25 
+25 
+25 
+ns 
+(VCCA = 1.8V) 
+Data Rate 
+ 
+60 
+60 
+60 
+60 
+Mbps 
+Pulse Duration 
+(Data Inputs) 
+tW 
+17 
+17 
+17 
+17 
+ns 
+(VCCA = 2.5V) 
+Data Rate 
+ 
+ 
+100 
+100 
+100 
+Mbps 
+Pulse Duration 
+(Data Inputs) 
+tW 
+ 
+10 
+10 
+10 
+ns 
+(VCCA = 3.3V) 
+Data Rate 
+ 
+ 
+ 
+100 
+100 
+Mbps 
+Pulse Duration 
+(Data Inputs) 
+tW 
+ 
+ 
+10 
+10 
+ns 
+(VCCA = 5V) 
+Data Rate 
+ 
+ 
+ 
+ 
+100 
+Mbps 
+Pulse Duration 
+(Data Inputs) 
+tW 
+ 
+ 
+ 
+10 
+ns 
+ 
+ 
+
+1-Bit Bidirectional Voltage-Level 
+SGM4554 
+Translator with Auto Direction Sensing 
+ 
+ 
+6 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+SWITCHING CHARACTERISTICS 
+(VCCA = 1.2V, TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+VCCB = 1.8V 
+VCCB = 2.5V 
+VCCB = 3.3V 
+VCCB = 5V 
+UNITS 
+TYP 
+TYP 
+TYP 
+TYP 
+Propagation Delay 
+tPD 
+tPLH 
+A to B 
+22.1 
+20.7 
+19.9 
+19.4 
+ns 
+tPHL 
+31.1 
+29.3 
+29.9 
+31.5 
+tPLH 
+B to A 
+29.8 
+29.7 
+25.1 
+30.6 
+tPHL 
+22.8 
+19.9 
+20.1 
+18.2 
+Enable Time 
+tEN 
+tPZH 
+OE to A 
+66.9 
+67.3 
+66.7 
+65.8 
+ns 
+tPZL 
+48.2 
+47.6 
+47.2 
+46.2 
+tPZH 
+OE to B 
+32.6 
+28.8 
+28.5 
+29.6 
+tPZL 
+62.7 
+60.5 
+61.5 
+63.7 
+Disable Time 
+tDIS 
+tPHZ 
+OE to A 
+1161 
+1170 
+1165 
+1168 
+ns 
+tPLZ 
+521 
+524 
+528 
+529 
+tPHZ 
+OE to B 
+1135 
+1166 
+1180 
+1186 
+tPLZ 
+532 
+567 
+578 
+563 
+Rise Time 
+trA 
+A port 
+21.9 
+21.6 
+20.0 
+18.8 
+ns 
+trB 
+B port 
+3.9 
+2.3 
+1.9 
+1.6 
+ns 
+Fall Time 
+tfA 
+A port 
+5.9 
+6.3 
+5.2 
+3.9 
+ns 
+tfB 
+B port 
+2.3 
+1.9 
+1.7 
+1.6 
+ns 
+Data Rate 
+ 
+ 
+20 
+20 
+20 
+20 
+Mbps 
+ 
+ 
+SWITCHING CHARACTERISTICS (continued) 
+(VCCA = 1.5V, TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+VCCB = 1.8V 
+VCCB = 2.5V 
+VCCB = 3.3V 
+VCCB = 5V 
+UNITS 
+TYP 
+TYP 
+TYP 
+TYP 
+Propagation Delay 
+tPD 
+tPLH 
+A to B 
+14.8 
+14.2 
+13.2 
+12.5 
+ns 
+tPHL 
+15.1 
+12.3 
+11.7 
+12.9 
+tPLH 
+B to A 
+13.0 
+13.6 
+11.5 
+10.8 
+tPHL 
+11.9 
+9.9 
+9.5 
+8.3 
+Enable Time 
+tEN 
+tPZH 
+OE to A 
+28.9 
+29.0 
+28.8 
+28.6 
+ns 
+tPZL 
+27.6 
+23.3 
+22.2 
+21.7 
+tPZH 
+OE to B 
+22.8 
+18.4 
+17.4 
+17.1 
+tPZL 
+31.2 
+26.8 
+26.5 
+26.6 
+Disable Time 
+tDIS 
+tPHZ 
+OE to A 
+1141 
+1132 
+1139 
+1138 
+ns 
+tPLZ 
+536 
+531 
+535 
+534 
+tPHZ 
+OE to B 
+1112 
+1151 
+1165 
+1173 
+tPLZ 
+530 
+558 
+568 
+553 
+Rise Time 
+trA 
+A port 
+7.7 
+7.9 
+8.4 
+8.2 
+ns 
+trB 
+B port 
+4.0 
+2.3 
+1.8 
+1.5 
+ns 
+Fall Time 
+tfA 
+A port 
+3.1 
+2.9 
+3.0 
+2.4 
+ns 
+tfB 
+B port 
+2.3 
+2.0 
+1.8 
+1.6 
+ns 
+Data Rate 
+ 
+ 
+40 
+40 
+40 
+40 
+Mbps 
+ 
+ 
+ 
+
+1-Bit Bidirectional Voltage-Level 
+SGM4554 
+Translator with Auto Direction Sensing 
+ 
+ 
+7 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+SWITCHING CHARACTERISTICS (continued) 
+(VCCA = 1.8V, TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+VCCB = 1.8V 
+VCCB = 2.5V 
+VCCB = 3.3V 
+VCCB = 5V 
+UNITS 
+TYP 
+TYP 
+TYP 
+TYP 
+Propagation Delay 
+tPD 
+tPLH 
+A to B 
+11.3 
+12.3 
+11.4 
+10.6 
+ns 
+tPHL 
+11.0 
+8.8 
+8.0 
+8.4 
+tPLH 
+B to A 
+8.6 
+10.6 
+9.1 
+7.4 
+tPHL 
+9.2 
+6.8 
+8.0 
+5.7 
+Enable Time 
+tEN 
+tPZH 
+OE to A 
+19.0 
+19.0 
+19.0 
+19.1 
+ns 
+tPZL 
+21.7 
+17.9 
+16.5 
+15.8 
+tPZH 
+OE to B 
+20.1 
+15.6 
+14.6 
+14.0 
+tPZL 
+22.6 
+19.2 
+18.7 
+18.5 
+Disable Time 
+tDIS 
+tPHZ 
+OE to A 
+1170 
+1169 
+1170 
+1170 
+ns 
+tPLZ 
+541 
+540 
+541 
+542 
+tPHZ 
+OE to B 
+1099 
+1142 
+1157 
+1166 
+tPLZ 
+533 
+560 
+566 
+554 
+Rise Time 
+trA 
+A port 
+4.8 
+4.6 
+4.4 
+3.9 
+ns 
+trB 
+B port 
+4.3 
+2.3 
+1.8 
+1.6 
+ns 
+Fall Time 
+tfA 
+A port 
+2.3 
+2.6 
+2.5 
+2.3 
+ns 
+tfB 
+B port 
+2.3 
+2.1 
+1.8 
+2.2 
+ns 
+Data Rate 
+ 
+ 
+60 
+60 
+60 
+60 
+Mbps 
+ 
+ 
+SWITCHING CHARACTERISTICS (continued) 
+(VCCA = 2.5V, TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+VCCB = 2.5V 
+VCCB = 3.3V 
+VCCB = 5V 
+UNITS 
+TYP 
+TYP 
+TYP 
+Propagation Delay 
+tPD 
+tPLH 
+A to B 
+9.4 
+7.1 
+5.2 
+ns 
+tPHL 
+6.1 
+5.7 
+5.1 
+tPLH 
+B to A 
+7.8 
+5.5 
+4.6 
+tPHL 
+5.7 
+5.2 
+3.6 
+Enable Time 
+tEN 
+tPZH 
+OE to A 
+13.0 
+12.7 
+13.0 
+ns 
+tPZL 
+14.4 
+13.0 
+12.2 
+tPZH 
+OE to B 
+13.7 
+12.5 
+12.1 
+tPZL 
+14.5 
+14.1 
+13.4 
+Disable Time 
+tDIS 
+tPHZ 
+OE to A 
+1188 
+1188 
+1189 
+ns 
+tPLZ 
+571 
+571 
+573 
+tPHZ 
+OE to B 
+1127 
+1151 
+1158 
+tPLZ 
+566 
+570 
+553 
+Rise Time 
+trA 
+A port 
+2.6 
+3.2 
+3.7 
+ns 
+trB 
+B port 
+2.2 
+2.2 
+2.3 
+ns 
+Fall Time 
+tfA 
+A port 
+2.4 
+2.6 
+2.7 
+ns 
+tfB 
+B port 
+1.8 
+2.2 
+1.8 
+ns 
+Data Rate 
+ 
+ 
+100 
+100 
+100 
+Mbps 
+ 
+ 
+ 
+
+1-Bit Bidirectional Voltage-Level 
+SGM4554 
+Translator with Auto Direction Sensing 
+ 
+ 
+8 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+SWITCHING CHARACTERISTICS (continued) 
+(VCCA = 3.3V, TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+VCCB = 3.3V 
+VCCB = 5V 
+UNITS 
+TYP 
+TYP 
+Propagation Delay 
+tPD 
+tPLH 
+A to B 
+6.2 
+4.1 
+ns 
+tPHL 
+5.0 
+4.0 
+tPLH 
+B to A 
+5.0 
+3.7 
+tPHL 
+4.6 
+3.0 
+Enable Time 
+tEN 
+tPZH 
+OE to A 
+11.5 
+11.0 
+ns 
+tPZL 
+12.3 
+11.3 
+tPZH 
+OE to B 
+11.8 
+11.5 
+tPZL 
+12.4 
+11.7 
+Disable Time 
+tDIS 
+tPHZ 
+OE to A 
+1196 
+1190 
+ns 
+tPLZ 
+583 
+584 
+tPHZ 
+OE to B 
+1139 
+1150 
+tPLZ 
+578 
+557 
+Rise Time 
+trA 
+A port 
+5.8 
+2.8 
+ns 
+trB 
+B port 
+1.9 
+1.7 
+ns 
+Fall Time 
+tfA 
+A port 
+4.4 
+2.3 
+ns 
+tfB 
+B port 
+2.0 
+2.1 
+ns 
+Data Rate 
+ 
+ 
+100 
+100 
+Mbps 
+ 
+ 
+SWITCHING CHARACTERISTICS (continued) 
+(VCCA = 5V, TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+VCCB = 5V 
+UNITS 
+TYP 
+Propagation Delay 
+tPD 
+tPLH 
+A to B 
+3.5 
+ns 
+tPHL 
+2.9 
+tPLH 
+B to A 
+3.0 
+tPHL 
+2.6 
+Enable Time 
+tEN 
+tPZH 
+OE to A 
+11.5 
+ns 
+tPZL 
+11.7 
+tPZH 
+OE to B 
+11.3 
+tPZL 
+10.7 
+Disable Time 
+tDIS 
+tPHZ 
+OE to A 
+1196 
+ns 
+tPLZ 
+578 
+tPHZ 
+OE to B 
+1146 
+tPLZ 
+559 
+Rise Time 
+trA 
+A port 
+3.4 
+ns 
+trB 
+B port 
+1.7 
+ns 
+Fall Time 
+tfA 
+A port 
+3.1 
+ns 
+tfB 
+B port 
+1.7 
+ns 
+Data Rate 
+ 
+ 
+100 
+Mbps 
+ 
+ 
+ 
+
+1-Bit Bidirectional Voltage-Level 
+SGM4554 
+Translator with Auto Direction Sensing 
+ 
+ 
+9 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+OPERATING CHARACTERISTICS 
+(TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+CONDITIONS 
+VCCA 
+UNITS 
+1.2V 
+1.2V 
+1.5V 
+1.8V 
+2.5V 
+2.5V 
+3.3V 
+3.3V 
+5V 
+VCCB 
+5V 
+1.8V 
+1.8V 
+1.8V 
+2.5V 
+5V 
+3.3V 
+5V 
+5V 
+TYP 
+TYP 
+TYP 
+TYP 
+TYP 
+TYP 
+TYP 
+TYP 
+TYP 
+CPDA 
+A Port Input,  
+B Port Output 
+CL = 0,  
+f = 10MHz, 
+tr = tf = 1ns, 
+OE = VCCA 
+(Outputs Enabled) 
+61 
+56 
+13 
+6 
+7 
+7 
+8 
+8 
+9 
+pF 
+B Port Input,  
+A Port Output 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+10 
+pF 
+CPDB 
+A Port Input,  
+B Port Output 
+10 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+pF 
+B Port Input,  
+A Port Output 
+20 
+92 
+7 
+7 
+7 
+9 
+8 
+9 
+10 
+pF 
+CPDA 
+A Port Input,  
+B Port Output 
+CL = 0,  
+f = 10MHz, 
+tr = tf = 1ns, 
+OE = GND 
+(Outputs Disabled) 
+0.01 
+0.01 
+0.01 
+0.01 
+0.01 
+0.01 
+0.01 
+0.01 
+0.01 
+pF 
+B Port Input,  
+A Port Output 
+0.01 
+0.01 
+0.01 
+0.01 
+0.01 
+0.01 
+0.01 
+0.01 
+0.01 
+pF 
+CPDB 
+A Port Input,  
+B Port Output 
+0.01 
+0.01 
+0.01 
+0.01 
+0.01 
+0.01 
+0.01 
+0.01 
+0.01 
+pF 
+B Port Input,  
+A Port Output 
+0.01 
+0.01 
+0.01 
+0.01 
+0.01 
+0.01 
+0.01 
+0.01 
+0.01 
+pF 
+ 
+ 
+ 
+ 
+
+1-Bit Bidirectional Voltage-Level 
+SGM4554 
+Translator with Auto Direction Sensing 
+ 
+ 
+10 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+WAVEFORMS 
+Input
+50% VCCO
+50% VCCI
+tPLH
+Output
+tPHL
+ 
+ 
+Figure 2. Propagation Delay 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 3. Pulse Duration 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 4. Rise Time and Fall Time of Data Output 
+ 
+tPZL
+0.1 × VCCO
+tPZH
+VCCA/2
+VCCA
+VCCA/2
+tPLZ
+tPHZ
+VCCO
+0V
+VOL
+VOH
+0V
+OE Control
+Output Waveform A (1)
+VEXT at 2 × VCCO
+Output Waveform B (1)
+VEXT Open
+VCCO/2
+0.9 × VOH
+VOH/2
+ 
+ 
+NOTE: 
+1. Waveform A indicates an output that is high except for OE 
+is high. Waveform B indicates an output that is low except for 
+OE is high. 
+Figure 5. Enable and Disable Times 
+ 
+ 
+ 
+tW
+VCCI
+0V
+Input
+VCCI/2
+VCCI/2
+Output
+10% VCCO
+90% VCCO
+tR
+tF
+
+1-Bit Bidirectional Voltage-Level 
+SGM4554 
+Translator with Auto Direction Sensing 
+ 
+ 
+11 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TEST CIRCUIT 
+SGM4554
+VI
+VO
+CL
+RL
+VCCO
+VCCI
+RL
+VEXT
+ 
+ 
+Definitions for test circuit:  
+RL = Load resistance.  
+CL = Load capacitance includes jig and probe capacitance.  
+VEXT = External voltage for measuring switching times. 
+VCCI = Supply voltage associated with the input. 
+VCCO = Supply voltage associated with the output. 
+ 
+Figure 6. Test Circuit for Measuring Switching Times 
+ 
+ 
+
+1-Bit Bidirectional Voltage-Level 
+SGM4554 
+Translator with Auto Direction Sensing 
+ 
+ 
+12 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+Applications 
+For the application of the SGM4554, it is often used in the 
+voltage-level translation system. 
+ 
+Architecture 
+The SGM4554 can switch the direction of the transmission for 
+port A and port B automatically without any external control. 
+The output drivers can keep high or low in a DC state, 
+however, they are designed to be weak so that they can be 
+overdriven by external drivers when the data on the bus starts 
+flowing in the opposite direction. 
+Figure 7 shows the architecture of an SGM4554 cell. The 
+main explanation of the internal circuit for the SGM4554 is 
+shown as below: 
+ The one-shot circuitry can be used to detect the rising 
+edges or the falling edges of the signal for port A and port 
+B automatically. 
+ When in the rising edge, two PMOSFETs (T1 and T3) are 
+turned on by one-shot in a short time. The feature speeds 
+up the transition from low to high.  
+ When in the falling edge, two NMOSFETs (T2 and T4) are 
+turned on by one-shot in a short time. The feature speeds 
+up the transition from high to low. 
+ The output impedance is 140Ω (TYP) when VCCO voltage 
+range is from 1.2V to 1.8V, it is 50Ω (TYP) when VCCO 
+voltage range is from 1.8V to 3.3V and 40Ω (TYP) when 
+VCCO voltage range is from 3.3V to 5V. 
+ 
+One-Shot
+One-Shot
+T4
+T3
+4kΩ
+VCCA
+One-Shot
+One-Shot
+T1
+T2
+4kΩ
+VCCB
+B
+A
+ 
+Figure 7. Architecture of an SGM4554 I/O Cell 
+ 
+Input Driver Requirements 
+Figure 8 shows a typical VIN vs. IIN curve. To ensure proper 
+operation, the SGM4554 data I/Os must be driven by a device 
+with a drive strength of at least ±2mA. 
+ 
+ 
+ 
+Figure 8. Typical VIN vs. IIN Curve 
+ 
+Power-Up 
+For the application of the SGM4554, the VCCA should be less 
+than VCCB. However, it does not matter if the power supply 
+voltage is ramping, and the sequence of power-up for both 
+VCCA and VCCB is not defined. The SGM4554 has a circuitry 
+that disables all output ports when either VCC is switched off 
+(VCCA/VCCB = 0V). 
+ 
+Enable and Disable 
+The function of OE is used to disable SGM4554 by setting the 
+transmitting I/O pins to high-impedance mode. The definition 
+of disable time (tDIS) is the time period between OE goes low 
+and when all of the I/O pins are in high-impedance mode. The 
+enable time (tEN) is defined as the time period between OE 
+goes to high position and one-shot part starts to operate. 
+ 
+Pull-Up or Pull-Down Resistors on I/O Lines 
+The SGM4554 features the drive capability that is designed to 
+drive up to 70pF capacitive loads. The output drivers have the 
+low DC drive strength. When the data I/Os are externally 
+connected to the pull-up or pull-down resistors, the values 
+must be greater than 50kΩ to ensure that they don’t conflict 
+with the output driver. Therefore, the SGM4554 is not used in 
+one-wire or I2C applications. For the bidirectional data I/Os, 
+an open-drain driver is connected. For these applications, 
+please use the open-drain output SGM4552 which is 
+pin-compatible with the SGM4554. 
+ 
+ 
+IIN
+VT/4kΩ
+-(VD - VT)/4kΩ
+VIN
+NOTES:
+1. VT = Input threshold voltage (typically VCCI/2).
+2. VD = External driver supply voltage.
+
+1-Bit Bidirectional Voltage-Level 
+SGM4554 
+Translator with Auto Direction Sensing 
+ 
+ 
+13 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+MAY 2023 ‒ REV.A to REV.A.1 
+Page 
+Updated Package Outline Dimensions section .................................................................................................................................................. 
+14 
+ 
+Changes from Original (AUGUST 2014) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00044.001 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SC70-6 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.800 
+1.100 
+0.031 
+0.043 
+A1 
+0.000 
+0.100 
+0.000 
+0.004 
+A2 
+0.800 
+1.000 
+0.031 
+0.039 
+b 
+0.150 
+0.350 
+0.006 
+0.014 
+c 
+0.080 
+0.220 
+0.003 
+0.009 
+D 
+2.000 
+2.200 
+0.079 
+0.087 
+E 
+1.150 
+1.350 
+0.045 
+0.053 
+E1 
+2.150 
+2.450 
+0.085 
+0.096 
+e 
+0.65 TYP 
+0.026 TYP 
+e1 
+1.300 BSC 
+0.051 BSC 
+L 
+0.525 REF 
+0.021 REF 
+L1 
+0.260 
+0.460 
+0.010 
+0.018 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+e
+e1
+E1
+E
+D
+b
+A
+A2
+A1
+L
+c
+θ
+0.20
+L1
+0.65
+0.75
+1.3
+0.4
+1.9
+RECOMMENDED LAND PATTERN (Unit: mm)
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00069.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+UTDFN-1.45×1-6L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.450 
+0.550 
+0.018 
+0.022 
+A1 
+0.000 
+0.050 
+0.000 
+0.002 
+A2 
+0.150 REF 
+0.006 REF 
+D 
+1.374 
+1.526 
+0.054 
+0.060 
+E 
+0.924 
+1.076 
+0.036 
+0.042 
+b 
+0.180 
+0.300 
+0.007 
+0.012 
+e 
+0.500 TYP 
+0.020 TYP 
+L 
+0.274 
+0.426 
+0.011 
+0.017 
+ 
+NOTE: This drawing is subject to change without notice. 
+ 
+ 
+L
+E
+A2
+A1
+A
+e
+b
+D
+SIDE VIEW
+BOTTOM VIEW
+TOP VIEW
+N1
+N6
+RECOMMENDED LAND PATTERN (Unit: mm)
+0.30
+0.49
+0.5
+0.75
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+SC70-6 
+7″ 
+9.5 
+2.40 
+2.50 
+1.20 
+4.0 
+4.0 
+2.0 
+8.0 
+Q3 
+UTDFN-1.45×1-6L 
+7″ 
+9.5 
+1.15 
+1.60 
+0.75 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 

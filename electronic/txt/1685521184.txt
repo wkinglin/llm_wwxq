@@ -1,0 +1,2380 @@
+ 
+SGM61720 
+High Efficiency, 2.5A, 60V Input 
+Synchronous Buck Converter 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+MAY 2023 – REV. B 
+GENERAL DESCRIPTION 
+The SGM61720 is a constant on-time control (COT) 
+synchronous Buck converter with a wide input voltage 
+range from 6V to 60V. The output voltage is adjustable 
+up to 24V using the internal reference voltage. This 
+device has 2.5A output current capability and operates 
+at an almost fixed quasi-constant frequency (depending 
+on VOUT setting). With light load, the inductor current 
+reaches zero in each cycle (DCM operation) and the 
+device shifts into power-save mode in which frequency 
+drops and becomes load dependent to maintain high 
+efficiency. 
+The SGM61720 offers a broad set of features including 
+input under-voltage lockout, internal soft-start, short- 
+circuit protection, current limiting and thermal shutdown. 
+Using COT architecture, the device is capable of high 
+step-down conversion ratios while offering excellent 
+transient response with no need for loop compensation. 
+The SGM61720 is available in a Green SOIC-8 (Exposed 
+Pad) package. 
+FEATURES 
+● Integrated 100mΩ/75mΩ Power MOSFETs 
+● Wide 6V to 60V Input Voltage Range 
+● 2.5A/5V Output Current Capability 
+● Constant On-Time (COT) Control 
+● Power-Save Mode and PWM Mode 
+● 1ms Internal Soft-Start for Inrush Current Limit 
+● Up to 24V Adjustable Output Voltage 
+● Pre-biased Startup 
+● -40℃ to +125℃ Operating Junction 
+Temperature Range 
+● Available in a Green SOIC-8 (Exposed Pad)  
+Package 
+ 
+APPLICATIONS 
+Non-Isolated Telecommunication Buck Regulators 
+Secondary High Voltage Post-Regulators 
+Automotive Systems 
+Mobile Base Stations 
+48V Industrial Systems 
+ 
+ 
+TYPICAL APPLICATION 
+BS
+FB
+SW
+IN
+EN
+LDO
+SGM61720
+GND
+CIN
+L
+CBS
+CVCC
+C1
+COUT
+R1
+R2
+VIN
+ON/OFF
+VOUT
+OUT
+C2
+R3
+R5
+ 
+Figure 1. Typical Application Circuit 
+ 
+ 
+
+High Efficiency, 2.5A, 60V Input 
+SGM61720 
+Synchronous Buck Converter 
+ 
+ 
+2 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM61720 
+SOIC-8 (Exposed Pad) 
+SGM61720YPS8G/TR 
+SGM 
+61720YPS8 
+XXXXX 
+Tape and Reel, 4000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code. 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Input Voltage 
+.................................................................... 
+65V 
+OUT Voltage 
+.................................................................... 
+30V 
+EN, SW Voltages ................................................... VIN + 0.3V 
+BS Voltage 
+............................................................... SW + 6V 
+FB Voltage 
+......................................................................... 
+6V 
+LDO Voltage ...................................................................... 
+6V 
+Package Thermal Resistance 
+SOIC-8 (Exposed Pad), θJA...................................... 39℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+2000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Supply Input Voltage Range ................................... 
+6V to 60V 
+Operating Junction Temperature Range ...... -40℃ to +125℃ 
+ 
+ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+ 
+
+High Efficiency, 2.5A, 60V Input 
+SGM61720 
+Synchronous Buck Converter 
+ 
+ 
+3 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+(TOP VIEW) 
+BS
+GND
+FB
+SW
+5
+6
+7
+8
+1
+2
+3
+4
+IN
+EN
+LDO
+OUT
+GND
+ 
+SOIC-8 (Exposed Pad) 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1 
+BS 
+Bootstrap Pin. Connect a 0.1μF ceramic capacitor between BS pin to SW pin. This capacitor 
+provides power supply to the integrated high-side MOSFET gate driver. 
+2 
+IN 
+Input Supply Voltage Pin. Decouple this pin to GND with a low ESR ceramic capacitor. 
+3 
+EN 
+Enable Pin. The device is enabled if the voltage on this pin exceeds the 1.5V rising threshold. It 
+can be used to program the UVLO with a resistor divider on the IN pin. Do not leave this pin 
+floating. 
+4 
+LDO 
+Internal LDO Voltage Output. Connect a 4.7μF ceramic capacitor from this pin to ground. 
+5 
+FB 
+Feedback (Sense) Input Pin for Output Voltage and Ripple. Connect to the center point of the 
+resistor divider to program the output voltage and the ripple injection network. 
+6 
+OUT 
+Supply Input for the Internal Circuit. The device internal circuit is not powered from IN when the 
+OUT voltage is above the internal threshold. The voltage of OUT must not exceed 30V. Note that 
+IN can be as high as 60V that is not suitable to power the device internal circuit. 
+7 
+GND 
+Device Ground. 
+8 
+SW 
+Switching Node. Connect this pin to the switching node of the output inductor. 
+GND 
+Exposed Pad Power Ground Exposed Pad. Must be connected to GND plane. 
+ 
+ 
+
+High Efficiency, 2.5A, 60V Input 
+SGM61720 
+Synchronous Buck Converter 
+ 
+ 
+4 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(TJ = +25℃, VIN = 48V, VOUT = 5V, IOUT = 1A, L = 22μH and COUT = 47μF, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Input Voltage Range 
+VIN 
+ 
+6 
+ 
+60 
+V 
+Quiescent Current 
+IQ 
+IOUT = 0, VFB = VREF × 105% 
+ 
+90 
+110 
+µA 
+Shutdown Supply Current 
+ISD 
+EN = GND 
+ 
+3 
+4 
+µA 
+SW Leakage Current 
+ISW 
+VSW = 60V 
+ 
+0.1 
+1 
+µA 
+EN Rising Input Threshold 
+VIH 
+VIN = 6V to 60V, TJ = -40℃ to +125℃ 
+1.5 
+ 
+ 
+V 
+EN Falling Input Threshold 
+VIL 
+VIN = 6V to 60V, TJ = -40℃ to +125℃ 
+ 
+ 
+1.1 
+V 
+Feedback 
+Feedback Reference Voltage 
+VREF 
+TJ = +25℃ 
+0.561 
+0.575 
+0.589 
+V 
+TJ = -40℃ to +125℃ 
+0.558 
+0.575 
+0.592 
+FB Input Current 
+IFB 
+VFB = 3.3V 
+-50 
+ 
+50 
+nA 
+Power Stage 
+High-side MOSFET On-Resistance 
+RDSON_HS 
+ISW = 200mA 
+ 
+100 
+ 
+mΩ 
+Low-side MOSFET On-Resistance 
+RDSON_LS 
+ISW = 200mA 
+ 
+75 
+ 
+mΩ 
+Current Limit 
+High-side Current Limit 
+ILIM_HS 
+Maximum inductor peak current 
+ 
+4.5 
+ 
+A 
+Low-side Current Limit 
+ILIM_LS 
+Maximum inductor valley current 
+ 
+1.5 
+ 
+A 
+Input Under-Voltage Lockout 
+Input UVLO Rising Threshold 
+VUVLO 
+VIN rising 
+4.5 
+5 
+5.4 
+V 
+Input UVLO Hysteresis 
+VUVLO_HYS  
+ 
+0.7 
+ 
+V 
+Oscillator 
+Switching Frequency 
+fS 
+VIN = 24V, VOUT = 5V 
+ 
+300 
+ 
+kHz 
+Timing Requirements 
+Minimum On-Time 
+tON 
+ 
+ 
+120 
+ 
+ns 
+Minimum Off-Time 
+tOFF 
+ 
+ 
+200 
+ 
+ns 
+Soft-Start Time 
+tSS 
+ 
+ 
+1 
+ 
+ms 
+Over-Temperature Protection 
+Thermal Shutdown 
+TSD 
+Junction temperature rising 
+ 
+160 
+ 
+℃ 
+Thermal Shutdown Hysteresis 
+THYS 
+Junction temperature falling 
+ 
+30 
+ 
+℃ 
+ 
+ 
+
+High Efficiency, 2.5A, 60V Input 
+SGM61720 
+Synchronous Buck Converter 
+ 
+ 
+5 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+TA = +25℃, VIN = 24V, L = 22μH and COUT = 2×47μF, unless otherwise noted. 
+ 
+ 
+Output Voltage Ripple 
+ 
+ 
+ 
+Output Voltage Ripple 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+VIN 
+ 
+ 
+ 
+VSW 
+ 
+ 
+ 
+IL 
+ 
+10mV/div 20V/div  20V/div   500mA/div 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+VIN 
+ 
+ 
+ 
+VSW 
+ 
+ 
+ 
+IL 
+ 
+20mV/div 20V/div  20V/div   2A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (200μs/div) 
+ 
+ 
+ 
+Time (2μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Startup through Enable 
+ 
+ 
+ 
+Startup through Enable 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+VEN 
+ 
+VSW 
+ 
+ 
+ 
+IL 
+  
+5V/div  5V/div  20V/div    1A/div 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+VEN 
+ 
+VSW 
+ 
+ 
+ 
+IL 
+ 
+5V/div  5V/div  20V/div    2A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Startup through VIN 
+ 
+ 
+ 
+Startup through VIN 
+ 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+VIN 
+ 
+VSW 
+ 
+ 
+ 
+IL 
+ 
+2V/div 20V/div  20V/div       1A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+VIN 
+ 
+VSW 
+ 
+ 
+ 
+IL 
+ 
+2V/div 20V/div  20V/div      2A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+ 
+VIN = 24V, VOUT = 5V, IOUT = 2A 
+VIN = 24V, VOUT = 5V, IOUT = 0A 
+AC Coupled 
+AC Coupled 
+VIN = 48V, IOUT = 0A 
+VIN = 48V, IOUT = 2A 
+VIN = 24V, VOUT = 5V, IOUT = 2A 
+VIN = 24V, VOUT = 5V, IOUT = 0A 
+
+High Efficiency, 2.5A, 60V Input 
+SGM61720 
+Synchronous Buck Converter 
+ 
+ 
+6 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, VIN = 24V, L = 22μH and COUT = 2×47μF, unless otherwise noted. 
+ 
+ 
+Shutdown through Enable 
+ 
+ 
+ 
+Shutdown through Enable 
+ 
+ 
+VOUT 
+ 
+VEN 
+ 
+ 
+ 
+ 
+ 
+VSW 
+ 
+ 
+IL 
+ 
+2V/div    5V/div   20V/div 500mA/div 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+VEN 
+ 
+ 
+VSW 
+ 
+ 
+ 
+IL 
+ 
+2V/div  5V/div  20V/div   2A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (500ms/div) 
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Shutdown through VIN 
+ 
+ 
+ 
+Shutdown through VIN 
+ 
+ 
+VOUT 
+ 
+VIN 
+ 
+ 
+ 
+VSW 
+ 
+ 
+ 
+ 
+IL 
+ 
+2V/div10V/div 10V/div 500mA/div 
+ 
+ 
+VOUT 
+ 
+VIN 
+ 
+ 
+ 
+VSW 
+ 
+ 
+ 
+IL 
+ 
+2V/div 20V/div 20V/div  2A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (20ms/div) 
+ 
+ 
+ 
+Time (10ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Short-Circuit Recovery 
+ 
+ 
+ 
+Short-Circuit Entry 
+ 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+VIN 
+ 
+VSW 
+ 
+ 
+ 
+IL 
+ 
+2V/div   50V/div 50V/div  2A/div 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+VIN 
+ 
+VSW 
+ 
+ 
+ 
+IL 
+ 
+2V/div   50V/div 50V/div  2A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (5ms/div) 
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+VIN = 48V, IOUT = 2A 
+VIN = 48V, IOUT = 0A 
+VIN = 24V, VOUT = 5V, IOUT = 0A 
+VIN = 24V, VOUT = 5V, IOUT = 2A 
+VIN = 48V, VOUT = 5V, IOUT = 2A 
+VIN = 48V, VOUT = 5V, IOUT = 2A 
+
+High Efficiency, 2.5A, 60V Input 
+SGM61720 
+Synchronous Buck Converter 
+ 
+ 
+7 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, VIN = 24V, L = 22μH and COUT = 2×47μF, unless otherwise noted. 
+ 
+ 
+Pre-biased Startup 
+ 
+ 
+ 
+Load Transient Response 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+VEN 
+ 
+VSW 
+ 
+ 
+ 
+IL 
+ 
+2V/div     5V/div 50V/div  1A/div 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+ 
+ 
+100mV/div                 1A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+    Efficiency vs. Load Current 
+     Load Regulation 
+ 
+ 
+ 
+ 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+0
+0.5
+1
+1.5
+2
+Efficiency (%) 
+Load Current (A) 
+VIN = 12V 
+VIN = 24V 
+VIN = 48V 
+VOUT = 5V, Inductor DCR = 33mΩ 
+-0.4
+-0.2
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2
+0
+0.5
+1
+1.5
+2
+Change in VOUT (%) 
+Load Current (A) 
+VOUT = 5V 
+VIN = 12V 
+VIN = 24V 
+VIN = 48V 
+AC Coupled 
+VIN = 24V, IOUT = 300mA to 2A, SR = 2.5A/μs 
+
+High Efficiency, 2.5A, 60V Input 
+SGM61720 
+Synchronous Buck Converter 
+ 
+ 
+8 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAM 
+Figure 2 shows the block diagram of the SGM61720 synchronous Buck converter with the integrated low RDSON 
+N-channel MOSFET switches. 
+PWM Control
+&
+Protection Logic
+On-Timer
+Thermal
+Shutdown
+Input
+UVLO
+-
++
+Linear
+Regulator
+Linear
+Regulator
+VREF
+LDO
+IN
+BS
+SW
+GND
+FB
+EN
+OUT
+ 
+ 
+Figure 2. Block Diagram 
+NOTE: The OUT is a power input pin that is connected to VOUT. 
+ 
+DETAILED DESCRIPTION 
+Overview 
+The SGM61720 is a high input voltage synchronous 
+Buck regulator with constant on-time control (COT) of 
+high step-down conversion ratios. This device provides 
+superior line and load regulations, cycle-by-cycle current 
+limit, fast transient response and pre-biased startup 
+capability, all with a simple passive compensation 
+network. An internal precision reference voltage and a 
+fixed soft-start timer are included. Several protection 
+features such as input under-voltage lockout, output 
+over-voltage protection, short-circuit, cycle-by- cycle 
+over-current protection, and thermal shutdown are 
+integrated to ensure safe operation. 
+Constant On-Time Control 
+In conventional voltage mode control (VMC) or current 
+mode control (CMC) converters, a fixed frequency clock 
+timing signal generates a sawtooth ramp that is 
+compared with the compensation network output to 
+adjust the PWM duty cycle (on-time) as control variable 
+and regulate the output voltage. The compensator uses 
+the voltage and/or current feedback(s) to govern the 
+control variable and keep the output regulated with fast 
+reaction to load or VIN variations. The existence of the 
+compensator in VMC or CMC converter inherently 
+introduces some delay in the loop response. Unlike 
+VMC or CMC, the constant on-time (COT) control is a 
+hysteretic mode control without any clock signal or 
+compensation amplifier. Each switching cycle is started 
+ 
+ 
+
+High Efficiency, 2.5A, 60V Input 
+SGM61720 
+Synchronous Buck Converter 
+ 
+ 
+9 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+with a constant on-time pulse when an internal 
+comparator senses that the output voltage is fallen 
+below the desired output voltage. Output voltage is 
+sensed by the feedback (FB) pin through an output 
+resistor divider and is compared to the internal reference 
+voltage (VREF) with a low gain error amplifier. The 
+amplifier output is sent to a comparator and when the 
+feedback voltage (VFB) falls below VREF, the comparator 
+triggers the on-time control logic that turns on the 
+high-side switch. The on-time (tON) is determined by VIN 
+as approximated by Equation 1: 
+=
+×
++
+−
+ON
+DELAY
+IN
+0.158 (MΩ)
+t
+ (μs)
+96
+t
+V
+0.4
+       (1)
+ 
+where tDELAY is almost 50ns (0.05µs). For higher VIN 
+values, the -0.4V term can be ignored. 
+At the end of the on-time, the high-side MOSFET is 
+turned off and after a very short dead-time the low-side 
+MOSFET is turned on. The dead-time is implemented 
+in the drivers to prevent shoot-through. The off-time 
+continues until the VFB falls below VREF threshold again 
+and ripple comparator triggers a new on-time pulse. 
+Each cycle starts when the VFB falls below VREF. The 
+controller does not allow the off-time to be shorter than 
+200ns (MIN) to ensure enough charge is received by 
+the bootstrap capacitor for powering the high-side 
+driver and also to provide sufficient time for the current 
+sensing circuit in the low-side switch to measure 
+current. The short blanking time is required to avoid 
+switching transition noise that may interfere with the 
+current measurement. 
+Figure 3 shows the basic timings of the COT converter 
+when it is operating in continuous conduction mode 
+(CCM) in which the inductor current stays above zero 
+during the whole switching cycle. With light load, the 
+inductor current reaches zero that will be discussed 
+later. During the on-time, the inductor current has a 
+rising slope and during the off-time it will be decreasing. 
+The next on-time pulse starts when the VFB falls below 
+VREF threshold. The required VFB ripple (peak-to-peak) 
+range for proper detection by ripple amplifier and 
+comparator for stable PWM operation is roughly 
+between 30mV to 200mV. Note that based on the 
+operating principle of the COT converter, the ripple has 
+to be in phase with the inductor ripple for stable 
+operation, that is, when the inductor current is at its 
+valley and the on-time needs to be started, the VFB 
+voltage should also be at the lowest to trigger the 
+comparator and start the on-pulse in the right time. If 
+there is a considerable phase delay in the ripple, the 
+on-pulses start at the wrong times and COT pulse 
+timing will not be stable (unstable frequency). With low 
+ESR capacitors, lack of proper ripple phase or 
+magnitude may occur, and cause stability issues as will 
+be discussed later.  
+L
+ΔI
+(
+)
+≈
+×
+OUT
+L PP
+ΔV
+ESR
+ΔI
+(
+)
+=
+×
++
+FB
+OUT
+2
+1
+2
+ΔV
+ΔV
+R / R
+R
+IL
+IOUT
+VOUT
+VFB
+VREF
+SW
+Comparator
+Time
+Inductor Ripple
+Output Ripple
+OUT
+ΔV
+FB
+ΔV
+Feedback Ripple
+OFF
+ON
+T=1/fS
+tON
+tOFF
+ 
+Figure 3. Basic Constant On-Time Control 
+(The VOUT capacitive ripple (∆IL/8fSC) is ignored.) 
+ 
+ 
+ 
+ 
+ 
+
+High Efficiency, 2.5A, 60V Input 
+SGM61720 
+Synchronous Buck Converter 
+ 
+ 
+10 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+A Deeper Look into the Ripple 
+In COT control, the sensed ripple valleys determine the 
+switching cycle timing, therefore the ripple must be 
+clean from high frequency noise and appear with 
+proper magnitude and phase on the FB pin (with 
+respect to inductor current ripple) for stable operation. A 
+real output capacitor has a parasitic ESR (equivalent 
+series resistance) that results in two main components 
+in the output voltage ripple (∆VOUT). Almost all inductor 
+current ripple (AC component or ∆IL) passes through 
+the output capacitor while the DC current (IL) goes to 
+the load. The AC current multiplied by the ESR of the 
+capacitor produces the ESR component of the voltage 
+ripple (Vrr = ESR ⨯ ∆IL) that is clearly in phase with the 
+inductor ripple. However, the capacitive ripple component 
+is due to the AC voltage variation of the capacitor which 
+is caused by the charge and discharge with the inductor 
+AC current. For the component (harmonic) of the 
+inductor current, the capacitive ripple is almost (Vcr ≈ 
+∆IL/8fSC) which is 90° lag compared to the resistive 
+ripple (Vrr) component.  
+The actual ripple includes higher order switching 
+harmonics, but the main harmonic (at fS) is usually the 
+dominant component and by ignoring the higher order 
+components, the overall phase lag of the output voltage 
+ripple is estimated by the relative magnitudes of 
+resistive (ESR) and capacitive ripple components (ESR 
+and │ZC│=1/2πfSC). The phase lag is given by 
+tan-1((2πfSC⨯ESR)-1). All lags and delays caused by the 
+feedback network, parasitic elements of the FB path and 
+the amplifier/comparator delays, should be considered for 
+the evaluation of the actual feedback phase lag that 
+affect the stability.  
+As an example, for a 100μF ceramic capacitor with 
+ESR = 2mΩ and operating at fS = 500kHz, the phase 
+lag will be around 57° that is significant. However, for a 
+300μF capacitor with ESR = 10mΩ operating at 1MHz, 
+the lag will be only 3°. Higher switching frequency may 
+improve stability; however, significant phase lag may 
+be introduced by the low gain amplifier and comparator 
+at higher frequencies. Moreover, minimum on-time will 
+limit the step-down ratio at higher frequencies, so a 
+compromised frequency should to be considered. 
+Higher output capacitance is usually implemented by 
+paralleling more capacitors that inherently reduces the 
+total effective ESR of the output capacitor due to 
+parallel operation. While high ESR is not normally 
+desired for better efficiency and higher RMS current 
+handling (less heating) in the capacitors, it is generally 
+preferred for stable COT operation. Therefore, a 
+compromise is always needed for proper design of 
+output capacitor to satisfy design requirements.  
+As ceramic capacitors are now commonly used for 
+most applications, some ripple injection techniques are 
+presented for stable operation of COT converters with 
+low ESR capacitors as will be explained later. 
+Power Supply Select 
+The power for internal circuit is taken from VIN when 
+VOUT is less than 5V, during power-up or when VOUT 
+setting is less than 5V. When VOUT > 5V, the internal 
+power supply will switch to the VOUT to reduce losses. 
+Power-Save Mode 
+Considering power usage, the SGM61720 has three 
+main operating modes: PWM mode, power-save mode 
+and sleep mode. When the SGM61720 operates in 
+continuous conduction mode (CCM) with heavy load, 
+the device operates in PWM mode with an almost 
+constant frequency. When it operates in discontinuous 
+conduction mode (DCM) with light load, the SGM61720 
+goes into the power-save mode in which internal power 
+dissipation is significantly reduced. Moreover, the 
+operating frequency starts to drop depending on the 
+load. At very light load and when the off-time exceeds 
+10μs, device goes to the sleep mode to lower internal 
+dissipation. 
+The details are explained in Figure 4 that shows the 
+timings of the COT control in DCM. Inductor current (IL) 
+is monitored with a zero-crossing detector and when IL 
+crosses the zero and goes slightly negative, both 
+high-side and low-side MOSFETs are turned off (if VFB > 
+0.575V). They will not turn on again until the VFB falls 
+below VREF and triggers a new on-time pulse. During 
+this off-time period, all non-essential circuits are shut 
+down to minimize losses and the load is supplied by the 
+output capacitor stored energy. The control circuitry 
+wakes up when the new on-pulse is triggered. When 
+the time between successive high-side pulses (t1) is 
+longer than 10μs, the device goes into sleep mode in 
+which the system current dissipation is only about 
+90μA. 
+ 
+ 
+
+High Efficiency, 2.5A, 60V Input 
+SGM61720 
+Synchronous Buck Converter 
+ 
+ 
+11 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+IL Crosses 0 and VFB＞0.575V
+Discontinuous Conduction Mode Starts
+IL 
+VFB
+VREF
+ZC
+VHSO
+VLSO
+0
+t1
+Estimated On-Time
+VFB < 0.575V. Wake up from
+Discontinuous Conduction Mode
+ 
+Figure 4. Power-Save Mode (DCM) 
+Reference Voltage 
+With the 0.575V internal precision reference voltage, it 
+is possible to set the output voltage down to 0.575V. 
+The accuracy of the internal reference is ±2.5% at +25℃ 
+and ±3% across -40℃ to +125℃ junction temperature. 
+A resistor divider between the output voltage, VOUT 
+(connected to the OUT input pin) and the FB pin, 
+programs the output voltage as given in the Equation 2: 
+
+
+=
+×
++
+
+
+
+
+1
+OUT
+REF
+2
+R
+V
+V
+1
+R
+           (2) 
+where R1 and R2 are the upper and lower resistors of 
+the voltage divider between OUT and GND pins. 
+Current limit 
+When an over-current occurs on the output, it will be 
+reflected on the SW node current. If the current in the 
+high-side switch exceeds its limit (almost 4.5A), the 
+high-side switch will automatically be turned off and 
+after a short dead-time, the low-side switch will be 
+turned on to take over the current in the inductor. If the 
+low-side switch current falls below 1.5A the current will 
+be considered normal and high-side switch will be 
+turned on again. 
+Output Over-Voltage Protection (OVP) 
+If the sensed voltage on the FB pin exceeds 110% of the 
+nominal value, it is considered an over-voltage event on 
+the output (VOUT_OV) and the device goes into the 
+over-voltage protection status. 
+Upon occurrence of an OVP, switching stops and both 
+high-side and low-side switches remain off. Due to the 
+excellent sink and source capability of the synchronous 
+output stage, in most cases, the error amplifier will be 
+able to maintain output in regulation and bring voltage 
+back to normal. If a higher external voltage is accidently 
+shorted to the converter output, an OVP event is 
+triggered to protect the low-side switch. In any case, the 
+regulator will automatically recover if the OVP fault is 
+cleared. 
+Thermal Shutdown (TSD) 
+The SGM61720 monitors junction temperature and will 
+stop PWM switching if it becomes too hot. If the junction 
+temperature exceeds +160 ℃ (TYP), the device is 
+forced to stop switching. It will recover automatically 
+when TJ the junction temperature decreases by 
+approximately 30℃. 
+Ripple Injection 
+The SGM61720 is a COT control device in which the 
+PWM timing is based on the output voltage ripple 
+feedback to the FB pin. As explained before, every time 
+the VFB voltage falls below VREF threshold, the high-side 
+switch is turned on and the inductor current starts to 
+rise. High-side switch is kept on for a constant on-time 
+which is determined by VIN as explained in Equation 1. 
+At the end of on-time, the high-side switch is turned off 
+and after a very short dead-time, the low-side switch is 
+turned on (off-time) and current in the inductor starts to 
+decrease. The next on-time and current rise in the 
+inductor start when the VFB falls below VREF threshold 
+again. Therefore, in COT control the ripple initiates 
+each cycle and there is no clock signal for switching. 
+ 
+ 
+
+High Efficiency, 2.5A, 60V Input 
+SGM61720 
+Synchronous Buck Converter 
+ 
+ 
+12 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+The required VFB peak-to-peak ripple range for stable 
+PWM operation is between 30mV to 200mV. At high 
+output voltage applications (typically VOUT > 5V), the 
+natural output ripple is usually large enough for proper 
+PWM operation because the output filter is usually 
+designed such that the output ripple magnitude is 
+roughly 1% to 2% of the output voltage. However, in 
+some design conditions like low output voltage 
+applications, such as a 1V, the output voltage ripple is 
+usually low (e.g. 10mV) and it will not be possible to get 
+enough in phase ripple on the FB pin without a new 
+strategy.  
+In fact, the ripple feedback is even lower than output 
+ripple due to the voltage divider. If the FB ripple is small, 
+the internal amplifier and comparator are not able to 
+sense that and the control will be lost. In such condition, 
+the output voltage is either not regulated or has large 
+ripple due to missing or wrong multiple pulses. With the 
+low ESR output capacitors such as ceramic ones, the 
+ripple is also small. Therefore ripple injection methods 
+are proposed for low output ripple applications to avoid 
+instability. 
+Remember that naturally, the output ripple (∆VOUT) has 
+two main components. One is in phase with inductor 
+ripple and is produced by the inductor AC current going 
+through the output capacitors (Vrr = ESR ⨯ ∆IL), and the 
+other one that has a lag phase is due to the charge and 
+discharge of capacitor by ∆IL current in each cycle 
+(estimated by Vcr ≈ ∆IL/8fsC). The output capacitor C is 
+usually designed large enough to filter switching ripples 
+such that ∆VOUT and output peak transients in response 
+to load changes, remain within the acceptable range in 
+the application. Too large output capacitor may result in 
+startup issues.  
+Three main cases can be classified based on the 
+amount of peak-to-peak feedback ripple (ΔVFB) and the 
+ripple injection technique used for COT converters.  
+Case1: If the output capacitor has large ESR, the 
+output ripple at the FB pin is mainly due to the ESR that 
+carries the inductor current ripple (see Figure 5). If the 
+output voltage is small (R2 is large compared to R1) the 
+ripples seen by FB pin are large enough and with 
+proper phase. In this case converter has a stable 
+operation without any ripple injection. The stability 
+criterion is: 
+<
+×
+×
+ON
+OUT
+t
+2 ESR
+C
+               (3) 
+The feedback voltage ripple is given by Equation 4: 
+≈
+×
+×
+2
+FB
+L
+1
+2
+R
+ΔV
+ESR
+ΔI
+R  + R
+            (4) 
+where: 
+ΔIL = peak-to-peak value of the inductor current ripple. 
+SGM61720
+L
+SW
+FB
+R1
+R2
+ESR
+COUT
+ 
+Figure 5. Feedback Circuit when Enough Ripple at FB Pin 
+ 
+Case 2: In this case, the in-phase ripple of the output is 
+large enough, but it is weakened by the resistor divider 
+(R2 is large compared to R1). As shown in Figure 6, a 
+small feed-forward capacitor (CFF), across the upper 
+resistor (R1) bypasses the resistor divider at the ripple 
+frequency (fS) and the ripple seen on the FB pin is 
+essentially the same as the output voltage ripple (not 
+weakened by the divider). The other advantage of 
+using CFF is the improvement of the converter transient 
+response, because feeding back the actual over/under- 
+voltage transients of the output with no weakening 
+helps a quicker reaction and faster response to 
+transients. In fact, it is sometimes used for applications 
+like Case 1 for better transient response. However, the 
+drawback of CFF is that it may worsen the regulation of 
+the converter output. Typically, the CFF value is chosen 
+between 1nF and 100nF (the impedance is typically a 
+few ohms to a few hundred ohms). 
+SGM61720
+L
+SW
+FB
+R1
+R2
+ESR
+COUT
+CFF
+ 
+Figure 6. Use of Feed-Forward Capacitor when 
+Inadequate Ripple at FB Pin 
+ 
+ 
+
+High Efficiency, 2.5A, 60V Input 
+SGM61720 
+Synchronous Buck Converter 
+ 
+ 
+13 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+With the feed-forward capacitor, the feedback voltage 
+ripple is very close to the output voltage ripple. 
+≈
+×
+FB
+L
+ΔV
+ESR
+ΔI               (5) 
+It is generally recommended to choose smaller values 
+for R1 and R2. Also, the time constant seen by CFF 
+should be much longer than switching period, that is 
+((R1||R2) × CFF≫
+1
+fS ). 
+Case 3: In modern designs, ceramic capacitors are 
+extensively used due to their small size and good 
+stability. Due to very low ESR of the output capacitors, 
+there is virtually no ripple at the FB pin. This is usually 
+more critical at low output voltage in which lower output 
+ripple is required (typically less than 20mV). Therefore, 
+additional ripple (in phase with inductor current) needs 
+to be injected artificially into the FB pin to keep stable 
+switching. The additional ripple can be injected from the 
+switching SW node by a series resistor (RINJ) and 
+capacitor (CINJ), as shown in Figure 7. 
+SGM61720
+SW
+FB
+R1
+R2
+ESR
+COUT
+CFF
+RINJ
+CINJ
+L
+ 
+Figure 7. Ripple Injection from SW Pin 
+ 
+Note that if too much ripple is injected, the transient 
+response will get worse, because the impact of the 
+actual output variations on the feedback signal is 
+reduced. The key point is that the ripple should be kept 
+as small as possible without losing the stability. It is 
+recommended to keep  ΔVFB between 30mV to 200mV. 
+The process of sizing the ripple injection resistor and 
+capacitors in Figure 7 is as follows: 
+• Select CFF to feed all output ripples into the feedback 
+pin. The impedance of CFF should be small compared 
+to the feedback divider impedance at the desired 
+switching frequency. The impedance of the feedback 
+network is the parallel combination of R1||R2. The 
+impedance of CFF at the switching frequency can be 
+taken to be about one tenth of this value. 
+×
+π
+1
+2
+FF
+S
+1
+2
+10
+(R +R )
+C
+ = 
+2 f R R
+                 (6) 
+• Select RINJ. When SW voltage is equal to VIN, the 
+current injected in the feed-forward capacitor CFF is 
+calculated as (VIN-VOUT)/RINJ, neglecting the DC 
+resistance of inductor and the small amount of current 
+flowing through R1 and R2. Given an injected voltage 
+ripple  ΔVFB  into the feedback node, RINJ can be 
+calculated as: 
+−
+×
+∆
+ON
+IN
+OUT
+INJ
+FF
+FB
+t
+V
+V
+R
+ = C
+V
+              (7) 
+• Select CINJ as DC blocking capacitor which should be 
+3 to 4 times larger than the CFF. 
+4
+=
+×
+INJ
+FF
+C
+C
+                   (8) 
+ 
+ 
+ 
+
+High Efficiency, 2.5A, 60V Input 
+SGM61720 
+Synchronous Buck Converter 
+ 
+ 
+14 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+Setting the Output Voltage 
+The output voltage of the regulator is determined by an 
+external resistor divider from the output node to the FB 
+pin as shown in Figure 8. It is recommended to use 
+resistors with 1% tolerance or better because it directly 
+affects the output accuracy. The recommended range 
+for selection of R1 is between 10kΩ to 100kΩ. Note that 
+the R1 value larger than 400kΩ is not recommended, 
+because it makes the feedback path more susceptible 
+to noise. To avoid the noise too large to disturb the VFB, 
+the R2 must less than 50kΩ. 
+
+
+=
+×
+
+
+
+1
+OUT
+2
+R
+V
+0.575
+1+R
+             (9) 
+SGM61720
+R1
+R2
+VOUT
+FB
+GND
+ 
+Figure 8. Setting the Output Voltage 
+ 
+Output Inductor (L) 
+Four parameters of the inductor should be considered 
+in the design: nominal inductance value, DC resistance, 
+saturation current and maximum RMS current. 
+A good compromise among size, loss, and cost is to set 
+the inductor ripple current to be equal to 40% of the 
+maximum output current. 
+(
+)
+×
+−
+=
+×
+×
+×
+OUT
+IN(MAX)
+OUT
+OUT(MAX)
+S
+IN(MAX)
+V
+V
+V
+L
+0.4 I
+f
+V
+         (10) 
+The peak inductor current is equal to the average 
+output current plus one half of the peak-to-peak 
+inductor current ripple. 
+=
++
+× ∆
+L(PK)
+OUT(MAX)
+L(PP)
+I
+I
+0.5
+I
+        (11) 
+The input and output voltages and the inductance of the 
+inductor determine the peak-to-peak inductor current 
+ripple (given by Equation 12). 
+(
+)
+×
+−
+∆
+=
+×
+×
+OUT
+IN(MAX)
+OUT
+L(PP)
+S
+IN(MAX)
+V
+V
+V
+I
+L
+f
+V
+         (12) 
+where: 
+ΔIL(PP) = peak-to-peak inductor current ripple. 
+fS = switching frequency. 
+Larger peak-to-peak current ripple increases the power 
+dissipation in the inductor and MOSFETs. Larger output 
+current ripple also requires more output capacitance to 
+smooth out the larger current ripple. Smaller peak-to- 
+peak current ripple requires a larger inductance value 
+and therefore a larger and more expensive inductor. 
+Output Capacitors 
+The output capacitors and inductor filter the AC part of 
+the PWM switching voltage and provide an acceptable 
+level of output voltage ripple superimposed on the 
+desired output DC voltage. Capacitors also store 
+energy to help maintaining of the output voltage 
+regulation during a load transient. The output voltage 
+ripple (ΔVOUT) depends on the output capacitor value at 
+the operating voltage and temperature (℃) and its 
+parasitics (ESR and ESL): 
+−
+∆
+∆
+= ∆×
++
+×
++
+IN
+OUT
+L
+OUT
+L
+S
+V
+V
+I
+V
+I
+ESR
+ESL
+L
+8f C
+     (13) 
+The voltage rating of the output capacitors should be 
+selected 
+with 
+enough 
+margins 
+to 
+ensure 
+that 
+capacitance drop (voltage and temperature derating) is 
+not significant. The type of output capacitors will 
+determine which terms of Equation 13 are dominant. 
+For ceramic output capacitors, the ESR and ESL are 
+virtually zero so the output voltage ripple will be 
+dominated by the capacitive term. 
+∆
+∆
+≈
+L
+OUT
+S
+I
+V
+8f C
+                (14) 
+To reduce the voltage ripple either switching frequency 
+or the total capacitance is increased. Inductance may 
+also be increased to reduce the inductor current ripple. 
+For electrolytic output capacitors, the value of 
+capacitance is relatively high, and the third term in 
+Equation 13 can be ignored compared to the ESR and 
+ESL terms: 
+−
+∆
+= ∆×
++
+×
+IN
+OUT
+OUT
+L
+V
+V
+V
+I
+ESR
+ESL
+L
+      (15) 
+ 
+
+High Efficiency, 2.5A, 60V Input 
+SGM61720 
+Synchronous Buck Converter 
+ 
+ 
+15 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+Higher quality capacitors, larger inductance or using 
+parallel capacitors can help reduce the output ripple in 
+a design using electrolytic output capacitors. The ESR 
+of some commercial electrolytic capacitors can be quite 
+high, and it is recommended to use quality capacitors 
+with the ESR or the total impedance clearly 
+documented in their datasheet. ESR of an electrolytic 
+capacitor may increase significantly at cold ambient 
+temperatures with a factor of 10 or so, which increases 
+the ripple and can deteriorate the regulator stability. 
+The transient response of the regulator also depends 
+on the quantity and type of output capacitors. In general, 
+reducing the ESR of the output capacitance will result 
+in a better transient response. The ESR can be 
+minimized by simply adding more capacitors in parallel 
+or by using higher quality capacitors. When a fast load 
+transient of magnitude ∆I and rate of di/dt occurs, the 
+output voltage will jump or dip by a transient magnitude 
+of ∆VOUT: 
+∆
+∆×
++
+×
+OUT
+di
+V
+= I ESR
+ESL
+dt
+          (16) 
+Right after the transient, the inductor current remains 
+almost constant especially for larger inductors and the 
+transient current is carried by the capacitor. The output 
+voltage will deviate from its nominal value for a short 
+time depending on the system bandwidth, the inductor 
+and the output capacitance. Eventually, the error 
+amplifier and feedback bring the output voltage back to 
+its nominal value. A higher bandwidth is usually 
+preferred to get shorter settling time; however, it may 
+be more difficult to get acceptable gain and phase 
+margins.  
+ 
+Input Capacitors 
+Four parameters of the input capacitors should be 
+considered in the design: capacitance value, ESR, 
+current rating and voltage rating. The capacitance 
+value should be large enough and ESR must be small 
+enough to limit the input voltage ripples much less than 
+the hysteresis of the input for UVLO (VUVLO_HYS). This 
+value is nominally 700mV for the SGM61720. The 
+worst case occurs at full load and minimum input 
+voltage. The CIN voltage rating should have adequate 
+design margin to handle the highest expected input 
+surge voltage. Also, the capacitance drop (derating) at 
+maximum operating voltage and the worst ambient 
+temperature must be considered for the design. Finally, 
+the capacitor RMS current rating must be higher than 
+the expected RMS input current to the regulator with 
+the temperature derating considerations. Note that the 
+input current has two main AC components that both 
+should circulate in the input capacitor and only the DC 
+component of regulator input must be taken from the 
+source. The AC current in the input capacitor includes a 
+high frequency component caused by switching 
+transients (due to the hard switching and gate driving) 
+and a main AC component caused by the inductor 
+ripple at the switching frequency. To decouple these 
+two currents, typically the two capacitor types should 
+be paralleled. Small low-ESR ceramic capacitor is used 
+right beside the IN and GND pins of the regulator to 
+carry the high frequency switching transients (ringings) 
+and larger capacitor is paralleled to carry the inductor 
+ripple and load transient currents to minimize the input 
+voltage ripple. The input capacitors must deliver the 
+RMS current according to: 
+RMS
+O
+I
+I
+D (1 D)
+=
+×
+−
+               (17) 
+where the duty cycle is D ≈ VOUT/VIN. For example, at D 
+= 20% duty cycle, the input/output current multiplier is 
+0.40. Therefore, if the regulator is delivering 3A of 
+steady-state load current, the input capacitor(s) must 
+support an RMS current of 1.2A (0.40 × 3A). 
+ 
+ 
+ 
+ 
+ 
+ 
+
+High Efficiency, 2.5A, 60V Input 
+SGM61720 
+Synchronous Buck Converter 
+ 
+ 
+16 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+The input capacitor(s) must limit the voltage deviations 
+at the IN pin to something significantly less than the 
+UVLO hysteresis during maximum load and minimum 
+input voltage. Considering a conservative factor of 0.83 
+for frequency deviation, the minimum input capacitance 
+can be calculated as follows: 
+×
+×
+−
+×
+× ∆
+OUT
+IN
+S
+IN(MIN)
+I
+∆(1 ∆)
+C >1.2
+f
+V
+           (18) 
+where ΔVIN(MIN) is chosen to be much less than the 
+hysteresis of the VIN UVLO comparator (ΔVIN(MIN) ≤ 
+150mV is recommended), and fS is the nominal PWM 
+frequency. The D × (1 - D) term in Equation 18 has an 
+absolute maximum value of 0.25 at 50% duty cycle. So, 
+for example, a very conservative design based on IOUT 
+= 2A, and VOUT = 5V (fS = 316kHz), D × (1 - D) = 0.25, 
+and ΔVIN = 150mV. 
+×
+≥
+×
+×
+IN
+2A
+0.25
+C
+1.2
+=12.7 F
+316kHz 150mV
+μ         (19) 
+As discussed before, DC bias effect (voltage derating) 
+on the ceramic capacitors needs to be considered. The 
+capacitance drop with voltage is huge with the Y5V and 
+Z5U temperature characteristic ceramic capacitors (as 
+much as 90% reduction) and these types should be 
+avoided. The X5R and X7R type capacitors are the 
+primary choices due to their stability against DC bias 
+and temperature. The DC bias drop effect is larger for 
+smaller 
+physical 
+capacitor 
+sizes, 
+however, 
+the 
+self-resonance frequency of larger package capacitors 
+is typically lower, so a compromise is needed. 
+Self-resonance frequency of the capacitor should be 
+higher than the expected operating frequency range of 
+the capacitor. Beyond the resonant, the impedance of 
+the capacitor will be more inductive rather than 
+capacitive. Self-resonance of the HF decoupling input 
+capacitors must be higher than the converter switching 
+noise and ringing frequency. It can be several times 
+higher than switching frequency. For this design, two 
+10uF capacitors are used for the input decoupling. To 
+improve high frequency filtering, a small parallel 0.22uF 
+capacitor is recommended to place as close as 
+possible to IN pin. 
+ 
+ 
+ 
+
+High Efficiency, 2.5A, 60V Input 
+SGM61720 
+Synchronous Buck Converter 
+ 
+ 
+17 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+LAYOUT GUIDE 
+The PCB layout is quite important in the power supply 
+design. An incorrect layout could cause many problems, 
+such as instability, load and line transient regulation 
+problems, output voltage noise, and EMI issues. Good 
+grounding becomes important, especially with heavy 
+load current.  
+The following PCB layout guide should be applied: 
+1. Use short, wide and direct traces for high-current 
+connections (IN, SW and GND). 
+2. Traces of switching node (SW) should be short and 
+away from feedback network traces. 
+3. Keep the BS voltage path as short as possible. 
+4. Place decoupling capacitors close to the IN and GND 
+pins. 
+5. If a bulk capacitor is used at output, add an additional 
+1µF ceramic capacitor or larger value as close as 
+possible to the OUT and GND pins. 
+6. Decoupling capacitors should be as close as possible 
+to the LDO and GND pins. 
+7. Place the feedback resistors as close as possible to 
+the FB pin that is sensitive to noise. 
+ 
+Figure 9. Top Layer 
+ 
+ 
+Figure 10. Bottom Layer 
+ 
+OUT
+SW
+BS
+IN
+LDO
+FB
+SGM61720
+GND
+C1A
+10μF
+GND
+C1B
+0.22μF
+C1
+10μF
+EN
+R4
+510kΩ
+L1
+22μH
+R3
+430kΩ
+VOUT = 5V
+IOUT = 2.5A (Max)
+C5
+0.1μF
+C4
+1.8nF
+C6
+470pF
+R1
+115kΩ
+R2
+15kΩ
+C2A
+47μF
+GND
+C2B
+47μF
+C2
+1μF
+GND
+GND
+VIN = 6V to 60V
+2
+3
+4
+7
+6
+1
+8
+5
+C3
+4.7μF
+R5
+10Ω 
+ 
+Figure 11. Typical Application Circuit 
+ 
+ 
+ 
+
+High Efficiency, 2.5A, 60V Input 
+SGM61720 
+Synchronous Buck Converter 
+ 
+ 
+18 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+MAY 2023 ‒ REV.A.4 to REV.B 
+Page 
+Changed Application Information 
+....................................................................................................................................................................... 
+14 
+ 
+MARCH 2023 ‒ REV.A.3 to REV.A.4 
+Page 
+Changed Pin Description, Detailed Description and Layout Guide ....................................................................................................... 1, 3, 11, 17 
+ 
+JANUARY 2023 ‒ REV.A.2 to REV.A.3 
+Page 
+Changed Detailed Description ........................................................................................................................................................................... 
+11 
+ 
+SEPTEMBER 2022 ‒ REV.A.1 to REV.A.2 
+Page 
+Changed Absolute Maximum Ratings, Block Diagram, Application Information and Typical Application Circuit.................................. 1, 2, 7, 8, 17 
+ 
+JUNE 2021 ‒ REV.A to REV.A.1 
+Page 
+Changed operating ambient temperature to operating junction temperature in General Description .................................................................... 1 
+ 
+Changes from Original (DECEMBER 2020) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00013.002 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOIC-8 (Exposed Pad) 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+ 
+ 
+1.700 
+A1 
+0.000 
+- 
+0.150 
+A2 
+1.250 
+- 
+1.650 
+b 
+0.330 
+- 
+0.510 
+c 
+0.170 
+- 
+0.250 
+D 
+4.700 
+- 
+5.100 
+D1 
+3.020 
+- 
+3.420 
+E 
+3.800 
+- 
+4.000 
+E1 
+5.800 
+- 
+6.200 
+E2 
+2.130 
+- 
+2.530 
+e 
+1.27 BSC 
+L 
+0.400 
+- 
+1.270 
+θ 
+0° 
+- 
+8° 
+ 
+NOTES:  
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+D
+E
+E1
+e
+b
+A
+A2
+A1
+c
+L
+θ
+E2
+D1
+3.22
+2.33
+0.61
+1.27
+1.91
+5.56
+RECOMMENDED LAND PATTERN (Unit: mm)
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1 
+Quadrant 
+DD0001 
+ 
+ 
+SOIC-8 
+(Exposed Pad) 
+13″ 
+12.4 
+6.40 
+5.40 
+2.10 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

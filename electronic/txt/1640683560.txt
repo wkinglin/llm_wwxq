@@ -1,0 +1,997 @@
+ 
+ 
+SGM6010 
+3A, 2MHz, Synchronous Buck Converter 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+APRIL2014–REV.A 
+GENERAL DESCRIPTION 
+The SGM6010 is a synchronous, buck DC/DC converter 
+with a range of 3V to 5.5V input voltage. This device is 
+capable to provide a 3A continuous output current. It 
+operates with a programmable frequency range of 
+300kHz to 2MHz. The SGM6010 is highly efficient with 
+peak efficiency at 95% when in operation. The 100% 
+duty cycle could make the lowest dropout. 
+The forced continuous pulse width modulation (PWM) 
+mode operation could decrease the ripple voltage to 
+the lowest level and reduce noise and RF interference 
+as well. No external power MOSFETs and Schottky 
+diode are required because of the internal synchronous 
+low on-resistance power switches. The external 
+compensation can improve the transient response 
+across the loads and output capacitors.  
+The SGM6010 is available in a Green TDFN-3×3-10L 
+package. It is rated over the -40℃ to +85℃ temperature 
+range. 
+ 
+ 
+FEATURES 
+● 3V to 5.5V Input Voltage Range 
+● Up to 95% High Efficiency 
+● 120mΩ Low RDS(ON) Internal Switches 
+● 300kHz to 2MHz Programmable Frequency 
+● 3A Output Current 
+● 0.8V Reference Allows Low Output Voltages 
+● Shutdown Current: 2μA (MAX) 
+● 100% Duty Cycle for Lowest Dropout 
+● Forced Continuous PWM Mode Operation 
+● No External Power MOSFETs and Schottky Diode 
+Required 
+● Excellent Line and Load Transient Responses 
+● -40℃ to +85℃ Operating Temperature Range 
+● Available in a Green TDFN-3×3-10L Package 
+ 
+ 
+APPLICATIONS 
+Digital Book Readers 
+Digital Cameras 
+Portable Instruments 
+Wireless and DSL Modems 
+Battery-Powered Systems 
+Microprocessor, DSP Power Supplies 
+ 
+ 
+TYPICAL APPLICATION 
+8
+PVDD
+GND
+AVDD
+SGM6010
+COMP
+SW
+FB
+SW
+VIN  5V
+CIN
+22μF
+L
+2.2μH
+C1
+22pF
+VOUT
+2.5V/3A
+6, 7
+1
+5
+9
+10
+3
+4
+2
+PGND
+COUT
+22μF×2
+R1
+510kΩ
+R2
+240kΩ
+RCOMP
+10kΩ
+CCOMP
+4000pF
+ROSC
+332kΩ
+EN/RT
+ 
+ 
+Figure 1. Typical Application Circuit 
+ 
+ 
+
+ 
+SGM6010 
+3A, 2MHz, Synchronous Buck Converter 
+ 
+ 
+2 
+APRIL 2014 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM6010 
+TDFN-3×3-10L 
+-40℃ to +85℃ 
+SGM6010YTD10G/TR 
+SGM 
+6010D 
+XXXXX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code and Vendor Code. 
+Date Code - Week
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Input Supply Voltage 
+............................................ -0.3V to 6V 
+Other I/O Voltages ................. -0.3V to (AVDD/PVDD + 0.3V) 
+SW Switch Voltage ........................... -0.3V to (PVDD + 0.3V) 
+Peak SW Sink and Source Current 
+................................. 
+3.6A 
+Power Dissipation, PD @ TA = +25℃ 
+TDFN-3×3-10L 
+............................................................... 
+2.2W 
+Package Thermal Resistance 
+TDFN-3×3-10L, θJA 
+.................................................... 45℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+2000V 
+MM 
+................................................................................. 
+200V 
+ 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Temperature Range ....................... 
+-40℃ to +85℃ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+
+ 
+SGM6010 
+3A, 2MHz, Synchronous Buck Converter 
+ 
+ 
+3 
+APRIL 2014 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+(TOP VIEW) 
+4
+1
+3
+5
+2
+7
+10
+8
+6
+9
+GND
+SW
+SW
+PGND
+COMP
+FB
+AVDD
+PVDD
+PVDD
+GND
+EN/RT
+ 
+TDFN-3×3-10L 
+ 
+ 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1 
+EN/RT 
+Oscillator Resistor Input. Put a resistor between this pin and ground to program the switching frequency. If this pin 
+connects to AVDD, the device will be shut down.  
+2 
+GND 
+Signal Ground. This pin connects all the small-signal components and compensation components which connect to 
+the PGND conversely. 
+3,4 
+SW 
+Internal Power MOSFET Switches Output. Put an inductor to this pin. 
+5 
+PGND 
+Power Ground. This pin is connected to the negative terminal of CIN and COUT with the shortest path. 
+6,7 
+PVDD 
+Power Input Supply. Put a capacitor to decouple this pin to PGND. 
+8 
+AVDD 
+Analog Signal Power Supply. Put a capacitor to decouple this pin to GND. Normally AVDD is equal to PVDD. 
+9 
+FB 
+Feedback Pin. Feedback voltage of a resistive divider connected across the output is received by this pin. 
+10 
+COMP 
+Error Amplifier Compensation Point. To stabilize the control loop, the external compensation elements are 
+connected to this pin. 
+Exposed 
+Pad 
+GND 
+Power Ground Exposed Pad. Must be connected to GND plane. 
+ 
+ 
+ 
+
+ 
+SGM6010 
+3A, 2MHz, Synchronous Buck Converter 
+ 
+ 
+4 
+APRIL 2014 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VIN = 3.3V, TA = -40℃ to +85℃, typical values are at TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Input Voltage Range 
+VIN 
+ 
+3 
+ 
+5.5 
+V 
+Feedback Reference Voltage 
+VREF 
+ 
+0.772 
+0.8 
+0.828 
+V 
+Feedback Input Bias Current 
+IFB 
+ 
+-0.4 
+0.1 
+0.4 
+μA 
+Input DC Bias Current 
+Active Mode 
+IS 
+VFB = 0.78V, ROSC = 332kΩ, 
+Not Switching 
+ 
+410 
+600 
+μA 
+Shutdown 
+ 
+ 
+ 
+2.0 
+Output Voltage Line Regulation 
+ΔVOUT 
+VIN = 2.6V to 5.5V 
+ 
+0.1 
+ 
+%/V 
+Output Voltage Load Regulation 
+VLOADREG 
+VIN = 5V, VOUT = 2.5V, 
+ILOAD = 0 to 3A 
+ 
+0.15 
+ 
+%/A 
+Error Amplifier Transconductance 
+gm 
+ 
+ 
+800 
+ 
+μs 
+Current Sense Trans-Resistance 
+ROSC 
+ 
+ 
+0.4 
+ 
+Ω 
+Oscillator Frequency 
+fOSC 
+ROSC = 332kΩ, TA = 25℃ 
+0.75 
+1 
+1.25 
+MHz 
+Switching Frequency 
+0.3 
+ 
+2 
+MHz 
+Switch On Resistance, High 
+RPMOS 
+ISW = 0.5A, TA = 25℃ 
+ 
+120 
+210 
+mΩ 
+Switch On Resistance, Low 
+RNMOS 
+ISW = 0.5A, TA = 25℃ 
+ 
+100 
+160 
+mΩ 
+Peak Current Limit 
+IPK 
+TA = 25℃ 
+3.3 
+3.5 
+ 
+A 
+Under-Voltage Lockout Threshold 
+UVLO 
+VDD Rising 
+ 
+2.2 
+ 
+V 
+VDD Failing 
+ 
+2.05 
+ 
+Shutdown Threshold 
+ 
+ 
+ 
+VIN - 0.7 
+VIN - 0.4 
+V 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+SGM6010 
+3A, 2MHz, Synchronous Buck Converter 
+ 
+ 
+5 
+APRIL 2014 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+ 
+Reference Voltage vs. Input Voltage
+0.795
+0.797
+0.799
+0.801
+0.803
+0.805
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+ Input Voltage (V)
+Reference Voltage (V)
+ 
+Quiescent Current vs. Input Voltage
+300
+350
+400
+450
+500
+550
+600
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Input Voltage (V)
+Quiescent Current (μA)
+Peak Current Limit vs. Input Voltage
+2.0
+2.5
+3.0
+3.5
+4.0
+4.5
+5.0
+3
+3.5
+4
+4.5
+5
+5.5
+Input Voltage (V)
+Current Limit (A)
+ 
+ 
+Reference Voltage vs. Temperature
+0.797
+0.798
+0.799
+0.800
+0.801
+0.802
+0.803
+0.804
+-50
+-25
+0
+25
+50
+75
+100
+Temperature (℃)
+Reference Voltage (V)
+VIN = 3.3V
+ 
+Quiescent Current vs. Temperature
+330
+355
+380
+405
+430
+455
+-50
+-25
+0
+25
+50
+75
+100
+Temperature (℃)
+Quiescent Current (μA)
+VIN = 3.3V
+ 
+Output Voltage vs. Temperature
+2.520
+2.522
+2.524
+2.526
+2.528
+2.530
+2.532
+-50
+-25
+0
+25
+50
+75
+100
+Temperature (℃)
+Output Voltage (V)
+VIN = 3.3V
+ILOAD = 0A
+ 
+ 
+ 
+
+ 
+SGM6010 
+3A, 2MHz, Synchronous Buck Converter 
+ 
+ 
+6 
+APRIL 2014 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+Efficiency vs. Load Current
+0
+20
+40
+60
+80
+100
+0.1
+1
+10
+100
+1000
+10000
+Load Current (mA)
+Efficiency (%)
+VIN = 5.0V
+VOUT = 2.5V
+VIN =5.5V
+VIN = 4.5V
+ 
+ 
+Frequency vs. Temperature
+1.05
+1.09
+1.13
+1.17
+1.21
+1.25
+-50
+-25
+0
+25
+50
+75
+100
+Temperature (℃)
+Frequency (MHz)
+ 
+ 
+ 
+ 
+Load Transient Response 
+ 
+ 
+ 
+ 
+Output Ripple 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+ILOAD 
+ 
+ 
+ 
+ 
+100mV/div       1A/div 
+ 
+ 
+ 
+VSW 
+VOUT 
+ 
+ 
+ 
+ 
+ILOAD 
+ 
+ 
+5V/div  10mV/div    2A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+ 
+Time (400ns/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Start-Up with Heavy Load 
+ 
+ 
+ 
+ 
+Start-Up with No Load 
+ 
+ 
+ 
+VIN 
+ 
+VSW 
+ 
+ 
+VOUT 
+ 
+IIN 
+ 
+ 
+2V/div  5V/div  2V/div 2A/div 
+ 
+ 
+ 
+ 
+VIN 
+VSW 
+ 
+ 
+VOUT 
+IIN 
+ 
+ 
+2V/div      5V/div 2V/div  500mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (400μs/div) 
+ 
+ 
+ 
+ 
+Time (400μs/div) 
+ 
+ 
+ 
+ 
+ 
+VIN = 5V, VOUT = 2.5V 
+IOUT = 0A to 3A 
+VIN = 5V, VOUT = 2.5V 
+IOUT = 0A to 3A 
+VIN = 5V, VOUT = 2.5V 
+IOUT = 3A 
+VIN = 5V, VOUT = 2.5V 
+IOUT = 0A 
+
+ 
+SGM6010 
+3A, 2MHz, Synchronous Buck Converter 
+ 
+ 
+7 
+APRIL 2014 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+Changes from Original (APRIL 2014) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00060.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TDFN-3×3-10L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.700 
+0.800 
+0.028 
+0.031 
+A1 
+0.000 
+0.050 
+0.000 
+0.002 
+A2 
+0.203 REF 
+0.008 REF 
+D 
+2.900 
+3.100 
+0.114 
+0.122 
+D1 
+2.300 
+2.600 
+0.091 
+0.103 
+E 
+2.900 
+3.100 
+0.114 
+0.122 
+E1 
+1.500 
+1.800 
+0.059 
+0.071 
+k 
+0.200 MIN 
+0.008 MIN 
+b 
+0.180 
+0.300 
+0.007 
+0.012 
+e 
+0.500 TYP 
+0.020 TYP 
+L 
+0.300 
+0.500 
+0.012 
+0.020 
+ 
+RECOMMENDED LAND PATTERN (Unit: mm)
+1.7
+2.8
+2.4
+0.6
+0.24
+0.5
+A
+N10
+N5
+N1
+D1
+E1
+SIDE VIEW
+BOTTOM VIEW
+TOP VIEW
+A1
+A2
+k
+b
+L
+e
+D
+E
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TDFN-3×3-10L 
+13″ 
+12.4 
+3.35 
+3.35 
+1.13 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

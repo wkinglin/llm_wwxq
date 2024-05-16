@@ -1,0 +1,1721 @@
+ 
+SGM722Q 
+Automotive, 11MHz, Rail-to-Rail I/O 
+CMOS Operational Amplifier 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+APRIL2024 – REV.A 
+GENERAL DESCRIPTION 
+The SGM722Q is a dual, low voltage, low noise and low 
+power operational amplifier for automotive applications. 
+This device can operate from 2.1V to 5.5V single supply, 
+and consumes low quiescent current. 
+The SGM722Q features a ±6.5mV maximum input offset 
+voltage. The minimum input common mode voltage is 
+within 0.1V below the negative rail, and the output 
+swing is rail-to-rail with heavy loads. It exhibits a high 
+gain-bandwidth product of 11MHz and a slew rate of 
+7V/μs. These specifications make the operational 
+amplifier appropriate for various applications. 
+The device is AEC-Q100 qualified (Automotive 
+Electronics Council (AEC) standard Q100 Grade 1) and 
+it is suitable for automotive applications. 
+The SGM722Q is available in Green SOIC-8 and 
+MSOP-8 packages. It operates over an ambient 
+temperature range of -40℃ to +125℃. 
+ 
+FEATURES 
+● AEC-Q100 Qualified for Automotive Applications 
+Device Temperature Grade 1 
+TA = -40℃ to +125℃ 
+● Input Offset Voltage: ±6.5mV (MAX) 
+● High Gain-Bandwidth Product: 11MHz 
+● High Slew Rate: 7V/μs 
+● Settling Time to 0.1% with 2V Step: 0.4μs 
+● Overload Recovery Time: 0.5μs 
+● Low Noise: 8.5nV/√Hz at 10kHz 
+● Rail-to-Rail Input and Output 
+● Supply Voltage Range: 2.1V to 5.5V 
+● Input Voltage Range: -0.1V to 5.6V with VS = 5.5V 
+● Low Quiescent Current: 1.2mA/Amplifier (TYP) 
+● Available in Green SOIC-8 and MSOP-8 Packages 
+ 
+APPLICATIONS 
+AEC-Q100 Grade 1 Applications 
+Sensors 
+Audio 
+Active Filters 
+A/D Converters 
+Communications 
+Test Equipment 
+Cellular and Cordless Phones 
+Laptops and PDAs 
+Photodiode Amplification 
+Battery-Powered Instrumentation 
+ 
+ 
+ 
+
+ 
+Automotive, 11MHz, Rail-to-Rail I/O 
+SGM722Q 
+CMOS Operational Amplifier 
+ 
+ 
+2 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM722Q 
+SOIC-8 
+-40℃ to +125℃ 
+SGM722QS8G/TR 
+0GNS8 
+XXXXX 
+Tape and Reel, 4000 
+MSOP-8 
+-40℃ to +125℃ 
+SGM722QMS8G/TR 
+0GO 
+MS8 
+XXXXX 
+Tape and Reel, 4000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code. 
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Supply Voltage, +VS to -VS .............................................. 
+6V 
+Input Common Mode Voltage Range 
+ ................................................. (-VS) - 0.3V to (+VS) + 0.3V 
+Package Thermal Resistance 
+SOIC-8, θJA 
+......................................................... 
+168.5℃/W 
+MSOP-8, θJA 
+....................................................... 
+159.4℃/W 
+Junction Temperature .............................................. 
++150℃ 
+Storage Temperature Range ....................... 
+-65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) .......................... 
++260℃ 
+ESD Susceptibility 
+HBM 
+......................................................................... 8000V 
+CDM 
+......................................................................... 1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Temperature Range .................... 
+-40℃ to +125℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+PIN CONFIGURATIONS 
+(TOP VIEW) 
+ 
+SOIC-8/MSOP-8 
+ 
+ 
+ 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+OUTB
++VS
++INB
+OUTA
+5
+6
+7
+8
+1
+2
+3
+4
+-INA
++INA
+-VS
+-INB
+
+ 
+Automotive, 11MHz, Rail-to-Rail I/O 
+SGM722Q 
+CMOS Operational Amplifier 
+ 
+ 
+3 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(At TA = +25℃, VS = 2.1V to 5V, VCM = VS/2 and RL = 600Ω, unless otherwise noted.) 
+PARAMETER 
+CONDITIONS 
+TYP 
+MIN/MAX OVER TEMPERATURE 
++25℃ 
++25℃ 
+-40℃ to 
++85℃ 
+-40℃ to 
++125℃ 
+UNITS 
+MIN/ 
+MAX 
+Input Characteristics 
+Input Offset Voltage (VOS) 
+ 
+±2 
+±5.5 
+±6 
+±6.5 
+mV 
+MAX 
+Input Bias Current (IB) 
+ 
+0.01 
+ 
+1 
+6 
+nA 
+MAX 
+Input Offset Current (IOS) 
+ 
+0.01 
+ 
+1 
+3 
+nA 
+MAX 
+Input Common Mode Voltage Range (VCM) VS = 5.5V 
+-0.1 to 5.6 
+ 
+ 
+ 
+V 
+TYP 
+Common Mode Rejection Ratio (CMRR) 
+VS = 2.1V, VCM = -0.1V to 2.2V 
+67 
+53 
+50 
+46 
+dB 
+MIN 
+VS = 5.5V, VCM = -0.1V to 4V 
+81 
+66 
+63 
+61 
+dB 
+MIN 
+VS = 5.5V, VCM = -0.1V to 5.6V 
+75 
+60 
+57 
+55 
+dB 
+MIN 
+Open-Loop Voltage Gain (AOL) 
+RL = 600Ω,  
+VOUT = 0.15V to (+VS) - 0.15V 
+86 
+80 
+72 
+62 
+dB 
+MIN 
+RL = 10kΩ,  
+VOUT = 0.05V to (+VS) - 0.15V 
+98 
+91 
+80 
+68 
+dB 
+MIN 
+Input Offset Voltage Drift (ΔVOS/ΔT) 
+ 
+5.5 
+ 
+ 
+ 
+μV/℃ 
+TYP 
+Output Characteristics 
+Output Voltage Swing from Rail 
+RL = 600Ω 
+76 
+100 
+110 
+120 
+mV 
+MAX 
+RL = 10kΩ 
+6 
+20 
+30 
+40 
+mV 
+MAX 
+Output Current (IOUT) 
+VS = 2.1V 
+±25 
+±19 
+±15 
+±13 
+mA 
+MIN 
+VS = 5V 
+±58 
+±48 
+±38 
+±34 
+mA 
+MIN 
+Closed-Loop Output Impedance 
+f = 1MHz, G = +1 
+9.5 
+ 
+ 
+ 
+Ω 
+TYP 
+Power Supply 
+Operating Voltage Range 
+ 
+ 
+ 
+ 
+2.1 
+V 
+MIN 
+ 
+ 
+ 
+5.5 
+V 
+MAX 
+Power Supply Rejection Ratio (PSRR) 
+VS = 2.1V to 5.5V, VCM = (-VS) + 0.5V 
+79 
+67 
+64 
+62 
+dB 
+MIN 
+Quiescent Current/Amplifier (IQ) 
+IOUT = 0A 
+1.2 
+1.5 
+1.7 
+1.85 
+mA 
+MAX 
+Dynamic Performance 
+Gain-Bandwidth Product (GBP) 
+CL = 50pF 
+11 
+ 
+ 
+ 
+MHz 
+TYP 
+Phase Margin (φO) 
+CL = 50pF 
+60 
+ 
+ 
+ 
+° 
+TYP 
+Full-Power Bandwidth (BWP) 
+＜1% distortion, VOUT = 1VP-P 
+200 
+ 
+ 
+ 
+kHz 
+TYP 
+Slew Rate (SR) 
+G = +1 
+6 
+ 
+ 
+ 
+V/μs 
+TYP 
+Settling Time to 0.1% (tS) 
+G = +1 
+0.4 
+ 
+ 
+ 
+μs 
+TYP 
+Overload Recovery Time 
+VIN × G = VS 
+0.8 
+ 
+ 
+ 
+μs 
+TYP 
+Noise Performance 
+Input Voltage Noise Density (en) 
+f = 1kHz 
+12.5 
+ 
+ 
+ 
+nV/√Hz TYP 
+f = 10kHz 
+8.5 
+ 
+ 
+ 
+nV/√Hz TYP 
+ 
+ 
+ 
+
+ 
+Automotive, 11MHz, Rail-to-Rail I/O 
+SGM722Q 
+CMOS Operational Amplifier 
+ 
+ 
+4 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+At TA = +25℃, VS = 5V, unless otherwise noted.  
+ 
+        Supply Current vs. Temperature 
+         PSRR vs. Temperature 
+ 
+ 
+         CMRR vs. Temperature 
+        CMRR vs. Temperature 
+ 
+ 
+        Open-Loop Voltage Gain vs. Temperature 
+ 
+        Open-Loop Voltage Gain vs. Temperature 
+ 
+ 
+ 
+ 
+0.7
+0.9
+1.1
+1.3
+1.5
+1.7
+-50
+-25
+0
+25
+50
+75
+100
+125
+Supply Current/Amplifier (mA) 
+Temperature (℃) 
+VS = 2.1V, VCM = VS/2 
+VS = 5V, VCM = VS/2 
+60
+70
+80
+90
+100
+110
+120
+-50
+-25
+0
+25
+50
+75
+100
+125
+PSRR (dB) 
+Temperature (℃) 
+VS = 2.1V to 5.5V, VCM = 0.5V 
+50
+60
+70
+80
+90
+100
+-50
+-25
+0
+25
+50
+75
+100
+125
+CMRR (dB) 
+Temperature (℃) 
+VS = 5.5V, VCM = -0.1V to 4V 
+50
+60
+70
+80
+90
+100
+-50
+-25
+0
+25
+50
+75
+100
+125
+CMRR (dB) 
+Temperature (℃) 
+VS = 5.5V, VCM = -0.1V to 5.6V 
+60
+70
+80
+90
+100
+110
+-50
+-25
+0
+25
+50
+75
+100
+125
+Open–Loop Voltage Gain (dB) 
+Temperature (℃) 
+VS = 5V 
+RL = 10kΩ 
+VS = 2.1V  
+60
+70
+80
+90
+100
+110
+-50
+-25
+0
+25
+50
+75
+100
+125
+Open–Loop Voltage Gain (dB) 
+Temperature (℃) 
+VS = 5V 
+RL = 600Ω 
+VS = 2.1V  
+
+ 
+Automotive, 11MHz, Rail-to-Rail I/O 
+SGM722Q 
+CMOS Operational Amplifier 
+ 
+ 
+5 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TA = +25℃, VS = 5V, unless otherwise noted. 
+ 
+      Output Voltage Swing vs. Output Current 
+ 
+    Output Voltage Swing vs. Output Current 
+ 
+ 
+ 
+     CMRR vs. Frequency  
+     PSRR vs. Frequency 
+ 
+ 
+     Channel Separation vs. Frequency 
+     Channel Separation vs. Frequency 
+ 
+ 
+ 
+ 
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+0
+10
+20
+30
+40
+50
+Output Voltage (V) 
+Output Current (mA) 
+Sourcing Current 
+Sinking Current 
+-40℃ 
++25℃ 
++125℃ 
+VS = 2.1V 
+-40℃ 
++25℃ 
++125℃ 
+0.0
+1.0
+2.0
+3.0
+4.0
+5.0
+0
+20
+40
+60
+80
+Output Voltage (V) 
+Output Current (mA) 
+Sourcing Current 
+Sinking Current 
+-40℃ 
++25℃ 
++125℃ 
+VS = 5V 
+-40℃ 
++25℃ 
++125℃ 
+-120
+-110
+-100
+-90
+-80
+-70
+-60
+-50
+-40
+0.01
+0.1
+1
+10
+100
+1000
+10000
+Common Mode Rejection Ratio (dB) 
+Frequency (kHz) 
+-100
+-80
+-60
+-40
+-20
+0
+0.01
+0.1
+1
+10
+100
+1000
+10000
+Power Supply Rejection Ratio (dB) 
+Frequency (kHz) 
+— VS = -2.5V, PSRR+ 
+— VS = 2.5V, PSRR- 
+ 
+-120
+-110
+-100
+-90
+-80
+-70
+-60
+0.01
+0.1
+1
+10
+100
+1000
+10000
+Channel Separation (dB) 
+Frequency (kHz) 
+— Channel A to B 
+— Channel B to A 
+ 
+VS = 2.1V, RL = 600Ω 
+ 
+-120
+-110
+-100
+-90
+-80
+-70
+-60
+0.01
+0.1
+1
+10
+100
+1000
+10000
+Channel Separation (dB) 
+Frequency (kHz) 
+— Channel A to B 
+— Channel B to A 
+ 
+VS = 5V, RL = 600Ω 
+ 
+
+ 
+Automotive, 11MHz, Rail-to-Rail I/O 
+SGM722Q 
+CMOS Operational Amplifier 
+ 
+ 
+6 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TA = +25℃, VS = 5V, unless otherwise noted. 
+ 
+     Closed-Loop Output Voltage Swing vs. Frequency 
+     Closed-Loop Output Voltage Swing vs. Frequency 
+ 
+ 
+     Input Voltage Noise Density vs. Frequency 
+     Open-Loop Gain and Phase vs. Frequency 
+ 
+ 
+     Open-Loop Output Impedance vs. Frequency  
+     Open-Loop Output Impedance vs. Frequency 
+ 
+ 
+ 
+ 
+0
+0.5
+1
+1.5
+2
+2.5
+3
+10
+100
+1000
+10000
+Output Voltage (VP-P) 
+Frequency (kHz) 
+VS = 2.1V, VIN = 2.1VP-P, G = +1, RL = 2kΩ 
+0
+1
+2
+3
+4
+5
+6
+10
+100
+1000
+10000
+Output Voltage (VP-P) 
+Frequency (kHz) 
+VS = 5V, VIN = 4.9VP-P, G = +1, RL = 2kΩ 
+1
+10
+100
+10
+100
+1000
+10000
+100000
+Input Voltage Noise Density (nV/√Hz) 
+Frequency (Hz) 
+0
+30
+60
+90
+120
+150
+180
+-20
+0
+20
+40
+60
+80
+100
+0.01
+0.1
+1
+10
+100
+1000 10000100000
+Phase (degree) 
+Open-Loop Gain (dB) 
+Frequency (kHz) 
+RL = 600Ω, CL = 100pF 
+— Open-Loop Gain 
+— Phase 
+ 
+0.01
+0.1
+1
+10
+100
+1000
+1
+10
+100
+1000
+10000
+Open-Loop Output Impedance (Ω) 
+Frequency (kHz) 
+— G = +1 
+— G  = +10 
+— G  = +100 
+ 
+ 
+VS = 2.1V 
+ 
+ 
+0.01
+0.1
+1
+10
+100
+1000
+1
+10
+100
+1000
+10000
+Open-Loop Output Impedance (Ω) 
+Frequency (kHz) 
+— G = +1 
+— G  = +10 
+— G  = +100 
+ 
+ 
+VS = 5V 
+ 
+ 
+
+ 
+Automotive, 11MHz, Rail-to-Rail I/O 
+SGM722Q 
+CMOS Operational Amplifier 
+ 
+ 
+7 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TA = +25℃, VS = 5V, unless otherwise noted. 
+ 
+     Small-Signal Overshoot vs. Load Capacitance 
+     Small-Signal Overshoot vs. Load Capacitance 
+ 
+ 
+        Input Offset Voltage Production Distribution 
+       Input Offset Voltage Production Distribution 
+ 
+ 
+ 
+ 
+0
+10
+20
+30
+40
+50
+60
+70
+10
+100
+1000
+Small-Signal Overshoot (%) 
+Capacitance Load (pF) 
+VS = 2.1V 
+G = +1 
+RL = 10kΩ 
+0
+10
+20
+30
+40
+50
+60
+70
+10
+100
+1000
+Small-Signal Overshoot (%) 
+Capacitance Load (pF) 
+VS = 5V 
+G = +1 
+RL = 10kΩ 
+0
+5
+10
+15
+20
+25
+-3.0
+-2.5
+-2.0
+-1.5
+-1.0
+-0.5
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+4.0
+4.5
+5.0
+Percentage of Amplifiers (%) 
+Input Offset Voltage (mV) 
+65090 Samples  
+1 Production Lot 
+ 
+VS = 2.1V 
+ 
+0
+5
+10
+15
+20
+25
+-3.5
+-3.0
+-2.5
+-2.0
+-1.5
+-1.0
+-0.5
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+4.0
+4.5
+5.0
+Percentage of Amplifiers (%) 
+Input Offset Voltage (mV) 
+65090 Samples  
+1 Production Lot 
+ 
+VS = 5V 
+ 
+
+ 
+Automotive, 11MHz, Rail-to-Rail I/O 
+SGM722Q 
+CMOS Operational Amplifier 
+ 
+ 
+8 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TA = +25℃, VS = 5V, unless otherwise noted. 
+ 
+ 
+Small-Signal Step Response 
+ 
+ 
+ 
+ 
+Small-Signal Step Response 
+ 
+ 
+Voltage (50mV/div) 
+ 
+ 
+ 
+Voltage (50mV/div) 
+ 
+                  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (200ns/div) 
+ 
+ 
+ 
+Time (200ns/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Large-Signal Step Response  
+ 
+ 
+ 
+ 
+Large-Signal Step Response 
+ 
+    Voltage (1V/div) 
+ 
+                     
+ 
+Voltage (500mV/div) 
+ 
+               
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (1μs/div) 
+ 
+ 
+ 
+Time (1μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Positive Overload Recovery 
+ 
+ 
+ 
+ 
+Negative Overload Recovery 
+ 
+ 
+ 
+ 
+ 
+0V 
+ 
+VIN 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+0V 
+ 
+50mV/div             1V/div 
+ 
+ 
+ 
+VIN 
+ 
+0V 
+ 
+ 
+0V 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+  50mV/div        1V/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (1μs/div) 
+ 
+ 
+ 
+Time (1μs/div) 
+ 
+ 
+ 
+G = 1  
+CL = 100pF  
+RL = 10kΩ  
+VS = 2.1V 
+G = 1  
+CL = 100pF  
+RL = 10kΩ  
+VS = 5V 
+G = 1  
+CL = 200pF  
+RL = 10kΩ  
+VS = 2.1V 
+G = 1  
+CL = 200pF  
+RL = 10kΩ  
+VS = 5V 
+VS = 5V 
+VIN = 50mV 
+RL = 10kΩ 
+G = -100 
+VS = 5V 
+VIN = 50mV 
+RL = 10kΩ 
+G = -100 
+
+ 
+Automotive, 11MHz, Rail-to-Rail I/O 
+SGM722Q 
+CMOS Operational Amplifier 
+ 
+ 
+9 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+Rail-to-Rail Input 
+When SGM722Q works at the power supply between 
+2.1V and 5.5V, the input common mode voltage range 
+is from (-VS) - 0.1V to (+VS) + 0.1V. In Figure 1, the ESD 
+diodes between the inputs and the power supply rails 
+will clamp the input voltage not to exceed the rails. 
+ 
+VP
+VN
++VS
+-VS
++
+_
+ 
+ 
+Figure 1. Input Equivalent Circuit 
+ 
+Input Current-Limit Protection 
+For ESD diode clamping protection, when the current 
+flowing through ESD diode exceeds the maximum 
+rating value, the ESD diode and amplifier will be 
+damaged, so current-limit protection will be added in 
+some applications. One resistor is selected to limit the 
+current not to exceed the maximum rating value. In 
+Figure 2, a series input resistor is used to limit the input 
+current to less than 10mA, but the drawback of this 
+current-limit resistor is that it contributes thermal noise 
+at the amplifier input. If this resistor must be added, its 
+value must be selected as small as possible. 
+ 
+VOUT
++
+_
+VIN
+IOVERLOAD
+10mA MAX
++VS
+ 
+ 
+Figure 2. Input Current-Limit Protection 
+ 
+Rail-to-Rail Output 
+The SGM722Q supports rail-to-rail output operation. In 
+single power supply application, for example, when +VS 
+= 5V, -VS = GND, 10kΩ load resistor is tied from OUT 
+pin to ground, the typical output swing range is from 
+0.006V to 4.994V. 
+ 
+Driving Capacitive Loads 
+The SGM722Q is designed for driving the 4700pF 
+capacitive load with unity-gain stable. If greater capacitive 
+load must be driven in application, the circuit in Figure 3 
+can be used. In this circuit, the IR drop voltage 
+generated by RISO is compensated by feedback loop. 
+ 
+RISO
+VIN
+VOUT
+CF
+RF
++
+_
+CL
+ 
+ 
+Figure 3. Circuit to Drive Heavy Capacitive Load 
+ 
+Power Supply Decoupling and Layout 
+A clean and low noise power supply is very important in 
+amplifier circuit design. Besides of input signal noise, 
+the power supply is one of important source of noise to 
+the amplifier through +VS and -VS pins. Power supply 
+bypassing is an effective method to clear up the noise 
+at power supply, and the low impedance path to ground 
+of decoupling capacitor will bypass the noise to GND. 
+In application, 10μF ceramic capacitor paralleled with 
+0.1μF or 0.01μF ceramic capacitor is used in Figure 4. 
+The ceramic capacitors should be placed as close as 
+possible to +VS and -VS power supply pins.  
+ 
+VN
+VP
+10μF
+0.1μF
+VOUT
++
+_
++VS
+-VS (GND)
+VN
+VP
+10μF
+0.1μF
+VOUT
++
+_
++VS
+0.1μF
+10μF
+-VS
+ 
+ 
+Figure 4. Amplifier Power Supply Bypassing 
+ 
+ 
+
+ 
+Automotive, 11MHz, Rail-to-Rail I/O 
+SGM722Q 
+CMOS Operational Amplifier 
+ 
+ 
+10 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+Grounding 
+In low speed application, one node grounding technique 
+is the simplest and most effective method to eliminate 
+the noise generated by grounding. In high speed 
+application, the general method to eliminate noise is to 
+use a complete ground plane technique, and the whole 
+ground plane will help distribute heat and reduce EMI 
+noise pickup. 
+ 
+Reduce Input-to-Output Coupling 
+To reduce the input-to-output coupling, the input traces 
+must be placed as far away from the power supply or 
+output traces as possible. The sensitive trace must not 
+be placed in parallel with the noisy trace in same layer. 
+They must be placed perpendicularly in different layers 
+to reduce the crosstalk. These PCB layout techniques 
+will help to reduce unwanted positive feedback and 
+noise. 
+ 
+Typical Application Circuits 
+Difference Amplifier 
+The circuit in Figure 5 is a design example of classical 
+difference amplifier. If R4/R3 = R2/R1, then VOUT = (VP - 
+VN) × R2/R1 + VREF. 
+ 
+VN
+VOUT
+R1
+R2
+R4
++
+_
+R3
+VP
+VREF
+ 
+ 
+Figure 5. Difference Amplifier 
+ 
+High Input Impedance Difference Amplifier 
+The circuit in Figure 6 is a design example of high input 
+impedance difference amplifier. The added amplifiers at 
+the input are used to increase the input impedance and 
+eliminate drawback of low input impedance in Figure 5. 
+ 
+VN
+VOUT
+R1
++
+_
++
+_
++
+_
+R2
+R3
+VREF
+VP
+R4
+ 
+ 
+Figure 6. High Input Impedance Difference Amplifier 
+ 
+Active Low-Pass Filter 
+The circuit in Figure 7 is a design example of active 
+low-pass filter, the DC gain is equal to -R2/R1 and the 
+-3dB corner frequency is equal to 1/2πR2C. In this design, 
+the filter bandwidth must be less than the bandwidth of 
+the amplifier, and the resistor values must be selected 
+as low as possible to reduce ringing or oscillation 
+generated by the parasitic parameters in PCB layout. 
+ 
+VIN
+VOUT
+R1
+R2
+R3 = R1 // R2
++
+_
+C
+ 
+ 
+Figure 7. Active Low-Pass Filter 
+ 
+ 
+ 
+ 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+Changes from Original (APRIL 2024) to REV.A 
+Page 
+Changed from product preview to production data..................................................................................................................................................... All 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00010.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOIC-8 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+1.350 
+1.750 
+0.053 
+0.069 
+A1 
+0.100 
+0.250 
+0.004 
+0.010 
+A2 
+1.350 
+1.550 
+0.053 
+0.061 
+b 
+0.330 
+0.510 
+0.013 
+0.020 
+c 
+0.170 
+0.250 
+0.006 
+0.010 
+D 
+4.700 
+5.100 
+0.185 
+0.200 
+E 
+3.800 
+4.000 
+0.150 
+0.157 
+E1 
+5.800 
+6.200 
+0.228 
+0.244 
+e 
+1.27 BSC 
+0.050 BSC 
+L 
+0.400 
+1.270 
+0.016 
+0.050 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+D
+E
+E1
+e
+b
+A
+A2
+A1
+c
+L
+θ
+1.27
+0.6
+2.2
+5.2
+RECOMMENDED LAND PATTERN (Unit: mm)
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00014.001 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+MSOP-8 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+- 
+- 
+1.100 
+A1 
+0.000 
+- 
+0.150 
+A2 
+0.750 
+- 
+0.950 
+b 
+0.220 
+- 
+0.380 
+c 
+0.080 
+- 
+0.230 
+D 
+2.800 
+- 
+3.200 
+E 
+2.800 
+- 
+3.200 
+E1 
+4.650 
+- 
+5.150 
+e 
+0.650 BSC 
+L 
+0.400 
+- 
+0.800 
+H 
+0.250 TYP 
+θ 
+0° 
+- 
+8° 
+ccc 
+0.100 
+ 
+NOTES: 
+1. This drawing is subject to change without notice. 
+2. The dimensions do not include mold flashes, protrusions or gate burrs. 
+3. Reference JEDEC MO-187. 
+ 
+ 
+E1
+E
+e
+D
+A1
+L
+c
+A
+A2
+θ
+b
+RECOMMENDED LAND PATTERN (Unit: mm)
+1.02
+0.41
+0.65
+4.8
+SEATING PLANE
+ccc C
+C
+H
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+SOIC-8 
+13″ 
+12.4 
+6.40 
+5.40 
+2.10 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+MSOP-8 
+13″ 
+12.4 
+5.20 
+3.30 
+1.50 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

@@ -1,0 +1,517 @@
+ 
+SGM835 
+Dual, High-Precision, 
+High Voltage, Current-Sense Amplifier 
+ 
+ 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+JULY2023–REV.A.1 
+ 
+GENERAL DESCRIPTION 
+The SGM835 has a wide input common-mode voltage 
+range from -0.3V to 72V, and is available with gains of 
+12.5V/V, 20V/V and 50V/V. The bandwidth of 
+small-signal can reach up to 160kHz. 
+The SGM835 is available in a Green MSOP-8 package. It 
+is specified over a junction temperature range of -40℃ 
+to +125℃. 
+ 
+APPLICATIONS 
+Communication Equipment 
+Servers 
+Battery Chargers 
+Industrial Control 
+Automation Equipment 
+Energy Management 
+ 
+FEATURES 
+● Input Common-Mode Voltage Range: -0.3V to 
+72V 
+● Low Input Offset Voltage: 125μV (MAX) 
+● Gain: 12.5V/V, 20V/V or 50V/V 
+● Low Gain Error: 0.2% (MAX) 
+● Available in a Green MSOP-8 Package 
+ 
+TYPICAL APPLICATION 
+ 
+ 
+Figure 1. Simplified Typical Application Circuit 
+ 
+ 
+ 
+ 
+ 
+ 
+GND
++
+_
++
+_
+OUT1
+OUT2
+RS1-
+RS1+
+RS2-
+RS2+
+R11
+R12
+R13
+R14
+R21
+R22
+R23
+R24
+VDD
+Supply
+RSENSE
+Load
+Supply
+RSENSE
+Load
+
+Dual, High-Precision, 
+SGM835 
+High Voltage, Current-Sense Amplifier 
+ 
+ 
+ 
+ 
+2 
+JULY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+GAIN (V/V) 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM835L 
+MSOP-8 
+-40℃ to +125℃ 
+12.5 
+SGM835LXMS8G/TR 
+0EO 
+XMS8 
+XXXXX 
+Tape and Reel, 4000 
+SGM835T 
+MSOP-8 
+-40℃ to +125℃ 
+20 
+SGM835TXMS8G/TR 
+0EM 
+XMS8 
+XXXXX 
+Tape and Reel, 4000 
+SGM835F 
+MSOP-8 
+-40℃ to +125℃ 
+50 
+SGM835FXMS8G/TR 
+0EN 
+XMS8 
+XXXXX 
+Tape and Reel, 4000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code. 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+VDD to GND 
+.......................................................... -0.3V to 6V 
+RSX+, RSX- to GND 
+.......................................... -0.3V to 76V 
+RSX+ to RSX- 
+................................................................ 
+±76V 
+Continuous Input Current at Any Pin .......................... ±20mA 
+Package Thermal Resistance 
+MSOP-8, θJA ............................................................ 158℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Supply Voltage Range ........................................ 
+2.7V to 5.5V 
+Operating Junction Temperature Range 
+...... -40℃ to +125℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+
+Dual, High-Precision, 
+SGM835 
+High Voltage, Current-Sense Amplifier 
+ 
+ 
+ 
+ 
+3 
+JULY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+(TOP VIEW) 
+RS1+
+1
+2
+3
+4
+RS1-
+RS2+
+RS2-
+8
+7
+6
+5
+VDD
+OUT1
+OUT2
+GND
+ 
+MSOP-8 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1 
+RS1+ 
+Power-Side Connection Pin. Channel 1. 
+2 
+RS1- 
+Load-Side Connection Pin. Channel 1. 
+3 
+RS2+ 
+Power-Side Connection Pin. Channel 2. 
+4 
+RS2- 
+Load-Side Connection Pin. Channel 2. 
+5 
+GND 
+Ground. 
+6 
+OUT2 
+Output Pin. Channel 2. 
+7 
+OUT1 
+Output Pin. Channel 1. 
+8 
+VDD 
+Supply Voltage Pin. 
+ 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00014.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+MSOP-8 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.820 
+1.100 
+0.032 
+0.043 
+A1 
+0.020 
+0.150 
+0.001 
+0.006 
+A2 
+0.750 
+0.950 
+0.030 
+0.037 
+b 
+0.250 
+0.380 
+0.010 
+0.015 
+c 
+0.090 
+0.230 
+0.004 
+0.009 
+D 
+2.900 
+3.100 
+0.114 
+0.122 
+E 
+2.900 
+3.100 
+0.114 
+0.122 
+E1 
+4.750 
+5.050 
+0.187 
+0.199 
+e 
+0.650 BSC 
+0.026 BSC 
+L 
+0.400 
+0.800 
+0.016 
+0.031 
+θ 
+0° 
+6° 
+0° 
+6° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+E1
+E
+e
+D
+A1
+L
+c
+A
+A2
+θ
+b
+RECOMMENDED LAND PATTERN (Unit: mm)
+1.02
+0.41
+0.65
+4.8
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+MSOP-8 
+13″ 
+12.4 
+5.20 
+3.30 
+1.50 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

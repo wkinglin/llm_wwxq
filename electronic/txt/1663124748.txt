@@ -1,0 +1,3636 @@
+ 
+SGM5200 
+12-Bit, 1MSPS, 16 Channels, 
+Single-Ended, Serial Interface ADC 
+ 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+SEPTEMBER 2022 – REV. A. 1 
+ 
+GENERAL DESCRIPTION 
+The SGM5200 is a 12-bit, multi-channel input, successive 
+approximation (SAR) analog-to-digital converter (ADC). 
+The SGM5200 analog power supply range is 2.7V to 
+5.25V. The SGM5200 has an SPI-compatible interface 
+that digital power supply range is 1.7V to 5.25V. 
+The input signal is sampled on the nCS falling edge. 
+The ADC conversion is droved by external clock SCLK. 
+The SGM5200 supports manual channel selection and 
+two kinds of auto channel scan modes. 
+The input range of SGM5200 is software configurable, 
+0 to reference voltage or 0 to two times of reference 
+voltage. It also supports two programmable alarm 
+thresholds for each channel. 
+The SGM5200 provides power-down mode. 
+The SGM5200 is available in Green TSSOP-38 and 
+TQFN-5×5-32L packages. It operates over an ambient 
+temperature range -40℃ to +125℃. 
+ 
+FEATURES 
+● 12-Bit Resolution 
+● 16 Channels 
+● Sampling Rate: Up to 1MHz 
+● Supply Voltage Ranges: 
+ Analog Supply: 2.7V to 5.25V 
+ Digital Supply: 1.7V to 5.25V 
+● Two Software Selectable Unipolar Input Ranges: 
+ Range 1: 0V to VREF 
+ Range 2: 0V to 2 × VREF 
+● Supports Auto and Manual Channel Selections 
+● Individually Configurable GPIOs Function: 
+ Four GPIOs in TSSOP Package 
+ One GPIO in TQFN Package 
+● 20MHz SPI-Compatible Serial Interface 
+● Power-Down Current: 1.4μA (TYP) 
+● Input Bandwidth: 45MHz (TYP) at -3dB 
+● Typical Power Consumption: 
+24mW at 1MSPS (VA = 5V, VBD = 3V) 
+● Available in Green TSSOP-38 and TQFN-5×5-32L 
+Packages 
+ 
+APPLICATIONS 
+PLC 
+Optical Module Signal Monitoring 
+Digital Power Supplies 
+Industrial Automation Systems 
+ 
+ 
+ 
+ 
+ 
+
+12-Bit, 1MSPS, 16 Channels, 
+SGM5200 
+Single-Ended, Serial Interface ADC 
+ 
+ 
+2 
+ 
+SEPTEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM5200 
+TSSOP-38 
+-40℃ to +125℃ 
+SGM5200XTS38G/TR 
+SGM5200 
+XTS38 
+XXXXX 
+Tape and Reel, 4000 
+TQFN-5×5-32L 
+-40℃ to +125℃ 
+SGM5200XTQL32G/TR 
+SGM5200 
+XTQL32 
+XXXXX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code. 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Voltage Range (with Respect to AGND) 
++VA 
+.................................................................... -0.3V to 6V 
+AINP or CHx ........................................... -0.3V to VA + 0.3V 
+Voltage Range (with Respect to BGND) 
++VBD ................................................................. -0.3V to 6V 
+Digital Input Voltage 
+........................................... -0.3V to 6V 
+Digital Output Voltage ............................. -0.3V to VA + 0.3V 
+Input Current to Any Pin except Supply Pins 
+ 
+....................................................................... -10mA to 10mA 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Analog Supply Voltage Range 
+.......................... 
+2.7V to 5.25V 
+Digital I/O Supply Voltage Range .......................... 1.7V to VA 
+Reference Voltage Range......................................... 
+2V to 3V 
+SCLK Frequency ........................................................ 
+20MHz 
+Operating Temperature Range .................... -40℃ to +125℃ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+
+12-Bit, 1MSPS, 16 Channels, 
+SGM5200 
+Single-Ended, Serial Interface ADC 
+ 
+ 
+3 
+ 
+SEPTEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+(TOP VIEW) 
+1
+2
+3
+4
+5
+7
+8
+9
+10
+6
+11
+12
+13
+14
+15
+17
+18
+19
+16
+38
+37
+35
+34
+32
+31
+30
+29
+33
+28
+27
+26
+25
+24
+22
+21
+20
+23
+GPIO2
+GPIO3
+REFN
+REFP
++VA
+AGND
+MXO
+AINP
+AINN
+AGND
+CH15
+CH14
+CH13
+CH12
+CH11
+CH10
+CH9
+CH8
+AGND
+GPIO1
+GPIO0
++VBD
+BDGND
+SDO
+SDI
+SCLK
+nCS
+AGND
++VA
+CH0
+CH1
+CH2
+CH3
+CH4
+CH5
+CH6
+CH7
+AGND
+36
+ 
+TSSOP-38 
+ 
+ 
+(TOP VIEW) 
+MXO
+AINP
+CH15
+AGND
+AINN
+SCLK
+nCS
+CH0
++VA
+CH3
+1
+4
+3
+2
+7
+8
+5
+6
+24
+21
+22
+23
+18
+17
+20
+19
+9
+10
+11
+12
+13
+14
+15
+16
+32
+31
+30
+29
+28
+27
+26
+25
+AGND
+CH13
+CH12
+CH14
+AGND
+CH2
+CH1
+CH11
+CH10
+CH9
+CH8
+CH7
+CH6
+CH5
+CH4
++VA
+REFP
+REFN
+GPIO0
++VBD
+BDGND
+SDO
+SDI
+ 
+TQFN-5×5-32L 
+ 
+ 
+ 
+
+12-Bit, 1MSPS, 16 Channels, 
+SGM5200 
+Single-Ended, Serial Interface ADC 
+ 
+ 
+4 
+ 
+SEPTEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+PIN DESCRIPTION 
+PIN 
+NAME 
+TYPE (1) 
+FUNCTION 
+TSSOP-38 
+TQFN-5×5-32L 
+1 
+‒ 
+GPIO2 
+DIO 
+General-Purpose Input or Output. 
+Range 
+DI 
+Selects ADC Input Range. 
+High (1): select Range 2 (0V to 2 × VREF). 
+Low (0): select Range 1 (0V to VREF). 
+2 
+‒ 
+GPIO3 
+DIO 
+General-Purpose Input or Output. 
+nPD 
+DI 
+Power-Down Input. Active low. 
+3 
+30 
+REFN 
+AI 
+Reference Ground. 
+4 
+31 
+REFP 
+AI 
+Reference Input. 
+5, 29 
+21, 32 
++VA 
+‒ 
+Analog Power Supply. 
+6, 10, 19, 20, 30 
+1, 22 
+AGND 
+‒ 
+Analog Ground. 
+7 
+2 
+MXO 
+AO 
+Multiplexer Output. 
+8 
+3 
+AINP 
+AI 
+ADC Input Signal. 
+9 
+4 
+AINN 
+AI 
+ADC Input Ground. 
+11 
+5 
+CH15 
+AI 
+Analog Channel Inputs for Multiplexer. 
+12 
+6 
+CH14 
+AI 
+13 
+7 
+CH13 
+AI 
+14 
+8 
+CH12 
+AI 
+15 
+9 
+CH11 
+AI 
+16 
+10 
+CH10 
+AI 
+17 
+11 
+CH9 
+AI 
+18 
+12 
+CH8 
+AI 
+21 
+13 
+CH7 
+AI 
+22 
+14 
+CH6 
+AI 
+23 
+15 
+CH5 
+AI 
+24 
+16 
+CH4 
+AI 
+25 
+17 
+CH3 
+AI 
+26 
+18 
+CH2 
+AI 
+27 
+19 
+CH1 
+AI 
+28 
+20 
+CH0 
+AI 
+31 
+23 
+nCS 
+DI 
+Chip Select. Active low. 
+32 
+24 
+SCLK 
+DI 
+Serial Clock Input. 
+33 
+25 
+SDI 
+DI 
+Serial Data Input. 
+34 
+26 
+SDO 
+DI 
+Serial Data Output. 
+35 
+27 
+BDGND 
+‒ 
+Digital Ground. 
+36 
+28 
++VBD 
+‒ 
+Digital Power Supply. 
+37 
+29 
+GPIO0 
+DIO 
+General-Purpose Input or Output. 
+Alarm 
+DO 
+Alarm Output. Active high. Refer to Programming section for a detailed 
+configuration. 
+38 
+‒ 
+GPIO1 
+DIO 
+General-Purpose Input or Output. 
+Low Alarm 
+DO 
+Low Alarm Output Indication. Active high. 
+ 
+NOTE:  
+1. AI = Analog Input, AO = Analog Output, DI = Digital Input, DO = Digital Output, DIO = Digital Input or Output. 
+ 
+ 
+
+12-Bit, 1MSPS, 16 Channels, 
+SGM5200 
+Single-Ended, Serial Interface ADC 
+ 
+ 
+5 
+ 
+SEPTEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VA = 2.7V to 5.25V, VBD = 1.7V to VA, VREF = 2.5V ± 0.1V, fSAMPLE = 1MHz, Full = -40℃ to +125℃, typical values are at TA = 
++25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Analog Input 
+Full-Scale Input Span (1) 
+ 
+Range 1 
+0 
+ 
+VREF 
+V 
+Range 2 while 2 × VREF ≤ VA 
+0 
+ 
+2 × VREF 
+Absolute Input Range 
+ 
+Range 1 
+-0.2 
+ 
+VREF + 0.2 
+V 
+Range 2 while 2 × VREF ≤ VA 
+-0.2 
+ 
+2 × VREF + 0.2 
+Input Capacitance 
+ 
+ 
+ 
+31 
+ 
+pF 
+Input Leakage Current 
+ 
+TA = +125℃ 
+ 
+60 
+ 
+nA 
+System Performance 
+Resolution 
+ 
+ 
+ 
+12 
+ 
+Bits 
+No Missing Codes 
+ 
+Range 1 
+11 
+ 
+ 
+Bits 
+Range 2 
+12 
+ 
+ 
+Integral Linearity 
+ 
+Range 1 
+-3.50 
+±1.6 
+2.60 
+LSB (2) 
+Range 2 
+-1.32 
+±0.8 
+1.32 
+Differential Linearity 
+ 
+Range 1 
+-1.00 
+-1/+1.3 
+2.20 
+LSB 
+Range 2 
+-0.99 
+±0.5 
+1.00 
+Offset Error (3) 
+ 
+Range 1 
+-8.00 
+±1.2 
+8.00 
+LSB 
+Range 2 
+-5.60 
+±1.6 
+5.60 
+Gain Error 
+ 
+Range 1 
+-5.20 
+±0.8 
+4.40 
+LSB 
+Range 2 
+-4.10 
+±0.8 
+3.10 
+Total Unadjusted Error 
+TUE 
+Range 1 
+ 
+±1.8 
+ 
+LSB 
+Range 2 
+ 
+±1.9 
+ 
+Sampling Dynamics 
+Conversion Time 
+ 
+20MHz SCLK 
+ 
+800 
+ 
+ns 
+Acquisition Time 
+ 
+ 
+ 
+325 
+ 
+ns 
+Maximum Throughput Rate 
+ 
+20MHz SCLK 
+ 
+ 
+1 
+MHz 
+Aperture Delay 
+ 
+ 
+ 
+6 
+ 
+ns 
+Dynamic Characteristics 
+Total Harmonic Distortion (4) 
+THD 
+100kHz 
+Range 1 
+ 
+-77 
+ 
+dB 
+Range 2 
+ 
+-79 
+ 
+Signal-to-Noise Ratio 
+SNR 
+100kHz 
+Range 1 
+66.4 
+70.4 
+ 
+dB 
+Range 2 
+67.9 
+71.4 
+ 
+Signal-to-Noise + Distortion 
+ 
+100kHz 
+Range 1 
+65.6 
+69.5 
+ 
+dB 
+Range 2 
+66.7 
+70.7 
+ 
+Spurious Free Dynamic Range 
+ 
+100kHz 
+Range 1 
+ 
+78 
+ 
+dB 
+Range 2 
+ 
+81 
+ 
+Small Signal Bandwidth 
+ 
+At -3dB 
+ 
+45 
+ 
+MHz 
+Channel-to-Channel Crosstalk 
+ 
+Any off-channel with 100kHz, full-scale 
+input to channel being sampled with DC 
+input (isolation crosstalk) 
+ 
+-100 
+ 
+dB 
+From previously sampled to channel with 
+100kHz, full-scale input to channel being 
+sampled with DC input (memory crosstalk) 
+ 
+-84 
+ 
+ 
+ 
+
+12-Bit, 1MSPS, 16 Channels, 
+SGM5200 
+Single-Ended, Serial Interface ADC 
+ 
+ 
+6 
+ 
+SEPTEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(VA = 2.7V to 5.25V, VBD = 1.7V to VA, VREF = 2.5V ± 0.1V, fSAMPLE = 1MHz, Full = -40℃ to +125℃, typical values are at TA = 
++25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+External Reference Input 
+Reference Voltage at REFP (5) 
+VREF 
+ 
+2 
+2.5 
+3 
+V 
+Reference Input Resistance 
+ 
+fSAMPLE = 1MHz 
+ 
+31 
+ 
+kΩ 
+Alarm Setting 
+High Threshold Range 
+ 
+ 
+0 
+ 
+4092 
+LSB 
+Low Threshold Range 
+ 
+ 
+0 
+ 
+4092 
+LSB 
+Digital Input/Output 
+High Input Voltage 
+VIH 
+VBD = 5.25V 
+3.10 
+ 
+ 
+V 
+VBD = 1.7V 
+1.25 
+ 
+ 
+Low Input Voltage 
+VIL 
+VBD = 5.25V 
+ 
+ 
+1.90 
+V 
+VBD = 1.7V 
+ 
+ 
+0.45 
+High Output Voltage 
+VOH 
+ISOURCE = 200μA 
+VBD - 0.2 
+ 
+ 
+V 
+Low Output Voltage 
+VOL 
+ISINK = 200μA 
+ 
+ 
+0.4 
+V 
+Data Format MSB First 
+ 
+ 
+ 
+MSB First 
+ 
+ 
+Power Requirements 
+Analog Supply Voltage 
+VA 
+ 
+2.7 
+3.3 
+5.25 
+V 
+Digital I/O Supply Voltage 
+VBD 
+ 
+1.7 
+3.3 
+5.25 
+V 
+Analog Supply Current  
+(Normal Mode) 
+IA 
+VA = 2.7V to 3.6V and 1MHz throughput 
+ 
+3 
+ 
+mA 
+VA = 2.7V to 3.6V static state 
+ 
+1.1 
+ 
+VA = 4.7V to 5.25V and 1MHz throughput 
+ 
+4.1 
+5.4 
+VA = 4.7V to 5.25V static state 
+ 
+1.1 
+2.2 
+Power-Down State Supply 
+Current 
+ 
+ 
+ 
+1.4 
+ 
+μA 
+Digital I/O Supply Current 
+IBD 
+VA = 5.25V, fSAMPLE = 1MHz 
+ 
+1.3 
+ 
+mA 
+Power-Up Time 
+ 
+ 
+ 
+1 
+ 
+μs 
+Invalid Conversions after 
+Power-Up or Reset 
+ 
+ 
+ 
+1 
+ 
+Conversion 
+ 
+NOTES: 
+1. Ideal input span; not consider gain error and offset error. 
+2. LSB = Least Significant Bit. 
+3. The measurement is performed relative to the ideal full-scale input. 
+4. The calculation is performed on the first nine harmonics of the input frequency. 
+5. The device is designed to operate that reference voltage is 2V to 3V. While, when VREF < 2.4V, it expects lower noise 
+performance It is due to SNR degradation resulting from lowered signal range. 
+ 
+ 
+
+12-Bit, 1MSPS, 16 Channels, 
+SGM5200 
+Single-Ended, Serial Interface ADC 
+ 
+ 
+7 
+ 
+SEPTEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TIMING CHARACTERISTICS 
+(VA = 2.7V to 5.25V, Full = -40℃ to +125℃, unless otherwise noted.) (1) (2) (See Figure 1 and Figure 2) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Conversion Time 
+tCONV 
+VBD = 1.8V 
+ 
+ 
+16 
+SCLK 
+VBD = 3V 
+ 
+ 
+16 
+VBD = 5V 
+ 
+ 
+16 
+Delay Time 
+(nCS Low to First Data DO15 Out) 
+t1 
+VBD = 1.8V 
+ 
+ 
+38 
+ns 
+VBD = 3V 
+ 
+ 
+27 
+VBD = 5V 
+ 
+ 
+17 
+Hold Time 
+(SCLK Falling to SDO Data Bit Valid) 
+t2 
+VBD = 1.8V 
+13 
+ 
+ 
+ns 
+VBD = 3V 
+12 
+ 
+ 
+VBD = 5V 
+12 
+ 
+ 
+Delay Time 
+(SCLK Falling to SDO Next Data Bit Valid) 
+t3 
+VBD = 1.8V 
+ 
+ 
+35 
+ns 
+VBD = 3V 
+ 
+ 
+27 
+VBD = 5V 
+ 
+ 
+17 
+Setup Time 
+(SDI Valid to Rising Edge of SCLK) 
+t4 
+VBD = 1.8V 
+2 
+ 
+ 
+ns 
+VBD = 3V 
+3 
+ 
+ 
+VBD = 5V 
+4 
+ 
+ 
+Hold Time 
+(Rising Edge of SCLK to SDI Valid) 
+t5 
+VBD = 1.8V 
+12 
+ 
+ 
+ns 
+VBD = 3V 
+10 
+ 
+ 
+VBD = 5V 
+6 
+ 
+ 
+Delay Time 
+(16th SCLK Falling Edge to SDO 3-State) 
+t6 
+VBD = 1.8V 
+ 
+ 
+26 
+ns 
+VBD = 3V 
+ 
+ 
+22 
+VBD = 5V 
+ 
+ 
+13 
+Minimum Quiet Sampling Time Needed from Bus  
+3-State to Start of Next Conversion 
+t7 
+VBD = 1.8V 
+40 
+ 
+ 
+ns 
+VBD = 3V 
+40 
+ 
+ 
+VBD = 5V 
+40 
+ 
+ 
+Pulse Duration nCS High 
+t8 
+VBD = 1.8V 
+20 
+ 
+ 
+ns 
+VBD = 3V 
+20 
+ 
+ 
+VBD = 5V 
+20 
+ 
+ 
+Setup Time 
+(nCS Low to First Rising Edge of SCLK) 
+t9 
+VBD = 1.8V 
+8 
+ 
+ 
+ns 
+VBD = 3V 
+6 
+ 
+ 
+VBD = 5V 
+4 
+ 
+ 
+Pulse Duration SCLK High 
+t10 
+VBD = 1.8V 
+20 
+ 
+ 
+ns 
+VBD = 3V 
+20 
+ 
+ 
+VBD = 5V 
+20 
+ 
+ 
+Pulse Duration SCLK Low 
+t11 
+VBD = 1.8V 
+20 
+ 
+ 
+ns 
+VBD = 3V 
+20 
+ 
+ 
+VBD = 5V 
+20 
+ 
+ 
+SCLK Frequency  
+ 
+VBD = 1.8V 
+ 
+ 
+20 
+MHz 
+VBD = 3V 
+ 
+ 
+20 
+VBD = 5V 
+ 
+ 
+20 
+ 
+NOTES: 1. 1.6V to 1.9V range is applied for 1.8V specifications; 2.7V to 3.6V range is applied for 3V specifications; 4.75V to 5.25V 
+range is applied for 5V specifications.  
+2. With 50pF load. 
+ 
+
+12-Bit, 1MSPS, 16 Channels, 
+SGM5200 
+Single-Ended, Serial Interface ADC 
+ 
+ 
+8 
+ 
+SEPTEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TIMING DIAGRAM 
+ 
+nCS
+SCLK
+1
+2
+3
+14
+15
+16
+1
+2
+3
+14
+15
+16
+MUX
+MUX Channel Change
+MUX Channel Change
+Analog Input Setting after Channel Change
+Analog Input Setting after Channel Change
+Acquisition
+Acquisition Phase tACQ
+Conversion
+Conversion Phase tCNV
+Conversion Phase tCNV
+GPO
+Data Written in Frame N-1 (through SDI)
+Data Written in Frame N (through SDI)
+GPI
+GPI input is latched on the falling edge of nCS and shifted to SDO in frame N+1
+SDO
+SDI
+16-Bit Data Output
+16-Bit Data Input
+16-Bit Data Output
+16-Bit Data Input
+Frame N
+Frame N+1
+Input sampling instance
+ 
+ 
+Figure 1. Device Operation Timing Diagram 
+ 
+ 
+nCS
+SCLK
+SDO
+SDI
+Single Frame 
+t7
+t3
+t6
+t1
+t4
+DO15
+DO12
+t9
+1
+4
+2
+15
+LSB
+/DO0
+16
+5
+LSB+1
+/DO1
+MSB
+/DO11
+DI14
+DI1
+DI15
+DO14
+DI0
+t2
+t5
+t8
+t10
+t11
+ 
+ 
+Figure 2. Serial Interface Timing Diagram 
+ 
+ 
+ 
+
+12-Bit, 1MSPS, 16 Channels, 
+SGM5200 
+Single-Ended, Serial Interface ADC 
+ 
+ 
+9 
+ 
+SEPTEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+ 
+ 
+      Signal-to-Noise Ratio vs. Supply Voltage (Range 1) 
+     Signal-to-Noise Ratio vs. Supply Voltage (Range 2) 
+ 
+ 
+    Signal-to-Noise + Distortion vs. Supply Voltage (Range 1) 
+     Signal-to-Noise + Distortion vs. Supply Voltage (Range 2) 
+ 
+ 
+     Total Harmonic Distortion vs. Supply Voltage (Range 1) 
+     Total Harmonic Distortion vs. Supply Voltage (Range 2) 
+ 
+ 
+ 
+ 
+ 
+65
+66
+67
+68
+69
+70
+71
+2.7
+3.1
+3.5
+3.9
+4.3
+4.7
+5.1
+5.5
+Signal-to-Noise Ratio (dB) 
+Supply Voltage (V) 
+VBD = 3V, fS = 1MSPS, 
+fIN = 100kHz, TA = +25℃ 
+67
+68
+69
+70
+71
+72
+73
+5.0
+5.1
+5.2
+5.3
+5.4
+5.5
+Signal-to-Noise Ratio (dB) 
+Supply Voltage (V) 
+VBD = 3V, fS = 1MSPS, 
+fIN = 100kHz, TA = +25℃ 
+63
+64
+65
+66
+67
+68
+69
+2.7
+3.1
+3.5
+3.9
+4.3
+4.7
+5.1
+5.5
+Signal-to-Noise Ratio + Distortion (dB) 
+Supply Voltage (V) 
+VBD = 3V, fS = 1MSPS, 
+fIN = 100kHz, TA = +25℃ 
+66
+67
+68
+69
+70
+71
+72
+5.0
+5.1
+5.2
+5.3
+5.4
+5.5
+Signal-to-Noise Ratio + Distortion (dB) 
+Supply Voltage (V) 
+VBD = 3V, fS = 1MSPS, 
+fIN = 100kHz, TA = +25℃ 
+-77
+-76
+-75
+-74
+-73
+-72
+-71
+2.7
+3.1
+3.5
+3.9
+4.3
+4.7
+5.1
+5.5
+Total Harmonic Distortion (dB) 
+Supply Voltage (V) 
+VBD = 3V, fS = 1MSPS, 
+fIN = 100kHz, TA = +25℃ 
+-79
+-78
+-77
+-76
+-75
+-74
+-73
+5.0
+5.1
+5.2
+5.3
+5.4
+5.5
+Total Harmonic Distortion (dB) 
+Supply Voltage (V) 
+VBD = 3V, fS = 1MSPS, 
+fIN = 100kHz, TA = +25℃ 
+
+12-Bit, 1MSPS, 16 Channels, 
+SGM5200 
+Single-Ended, Serial Interface ADC 
+ 
+ 
+10 
+ 
+SEPTEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+    Spurious Free Dynamic Range vs. Supply Voltage (Range 1) 
+     Spurious Free Dynamic Range vs. Supply Voltage (Range 2) 
+ 
+ 
+     Signal-to-Noise Ratio vs. Input Frequency 
+    Signal-to-Noise + Distortion vs. Input Frequency 
+ 
+ 
+     Total Harmonic Distortion vs. Input Frequency 
+    Spurious Free Dynamic Range vs. Input Frequency 
+ 
+ 
+ 
+ 
+ 
+72
+73
+74
+75
+76
+77
+78
+2.7
+3.1
+3.5
+3.9
+4.3
+4.7
+5.1
+5.5
+Spurious Free Dynamic Range (dB) 
+Supply Voltage (V) 
+VBD = 3V, fS = 1MSPS, 
+fIN = 100kHz, TA = +25℃ 
+74
+75
+76
+77
+78
+79
+80
+5.0
+5.1
+5.2
+5.3
+5.4
+5.5
+Spurious Free Dynamic Range (dB) 
+Supply Voltage (V) 
+VBD = 3V, fS = 1MSPS, 
+fIN = 100kHz, TA = +25℃ 
+67
+68
+69
+70
+71
+72
+73
+10
+30
+50
+70
+90
+110
+130
+150
+Signal-to-Noise Ratio (dB) 
+Input Frequency (kHz) 
+VA = 5V, VBD = 3V, 
+fS = 1MSPS, TA = +25℃, 
+MXO Shorted to AINP 
+66
+67
+68
+69
+70
+71
+72
+10
+30
+50
+70
+90
+110
+130
+150
+Signal-to-Noise + Distortion (dB) 
+Input Frequency (kHz) 
+VA = 5V, VBD = 3V, 
+fS = 1MSPS, TA = +25℃, 
+MXO Shorted to AINP 
+-81
+-79
+-77
+-75
+-73
+-71
+-69
+10
+30
+50
+70
+90
+110
+130
+150
+Total Harmonic Distortion (dB) 
+Input Frequency (kHz) 
+VA = 5V, VBD = 3V, 
+fS = 1MSPS, TA = +25℃, 
+MXO Shorted to AINP 
+73
+75
+77
+79
+81
+83
+85
+10
+30
+50
+70
+90
+110
+130
+150
+Spurious Free Dynamic Range (dB) 
+Input Frequency (kHz) 
+VA = 5V, VBD = 3V, 
+fS = 1MSPS, TA = +25℃, 
+MXO Shorted to AINP 
+
+12-Bit, 1MSPS, 16 Channels, 
+SGM5200 
+Single-Ended, Serial Interface ADC 
+ 
+ 
+11 
+ 
+SEPTEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+      Signal-to-Noise Ratio vs. Temperature 
+      Signal-to-Noise + Distortion vs. Temperature 
+ 
+ 
+     Total Harmonic Distortion vs. Temperature 
+     Spurious Free Dynamic Range vs. Temperature 
+ 
+ 
+    Differential Nonlinearity Variation Across Channels 
+      Integral Nonlinearity Variation Across Channels 
+ 
+ 
+ 
+ 
+68.5
+69.0
+69.5
+70.0
+70.5
+71.0
+71.5
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Signal-to-Noise Ratio (dB) 
+Temperature (℃) 
+VA = 5V, VBD = 3V, 
+fS = 1MSPS, fIN = 100kHz 
+66
+67
+68
+69
+70
+71
+72
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Signal-to-Noise + Distortion (dB) 
+Temperature (℃) 
+VA = 5V, VBD = 3V, 
+fS = 1MSPS, fIN = 100kHz 
+-78
+-77
+-76
+-75
+-74
+-73
+-72
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Total Harmonic Distortion (dB) 
+Temperature (℃) 
+VA = 5V, VBD = 3V, 
+fS = 1MSPS, fIN = 100kHz 
+75
+76
+77
+78
+79
+80
+81
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Spurious Free Dynamic Range (dB) 
+Temperature (℃) 
+VA = 5V, VBD = 3V, 
+fS = 1MSPS, fIN = 100kHz 
+-1.0
+-0.8
+-0.6
+-0.4
+-0.2
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9 10 11 12 13 14 15
+Differential Nonlinearity (LSBs) 
+Channel Number 
+VA = 5V, VBD = 5V, fS = 1MSPS 
+DNL MAX 
+DNL MIN 
+-1.0
+-0.8
+-0.6
+-0.4
+-0.2
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9 10 11 12 13 14 15
+Integral Nonlinearity (LSB) 
+Channel Number 
+VA = 5V, VBD = 5V, fS = 1MSPS 
+INL MAX 
+INL MIN 
+
+12-Bit, 1MSPS, 16 Channels, 
+SGM5200 
+Single-Ended, Serial Interface ADC 
+ 
+ 
+12 
+ 
+SEPTEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+      Gain Error Variation Across Channels 
+      Offset Error Variation Across Channels 
+ 
+ 
+     Signal-to-Noise Ratio Variation Across Channels 
+     Signal-to-Noise + Distortion Variation Across Channels 
+ 
+ 
+     Crosstalk vs. Input Frequency 
+     Input Leakage Current vs. Temperature 
+ 
+ 
+ 
+ 
+-1.0
+-0.8
+-0.6
+-0.4
+-0.2
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9 10 11 12 13 14 15
+Gain Error  (LSB) 
+Channel Number 
+VA = 5V, VBD = 5V, fS = 1MSPS 
+-1.0
+-0.8
+-0.6
+-0.4
+-0.2
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9 10 11 12 13 14 15
+Offset Error  (LSB) 
+Channel Number 
+VA = 5V, VBD = 5V, fS = 1MSPS 
+66.0
+66.5
+67.0
+67.5
+68.0
+68.5
+69.0
+69.5
+70.0
+70.5
+71.0
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9 10 11 12 13 14 15
+Signal-to-Noise Ratio (dB) 
+Channel Number 
+VA = 5V, VBD = 5V, fS = 1MSPS 
+65.0
+65.5
+66.0
+66.5
+67.0
+67.5
+68.0
+68.5
+69.0
+69.5
+70.0
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9 10 11 12 13 14 15
+Signal-to-Noise + Distortion (dB) 
+Channel Number 
+VA = 5V, VBD = 5V, fS = 1MSPS 
+0
+20
+40
+60
+80
+100
+120
+0
+50
+100
+150
+200
+250
+Crosstalk (dB) 
+Input Frequency (kHz) 
+VA = 5V, VBD = 5V, 
+fS = 1MSPS, CH0, CH1 
+Isolation 
+Memory 
+-2
+18
+38
+58
+78
+98
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Input Leakage Current  (nA) 
+Temperature (℃) 
+VA = 5V, VBD = 5V 
+VINP = 2.5V 
+VINP = 1.25V 
+VINP = 0.12V 
+
+12-Bit, 1MSPS, 16 Channels, 
+SGM5200 
+Single-Ended, Serial Interface ADC 
+ 
+ 
+13 
+ 
+SEPTEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+      Gain Error vs. Temperature (Range 1) 
+      Gain Error vs. Temperature (Range 2) 
+ 
+ 
+     Offset Error vs. Temperature (Range 1) 
+     Offset Error vs. Temperature (Range 2) 
+ 
+ 
+     Total Unadjusted Error (TUE Maximum) (Range 1) 
+     Total Unadjusted Error (TUE Maximum) (Range 2) 
+ 
+ 
+ 
+ 
+-1.5
+-1.0
+-0.5
+0.0
+0.5
+1.0
+1.5
+2.0
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Gain Error (LSB) 
+Temperature (℃) 
+VA = 5.5V, VBD = 1.8V, fS = 1MSPS 
+-1.0
+-0.5
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Gain Error (LSB) 
+Temperature (℃) 
+VA = 5.5V, VBD = 1.8V, fS = 1MSPS 
+-0.8
+-0.6
+-0.4
+-0.2
+0.0
+0.2
+0.4
+0.6
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Offset Error (LSB) 
+Temperature (℃) 
+VA = 5.5V, VBD = 1.8V, fS = 1MSPS 
+-0.6
+-0.4
+-0.2
+0.0
+0.2
+0.4
+0.6
+0.8
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Offset Error (LSB) 
+Temperature (℃) 
+VA = 5.5V, VBD = 1.8V, fS = 1MSPS 
+0
+5
+10
+15
+20
+25
+30
+35
+0.95
+1
+1.05
+1.1
+1.15
+1.2
+1.25
+1.3
+1.35
+1.4
+1.45
+Percentage of Devices (%) 
+TUE MAX (LSB) 
+0
+5
+10
+15
+20
+25
+30
+1.3
+1.4
+1.5
+1.6
+1.7
+1.8
+1.9
+2
+2.1
+2.2
+2.3
+2.4
+2.5
+Percentage of Devices (%) 
+TUE MAX (LSB) 
+
+12-Bit, 1MSPS, 16 Channels, 
+SGM5200 
+Single-Ended, Serial Interface ADC 
+ 
+ 
+14 
+ 
+SEPTEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+     Total Unadjusted Error (TUE Minimum) (Range 1) 
+     Total Unadjusted Error (TUE Minimum) (Range 2) 
+ 
+ 
+ 
+ 
+ 
+Typical FFT Plot 
+ 
+Amplitude (dB) 
+0 
+ 
+-20 
+ 
+-40 
+ 
+-60 
+ 
+-80 
+ 
+-100 
+ 
+-120 
+ 
+-140 
+ 
+-160 
+ 
+ 
+ 
+0       100      200      300     400     500 
+ 
+ 
+Frequency (kHz) 
+ 
+ 
+ 
+ 
+ 
+ 
+0
+5
+10
+15
+20
+25
+-2
+-1.95
+-1.9
+-1.85
+-1.8
+-1.75
+-1.7
+-1.65
+-1.6
+-1.55
+-1.5
+Percentage of Devices (%) 
+TUE MIN (LSB) 
+0
+5
+10
+15
+20
+25
+30
+-2.35
+-2.25
+-2.15
+-2.05
+-1.95
+-1.85
+-1.75
+-1.65
+-1.55
+-1.45
+-1.35
+Percentage of Devices (%) 
+TUE MIN (LSB) 
+VA = 5V, VBD = 5V, 
+fS = 1MSPS, fIN = 100kHz, 
+Npoints = 16384 
+
+12-Bit, 1MSPS, 16 Channels, 
+SGM5200 
+Single-Ended, Serial Interface ADC 
+ 
+ 
+15 
+ 
+SEPTEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAM 
+Control Logic
+&
+Sequencing
+SDO
+SDI
+SCLK
+nCS
++VBD
+CH15
+CH2
+CH1
+CH0
+MXO
+AINP
+REFP
++VA
+AGND
+GPIO0
+GPIO3 (1)
+BDGND
+NOTE:
+1.  Four GPIOs for TSSOP package and one GPIO for TQFN package.
+ADC
+ 
+Figure 3. Block Diagram 
+ 
+ 
+TYPICAL APPLICATION CIRCUIT 
+REF
+SGM4029-2.5
+High Input Impedance PGA 
+(or Non-Inverting Buffer 
+Such as SGM8604-1)
+GPIO0
+SDO
+SDI
+SCLK
+nCS
+REFP
+CH15
+CH2
+CH1
+CH0
+MXO
+AINP
+GPIO1
+GPIO2
+GPIO3
+REFN
+10μF 
+ADC
+Logic 
+& 
+Sequence
+ 
+ 
+Figure 4. Typical Application Circuit 
+ 
+ 
+
+12-Bit, 1MSPS, 16 Channels, 
+SGM5200 
+Single-Ended, Serial Interface ADC 
+ 
+ 
+16 
+ 
+SEPTEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION 
+Overview 
+The SGM5200 is a 12-bit, SAR ADC. It needs an external 
+voltage reference. An Amplifier can be used between MXO 
+and AINP for signal conditioning. Figure 1 and Figure 2 
+show the chip operating time sequences.  
+The SGM5200 output data is composed of 4-bit channel 
+address and 12-bit ADC conversion result. To read and 
+write GPIOs, more details refer to Table 1, Table 2 and 
+Table 5. 
+The SGM5200 switches to new multiplexer channel on the 
+2nd falling edge of SCLK. The input acquisition phase (equal 
+input capacitor starts charging) begins on the 14th falling 
+edge of SCLK. The input signal is sampled on the nCS 
+falling edge. 
+The TSSOP package of the SGM5200 has four 
+general-purpose IO (GPIO) pins, and the TQFN package 
+has one GPIO pin. 
+The chip refreshes the GPIO status (Input and output) at 
+the nCS falling edge. The GPI data will be in the same 
+frame starting with the nCS falling edge (if GPI read 
+enabled). 
+The operating time sequence is shown in Figure 2, the 
+falling edge of nCS clocks out DO15, the remain bits are 
+shifted out on the falling edge of SCLK. The ADC result is a 
+12-bit binary data, MSB is shifted out on the 4th falling edge 
+of SCLK, and LSB is shifted out on the 15th falling edge of 
+SCLK. Refer to Figure 2, when the ADC conversion ends 
+on the 16th SCLK falling edge, SDO goes to 3-state. The 
+chip 16-bit data (on SDI pin) is shifted in on the every rising 
+edge of SCLK. 
+The SGM5200 has threshold alarm function per channel. If 
+ADC results exceed these limits (high and low), the chip 
+can give alert on GPIO0/GPIO1 pins (detail configurations 
+in Table 9). If there is an alarm, the alert will be set on the 
+12th SCLK falling edge in the same frame of ADC 
+conversion in progress. It will reset on the 10th SCLK falling 
+edge in the next frame. 
+ 
+Reference 
+The SGM5200 needs an external reference. 
+ 
+Power Saving 
+The SGM5200 provides two kinds of ways to power down 
+the chip. The first way is command control. It depends on 
+setting DI5 = '1', more details see Table 1, Table 2 and 
+Table 5. If DI5 is set, the chip will be powered down on the 
+16th falling edge of SCLK in the next frame. If D15 is reset, 
+the chip will be powered up on the nCS falling edge. The 
+second way is asynchronous control by GPIO3. GPIO3 can 
+be configured as an nPD input (see Table 9). Its output is 
+active low. The chip goes to power-down at same time 
+when nPD is '0'. The chip will be powered up when nPD is 
+'1'. 
+ 
+Device Functional Modes 
+Channel Sequencing Modes 
+The SGM5200 has three channel sequencing modes: 
+manual mode, auto-1 mode and auto-2 mode. Mode 
+selection is configured by the mode control register (see 
+Table 1, Table 2 and Table 5). The new channel selection is 
+valid on the 2nd SCLK falling edge in the next frame in all 
+three modes (refer to Figure 1). 
+Once the chip is configured to working in a selected mode, 
+it keeps working in this mode until the chip is powered down, 
+reset or reprogrammed. Allows it to exit multiple times and 
+re-enter this mode without disturbing program register 
+settings. 
+ 
+Manual Mode 
+When power-up or after reset the default channel is 
+'channel 0' and the default mode is manual mode. 
+ 
+Auto-1 Mode 
+In auto-1 mode, the chip scans all selected channels in 
+ascending order. The selected channels are configured in a 
+program register. The auto-1 program register setting is 
+shown in Table 3 and Table 4. The auto-1 program register 
+is reset to '0hFFFF'. 
+ 
+Auto-2 Mode 
+In auto-2 mode, the chip scans all selected channels from 
+channel 0 to the last channel. The last channel is configured 
+in a program register. The auto-2 program register setting is 
+shown in Table 6. The auto-2 program register are reset to 
+'0hF'. 
+ 
+Device Programming and Mode Control 
+The chip has two kinds of registers named mode registers 
+and program registers. 
+ 
+Power-Up Sequence 
+After power-up, the chip is in default manual mode and 
+channel 0 is set as default channel. User needs to configure 
+program register and mode register to set the chip working 
+in target mode. 
+
+12-Bit, 1MSPS, 16 Channels, 
+SGM5200 
+Single-Ended, Serial Interface ADC 
+ 
+ 
+17 
+ 
+SEPTEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Operating in Manual Mode 
+The mode control register settings for manual mode are 
+shown in Table 1. In manual mode, no program register is 
+required. 
+The example for the chip how to work in manual mode and 
+scan channels CH3, CH5 and CH7 is shown in Figure 5. In 
+this sequence, in the frame N manual mode and channel 
+CH3 is selected. In the frame N+1, keep in manual mode 
+and channel CH5 is selected, internal MUX is switched to 
+channel CH3 on the 2nd falling edge of SCLK. In the frame 
+N+2, keep in manual mode and channel CH7 is selected, 
+on the falling edge of nCS, channel CH3 input signal is 
+sampling and conversion result is sent out in this frame, 
+internal MUX is switched to CH5. And the chip repeats this 
+sequence and sends out ADC conversion result data of 
+CH5 and CH7 in the following two frames. 
+ 
+Table 1. Mode Control Register Details for Manual Mode 
+BITS 
+DESCRIPTION 
+RESET 
+STATE 
+DI[15:12] 
+0001 = Selects manual mode 
+0001 
+DI11 
+0 = Chip retains values of DI[6:0] from the previous frame 
+1 = Enables programming of bits DI[6:0] 
+0 
+DI[10:7] 
+The 4-bit data means the next channel address to be selected in the next frame. DI10 is MSB and DI7 is LSB. For 
+example, 0000 = channel 0, 0001 = channel 1 and so on. 
+0000 
+DI6 
+0 = Selects 0V to VREF input range (Range 1) 
+1 = Selects 0V to 2 × VREF input range (Range 2) 
+0 
+DI5 
+0 = Normal operation (no power-down). 
+1 = Powers down on the 16th SCLK falling edge. 
+0 
+DI4 
+0 = SDO outputs current channel address of the channel on DO[15:12], and the 12-bit conversion results on 
+DO[11:0] 
+1 = GPIO3 to GPIO0 data (both input and output) corresponds to DO[15:12] in the following order as shown. Lower 
+data bits DO[11:0] means 12-bit conversion result for the current channel 
+0 
+DO15 
+DO14 
+DO13 
+DO12 
+GPIO3 (1) 
+GPIO2 (1) 
+GPIO1 (1) 
+GPIO0 (1) 
+DI[3:0] 
+GPIO data of the channels is used as output. The data of the channel configured as input will be ignored by the 
+device. The SDI bits and corresponding GPIO are shown below. 
+0000 
+DI3 
+DI2 
+DI1 
+DI0 
+GPIO3 (1) 
+GPIO2 (1) 
+GPIO1 (1) 
+GPIO0 (1) 
+NOTE: 1. GPIO1 to GPIO3 are available only for TSSOP package. TQFN packaged device offers GPIO0 only. 
+ 
+nCS
+SCLK
+SDO
+SDI
+Frame N
+Sample
+CHx
+Sample
+CHy
+1
+2
+3
+16
+1
+2
+3
+16
+Frame N+1
+1
+2
+3
+16
+Frame N+2
+ MUX Switch to CH3
+ MUX Switch to CH5
+Configure Manual Mode and 
+Select CH3
+Keep Manual Mode and 
+Select CH5
+Keep Manual Mode and 
+Select CH7
+Sample
+CH3
+Sample
+CH5
+Data CHx
+Data CHy
+Data CH3
+ 
+Figure 5. Example for Manual Mode Timing Diagram 
+ 
+ 
+
+12-Bit, 1MSPS, 16 Channels, 
+SGM5200 
+Single-Ended, Serial Interface ADC 
+ 
+ 
+18 
+ 
+SEPTEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Operating in Auto-1 Mode 
+The mode control register settings for auto-1 mode are 
+shown in Table 2. There are both mode registers and 
+program registers for auto-1 mode operation. 
+To let the chip work in auto-1 mode, it is necessary to 
+configure auto-1 program register firstly to select which 
+channels are going to be scanned. 
+The program register settings for auto-1 mode are shown in 
+Table 3 and Table 4. 
+Before running in auto-1 mode, the target channels CH2, 
+CH3 and CH5 (examples) must be configured in auto-1 
+program registers (details see auto-1 program registers 
+configuration sequence). 
+The example for the chip how to work in auto-1 mode and 
+scan channels CH2, CH3 and CH5 automatically is shown 
+in Figure 6. In this sequence, in the frame N sent entering 
+auto-1 mode command and channel CH2 is selected 
+automatically (the chip find the first selected channel in 
+ascending order automatically). In the frame N+1, the chip 
+switches MUX to CH2. In the frame N+2, the chip samples 
+the CH2 input and gives out ADC conversion result, and the 
+MUX is switched to CH3 automatically. In the frame N+3, 
+the chip samples CH3 and gives out ADC conversion 
+results, and the MUX is switched to CH5 automatically, and 
+so on. This process repeats until the last selected channel 
+is reached, and the process loops back from the first 
+selected channel.  
+In any case, re-entering auto-1 mode (It may be from auto-1 
+mode, manual mode and auto-2 mode) will cause the chip 
+channel scan sequence restarts from the first selected 
+channel. 
+Note that changing the auto-1 program register during the 
+chip is working in auto-1 mode, the chip scan restarts from 
+the first selected channel in ascending. 
+Figure 7 shows how the auto-1 program registers is 
+configured. It is used to pre-select the channels for auto-1 
+scanning. It needs two operation frames for a complete 
+configuration. More setting details are shown in Table 3 and 
+Table 4. 
+ 
+Table 2. Mode Control Register Details for Auto-1 Mode 
+BITS 
+DESCRIPTION 
+RESET 
+STATE 
+DI[15:12] 
+0010 = Selects auto-1 mode 
+0001 
+DI11 
+0 = Chip retains values of DI[10:0] from previous frame  
+1 = Enables programming of bits DI[10:0] 
+0 
+DI10 
+0 = The channel counter increments every conversion (no reset) 
+1 = The channel counter is reset to the lowest programmed channel in the auto-1 program register 
+0 
+DI[9:7] 
+xxx = Do not care 
+000 
+DI6 
+0 = Selects 0V to VREF input range (Range 1) 
+1 = Selects 0V to 2 × VREF input range (Range 2) 
+0 
+DI5 
+0 = Normal operation (no power-down). 
+1 = Powers down on the 16th SCLK falling edge. 
+0 
+DI4 
+0 = SDO outputs current channel address of the channel on DO[15:12], and the 12-bit conversion results on 
+DO[11:0] 
+1 = GPIO3 to GPIO0 data (both input and output) corresponds to DO[15:12] in the following order as shown. Lower 
+data bits DO[11:0] means 12-bit conversion result for the current channel 
+0 
+DO15 
+DO14 
+DO13 
+DO12 
+GPIO3 (1) 
+GPIO2 (1) 
+GPIO1 (1) 
+GPIO0 (1) 
+DI[3:0] 
+GPIO data of the channels is used as output. The data of the channel configured as input will be ignored by the 
+device. The SDI bits and corresponding GPIO are shown below. 
+0000 
+DI3 
+DI2 
+DI1 
+DI0 
+GPIO3 (1) 
+GPIO2 (1) 
+GPIO1 (1) 
+GPIO0 (1) 
+NOTE: 1. GPIO1 to GPIO3 are available only for TSSOP package. TQFN packaged device offers GPIO0 only. 
+ 
+ 
+
+12-Bit, 1MSPS, 16 Channels, 
+SGM5200 
+Single-Ended, Serial Interface ADC 
+ 
+ 
+19 
+ 
+SEPTEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+nCS
+SCLK
+SDO
+SDI
+Frame N
+Sample
+CHx
+Sample
+CHy
+1
+2
+3
+16
+1
+2
+3
+16
+Frame N+1
+1
+2
+3
+16
+Frame N+2
+Sample
+CH2
+Sample
+CH3
+ Enter Auto-1 Mode 
+ Keep Auto-1 Mode
+ MUX Switch to CH2
+ MUX Switch to CH3
+1
+2
+3
+16
+1
+2
+3
+16
+Frame N+3
+ Keep Auto-1 Mode
+ Keep Auto-1 Mode
+ Keep Auto-1 Mode
+ MUX Switch to CH5
+ MUX Switch to CH2
+Sample
+CH5
+Data CHx
+Data CHy
+Data CH2
+Data CH3
+Data CH5
+ 
+Figure 6. Example for Auto-1 Mode Timing Diagram 
+ 
+nCS
+SCLK
+SDO
+SDI
+Frame N
+1
+2
+3
+16
+1
+2
+3
+16
+Frame N+1
+DI[15:12] = 1000
+Enter auto-1 program register configuration 
+DI[15:0] = XX
+Per Table 3 and Table 4 for channel selected
+Do Not Care
+Do Not Care
+ 
+NOTE: During the programming process, the chip continues to run in the selected mode. The SDO is valid, but it is impossible to 
+change the range or write GPIO data to the device during programming. 
+ 
+Figure 7. Auto-1 Program Register Setting 
+ 
+Table 3. Program Register Details for Auto-1 Mode 
+BITS 
+DESCRIPTION 
+RESET 
+STATE 
+Frame 1 
+DI[15:12] 
+1000 = Enters the sequence of auto-1 program. Configuration is done in the next frame 
+NA 
+DI[11:0] 
+Do not care. 
+NA 
+Frame 2 
+DI[15:0] 
+1 (Individual Bit) = According bit is set to '1' means the according channel is selected in scanning sequence. 
+The channel numbers are one-to-one associated with the SDI bits. For example, DI15 corresponds to CH15, DI14 
+corresponds to CH14 … DI0 corresponds to CH0 
+0 (Individual Bit) = According bit is set to '0' means the according channel is skipped in scanning sequence. 
+The channel numbers are one-to-one associated with the SDI bits. For example, DI15 corresponds to CH15, DI14 
+corresponds to CH14 … DI0 corresponds to CH0 
+All '1' 
+ 
+Table 4. Channels Mapping to SDI Bits for the SGM5200 
+Device (1) 
+SDI Bits 
+DI15 
+DI14 
+DI13 
+DI12 
+DI11 
+DI10 
+DI9 
+DI8 
+DI7 
+DI6 
+DI0 
+DI4 
+DI3 
+DI2 
+DI1 
+DI0 
+16 Chan 
+1/0 
+1/0 
+1/0 
+1/0 
+1/0 
+1/0 
+1/0 
+1/0 
+1/0 
+1/0 
+1/0 
+1/0 
+1/0 
+1/0 
+1/0 
+1/0 
+ 
+NOTE:  
+1. The chip only scans the selected channels when in auto-1 mode. 
+ 
+
+12-Bit, 1MSPS, 16 Channels, 
+SGM5200 
+Single-Ended, Serial Interface ADC 
+ 
+ 
+20 
+ 
+SEPTEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Operating in Auto-2 Mode 
+The mode control register settings for auto-2 mode are 
+shown in Table 5. There are both mode registers and 
+program registers for auto-1 mode operation. 
+To let the chip work in auto-2 mode, it is necessary 
+configure auto-2 program register firstly to configure the last 
+channel which is going to be reached.  
+The program register settings for auto-2 mode are shown in 
+Table 6. 
+Before running in auto-2 mode, the last target channel CH2 
+(example) must be configured in auto-2 program registers 
+(details see 
+auto-2 
+program 
+registers 
+configuration 
+sequence). 
+The example about the chip how to work in auto-2 mode 
+and scan channels CH0, CH1 and CH2 automatically is 
+shown in Figure 8. In this sequence, in the frame N sent 
+entering auto-2 mode command and channel CH0 is 
+selected 
+automatically 
+(the 
+chip 
+switches 
+to 
+CH0 
+automatically). In the frame N+1, the chip switches MUX to 
+CH02. In the frame N+2, the chip samples the CH0 input 
+and gives out ADC conversion result, and the MUX is 
+switched to CH1 automatically. In the frame N+3, the chip 
+samples CH1 and gives out ADC conversion, and the MUX 
+is switched to CH2 automatically, and so on. This process 
+repeats until the last selected channel is reached (In this 
+example, the last channel is CH2), and the process loops 
+back from channel CH0. 
+In any case, re-entering auto-2 mode possibly from auto-1 
+mode, manual mode and auto-2 mode will cause the chip 
+channel scan sequence to restart from the channel CH0. 
+Note that changing the auto-2 program register during the 
+chip is working in auto-2 mode, the chip scan restarts from 
+channel CH0. 
+ 
+Figure 9 shows how the auto-2 program registers is 
+configured. It’s for pre-select the last channel for auto-2 
+scanning. It needs one operation frames for a complete 
+configuration. Refer to Table 6 for more setting details 
+ 
+ 
+Table 5. Mode Control Register Details for Auto-2 Mode 
+BITS 
+DESCRIPTION 
+RESET 
+STATE 
+DI[15:12] 
+0011 = Selects auto-2 mode 
+0001 
+DI11 
+0 = Chip retains values of DI[10:0] from the previous frame  
+1 = Enables programming of bits DI[10:0] 
+0 
+DI10 
+0 = Channel counter increments every conversion (no reset) 
+1 = Channel number is reset to CH0 
+0 
+DI[9:7] 
+xxx = Do not care 
+000 
+DI6 
+0 = Selects VREF input range (Range 1) 
+1 = Selects 2 × VREF input range (Range 2) 
+0 
+DI5 
+0 = Normal operation (no power-down) 
+1 = Powers down on the 16th SCLK falling edge 
+0 
+DI4 
+0 = SDO outputs current channel address of the channel on DO[15:12], and the 12-bit conversion results on 
+DO[11:0] 
+1 = GPIO3 to GPIO0 data (both input and output) corresponds to DO[15:12] in the following order as shown. Lower 
+data bits DO[11:0] means 12-bit conversion result for the current channel 
+0 
+DO15 
+DO14 
+DO13 
+DO12 
+GPIO3 (1) 
+GPIO2 (1) 
+GPIO1 (1) 
+GPIO0 (1) 
+DI[3:0] 
+GPIO data of the channels is used as output. The data of the channel configured as input will be ignored by the 
+device. The SDI bits and corresponding GPIO are shown below. 
+0000 
+DI3 
+DI2 
+DI1 
+DI0 
+GPIO3 (1) 
+GPIO2 (1) 
+GPIO1 (1) 
+GPIO0 (1) 
+NOTE: 1. GPIO1 to GPIO3 are available only for TSSOP package. TQFN packaged device offers GPIO0 only. 
+ 
+ 
+
+12-Bit, 1MSPS, 16 Channels, 
+SGM5200 
+Single-Ended, Serial Interface ADC 
+ 
+ 
+21 
+ 
+SEPTEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+nCS
+SCLK
+SDO
+SDI
+Frame N
+Sample
+CHx
+Sample
+CHy
+1
+2
+3
+16
+1
+2
+3
+16
+Frame N+1
+1
+2
+3
+16
+Frame N+2
+Sample
+CH0
+Sample
+CH1
+ Enter Auto-2 Mode 
+ Keep Auto-2 Mode
+ MUX Switch to CH0
+ MUX Switch to CH1
+1
+2
+3
+16
+1
+2
+3
+16
+Frame N+3
+ Keep Auto-2 Mode
+ Keep Auto-2 Mode
+ Keep Auto-2 Mode
+ MUX Switch to CH2
+ MUX Switch to CH0
+Sample
+CH2
+Data CHx
+Data CHy
+Data CH0
+Data CH1
+Data CH2
+ 
+Figure 8. Example for Auto-2 Mode Timing Diagram 
+ 
+nCS
+SCLK
+SDO
+SDI
+Frame N
+1
+2
+3
+16
+DI[15:12] = 1001
+DI[9:6] = xxxx, the address of last channel 
+Do Not Care
+ 
+NOTE: During the programming process, the chip continues to run in the selected mode. The SDO is valid, but it is impossible to 
+change the range or write GPIO data to the device during programming. 
+ 
+Figure 9. Auto-2 Program Register Setting 
+ 
+Table 6. Program Register Details for Auto-2 Mode 
+BITS 
+DESCRIPTION 
+RESET 
+STATE 
+DI[15:12] 
+1001 = Configure auto-2 program register 
+NA 
+DI[11:10] 
+Do not care. 
+NA 
+DI[9:6] 
+aaaa = The 4-bit data means the address of the last channel in the scanning sequence. In auto-2 mode, the 
+channel counter begins at CH0, increasing each frame until equal to 'aaaa'. The channel counter roles over to CH0 
+in the next frame 
+NA 
+DI[5:0] 
+Do not care. 
+NA 
+ 
+Continued Operation in a Selected Mode 
+When the chip is configured to working in one mode, the user may want to keep working in this mode. How to continue operating 
+in a selected mode is shown in Table 7. 
+ 
+Table 7. Continued Operation in a Selected Mode 
+BITS 
+DESCRIPTION 
+RESET 
+STATE 
+DI[15:12] 
+0000 = The chip continues to operate in current mode. When in auto-1 and auto-2 modes, the channel counter 
+increments automatically; when in the manual mode, it continues with the last selected channel. The chip ignores 
+datas on DI[11:0] and continues operating with the previous settings. SDI can be held low when there is no 
+changes are required in the mode control register 
+0001 
+DI[11:0] 
+Chip ignores these bits when DI[15:12] is '0000'. 
+All '0' 
+ 
+ 
+
+12-Bit, 1MSPS, 16 Channels, 
+SGM5200 
+Single-Ended, Serial Interface ADC 
+ 
+ 
+22 
+ 
+SEPTEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Programming 
+Digital Output 
+Table 8 shows the theory output codes according to 
+different input ranges. The ADC codes are in straight binary 
+format. 
+ 
+GPIO Registers 
+The GPIO pins can be used as GPO (general-purpose 
+output) or GPI (general-purpose input).  
+The GPIO functions and GPO status are set in GPIO 
+program registers, more details refer to Table 9. 
+The GPO refresh include two steps, first step setting in 
+operation frame N, second steps the chip refresh GPO data 
+on the nCS falling edge in frame N+1. More details refer to 
+Figure 10. 
+The chip samples the GPI input on the falling edge of nCS 
+in frame N, and outputs GPI data on SDO in the same 
+frame N.  
+ 
+Table 8. Ideal Input Voltages and Output Codes 
+Description 
+Analog Value 
+Digital Output 
+Straight Binary 
+Full Scale Range 
+Range 1 → VREF 
+Range 2 → 2 × VREF 
+Least Significant Bit (LSB) 
+VREF/4096 
+2 × VREF/4096 
+Binary Code 
+Hex Code 
+Full Scale 
+VREF - 1LSB 
+2 × VREF - 1LSB 
+1111 1111 1111 
+FFF 
+Midscale 
+VREF/2 
+VREF 
+1000 0000 0000 
+800 
+Midscale - 1LSB 
+VREF/2 - 1LSB 
+VREF - 1LSB 
+0111 1111 1111 
+7FF 
+Zero 
+0V 
+0V 
+0000 0000 0000 
+000 
+ 
+ 
+nCS
+SCLK
+SDO
+SDI
+Frame N
+1
+2
+3
+16
+1
+2
+3
+16
+Frame N+1
+DI[15:12] = 0100
+Per Table 9 for detail setting 
+Do Not Care
+GPOs are refreshed per previous frame SDI setting
+GPIs are sampled and output data on SDO
+GPIs are sampled and output data on SDO
+GPI Status Refreshed
+GPI Status Refreshed
+ 
+ 
+NOTE: During the programming process, the chip continues to run in the selected mode. The SDO is valid, but it is impossible to 
+change the range or write GPIO data to the device during programming. 
+ 
+Figure 10. GPIO Program Register Setting 
+ 
+ 
+
+12-Bit, 1MSPS, 16 Channels, 
+SGM5200 
+Single-Ended, Serial Interface ADC 
+ 
+ 
+23 
+ 
+SEPTEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Table 9. GPIO Program Register Details 
+BITS 
+DESCRIPTION 
+RESET 
+STATE 
+DI[15:12] 0100 = Selects GPIO program registers for programming 
+NA 
+DI[11:10] 00 = Reserved bits, must be '00' 
+00 
+DI9 
+0 = Normal operation  
+1 = Resets all registers in the next nCS frame to default value (it also resets itself) 
+0 
+DI8 
+0 = GPIO3 is still as general-purpose I/O. Program 0 for TQFN packaged device  
+1 = Configures GPIO3 as the chip power-down input 
+0 
+DI7 
+0 = GPIO2 is still as general-purpose I/O. Program 0 for TQFN packaged device  
+1 = Configures GPIO2 as device range input 
+0 
+DI[6:4] 
+000 = GPIO1 and GPIO0 are still as general-purpose I/Os. Valid setting for TQFN packaged device 
+xx1 = Configures GPIO0 as 'high or low' alarm output. It is an active high output. GPIO1 is still as general-purpose 
+I/O. Valid setting for TQFN packaged device 
+010 = Configures GPIO0 as high alarm output. It is an active high output. GPIO1 is still as general-purpose I/O. Valid 
+setting for TQFN packaged device 
+100 = Configures GPIO1 as low alarm output. It is an active high output. GPIO0 is still as general-purpose I/O. 
+Configuration is not valid for TQFN packaged device 
+110 = Configures GPIO1 as low alarm output and GPIO0 as a high alarm output. These are active high outputs. 
+Configuration is not valid for TQFN packaged device 
+000 
+DI3 (1) 
+0 = GPIO3 pin is configured as GPI (general-purpose input). Setting is not valid for TQFN packaged device  
+1 = GPIO3 pin is configured as GPO (general-purpose output). Program '1' for TQFN packaged device 
+0 
+DI2 (1) 
+0 = GPIO2 pin is configured as GPI. Setting is not valid for TQFN packaged device  
+1 = GPIO2 pin is configured as GPO. Program '1' for TQFN packaged device 
+0 
+DI1 (1) 
+0 = GPIO1 pin is configured as GPI. Setting is not valid for TQFN packaged device  
+1 = GPIO1 pin is configured as GPO. Program '1' for TQFN packaged device 
+0 
+DI0 (1) 
+0 = GPIO0 pin is configured as GPI. Valid setting for TQFN packaged device  
+1 = GPIO0 pin is configured as GPO. Valid setting for TQFN packaged device 
+0 
+ 
+NOTE:  
+1. The bits are valid for GPIOs that are not assigned a specific function by bits DI[8:4]. 
+ 
+Alarm Thresholds for GPIO Pins 
+Each channel has separate high alarm threshold and low 
+alarm threshold. To configure chip quickly, the input 
+channels are divided into 4 groups, each group can be 
+programmed consecutively (8 registers are programmed in 
+one sequence).  
+In Table 10, the chip has its input channels divide into 4 
+groups.  
+Table 11 shows details of the alarm program register. 
+Each group needs 9 operation frames to complete the 
+alarm thresholds configuration. The chip supports quit the 
+configuration sequence in middle of progress (DI12 in alarm 
+program register is enabled, and < 8 registers is configured). 
+Once DI12 is enabled, the chip quits the configuration 
+sequence in the next frame. 
+ 
+Table 10. Alarm Program Registers Groups 
+Group  
+Alarm 
+Program 
+Register 
+DI[15:12] 
+Registers 
+0 
+1100 
+High and low alarm for CH0, CH1, CH2 and 
+CH3 
+1 
+1101 
+High and low alarm for CH4, CH5, CH6 and 
+CH7 
+2 
+1110 
+High and low alarm for CH8, CH9, CH10 
+and CH11 
+3 
+1111 
+High and low alarm for CH12, CH13, CH14 
+and CH15 
+ 
+ 
+
+12-Bit, 1MSPS, 16 Channels, 
+SGM5200 
+Single-Ended, Serial Interface ADC 
+ 
+ 
+24 
+ 
+SEPTEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Device  in any operation mode
+Frame N
+Enter alarm 
+program register 
+setting sequence
+SDI: DI[15:12] = 11xx
+(xx indicates group of four channels; refer Table 10)
+Device enters alarm register programming sequence
+Program alarm thresholds?
+Yes
+SDI: DI[15:0] as per Table 11 
+(program alarm thresholds)
+End of alarm programming
+No
+DI12 is enabled?
+Program another group of four channels?
+No
+Yes
+Frame N+1
+Setting alarm 
+thresholds
+Yes, quit current configuration group
+ 
+ 
+NOTE: During the programming process, the chip continues to run in the selected mode. The SDO is valid, but it is impossible to 
+change the range or write GPIO data to the device during programming. 
+ 
+Figure 11. Alarm Program Register Programming Flowchart 
+ 
+Table 11. Alarm Program Register Details 
+BITS 
+DESCRIPTION 
+RESET  
+STATE 
+Frame 1 
+DI[15:12] 
+1100 = Alarm programming sequence for group 0 
+1101 = Alarm programming sequence for group 1 
+1110 = Alarm programming sequence for group 2 
+1111 = Alarm programming sequence for group 3 
+Note: DI[15:12] = 11AA is the alarm programming request for group AA. "AA" means the alarm programming 
+group number in binary format. 
+NA 
+DI[11:0] 
+Do not care. 
+NA 
+Frame 2 and Onwards 
+DI[15:14] 
+CC = "CC" means the channel number in binary format in group AA (each group has 4 channels) 
+The SGM5200 programs the alarm for the channel represented by the binary number "AACC". "AA" is 
+programmed in Frame 1. 
+NA 
+DI13 
+0 = Configure low alarm register 
+1 = Configure high alarm register 
+NA 
+DI12 
+0 = Continue alarm programming sequence in the next frame 
+1 = Exit alarm programming in the next frame 
+Note: To quit the threshold configure sequence if all threshold registers have been configured, DI12 must be set 
+to '1' to quit. 
+NA 
+DI[11:10] 
+Do not care. 
+NA 
+DI[9:0] 
+The 10-bit alarm threshold is compared with the upper 10-bit of the 12-bit conversion result.  
+'1111111111' 
+for high alarm 
+register 
+and 
+'0000000000' 
+for low alarm 
+register 
+ 
+ 
+
+12-Bit, 1MSPS, 16 Channels, 
+SGM5200 
+Single-Ended, Serial Interface ADC 
+ 
+ 
+25 
+ 
+SEPTEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Analog Input 
+Figure 12 shows the equivalent circuit model for the MUX and ADC. 
+ 
+6pF 
+12pF 
+7pF 
+80MΩ 
+MXO
+AINP
+CH15
+NOTE: CH0 is assumed to be on, and CH15 is assumed to be off.
+6pF 150Ω 
+CH0
+80Ω 
+6pF 
+ 
+Figure 12. Equivalent Circuit for ADC and MUX 
+ 
+ 
+ 
+ 
+ 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+SEPTEMBER 2022 ‒ REV.A to REV.A.1 
+Page 
+Update Electrical Characteristics section ............................................................................................................................................................. 
+5 
+ 
+Changes from Original (SEPTEMBER 2021) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00183.001 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TSSOP-38 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+ 
+1.200 
+ 
+0.047 
+A1 
+0.050 
+0.150 
+0.002 
+0.006 
+A2 
+0.800 
+1.000 
+0.031 
+0.039 
+b 
+0.170 
+0.270 
+0.007 
+0.011 
+c 
+0.090 
+0.200 
+0.004 
+0.008 
+D 
+9.600 
+9.800 
+0.378 
+0.386 
+E 
+4.300 
+4.500 
+0.169 
+0.177 
+E1 
+6.250 
+6.550 
+0.246 
+0.258 
+e 
+0.500 BSC 
+0.020 BSC 
+H 
+0.250 TYP 
+0.010 TYP 
+L 
+0.450 
+0.750 
+0.018 
+0.030 
+θ 
+1° 
+7° 
+1° 
+7° 
+ 
+NOTES:  
+1. Body dimensions do not include mode flash or protrusion.  
+2. This drawing is subject to change without notice. 
+ 
+ 
+c
+H
+L
+θ
+E
+E1
+D
+b
+e
+A
+A1
+A2
+5.94
+0.50
+0.30
+1.78
+RECOMMENDED LAND PATTERN (Unit: mm)
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00089.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TQFN-5×5-32L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.700 
+0.800 
+0.028 
+0.031 
+A1 
+0.000 
+0.050 
+0.000 
+0.002 
+A2 
+0.203 REF 
+0.008 REF 
+D 
+4.924 
+5.076 
+0.194 
+0.200 
+D1 
+3.300 
+3.500 
+0.130 
+0.138 
+E 
+4.924 
+5.076 
+0.194 
+0.200 
+E1 
+3.300 
+3.500 
+0.130 
+0.138 
+k 
+0.200 MIN 
+0.008 MIN 
+b 
+0.180 
+0.300 
+0.007 
+0.012 
+e 
+0.500 TYP 
+0.020 TYP 
+L 
+0.324 
+0.476 
+0.013 
+0.019 
+ 
+NOTE: This drawing is subject to change without notice. 
+ 
+ 
+RECOMMENDED LAND PATTERN (Unit: mm)
+3.4
+3.4
+0.7
+0.24
+0.5
+4.1
+5.5
+e
+L
+b
+k
+A
+A2
+A1
+E1
+D1
+N32
+N1
+N17
+E
+D
+SIDE VIEW
+BOTTOM VIEW
+TOP VIEW
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TSSOP-38 
+13″ 
+16.4 
+6.80 
+10.20 
+1.60 
+4.0 
+8.0 
+2.0 
+16.0 
+Q1 
+TQFN-5×5-32L 
+13″ 
+12.4 
+5.30 
+5.30 
+1.10 
+4.0 
+8.0 
+2.0 
+12.0 
+Q2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

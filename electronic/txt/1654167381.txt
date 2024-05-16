@@ -1,0 +1,2857 @@
+SGM48523/SGM48524A 
+SGM48525/SGM48526 
+Dual 5A, High-Speed, Low-Side Gate Drivers 
+with Negative Input Voltage Capability 
+ 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+JANUARY2022–REV.A 
+GENERAL DESCRIPTION 
+The SGM48523/4A/5/6 are dual high-speed low-side 
+gate drivers for MOSFET and IGBT power switches. 
+They have rail-to-rail driving capability and can sink and 
+source up to 5A peak current with capacitive loads. The 
+propagation delays are very short and well matched 
+between the two channels that make the device very fit 
+for applications that need accurate dual gate driving 
+such 
+as 
+synchronous 
+rectifiers. 
+The 
+matched 
+propagation delays also allow for paralleling the two 
+channels when higher driving current is required for 
+example for paralleled switches. The input voltage 
+thresholds are fixed, independent of supply voltage 
+(VDD) and are compatible with low voltage TTL and 
+CMOS logic. Noise immunity is excellent due to the 
+wide hysteresis window between the input low and high 
+thresholds. The devices have internal pull-up/pull-down 
+resistors on the input pins to ensure low state on the 
+driver outputs when the inputs are floating. 
+The SGM48523/4A/5 offer 3 logic options: dual inverting 
+(SGM48523), dual non-inverting (SGM48524A), and 
+one inverting and one non-inverting (SGM48525). They 
+have independent enable pins (ENA and ENB) for each 
+channel with active-high logic that can be left open for 
+normal operation because of internal pull-up to VDD. 
+The SGM48526 offers a flexible dual input design 
+which can be configured as inverting (-INx) or 
+non-inverting (+INx) for each channel. Both inputs 
+(+INx or -INx) can control the output state. Typically, 
+one input is used for gate pulse and the other one is 
+used for enable/disable function. 
+The SGM48523/4A/5 are available in SOIC-8, MSOP-8 
+(Exposed Pad) and TDFN-3×3-8L packages. The 
+SGM48526 is available in a Green TDFN-3×3-8L 
+package. They operate over a temperature range of 
+-40℃ to +140℃. 
+FEATURES 
+● Two Independent Gate Drive Channels 
+● 4.5V to 18V Single Supply Range (VDD) 
+● 5A Peak Source/Sink Pulse Current Drive 
+● Independent Enable Pin for Each Channel 
+● TTL and CMOS Compatible Logic Threshold 
+● Logic Levels Independent of Supply Voltage 
+● Hysteretic Input Logic for High Noise Immunity 
+● Outputs are Logic Low when Inputs are Floating 
+● Negative Voltage Handling Capability: 
+ -8V DC at Inputs 
+ -2V, 200ns Pulse for Outputs (OUTx) 
+● Glitch-Free Operation at Power-Up and Power- 
+Down: Outputs Pulled Low during Supply UVLO 
+● Fast Propagation Delays: 18ns (TYP) 
+● Fast Rise Time: 8ns (TYP) 
+● Fast Fall Time: 8ns (TYP) 
+● Delay Matching between Two Channels: 1ns (TYP) 
+● Channels can be Paralleled for Higher Drive Current 
+● -40℃ to +140℃ Operating Temperature Range 
+● Packaging: 
+ SGM48523/4A/5 Available in Green SOIC-8, 
+MSOP-8 (Exposed Pad) and TDFN-3×3-8L 
+Packages 
+ SGM48526 Available in a Green TDFN-3×3-8L 
+Package 
+ 
+APPLICATIONS 
+Power MOSFETs 
+IGBT Driving for Power Supplies 
+DC/DC Converters 
+Solar Power, Motor Drivers 
+Gate Drive for Emerging Wide Bandgap Devices 
+ 
+ 
+ 
+
+SGM48523/SGM48524A 
+Dual 5A, High-Speed, Low-Side Gate Drivers 
+SGM48525/SGM48526 
+with Negative Input Voltage Capability 
+ 
+ 
+2 
+JANUARY 2022 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM48523 
+SOIC-8 
+-40℃ to +140℃ 
+SGM48523XS8G/TR 
+SGM 
+48523XS8 
+XXXXX 
+Tape and Reel, 4000 
+MSOP-8 
+(Exposed Pad) 
+-40℃ to +140℃ 
+SGM48523XPMS8G/TR 
+SGM48523 
+XPMS8 
+XXXXX 
+Tape and Reel, 4000 
+TDFN-3×3-8L 
+-40℃ to +140℃ 
+SGM48523XTDB8G/TR 
+SGM 
+48523DB 
+XXXXX 
+Tape and Reel, 4000 
+SGM48524A 
+SOIC-8 
+-40℃ to +140℃ 
+SGM48524AXS8G/TR 
+SGM 
+CM9XS8 
+XXXXX 
+Tape and Reel, 4000 
+MSOP-8 
+(Exposed Pad) 
+-40℃ to +140℃ 
+SGM48524AXPMS8G/TR 
+SGMR67 
+XPMS8 
+XXXXX 
+Tape and Reel, 4000 
+TDFN-3×3-8L 
+-40℃ to +140℃ 
+SGM48524AXTDB8G/TR 
+SGM 
+R66DB 
+XXXXX 
+Tape and Reel, 4000 
+SGM48525 
+SOIC-8 
+-40℃ to +140℃ 
+SGM48525XS8G/TR 
+SGM 
+48525XS8 
+XXXXX 
+Tape and Reel, 4000 
+MSOP-8 
+(Exposed Pad) 
+-40℃ to +140℃ 
+SGM48525XPMS8G/TR 
+SGM48525 
+XPMS8 
+XXXXX 
+Tape and Reel, 4000 
+TDFN-3×3-8L 
+-40℃ to +140℃ 
+SGM48525XTDB8G/TR 
+SGM 
+48525DB 
+XXXXX 
+Tape and Reel, 4000 
+SGM48526 
+TDFN-3×3-8L 
+-40℃ to +140℃ 
+SGM48526XTDB8G/TR 
+SGM 
+48526DB 
+XXXXX 
+Tape and Reel, 4000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code. 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ 
+
+SGM48523/SGM48524A 
+Dual 5A, High-Speed, Low-Side Gate Drivers 
+SGM48525/SGM48526 
+with Negative Input Voltage Capability 
+ 
+ 
+3 
+JANUARY 2022 
+SG Micro Corp 
+www.sg-micro.com 
+ABSOLUTE MAXIMUM RATINGS 
+Supply Voltage, VDD 
+........................................... -0.3V to 20V 
+INA, INB, ENA, ENB Voltage 
+................................ -8V to 20V 
+OUTA, OUTB Voltage (DC) .....................-0.3V to VDD + 0.3V 
+OUTA, OUTB Voltage (Pulse < 200ns) 
+.......-2V to VDD + 0.3V 
+Package Thermal Resistance 
+SOIC-8, θJA 
+.............................................................. 121℃/W 
+MSOP-8 (Exposed Pad), θJA 
+...................................... 55℃/W 
+TDFN-3×3-8L, θJA 
+...................................................... 70℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Supply Voltage Range ......................................... 
+4.5V to 18V 
+Input Voltage, INA, INB 
+......................................... -2V to 18V 
+Enable Voltage, ENA and ENB 
+............................. -2V to 18V 
+Operating Junction Temperature Range 
+...... -40℃ to +140℃ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+
+SGM48523/SGM48524A 
+Dual 5A, High-Speed, Low-Side Gate Drivers 
+SGM48525/SGM48526 
+with Negative Input Voltage Capability 
+ 
+ 
+4 
+JANUARY 2022 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+SGM48523 (TOP VIEW) 
+SGM48524A (TOP VIEW) 
+INA
+ENA
+5
+6
+7
+8
+1
+2
+3
+4
+OUTA
+OUTB
+GND
+INB
+ENB
+VDD
+ 
+INA
+ENA
+5
+6
+7
+8
+1
+2
+3
+4
+OUTA
+OUTB
+GND
+INB
+ENB
+VDD
+ 
+SOIC-8 
+SOIC-8 
+ 
+ 
+SGM48525 (TOP VIEW) 
+SGM48523/4A/5 (TOP VIEW) 
+INA
+ENA
+5
+6
+7
+8
+1
+2
+3
+4
+OUTA
+OUTB
+GND
+INB
+ENB
+VDD
+ 
+1
+4
+3
+2
+8
+5
+6
+7
+INA
+GND
+ENA
+INB
+OUTB
+ENB
+VDD
+OUTA
+GND
+ 
+SOIC-8 
+MSOP-8 (Exposed Pad) 
+ 
+ 
+SGM48523/4A/5 (TOP VIEW) 
+SGM48526 (TOP VIEW) 
+1
+4
+8
+5
+6
+7
+OUTA
+OUTB
+INA
+GND
+INB
+ENA
+ENB
+VDD
+GND
+3
+2
+ 
+1
+4
+8
+5
+6
+7
++INB
+VDD
+-INB
+GND
+OUTB
+-INA
++INA
+OUTA
+GND
+3
+2
+ 
+TDFN-3×3-8L 
+TDFN-3×3-8L 
+ 
+ 
+ 
+ 
+
+SGM48523/SGM48524A 
+Dual 5A, High-Speed, Low-Side Gate Drivers 
+SGM48525/SGM48526 
+with Negative Input Voltage Capability 
+ 
+ 
+5 
+JANUARY 2022 
+SG Micro Corp 
+www.sg-micro.com 
+PIN DESCRIPTIONS 
+Table 1. Pin Functions of SGM48523, SGM48524A and SGM48525 
+PIN 
+NAME 
+I/O 
+FUNCTION 
+1 
+ENA 
+I 
+Channel A Enable Input. Pull ENA high or leave it floating to enable OUTA output. Pull ENA low to 
+disable OUTA output, ignoring INA state. 
+2 
+INA 
+I 
+Channel A Input. Inverting configuration in SGM48523/5 and non-inverting configuration in 
+SGM48524A. OUTA is logic low if INA is unbiased or left floating. 
+3 
+GND 
+― 
+Ground. Reference pin for all signals. 
+4 
+INB 
+I 
+Channel B Input. Inverting configuration in SGM48523 and non-inverting configuration in 
+SGM48524A/5. OUTB is logic low if INB is unbiased or left floating. 
+5 
+OUTB 
+O 
+Channel B Output. 
+6 
+VDD 
+I 
+Power Supply Input. 
+7 
+OUTA 
+O 
+Channel A Output. 
+8 
+ENB 
+I 
+Channel B Enable Input. Pull ENB high or leave it floating to enable OUTB output. Pull ENB low to 
+disable OUTB output, ignoring INB state. 
+Exposed 
+Pad 
+GND 
+― 
+Exposed Pad. It should be soldered to PCB board and connected to GND. 
+ 
+Table 2. Pin Function of SGM48526 
+PIN 
+NAME 
+I/O 
+FUNCTION 
+1 
+-INA 
+I 
+Channel A Inverting Input. When +INA is used as a non-inverting input, pull -INA down to GND to 
+enable OUTA output. OUTA is logic low if -INA is unbiased or left floating. 
+2 
+-INB 
+I 
+Channel B Inverting Input. When +INB is used as a non-inverting input, pull -INB down to GND to 
+enable OUTB output. OUTB is logic low if -INB is unbiased or left floating. 
+3 
+GND 
+― 
+Ground. Reference pin for all signals. 
+4 
+OUTB 
+O 
+Channel B Output. 
+5 
+VDD 
+I 
+Power Supply Input. 
+6 
+OUTA 
+O 
+Channel A Output. 
+7 
++INB 
+I 
+Channel B Non-Inverting Input. When -INB is used as an inverting input, pull +INB up to VDD to 
+enable OUTB output. OUTB is logic low if +INB is unbiased or left floating. 
+8 
++INA 
+I 
+Channel A Non-Inverting Input. When -INA is used as an inverting input, pull +INA up to VDD to 
+enable OUTA output. OUTA is logic low if +INA is unbiased or left floating. 
+Exposed 
+Pad 
+GND 
+― 
+Exposed Pad. It should be soldered to PCB board and connected to GND. 
+ 
+NOTE: I: input, O: output. 
+ 
+ 
+
+SGM48523/SGM48524A 
+Dual 5A, High-Speed, Low-Side Gate Drivers 
+SGM48525/SGM48526 
+with Negative Input Voltage Capability 
+ 
+ 
+6 
+JANUARY 2022 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTION TABLE 
+Table 3. Device Logic Table (SGM48523, SGM48524A and SGM48525) 
+SGM48523/4A/5 
+SGM48523 
+SGM48524A 
+SGM48525 
+ENA 
+ENB 
+INA 
+INB 
+OUTA 
+OUTB 
+OUTA 
+OUTB 
+OUTA 
+OUTB 
+H 
+H 
+L 
+L 
+H 
+H 
+L 
+L 
+H 
+L 
+H 
+H 
+L 
+H 
+H 
+L 
+L 
+H 
+H 
+H 
+H 
+H 
+H 
+L 
+L 
+H 
+H 
+L 
+L 
+L 
+H 
+H 
+H 
+H 
+L 
+L 
+H 
+H 
+L 
+H 
+L 
+L 
+Any 
+Any 
+L 
+L 
+L 
+L 
+L 
+L 
+Any 
+Any 
+Floating 
+Floating 
+L 
+L 
+L 
+L 
+L 
+L 
+Floating 
+Floating 
+L 
+L 
+H 
+H 
+L 
+L 
+H 
+L 
+Floating 
+Floating 
+L 
+H 
+H 
+L 
+L 
+H 
+H 
+H 
+Floating 
+Floating 
+H 
+L 
+L 
+H 
+H 
+L 
+L 
+L 
+Floating 
+Floating 
+H 
+H 
+L 
+L 
+H 
+H 
+L 
+H 
+ 
+Table 4. Device Logic Table (SGM48526) 
++INx (x = A or B) 
+-INx (x = A or B) 
+OUTx (x = A or B) 
+L 
+L 
+L 
+L 
+H 
+L 
+H 
+L 
+H 
+H 
+H 
+L 
+Floating 
+Any 
+L 
+Any 
+Floating 
+L 
+ 
+ 
+ 
+
+SGM48523/SGM48524A 
+Dual 5A, High-Speed, Low-Side Gate Drivers 
+SGM48525/SGM48526 
+with Negative Input Voltage Capability 
+ 
+ 
+7 
+JANUARY 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL APPLICATION CIRCUITS 
+ 
+ENB
+OUTA
+VDD
+OUTB
+ENA
+INA
+GND
+INB
+8
+7
+6
+5
+1
+2
+3
+4
+SGM48523/4A/5
+CVDD
+Enable Channel B
+Enable Channel A
+Channel A Input
+Channel B Input
+RG1
+RG2
+To Load
+ 
+ 
+Figure 1. SGM48523/4A/5 Typical Application 
+ 
+ 
++INA
++INB
+OUTA
+VDD
+-INA
+-INB
+GND
+OUTB
+8
+7
+6
+5
+1
+2
+3
+4
+SGM48526
+CVDD
+Non-Inverting 
+Input 
+Non-Inverting  
+Input
+RG1
+RG2
+To Load
+ 
+ 
+Figure 2. SGM48526 with Channel A and Channel B in Non-Inverting Configuration 
+ 
+ 
++INA
++INB
+OUTA
+VDD
+-INA
+-INB
+GND
+OUTB
+8
+7
+6
+5
+1
+2
+3
+4
+SGM48526
+CVDD
+Inverting Input 
+Inverting Input
+RG1
+RG2
+To Load
+ 
+ 
+Figure 3. SGM48526 with Channel A and Channel B in Inverting Configuration 
+ 
+ 
+ 
+
+SGM48523/SGM48524A 
+Dual 5A, High-Speed, Low-Side Gate Drivers 
+SGM48525/SGM48526 
+with Negative Input Voltage Capability 
+ 
+ 
+8 
+JANUARY 2022 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VDD = 12V, CVDD = 1µF, TJ = -40℃ to +140℃, typical values are at TJ = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Power Supplies 
+VDD Supply Voltage 
+VDD 
+ 
+4.5 
+ 
+18 
+V 
+VDD Start-Up Current 
+IDD_OFF 
+SGM48523 
+VDD = 3.4V, VINA = VINB = 0V 
+ 
+74 
+119 
+μA 
+VDD = 3.4V, VINA = VINB = VDD 
+ 
+36 
+65 
+SGM48524A 
+VDD = 3.4V, VINA = VINB = 0V 
+ 
+38 
+70 
+VDD = 3.4V, VINA = VINB = VDD 
+ 
+56 
+102 
+SGM48525 
+VDD = 3.4V, VINA = VINB = 0V 
+ 
+57 
+98 
+VDD = 3.4V, VINA = VINB = VDD 
+ 
+49 
+82 
+SGM48526 
+VDD = 3.4V, V+INA = V+INB = 0V 
+ 
+38 
+70 
+VDD = 3.4V, V+INA = V+INB = VDD 
+ 
+56 
+102 
+Supply Start Threshold 
+VON 
+TJ = +25℃ 
+3.8 
+4.2 
+4.5 
+V 
+TJ = -40℃ to +140℃ 
+3.7 
+4.2 
+4.7 
+Minimum Operating VDD Voltage after Supply 
+is Started 
+VOFF 
+ 
+3.4 
+3.85 
+4.3 
+V 
+VDD Supply Voltage Hysteresis 
+VDD_HYS 
+ 
+0.2 
+0.35 
+0.5 
+V 
+Input Pins (INA, INB, +INA, -INA, +INB, -INB) 
+Input Signal High Threshold 
+VIN_H 
+Output high for non-inverting input pins 
+Output low for inverting input pins 
+1.8 
+2 
+2.2 
+V 
+Input Signal Low Threshold 
+VIN_L 
+Output low for non-inverting input pins 
+Output high for inverting input pins 
+1.0 
+1.2 
+1.4 
+V 
+Input Hysteresis 
+VIN_HYS 
+ 
+0.6 
+0.8 
+1.0 
+V 
+Enable Pins (ENA, ENB) 
+Enable Signal High Threshold 
+VEN_H 
+Output high for non-inverting input pins 
+1.8 
+2 
+2.2 
+V 
+Enable Signal Low Threshold 
+VEN_L 
+Output low for non-inverting input pins 
+1.0 
+1.2 
+1.4 
+V 
+Enable Hysteresis 
+VEN_HYS 
+ 
+0.6 
+0.8 
+1.0 
+V 
+Output Pins (OUTA, OUTB) 
+High Level Output Voltage 
+VOH 
+VOH = VDD - VOUT, IOUT = -10mA 
+ 
+ 
+0.061 
+V 
+Low Level Output Voltage 
+VOL 
+IOUT = 10mA 
+ 
+ 
+0.009 
+V 
+Output Pull-Up Resistance (1) 
+ROH 
+IOUT = -10mA 
+ 
+4 
+6.1 
+Ω 
+Output Pull-Down Resistance 
+ROL 
+IOUT = 10mA 
+ 
+0.5 
+0.9 
+Ω 
+Peak Output Current 
+IPK_SOURCE 
+CL = 0.22μF, fSW = 1kHz 
+ 
+5 
+ 
+A 
+IPK_SINK 
+ 
+5 
+ 
+A 
+Protection Circuits 
+Thermal Shutdown Temperature 
+TTSD 
+ 
+ 
+165 
+ 
+℃ 
+Thermal Shutdown Temperature Hysteresis 
+THYS 
+ 
+ 
+15 
+ 
+℃ 
+ 
+NOTE: 
+1. ROH represents constant pull-up resistance only. 
+ 
+ 
+ 
+ 
+
+SGM48523/SGM48524A 
+Dual 5A, High-Speed, Low-Side Gate Drivers 
+SGM48525/SGM48526 
+with Negative Input Voltage Capability 
+ 
+ 
+9 
+JANUARY 2022 
+SG Micro Corp 
+www.sg-micro.com 
+SWITCHING CHARACTERISTICS 
+(VDD = 12V, CVDD = 1µF, TJ = -40℃ to +140℃, typical values are at TJ = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Rise Time (1) 
+tR 
+CL = 1.8nF 
+ 
+8 
+ 
+ns 
+Fall Time (1) 
+tF 
+CL = 1.8nF 
+ 
+8 
+ 
+ns 
+Delay Matching between Two Channels 
+tM 
+INA = INB, OUTA and OUTB at 50% 
+transition point 
+ 
+1 
+ 
+ns 
+Minimum Input Pulse Width that Changes the Output State 
+tPW 
+ 
+ 
+15 
+ 
+ns 
+Non-Inverting Input to Output Propagation Delay (1) 
+tD1 
+CL = 1.8nF, 5V input pulse 
+ 
+11 
+ 
+ns 
+tD2 
+CL = 1.8nF, 5V input pulse 
+ 
+18 
+ 
+Enable to Output Propagation Delay (1) 
+tD3 
+CL = 1.8nF, 5V enable pulse 
+ 
+11 
+ 
+ns 
+tD4 
+CL = 1.8nF, 5V enable pulse 
+ 
+18 
+ 
+Inverting Input to Output Propagation Delay (1) 
+tD5 
+CL = 1.8nF, 5V input pulse 
+ 
+14 
+ 
+ns 
+tD6 
+CL = 1.8nF, 5V input pulse 
+ 
+16 
+ 
+ 
+NOTE: 
+1. See timing diagrams as shown in Figure 4 through Figure 7. 
+ 
+TIMING DIAGRAMS 
+High
+Low
+Input
+Enable
+Output
+High
+Low
+90%
+10%
+tD1
+tD2
+tR
+tF
+ 
+High
+Low
+Input
+Enable
+Output
+High
+Low
+90%
+10%
+tD3
+tD4
+tR
+tF
+ 
+Figure 4. Non-Inverting Configuration 
+Figure 5. Enable Function (For Non-Inverting Configuration) 
+ 
+ 
+High
+Low
+Input
+Enable
+Output
+High
+Low
+90%
+10%
+tD5
+tD6
+tF
+tR
+ 
+High
+Low
+Input
+Enable
+Output
+High
+Low
+90%
+10%
+tD3
+tD4
+tR
+tF
+ 
+Figure 6. Inverting Configuration 
+Figure 7. Enable Function (For Inverting Configuration) 
+ 
+ 
+
+SGM48523/SGM48524A 
+Dual 5A, High-Speed, Low-Side Gate Drivers 
+SGM48525/SGM48526 
+with Negative Input Voltage Capability 
+ 
+ 
+10 
+JANUARY 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+ 
+ 
+     Start-Up Current vs. Temperature 
+Operating Supply Current vs. Temperature (Outputs Switching) 
+ 
+ 
+Supply Current vs. Temperature (Outputs in DC On/Off Condition) 
+     Input Threshold Voltage vs. Temperature 
+ 
+ 
+     Enable Threshold Voltage vs. Temperature 
+     Enable Threshold Voltage vs. Temperature 
+ 
+ 
+ 
+ 
+0
+20
+40
+60
+80
+100
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Start-Up Current (μA) 
+Temperature (℃) 
+VDD = 3.4V, SGM48524A only 
+VINx = VENx = VDD 
+VINx = VENx = 0V 
+5
+6
+7
+8
+9
+10
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Operating Supply Current (mA) 
+Temperature (℃) 
+VDD = 12V, fSW = 500kHz, CL = 500pF,  
+both channels switching 
+ 
+0
+200
+400
+600
+800
+1000
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Supply Current (μA) 
+Temperature (℃) 
+VDD = 12V 
+VINx = VENx = 4V 
+VINx = VENx = 0V 
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Input Threshold Voltage (V) 
+Temperature (℃) 
+VDD = 12V 
+Input High Threshold 
+Input Low Threshold 
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Enable Threshold Voltage (V) 
+Temperature (℃) 
+VDD = 4.5V 
+Enable High Threshold 
+Enable Low Threshold 
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Enable Threshold Voltage (V) 
+Temperature (℃) 
+VDD = 12V 
+Enable High Threshold 
+Enable Low Threshold 
+
+SGM48523/SGM48524A 
+Dual 5A, High-Speed, Low-Side Gate Drivers 
+SGM48525/SGM48526 
+with Negative Input Voltage Capability 
+ 
+ 
+11 
+JANUARY 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+     Output Pull-Up Resistance vs. Temperature 
+     Output Pull-Down Resistance vs. Temperature 
+ 
+ 
+    Rise Time vs. Temperature 
+     Fall Time vs. Temperature 
+ 
+ 
+Non-Inverting Input to Output Propagation Delay vs. Temperature 
+Inverting Input to Output Propagation Delay vs. Temperature 
+ 
+ 
+ 
+ 
+1
+2
+3
+4
+5
+6
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Output Pull-Up Resistance (Ω) 
+Temperature (℃) 
+VDD = 12V, IOUT = -10mA 
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Output Pull-Down Resistance (Ω) 
+Temperature (℃) 
+VDD = 12V, IOUT = 10mA 
+5
+6
+7
+8
+9
+10
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Rise Time (ns) 
+Temperature (℃) 
+VDD = 12V, CL = 1.8nF 
+5
+6
+7
+8
+9
+10
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Fall Time (ns) 
+Temperature (℃) 
+VDD = 12V, CL = 1.8nF 
+0
+5
+10
+15
+20
+25
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Non-Inverting Input to Output 
+Propagation Delay (ns) 
+Temperature (℃) 
+VDD = 12V, CL = 1.8nF 
+Non-Inverting Input to Output Low Delay, tD2 
+Non-Inverting Input to Output High Delay, tD1 
+0
+5
+10
+15
+20
+25
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Inverting Input to Output  
+Propagation Delay (ns) 
+Temperature (℃) 
+VDD = 12V, CL = 1.8nF 
+Inverting Input to Output High Delay, tD6 
+Inverting Input to Output Low Delay, tD5 
+
+SGM48523/SGM48524A 
+Dual 5A, High-Speed, Low-Side Gate Drivers 
+SGM48525/SGM48526 
+with Negative Input Voltage Capability 
+ 
+ 
+12 
+JANUARY 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+     Enable to Output Propagation Delay vs. Temperature 
+     UVLO Threshold Voltage vs. Temperature 
+ 
+ 
+     Rise Time vs. Supply Voltage 
+     Fall Time vs. Supply Voltage 
+ 
+ 
+     Propagation Delays vs. Supply Voltage 
+      Operating Supply Current vs. Frequency 
+ 
+ 
+ 
+ 
+0
+5
+10
+15
+20
+25
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Enable to Output Propagation Delay (ns) 
+Temperature (℃) 
+VDD = 12V, CL = 1.8nF 
+Enable to Output Low Delay, tD4 
+Enable to Output High Delay, tD3 
+2.5
+3.0
+3.5
+4.0
+4.5
+5.0
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+UVLO Threshold Voltage (V) 
+Temperature (℃) 
+VOFF 
+VON 
+7
+8
+9
+10
+11
+12
+4
+6
+8
+10
+12
+14
+16
+18
+Rise Time (ns) 
+Supply Voltage (V) 
+CL = 1.8nF 
+5
+6
+7
+8
+9
+10
+4
+6
+8
+10
+12
+14
+16
+18
+Fall Time (ns) 
+Supply Voltage (V) 
+CL = 1.8nF 
+0
+5
+10
+15
+20
+25
+4
+6
+8
+10
+12
+14
+16
+18
+ Propagation Delays (ns) 
+Supply Voltage (V) 
+CL = 1.8nF 
+— Non-Inverting Input to Output High Delay, tD1 
+— Non-Inverting Input to Output Low Delay, tD2 
+— Enable to Output High Delay, tD3 
+— Enable to Output Low Delay, tD4 
+— Inverting Input to Output Low Delay, tD5 
+— Inverting Input to Output High Delay, tD6 
+0
+10
+20
+30
+40
+50
+60
+0
+200
+400
+600
+800
+1000
+Operating Supply Current (mA) 
+Frequency (kHz) 
+CL = 1.8nF, both channels switching 
+VDD = 12V 
+VDD = 15V 
+VDD = 4.5V 
+
+SGM48523/SGM48524A 
+Dual 5A, High-Speed, Low-Side Gate Drivers 
+SGM48525/SGM48526 
+with Negative Input Voltage Capability 
+ 
+ 
+13 
+JANUARY 2022 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAMS 
+7
+5
+VDD
+VDD
+200kΩ 
+200kΩ 
+ENB
+OUTA
+VDD
+OUTB
+VDD
+ENA
+INA
+GND
+INB
+3
+Filter
+Filter
+2
+4
+Logic A
+VDD
+Logic B
+VDD
+200kΩ 
+Filter
+VDD
+200kΩ 
+Filter
+1
+8
+Thermal 
+Shutdown
+UVLO
+6
+ 
+7
+5
+ENB
+OUTA
+VDD
+OUTB
+VDD
+ENA
+INA
+GND
+INB
+3
+Filter
+Filter
+2
+4
+Logic A
+VDD
+Logic B
+Filter
+Filter
+1
+8
+Thermal 
+Shutdown
+UVLO
+6
+400kΩ 
+VDD
+200kΩ 
+VDD
+200kΩ 
+400kΩ 
+ 
+Figure 8. SGM48523 Block Diagram 
+Figure 9. SGM48524A Block Diagram 
+ 
+ 
+ 
+ 
+7
+5
+ENB
+OUTA
+VDD
+OUTB
+VDD
+ENA
+INA
+GND
+INB
+3
+Filter
+Filter
+2
+4
+Logic A
+VDD
+Logic B
+Filter
+Filter
+1
+8
+Thermal 
+Shutdown
+UVLO
+6
+VDD
+200kΩ 
+VDD
+200kΩ 
+VDD
+200kΩ 
+400kΩ 
+ 
+6
+4
++INB
+OUTA
+VDD
+OUTB
+VDD
++INA
+-INA
+GND
+-INB
+3
+Filter
+Filter
+1
+2
+Logic A
+VDD
+Logic B
+Filter
+Filter
+8
+7
+Thermal 
+Shutdown
+UVLO
+5
+VDD
+200kΩ 
+VDD
+200kΩ 
+400kΩ 
+400kΩ 
+ 
+Figure 10. SGM48525 Block Diagram 
+Figure 11. SGM48526 Block Diagram 
+ 
+ 
+ 
+ 
+
+SGM48523/SGM48524A 
+Dual 5A, High-Speed, Low-Side Gate Drivers 
+SGM48525/SGM48526 
+with Negative Input Voltage Capability 
+ 
+ 
+14 
+JANUARY 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION 
+The SGM48523/4A/5/6 dual-channel, low-side, high- 
+speed gate drivers are among the top level devices in 
+the market featuring a 5A source/sink current capability 
+and industry best-in-class switching characteristics. 
+They have several other prominent features as listed in 
+Table 5 assuring that they are reliable and efficient gate 
+driving solutions for power switches in high frequency 
+applications. 
+ 
+Table 5. Prominent Features and Benefits 
+Feature 
+Benefit 
+Best-in-class propagation delays (18ns, TYP). 
+Very low delay and distortion in pulse transmission. 
+Excellent delay matching between channels (1ns, TYP). 
+Allows paralleling of the channel outputs for double current driving 
+capability. It is especially useful for driving paralleled power switches. 
+Wide supply voltage range (VDD from 4.5V to 18V). 
+Design Flexibility. 
+Wide operating temperature range (-40℃ to +140℃). 
+Wider system operating temperature range and smaller cooling system. 
+UVLO protection on VDD. 
+Driver outputs are logic low in UVLO condition to ensure controlled and 
+glitch-free driving during power-up and power-down. 
+Outputs are logic low when inputs (INx) are floating. 
+This safety feature prevents unexpected gate pulses during abnormal 
+situations such as the conditions tested in the safety certification. 
+Outputs are enabled when enable inputs (ENx) are floating. 
+This feature provides pin-to-pin compatibility with other similar products 
+in those designs where pin 1 and 8 are floating. 
+Wide hysteresis CMOS/TTL compatible input and enable thresholds. 
+Improved noise immunity while compatible with digital logic (3.3V, 5V). 
+Input/enable pins voltage levels are not restricted by VDD. 
+Simplified system especially in the auxiliary bias supply architecture. 
+Ability to handle -8V VDC (MAX) at input pins. 
+Increased robustness in noisy environments. 
+ 
+Under-Voltage Lockout for VDD 
+The internal under-voltage lockout (UVLO) protection 
+keeps the outputs in low state when the VDD supply 
+voltage is insufficient for proper operation of the chip. If 
+VDD rises but its voltage does not reach UVLO 
+threshold, the outputs are logic low, ignoring the state 
+of the inputs. The UVLO rising threshold voltage is 4.2V 
+(TYP) and has a 350mV (TYP) hysteresis band to 
+prevent output from chattering when VDD has large 
+superimposed noise or other fluctuations. The safe low 
+voltage (less than 5V) operating capability along with 
+the excellent switching characteristics makes the 
+device well suited for driving GaN power switches. 
+If the enable pin is active or floating during power-up, 
+the output remains low until VDD exceeds the UVLO 
+threshold. Then the output is controlled by the input 
+signal with a magnitude that follows VDD (see Figure 12 
+for non-inverting and Figure 13 for inverting channels). 
+ 
+VDD
+Enable
+Input
+Output
+VDD Threshold
+ 
+VDD
+Enable
+Input
+Output
+VDD Threshold
+ 
+Figure 12. Power-up in a Non-Inverting Driver Channel 
+Figure 13. Power-up in an Inverting Driver Channel 
+ 
+ 
+
+SGM48523/SGM48524A 
+Dual 5A, High-Speed, Low-Side Gate Drivers 
+SGM48525/SGM48526 
+with Negative Input Voltage Capability 
+ 
+ 
+15 
+JANUARY 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Because VDD pin is the supply source for the device 
+internal circuits, it is recommended to use two VDD 
+surface mount bypass capacitors to prevent noise 
+problems caused by high speed switching. A small 
+100nF ceramic capacitor must be soldered as close 
+between the VDD and GND pins as possible. In 
+addition, a larger low ESR capacitor (a few μF) must be 
+placed in parallel and close to the same pins for 
+delivery of the high peak driving currents with sharp rise 
+time. The low impedance characteristic provided by 
+these capacitors allows high frequency and high 
+current driving of the outputs. Avoid using vias for 
+connecting bypass capacitors to the device pins. 
+ 
+Operating Supply Current 
+The SGM48523/4A/5/6 consume a very low quiescent 
+current. The lowest quiescent IDD value is reached 
+when the device is fully powered (not in UVLO), and the 
+outputs are in a low or high DC static state and the 
+internal pull-up inputs (enable inputs) are in high or float 
+state. During normal operation, the total IDD current is 
+the sum of three components: the quiescent current, 
+the average IOUT current due to switching and the 
+internal pull-up resistor currents (on enable inputs and 
+inverting inputs). Clearly if an inverting input pin that 
+has an internal pull-up resistor is externally pulled low, 
+a small additional current is drawn from VDD through the 
+internal pull-up resistor (see Figure 8 through Figure 11). 
+Usually the main portion of the supply current is for 
+driving the outputs and the other two can be ignored. 
+For driving MOSFETs with a frequency of fSW and gate 
+charge of Qg, the average driver output current is IOUT = 
+Qg ⨯ fSW. 
+ 
+Input Stage 
+The SGM48523/4A/5/6 input pins are compatible with 
+TTL and CMOS logic thresholds and are independent 
+of the supply voltage (VDD). The logic high threshold is 
+typically around 2V and the low threshold is around 1.2V. 
+Therefore the inputs can be easily driven by a 3.3V or 5V 
+digital controller. The noise immunity is enhanced due 
+to the relatively wide hysteresis band (2V - 1.2V = 0.8V, 
+TYP) compared to the traditional TTL logic in which the 
+hysteresis is typically less than 0.5V. The input voltage 
+thresholds of the SGM48523/4A/5/6 are tightly 
+controlled to simplify the system design and assure 
+stable operation against wide temperature variations. 
+Also the devices are designed with very low parasitic 
+input pin capacitances to allow high speed switching. 
+An important safety feature of the drivers is that if any 
+of the input pins floats, the corresponding channel 
+output will be held in the low state. This feature is 
+implemented by the GND pull-down resistors on the 
+non-inverting inputs and VDD pull-up resistors on the 
+inverting inputs as shown in Figure 8 through Figure 11. 
+The SGM48526 has two input pins in each channel to 
+control the output. The SGM48526 offers the flexibility 
+to use either a non-inverting input (+INx) or an inverting 
+input (-INx) to drive the output on each channel. The 
+output state depends on both +INx and -INx pins (x = A 
+or B). When one input pin is chosen to drive the output, 
+the other unused input cannot be left floating and must 
+be biased to allow output control by the other pin. As 
+explained before if an input is floating, the channel 
+output is disabled by the internal pull-up or pull-down 
+resistors for safety. The unused input pin can function 
+as enable/disable input. In summary, the SGM48526 
+output is only driven high when +INx pin is high and 
+-INx is low. The details are provided in the function 
+table and the application diagrams given in Figure 2 
+and Figure 3. 
+The input driving signal must have short rise or fall time. 
+This condition is normally satisfied when the input 
+signals are generated by a PWM controller or logic gate 
+(with transition times < 200ns). If the input transition is 
+too slow, the output may chatter several times (at high 
+frequency) before going to its new stable state. The 
+wide input hysteresis of these devices minimizes the 
+concern for such problem even for other logic 
+thresholds. However, the designer should make sure 
+the 
+implementation 
+satisfies 
+the 
+driver 
+input 
+requirements. To limit the rise or fall time of the gate 
+pulse on the output, it is recommended to use an 
+external series resistance between the driver output 
+and the gate of the power device. This resistor reduces 
+the switching gate charge losses in the driver output 
+stage because a portion of the loss will dissipate in the 
+resistor. 
+ 
+Enable 
+The enable function is very useful in some applications 
+that need to block gate pulses depending on the 
+system operating conditions. For example, in a 
+synchronous rectifier and in light load conditions, it may 
+be necessary to disable gate signal to avoid negative 
+current in the device for improving efficiency or to 
+prevent boosting in a buck converter. 
+ 
+ 
+
+SGM48523/SGM48524A 
+Dual 5A, High-Speed, Low-Side Gate Drivers 
+SGM48525/SGM48526 
+with Negative Input Voltage Capability 
+ 
+ 
+16 
+JANUARY 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+The SGM48523/4A/5 devices have an independent 
+active-high enable pin (ENx). Similar to the driver 
+inputs, the enable pins are independent of the supply 
+voltage with tightly controlled thresholds and are 
+compatible with TTL or CMOS logic. They can be 
+directly controlled by the popular 3.3V and 5V 
+microcontrollers. The ENx pins (x = A or B) are internally 
+pulled up to VDD by pull-up resistors and the output 
+channel x is enabled if ENx input is floating. Therefore 
+the SGM48523/4A/5 are pin-to-pin compatible with 
+SGMICRO’s previous gate driver. Note that if two 
+channels in a device are paralleled, the enable signals 
+should also be tied together. 
+The SGM48526 device does not have specified enable 
+pins. However, the unused input pin can be used to 
+enable or disable the device. Either pulling +INx down 
+to GND or pulling -INx up to VDD disables the output. 
+Therefore, +INx pin is used as an active high enable pin, 
+while -INx is used as an active low enable pin. Note that 
+while the ENA and ENB pins in SGM48523/4A/5 are 
+allowed to be floating during normal operation and the 
+outputs will be enabled. The unused input pins in 
+SGM48526 are not allowed to be floating. 
+ 
+Tightly Matched and Low Propagation 
+Delays 
+The 
+SGM48523/4A/5/6 
+drivers 
+offer 
+very 
+low 
+propagation delays (18ns, TYP), and pulse transmission 
+distortion between input and output. Such low distortion 
+is important in the industry for high frequency switching 
+applications, for example, in the synchronous rectifier 
+applications where both SR MOSFETs are driven with 
+one driver. Moreover, the delays between the two 
+channels are extremely well matched with 1ns (TYP) 
+difference. This feature is critically important when 
+accurate timing between dual gate drives is required. 
+For example, in some PFC applications, two paralleled 
+MOSFETs may be needed to be driven independently 
+using each output channel and with the same input 
+pulses. The matching gate drivers ensure that they are 
+driven simultaneously with the minimum turn-on or 
+turn-off delay differences. The tight matching also 
+allows for paralleling the two channels to increase 
+current driving capability. The INA and INB pins are tied 
+together as input and OUTA and OUTB pins are tied 
+together as output. Caution must be exercised that any 
+delay between triggering of the two channels can lead 
+to a shoot-through between outputs. Note that as 
+described in Figure 14, the input signals must also be 
+well matched and with fast rise or fall time. Due to the 
+small differences between the input thresholds, a pulse 
+with slow rise or fall time may add extra delay between 
+signals. Therefore, it is recommended to use very fast 
+input pulses (20V/µs or greater) when inputs are 
+paralleled. Also, the tie point for inputs must be as close 
+as possible to the chip. If possible, adding external 
+series gate resistors between the outputs will also help. 
+Considering small 0Ω series output resistors in the 
+layout is recommended to allow future adjustment in 
+the design if needed. 
+ 
+7
+5
+ENB
+OUTA
+VDD
+OUTB
+VDD
+ENA
+INA
+GND
+INB
+3
+Filter
+Filter
+Logic A
+VDD
+Logic B
+Filter
+Filter
+1
+8
+Thermal 
+Shutdown
+UVLO
+6
+400kΩ 
+VDD
+200kΩ 
+VDD
+200kΩ 
+400kΩ 
+2
+4
+Slow Signal
+VINB_H
+VINA_H
+ISHOOT-THROUGH
+ 
+Figure 14. When channels are paralleled for higher drive current, slow rise or fall time of the input pulse can cause 
+shoot-through between device outputs. Inputs with dv/dt higher than 20V/µs are recommended 
+
+SGM48523/SGM48524A 
+Dual 5A, High-Speed, Low-Side Gate Drivers 
+SGM48525/SGM48526 
+with Negative Input Voltage Capability 
+ 
+ 
+17 
+JANUARY 2022 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+In order to achieve fast switching and to reduce losses 
+in the power switches, high current gate drivers with 
+sufficient drive voltage are required. Such function 
+cannot be directly provided by logic controllers usually 
+operating at low power and low voltages such as 3.3V. 
+Even traditional buffer drivers like totem-pole NPN/PNP 
+configurations, are not useful as they are not capable 
+for voltage level shifting. A gate driver device provides 
+other advantages in the system such as reduction of 
+the high frequency noise by placing the high current 
+driver close to the power switch, and reduction of power 
+dissipation and thermal stress in controllers because 
+gate-charge power losses are handled by the driver. 
+Moreover, with the emerging of wide band-gap power 
+devices such as GaN based switches that are capable 
+for operating at very high frequency, new gate driving 
+requirements are imposed on the driver devices. Such 
+requirements include operating at low supply voltages 
+(5V or less), low propagation delays and excellent 
+delay matching, and compact layout with low 
+inductance and enhanced thermal capability. 
+In summary, gate driver devices simplify the system 
+design and provide better performance, lower cost, 
+lower component count and require less space on the 
+board. 
+Supply Voltage VDD 
+The supply voltage is selected based on the power 
+switch and driving requirements. Some power switches, 
+need positive gate voltage for turn-on and negative for 
+turn-off and for some other types, it is reversed. In both 
+cases the differential drive voltage is equal to VDD that 
+can be selected in a wide range from 4.5V to 18V. This 
+gate driver can be used for driving of a variety of power 
+switches. Typically for Si MOSFETs, the driving VGS is 
+chosen to be 4.5V, 10V or 12V depending on the 
+application and switch class. For IGBTs, a VGE of 15V 
+or 18V is commonly used. 
+ 
+Propagation Delay 
+The propagation delays depend on the operating 
+switching 
+frequency 
+and 
+the 
+permissible 
+pulse 
+distortion. All devices present very short 18ns (TYP) 
+propagation delays. Switching characteristics with more 
+details are provided to illustrate the propagation and 
+switching performance. 
+Drive Current and Power Dissipation 
+MOSFETs are widely used as power switches in many 
+high frequency applications. The SGM48523/4A/5/6 
+can source and sink 5A at 12V for a pulse width of 
+several hundred nanoseconds for driving MOSFETs. 
+High peak driving current is usually needed for a quick 
+turn on and usually the same amount of current in 
+opposite direction is also needed for switch turn off. 
+The sourcing and sinking actions repeat at the 
+switching frequency and for each transition some 
+energy is dissipated in the driver device. 
+The amount of power dissipation in the device depends 
+on the following: 
+• Switching frequency. 
+• Gate charge required to turn the MOSFET on or off.  
+• Size of the external gate resistors used (if any). 
+Gate charge is usually a function of the VGS drive 
+voltage. The drive voltage is VGS ≈ VDD (the dropout of 
+the driver, VOH, is normally very low). Note that due to 
+the low quiescent current and the internal bias power, 
+the loss in the driver is effectively equal to the output 
+driving losses caused by drive currents. 
+Using a discrete capacitor (Cg) as a similar switch gate 
+load for testing, the loss in the driver can be easily 
+estimated. The energy that is needed to charge the 
+capacitor to the supply voltage VDD is given by (1): 
+ 
+=
+2
+G
+g
+DD
+1
+E
+C V
+2
+ 
+(1) 
+ 
+It can be proved that the same amount of energy is 
+dissipated in the driver output stage resistances. Also, 
+the same amount of energy is dissipated if the 
+capacitor is discharged by the driver. Therefore, with a 
+switching frequency of fSW, the total power loss (in one 
+channel) is: 
+ 
+=
+2
+G
+g
+DD SW
+P
+C V f
+ 
+(2) 
+ 
+As an example, with VDD = 12V, Cg = 10nF and fSW = 
+200kHz the driver loss is calculated as: 
+ 
+10
+12
+12
+200
+288
+=
+×
+×
+×
+=
+G
+P
+nF
+V
+V
+kHz
+mW 
+(3) 
+ 
+ 
+
+SGM48523/SGM48524A 
+Dual 5A, High-Speed, Low-Side Gate Drivers 
+SGM48525/SGM48526 
+with Negative Input Voltage Capability 
+ 
+ 
+18 
+JANUARY 2022 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+The test is implemented on MOSFETs to find the 
+equivalent gate capacitance to determine the gate 
+charge required for switching the device. The gate 
+charge includes the impact of the input gate-source and 
+drain-gate capacitances. The drain-gate capacitance 
+also needs current for charge and discharge due to the 
+voltage swing of the drain voltage when the power 
+device is turning on and off. Usually the typical and 
+maximum 
+gate 
+charges 
+(Qg) 
+are 
+provided 
+by 
+manufacturers for switching the device under specified 
+conditions. Because Qg = CgVDD, the power loss in the 
+driver can be calculated from (4) too: 
+ 
+=
+=
+2
+G
+g
+DD SW
+g
+DD SW
+P
+C V f
+Q V f
+          (4) 
+ 
+For example, for driving a power MOSFET with 50nC of 
+gate charge (Qg = 50nC) at 500kHz with VDD = 12V, the 
+driver loss due to gate charge will be 0.3W. For this 
+driver that includes two channels, the total loss related 
+to gate charge is doubled when driving similar 
+MOSFETs: 
+ 
+=
+×
+×
+×
+=
+2
+50
+12
+0 5
+0 6
+G
+P
+nC
+V
+. MHz
+. W
+     
+(5) 
+ 
+When an external series gate resistor, Rg, is used for 
+MOSFET or IGBT, a portion the PG loss will dissipate on 
+Rg and not inside the driver. With a simplified analysis, 
+the gate driving loss inside each channel can be 
+calculated by (6): 
+ 
+
+
+=
+×
+×
+×
+×
++
+
+
+
+
++
++
+
+
+g
+0 5
+OFF
+ON
+G
+DD
+SW
+OFF
+g
+ON
+g
+R
+R
+P
+.
+Q
+V
+f
+R
+R
+R
+R
+  
+(6) 
+ 
+Where ROFF = ROL is the effective pull-down resistance 
+from the channel output to the ground and RON is the 
+effective resistance of the internal pull-up structure to 
+VDD (in the SGM48523/4A/5/6). 
+To find the total loss in the device, the quiescent current 
+losses (PQ = IDD,Q × VDD) should be added. Due to small 
+quiescent current (IDD,Q ≤ 0.6mA) of the device, this loss 
+is small and can be ignored. With VDD = 12V the 
+quiescent loss is PQ = 0.6mA ×12V = 7.2mW. 
+The actual driver supply current can be calculated as: 
+≈
+G
+DD
+DD
+P
+I
+V
+ 
+(7) 
+With PG = 0.6W and VDD = 12V the device supply 
+current will be IDD = 50mA. 
+ 
+Power Supply Recommendation 
+The supply voltage ranges (VDD) for SGM48523/4A/5/6 
+are between 4.5V and 18V. The absolute maximum 
+stress that the device tolerates is 20V. Considering a 
+2V margin for transient spikes, the maximum range is 
+set to 18V. The minimum limit is dictated by the UVLO 
+protection. In UVLO condition, the outputs are logic low, 
+ignoring the input states. UVLO has an almost 0.35V 
+hysteresis and an operating driver will not shut down 
+unless VDD falls below VOFF = 3.85V (TYP). Therefore, it 
+is important to make sure that for the designed system, 
+the supply ripple or voltage drops do not fall below 
+UVLO lower threshold that triggers device shutdown. A 
+100nF low ESR ceramic capacitor with another 
+surface-mount capacitor of few microfarads between 
+VDD and GND are necessary to prevent VDD transient 
+drops. Similarly, at start-up, the device starts operation 
+when the VDD pin voltage exceeds the VON threshold 
+(4.2V, TYP). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+Changes from Original (JANUARY 2022) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00010.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOIC-8 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+1.350 
+1.750 
+0.053 
+0.069 
+A1 
+0.100 
+0.250 
+0.004 
+0.010 
+A2 
+1.350 
+1.550 
+0.053 
+0.061 
+b 
+0.330 
+0.510 
+0.013 
+0.020 
+c 
+0.170 
+0.250 
+0.006 
+0.010 
+D 
+4.700 
+5.100 
+0.185 
+0.200 
+E 
+3.800 
+4.000 
+0.150 
+0.157 
+E1 
+5.800 
+6.200 
+0.228 
+0.244 
+e 
+1.27 BSC 
+0.050 BSC 
+L 
+0.400 
+1.270 
+0.016 
+0.050 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+ 
+ 
+ 
+D
+E
+E1
+e
+b
+A
+A2
+A1
+c
+L
+θ
+1.27
+0.6
+2.2
+5.2
+RECOMMENDED LAND PATTERN (Unit: mm)
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00016.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+MSOP-8 (Exposed Pad) 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.820 
+1.100 
+0.032 
+0.043 
+A1 
+0.020 
+0.150 
+0.001 
+0.006 
+A2 
+0.750 
+0.950 
+0.030 
+0.037 
+b 
+0.250 
+0.380 
+0.010 
+0.015 
+c 
+0.090 
+0.230 
+0.004 
+0.009 
+D 
+2.900 
+3.100 
+0.114 
+0.122 
+D1 
+1.700 
+1.900 
+0.067 
+0.075 
+e 
+0.65 BSC 
+0.026 BSC 
+E 
+2.900 
+3.100 
+0.114 
+0.122 
+E1 
+4.750 
+5.050 
+0.187 
+0.199 
+E2 
+1.450 
+1.650 
+0.057 
+0.065 
+L 
+0.400 
+0.800 
+0.016 
+0.031 
+θ 
+0° 
+6° 
+0° 
+6° 
+ 
+ 
+ 
+ 
+ 
+E1
+E
+e
+b
+E2
+D1
+θ
+c
+L
+D
+A1
+A
+A2
+RECOMMENDED LAND PATTERN (Unit: mm)
+1.02
+0.41
+0.65
+4.8
+1.80
+1.55
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00058.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TDFN-3×3-8L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.700 
+0.800 
+0.028 
+0.031 
+A1 
+0.000 
+0.050 
+0.000 
+0.002 
+A2 
+0.203 REF 
+0.008 REF 
+D 
+2.900 
+3.100 
+0.114 
+0.122 
+D1 
+2.200 
+2.400 
+0.087 
+0.094 
+E 
+2.900 
+3.100 
+0.114 
+0.122 
+E1 
+1.400 
+1.600 
+0.055 
+0.063 
+k 
+0.200 MIN 
+0.008 MIN 
+b 
+0.180 
+0.300 
+0.007 
+0.012 
+e 
+0.650 TYP 
+0.026 TYP 
+L 
+0.375 
+0.575 
+0.015 
+0.023 
+ 
+ 
+ 
+E
+D
+e
+L
+b
+k
+A
+A2
+A1
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+E1
+D1
+N1
+N4
+N8
+0.65
+2.725
+0.24
+0.675
+1.5
+2.3
+RECOMMENDED LAND PATTERN (Unit: mm)
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+SOIC-8 
+13″ 
+12.4 
+6.40 
+5.40 
+2.10 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+MSOP-8 
+(Exposed Pad) 
+13″ 
+12.4 
+5.20 
+3.30 
+1.50 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+TDFN-3×3-8L 
+13″ 
+12.4 
+3.35 
+3.35 
+1.13 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

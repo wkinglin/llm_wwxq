@@ -1,0 +1,1259 @@
+ 
+SGM8270-2 
+Low Noise, Precision, High Voltage, 
+Rail-to-Rail I/O Operational Amplifier 
+ 
+ 
+DECEMBER 2023 - REV. A. 3
+SG Micro Corp 
+www.sg-micro.com 
+GENERAL DESCRIPTION 
+The SGM8270-2 is a dual, low noise, precision operational 
+amplifier, optimized for high voltage operation from 
+3.3V to 36V single supply or ±1.65V to ±18V dual 
+power supplies. It provides rail-to-rail input with a wide 
+input common mode voltage range and rail-to-rail 
+output voltage swing. 
+Furthermore, the SGM8270-2 provides high slew rate, 
+low noise, low offset current and voltage, and low bias 
+current. 
+The SGM8270-2 is available in Green SOIC-8 and 
+MSOP-8 packages. It is specified over the extended 
+-40℃ to +125℃ temperature range. 
+ 
+FEATURES 
+• Rail-to-Rail Input and Output 
+• Wide Input Common Mode and Differential 
+Voltage Ranges 
+• Low Input Offset Voltage: ±2.8mV (MAX) 
+• Low Input Bias Current 
+• Low Input Offset Current 
+• Output Short-Circuit Protection 
+• High Input Impedance 
+• Low Noise: 15nV/√Hz at 1kHz 
+• Gain-Bandwidth Product: 2.5MHz 
+• High Slew Rate: 8V/µs 
+• -40℃ to +125℃ Operating Temperature Range 
+• Available in Green SOIC-8 and MSOP-8 Packages 
+ 
+ 
+APPLICATIONS 
+High Impedance Sensor 
+Photodiode Amplifier 
+High End, Professional Audio 
+DAC Output Amplifier 
+Medical Equipment 
+ 
+ 
+ 
+ 
+
+Low Noise, Precision, High Voltage, 
+SGM8270-2 
+Rail-to-Rail I/O Operational Amplifier 
+ 
+ 
+2 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM8270-2 
+SOIC-8 
+-40℃ to +125℃ 
+SGM8270-2XS8G/TR 
+SGM 
+82702XS8 
+XXXXX 
+Tape and Reel, 4000 
+MSOP-8 
+-40℃ to +125℃ 
+SGM8270-2XMS8G/TR 
+SGM82702 
+XMS8 
+XXXXX 
+Tape and Reel, 4000 
+ 
+MARKING INFORMATION 
+SOIC-8 
+MSOP-8 
+(1) XXXXX = Date Code, Trace Code and Vendor Code. 
+(2) XXXXX = Date Code and Vendor Code. 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Supply Voltage, +VS to -VS
+ ............................................... 
+40V 
+Differential Input Voltage, |VID| ............................ (+VS) - (-VS) 
+Input Common Mode Voltage Range, VCM 
+ 
+..................................................... 
+(-VS) - 0.1V to (+VS) + 0.1V 
+Input/Output Voltage Range
+ ......... 
+(-VS) - 0.3V to (+VS) + 0.3V 
+Junction Temperature.................................................. 
++150℃ 
+Storage Temperature Range
+ ........................ -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s)
+ ............................. 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+6000V 
+MM 
+................................................................................. 
+400V 
+CDM ............................................................................ 
+2000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Temperature Range
+ 
+..................... -40℃ to +125℃ 
+ 
+NOTE: 1. It is recommended that CMOS device adopts the 
+proper power supply sequence. Always sort the VS first, 
+followed by the inputs and outputs. 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+PIN CONFIGURATIONS 
+(TOP VIEW) 
+ 
+SOIC-8/MSOP-8 
+ 
+ 
+ 
+Date Code - Week
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+OUTA
+OUTB
++INB
++VS
+5
+6
+7
+8
+1
+2
+3
+4
+-INA
++INA
+-VS
+-INB
++
++
+_
+_
+
+Low Noise, Precision, High Voltage, 
+SGM8270-2 
+Rail-to-Rail I/O Operational Amplifier 
+ 
+ 
+3 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VS = ±1.65V to ±18V and RL = 2kΩ connected to 0V, Full = -40℃ to +125℃, typical values are at TA = +25℃, unless otherwise 
+noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN 
+TYP 
+MAX 
+UNITS 
+Input Characteristics 
+Input Offset Voltage 
+VOS 
+VCM = 0V 
++25℃ 
+ 
+±0.5 
+±2.8 
+mV 
+Full 
+ 
+ 
+±3 
+Input Offset Voltage Drift 
+ΔVOS/ΔT 
+ 
+Full 
+ 
+0.8 
+ 
+μV/℃ 
+Input Bias Current 
+IB 
+VCM = 0V 
++25℃ 
+ 
+±10 
+±300 
+pA 
+Full 
+ 
+ 
+±10 
+nA 
+Input Offset Current 
+IOS 
+VCM = 0V 
++25℃ 
+ 
+±10 
+±300 
+pA 
+Full 
+ 
+ 
+±5 
+nA 
+Maximum Input Difference Bias Current 
+IIIDI 
+VS = ±18V, VID = ±18V 
++25℃ 
+ 
+2 
+3 
+μA 
+Full 
+ 
+ 
+4 
+Common Mode Rejection Ratio 
+CMRR 
+VS = ±18V, 
+(-VS) - 0.1V < VCM < (+VS) -1.5V 
++25℃ 
+96 
+105 
+ 
+dB 
+Full 
+93 
+ 
+ 
+VS = ±18V, 
+(-VS) - 0.1V < VCM < (+VS) + 0.1V 
++25℃ 
+76 
+85 
+ 
+Full 
+73 
+ 
+ 
+Open-Loop Voltage Gain 
+AOL 
+(-VS) + 0.2V < VOUT < (+VS) - 0.2V, 
+RL = 10kΩ 
++25℃ 
+103 
+120 
+ 
+dB 
+Full 
+100 
+ 
+ 
+(-VS) + 0.5V < VOUT < (+VS) - 0.5V, 
+RL = 2kΩ 
++25℃ 
+100 
+120 
+ 
+Full 
+87 
+ 
+ 
+Output Characteristics 
+Output Voltage Swing from Rail 
+VOUT 
+VS = ±18V, RL = 10kΩ 
++25℃ 
+ 
+60 
+80 
+mV 
+Full 
+ 
+ 
+110 
+VS = ±18V, RL = 2kΩ 
++25℃ 
+ 
+300 
+400 
+Full 
+ 
+ 
+540 
+Output Short-Circuit Current 
+ISC 
+VS = ±18V 
++25℃ 
+±28 
+±40 
+ 
+mA 
+Power Supply 
+Operating Voltage Range 
+VS 
+ 
+Full 
+3.3 
+ 
+36 
+V 
+Quiescent Current 
+IQ 
+IOUT = 0A 
++25℃ 
+ 
+1 
+1.24 
+mA 
+Full 
+ 
+ 
+1.5 
+Power Supply Rejection Ratio 
+PSRR 
+VS = 3.3V to 36V 
++25℃ 
+106 
+120 
+ 
+dB 
+Full 
+103 
+ 
+ 
+Dynamic Performance 
+Gain-Bandwidth Product 
+GBP 
+CL = 50pF 
++25℃ 
+ 
+2.5 
+ 
+MHz 
+Phase Margin 
+φO 
+CL = 50pF 
++25℃ 
+ 
+60 
+ 
+° 
+Slew Rate 
+SR 
+VS = ±2.5V to ±18V, G = +1 
++25℃ 
+ 
+8 
+ 
+V/μs 
+Overload Recovery Time 
+ORT 
+VIN × G > VS 
++25℃ 
+ 
+1 
+ 
+μs 
+Total Harmonic Distortion + Noise 
+THD+N 
+VS = ±2.5V to ±18V, VOUT = 2VP-P, 
+f = 1kHz, G = +1, RL = 600Ω 
++25℃ 
+ 
+0.005 
+ 
+% 
+VS = ±2.5V to ±18V, VOUT = 2VP-P, 
+f = 1kHz, G = +1, RL = 2kΩ 
++25℃ 
+ 
+0.0005 
+ 
+% 
+Noise 
+Input Voltage Noise 
+ 
+f = 0.1Hz to 10Hz 
++25℃ 
+ 
+3 
+ 
+μVP-P 
+Input Voltage Noise Density 
+en 
+f = 10Hz 
++25℃ 
+ 
+100 
+ 
+nV/√Hz 
+f = 1kHz 
++25℃ 
+ 
+15 
+ 
+Input Current Noise Density 
+in 
+f = 1kHz 
++25℃ 
+ 
+300 
+ 
+fA/√Hz 
+ 
+ 
+
+Low Noise, Precision, High Voltage, 
+SGM8270-2 
+Rail-to-Rail I/O Operational Amplifier 
+ 
+ 
+4 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+At TA = +25℃, VS = 36V and RL = 2kΩ, unless otherwise noted. 
+ 
+      Quiescent Current vs. Supply Voltage 
+     Output Short-Circuit Current vs. Supply Voltage 
+ 
+ 
+      Quiescent Current vs. Temperature 
+      Input Offset Voltage vs. Input Common Mode Voltage 
+ 
+ 
+      Output Voltage vs. Output Current 
+      Small-Signal Overshoot vs. Capacitive Load 
+ 
+ 
+ 
+ 
+0.97
+0.98
+0.99
+1.00
+1.01
+1.02
+0
+6
+12
+18
+24
+30
+36
+Quiescent Current (mA) 
+Supply Voltage (V) 
+-60
+-40
+-20
+0
+20
+40
+60
+0
+6
+12
+18
+24
+30
+36
+Output Short-Circuit  Current (mA) 
+Supply Voltage (V) 
+ISINK 
+ISOURCE 
+0.8
+0.9
+1.0
+1.1
+1.2
+1.3
+-50
+-25
+0
+25
+50
+75
+100
+125
+Quiescent Current (mA) 
+Temperature (℃) 
+-2
+-1
+0
+1
+2
+3
+4
+-10
+0
+10
+20
+30
+40
+Input Offset Voltage (mV) 
+Input Common Mode Voltage (V) 
+-27
+-18
+-9
+0
+9
+18
+27
+0
+10
+20
+30
+40
+50
+60
+Output Voltage (V) 
+Output Current (mA) 
+0
+10
+20
+30
+40
+50
+10
+100
+1000
+Overshoot (%) 
+Capacitance Load (pF) 
+G = +1 
+
+Low Noise, Precision, High Voltage, 
+SGM8270-2 
+Rail-to-Rail I/O Operational Amplifier 
+ 
+ 
+5 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TA = +25℃, VS = 36V and RL = 2kΩ, unless otherwise noted. 
+ 
+      Large-Signal Step Response 
+   Small-Signal Step Response 
+ 
+ 
+     CMRR vs. Frequency 
+   PSRR vs. Frequency 
+ 
+ 
+     Maximum Output Voltage vs. Frequency 
+   Open-Loop Gain and Phase vs. Frequency 
+ 
+ 
+ 
+ 
+Output Voltage (500mV/div) 
+Time (100μs/div) 
+Output Voltage (10mV/div) 
+Time (100μs/div) 
+-120
+-110
+-100
+-90
+-80
+-70
+-60
+-50
+0.01
+0.1
+1
+10
+100
+1000
+10000
+Common Mode Rejection Ratio (dB) 
+Frequency (kHz) 
+-140
+-120
+-100
+-80
+-60
+-40
+-20
+0
+0.01
+0.1
+1
+10
+100
+1000
+Power Supply Rejection Ratio (dB) 
+Frequency (kHz) 
+— PSRR+ 
+— PSRR- 
+ 
+0
+5
+10
+15
+20
+25
+30
+35
+40
+1
+10
+100
+Output Voltage (VP-P) 
+Frequency (kHz) 
+0
+30
+60
+90
+120
+150
+180
+-25
+0
+25
+50
+75
+100
+125
+0.01
+0.1
+1
+10
+100
+1000
+10000
+Phase (degree) 
+Open-Loop Gain (dB) 
+Frequency (kHz) 
+Open-Loop Gain 
+Phase  
+
+Low Noise, Precision, High Voltage, 
+SGM8270-2 
+Rail-to-Rail I/O Operational Amplifier 
+ 
+ 
+6 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TA = +25℃, VS = 36V and RL = 2kΩ, unless otherwise noted. 
+ 
+     EMIRR IN+ vs. Frequency 
+     Input Voltage Noise Density vs. Frequency 
+ 
+ 
+     0.1Hz to 10Hz Input Voltage Noise  
+     Input Offset Voltage Production Distribution 
+ 
+ 
+     Quiescent Current Production Distribution 
+     Input Offset Voltage Drift Distribution 
+ 
+ 
+ 
+50
+60
+70
+80
+90
+100
+110
+10
+100
+1000
+10000
+EMIRR IN+ (dB) 
+Frequency (MHz) 
+PRF = -10dBm 
+1
+10
+100
+10
+100
+1000
+10000
+Input Voltage Noise Density (nV/√Hz) 
+Frequency (Hz) 
+Noise (500nV/div) 
+Time (5s/div) 
+0
+3
+6
+9
+12
+15
+-1.0
+-0.9
+-0.8
+-0.7
+-0.6
+-0.5
+-0.4
+-0.3
+-0.2
+-0.1
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+1.1
+1.2
+1.3
+1.4
+Percentage of Amplifiers (%) 
+Input Offset Voltage (mV) 
+3790 Samples  
+1 Production Lot 
+ 
+0
+3
+6
+9
+12
+15
+0.89
+0.90
+0.91
+0.92
+0.93
+0.94
+0.95
+0.96
+0.97
+0.98
+0.99
+1.00
+1.01
+1.02
+1.03
+1.04
+1.05
+1.06
+1.07
+1.08
+1.09
+1.10
+1.11
+1.12
+1.13
+Percentage of Amplifiers (%) 
+Quiescent Current (mA) 
+3790 Samples  
+1 Production Lot 
+ 
+0
+3
+6
+9
+12
+15
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+1.1
+1.2
+1.3
+1.4
+1.5
+1.6
+1.7
+1.8
+1.9
+2.0
+Percentage of Amplifiers (%) 
+Input Offset Voltage Drift (μV/℃) 
+-40℃ ≤ TA ≤ +125℃ 
+ 
+-40℃ ≤ TA ≤ +125℃ 
+ 
+
+Low Noise, Precision, High Voltage, 
+SGM8270-2 
+Rail-to-Rail I/O Operational Amplifier 
+ 
+ 
+7 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+DECEMBER 2023 ‒ REV.A.2 to REV.A.3 
+Page 
+Updated Absolute Maximum Ratings section ....................................................................................................................................................... 
+2 
+Updated Electrical Characteristics section ........................................................................................................................................................... 
+3 
+Updated Typical Performance Characteristics section ..................................................................................................................................... 5, 6 
+ 
+NOVEMBER 2020 ‒ REV.A.1 to REV.A.2 
+Page 
+Updated Marking Information section................................................................................................................................................................... 
+2 
+ 
+JUNE 2018 ‒ REV.A to REV.A.1  
+Page 
+Added MSOP-8 Package 
+................................................................................................................................................................................... 
+All 
+ 
+Changes from Original (DECEMBER 2017) to REV.A  
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00010.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOIC-8 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+1.350 
+1.750 
+0.053 
+0.069 
+A1 
+0.100 
+0.250 
+0.004 
+0.010 
+A2 
+1.350 
+1.550 
+0.053 
+0.061 
+b 
+0.330 
+0.510 
+0.013 
+0.020 
+c 
+0.170 
+0.250 
+0.006 
+0.010 
+D 
+4.700 
+5.100 
+0.185 
+0.200 
+E 
+3.800 
+4.000 
+0.150 
+0.157 
+E1 
+5.800 
+6.200 
+0.228 
+0.244 
+e 
+1.27 BSC 
+0.050 BSC 
+L 
+0.400 
+1.270 
+0.016 
+0.050 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+D
+E
+E1
+e
+b
+A
+A2
+A1
+c
+L
+θ
+1.27
+0.6
+2.2
+5.2
+RECOMMENDED LAND PATTERN (Unit: mm)
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00014.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+MSOP-8 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.820 
+1.100 
+0.032 
+0.043 
+A1 
+0.020 
+0.150 
+0.001 
+0.006 
+A2 
+0.750 
+0.950 
+0.030 
+0.037 
+b 
+0.250 
+0.380 
+0.010 
+0.015 
+c 
+0.090 
+0.230 
+0.004 
+0.009 
+D 
+2.900 
+3.100 
+0.114 
+0.122 
+E 
+2.900 
+3.100 
+0.114 
+0.122 
+E1 
+4.750 
+5.050 
+0.187 
+0.199 
+e 
+0.650 BSC 
+0.026 BSC 
+L 
+0.400 
+0.800 
+0.016 
+0.031 
+θ 
+0° 
+6° 
+0° 
+6° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+E1
+E
+e
+D
+A1
+L
+c
+A
+A2
+θ
+b
+RECOMMENDED LAND PATTERN (Unit: mm)
+1.02
+0.41
+0.65
+4.8
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+SOIC-8 
+13″ 
+12.4 
+6.40 
+5.40 
+2.10 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+MSOP-8 
+13″ 
+12.4 
+5.20 
+3.30 
+1.50 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

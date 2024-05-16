@@ -1,0 +1,1233 @@
+ 
+SGM66057 
+2.2MHz, Fixed Output Synchronous 
+Tiny Boost Converter with a 3.4A Switch 
+ 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+MAY2023–REV.A 
+GENERAL DESCRIPTION 
+The SGM66057 is an internally compensated, 2.2MHz 
+switching frequency, current mode, synchronous Boost 
+switching converter. The output voltage is fixed at 5.25V. 
+The device turns into power-save mode to maintain 
+high efficiency at light load currents. Its output is 
+disconnected by the rectifier circuit during shutdown, 
+with no input to output leakage. 
+Various protection features such as over-current, 
+short-circuit and over-temperature are implemented to 
+protect the device from various fault conditions. 
+The SGM66057 is available in a Green WLCSP- 
+1.26×1.21-9B package. 
+FEATURES 
+● 2.7V to 4.85V Operating Input Voltage Range 
+● 5.25V Fixed Output Voltage 
+● Up to 96.8% Efficiency 
+● Device Quiescent Current: 24µA (TYP) 
+● Shutdown Current: 1µA (MAX) 
+● Valley Switch Current Limit: 3.4A (TYP) 
+● Improved Light Load Efficiency with Power-Save 
+Mode (PSM) 
+● Low Reverse Leakage Current when VOUT > VIN 
+● Load Disconnect during Shutdown 
+● Over-Temperature Protection 
+● Available in a Green WLCSP-1.26×1.21-9B Package 
+ 
+ 
+APPLICATIONS 
+Class-D Audio Amplifier and USB OTG Supply 
+Boost for Low-Voltage Li-Ion Batteries 
+Smart Phones and Tablets 
+Portable and Wearable Devices 
+ 
+ 
+ 
+TYPICAL APPLICATION 
+SGM66057
+VIN
+VOUT
+SW
+EN
+PGND
+CIN
+10μF
+L
+0.47μH
++
+COUT
+22μF
+System
+Load
+Battery
+AGND
+ 
+ 
+Figure 1. Typical Application Circuit 
+ 
+ 
+
+2.2MHz, Fixed Output Synchronous 
+SGM66057 
+Tiny Boost Converter with a 3.4A Switch 
+ 
+ 
+2 
+MAY 2023
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM66057-5.25 
+WLCSP-1.26×1.21-9B 
+-40℃ to +85℃ 
+SGM66057-5.25YG/TR 
+XXXX 
+024 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XXXX = Date Code, Trace Code and Vendor Code. 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+VIN Voltage 
+....................................................... -0.3V to 5.5V 
+VOUT and EN Voltages 
+....................................... -0.3V to 6V 
+SW Node (DC) 
+..................................................... -0.3V to 6V 
+SW Node (Transient: 10ns, 3MHz) ......................... -1V to 8V 
+Voltage on Other Pins 
+...................................... -0.3V to 6V (1) 
+Package Thermal Resistance 
+WLCSP-1.26×1.21-9B, θJA. 
+...................................... 
+90℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+CDM ............................................................................ 
+1000V 
+ 
+NOTE: 1. Lesser of 6V or VIN + 0.3V. 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Ambient Temperature Range 
+........ -40℃ to +85℃ 
+Operating Junction Temperature Range 
+...... -40℃ to +125℃ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+
+2.2MHz, Fixed Output Synchronous 
+SGM66057 
+Tiny Boost Converter with a 3.4A Switch 
+ 
+ 
+3 
+MAY 2023
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+  (TOP VIEW) 
+A
+1
+B
+2
+C
+VOUT
+SW
+PGND
+SW
+VOUT
+PGND
+EN
+VIN
+AGND
+3
+ 
+  WLCSP-1.26×1.21-9B 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+A1, A2 
+VOUT 
+Boost Converter Output. 
+A3 
+VIN 
+Power Supply Input. 
+B1, B2 
+SW 
+Switching Node. Drain connection of low-side power MOSFET. 
+B3 
+EN 
+Device Enable Node. Pulling this pin logic high enables the device and pulling it logic low 
+disables the device. 
+C1, C2 
+PGND 
+Power Ground. 
+C3 
+AGND 
+Analog Ground.  
+ 
+ 
+
+2.2MHz, Fixed Output Synchronous 
+SGM66057 
+Tiny Boost Converter with a 3.4A Switch 
+ 
+ 
+4 
+MAY 2023
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VIN = 3.6V, TJ = -40℃ to +85℃, typical values are at TJ = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+DC/DC Stage 
+Input Voltage 
+VIN 
+TJ = +25℃ 
+2.7 
+ 
+4.85 
+V 
+UVLO Rising Threshold 
+VUVLO_R 
+TJ = +25℃ 
+2.03 
+2.34 
+2.66 
+V 
+UVLO Falling Threshold 
+VUVLO_F 
+TJ = +25℃ 
+1.97 
+2.27 
+2.58 
+V 
+UVLO Hysteresis Voltage 
+VUVLO_HYS 
+ 
+ 
+70 
+ 
+mV 
+Switching Frequency 
+f 
+ 
+1.76 
+2.2 
+2.64 
+MHz 
+Switch Current Limit 
+IL 
+TJ = +25℃ 
+3 
+3.4 
+4.1 
+A 
+Boost Switch On-Resistance 
+RDSON 
+VOUT = 5.0V, TJ = +25℃ 
+ 
+55 
+85 
+mΩ 
+Rectifying Switch On-Resistance 
+RDSON 
+VOUT = 5.0V, TJ = +25℃ 
+ 
+75 
+100 
+mΩ 
+Output Voltage 
+VOUT 
+ 
+5.14 
+5.25 
+5.38 
+V 
+Quiescent Current 
+IQ 
+VEN = VIN = 3.6V, no switching, TJ = +25℃ 
+ 
+24 
+37 
+µA 
+Shutdown Current 
+ISD 
+VEN = 0V, VIN = 3.6V, TJ = +25℃ 
+ 
+0.01 
+1 
+µA 
+Control Stage 
+EN Input Low Voltage 
+VIL 
+ 
+ 
+ 
+0.4 
+V 
+EN Input High Voltage 
+VIH 
+ 
+1.3 
+ 
+ 
+V 
+EN Input Current 
+IEN 
+Clamped to GND or VIN 
+ 
+0.1 
+ 
+µA 
+Over-Temperature Protection 
+TSD 
+ 
+ 
+150 
+ 
+℃ 
+Over-Temperature Hysteresis 
+TSD_HYS 
+ 
+ 
+20 
+ 
+℃ 
+ 
+ 
+ 
+
+2.2MHz, Fixed Output Synchronous 
+SGM66057 
+Tiny Boost Converter with a 3.4A Switch 
+ 
+ 
+5 
+MAY 2023
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+At TJ = +25℃, VIN = 3.6V, CIN = 10μF, COUT = 20μF and L = 0.47μH, unless otherwise noted.  
+ 
+      Efficiency vs. Output Current  
+      Maximum Output Current vs. Input Voltage 
+ 
+ 
+      Quiescent Current (from VIN) vs. Input Voltage 
+  
+      Shutdown Current vs. Input Voltage 
+ 
+ 
+ 
+ 
+Typical Switching Waveform 
+ 
+ 
+ 
+Typical Switching Waveform 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+VSW 
+ 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+ 
+  
+ 
+20mV/div   2V/div         500mA/div 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VSW 
+ 
+ 
+IL 
+ 
+ 
+20mV/div    2V/div    500mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (3μs/div)  
+ 
+ 
+ 
+Time (3μs/div) 
+ 
+ 
+ 
+ 
+60
+65
+70
+75
+80
+85
+90
+95
+100
+0.1
+1
+10
+100
+1000
+Efficiency (%) 
+Output Current (mA) 
+VIN = 3.0V 
+VIN = 3.6V 
+VIN = 4.2V 
+VIN = 4.85V 
+ 
+ 
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+2.0
+2.5
+3.0
+3.5
+4.0
+4.5
+5.0
+Maximum Output Current (A) 
+Input Voltage (V) 
+10
+15
+20
+25
+30
+35
+2.0
+2.5
+3.0
+3.5
+4.0
+4.5
+5.0
+Quiescent Current from VIN (µA) 
+Input Voltage (V) 
+TJ = -40℃ 
+TJ = +25℃ 
+TJ = +85℃ 
+0
+0.01
+0.02
+0.03
+0.04
+0.05
+0.06
+2.0
+2.5
+3.0
+3.5
+4.0
+4.5
+5.0
+Shutdown Current (µA) 
+Input Voltage (V) 
+TJ = -40℃ 
+TJ = +25℃ 
+TJ = +85℃ 
+VOUT = 5.25V 
+VOUT = 5.25V 
+VIN = 3.6V, VOUT = 5.25V, ILOAD = 40mA 
+VIN = 3.6V, VOUT = 5.25V, ILOAD = 400mA 
+AC Coupled 
+AC Coupled 
+
+2.2MHz, Fixed Output Synchronous 
+SGM66057 
+Tiny Boost Converter with a 3.4A Switch 
+ 
+ 
+6 
+MAY 2023
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TJ = +25℃, VIN = 3.6V, CIN = 10μF, COUT = 20μF and L = 0.47μH, unless otherwise noted.  
+ 
+ 
+Power on Waveform 
+ 
+ 
+ 
+EN on Waveform 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+IL 
+ 
+2V/div    2V/div        500mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+VEN 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+IL 
+ 
+ 
+ 
+ 
+2V/div    2V/div        500mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (150μs/div) 
+ 
+ 
+ 
+Time (150μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Load Transient Response 
+ 
+ 
+ 
+Load Transient Response 
+ 
+ 
+ 
+ 
+ILOAD 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+500mA/div   200mV/div   1A/div 
+ 
+ 
+ 
+ 
+ 
+ILOAD 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+500mA/div  200mV/div  1A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (100μs/div)  
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Load Sweep 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ILOAD 
+ 
+ 
+ 
+IL 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+500mA/div  1A/div   100mV/div  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (1ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VEN = VIN, VOUT = 5.25V, ILOAD = 0A 
+VIN = 3.6V, VOUT = 5.25V, ILOAD = 0A 
+AC Coupled 
+AC Coupled 
+VIN = 3.6V, VOUT = 5.25V, ILOAD = 40mA to 400mA 
+VIN = 3.6V, VOUT = 5.25V, ILOAD = 400mA to 1A 
+VIN = 3.6V, VOUT = 5.25V, ILOAD = 0A to 1A 
+AC Coupled 
+
+2.2MHz, Fixed Output Synchronous 
+SGM66057 
+Tiny Boost Converter with a 3.4A Switch 
+ 
+ 
+7 
+MAY 2023
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAM 
+PWM
+Control
+Slope
+Comparator
+Power-Save Mode
+Operation
+Control
+Shutdown
+Control
+SYNC
+Drive Control
+Ramp Gen
+2.2MHz
++
+_
+_
+PWM
+Comparator
+Σ
+_
++
+0.5V
+REF
+VCC
+2.7V to 4.85V
+VIN
+CIN
+L
+Power Saving
+B3
+Shutdown
+RC
+170kΩ
+CC
+53pF
+CP2
+1.5pF
+gm
+ERR or
+AMP
+R2
+R1
+VOUT
+5.25V
+VIN
+Well
+Switch
+COUT
+VOUT
+SW
+EN
++
+_
+2.3V
+A3
+PGND
+C3
+AGND
+C2
+C1
+A1
+A2
+B1
+B2
+Current
+Sense
+ 
+ 
+Figure 2. SGM66057 Block Diagram 
+ 
+ 
+ 
+
+2.2MHz, Fixed Output Synchronous 
+SGM66057 
+Tiny Boost Converter with a 3.4A Switch 
+ 
+ 
+8 
+MAY 2023
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+The SGM66057 is a fully-integrated synchronous Boost 
+DC/DC converter. The recommended input supply 
+voltage for full performance is 2.7V to 4.85V. Operating 
+input voltage above 4.85V is possible with SGM66057, 
+however, the full performance is not guaranteed 
+beyond the 4.85V operation. When the input supply 
+voltage is larger than 5.3V, the device is shut down. An 
+inductor, an output storage capacitor and an input 
+decoupling capacitor should be selected to ensure the 
+proper performance desired in a specific application 
+circuit. 
+ 
+Start-up and Enable 
+The SGM66057 implements the enable input to control 
+the turn-on and turn-off of the device. A logic signal 
+above 1.3V applied on EN pin turns on the device, and 
+a logic signal below 0.4V turns off the device. 
+ 
+The SGM66057 has built-in 500μs (TYP) soft-start time. 
+After enabling, the SGM66057 enters linear pre-charge 
+phase with a limited current of 200mA. As the output 
+voltage reaches the input voltage, the pre-charge 
+phase terminates. The SGM66057 starts switching and 
+boosts the output voltage to the 5.25V fixed output. 
+This start-up sequence effectively reduces the inrush 
+current during start-up. 
+ 
+The SGM66057 has a built-in 0.1µA (TYP) pull-down 
+current when the EN pin is programmed to logic low. In 
+addition to this pull-down current, there is an additional 
+300kΩ pull-down resistor when EN pin is logic low. 
+When EN pin is programmed to logic high, the 300kΩ 
+pull-down resistor is switched off and only the 0.1µA 
+(TYP) pull-down current remains. 
+ 
+Current Limit and Short-Circuit 
+The SGM66057 has a built-in 3.4A (TYP) current limit. 
+When inductor current exceeds the valley current limit, 
+output voltage will fall to maintain a constant power 
+operation. As output voltage drops below the input 
+voltage, current limit is reduced to 200mA (TYP) to 
+minimize excessive power dissipation within the IC. 
+ 
+When an output short to ground event occurs, the 
+SGM66057 reduces the current limit to 200mA (TYP) to 
+prevent damage to the device. The SGM66057 
+resumes operation and goes through the start-up 
+sequence once the short-circuit condition is removed. 
+ 
+Inductor Selection 
+Inductor is an essential element for current DC/DC 
+switch mode power supplies regardless of topology. 
+Inductor serves as the energy storage element for 
+power conversion. Inductance and saturation current of 
+inductor are two most important criterions for inductor 
+selection. For general design guidance, the selected 
+inductance should provide a peak to peak ripple current 
+that is around 30% of the average inductor current at 
+full load and nominal input voltage. The average 
+inductor current for a Boost converter is the input 
+current. Equation 1 shows the calculation of inductance 
+selection, where fSW is the switching frequency and ΔIL 
+is the inductor ripple current. 
+L = 
+×
+−
+∆×
+×
+IN
+OUT
+IN
+L
+SW
+OUT
+V
+(V
+V )
+I
+f
+V
+ 
+(1) 
+The 3.4A (TYP) valley current limit and the inductor 
+current ripple should be considered when selecting the 
+saturation current of the inductor. 
+The inductor also affects the close loop response of the 
+DC/DC converter. The SGM66057 is an internally 
+compensated device, and the loop response is 
+optimized for inductor in the range of 0.33µH to 1.3µH. 
+ 
+Input Capacitor 
+Boost converter’s input capacitor has continuous 
+current throughout the entire switching cycle, a 10µF 
+ceramic capacitor is recommended to place as close as 
+possible between the VIN pin and GND pin of the 
+device. For applications where the SGM66057 is 
+located far away from the input source, a 47µF or 
+higher capacitance capacitor is recommended to damp 
+the wiring harness inductance. 
+ 
+ 
+
+2.2MHz, Fixed Output Synchronous 
+SGM66057 
+Tiny Boost Converter with a 3.4A Switch 
+ 
+ 
+9 
+MAY 2023
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+Output Capacitor 
+The output capacitors of Boost converter dictate the 
+output voltage ripple and load transient response. 
+Equation 2 is used to estimate the necessary 
+capacitance to achieve desired output voltage ripple, 
+where ΔV is the maximum allowed ripple. 
+CMIN = 
+×
+−
+×
+×
+OUT
+OUT
+IN
+SW
+OUT
+I
+(V
+V )
+f
+ΔV
+V
+ 
+(2) 
+Since SGM66057 is an internally compensated device, 
+the loop response is optimized for capacitor in the 
+range of 10µF to 47µF. Due to the DC bias nature of 
+ceramic capacitors, care should be taken by verifying 
+manufacturer’s datasheet to ensure enough effective 
+capacitance at desired output voltage. 
+Layout Considerations 
+In addition to component selection, layout is a critical 
+step to ensure the performance of any switch mode 
+power supplies. Poor layout could result in system 
+instability, EMI failure, and device damage. Thus, place 
+the inductor, input and output capacitors as close to the 
+IC as possible, and use wide and short traces for 
+current carrying traces to minimize PCB inductance. 
+For Boost converter, the current loop of the output 
+capacitor from VOUT pin back to the PGND pin of the 
+device should be as small as possible.  
+Layout Example 
+ 
+ 
+Figure 3. SGM66057 PCB Layout 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+Changes from Original (MAY 2023) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00290.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+WLCSP-1.26×1.21-9B 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.587 
+0.625 
+0.663 
+A1 
+0.190 
+0.210 
+0.230 
+D 
+1.230 
+1.260 
+1.290 
+E 
+1.180 
+1.210 
+1.240 
+d 
+0.228 
+0.258 
+0.288 
+e 
+0.400 BSC 
+ccc 
+0.050 
+ 
+NOTE: This drawing is subject to change without notice.  
+ 
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+A1 CORNER
+RECOMMENDED LAND PATTERN (Unit: mm)
+1
+2
+3
+9 × Φd
+A
+B
+0.22
+0.20
+9 × Φ
+C
+C
+ccc C
+SEATING PLANE
+D
+E
+e
+e
+A1
+A
+0.40
+0.40
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+WLCSP-1.26×1.21-9B 
+7" 
+9.2 
+1.40 
+1.43 
+0.69 
+4.0 
+4.0 
+2.0 
+8.0 
+Q2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 

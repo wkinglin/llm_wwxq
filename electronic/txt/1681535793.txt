@@ -1,0 +1,715 @@
+ 
+ 
+SGM4807 
+Shunt Mode Audio Click-Pop Eliminator 
+ 
+ 
+DECEMBER 2016 – REV. A 
+SG Micro Corp 
+www.sg-micro.com 
+GENERAL DESCRIPTION 
+The SGM4807 is an audio click-pop eliminator which 
+can operate from a 1.7V to 5V single power supply. It is 
+designed for portable devices. 
+The SGM4807 provides a low-impedance grounding 
+path during startup and shutdown by connecting to the 
+output of the system amplifier. It allows -VCC to +VCC 
+wide range audio signals passing with low distortion. 
+Shunt mode can eliminate the click-pop noise. 
+The SGM4807 has two low-impedance analog 
+switches. The opening and closing of the switches are 
+controlled by mute events that include external power 
+supply 
+and 
+under-voltage 
+of 
+VCC, 
+power-up, 
+power-down and high to low logical level change of 
+MUTE pin. Opening switches during normal operation 
+will not affect the output signal. 
+The SGM4807 can be activated during startup and 
+shutdown of the amplifier to short-circuit the output to 
+the ground and reduce clicks-pops. 
+The SGM4807 is available in Green TDFN-2×2-8L, 
+MSOP-8 and WLCSP-1.57×0.80-8B packages. It 
+operates over an ambient temperature range of -40℃ 
+to +85℃. 
+FEATURES 
+• Supply Voltage Range: 1.7V to 5V 
+• Pop/Click Reduction Circuitry 
+• Supply Current: 1.5μA (TYP) 
+• 600kΩ Pull-Low Resistor at MUTE Pin 
+• -40℃ to +85℃ Operating Temperature Range 
+• Available in Green TDFN-2×2-8L, MSOP-8 and  
+WLCSP-1.57×0.80-8B Packages 
+ 
+ 
+APPLICATIONS 
+Notebook Computers 
+Phones 
+Portable Equipment 
+ 
+ 
+ 
+ 
+
+ 
+SGM4807 
+Shunt Mode Audio Click-Pop Eliminator 
+ 
+ 
+2 
+DECEMBER 2016 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM4807 
+TDFN-2×2-8L 
+-40℃ to +85℃ 
+SGM4807YTDE8G/TR 
+4807 
+XXXX 
+Tape and Reel, 3000 
+MSOP-8 
+-40℃ to +85℃ 
+SGM4807YMS8G/TR 
+SGM4807 
+YMS8 
+XXXXX 
+Tape and Reel, 4000 
+WLCSP-1.57×0.80-8B 
+-40℃ to +85℃ 
+SGM4807YG/TR 
+8EXX 
+Tape and Reel, 4000 
+NOTE: XX = Date Code, XXXX = Date Code, XXXXX = Date Code and Vendor Code. 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+VCC, MUTE, SET, CPB, UVP to GND 
+................ 
+-0.3V to +6V 
+INL, INR to GND ........................... 
+-VCC -0.3V to +VCC + 0.3V 
+Continuous Current In/Out of VCC ................................ 30mA 
+Continuous Current In/Out of MUTE 
+........................... 30mA 
+Continuous Current In/Out of SET, CPB, UVP 
+............. 30mA 
+Continuous Current In/Out of INL, INR and GND ...... 390mA 
+Junction Temperature ................................................ 
++150℃ 
+Storage Temperature Range 
+........................ -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ........................... 
++260℃ 
+ESD Susceptibility  
+HBM 
+............................................................................ 8000V 
+MM 
+................................................................................ 400V 
+CDM ........................................................................... 1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Voltage Range...................................... 1.7V to 5V 
+Operating Temperature Range ...................... -40℃ to +85℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+
+ 
+SGM4807 
+Shunt Mode Audio Click-Pop Eliminator 
+ 
+ 
+3 
+DECEMBER 2016 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+(TOP VIEW) 
+(TOP VIEW) 
+6
+8
+7
+1
+GND
+INL
+INR
+VCC
+SET
+MUTE
+4
+5
+3
+2
+UVP
+CPB
+GND
+ 
+1
+2
+3
+4
+5
+8
+7
+6
+GND
+INL
+INR
+UVP
+VCC
+SET
+MUTE
+CPB
+ 
+TDFN-2×2-8L 
+MSOP-8 
+ 
+ 
+(TOP VIEW) 
+1
+2
+3
+A
+B
+INL
+MUTE
+4
+GND
+VCC
+INR
+SET
+UVP
+CPB
+ 
+WLCSP-1.57×0.80-8B 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+TDFN-2×2-8L/ 
+MSOP-8 
+WLCSP- 
+1.57×0.80-8B 
+1 
+A1 
+INL 
+Left-Channel Input. Connect the INL between the headphone jack 
+and the output coupling capacitor. 
+2 
+A2 
+GND 
+Ground. 
+3 
+A3 
+INR 
+Right-Channel Input. Connect the INR between the headphone jack 
+and the output coupling capacitor. 
+4 
+A4 
+UVP 
+Under-Voltage Protection Input. When UVP event happens, chip will 
+be in mute status. 
+5 
+B4 
+CPB 
+Power-On Blanking Time Adjusting. Connect a capacitor from CPB 
+pin to GND to program the power-on blanking time. Chip is in mute 
+status during power-on blanking time. 
+6 
+B3 
+SET 
+Turn-Off Time Set. Connect an external capacitor between SET and 
+GND to set the switch open delay. 
+7 
+B2 
+VCC 
+Power Supply. 
+8 
+B1 
+MUTE  
+Active Low Enable. When MUTE  = “Low”, chip enters into mute 
+status; when MUTE  = “High”, chip works normally. There is one 
+600kΩ pull-low resistor at MUTE  pin. 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00056.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TDFN-2×2-8L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.700 
+0.800 
+0.028 
+0.031 
+A1 
+0.000 
+0.050 
+0.000 
+0.002 
+A2 
+0.203 REF 
+0.008 REF 
+D 
+1.900 
+2.100 
+0.075 
+0.083 
+D1 
+1.100 
+1.300 
+0.043 
+0.051 
+E 
+1.900 
+2.100 
+0.075 
+0.083 
+E1 
+0.500 
+0.700 
+0.020 
+0.028 
+k 
+0.200 MIN 
+0.008 MIN 
+b 
+0.180 
+0.300 
+0.007 
+0.012 
+e 
+0.500 TYP 
+0.020 TYP 
+L 
+0.250 
+0.450 
+0.010 
+0.018 
+ 
+NOTE: This drawing is subject to change without notice. 
+ 
+ 
+ 
+RECOMMENDED LAND PATTERN (Unit: mm)
+0.50
+0.24
+1.20
+0.60
+L
+A1
+A2
+A
+N8
+N1
+N4
+k
+e
+D1
+E1
+b
+E
+D
+SIDE VIEW
+BOTTOM VIEW
+TOP VIEW
+1.95
+0.65
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00014.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+MSOP-8 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.820 
+1.100 
+0.032 
+0.043 
+A1 
+0.020 
+0.150 
+0.001 
+0.006 
+A2 
+0.750 
+0.950 
+0.030 
+0.037 
+b 
+0.250 
+0.380 
+0.010 
+0.015 
+c 
+0.090 
+0.230 
+0.004 
+0.009 
+D 
+2.900 
+3.100 
+0.114 
+0.122 
+E 
+2.900 
+3.100 
+0.114 
+0.122 
+E1 
+4.750 
+5.050 
+0.187 
+0.199 
+e 
+0.650 BSC 
+0.026 BSC 
+L 
+0.400 
+0.800 
+0.016 
+0.031 
+θ 
+0° 
+6° 
+0° 
+6° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+E1
+E
+e
+D
+A1
+L
+c
+A
+A2
+θ
+b
+RECOMMENDED LAND PATTERN (Unit: mm)
+1.02
+0.41
+0.65
+4.8
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00126.000 
+SG Micro Corp 
+www.sg-micro.com 
+ 
+PACKAGE OUTLINE DIMENSIONS 
+WLCSP-1.57×0.80-8B 
+ 
+ 
+ 
+ 
+NOTES: 
+1. All linear dimensions are in millimeters. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+ 
+ 
+ 
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+3
+4
+A
+B
+A1 CORNER
+0.20
+0.18
+0.359±0.025
+0.4
+0.4
+8 ×Φ0.235±0.040
+0.800±0.015
+0.185±0.025
+8 ×Φ
+1.570±0.015
+2
+0.4
+0.4
+RECOMMENDED LAND PATTERN
+1
+0.566±0.050
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TDFN-2×2-8L 
+7″ 
+9.5 
+2.30 
+2.30 
+1.10 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+MSOP-8 
+13″ 
+12.4 
+5.20 
+3.30 
+1.50 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+WLCSP-1.57×0.80-8B 
+7″ 
+9.5 
+1.00 
+1.80 
+0.70 
+4.0 
+4.0 
+2.0 
+8.0 
+Q2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+13″ 
+386 
+280 
+370 
+5 
+ 

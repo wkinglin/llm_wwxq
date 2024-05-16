@@ -1,0 +1,475 @@
+ 
+ 
+SGM4560 
+CA Card Power Supply and Level Translator 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+APRIL2014–REV.A. 1 
+GENERAL DESCRIPTION 
+The SGM4560 is used for power conversion and level 
+translation of the signal in the application of CA cards. 
+Also, it can be used for the applications of 3.3V or 5.0V 
+CA cards, which is powered by its internal LDOs from 
+3.3V to 5.5V input signal. The value of the output 
+voltage can be controlled with the voltage selection 
+pins of the SGM4560 with the maximum load current of 
+200mA. 
+The level translator integrated on the SGM4560 can 
+boost the input signal which is powered by 1.6V to 3.3V 
+or 5.0V interface. The lifespan of the battery can be 
+enhanced as the 100μA (TYP) operating current and 
+1μA (MAX) shutdown current. 
+The SGM4560 is available in a Green TSSOP-14 
+package. It operates over an ambient temperature 
+range of -40℃ to +85℃. 
+FEATURES 
+● CA Card Power Supply: 3.3V/5.0V at 200mA 
+● 3.3V to 5.5V Input Voltage Range 
+● 1.6V to 5.5V Controller Voltage Range 
+● Fast Rising Time for the Signals 
+● Built-In Fault Protection Circuitry 
+● Level Translators to 3.3V or 5.0V 
+● Low Supply Voltage and Shutdown Current 
+● -40℃ to +85℃ Operating Temperature Range 
+● Available in a Green TSSOP-14 Package 
+ 
+APPLICATIONS 
+CA Card Interface 
+ 
+ 
+ 
+ 
+TYPICAL APPLICATION 
+Controller
+GND
+GND
+VSEL
+I/O
+CA Card 
+Interface
+1.6V to 5.5V
+3.3V to 5.5V
+DVCC
+VP
+SHDN
+RIN
+RST
+1μF
+1μF
+CIN
+CLK
+DATA
+I/O
+SGM4560
+DVCC
+VCC
+VCC
+RST
+CLK
+1μF
+ 
+ 
+Figure 1. Typical Application Circuit 
+ 
+ 
+
+ 
+SGM4560 
+CA Card Power Supply and Level Translator 
+ 
+ 
+2 
+APRIL 2014 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM4560 
+TSSOP-14 
+-40℃ to +85℃ 
+SGM4560YTS14G/TR 
+SGM4560 
+YTS14 
+XXXXX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code and Vendor Code. 
+Date Code - Week
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Voltage Range (with Respect to GND) 
+VP, DVCC ............................................................ -0.3V to 6V 
+VCC .......................................................... -0.3V to VP + 0.3V 
+SHDN, VSEL, RIN, CIN 
+.......................................... -0.3V to 6V 
+CLK, RST, I/O ........................................-0.3V to VCC + 0.3V 
+DATA .................................................... 
+-0.3V to DVCC+0.3V 
+Package Thermal Resistance 
+TSSOP-14, θJA 
+....................................................... 154℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+MM 
+................................................................................. 
+400V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Temperature Range ...................... -40℃ to +85℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+
+ 
+SGM4560 
+CA Card Power Supply and Level Translator 
+ 
+ 
+3 
+APRIL 2014 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+(TOP VIEW) 
+5
+3
+2
+1
+7
+6
+4
+11
+13
+12
+14
+8
+9
+10
+CLK
+RST
+NC
+GND
+I/O
+VCC
+VP
+RIN
+CIN
+DATA
+VSEL
+DVCC
+NC
+SHDN
+ 
+TSSOP-14 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1 
+CIN 
+Controller Clock Input Pin. 
+2 
+RIN 
+Controller Reset Input Pin. 
+3 
+DATA 
+Controller Bidirectional Data Input/Output Pin. A weak pull-up current source ensures that the DATA 
+pin is held HIGH during shutdown, as long as DVCC is powered. 
+4 
+SHDN 
+Controller Driven Shutdown Pin. This pin goes to high (DVCC) in the normal operation, and the pin 
+goes to low when in the shutdown mode. 
+5 
+VSEL 
+Select Pin for VCC Voltage. Select VCC = 3.3V for the low level and VCC = 5.0V for driving the pin to 
+DVCC. 
+6 
+DVCC 
+Controller Supply Voltage, for the Input/Output Pins (CIN, RIN, DATA). Bypass with a 1μF ceramic 
+capacitor to GND. 
+7, 14 
+NC 
+No Connection. 
+8 
+VP 
+VCC Supply Input Pin. It can be operated between 3.3V and 5.5V. It is recommended to use a 1μF or 
+larger ceramic capacitor from VP pin to GND to get good power supply decoupling. This ceramic 
+capacitor should be placed as close as possible to VP pin. 
+9 
+VCC 
+CA Card VCC Supply Voltage. It is recommended to use a 1μF ceramic capacitor to ensure stability. 
+This ceramic capacitor should be placed as close as possible to VCC pin. The pin is discharged to 
+GND in the shutdown mode. 
+10 
+I/O 
+CA Card Bidirectional Data Input/Output Pin. The pin is pulled to GND in the shutdown mode. 
+11 
+RST 
+CA Card Reset Output Pin. The pin is pulled to GND in the shutdown mode. 
+12 
+GND 
+Ground. 
+13 
+CLK 
+CA Card Clock Output Pin. The pin is pulled to GND in the shutdown mode. Careful board layout of 
+CLK pin is necessary for fast rising and falling edges. 
+ 
+ 
+
+PACKAGE INFORMATION 
+TX00019.001 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TSSOP-14 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+1.100 
+0.043 
+A1 
+0.050 
+0.150 
+0.002 
+0.006 
+A2 
+0.800 
+1.000 
+0.031 
+0.039 
+b 
+0.190 
+0.300 
+0.007 
+0.012 
+c 
+0.090 
+0.200 
+0.004 
+0.008 
+D 
+4.900 
+5.100 
+0.193 
+0.201 
+E 
+4.300 
+4.500 
+0.169 
+0.177 
+E1 
+6.250 
+6.550 
+0.246 
+0.258 
+e 
+0.650 BSC 
+0.026 BSC 
+L 
+0.500 
+0.700 
+0.02 
+0.028 
+H 
+0.25 TYP 
+0.01 TYP 
+θ 
+1° 
+7° 
+1° 
+7° 
+E
+E1
+D
+b
+A
+A1
+A2
+θ
+L
+c
+H
+e
+RECOMMENDED LAND PATTERN (Unit: mm)
+5.94
+0.42
+1.78
+0.65
+
+PACKAGE INFORMATION 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1 
+Quadrant 
+DD0001
+TSSOP-14 
+13″ 
+12.4 
+6.95 
+5.60 
+1.20 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

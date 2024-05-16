@@ -1,0 +1,2178 @@
+ 
+ 
+SGM37603 
+High Efficiency 3-String White LED Driver 
+ 
+ 
+JANUARY 2019 – REV. A.1
+SG Micro Corp 
+www.sg-micro.com 
+GENERAL DESCRIPTION 
+The SGM37603 is a high efficiency 3-string white LED 
+driver with a 1.2MHz boost converter. The supply 
+voltage operates from 3V to 24V. The SGM37603 is 
+capable of driving up to 8 LEDs in series for 25mA 
+maximum LED current per string while achieving high 
+conversion efficiency. An adaptively current-regulated 
+method allows different LED string voltages while LED 
+current remains in regulation. The LED current is 
+programmed through an I2C interface or a PWM signal 
+input. These features make it optimized for compact 
+solutions and ideal for LCD display backlighting. 
+The SGM37603 is available in Green WLCSP- 
+1.78×1.36-12B 
+and 
+TDFN-3×3-12L 
+packages. 
+It 
+operates over an ambient temperature range of -40℃ 
+to +85℃. 
+ 
+APPLICATIONS 
+Power Source for Smart Phone and Tablet Backlighting 
+FEATURES 
+● 11-Bit Resolution for Dimming Control 
+● Up to 90% Boost Efficiency 
+● Switching Frequency: 1.2MHz 
+● Support 1 to 3 LED Strings in Parallel at Maximum 
+29.5V Output 
+● 11% LED Current Matching across Process,  
+Voltage and Temperature at ILED = 12.21μA 
+● 1% LED Current Matching across Process,  
+Voltage and Temperature at ILED = 25mA  
+● 11% LED Current Accuracy across Process,  
+Voltage and Temperature at ILED = 12.21μA 
+● 3% LED Current Accuracy across Process,  
+Voltage and Temperature at ILED = 25mA 
+● PWM Dimming Interface 
+● Programmable I2C Interface 
+● Hybrid PWM + Current Dimming for Higher LED 
+Driver Optical Efficiency 
+● Low EMI by Conducting Ringing Cancelling 
+● Protection Features 
+ Over-Voltage Protection 
+ Over-Current Protection 
+ Thermal Shutdown 
+ 
+ 
+TYPICAL APPLICATION 
+SGM37603
+SCL
+PWM
+HWEN
+VIN
+3V to 24V
+SDA
+COUT
+1μF
+R1
+10kΩ
+R2
+10kΩ
+D1
+SDA
+SCL
+PWM
+HWEN
+OUT
+LED2
+LED3
+GND
+SW
+LED1
+VIO
+R3
+10Ω
+C1
+22μF
+CIN
+2.2μF
+IN
+Up to 28V Output
+10μH
+L1
+VLF504012MT-100M
+ 
+Figure 1. Typical Application 
+ 
+
+ 
+SGM37603 
+High Efficiency 3-String White LED Driver 
+ 
+ 
+2 
+JANUARY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM37603 
+WLCSP-1.78×1.36-12B 
+-40℃ to +85℃ 
+SGM37603YG/TR 
+XXXXX 
+37603 
+Tape and Reel, 3000 
+TDFN-3×3-12L 
+-40℃ to +85℃ 
+SGM37603YTDF12G/TR 
+SGM 
+37603DF 
+XXXXX 
+Tape and Reel, 4000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code and Vendor Code. 
+WLCSP-1.78×1.36-12B 
+TDFN-3×3-12L 
+Date Code - Week
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+Date Code - Week
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+IN .................................................................... -0.3V to 28.6V 
+OUT ................................................................... -0.3V to 40V 
+SW 
+..................................................................... -0.3V to 40V 
+LED1, LED2, LED3 
+............................................ -0.3V to 17V 
+HWEN, PWM, SDA, SCL 
+..................................... -0.3V to 6V 
+Package Thermal Resistance 
+WLCSP-1.78×1.36-12B, θJA ...................................... 82℃/W 
+TDFN-3×3-12L, θJA 
+.................................................... 50℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ........................ 
+-65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+2000V 
+MM 
+................................................................................. 
+200V 
+CDM .............................................................................. 
+500V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+IN ............................................................................ 
+3V to 24V 
+OUT ..................................................................... 
+0V to 30.5V 
+SW 
+....................................................................... 
+0V to 30.5V 
+LED1, LED2, LED3 
+................................................. 
+0V to 12V 
+HWEN, PWM, SDA, SCL 
+....................................... 
+0V to 5.5V 
+Operating Temperature Range ...................... -40℃ to +85℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+
+ 
+SGM37603 
+High Efficiency 3-String White LED Driver 
+ 
+ 
+3 
+JANUARY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+   SGM37603 (TOP VIEW) 
+SGM37603 (TOP VIEW) 
+1
+2
+3
+HWEN
+PWM
+IN
+D
+NC
+LED1
+GND
+A
+SDA
+SW
+B
+SCL
+OUT
+C
+LED2
+LED3
+ 
+12
+7
+8
+9
+10
+11
+1
+6
+5
+4
+3
+2
+LED3
+PWM
+SCL
+LED2
+AGND
+HWEN
+IN
+OUT
+SW
+GND
+NC
+LED1
+SDA
+ 
+   WLCSP-1.78×1.36-12B 
+TDFN-3×3-12L 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+I/O 
+FUNCTION 
+WLCSP-1.78×1.36-12B 
+TDFN-3×3-12L 
+A1 
+6 
+LED1 
+I 
+Current Sink 1. The boost converter regulates the minimum 
+voltage between current sinks to VHR. 
+A2 
+7 
+NC 
+— 
+No Connection. 
+A3 
+8 
+GND 
+O 
+Ground Pin. 
+B1 
+4 
+LED2 
+I 
+Current Sink 2. The boost converter regulates the minimum 
+voltage between current sinks to VHR. 
+B2 
+5 
+SDA 
+I/O 
+I2C Data Signal. 
+B3 
+9 
+SW 
+I 
+Drain Connection for Internal Low-side N-Channel MOSFET. 
+Connect to the anode of an external Schottky diode. 
+C1 
+2 
+LED3 
+I 
+Current Sink 3. The boost converter regulates the minimum 
+voltage between current sinks to VHR. 
+C2 
+3 
+SCL 
+I 
+I2C Clock Signal. 
+C3 
+10 
+OUT 
+I 
+Output Voltage Sense Pin. It is used for sensing the output 
+voltage for over-voltage protection. Connect to the positive 
+terminal of the output capacitor. 
+D1 
+1 
+PWM 
+I 
+PWM Dimming Signal Input. 
+D2 
+12 
+HWEN 
+I 
+Hardware Enable Input Pin. Drive HWEN high to enable the 
+device and allow I2C write commands or PWM control. 
+D3 
+11 
+IN 
+I 
+Input Supply Pin. Connect a at least 2.2μF bypass capacitor 
+from IN to GND. 
+— 
+Exposed Pad 
+AGND 
+— 
+Power Ground Exposed Pad. It should be connected to ground 
+plane. 
+ 
+NOTE: I: input; O: output; I/O: input or output. 
+ 
+ 
+
+ 
+SGM37603 
+High Efficiency 3-String White LED Driver 
+ 
+ 
+4 
+JANUARY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VIN = 3.6V, Full = -40℃ to +85℃, typical values are at TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN 
+TYP 
+MAX UNITS 
+Boost 
+LED Current Matching ILED1 to ILED2 to ILED3 
+IMATCH 
+(1) 
+ILED = 12.21μA, VLED = 300mV 
++25℃ 
+ 
+11 
+ 
+% 
+ILED = 25mA, VLED = 180mV 
++25℃ 
+ 
+1 
+ 
+Absolute Accuracy (ILED1, ILED2, ILED3) 
+ 
+ILED = 12.21μA, VLED = 300mV 
++25℃ 
+ 
+11 
+ 
+% 
+ILED = 25mA, VLED = 180mV 
++25℃ 
+ 
+3 
+ 
+Minimum LED Current (per string) 
+ILED_MIN 
+ 
++25℃ 
+ 
+12.21 
+ 
+μA 
+Maximum LED Current (per string) 
+ILED_MAX 
+ 
++25℃ 
+ 
+25 
+ 
+mA 
+Regulated Current Sink Headroom Voltage 
+VHR 
+ILED = 25mA 
++25℃ 
+ 
+180 
+ 
+mV 
+NMOS Switch On-Resistance 
+RNMOS 
+ISW = 250mA 
++25℃ 
+ 
+0.25 
+0.35 
+Ω 
+NMOS Switch Current Limit 
+ICL 
+ 
++25℃ 
+1.7 
+2.2 
+2.7 
+A 
+Output Over-Voltage Protection 
+VOVP 
+ 
+Full 
+28.5 
+29.5 
+30.5 
+V 
+OVP Hysteresis 
+ 
+ 
++25℃ 
+ 
+3 
+ 
+V 
+Switching Frequency 
+fSW 
+ 
+Full 
+950 
+1200 
+1400 
+kHz 
+Maximum Boost Duty Cycle 
+DMAX 
+ 
+Full 
+90 
+94 
+ 
+% 
+Shutdown Current 
+ISHDN 
+Chip enable bit = 0, SDA = SCL = IN or GND 
++25℃ 
+ 
+0.5 
+1.5 
+μA 
+Thermal Shutdown 
+TSD 
+ 
+ 
+160 
+ 
+℃ 
+Thermal Shutdown Hysteresis 
+ 
+ 
+20 
+ 
+PWM Input 
+PWM Dimming Frequency Range 
+DFR 
+ 
++25℃ 
+20 
+ 
+100 
+kHz 
+Turn-On Delay from Shutdown to Backlight 
+On 
+tSTART-UP 
+PWM input active, PWM = logic high, HWEN 
+input from low to high, fPWM = 20kHz (50% 
+duty cycle) 
++25℃ 
+ 
+10 
+ 
+ms 
+Input Logic High 
+VIH 
+HWEN, SCL, SDA, PWM inputs 
+Full 
+1.4 
+ 
+ 
+V 
+Input Logic Low 
+VIL 
+HWEN, SCL, SDA, PWM inputs 
+Full 
+ 
+ 
+0.4 
+ 
+NOTE: 
+1. LED Current Matching between strings is given as the worst case matching between any two strings. Matching is calculated as 
+(ILEDX - ILEDY)/(ILEDX + ILEDY) × 100. 
+ 
+ 
+I2C TIMING REQUIREMENTS 
+PARAMETER 
+SYMBOL 
+MIN 
+TYP 
+MAX 
+UNITS 
+SCL Clock Period 
+t1 
+2.5 
+ 
+ 
+μs 
+Data in Setup Time to SCL High 
+t2 
+100 
+ 
+ 
+ns 
+Data Out Stable After SCL Low 
+t3 
+0 
+ 
+ 
+ns 
+SDA Low Setup Time to SCL Low (Start) 
+t4 
+100 
+ 
+ 
+ns 
+SDA High Hold Time After SCL High (Stop) 
+t5 
+100 
+ 
+ 
+ns 
+ 
+ 
+ 
+ 
+
+ 
+SGM37603 
+High Efficiency 3-String White LED Driver 
+ 
+ 
+5 
+JANUARY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+At TA = +25℃, VIN = 3.7V, L1 = 10μH (VLF504012MT-100M), D1 = NSR0530P2T5G, unless otherwise noted. 
+ 
+      Shutdown Current vs. Input Voltage 
+     Quiescent Current (Switching) vs. Input Voltage 
+ 
+ 
+     Boost Efficiency vs. Input Voltage 
+     Boost Efficiency vs. Input Voltage 
+ 
+ 
+     Boost Efficiency vs. Input Voltage 
+     Boost Efficiency vs. Input Voltage 
+ 
+ 
+ 
+ 
+0
+0.4
+0.8
+1.2
+1.6
+2
+3
+3.5
+4
+4.5
+5
+5.5
+Shutdown Current (μA) 
+Input Voltage (V) 
+-40℃ 
+ 
+ 
+ 
++125℃ 
++30℃ 
+ 
+ 
+ 
+1.7
+1.8
+1.9
+2.0
+2.1
+2.2
+3
+3.5
+4
+4.5
+5
+5.5
+Quiescent Current (mA) 
+Input Voltage (V) 
+-40℃ 
+ 
+ 
+ 
++30℃ 
+ 
++125℃ 
+80
+82
+84
+86
+88
+90
+92
+3
+3.5
+4
+4.5
+5
+5.5
+Boost Efficiency (%) 
+Input Voltage (V) 
+3P8S LEDs 
+ 
+ 
+ 
+3P4S LEDs 
+ 
+ 
+ 
+3P5S LEDs 
+ 
+ 
+3P6S LEDs 
+3P7S LEDs 
+WLCSP-1.78×1.36-12B 
+ 
+ 
+80
+82
+84
+86
+88
+90
+92
+3
+3.5
+4
+4.5
+5
+5.5
+Boost Efficiency (%) 
+Input Voltage (V) 
+2P8S LEDs 
+ 
+ 
+ 
+2P4S LEDs 
+2P5S LEDs 
+ 
+2P6S LEDs 
+ 
+2P7S LEDs 
+ 
+ 
+ 
+WLCSP-1.78×1.36-12B 
+ 
+ 
+72
+76
+80
+84
+88
+92
+3
+3.5
+4
+4.5
+5
+5.5
+Boost Efficiency (%) 
+Input Voltage (V) 
+3P8S LEDs 
+ 
+ 
+ 
+3P4S LEDs 
+ 
+ 
+ 
+3P5S LEDs 
+ 
+ 
+3P6S LEDs 
+3P7S LEDs 
+TDFN-3×3-12L 
+ 
+ 
+80
+82
+84
+86
+88
+90
+3
+3.5
+4
+4.5
+5
+5.5
+Boost Efficiency (%) 
+Input Voltage (V) 
+2P8S LEDs 
+ 
+ 
+ 
+2P4S LEDs 
+2P5S LEDs 
+ 
+2P6S LEDs 
+ 
+2P7S LEDs 
+ 
+ 
+ 
+TDFN-3×3-12L 
+ 
+ 
+
+ 
+SGM37603 
+High Efficiency 3-String White LED Driver 
+ 
+ 
+6 
+JANUARY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TA = +25℃, VIN = 3.7V, L1 = 10μH (VLF504012MT-100M), D1 = NSR0530P2T5G, unless otherwise noted. 
+ 
+     Boost Efficiency vs. LED Current 
+     Boost Efficiency vs. LED Current 
+ 
+ 
+     Boost Efficiency vs. LED Current 
+     Boost Efficiency vs. LED Current 
+ 
+ 
+     NMOS Switch On-Resistance vs. Temperature 
+    Output Over-Voltage Protection Threshold vs. Temperature 
+ 
+ 
+ 
+ 
+0
+20
+40
+60
+80
+100
+0
+16
+32
+48
+64
+80
+Boos tEfficiency (%) 
+LED Current (mA) 
+3P8S LEDs 
+ 
+ 
+ 
+3P4S LEDs 
+ 
+ 
+ 
+3P5S LEDs 
+ 
+ 
+ 
+3P6S LEDs 
+ 
+ 
+ 
+3P7S LEDs 
+ 
+ 
+ 
+WLCSP-1.78×1.36-12B 
+ 
+ 
+0
+20
+40
+60
+80
+100
+0
+10
+20
+30
+40
+50
+Boost Efficiency (%) 
+LED Current (mA) 
+2P8S LEDs 
+ 
+ 
+ 
+2P4S LEDs 
+ 
+ 
+ 
+2P5S LEDs 
+ 
+ 
+ 
+2P6S LEDs 
+ 
+ 
+ 
+2P7S LEDs 
+ 
+ 
+ 
+WLCSP-1.78×1.36-12B 
+ 
+ 
+0
+20
+40
+60
+80
+100
+0
+16
+32
+48
+64
+80
+Boos tEfficiency (%) 
+LED Current (mA) 
+3P8S LEDs 
+ 
+ 
+ 
+3P4S LEDs 
+ 
+ 
+ 
+3P5S LEDs 
+ 
+ 
+ 
+3P6S LEDs 
+ 
+ 
+ 
+3P7S LEDs 
+ 
+ 
+ 
+TDFN-3×3-12L 
+0
+20
+40
+60
+80
+100
+0
+10
+20
+30
+40
+50
+Boost Efficiency (%) 
+LED Current (mA) 
+2P8S LEDs 
+ 
+ 
+ 
+2P4S LEDs 
+ 
+ 
+ 
+2P5S LEDs 
+ 
+ 
+ 
+2P6S LEDs 
+ 
+ 
+ 
+2P7S LEDs 
+ 
+ 
+ 
+TDFN-3×3-12L 
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+-50
+-25
+0
+25
+50
+75
+100
+NMOS Switch On-Resistance (Ω) 
+Temperature (℃) 
+29.2
+29.3
+29.4
+29.5
+29.6
+29.7
+-50
+-25
+0
+25
+50
+75
+100
+Output OVP Threshold (V) 
+Temperature (℃) 
+
+ 
+SGM37603 
+High Efficiency 3-String White LED Driver 
+ 
+ 
+7 
+JANUARY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TA = +25℃, VIN = 3.7V, L1 = 10μH (VLF504012MT-100M), D1 = NSR0530P2T5G, unless otherwise noted. 
+ 
+     LED Current Production Distribution 
+      
+ 
+ 
+ 
+ 
+ 
+0
+5
+10
+15
+20
+25
+30
+35
+24.70
+24.74
+24.78
+24.82
+24.86
+24.90
+24.94
+24.98
+25.02
+25.06
+25.10
+25.14
+25.18
+25.22
+Percentage of Drivers (%) 
+LED Current (mA) 
+1000 Samples  
+1 Production Lot 
+ 
+
+ 
+SGM37603 
+High Efficiency 3-String White LED Driver 
+ 
+ 
+8 
+JANUARY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAM 
+Boost Control
+IN
+HWEN
+OUT
+SW
+OCP
+OVP
+IN
+HWEN
+TSD
+LED 
+Fault
+OVP
+Over-Voltage 
+Protection
+Min Headroom 
+Select
+Current Sinks
+PWM
+LED1
+LED2
+LED3
+LED String 
+Enables
+I2C Interface
+SDA
+SCL
+SDA
+SCL
+Mode 
+Control
+Dimming 
+Control
+Low-Pass Filter
+(PWM-Based Code)
+11-Bit 
+Brightness 
+Code
+Fault Detection
+Over-Voltage
+LED String Short
+LED String Open
+Current Limit
+Thermal Shutdown
+Thermal 
+Shutdown
+Boost 
+Switching 
+Frequency
+Boost 
+Current 
+Limit
+ 
+Figure 2. Functional Block Diagram 
+ 
+ 
+
+ 
+SGM37603 
+High Efficiency 3-String White LED Driver 
+ 
+ 
+9 
+JANUARY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAP 
+All registers are 8-bit and individual bits are named from D[0] (LSB) to D[7] (MSB). 
+ 
+R/W:  
+Read/Write bit(s) 
+R:   
+Read only bit(s) 
+PORV:  Power-On Reset Value 
+ 
+I2C Slave Address of SGM37603 is: 0x36 (0b0110110 + R/W) 
+ 
+Table 1. Register Map 
+ADDRESS 
+REGISTER NAME 
+D[7] 
+D[6] 
+D[5] 
+D[4] 
+D[3] 
+D[2] 
+D[1] 
+D[0] 
+0x01 
+Software Reset 
+Reserved 
+SOFT_RST 
+0x10 
+Enable Control 
+Reserved 
+RSD_FL 
+LED3_EN 
+LED2_EN 
+LED1_EN 
+DEV_EN 
+0x11 
+Brightness Control 
+Reserved 
+LED_MOD[1:0] 
+RAMP_EN 
+Reserved 
+0x18 
+Brightness Code 0 
+Reserved 
+BRT_COD[2:0] 
+0x19 
+Brightness Code 1 
+BRT_COD[10:3] 
+0x1F 
+Fault Information 
+Reserved 
+SO_FLAG 
+SC_FLAG TSD_FLAG OC_FLAG OVP_FLAG 
+ 
+Table 2. Software Reset Register Details (Register Address: 0x01) 
+BITS 
+BIT NAME 
+DESCRIPTION 
+PORV 
+TYPE 
+D[7:1] 
+Reserved 
+Reserved 
+0000000 
+R 
+D[0] 
+SOFT_RST 
+Software Reset 
+0 = Normal Operation 
+1 = Reset the device. It will return 0 automatically. 
+0 
+R/W 
+ 
+Table 3. Enable Control Register Details (Register Address: 0x10) 
+BITS 
+BIT NAME 
+DESCRIPTION 
+PORV 
+TYPE 
+D[7:5] 
+Reserved 
+Reserved 
+000 
+R 
+D[4] 
+RSD_FL 
+Reserved Flag. It is set to 1 by default. 
+1 
+R/W 
+D[3] 
+LED3_EN 
+LED3 Enable 
+0 = Disabled 
+1 = Enabled (default) 
+1 
+R/W 
+D[2] 
+LED2_EN 
+LED2 Enable 
+0 = Disabled 
+1 = Enabled (default) 
+1 
+R/W 
+D[1] 
+LED1_EN 
+LED1 Enable 
+0 = Disabled 
+1 = Enabled (default) 
+1 
+R/W 
+D[0] 
+DEV_EN 
+Device Enable 
+0 = Disabled 
+1 = Enabled (default) 
+1 
+R/W 
+ 
+Table 4. Brightness Control Register Details (Register Address: 0x11) 
+BITS 
+BIT NAME 
+DESCRIPTION 
+PORV 
+TYPE 
+D[7] 
+Reserved 
+Reserved 
+0 
+R 
+D[6:5] 
+LED_MOD[1:0] 
+00 = I2C Only 
+01 = PWM Only 
+10 = I2C × PWM 
+11 = I2C × PWM (default) 
+11 
+R/W 
+D[4] 
+RAMP_EN 
+Ramp Enable 
+0 = Disabled (default) 
+1 = Enabled 
+0 
+R/W 
+D[3:0] 
+Reserved 
+Reserved 
+0101 
+R 
+ 
+ 
+
+ 
+SGM37603 
+High Efficiency 3-String White LED Driver 
+ 
+ 
+10 
+JANUARY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAP (continued) 
+Table 5. Brightness Code 0 Register Details (Register Address: 0x18) 
+BITS 
+BIT NAME 
+DESCRIPTION 
+PORV 
+TYPE 
+D[7:3] 
+Reserved 
+Reserved 
+00000 
+R 
+D[2:0] 
+BRT_COD[2:0] Lower 3 Bits of the 11-Bit Brightness Code 
+111 
+R/W 
+ 
+Table 6. Brightness Code 1 Register Details (Register Address: 0x19) 
+BITS 
+BIT NAME 
+DESCRIPTION 
+PORV 
+TYPE 
+D[7:0] 
+BRT_COD[10:3] High Byte of the 11-Bit Brightness Code 
+11111111 
+R/W 
+ 
+Table 7. Fault Information Register Details (Register Address: 0x1F) 
+BITS 
+BIT NAME 
+DESCRIPTION 
+PORV 
+TYPE 
+D[7:5] 
+Reserved 
+Reserved 
+000 
+R 
+D[4] 
+SO_FLAG 
+LED String Open Fault Flag 
+0 = No LED Open Fault (default) 
+1 = LED Open Fault 
+0 
+R 
+D[3] 
+SC_FLAG 
+Short Circuit Fault Flag 
+0 = No short-circuit fault (default) 
+1 = Short-circuit fault 
+0 
+R 
+D[2] 
+TSD_FLAG 
+Thermal Shutdown Fault Flag 
+0 = No thermal shutdown fault (default) 
+1 = Thermal shutdown fault 
+0 
+R 
+D[1] 
+OC_FLAG 
+Current Limit Fault Flag 
+0 = No current limit fault 
+1 = Current limit fault 
+0 
+R 
+D[0] 
+OVP_FLAG 
+Output Over-Voltage Fault Flag 
+0 = No over-voltage fault (default) 
+1 = Over-voltage fault 
+0 
+R 
+ 
+ 
+ 
+
+ 
+SGM37603 
+High Efficiency 3-String White LED Driver 
+ 
+ 
+11 
+JANUARY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION 
+Table 8. SGM37603 Operating Modes 
+Device Enable 
+DEV_EN Bit 
+LED Enable 
+LED1_EN & LED2_EN 
+& LED3_EN Bits 
+PWM Input 
+I2C Brightness Code 
+BRT_COD[10:0] 
+Brightness Mode 
+LED_MOD[1:0] 
+LED Current 
+0 
+XXX 
+X 
+XXX 
+XX 
+Off, device disabled 
+1 
+000 
+X 
+XXX 
+XX 
+Boost enabled, LED current disabled 
+1 
+At least one enabled 
+X 
+000 
+00 
+Off, device in standby mode 
+1 
+At least one enabled 
+X 
+Code > 000 
+00 
+See (1) 
+1 
+At least one enabled 
+0 
+XXX 
+01 
+Off, device in standby mode 
+1 
+At least one enabled 
+PWM Signal 
+XXX (2) 
+01 
+See (1) 
+1 
+At least one enabled 
+0 
+XXX 
+10 or 11 
+Off, device in standby mode 
+1 
+At least one enabled 
+X 
+000 
+10 or 11 
+Off, device in standby mode 
+1 
+At least one enabled 
+PWM Signal 
+Code > 000 
+10 or 11 
+See (1) 
+NOTE: 
+1. ILED is calculated by the Equation 1 or Equation 2 below in Brightness Control Modes. 
+2. Code is forbidden to set to 0. 
+ 
+ 
+Brightness Control Modes 
+The SGM37603 has 3 brightness control modes: 
+1. I2C Only (brightness mode 00) 
+2. PWM Only (brightness mode 01) 
+3. I2C × PWM (brightness mode 10 or 11) 
+ 
+ 
+
+ 
+SGM37603 
+High Efficiency 3-String White LED Driver 
+ 
+ 
+12 
+JANUARY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+I2C Only (Brightness Mode 00) 
+In brightness control mode 00, only the I2C Brightness 
+registers control the LED current. The 11-bit code (0 to 
+2047) is in control of the LED current as follows: 
+When the code is from 128 to 2047, the average LED 
+current proportionally increases to the brightness code 
+and follows the relationship (see Figure 4): 
+ILED_AVG = 12.21μA × code 
+(1) 
+Where: 
+ILED_AVG = Average LED Current 
+When the code is from 8 to 127, the average LED 
+current is calculated by Equation 1, and the LED 
+current is in current-to-PWM control (see Figure 4) with 
+a constant maximum current, while the duty cycle 
+changes following the code. 
+When the code is from 1 to 7, the average LED current 
+exponentially increases to the brightness code and 
+follows the relationship by Equation 2 (see Figure 4). 
+The LED current is also in current-to-PWM control, and 
+the duty cycle is 8/128 constantly, and the amplitude of 
+current pulse is 16 times of its corresponding average 
+current. 
+ILED_AVG = 16.17μA × 1.14(2 × code - 2) 
+(2) 
+Code 0 programs 0 current. 
+When bit[4] is set to 1 in register 0x11, ramp function is 
+enabled. Then when bits[7:4] in registers 0x19 are not 
+all 0 (codes from 128 to 2047), the ramp rate is 
+128μs/step. When bits[7:4] in registers 0x19 are all 0 
+(codes from 1 to 127), the ramp rate is 1024μs/step. 
+For example, if the code is set from 1000 to 2000, 
+ILED_AVG will change from 12.21mA to 24.42mA, the 
+corresponding ramp rate = 128μs/step, so the ramp 
+time for ILED_AVG = (2000 - 1000) × 128μs = 128ms. 
+ 
+BRT Code = I2C Code
+Digital Domain
+Analog Domain
+DAC
+DACi
+Driver 2
+Driver 1
+Driver 3
+Min VHR
+Boost
+VOUT
+ILED1
+ILED2
+ILED3
+I2C Brightness Reg
+RAMP_EN
+ 
+Figure 3. Brightness Control 00 (I2C Only) 
+ 
+0
+2047
+25000
+0
+LED Current (µA)
+128
+8
+64
+32
+96
+32
+128
+9
+PWM Duty
+1562.9
+Average 
+Current
+9
+128
+64
+128
+96
+128
+128
+128
+8
+128
+16.17
+97.7
+8
+128
+ 
+Figure 4. LED Current vs. Brightness Code (Mode 00) 
+ 
+ 
+ 
+
+ 
+SGM37603 
+High Efficiency 3-String White LED Driver 
+ 
+ 
+13 
+JANUARY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+PWM Only (Brightness Mode 01) 
+In brightness mode 01, only the PWM signal input sets 
+the brightness. The I2C code is ignored and forbidden 
+to set to 0. The LED current is proportional with the 
+PWM duty cycle and the maximum LED current is 
+25mA. 
+When the PWM pin is constantly high, the VREF voltage 
+is regulated to 2048mV typically. When the duty cycle 
+of the input PWM signal is low, the regulation voltage is 
+reduced, and the LED current is reduced; therefore, it 
+achieves LED brightness dimming. The relationship 
+between the duty cycle and VREF regulation voltage is 
+given by Equation 3: 
+VREF = Duty × 2048mV 
+(3) 
+Where: 
+Duty = duty cycle of the PWM signal 
+2048mV = internal reference voltage 
+Then the value of VREF is the PWM-based code for 
+brightness dimming. The LED current increases 
+proportionally to the brightness code and is calculated 
+by the Equation 1 (see Figure 6). This is valid from 
+codes 1 to 2048. Code 0 programs 0 current. When the 
+code < 16, the LED current is in current-to-PWM control. 
+The duty cycle of the PWM is 1/8, and the amplitude of 
+current pulse is 8 times of its corresponding average 
+current. Figure 6 (a) shows the zoomed graph from 
+codes 0 to 16 in Figure 6. There is no ramp function in 
+this mode. 
+Thus, the user can easily control the WLED brightness 
+by controlling the duty cycle of the PWM signal. The 
+PWM frequency is in the range from 20kHz to 100kHz. 
+Digital Domain
+Analog Domain
+VREF
+Driver 2
+Driver 1
+Driver 3
+Min VHR
+Boost
+VOUT
+ILED1
+ILED2
+ILED3
+PWM Input
+(PWM-Based Code)
+Low-Pass Filter
+ 
+Figure 5. Brightness Control 01 (PWM Only) 
+ 
+Code
+0
+2048
+25000
+0
+See Figure 6 (a) 
+16
+195.4
+LED Current (µA)
+1465.2
+ 
+Figure 6. LED Current vs. Brightness Code (Mode 01) 
+Code
+0
+LED Current (µA)
+1465.2
+16
+97.7
+195.4
+PWM Duty 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+1
+8
+12.21
+Average 
+Current
+ 
+Figure 6 (a).
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+SGM37603 
+High Efficiency 3-String White LED Driver 
+ 
+ 
+14 
+JANUARY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+I2C + PWM (Brightness Mode 10 or 11) 
+In brightness control mode 10 or 11, both the I2C 
+brightness code and the PWM duty cycle control the 
+LED current. The code is equal to the PWM duty cycle 
+multiplied with the I2C brightness code (see Figure 7). 
+The average LED current increases proportionally to 
+the brightness code and is calculated by the Equation 1 
+(see Figure 8). This is valid from codes 1 to 2047. Code 
+0 programs 0 current. When the brightness code < 16, 
+the LED current is in current-to-PWM control. The duty 
+cycle of the PWM is 1/8, and the amplitude of current 
+pulse is 8 times of its corresponding average current. 
+Figure 8 (a) shows the zoomed graph from codes 0 to 
+16 in Figure 8. 
+When bit[4] is set to 1 in register 0x11, ramp function is 
+enabled. When bits[7:4] in registers 0x19 are not all 0 
+(codes from 128 to 2047), regardless of PWM duty 
+cycle, the ramp rate is 128μs/step. When bits[7:4] in 
+registers 0x19 are all 0 (codes from 1 to 127), 
+regardless of PWM duty cycle, the ramp rate is 
+1024μs/step. For example, if PWM duty cycle is set to 
+10% and the code is set from 1000 to 2000, ILED_AVG will 
+change from 1.221mA to 2.442mA, the corresponding 
+ramp rate = 128μs/step, so the ramp time for ILED_AVG = 
+(2000 - 1000) × 128μs = 128ms. 
+ 
+RAMP_EN
+BRT Code = I2C × Duty Cycle
+I2C Brightness Reg
+Digital Domain
+Analog Domain
+DAC
+DACi
+Driver 2
+Driver 1
+Driver 3
+Min VHR
+Boost
+VOUT
+ILED1
+ILED2
+ILED3
+Low-Pass Filter
+PWM Input
+ 
+Figure 7. Brightness Control 10 or 11 (I2C + PWM) 
+ 
+Code
+0
+2047
+25000
+0
+See Figure 8 (a) 
+16
+195.4
+LED Current (µA)
+1465.2
+ 
+Figure 8. LED Current vs. Brightness Code (Mode 10 or 
+Mode 11) 
+ 
+Code
+0
+LED Current (µA)
+1465.2
+16
+97.7
+195.4
+PWM Duty 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+1
+8
+12.21
+Average 
+Current
+ 
+Figure 8 (a). 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+SGM37603 
+High Efficiency 3-String White LED Driver 
+ 
+ 
+15 
+JANUARY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+SGM37603
+SCL
+PWM
+HWEN
+VIN
+3V to 24V
+SDA
+COUT
+1μF
+R1
+10kΩ
+R2
+10kΩ
+D1
+SDA
+SCL
+PWM
+HWEN
+OUT
+LED2
+LED3
+GND
+SW
+LED1
+VIO
+R3
+10Ω
+C1
+22μF
+CIN
+2.2μF
+IN
+Up to 28V Output
+10μH
+L1
+VLF504012MT-100M
+Floating or connected to GND
+ 
+ 
+Figure 9. Typical Application for Less than Three Parallel LED Strings 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+JANUARY 2019 ‒ REV.A to REV.A.1 
+Changed Register Maps section 
+........................................................................................................................................................................ 10 
+Changed Detailed Description section ............................................................................................................................................................... 
+16 
+ 
+Changes from Original (SEPTEMBER 2018) to REV.A 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00137.000 
+SG Micro Corp 
+www.sg-micro.com 
+ 
+PACKAGE OUTLINE DIMENSIONS 
+WLCSP-1.78×1.36-12B 
+ 
+ 
+ 
+ 
+ 
+NOTE: All linear dimensions are in millimeters. 
+ 
+ 
+ 
+ 
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+A1 CORNER
+0.24
+0.20
+0.4
+0.4
+RECOMMENDED LAND PATTERN
+0.4
+0.4
+12 ×
+ Φ
+0.385± 0.013
+0.620± 0.038
+0.195± 0.020
+0.040± 0.005
+1
+2
+3
+A
+B
+C
+D
+1.355± 0.025
+1.775± 0.025
+12 ×
+ Φ0.260± 0.020
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00062.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TDFN-3×3-12L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.700 
+0.800 
+0.028 
+0.031 
+A1 
+0.000 
+0.050 
+0.000 
+0.002 
+A2 
+0.203 REF 
+0.008 REF 
+D 
+2.924 
+3.076 
+0.115 
+0.121 
+D1 
+2.450 
+2.650 
+0.096 
+0.104 
+E 
+2.924 
+3.076 
+0.115 
+0.121 
+E1 
+1.500 
+1.700 
+0.059 
+0.067 
+k 
+0.200 MIN 
+0.008 MIN 
+b 
+0.150 
+0.250 
+0.006 
+0.010 
+e 
+0.450 TYP 
+0.018 TYP 
+L 
+0.324 
+0.476 
+0.013 
+0.019 
+ 
+ 
+ 
+E
+D
+e
+b
+k
+A
+A2
+A1
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+E1
+D1
+N1
+N6
+N7
+N12
+L
+0.45
+0.2
+0.6
+2.8
+1.60
+2.55
+RECOMMENDED LAND PATTERN (Unit: mm)
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+WLCSP-1.78×1.36-12B 
+7″ 
+9.2 
+1.46 
+1.90 
+0.81 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+TDFN-3×3-12L 
+13″ 
+12.4 
+3.30 
+3.30 
+1.10 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+13″ 
+386 
+280 
+370 
+5 
+ 

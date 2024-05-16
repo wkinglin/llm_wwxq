@@ -1,0 +1,1432 @@
+ 
+74AHCT595 
+8-Bit Serial-In/Serial-Out or Parallel-Out 
+Shift Register with Output Latches 
+ 
+ 
+OCTOBER 2023 – REV. A 
+SG Micro Corp 
+www.sg-micro.com 
+GENERAL DESCRIPTION 
+The 74AHCT595 is an 8-bit serial-in/serial-out or 
+parallel-out shift register with output latches designed 
+for 4.5V to 5.5V VCC operation. 
+The device integrates an 8-bit shift register and an 8-bit 
+D-type storage register. The storage register features 
+parallel 3-state outputs. The shift register provides a 
+clear input (SRCLR
+തതതതതതതതതത) with direct overriding function, 
+serial input (SER) and serial outputs to implement 
+cascading. When output enable input (OE
+ത
+ത
+ത
+ത
+ത) is held low, 
+the data in storage register will appear at the output. 
+When OE 
+തതതതതis held high, all outputs are in high-impedance 
+state. 
+Both the shift register and storage register have separate 
+clocks. The shift register clock (SRCLK) and storage 
+register clock (RCLK) are positive-edge triggered.  
+ 
+FEATURES 
+● Supply Voltage Range: 4.5V to 5.5V 
+● +8mA/-8mA Output Current 
+● Direct Clear Input of Shift Register 
+● Inputs are Compatible with TTL-Voltage  
+● Latch-up Performance (> 100mA) Meets JESD 78, 
+Class II Standard 
+● -40℃ to +125℃ Operating Temperature Range 
+● Available in Green TSSOP-16 and SOIC-16 
+Packages 
+ 
+ 
+APPLICATIONS 
+Computing: Server, PC, Notebook, Network Switch 
+Telecom Equipment 
+Medical Equipment 
+Industrial Equipment 
+ 
+ 
+LOGIC DIAGRAM 
+DFF
+D
+Q
+C
+R
+D
+Q
+C
+DFF
+Stage 7
+Stages 2 to 6
+SER
+SRCLK
+SRCLR
+OE
+RCLK
+QH
+QH'
+QC to QG
+…
+…
+DFF
+D
+Q
+C
+R
+D
+Q
+C
+DFF
+Stage 0
+QA
+DFF
+D
+Q
+C
+R
+D
+Q
+C
+DFF
+Stage 1
+QB
+ 
+ 
+ 
+
+8-Bit Serial-In/Serial-Out or Parallel-Out 
+74AHCT595 
+Shift Register with Output Latches 
+ 
+ 
+2 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+74AHCT595 
+TSSOP-16 
+-40℃ to +125℃ 
+74AHCT595XTS16G/TR 
+0LA 
+XTS16 
+XXXXX 
+Tape and Reel, 4000 
+SOIC-16 
+-40℃ to +125℃ 
+74AHCT595XS16G/TR 
+74AHCT595XS16 
+XXXXX 
+Tape and Reel, 2500 
+ 
+MARKING INFORMATION 
+NOTE: XXXXXX = Date Code, Trace Code and Vendor Code. 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS (1) 
+Supply Voltage Range, VCC .............................. -0.5V to 7.0V 
+Input Voltage Range, VI 
+(2) 
+................................. -0.5V to 7.0V 
+Output Voltage Range, VO (2) -0.5V to MIN(7.0V, VCC + 0.5V) 
+Input Clamp Current, IIK (VI < 0V) ................................ 
+-20mA 
+Output Clamp Current, IOK (VO < 0V or VO > VCC) 
+........... ±20mA 
+Continuous Output Current, IO (VO = 0V to VCC) 
+.......... ±25mA 
+Continuous Current through VCC or GND .................... ±50mA 
+Junction Temperature (3) 
+............................................. 
++150℃ 
+Storage Temperature Range ........................ 
+-65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+2000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Supply Voltage Range, VCC ................................ 
+4.5V to 5.5V 
+Input Voltage Range, VI (4) ..................................... 
+0V to 5.5V 
+Output Voltage Range, VO ...................................... 0V to VCC 
+Output Current, IO .............................................. 
+±8mA (MAX) 
+Input Transition Rise or Fall Rate, Δt/ΔV 
+VCC = 4.5V to 5.5V ........................................... 20ns/V (MAX) 
+Operating Temperature Range .................... -40℃ to +125℃
+OVERSTRESS CAUTION 
+1. Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods may 
+affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+2. The input and output negative voltage ratings may be 
+exceeded if the input and output clamp current ratings are 
+observed. 
+3. The performance capability of a high-performance integrated 
+circuit in conjunction with its thermal environment can create 
+junction temperatures which are detrimental to reliability. 
+4. Unused input pins must be held at VCC or GND to guarantee 
+the device in normal operation. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+
+8-Bit Serial-In/Serial-Out or Parallel-Out 
+74AHCT595 
+Shift Register with Output Latches 
+ 
+ 
+3 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+(TOP VIEW) 
+16
+15
+14
+13
+12
+11
+10
+9
+1
+2
+3
+4
+5
+6
+7
+8
+QB
+QC
+QD
+QE
+QF
+QG
+QH
+GND
+VCC
+QA
+SER
+RCLK
+SRCLK
+QH' 
+OE
+SRCLR
+ 
+TSSOP-16/SOIC-16 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+15, 1, 2, 3, 4, 5, 6, 7 
+QA, QB, QC, QD, QE, QF, QG, QH 
+Parallel Data Outputs. 
+8 
+GND 
+Ground. 
+9 
+QH' 
+Serial Data Output.  
+10 
+SRCLR
+തതതതതതതതതത 
+Shift Register Clear Input (Active Low). 
+11 
+SRCLK 
+Shift Register Clock Input (Rising Edge Triggered). 
+12 
+RCLK 
+Storage Register Clock Input (Rising Edge Triggered). 
+13 
+OE
+ത
+ത
+ത
+ത
+ത 
+Output Enable Input (Active Low). 
+14 
+SER 
+Serial Data Input. 
+16 
+VCC 
+Power Supply. 
+ 
+ 
+ 
+
+8-Bit Serial-In/Serial-Out or Parallel-Out 
+74AHCT595 
+Shift Register with Output Latches 
+ 
+ 
+4 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTION TABLE 
+INPUTS 
+FUNCTION 
+SER 
+SRCLK 
+SRCLR
+തതതതതതതതതതത 
+RCLK 
+OE
+ത
+ത
+ത
+ത
+ത 
+X 
+X 
+X 
+X 
+H 
+Outputs (QA-QH) are disabled. 
+X 
+X 
+X 
+X 
+L 
+Outputs (QA-QH) are enabled. 
+X 
+X 
+L 
+X 
+X 
+Data of the shift register is cleared. 
+L 
+↑ 
+H 
+X 
+X 
+Logic low-level shifted into shift register Stage 0. Other stages 
+can transfer data from the previous stage respectively. 
+H 
+↑ 
+H 
+X 
+X 
+Logic high-level shifted into shift register Stage 0. Other stages 
+can transfer data from the previous stage respectively. 
+X 
+X 
+X 
+↑ 
+X 
+Data of the shift register is transferred to the storage register. 
+H = High Voltage Level 
+L = Low Voltage Level 
+↑ = Low to High Clock Transition 
+X = Don’t Care 
+ 
+ 
+TIMING DIAGRAM 
+Z-State
+Z-State
+Z-State
+Z-State
+SER
+SRCLK
+QA
+QB
+QG
+QH
+QH' 
+SRCLR
+OE
+RCLK
+…
+ 
+ 
+Figure 1. Timing Diagram 
+ 
+ 
+
+8-Bit Serial-In/Serial-Out or Parallel-Out 
+74AHCT595 
+Shift Register with Output Latches 
+ 
+ 
+5 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(Full = -40℃ to +125℃, all typical values are measured at TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN 
+TYP 
+MAX 
+UNITS 
+High-Level Input Voltage 
+VIH 
+ 
+Full 
+2 
+ 
+ 
+V 
+Low-Level Input Voltage 
+VIL 
+ 
+Full 
+ 
+ 
+0.8 
+V 
+High-Level Output Voltage 
+VOH 
+VCC = 4.5V, IOH = -50μA  
+Full 
+4.4 
+4.495 
+ 
+V 
+VCC = 4.5V, IOH = -8mA 
+Full 
+4.0 
+4.28 
+ 
+VCC = 5.5V, IOH = -8mA 
+Full 
+5.08 
+5.31 
+ 
+Low-Level Output Voltage 
+VOL 
+VCC = 4.5V, IOL = 50μA 
+Full 
+ 
+0.005 
+0.10 
+V 
+VCC = 4.5V, IOL = 8mA 
+Full 
+ 
+0.21 
+0.44 
+VCC = 5.5V, IOL = 8mA 
+Full 
+ 
+0.20 
+0.42 
+Input Leakage Current 
+II 
+VCC = 0 to 5.5V, VI = VCC or GND 
+Full 
+ 
+ 
+±2 
+μA 
+Off-State Output Current 
+IOZ 
+QA-QH, VCC = 5.5V, VO = VCC or GND 
+Full 
+ 
+ 
+±2 
+μA 
+Supply Current 
+ICC 
+VCC = 5.5V, VI = VCC or GND, IO = 0A 
+Full 
+ 
+ 
+20 
+μA 
+Additional Supply Current (1)  
+ΔICC 
+VCC = 5.5V, one input at 3.4V, other inputs at 
+VCC or GND 
+Full 
+ 
+ 
+1 
+mA 
+Input Capacitance 
+CI 
+VCC = 5.0V, VI = VCC or GND 
++25℃ 
+ 
+4.5 
+ 
+pF 
+Output Capacitance 
+CO 
+VCC = 5.0V, VO = VCC or GND 
++25℃ 
+ 
+6 
+ 
+pF 
+NOTE: 
+1. It is the increase in supply current for per input at the specified TTL voltage levels except VCC or GND. 
+ 
+ 
+NOISE CHARACTERISTICS 
+(Full = -40℃ to +125℃, all typical values are measured at VCC = 5.0V, CL = 50pF and TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN 
+TYP 
+MAX 
+UNITS 
+Maximum Dynamic Low-Level Output Voltage 
+VOLDMAX 
+Quiet output 
++25℃ 
+ 
+1 
+ 
+V 
+Minimum Dynamic Low-Level Output Voltage 
+VOLDMIN 
+Quiet output 
++25℃ 
+ 
+-0.6 
+ 
+V 
+Minimum Dynamic High-Level Output Voltage 
+VOHDMIN 
+Quiet output 
++25℃ 
+ 
+3.2 
+ 
+V 
+Dynamic High-Level Input Voltage 
+VIHD 
+ 
+Full 
+2 
+ 
+ 
+V 
+Dynamic Low-Level Input Voltage 
+VILD 
+ 
+Full 
+ 
+ 
+0.8 
+V 
+ 
+ 
+ 
+
+8-Bit Serial-In/Serial-Out or Parallel-Out 
+74AHCT595 
+Shift Register with Output Latches 
+ 
+ 
+6 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DYNAMIC CHARACTERISTICS 
+(See Figure 2 for test circuit. Full = -40℃ to +125℃, all typical values are measured at VCC = 5.0V ± 0.5V and TA = +25℃, unless 
+otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN (1) 
+TYP 
+MAX (1) 
+UNITS 
+Low to High Propagation Delay 
+tPLH 
+RCLK to QA-QH 
+CL = 15pF 
+Full 
+1 
+4 
+8.5 
+ns 
+CL = 50pF 
+Full 
+1 
+5.5 
+11.5 
+High to Low Propagation Delay 
+tPHL 
+CL = 15pF 
+Full 
+1 
+4 
+8.5 
+ns 
+CL = 50pF 
+Full 
+1 
+5.5 
+11.5 
+Low to High Propagation Delay 
+tPLH 
+SRCLK to QH' 
+CL = 15pF 
+Full 
+1 
+4 
+8.5 
+ns 
+CL = 50pF 
+Full 
+1 
+5.5 
+11.4 
+High to Low Propagation Delay 
+tPHL 
+CL = 15pF 
+Full 
+1 
+4 
+8.5 
+ns 
+CL = 50pF 
+Full 
+1 
+5.5 
+11.4 
+High to Low Propagation Delay 
+tPHL 
+SRCLR
+തതതതതതതതത to QH'
+  
+CL = 15pF 
+Full 
+1 
+8 
+13.5 
+ns 
+CL = 50pF 
+Full 
+1 
+10 
+16 
+Off-State to High Propagation Delay  
+tPZH 
+OE
+ത
+തത
+ത to QA-QH 
+CL = 15pF 
+Full 
+1 
+6.5 
+10.5 
+ns 
+CL = 50pF 
+Full 
+1 
+8 
+13.5 
+Off-State to Low Propagation Delay 
+tPZL  
+CL = 15pF 
+Full 
+1 
+6 
+10.5 
+ns 
+CL = 50pF 
+Full 
+1 
+8 
+13.5 
+High to Off-State Propagation Delay  
+tPHZ 
+OE
+ത
+തത
+ത to QA-QH 
+CL = 15pF 
+Full 
+1 
+3 
+6.5 
+ns 
+CL = 50pF 
+Full 
+1 
+4 
+8.5 
+Low to Off-State Propagation Delay  
+tPLZ 
+CL = 15pF 
+Full 
+1 
+3 
+6.5 
+ns 
+CL = 50pF 
+Full 
+1 
+4 
+8.5 
+Maximum Frequency 
+fMAX 
+CL = 15pF 
+Full 
+115 
+165 
+ 
+MHz 
+CL = 50pF 
+Full 
+85 
+160 
+ 
+Pulse Width 
+tW 
+SRCLK high or low 
+Full 
+5.5 
+ 
+ 
+ns 
+RCLK high or low 
+Full 
+5.5 
+ 
+ 
+SRCLR
+തതതതതതതതത low 
+Full 
+8 
+ 
+ 
+Set-up Time (2) 
+tSU 
+SER before SRCLK ↑ 
+Full 
+9 
+ 
+ 
+ns 
+SRCLK ↑ before RCLK ↑ 
+Full 
+5 
+ 
+ 
+SRCLR
+തതതതതതതതത low before RCLK ↑ 
+Full 
+10 
+ 
+ 
+SRCLR
+തതതതതതതതത high (inactive) before SRCLK ↑ (3) 
+Full 
+5 
+ 
+ 
+Hold Time 
+tH 
+SER after SRCLK ↑ 
+Full 
+5 
+ 
+ 
+ns 
+Power Dissipation Capacitance (4) (5)  
+CPD 
+No load, VCC = 5.0V, f = 10MHz 
++25℃ 
+ 
+30 
+ 
+pF 
+NOTES: 
+1. Specified by design and characterization, not production tested. 
+2. The set-up time enables the storage register to get stable data from the shift register. In this case where clocks can be tied 
+together, the shift register is a clock pulse in front of the storage register. 
+3. tREC is the same as SRCLR
+തതതതതതതതതത high (inactive) before SRCLK ↑. 
+4. CPD is used to determine the dynamic power dissipation (PD in μW). 
+PD = CPD × VCC
+2 × fi + Σ(CL × VCC
+2 × fo) 
+where: 
+fi = Input frequency in MHz. 
+fo = Output frequency in MHz. 
+CL = Output load capacitance in pF. 
+VCC = Supply voltage in Volts. 
+Σ(CL × VCC
+2 × fo) = Sum of outputs. 
+5. All 9 outputs switching. 
+ 
+
+8-Bit Serial-In/Serial-Out or Parallel-Out 
+74AHCT595 
+Shift Register with Output Latches 
+ 
+ 
+7 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TEST CIRCUIT 
+tW
+VO
+RL
+S1
+VI
+GND
+90%
+VM
+10%
+tF
+tR
+VI
+GND
+10%
+90%
+VM
+tF
+tR
+tW
+VM
+VM
+74AHCT595
+VI
+VCC
+RT
+VCC
+Open
+CL
+ 
+ 
+Test conditions are given in Table 1. 
+Definitions test circuit: 
+RL: Load resistance. 
+CL: Load capacitance (includes jig and probe). 
+RT: Termination resistance (equals to output impedance ZO of the pulse generator). 
+S1: Test selection switch. 
+ 
+Figure 2. Test Circuit for Measuring Switching Times 
+ 
+Table 1. Test Conditions 
+SUPPLY VOLTAGE 
+INPUT 
+LOAD 
+S1 POSITION 
+VCC 
+VI 
+tR, tF 
+CL 
+RL 
+tPHL, tPLH 
+tPZH, tPHZ 
+tPZL, tPLZ 
+4.5V to 5.5V 
+VCC 
+≤ 3.0ns 
+15pF, 50pF 
+1kΩ 
+Open 
+GND 
+VCC 
+ 
+ 
+ 
+
+8-Bit Serial-In/Serial-Out or Parallel-Out 
+74AHCT595 
+Shift Register with Output Latches 
+ 
+ 
+8 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+WAVEFORMS 
+VI
+GND
+SRCLK Input
+QH' Output
+VOH
+VOL
+VM
+1/fMAX
+tW
+tPLH
+VM
+tPHL
+ 
+ 
+Test conditions are given in Table 1. 
+Measurement points are given in Table 2. 
+Logic levels: VOL and VOH are typical output voltage levels that occur with the output load. 
+ 
+Figure 3. Shift Clock Pulse, Maximum Frequency and Shift Register Clock Input to Output Propagation Delays 
+ 
+VI
+GND
+RCLK Input
+QA-QH Output
+VOH
+VOL
+VM
+1/fMAX
+tW
+tPLH
+VM
+tPHL
+VI
+GND
+SRCLK Input
+VM
+tSU
+ 
+ 
+Test conditions are given in Table 1. 
+Measurement points are given in Table 2. 
+Logic levels: VOL and VOH are typical output voltage levels that occur with the output load. 
+ 
+Figure 4. Storage Register Clock to Output Propagation Delays 
+ 
+VI
+GND
+VI
+GND
+VOH
+VOL
+QH' Output
+SER Input
+SRCLK Input
+VM
+VM
+VM
+tSU
+tSU
+tH
+tH
+ 
+ 
+Test conditions are given in Table 1. 
+Measurement points are given in Table 2. 
+Logic levels: VOL and VOH are typical output voltage levels that occur with the output load. 
+ 
+Figure 5. Data Set-up and Hold Times 
+ 
+
+8-Bit Serial-In/Serial-Out or Parallel-Out 
+74AHCT595 
+Shift Register with Output Latches 
+ 
+ 
+9 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+WAVEFORMS (continued) 
+SRCLK Input
+SRCLR Input
+VI
+GND
+VI
+GND
+VOH
+VOL
+QH' Output
+VM
+VM
+VM
+tW
+tPHL
+tREC
+ 
+ 
+Test conditions are given in Table 1. 
+Measurement points are given in Table 2. 
+Logic levels: VOL and VOH are typical output voltage levels that occur with the output load. 
+ 
+Figure 6. Clear Input to Output Propagation Delays 
+ 
+VM
+VI
+GND
+VCC
+VOL
+VOH
+tPZL
+VM
+tPZH
+Output 
+Low-to-Off 
+Off-to-Low
+VOL + 0.3V
+tPLZ
+tPHZ
+VM
+GND
+Output 
+High-to-Off 
+Off-to-High
+VOH - 0.3V
+OE Input
+ 
+ 
+Test conditions are given in Table 1. 
+Measurement points are given in Table 2. 
+Logic levels: VOL and VOH are typical output voltage levels that occur with the output load. 
+ 
+Figure 7. Enable and Disable Times 
+ 
+Table 2. Measurement Points 
+SUPPLY VOLTAGE 
+INPUT 
+OUTPUT 
+VCC 
+VI 
+VM
+ (1) 
+VM 
+4.5V to 5.5V 
+VCC 
+0.5 × VCC 
+0.5 × VCC 
+NOTE: 
+1. The measurement points should be VIH or VIL when the input rising or falling time exceeds 3.0ns. 
+ 
+ 
+
+8-Bit Serial-In/Serial-Out or Parallel-Out 
+74AHCT595 
+Shift Register with Output Latches 
+ 
+ 
+10 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+Changes from Original (OCTOBER 2023) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+TX00020.002 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TSSOP-16 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+- 
+- 
+1.200 
+A1 
+0.050 
+- 
+0.150 
+A2 
+0.800 
+- 
+1.050 
+b 
+0.190 
+- 
+0.300 
+c 
+0.090 
+- 
+0.200 
+D 
+4.860 
+- 
+5.100 
+E 
+4.300 
+- 
+4.500 
+E1 
+6.200 
+- 
+6.600 
+e 
+0.650 BSC 
+L 
+0.450 
+- 
+0.750 
+H 
+0.250 TYP 
+θ 
+0° 
+- 
+8° 
+ccc 
+0.100 
+ 
+NOTES: 
+1. This drawing is subject to change without notice. 
+2. The dimensions do not include mold flashes, protrusions or gate burrs. 
+3. Reference JEDEC MO-153. 
+ 
+ 
+E1
+E
+b
+e
+A2
+A1
+c
+θ
+L
+H
+D
+1.78
+0.42
+0.65
+5.94
+RECOMMENDED LAND PATTERN (Unit: mm)
+A
+ccc C
+SEATING PLANE
+C
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00012.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOIC-16 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+1.350 
+1.750 
+0.053 
+0.069 
+A1 
+0.100 
+0.250 
+0.004 
+0.010 
+A2 
+1.350 
+1.550 
+0.053 
+0.061 
+b 
+0.330 
+0.510 
+0.013 
+0.020 
+c 
+0.170 
+0.250 
+0.006 
+0.010 
+D 
+9.800 
+10.200 
+0.386 
+0.402 
+E 
+3.800 
+4.000 
+0.150 
+0.157 
+E1 
+5.800 
+6.200 
+0.228 
+0.244 
+e 
+1.27 BSC 
+0.050 BSC 
+L 
+0.400 
+1.270 
+0.016 
+0.050 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+ 
+D
+E
+E1
+e
+b
+A
+A1
+A2
+θ
+L
+c
+RECOMMENDED LAND PATTERN (Unit: mm)
+5.60
+1.75
+1.27
+0.65
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TSSOP-16 
+13″ 
+12.4 
+6.80 
+5.40 
+1.50 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+SOIC-16 
+13″ 
+16.4 
+6.50 
+10.30 
+2.10 
+4.0 
+8.0 
+2.0 
+16.0 
+Q1 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

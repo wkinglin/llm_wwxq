@@ -1,0 +1,1962 @@
+ 
+SGM2571 
+5.5V, 1A, 34mΩ RON Load Switch with 
+Reverse Current Protection 
+ 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+MAY 2022 – REV. A. 2 
+  
+GENERAL DESCRIPTION 
+The SGM2571 is a single load switch with reverse 
+current protection and controlled turn-on. The device 
+can operate from 1V to 5.5V single supply and has the 
+ability to drive up to 1A continuous current. 
+The device contains a 34mΩ low RON N-MOSFET 
+controlled by the ON pin. The small package and low 
+RON make the device very suitable for space limited, 
+battery powered applications. 
+The device supports a wide input voltage range, which 
+is suitable for many different voltage rails. The rise time 
+is used to avoid inrush current. The SGM2571 offers 
+the quick output discharge function in disable status. 
+The SGM2571 is available in a Green WLCSP-0.8×0.8-4B 
+package. 
+FEATURES 
+● Input Voltage Range: 1V to 5.5V 
+● Maximum Continuous Current: 1A  
+● Low On-Resistance 
+ RON = 34mΩ at VIN = 5V 
+ RON = 34mΩ at VIN = 3.3V 
+● Low Shutdown Current: 90nA (TYP) 
+● Reverse Current Protection When Disabled 
+● Low Threshold 1.8V GPIO Control Input  
+● Bidirectional Power Supply for Power Zone 
+Application  
+● Rise Time:  
+ SGM2571AD: 85μs (TYP) 
+ SGM2571BD: 1600μs (TYP) 
+ SGM2571CD: 2200μs (TYP) 
+● Quick Output Discharge 
+● Available in a Green WLCSP-0.8×0.8-4B Package 
+ 
+ 
+APPLICATIONS 
+Mobile Phone 
+Ultrabook 
+Tablet PC 
+Digital Camera 
+Wearable Technology 
+Solid State Drive
+ 
+TYPICAL APPLICATION 
+SGM2571
+VIN
+VOUT
+CIN
+On
+Off
+ON
+COUT
+ROUT
+GND
+VIN
+  
+ 
+Figure 1. Typical Application Circuit 
+
+ 
+5.5V, 1A, 34mΩ RON Load Switch with 
+SGM2571 
+Reverse Current Protection 
+ 
+ 
+2 
+MAY 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM2571AD 
+WLCSP-0.8×0.8-4B 
+-40℃ to +85℃ 
+SGM2571ADYG/TR 
+A8 
+ X 
+Tape and Reel, 3000 
+SGM2571BD 
+WLCSP-0.8×0.8-4B 
+-40℃ to +85℃ 
+SGM2571BDYG/TR 
+CE 
+ X 
+Tape and Reel, 3000 
+SGM2571CD 
+WLCSP-0.8×0.8-4B 
+-40℃ to +85℃ 
+SGM2571CDYG/TR 
+34 
+ X 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: X = Date Code. 
+Date Code - Quarter 
+Serial Number
+YY
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Input Voltage Range, VIN...................................... -0.3V to 6V 
+Output Voltage Range, VOUT ................................ -0.3V to 6V 
+ON Pin Voltage Range, VON 
+................................. -0.3V to 6V 
+Maximum Continuous Switch Current, IMAX........................ 
+1A 
+Maximum Pulsed Switch Current, Pulse < 300μs, 2% Duty 
+Cycle, IPLS ....................................................................... 
+1.5A 
+Package Thermal Resistance 
+WLCSP-0.8×0.8-4B, θJA .......................................... 279℃/W 
+Junction Temperature ................................................. 
++150℃ 
+Storage Temperature Range 
+........................ -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility  
+HBM 
+............................................................................. 
+4000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Input Voltage Range, VIN........................................ 
+1V to 5.5V 
+Output Voltage Range, VOUT .................................. 
+0V to 5.5V 
+ON Pin Input High Voltage, VIH ........................... 
+1.1V to 5.5V 
+ON Pin Input Low Voltage, VIL ............................... 
+0V to 0.4V 
+Operating Ambient Temperature Range......... -40℃ to +85℃ 
+Operating Junction Temperature Range ...... -40℃ to +125℃ 
+ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+
+ 
+5.5V, 1A, 34mΩ RON Load Switch with 
+SGM2571 
+Reverse Current Protection 
+ 
+ 
+3 
+MAY 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+(TOP VIEW) 
+B2
+ON
+A2
+VIN
+B1
+GND
+A1
+VOUT
+ 
+WLCSP-0.8×0.8-4B 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+A1 
+VOUT 
+Switch Output.  
+A2 
+VIN 
+Switch Input. It is recommended to use a bypass capacitor (ceramic) to ground. 
+B1 
+GND 
+Ground. 
+B2 
+ON 
+Switch Control Input. Active high enables the device. Do not float this pin. 
+ 
+ 
+FUNCTIONAL BLOCK DIAGRAM 
+Charge
+Pump
+Control
+Logic
+VOUT
+GND
+ON
+VIN
+Reverse
+Current
+Protection
+Driver
+SGM2571
+QOD
+ 
+ 
+ 
+
+ 
+5.5V, 1A, 34mΩ RON Load Switch with 
+SGM2571 
+Reverse Current Protection 
+ 
+ 
+4 
+MAY 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(Full = -40℃ to +85℃, VIN = 1V to 5.5V, CIN = 1μF, COUT = 0.1μF, typical values are at TJ = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Input Voltage Range 
+VIN 
+ 
+1 
+ 
+5.5 
+V 
+Quiescent Current 
+IQ 
+VIN = 5V, VON = 1.2V, IOUT = 0mA 
+ 
+320 
+560 
+nA 
+VIN = 3.3V, VON = 1.2V, IOUT = 0mA 
+ 
+220 
+400 
+VIN = 1V, VON = 1.2V, IOUT = 0mA 
+ 
+140 
+300 
+Shutdown Current 
+ISD 
+VIN = 5.5V, VON = 0V 
+ 
+90 
+440 
+nA 
+Supply Leakage Current in 
+Shutdown Mode 
+ILEAKAGE 
+VIN = 5.5V, VON = 0V, VOUT = 0V 
+ 
+ 
+450 
+nA 
+On-Resistance 
+RON 
+VIN = 5V, VON = 1.2V, IOUT = -200mA 
+ 
+34 
+60 
+mΩ 
+VIN = 3.3V, VON = 1.2V, IOUT = -200mA 
+ 
+34 
+60 
+ON Pin Leakage Current 
+ION 
+VON = 5.5V 
+ 
+ 
+420 
+nA 
+Reverse Current When Disabled 
+IRC 
+VIN = VON = 0V, VOUT = 5V 
+ 
+ 
+1 
+µA 
+Output Pull-Down Resistance 
+RPD 
+VIN = 2.5V, VON = 0V, IOUT = 2mA 
+ 
+280 
+370 
+Ω 
+VIN = 5V, VON = 0V, IOUT = 2mA 
+ 
+270 
+360 
+ON Pin Input Low Voltage 
+VIL 
+ 
+ 
+ 
+0.4 
+V 
+ON Pin Input High Voltage 
+VIH 
+ 
+1.1 
+ 
+ 
+ 
+ 
+
+ 
+5.5V, 1A, 34mΩ RON Load Switch with 
+SGM2571 
+Reverse Current Protection 
+ 
+ 
+5 
+MAY 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+SWITCHING CHARACTERISTICS 
+(Full = -40℃ to +85℃, CIN = 1μF, ROUT = 10Ω, COUT = 0.1μF, typical values are at TJ = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+SGM2571AD: VIN = 3.3V, unless otherwise noted. 
+Turn-On Time 
+tON 
+Figure 2 and Figure 3 
+ 
+220 
+ 
+µs 
+Turn-Off Time 
+tOFF 
+ 
+18 
+ 
+VOUT Rise Time 
+tR 
+ 
+85 
+130 
+VOUT Fall Time 
+tF 
+ 
+3 
+ 
+Delay Time 
+tD 
+ 
+205 
+ 
+SGM2571AD: VIN = 5V, unless otherwise noted. 
+Turn-On Time 
+tON 
+Figure 2 and Figure 3 
+ 
+185 
+ 
+µs 
+Turn-Off Time 
+tOFF 
+ 
+18 
+ 
+VOUT Rise Time 
+tR 
+ 
+60 
+200 
+VOUT Fall Time 
+tF 
+ 
+3 
+ 
+Delay Time 
+tD 
+ 
+175 
+ 
+SGM2571BD: VIN = 3.3V, unless otherwise noted. 
+Turn-On Time 
+tON 
+Figure 2 and Figure 3 
+ 
+900 
+ 
+µs 
+Turn-Off Time 
+tOFF 
+ 
+18 
+ 
+VOUT Rise Time 
+tR 
+ 
+1600 
+ 
+VOUT Fall Time 
+tF 
+ 
+3 
+ 
+Delay Time 
+tD 
+ 
+400 
+ 
+SGM2571CD: VIN = 3.3V, unless otherwise noted. 
+Turn-On Time 
+tON 
+Figure 2 and Figure 3 
+ 
+1200 
+ 
+µs 
+Turn-Off Time 
+tOFF 
+ 
+18 
+ 
+VOUT Rise Time 
+tR 
+ 
+2200 
+ 
+VOUT Fall Time 
+tF 
+ 
+3 
+ 
+Delay Time 
+tD 
+ 
+300 
+ 
+ 
+PARAMETER MEASUREMENT INFORMATION 
+SGM2571
+VIN
+VOUT
+CIN
+1μF
+On
+ON
+Off
+*
+VIN
+GND
+COUT 
+0.1μF
+ROUT
+GND
+*: Rise and fall times of the control signal are 100ns.
+ 
+Figure 2. Test Circuit 
+ 
+VON
+VOUT
+tON
+50%
+tOFF
+50%
+50%
+50%
+90%
+10%
+90%
+tR
+tF
+10%
+tD
+ 
+Figure 3. Timing Waveforms 
+ 
+
+ 
+5.5V, 1A, 34mΩ RON Load Switch with 
+SGM2571 
+Reverse Current Protection 
+ 
+ 
+6 
+MAY 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+TJ = +25℃, CIN = 1μF, COUT = 0.1μF, ROUT = 10Ω, VIH = 1.2V, VIL = 0V, unless otherwise noted. 
+ 
+     Quiescent Current vs. Input Voltage 
+     Shutdown Current vs. Input Voltage 
+ 
+ 
+     On-Resistance vs. Junction Temperature 
+   On-Resistance vs. Output Current 
+ 
+ 
+     On-Resistance vs. Input Voltage 
+     Output Pull-Down Resistance vs. Input Voltage 
+ 
+ 
+ 
+ 
+50
+100
+150
+200
+250
+300
+350
+400
+450
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Quiescent Current (nA) 
+Input Voltage (V) 
++25℃ 
++85℃ 
+-40℃ 
+0
+50
+100
+150
+200
+250
+300
+350
+400
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Shutdown Current (nA) 
+Input Voltage (V) 
++25℃ 
++85℃ 
+-40℃ 
+15
+20
+25
+30
+35
+40
+45
+50
+55
+-50
+-25
+0
+25
+50
+75
+100
+On-Resistance (mΩ) 
+Junction Temperature (℃) 
+IOUT = -200mA 
+VIN = 1V 
+VIN = 1.2V 
+VIN = 1.8V 
+VIN = 2.5V 
+VIN = 3.3V 
+VIN = 4.5V 
+VIN = 5V 
+VIN = 5.5V 
+ 
+ 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+0
+0.2
+0.4
+0.6
+0.8
+1
+On-Resistance (mΩ) 
+Output Current (A) 
+VIN = 3.3V 
+VIN = 4.5V 
+VIN = 5V 
+VIN = 5.5V 
+ 
+ 
+VIN = 1V 
+VIN = 1.8V 
+VIN = 2.5V 
+ 
+ 
+VIN = 3.3V 
+VIN = 4.5V 
+VIN = 5V 
+VIN = 5.5V 
+ 
+ 
+VIN = 1V 
+VIN = 1.8V 
+VIN = 2.5V 
+ 
+ 
+VIN = 3.3V 
+VIN = 4.5V 
+VIN = 5V 
+VIN = 5.5V 
+ 
+ 
+VIN = 1V 
+VIN = 1.8V 
+VIN = 2.5V 
+ 
+ 
+VIN = 3.3V 
+VIN = 4.5V 
+VIN = 5V 
+VIN = 5.5V 
+ 
+ 
+VIN = 1V 
+VIN = 1.8V 
+VIN = 2.5V 
+ 
+ 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+On-Resistance (mΩ) 
+Input Voltage (V) 
++25℃ 
++85℃ 
+-40℃ 
+IOUT = -200mA 
+100
+200
+300
+400
+500
+600
+700
+800
+900
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Output Pull-Down Resistance (Ω) 
+Input Voltage (V) 
++25℃ 
++85℃ 
+-40℃ 
+
+ 
+5.5V, 1A, 34mΩ RON Load Switch with 
+SGM2571 
+Reverse Current Protection 
+ 
+ 
+7 
+MAY 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, CIN = 1μF, COUT = 0.1μF, ROUT = 10Ω, VIH = 1.2V, VIL = 0V, unless otherwise noted. 
+ 
+     ON Pin Input Low Voltage vs. Input Voltage 
+     ON Pin Input High Voltage vs. Input Voltage 
+ 
+ 
+     ON Pin Hysteresis vs. Input Voltage 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+ON Pin Input Low Voltage (V) 
+Input Voltage (V) 
++25℃ 
++85℃ 
+-40℃ 
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+ON Pin Input High Voltage (V) 
+Input Voltage (V) 
++25℃ 
++85℃ 
+-40℃ 
+0.015
+0.020
+0.025
+0.030
+0.035
+0.040
+0.045
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+ON Pin Hysteresis (V) 
+Input Voltage (V) 
++25℃ 
++85℃ 
+-40℃ 
+
+ 
+5.5V, 1A, 34mΩ RON Load Switch with 
+SGM2571 
+Reverse Current Protection 
+ 
+ 
+8 
+MAY 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+SGM2571AD: TYPICAL PERFORMANCE CHARACTERISTICS 
+TJ = +25℃, CIN = 1μF, COUT = 0.1μF, ROUT = 10Ω, VIH = 1.2V, VIL = 0V, unless otherwise noted. 
+ 
+      Rise Time vs. Input Voltage 
+      Fall Time vs. Input Voltage 
+ 
+ 
+     Turn-On Time vs. Input Voltage 
+     Turn-Off Time vs. Input Voltage 
+ 
+ 
+     Delay Time vs. Input Voltage 
+ 
+ 
+ 
+ 
+ 
+0
+100
+200
+300
+400
+500
+600
+700
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Rise Time (μs) 
+Input Voltage (V) 
++25℃ 
++85℃ 
+-40℃ 
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Fall Time (μs) 
+Input Voltage (V) 
++85℃ 
+-40℃ 
++25℃ 
+0
+200
+400
+600
+800
+1000
+1200
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Turn-On Time (μs) 
+Input Voltage (V) 
++25℃ 
++85℃ 
+-40℃ 
+0
+20
+40
+60
+80
+100
+120
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Turn-Off Time (μs) 
+Input Voltage (V) 
++25℃ 
++85℃ 
+-40℃ 
+0
+200
+400
+600
+800
+1000
+1200
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Delay Time (μs) 
+Input Voltage (V) 
++25℃ 
++85℃ 
+-40℃ 
+
+ 
+5.5V, 1A, 34mΩ RON Load Switch with 
+SGM2571 
+Reverse Current Protection 
+ 
+ 
+9 
+MAY 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+SGM2571AD: TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, CIN = 1μF, COUT = 0.1μF, ROUT = 10Ω, VIH = 1.2V, VIL = 0V, unless otherwise noted. 
+ 
+ 
+Turn-On Response 
+ 
+ 
+ 
+Turn-Off Response 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+VON 
+ 
+       1V/div  1V/div     1V/div 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+VOUT 
+ 
+ 
+ 
+VON 
+ 
+  
+1V/div  1V/div    1V/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (200μs/div) 
+ 
+ 
+ 
+Time (10μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Turn-On Response 
+ 
+ 
+ 
+Turn-Off Response 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+VON 
+ 
+         2V/div  2V/div    1V/div 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+VOUT 
+ 
+ 
+ 
+VON 
+ 
+        2V/div  2V/div    1V/div  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (200μs/div) 
+ 
+ 
+ 
+Time (10μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Turn-On Response 
+ 
+ 
+ 
+Turn-Off Response 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+VON 
+ 
+    2V/div    2V/div      1V/div 
+ 
+ 
+ 
+VIN 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+VON 
+ 
+     2V/div    2V/div    1V/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (200μs/div) 
+ 
+ 
+ 
+Time (10μs/div) 
+ 
+ 
+ 
+VIN = 1.8V 
+VIN = 3.3V 
+VIN = 5V 
+VIN = 1.8V 
+VIN = 3.3V 
+VIN = 5V 
+
+ 
+5.5V, 1A, 34mΩ RON Load Switch with 
+SGM2571 
+Reverse Current Protection 
+ 
+ 
+10 
+MAY 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+SGM2571BD: TYPICAL PERFORMANCE CHARACTERISTICS 
+TJ = +25℃, CIN = 1μF, COUT = 0.1μF, ROUT = 10Ω, VIH = 1.2V, VIL = 0V, unless otherwise noted.  
+ 
+      Rise Time vs. Input Voltage 
+      Fall Time vs. Input Voltage 
+ 
+ 
+     Turn-On Time vs. Input Voltage 
+     Turn-Off Time vs. Input Voltage 
+ 
+ 
+ 
+Turn-On Response 
+ 
+ 
+ 
+Turn-Off Response 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+VON 
+ 
+   1V/div   1V/div     1V/div 
+ 
+ 
+ 
+VIN 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+VON 
+ 
+   1V/div   1V/div      1V/div  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (1ms/div) 
+ 
+ 
+ 
+Time (10μs/div) 
+ 
+ 
+ 
+0
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Rise Time (ms) 
+Input Voltage (V) 
++25℃ 
++85℃ 
+-40℃ 
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Fall Time (μs) 
+Input Voltage (V) 
++85℃ 
+-40℃ 
++25℃ 
+0
+0.5
+1
+1.5
+2
+2.5
+3
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Turn-On Time (ms) 
+Input Voltage (V) 
++25℃ 
++85℃ 
+-40℃ 
+0
+20
+40
+60
+80
+100
+120
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Turn-Off Time (μs) 
+Input Voltage (V) 
++25℃ 
++85℃ 
+-40℃ 
+VIN = 3.3V 
+VIN = 3.3V 
+
+ 
+5.5V, 1A, 34mΩ RON Load Switch with 
+SGM2571 
+Reverse Current Protection 
+ 
+ 
+11 
+MAY 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+SGM2571CD: TYPICAL PERFORMANCE CHARACTERISTICS 
+TJ = +25℃, CIN = 1μF, COUT = 0.1μF, ROUT = 10Ω, VIH = 1.2V, VIL = 0V, unless otherwise noted.  
+ 
+      Rise Time vs. Input Voltage 
+      Fall Time vs. Input Voltage 
+ 
+ 
+     Turn-On Time vs. Input Voltage 
+     Turn-Off Time vs. Input Voltage 
+ 
+ 
+ 
+Turn-On Response 
+ 
+ 
+ 
+Turn-Off Response 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+VON 
+ 
+   1V/div   1V/div     1V/div 
+ 
+ 
+ 
+VIN 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+VON 
+ 
+   1V/div   1V/div      1V/div  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (1ms/div) 
+ 
+ 
+ 
+Time (10μs/div) 
+ 
+ 
+ 
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Rise Time (ms) 
+Input Voltage (V) 
++25℃ 
++85℃ 
+-40℃ 
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Fall Time (μs) 
+Input Voltage (V) 
++85℃ 
+-40℃ 
++25℃ 
+0
+1
+2
+3
+4
+5
+6
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Turn-On Time (ms) 
+Input Voltage (V) 
++25℃ 
++85℃ 
+-40℃ 
+0
+20
+40
+60
+80
+100
+120
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Turn-Off Time (μs) 
+Input Voltage (V) 
++25℃ 
++85℃ 
+-40℃ 
+VIN = 3.3V 
+VIN = 3.3V 
+
+ 
+5.5V, 1A, 34mΩ RON Load Switch with 
+SGM2571 
+Reverse Current Protection 
+ 
+ 
+12 
+MAY 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION 
+The SGM2571 is a small, 4-ball, 1A load switch. A low 
+on-resistance N-MOSFET is integrated, which makes a 
+low voltage drop across the device. To choose suitable 
+rise time is always used to avoid inrush current. 
+ 
+Control Pin 
+The ON pin can control the device. Pulling the ON pin 
+high enables the device. Logic high of VIH on the ON 
+pin will enable the device and VIL will turn off it. It has 
+the ability to interface with low-voltage GPIO. It can 
+support with 1.8V, 2.5V, 3.3V GPIOs. 
+ 
+ 
+ 
+Quick Output Discharge 
+The quick output discharge (QOD) feature is available 
+for SGM2571. If the ON pin is pulled low, a discharge 
+resistor of 270Ω (TYP) is connected between VOUT 
+and GND pins to prevent the output from floating when 
+the switch is disabled. 
+ 
+Functional Modes 
+The connection of the VOUT pin is shown in Table 1. 
+Table 1. VOUT Connection 
+ON Pin 
+VOUT Pin 
+L 
+GND 
+H 
+VIN 
+ 
+ 
+ 
+APPLICATION INFORMATION 
+SGM2571 is a single channel, up to 1A current capability 
+load switch with low on-resistance. The device has a 
+wide input range, which can be used in different end 
+equipment to set power sequence, reduce inrush 
+current and maintain low standby leakage current. The 
+typical application circuit of SGM2571 is shown in 
+Figure 4. 
+ 
+SGM2571
+VIN
+VOUT
+CIN
+On
+Off
+ON
+COUT
+ROUT
+GND
+Load
+Input Voltage
+ 
+ 
+Figure 4. Typical Application Circuit 
+ 
+ 
+Input Capacitor 
+A 1μF input capacitor (CIN) is recommended to use 
+between VIN and GND close to the device pins. It can 
+limit the voltage drop on the input supply. Larger CIN 
+can reduce voltage dip in high current applications. 
+ 
+Output Capacitor 
+A 0.1μF output capacitor (COUT) should be placed 
+between VOUT and GND close to the device pins. This 
+capacitor will prevent parasitic board inductances from 
+forcing VOUT below GND when the switch is turned off. 
+To improve the VIN dropping when the device is turned 
+on, it is recommended that CIN is placed greater than 
+COUT, due to the CIN is charge for COUT. 
+ 
+ 
+ 
+
+ 
+5.5V, 1A, 34mΩ RON Load Switch with 
+SGM2571 
+Reverse Current Protection 
+ 
+ 
+13 
+MAY 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+Reverse Current Protection 
+If the ON pin is pulled low, the device is disabled, while 
+VIN > 1V or VOUT > 1V is met, the reverse current 
+protection function is activated. This function prevents 
+the current flowing from VOUT to VIN, and is very 
+useful when SGM2571 is disabled and the output 
+needs to be driven by another voltage source. 
+VOUT
+VSRC
+VIH
+VSRC - (IOUT × RON)
+IOUT
+VFORCE
+IRC_VIN
+RCP Disabled
+RCP Enabled
+Due to QOD
+0V
+VON
+VIN
+0V
+IVIN
+ 
+NOTES: VSRC is the input power supply to the equipment. 
+VFORCE is the external power source forced at VOUT pin. IVIN 
+is the current of VIN pin. IOUT is output load current. 
+Figure 5. Reverse Current Protection 
+Figure 5 shows how the reverse current protection circuit 
+is activated in SGM2571. Pulling the ON pin down, the 
+device is shut down and an external voltage (VFORCE) is 
+forced to VOUT pin, the reverse current is tested very 
+small given by IRC_VIN. This will prevent any large extra 
+current reverse from the VFORCE (added on VOUT) to VIN. 
+ 
+Power Supply Recommendations 
+The SGM2571 is designed for a wide operate input 
+voltage range of 1V to 5.5V. Place a 1μF input bypass 
+capacitor close to the device terminal is recommended. 
+ 
+Power Supply Sequencing without a GPIO 
+Input 
+In many terminal devices, each module needs to be 
+powered up in a pre-determined manner. SGM2571 can 
+set a power sequence by the tDELAY without extra GPIO, 
+and may reduce inrush current. Figure 6 shows the 
+sequence that the ON pin of first load switch is tied to 
+the VIN, and the second load switch ON pin is tied to 
+the VOUT of first load switch. The second load switch is 
+powered up when the first load switch is turned on, this 
+is the fixed sequence and the delay time set by default 
+tDELAY. 
+ 
+SGM2571
+Module 1
+Module 2
+SGM2571
+CIN
+COUT1
+COUT2
+VIN
+VOUT
+ON
+GND
+VIN
+VOUT
+ON
+GND
+Power Supply
+ 
+Figure 6. Power Supply Sequencing without a GPIO Input 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+5.5V, 1A, 34mΩ RON Load Switch with 
+SGM2571 
+Reverse Current Protection 
+ 
+ 
+14 
+MAY 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+MAY 2022 ‒ REV.A.1 to REV.A.2 
+Page 
+Updated General Description and Features sections ........................................................................................................................................... 
+1 
+Updated Absolute Maximum Ratings section ....................................................................................................................................................... 
+2 
+Updated Package Outline Dimensions section .................................................................................................................................................. 
+15 
+ 
+JULY 2020 ‒ REV.A to REV.A.1 
+Page 
+Added SGM2571BD and SGM2571CD versions ............................................................................................................................................... 
+All 
+ 
+Changes from Original (DECEMBER 2019) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00161.002 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+WLCSP-0.8×0.8-4B 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.400 
+0.450 
+0.500 
+A1 
+0.145 
+0.170 
+0.195 
+D 
+0.770 
+0.800 
+0.830 
+E 
+0.770 
+0.800 
+0.830 
+d 
+0.215 
+0.240 
+0.265 
+ccc 
+- 
+0.050 
+- 
+e 
+0.400 BSC 
+ 
+NOTE: This drawing is subject to change without notice. 
+ 
+ 
+ 
+ 
+ 
+D
+1
+2
+B
+A
+0.4
+0.4
+4 × Φ
+A1
+0.19
+0.21
+4 × Φd
+TOP VIEW
+RECOMMENDED LAND PATTERN (Unit: mm)
+SIDE VIEW
+BOTTOM VIEW
+A1 CORNER
+A
+e
+e
+C
+SEATING PLANE
+E
+ccc C
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+WLCSP-0.8×0.8-4B 
+7″ 
+9.0 
+0.89 
+0.89 
+0.55 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 

@@ -1,0 +1,668 @@
+ 
+ 
+SGM11103S 
+High Isolation SP3T Switch 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DECEMBER 2022 – REV.A 
+ 
+GENERAL DESCRIPTION 
+The SGM11103S is a 2-bit control single-pole/three- 
+throw (SP3T) switch, which supports from 0.1GHz to 
+5.8GHz. The device features low control voltage and 
+high isolation. 
+The SGM11103S has the ability to integrate the ESD 
+protection circuits to achieve high ESD tolerance. 
+No external DC blocking capacitors are required on the 
+RF paths as long as no external DC voltage is applied, 
+which can save PCB area and cost. 
+The SGM11103S is available in a Green ULGA-1.15× 
+1.55-10L package. 
+ 
+APPLICATIONS 
+Multi-Mode 2G/3G/4G/5G and Receive System Applications 
+Pre PA Switching, Reception Bands Switching Applications 
+General Purpose Switching Applications 
+Feedback RX Applications 
+ 
+FEATURES 
+● High Isolation:  
+f0 = 1.0GHz, PIN = 0dBm: 55dB (TYP) 
+f0 = 2.0GHz, PIN = 0dBm: 52dB (TYP) 
+f0 = 2.7GHz, PIN = 0dBm: 50dB (TYP) 
+f0 = 3.8GHz, PIN = 0dBm: 48dB (TYP) 
+f0 = 5.8GHz, PIN = 0dBm: 34dB (TYP) 
+● Low Insertion Loss:  
+f0 = 1.0GHz, PIN = 0dBm: 0.49dB (TYP) 
+f0 = 2.0GHz, PIN = 0dBm: 0.52dB (TYP) 
+f0 = 2.7GHz, PIN = 0dBm: 0.56dB (TYP) 
+f0 = 3.8GHz, PIN = 0dBm: 0.60dB (TYP) 
+f0 = 5.8GHz, PIN = 0dBm: 1.07dB (TYP) 
+● Available in a Green ULGA-1.15×1.55-10L Package 
+ 
+BLOCK DIAGRAM 
+RFCOM
+VDD
+VCTL1
+VCTL2
+RF1
+RF2
+RF3
+Supply and Logic
+ 
+ 
+Figure 1. SGM11103S Block Diagram 
+ 
+ 
+ 
+ 
+ 
+
+ 
+SGM11103S 
+High Isolation SP3T Switch 
+ 
+ 
+2 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM11103S 
+ULGA-1.15×1.55-10L 
+-40℃ to +85℃ 
+SGM11103SYULJ10G/TR 
+ZX 
+XX 
+Tape and Reel, 5000 
+ 
+MARKING INFORMATION 
+NOTE: XX = Date Code. 
+YY  
+X X
+Date Code - Year
+Date Code - Week
+Serial Number
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Supply Voltage, VDD ..................................................... 3.6V 
+Control Voltage, VCTL ................................................... 3.6V 
+RF Input Power, PIN (f0 = 2.7GHz) ............................ 30dBm 
+Junction Temperature .............................................. 
++150℃ 
+Storage Temperature Range ...................... -55℃ to +150℃ 
+Lead Temperature (Soldering, 10s) .......................... 
++260℃ 
+ESD Susceptibility 
+HBM 
+......................................................................... 1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Temperature Range ..................... 
+-40℃ to +85℃ 
+Operating Frequency Range, f0 ............... 0.1GHz to 5.8GHz 
+Supply Voltage, VDD ......................................... 2.5V to 3.3V 
+Control High Voltage, VCTL_H 
+........................... 1.35V to 3.3V 
+Control Low Voltage, VCTL_L 
+................................. 0V to 0.3V 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+
+ 
+SGM11103S 
+High Isolation SP3T Switch 
+ 
+ 
+3 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+(TOP VIEW) 
+1
+RF1
+RFCOM
+VDD
+GND
+GND
+GND
+RF2
+RF3
+VCTL1
+VCTL2
+2
+3
+4
+5
+6
+7
+8
+9
+10
+ 
+ULGA-1.15×1.55-10L 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1 
+RFCOM 
+RF Common Port. 
+2, 5, 10 
+GND 
+Ground Terminal. Please connect this terminal with ground plane as close as possible for 
+excellent RF performance. 
+3 
+VDD 
+DC Power Supply. Please connect a bypass capacitor with GND terminal for excellent RF 
+performance. 
+4 
+RF1 
+RF I/O Port 1. 
+6 
+RF2 
+RF I/O Port 2. 
+7 
+VCTL1 
+DC Control Voltage 1. Please connect a bypass capacitor with GND terminal for excellent RF 
+performance. 
+8 
+VCTL2 
+DC Control Voltage 2. Please connect a bypass capacitor with GND terminal for excellent RF 
+performance. 
+9 
+RF3 
+RF I/O Port 3. 
+ 
+LOGIC TRUTH TABLE 
+VCTL1 
+VCTL2 
+ON PATH 
+High 
+Low 
+RFCOM-RF1 
+Low 
+High 
+RFCOM-RF2 
+High 
+High 
+RFCOM-RF3 
+Low 
+Low 
+X 
+ 
+X = Don't care. 
+ 
+
+ 
+SGM11103S 
+High Isolation SP3T Switch 
+ 
+ 
+4 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(TA = +25℃, VDD = 2.5V to 3.3V, typical values are at VDD = 2.8V, PIN = 0dBm, input and output resistance = 50Ω, VCTL_L = 0V, 
+VCTL_H = 1.8V, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+DC Characteristics 
+Supply Voltage 
+VDD 
+ 
+2.5 
+2.8 
+3.3 
+V 
+Supply Current 
+IVDD 
+ 
+ 
+20 
+45 
+μA 
+Control Voltage 
+VCTL_L 
+ 
+0 
+0 
+0.3 
+V 
+Control Voltage 
+VCTL_H 
+ 
+1.35 
+1.8 
+3.3 
+V 
+Control Current 
+ICTL 
+VCTL_H = 1.8V 
+ 
+2 
+8 
+μA 
+Switching Time 
+tSW 
+50% VCTL to 10/90% RF 
+ 
+1 
+2 
+μs 
+RF Characteristics 
+Insertion Loss 
+IL 
+f0 = 1.0GHz, PIN = 0dBm 
+ 
+0.49 
+0.79 
+dB 
+f0 = 2.0GHz, PIN = 0dBm 
+ 
+0.52 
+0.82 
+f0 = 2.7GHz, PIN = 0dBm 
+ 
+0.56 
+0.86 
+f0 = 3.8GHz, PIN = 0dBm 
+ 
+0.60 
+0.97 
+f0 = 5.8GHz, PIN = 0dBm 
+ 
+1.07 
+1.45 
+Isolation 
+(RFCOM to All RF Ports) 
+ISO 
+f0 = 1.0GHz, PIN = 0dBm 
+47 
+55 
+ 
+dB 
+f0 = 2.0GHz, PIN = 0dBm 
+44 
+52 
+ 
+f0 = 2.7GHz, PIN = 0dBm 
+38 
+50 
+ 
+f0 = 3.8GHz, PIN = 0dBm 
+35 
+48 
+ 
+f0 = 5.8GHz, PIN = 0dBm 
+26 
+34 
+ 
+Input Power at 0.1dB 
+Compression Point 
+P0.1dB 
+f0 = 0.1GHz to 3.0GHz 
+ 
+30 
+ 
+dBm 
+f0 = 3.0GHz to 5.8GHz 
+ 
+28 
+ 
+Voltage Standing Wave Ratio 
+VSWR 
+f0 = 0.1GHz to 3.0GHz 
+ 
+1.2 
+ 
+ 
+f0 = 3.0GHz to 5.8GHz 
+ 
+1.6 
+ 
+ 
+ 
+
+ 
+SGM11103S 
+High Isolation SP3T Switch 
+ 
+ 
+5 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL APPLICATION CIRCUIT 
+VDD
+VCTL1
+VCTL2
+DC Power Supply
+C1
+1000pF
+RFCOM
+GND
+RF Common Port
+RF1
+RF2
+RF3
+DC Control Voltage 1
+DC Control Voltage 2
+SGM11103S
+RF I/O Port 1
+RF I/O Port 2
+RF I/O Port 3
+ 
+ 
+Figure 2. SGM11103S Typical Application Circuit 
+ 
+EVALUATION BOARD LAYOUT 
+ 
+ 
+ 
+ 
+Figure 3. SGM11103S Evaluation Board Layout 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00252.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+ULGA-1.15×1.55-10L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.460 
+0.500 
+0.540 
+A1 
+0.170 REF 
+A2 
+0.330 REF 
+b 
+0.150 
+0.200 
+0.250 
+b1 
+0.100 
+0.150 
+0.200 
+D 
+1.100 
+1.150 
+1.200 
+E 
+1.500 
+1.550 
+1.600 
+e 
+0.400 BSC 
+e1 
+0.400 BSC 
+L 
+0.150 
+0.200 
+0.250 
+L1 
+0.150 
+0.200 
+0.250 
+L2 
+- 
+0.175 
+- 
+NOTE: This drawing is subject to change without notice.
+ 
+ 
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+PIN 1#
+0.20
+0.40
+RECOMMENDED LAND PATTERN (Unit: mm)
+N1
+N10
+D
+E
+e
+b1
+L
+b
+0.15
+A1
+A2
+A
+e1
+L1
+0.40
+L2
+L2
+0.20
+0.20
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1 
+Quadrant 
+DD0001 
+ 
+ 
+ULGA-1.15×1.55-10L 
+7″ 
+9.5 
+1.30 
+1.70 
+0.60 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 

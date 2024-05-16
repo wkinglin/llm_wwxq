@@ -1,0 +1,2372 @@
+ 
+ 
+SGM894B 
+Voltage Detector with Delay Time Adjustable 
+ 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+JUNE2021–REV.A 
+ 
+GENERAL DESCRIPTION 
+The SGM894B is a low power consumption voltage 
+detector with high accuracy detection. The miniature 
+device offers tremendous flexibility with an adjustable 
+threshold that is available from 1V to 5V with 0.1V 
+increments. The SGM894B has an external capacitor- 
+adjustable time delay. The device is ideal for use in 
+power-supply sequencing, reset sequencing, and power- 
+switching applications. 
+Moreover, the release delay time can be adjusted by 
+the external capacitor which is connected to the CD pin. 
+Consequently, the delay time can be set to more than 
+1s when CD capacitor is 1μF. Open-drain output 
+configuration is available. 
+The SGM894B is available in Green XTDFN-0.9×1.2-4L 
+and SC70-4 (R) packages. They are specified over the 
+-40℃ to +125℃ operating temperature range. 
+ 
+ 
+APPLICATIONS 
+Microprocessor Reset Circuitry 
+Charge Voltage Monitors 
+Memory Battery Back-Up Switch Circuits 
+Power Failure Detection Circuits 
+ 
+FEATURES 
+● High Accuracy Detection: ±1% (TYP) 
+● Low Power Consumption:0.4μA (TYP) at VIN = 1V 
+● Detection Voltage Range: 1V to 5V (0.1V Increments) 
+● Operating Voltage Range: 1V to 6V 
+● Detection Voltage Temperature Coefficient: 
+±40ppm/℃ (TYP) 
+● N-Channel Open-Drain Output 
+● Built-in Delay Circuit: Adjustable Delay Time 
+● -40℃ to +125℃ Operating Temperature Range 
+● Available in Green XTDFN-0.9×1.2-4L and  
+SC70-4 (R) Packages 
+ 
+ 
+TYPICAL APPLICATION 
+VIN
+VIN
+CD
+VOUT
+GND
+CD
+RPULL
+100kΩ
+SGM894B
+ 
+ 
+Figure 1. Typical Application Circuit 
+ 
+ 
+ 
+ 
+
+ 
+ 
+SGM894B 
+Voltage Detector with Delay Time Adjustable 
+ 
+ 
+2 
+JUNE 2021 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+DETECTION 
+VOLTAGE 
+(V) 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM894B-1.0 
+1.0 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-1.0XXEJ4G/TR 
+Q0XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-1.0XC4G/TR 
+OS0XX 
+Tape and Reel, 3000 
+SGM894B-1.1 
+1.1 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-1.1XXEJ4G/TR 
+Q6XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-1.1XC4G/TR 
+OS1XX 
+Tape and Reel, 3000 
+SGM894B-1.2 
+1.2 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-1.2XXEJ4G/TR 
+R9XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-1.2XC4G/TR 
+OS2XX 
+Tape and Reel, 3000 
+SGM894B-1.3 
+1.3 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-1.3XXEJ4G/TR 
+X5XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-1.3XC4G/TR 
+OS3XX 
+Tape and Reel, 3000 
+SGM894B-1.4 
+1.4 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-1.4XXEJ4G/TR 
+S1XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-1.4XC4G/TR 
+OS4XX 
+Tape and Reel, 3000 
+SGM894B-1.5 
+1.5 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-1.5XXEJ4G/TR 
+S2XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-1.5XC4G/TR 
+OS5XX 
+Tape and Reel, 3000 
+SGM894B-1.6 
+1.6 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-1.6XXEJ4G/TR 
+S3XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-1.6XC4G/TR 
+OS6XX 
+Tape and Reel, 3000 
+SGM894B-1.7 
+1.7 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-1.7XXEJ4G/TR 
+Q1XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-1.7XC4G/TR 
+R6FXX 
+Tape and Reel, 3000 
+SGM894B-1.8 
+1.8 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-1.8XXEJ4G/TR 
+S4XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-1.8XC4G/TR 
+OS7XX 
+Tape and Reel, 3000 
+SGM894B-1.9 
+1.9 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-1.9XXEJ4G/TR 
+S5XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-1.9XC4G/TR 
+OS8XX 
+Tape and Reel, 3000 
+SGM894B-2.0 
+2.0 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-2.0XXEJ4G/TR 
+S6XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-2.0XC4G/TR 
+OS9XX 
+Tape and Reel, 3000 
+SGM894B-2.1 
+2.1 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-2.1XXEJ4G/TR 
+S7XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-2.1XC4G/TR 
+OSAXX 
+Tape and Reel, 3000 
+SGM894B-2.2 
+2.2 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-2.2XXEJ4G/TR 
+S8XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-2.2XC4G/TR 
+OSBXX 
+Tape and Reel, 3000 
+ 
+ 
+
+ 
+ 
+SGM894B 
+Voltage Detector with Delay Time Adjustable 
+ 
+ 
+3 
+JUNE 2021 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION (continued) 
+MODEL 
+DETECTION 
+VOLTAGE 
+(V) 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM894B-2.3 
+2.3 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-2.3XXEJ4G/TR 
+S9XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-2.3XC4G/TR 
+OSCXX Tape and Reel, 3000 
+SGM894B-2.4 
+2.4 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-2.4XXEJ4G/TR 
+Q2XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-2.4XC4G/TR 
+OSDXX Tape and Reel, 3000 
+SGM894B-2.5 
+2.5 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-2.5XXEJ4G/TR 
+U0XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-2.5XC4G/TR 
+OSEXX 
+Tape and Reel, 3000 
+SGM894B-2.6 
+2.6 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-2.6XXEJ4G/TR 
+U1XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-2.6XC4G/TR 
+OSFXX 
+Tape and Reel, 3000 
+SGM894B-2.7 
+2.7 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-2.7XXEJ4G/TR 
+U2XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-2.7XC4G/TR 
+OT0XX 
+Tape and Reel, 3000 
+SGM894B-2.8 
+2.8 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-2.8XXEJ4G/TR 
+U3XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-2.8XC4G/TR 
+OT1XX 
+Tape and Reel, 3000 
+SGM894B-2.9 
+2.9 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-2.9XXEJ4G/TR 
+U4XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-2.9XC4G/TR 
+OT2XX 
+Tape and Reel, 3000 
+SGM894B-3.0 
+3.0 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-3.0XXEJ4G/TR 
+Q3XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-3.0XC4G/TR 
+OT3XX 
+Tape and Reel, 3000 
+SGM894B-3.1 
+3.1 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-3.1XXEJ4G/TR 
+U5XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-3.1XC4G/TR 
+OT4XX 
+Tape and Reel, 3000 
+SGM894B-3.2 
+3.2 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-3.2XXEJ4G/TR 
+U6XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-3.2XC4G/TR 
+OT5XX 
+Tape and Reel, 3000 
+SGM894B-3.3 
+3.3 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-3.3XXEJ4G/TR 
+U7XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-3.3XC4G/TR 
+OT6XX 
+Tape and Reel, 3000 
+SGM894B-3.4 
+3.4 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-3.4XXEJ4G/TR 
+X6XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-3.4XC4G/TR 
+OT7XX 
+Tape and Reel, 3000 
+SGM894B-3.5 
+3.5 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-3.5XXEJ4G/TR 
+X7XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-3.5XC4G/TR 
+OT8XX 
+Tape and Reel, 3000 
+ 
+ 
+
+ 
+ 
+SGM894B 
+Voltage Detector with Delay Time Adjustable 
+ 
+ 
+4 
+JUNE 2021 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION (continued) 
+MODEL 
+DETECTION 
+VOLTAGE 
+(V) 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM894B-3.6 
+3.6 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-3.6XXEJ4G/TR 
+X8XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-3.6XC4G/TR 
+OT9XX 
+Tape and Reel, 3000 
+SGM894B-3.7 
+3.7 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-3.7XXEJ4G/TR 
+V1XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-3.7XC4G/TR 
+OTAXX 
+Tape and Reel, 3000 
+SGM894B-3.8 
+3.8 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-3.8XXEJ4G/TR 
+V2XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-3.8XC4G/TR 
+OTBXX 
+Tape and Reel, 3000 
+SGM894B-3.9 
+3.9 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-3.9XXEJ4G/TR 
+V3XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-3.9XC4G/TR 
+OTCXX 
+Tape and Reel, 3000 
+SGM894B-4.0 
+4.0 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-4.0XXEJ4G/TR 
+Q4XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-4.0XC4G/TR 
+OTDXX 
+Tape and Reel, 3000 
+SGM894B-4.1 
+4.1 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-4.1XXEJ4G/TR 
+V4XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-4.1XC4G/TR 
+OTEXX 
+Tape and Reel, 3000 
+SGM894B-4.2 
+4.2 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-4.2XXEJ4G/TR 
+V5XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-4.2XC4G/TR 
+OTFXX 
+Tape and Reel, 3000 
+SGM894B-4.3 
+4.3 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-4.3XXEJ4G/TR 
+V6XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-4.3XC4G/TR 
+OU0XX 
+Tape and Reel, 3000 
+SGM894B-4.4 
+4.4 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-4.4XXEJ4G/TR 
+V7XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-4.4XC4G/TR 
+OU1XX 
+Tape and Reel, 3000 
+SGM894B-4.5 
+4.5 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-4.5XXEJ4G/TR 
+V8XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-4.5XC4G/TR 
+OU2XX 
+Tape and Reel, 3000 
+SGM894B-4.6 
+4.6 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-4.6XXEJ4G/TR 
+Q5XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-4.6XC4G/TR 
+OU3XX 
+Tape and Reel, 3000 
+SGM894B-4.7 
+4.7 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-4.7XXEJ4G/TR 
+V9XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-4.7XC4G/TR 
+OU4XX 
+Tape and Reel, 3000 
+SGM894B-4.8 
+4.8 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-4.8XXEJ4G/TR 
+X0XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-4.8XC4G/TR 
+OU5XX 
+Tape and Reel, 3000 
+ 
+ 
+
+ 
+ 
+SGM894B 
+Voltage Detector with Delay Time Adjustable 
+ 
+ 
+5 
+JUNE 2021 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION (continued) 
+MODEL 
+DETECTION 
+VOLTAGE 
+(V) 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM894B-4.9 
+4.9 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-4.9XXEJ4G/TR 
+X1XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-4.9XC4G/TR 
+OU6XX 
+Tape and Reel, 3000 
+SGM894B-5.0 
+5.0 
+XTDFN-0.9×1.2-4L -40℃ to +125℃ SGM894B-5.0XXEJ4G/TR 
+L7XX 
+Tape and Reel, 3000 
+SC70-4 (R) 
+-40℃ to +125℃ 
+SGM894B-5.0XC4G/TR 
+OU7XX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XX = Date Code. 
+XTDFN-0.9×1.2-4L 
+SC70-4 (R) 
+Date Code - Year 
+Date Code - Week 
+Serial Number
+YY X X
+ 
+Date Code - Year 
+Date Code - Week 
+Serial Number
+YYY X X
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Input Voltage Range, VIN............................ GND - 0.3V to 7V 
+Output Current, IOUT ...................................................... 
+30mA 
+Output Voltage Range, VOUT ...................... GND - 0.3V to 7V 
+CD Pin Voltage Range, VCD 
+............. 
+GND - 0.3V to VIN + 0.3V 
+CD Pin Current, ICD 
+.......................................................... 
+5mA 
+Package Thermal Resistance 
+XTDFN-0.9×1.2-4L, θJA 
+............................................ 243℃/W 
+SC70-4 (R), θJA 
+........................................................ 680℃/W 
+Junction Temperature ................................................. 
++150℃ 
+Storage Temperature Range 
+........................ -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Junction Temperature Range ...... -40℃ to +125℃ 
+Operating Ambient Temperature Range....... -40℃ to +125℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+SGM894B 
+Voltage Detector with Delay Time Adjustable 
+ 
+ 
+6 
+JUNE 2021 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+ 
+(TOP VIEW) 
+  (TOP VIEW) 
+2
+3
+4
+1
+CD
+GND
+VIN
+VOUT
+ 
+VOUT
+CD
+VIN
+GND
+4
+2
+3
+1
+ 
+XTDFN-0.9×1.2-4L 
+ 
+SC70-4 (R) 
+ 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+XTDFN-0.9×1.2-4L 
+SC70-4 (R) 
+1 
+4 
+VOUT 
+Output (Detect ‘L’) Pin. 
+2 
+3 
+CD 
+Delay Capacitor Pin. 
+3 
+2 
+GND 
+Ground. 
+4 
+1 
+VIN 
+Input Pin. 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+SGM894B 
+Voltage Detector with Delay Time Adjustable 
+ 
+ 
+7 
+JUNE 2021 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(TJ = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Operating Voltage 
+VIN 
+VDET = 1V to 5V (1), TJ = -40℃ to +125℃ 
+1 
+ 
+6 
+V 
+Detection Voltage 
+VDET 
+VIN = 1V to 6V, 
+Test Circuit 1 
+TJ = +25℃ 
+E-1 
+V 
+TJ = -40℃ to +125℃ 
+E-2 
+Hysteresis Voltage 
+VHYS 
+VIN = 1V to 6V, RPULL = 100kΩ, Test Circuit 1 
+E-3 
+V 
+Detection Voltage 
+Temperature Coefficient 
+ΔVDET/ 
+(ΔTJ × VDET) 
+TJ = -40℃ to +125℃, Test Circuit 1 
+ 
+±40 
+±150 
+ppm/℃ 
+Supply Current 
+ICC 
+Test Circuit 2 
+VIN = 1V 
+ 
+0.4 
+0.7 
+μA 
+VIN = 3V 
+ 
+0.6 
+1.1 
+VIN = 6V 
+ 
+1.0 
+1.5 
+Output Current 
+IOUT 
+VDS_NCH = 0.5V, 
+Test Circuit 3 
+VIN = 1V 
+0.2 
+0.8 
+ 
+mA 
+VIN = 2V 
+9.0 
+12.0 
+ 
+VIN = 3V 
+13.0 
+17.5 
+ 
+VIN = 4V 
+15.0 
+20.5 
+ 
+VIN = 5V 
+16.0 
+22.0 
+ 
+VIN = 6V 
+16.5 
+23.0 
+ 
+Leakage Current 
+ILEAK 
+VIN = VOUT = 6V, CD: Open, Test Circuit 3 
+ 
+0.02 
+1.50 
+μA 
+Delay Resistance 
+RDELAY 
+VIN = 5V, VCD = 0V, Test Circuit 4 
+1.7 
+2.2 
+2.6 
+MΩ 
+CD Pin Sink Current 
+ICD 
+VCD = 0.5V, VIN = 1V, Test Circuit 4 
+110 
+230 
+350 
+μA 
+CD Pin Threshold Voltage 
+VTCD 
+TJ = -40℃ to +125℃, 
+Test Circuit 5 
+VIN = 2V 
+0.9 
+1.0 
+1.2 
+V 
+VIN = 6V 
+2.9 
+3.0 
+3.2 
+Detection Delay Time 
+tDET0 
+VIN = 0.9 × VDET(T) → 1.1 × VDET(T), CD: Open, 
+Test Circuit 6 
+ 
+40 
+80 
+μs 
+Release Delay Time 
+tDR0 
+VIN = 1.1 × VDET(T) → 0.9 × VDET(T), CD: Open, 
+Test Circuit 6 
+ 
+150 
+250 
+μs 
+ 
+ 
+ 
+
+ 
+ 
+SGM894B 
+Voltage Detector with Delay Time Adjustable 
+ 
+ 
+8 
+JUNE 2021 
+SG Micro Corp 
+www.sg-micro.com 
+VOLTAGE CHART 
+Symbol 
+E-1 
+E-2 
+E-3 
+Conditions 
+ 
+Nominal  
+Voltage (V) 
+TJ = +25℃ 
+TJ = -40℃ to +125℃ 
+TJ = +25℃ 
+VDET (V), 1% Accuracy 
+VDET (V), 2% Accuracy 
+VHYS (V) 
+MIN 
+MAX 
+MIN 
+MAX 
+MIN 
+TYP 
+MAX 
+1.0 
+0.990 
+1.010 
+0.980 
+1.020 
+0.030 
+0.050 
+0.070 
+1.1 
+1.089 
+1.111 
+1.078 
+1.122 
+0.033 
+0.055 
+0.077 
+1.2 
+1.188 
+1.212 
+1.176 
+1.224 
+0.036 
+0.060 
+0.084 
+1.3 
+1.287 
+1.313 
+1.274 
+1.326 
+0.039 
+0.065 
+0.091 
+1.4 
+1.386 
+1.414 
+1.372 
+1.428 
+0.042 
+0.070 
+0.098 
+1.5 
+1.485 
+1.515 
+1.470 
+1.530 
+0.045 
+0.075 
+0.105 
+1.6 
+1.584 
+1.616 
+1.568 
+1.632 
+0.048 
+0.080 
+0.112 
+1.7 
+1.683 
+1.717 
+1.666 
+1.734 
+0.051 
+0.085 
+0.119 
+1.8 
+1.782 
+1.818 
+1.764 
+1.836 
+0.054 
+0.090 
+0.126 
+1.9 
+1.881 
+1.919 
+1.862 
+1.938 
+0.057 
+0.095 
+0.133 
+2.0 
+1.980 
+2.020 
+1.960 
+2.040 
+0.060 
+0.100 
+0.140 
+2.1 
+2.079 
+2.121 
+2.058 
+2.142 
+0.064 
+0.105 
+0.146 
+2.2 
+2.178 
+2.222 
+2.156 
+2.244 
+0.067 
+0.110 
+0.153 
+2.3 
+2.277 
+2.323 
+2.254 
+2.346 
+0.070 
+0.115 
+0.160 
+2.4 
+2.376 
+2.424 
+2.352 
+2.448 
+0.073 
+0.120 
+0.167 
+2.5 
+2.475 
+2.525 
+2.450 
+2.550 
+0.076 
+0.125 
+0.174 
+2.6 
+2.574 
+2.626 
+2.548 
+2.652 
+0.079 
+0.130 
+0.181 
+2.7 
+2.673 
+2.727 
+2.646 
+2.754 
+0.082 
+0.135 
+0.188 
+2.8 
+2.772 
+2.828 
+2.744 
+2.856 
+0.085 
+0.140 
+0.195 
+2.9 
+2.871 
+2.929 
+2.842 
+2.958 
+0.088 
+0.145 
+0.202 
+3.0 
+2.970 
+3.030 
+2.940 
+3.060 
+0.091 
+0.150 
+0.209 
+3.1 
+3.069 
+3.131 
+3.038 
+3.162 
+0.094 
+0.155 
+0.216 
+3.2 
+3.168 
+3.232 
+3.136 
+3.264 
+0.097 
+0.160 
+0.223 
+3.3 
+3.267 
+3.333 
+3.234 
+3.366 
+0.100 
+0.165 
+0.230 
+3.4 
+3.366 
+3.434 
+3.332 
+3.468 
+0.103 
+0.170 
+0.237 
+3.5 
+3.465 
+3.535 
+3.430 
+3.570 
+0.106 
+0.175 
+0.244 
+3.6 
+3.564 
+3.636 
+3.528 
+3.672 
+0.109 
+0.180 
+0.251 
+3.7 
+3.663 
+3.737 
+3.626 
+3.774 
+0.112 
+0.185 
+0.258 
+3.8 
+3.762 
+3.838 
+3.724 
+3.876 
+0.115 
+0.190 
+0.265 
+3.9 
+3.861 
+3.939 
+3.822 
+3.978 
+0.118 
+0.195 
+0.272 
+4.0 
+3.960 
+4.040 
+3.920 
+4.080 
+0.121 
+0.200 
+0.279 
+4.1 
+4.059 
+4.141 
+4.018 
+4.182 
+0.124 
+0.205 
+0.286 
+4.2 
+4.158 
+4.242 
+4.116 
+4.284 
+0.127 
+0.210 
+0.293 
+4.3 
+4.257 
+4.343 
+4.214 
+4.386 
+0.130 
+0.215 
+0.300 
+4.4 
+4.356 
+4.444 
+4.312 
+4.488 
+0.133 
+0.220 
+0.307 
+4.5 
+4.455 
+4.545 
+4.410 
+4.590 
+0.136 
+0.225 
+0.314 
+4.6 
+4.554 
+4.646 
+4.508 
+4.692 
+0.139 
+0.230 
+0.321 
+4.7 
+4.653 
+4.747 
+4.606 
+4.794 
+0.142 
+0.235 
+0.328 
+4.8 
+4.752 
+4.848 
+4.704 
+4.896 
+0.145 
+0.240 
+0.335 
+4.9 
+4.851 
+4.949 
+4.802 
+4.998 
+0.148 
+0.245 
+0.342 
+5.0 
+4.950 
+5.050 
+4.900 
+5.100 
+0.151 
+0.250 
+0.349 
+ 
+ 
+ 
+
+ 
+ 
+SGM894B 
+Voltage Detector with Delay Time Adjustable 
+ 
+ 
+9 
+JUNE 2021 
+SG Micro Corp 
+www.sg-micro.com 
+TEST CIRCUITS 
+  
+VIN
+CD
+VOUT
+GND
+RPULL
+100kΩ
+SGM894B
+V
+V
+ 
+VIN
+CD
+VOUT
+GND
+SGM894B
+A
+ 
+Test Circuit 1 
+Test Circuit 2 
+ 
+ 
+VIN
+CD
+VOUT
+GND
+SGM894B
+A
+ 
+VIN
+CD
+VOUT
+GND
+SGM894B
+A
+ 
+Test Circuit 3 
+Test Circuit 4 
+ 
+ 
+ 
+VIN
+CD
+VOUT
+GND
+RPULL
+100kΩ
+SGM894B
+V
+V
+ 
+     
+VIN
+CD
+VOUT
+GND
+RPULL
+100kΩ
+SGM894B
+Waveform 
+Measurement Point
+ 
+Test Circuit 5 
+Test Circuit 6 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+SGM894B 
+Voltage Detector with Delay Time Adjustable 
+ 
+ 
+10 
+JUNE 2021 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+ 
+ 
+     Supply Current vs. Input Voltage 
+      Output Current vs. Input Voltage 
+ 
+ 
+      Output Voltage vs. Input Voltage 
+      Detection Voltage vs. Temperature 
+ 
+ 
+     Hysteresis Voltage vs. Temperature 
+      Delay Resistance vs. Temperature 
+ 
+ 
+ 
+ 
+0
+0.4
+0.8
+1.2
+1.6
+2
+0
+1
+2
+3
+4
+5
+6
+Supply Current (μA) 
+Input Voltage (V) 
+TJ = +125℃ 
+TJ = -40℃ 
+TJ = +25℃ 
+0
+5
+10
+15
+20
+25
+30
+0
+1
+2
+3
+4
+5
+6
+Output Current (mA) 
+Input Voltage (V) 
+TJ = +125℃ 
+TJ = -40℃ 
+TJ = +25℃ 
+VDS_NCH = 0.5V 
+-0.5
+0
+0.5
+1
+1.5
+2
+2.5
+0
+0.4
+0.8
+1.2
+1.6
+2
+Output Voltage (V) 
+Input Voltage (V) 
+TJ = +125℃ 
+TJ = +25℃ 
+Pull-Up = VIN, RPULL = 100kΩ 
+TJ = -40℃ 
+1.37
+1.38
+1.39
+1.40
+1.41
+1.42
+-50
+-25
+0
+25
+50
+75
+100
+125
+Detection Voltage (V) 
+Temperature (℃) 
+VIN = 6V, SGM894B-1.4 
+0.04
+0.05
+0.06
+0.07
+0.08
+0.09
+-50
+-25
+0
+25
+50
+75
+100
+125
+Hysteresis Voltage (V) 
+Temperature (℃) 
+VIN = 6V, SGM894B-1.4 
+1.00
+1.50
+2.00
+2.50
+3.00
+3.50
+-50
+-25
+0
+25
+50
+75
+100
+125
+Delay Resistance (MΩ) 
+Temperature (℃) 
+VCD = 0V, VIN = 5V 
+
+ 
+ 
+SGM894B 
+Voltage Detector with Delay Time Adjustable 
+ 
+ 
+11 
+JUNE 2021 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+      Leakage Current vs. Temperature 
+      Detection Delay Time vs. Delay Capacitance 
+ 
+ 
+     Release Delay Time vs. Delay Capacitance 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+-0.3
+-0.2
+-0.1
+0.0
+0.1
+0.2
+-50
+-25
+0
+25
+50
+75
+100
+125
+Leakage Current (μA) 
+Temperature (℃) 
+VIN = VOUT = 6V 
+0
+10
+20
+30
+40
+50
+0.0001
+0.001
+0.01
+0.1
+1
+Detection Delay Time (μs) 
+Delay Capacitor (μF) 
+VIN = 6V 
+VIN = 5V 
+VIN = 4V 
+VIN = 3V 
+VIN = 2V 
+VIN = 1V 
+0
+400
+800
+1200
+1600
+2000
+0.0001
+0.001
+0.01
+0.1
+1
+Release Delay Time (ms) 
+Delay Capacitor (μF) 
+VIN = 6V 
+VIN = 3V 
+VIN = 1V 
+
+ 
+ 
+SGM894B 
+Voltage Detector with Delay Time Adjustable 
+ 
+ 
+12 
+JUNE 2021 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAM 
+ 
+VIN
+CD
+VOUT
+GND
+R1
+RSEN = R1 + R2 + R3
+VREF
+R2
+R3
+M1
+M2
+M3
+M4
+Comparator
++
+-
+RDELAY
+Inverter
+SGM894B
+ 
+ 
+Figure 2. SGM894B Block Diagram 
+ 
+ 
+ 
+
+ 
+ 
+SGM894B 
+Voltage Detector with Delay Time Adjustable 
+ 
+ 
+13 
+JUNE 2021 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION 
+A typical circuit example is shown in Figure 3, and the timing chart of Figure 3 is shown in Figure 4. 
+ 
+VIN
+CD
+VOUT
+GND
+R1
+RSEN = R1 + R2 + R3
+VREF
+R2
+R3
+M1
+M2
+M3
+M4
+Comparator
++
+-
+RDELAY
+Inverter
+VIN
+N-channel transistor for the delay capacitance discharge
+CD (Delay Capacitor)
+RPULL
+SGM894B
+ 
+ 
+Figure 3. Typical Application Circuit Example 
+ 
+ 
+       
+Input Voltage: VIN
+Release Voltage: VDET + VHYS
+1
+2
+3
+4
+5
+6
+7
+8
+Delay Capacitance Pin Voltage: VCD
+Minimum Operating Voltage (0.8V)
+Output Pin Voltage: VOUT
+GND
+GND
+GND
+Detection Voltage: VDET
+VTLH = VTCD 
+VTHL = VTCD - VHYS(CD)
+ 
+ 
+Figure 4. The Timing Chart of Figure 3 
+ 
+ 
+
+ 
+ 
+SGM894B 
+Voltage Detector with Delay Time Adjustable 
+ 
+ 
+14 
+JUNE 2021 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+The VOUT transition, the delay capacitance (CD) charge 
+and discharge are determined by the status of power 
+supply and VIN. Figure 5 shows the timing chart. It may 
+go through eight processes, and below words are 
+shown as the description of the sequence. 
+① Default Status before VIN Falling 
+In original state, the delay capacitance is charged full 
+and reaches the power supply input voltage (VIN: 1V 
+MIN, 6V MAX). 
+The input pin is applied sufficiently high voltage (6V 
+MAX). While the input pin voltage (VIN) starts dropping 
+to reach the detection voltage (VDET) (VIN > VDET), the 
+output voltage (VOUT) keeps the high level (= VIN). 
+NOTE: If a pull-up resistor of the SGM894B is 
+connected to added power supply different from the 
+input voltage pin, the voltage where the pull-up resistor 
+is connected will be selected as high level. 
+② Triggered VDET while VIN Falling 
+When the input pin voltage goes down and becomes 
+equal to the detection voltage (VIN = VDET), an 
+N-channel transistor (M1) for the delay capacitance 
+discharge is turned on, and starts to discharge the 
+delay capacitance. 
+An inverter operates as a comparator (rising logic 
+threshold: VTLH = VTCD, falling logic threshold: VTHL = 
+VTCD - VHYS(CD)). When the CD pin voltage reaches the 
+CD pin falling logic threshold voltage (= VTCD - VHYS(CD)), 
+the inverter will be inverted, and the output voltage 
+changes into the low level (= GND). The detection 
+delay time (tDET) is defined as time which ranges from 
+VIN = VDET to the VOUT of low level (especially, when the 
+CD pin is not connected: tDET0). 
+③ VOUT Keeps Low until VIN Rises 
+The delay capacitance is discharged to the ground 
+voltage (= GND) level, when the input pin voltage 
+keeps below the detection voltage. Then, the output 
+voltage maintains the low level until the input pin 
+voltage increases again to reach the release voltage 
+(VIN < VDET + VHYS). 
+④ VIN Drops to GND 
+While the input pin voltage drops to less than 0.8V, and 
+then increases to 0.8V or higher again, the output 
+voltage may not be able to maintain the low level. Such 
+an operation is called "Unspecified Operation". 
+⑤ VIN Rising up to VDET + VHYS 
+The N-channel transistor (M1) for the delay capacitance 
+discharge will be turned off, and the delay capacitance 
+will be charged via a delay resistor (RDELAY), when the 
+input pin voltage continues to increase up to the 
+release voltage level (VIN = VDET + VHYS). 
+⑥ CD is Charged when VIN Keeps High 
+While the CD pin voltage rises to reach the rising logic 
+threshold voltage (= VTCD) with the input pin voltage 
+equal to the release voltage or higher, the CD pin will be 
+charged by the time constant of the RC series circuits. 
+Assuming the time to the release delay time (tDR), it can 
+be given by the Equation 1. 
+tDR = RDELAY × CD × 0.79         (1) 
+where RDELAY is 2.2MΩ (TYP). 
+As an example, presuming that the delay capacitance 
+is 0.68μF, tDR is: 
+2.2 × 106 × 0.68 × 10-6 × 0.79 = 1182 (ms) 
+Note that the release delay time may be remarkably 
+short when the delay capacitance is not discharged to 
+the ground (= GND) level because time described in ③ 
+and ④ is short. 
+⑦ VOUT Goes High when CD is Charged Full 
+When the delay capacitance pin voltage reaches the 
+delay capacitance pin rising logic threshold voltage (= 
+VTCD), the inverter will be inverted. As a result, the 
+output voltage changes into the high (= VIN) level. The 
+release delay time (tDR0) is defined as time which 
+ranges from VIN = VDET + VHYS to the VOUT of high level 
+with unconnected CD pin. 
+⑧ VOUT Keeps High when VIN > VDET 
+The CD pin is charged until the CD pin voltage becomes 
+the input voltage level, when the input pin voltage is 
+higher than the detection voltage (VIN > VDET). 
+Therefore, the output voltage maintains the high (= VIN) 
+level. 
+ 
+ 
+ 
+
+ 
+ 
+SGM894B 
+Voltage Detector with Delay Time Adjustable 
+ 
+ 
+15 
+JUNE 2021 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+The VOUT status is determined by the VIN and VCD. A 
+summary table of transitions about VOUT is shown 
+below. 
+ 
+Table 1. Function Chart 
+VIN 
+VCD 
+Transition of VOUT Condition (1) 
+① 
+⇒ 
+② 
+L 
+L 
+L 
+⇒ 
+L 
+H 
+L 
+H 
+H 
+H 
+L 
+L 
+⇒ 
+L 
+H 
+⇒ 
+H 
+L 
+H 
+⇒ 
+H 
+ 
+NOTE: 
+1. VOUT transits from condition ① to ② because of the 
+combination of VCD and VIN. VIN should exceed the 
+lowest operation voltage. 
+Examples: 
+1. VOUT ranges from ‘L’ to ‘H’ in the case of VIN = ‘H’ (VIN 
+≥ VDET + VHYS), VCD = ‘H’ (VCD ≥ VTCD) while VOUT is ‘L’. 
+2. VOUT maintains ‘H’ when VCD ranges from ‘H’ to ‘L’ 
+(VCD ≤ VTCD - VHYS(CD)), VIN = ‘H’ and VCD = ‘L’ when VOUT 
+becomes ‘H’ in ex.1. 
+The release delay time is adjustable by the external 
+capacitor which is connected to CD. The tDR values for 
+common ideal capacitors are shown below. 
+Table 2. Release Delay Time Chart (1) (2) 
+Delay Capacitance  
+(CD) (μF) 
+Release Delay Time  
+(tDR) (TYP) (ms) 
+0.010 
+17.4 
+0.022 
+38.2 
+0.047 
+81.7 
+0.100 
+174 
+0.220 
+382 
+0.470 
+817 
+1.000 
+1740 
+ 
+NOTES: 
+1. The release delay time values above are calculated 
+by the Equation 1. 
+2. The release delay time is influenced by the delay 
+capacitance. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+SGM894B 
+Voltage Detector with Delay Time Adjustable 
+ 
+ 
+16 
+JUNE 2021 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+1. Do not exceed the absolute conditions, and use this 
+IC within the stated maximum ratings. For temporary 
+transitional voltage drop or voltage rising phenomenon, 
+the IC may fail if the rated value is exceeded. 
+2. Note that a very noisy voltage implementing at the 
+input voltage pin may cause a wrong operation. It is 
+recommended to connect a decouple capacitor as 
+close as possible to the input voltage pin to alleviate 
+this phenomenon. Sometimes, users will mount a 
+resistor between the power supply and the VIN pin. 
+This resistor and the decouple capacitor build a low 
+pass filter which filters the noise of the input voltage. In 
+this case, the IC operation current generates a voltage 
+drop through the series resistor. If the input pin voltage 
+falls below the minimum operating voltage range, the 
+operation may be wrong. Oscillation of the circuit may 
+occur if the voltage drop exceeds the hysteresis 
+voltage. 
+3. When there is a possibility that the input pin voltage 
+falls rapidly (e.g.: 6V to 0V) with the delay capacitor pin 
+connected to a capacitor, use a Schottky diode 
+connected between the VIN pin and the CD pin as the 
+Figure 5 shown below. 
+4. In N-channel open-drain output product, VOUT voltage 
+level is determined by resistance of a pull-up resistor 
+connected at the VOUT pin. Please choose proper 
+resistance values with reference to Figure 6. 
+During detection, the formula is given as:  
+VOUT = VPULL/(1 + RPULL/RON)        (2) 
+where: 
+VPULL is the pull-up voltage. 
+RON (1) is the on-resistance of N-channel driver M3 that 
+can be calculated as VDS_NCH/IOUT from electrical 
+characteristics. 
+For example, when RON (2) = 0.5/0.8 × 10-3 = 625Ω (MIN) 
+at VIN = 1V, VPULL = 3V and VOUT ≤ 0.1V at detection, 
+RPULL can be calculated as follows: 
+RPULL = (VPULL/VOUT - 1) × RON = (3/0.1 - 1) × 625 ≈ 18kΩ 
+In this case, RPULL should be selected higher or equal to 
+18kΩ in order to keep the output voltage less than 0.1V 
+during detection. 
+NOTES: 
+1. RON is bigger when VIN is smaller. 
+2. For calculation, minimum VIN should be chosen among 
+the input voltage range. 
+During releasing, the formula is given as: 
+VOUT = VPULL/(1 + RPULL/ROFF)         (3) 
+where: 
+VPULL is the pull-up voltage. 
+ROFF is the off-resistance of N-channel driver M3 that is 
+15MΩ (MIN) when the driver is off (as to VOUT/ILEAK). 
+For example, when VPULL = 6V and VOUT ≥ 5.99V, RPULL 
+can be calculated as follows: 
+RPULL = (VPULL/VOUT - 1) × ROFF = (6/5.99 - 1) × 15 × 106 ≈ 25kΩ 
+It is recommended to select the RPULL smaller or equal 
+to 25kΩ so that the output voltage can be higher than 
+5.99V during releasing. 
+6. SGMICRO attaches importance to improving the 
+products and their reliability. We require users to 
+incorporate fail-safe designs and post-aging protection 
+treatment in their systems. 
+ 
+    
+VIN
+CD
+VOUT
+GND
+RPULL
+100kΩ
+SGM894B
+VOUT
+CD
+VIN
+SBD
+ 
+Figure 5. Circuit Example with the Delay Capacitor Pin 
+(CD) Connected to a Schottky Barrier Diode 
+ 
+ 
+ 
+ 
+
+ 
+ 
+SGM894B 
+Voltage Detector with Delay Time Adjustable 
+ 
+ 
+17 
+JUNE 2021 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+VIN
+RPULL
+VPULL
+VIN
+CD
+VOUT
+GND
+R1
+RSEN = R1 + R2 + R3
+VREF
+R2
+R3
+M1
+M2
+M3
+M4
+Comparator
++
+-
+RDELAY
+Inverter
+ILEAK
+SGM894B
+ 
+NOTE: ROFF = VOUT/ILEAK. 
+ 
+Figure 6. Circuit Example of the SGM894B 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+Changes from Original (JUNE 2021) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00205.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+XTDFN-0.9×1.2-4L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.350 
+- 
+0.400 
+A1 
+0.000 
+- 
+0.050 
+A2 
+0.127 REF 
+D 
+0.850 
+0.900 
+0.950 
+E 
+1.150 
+1.200 
+1.250 
+b 
+0.150 
+0.200 
+0.250 
+e 
+0.550 BSC 
+L 
+0.375 
+0.425 
+0.475 
+L1 
+0.050 REF 
+k 
+0.250 REF 
+ 
+NOTE: This drawing is subject to change without notice. 
+ 
+ 
+ 
+ 
+TOP VIEW
+BOTTOM VIEW
+RECOMMENDED LAND PATTERN (Unit: mm)
+A1
+SIDE VIEW
+A
+PIN 1#
+e
+E
+N4
+b
+0.425
+0.55
+0.20
+L1
+N1
+k
+L
+A2
+0.25
+1.10
+D
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00042.001 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SC70-4 (R) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.900 
+1.100 
+0.035 
+0.043 
+A1 
+0.000 
+0.100 
+0.000 
+0.004 
+A2 
+0.900 
+1.000 
+0.035 
+0.039 
+b 
+0.250 
+0.400 
+0.010 
+0.016 
+b1 
+0.350 
+0.500 
+0.014 
+0.020 
+c 
+0.080 
+0.150 
+0.003 
+0.006 
+d 
+0.050TYP 
+0.002TYP 
+D 
+2.000 
+2.200 
+0.079 
+0.087 
+E 
+1.150 
+1.350 
+0.045 
+0.053 
+E1 
+2.150 
+2.450 
+0.085 
+0.096 
+e 
+0.65 TYP 
+0.026 TYP 
+e1 
+1.200 
+1.400 
+0.047 
+0.055 
+L 
+0.525 REF 
+0.021 REF 
+L1 
+0.260 
+0.460 
+0.010 
+0.018 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+ 
+ 
+E1
+E
+D
+A
+A2
+A1
+L
+c
+θ
+0.20
+L1
+e1
+e
+b
+d
+b1
+0.05
+0.55
+0.45
+0.75
+0.65
+1.9
+RECOMMENDED LAND PATTERN (Unit: mm)
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+XTDFN-0.9×1.2-4L 
+7″ 
+8.6 
+1.02 
+1.52 
+0.50 
+4.0 
+4.0 
+2.0 
+8.0 
+Q2 
+SC70-4 (R) 
+7″ 
+9.5 
+3.20 
+2.80 
+1.30 
+4.0 
+4.0 
+2.0 
+8.0 
+Q3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 

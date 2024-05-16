@@ -1,0 +1,2068 @@
+ 
+SGM48211 
+120V Boot, 4A Peak, High Frequency 
+High-side and Low-side Driver 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+APRIL 2024 – REV. A. 2 
+ 
+GENERAL DESCRIPTION 
+The SGM48211 is a half-bridge MOSFET driver with 
+4A peak source and sink output current capability, 
+which makes it possible to drive large power MOSFETs 
+with minimized switching losses. The two channels of 
+high-side and low-side are totally independent with 3ns 
+(TYP) delay matching between the turn-on and turn-off 
+of each other. 
+The maximum withstanding voltage of the input stage 
+of SMG48211 is 20V. Due to the -10VDC voltage 
+endurance capacity of its input stage, the driver has 
+enhanced robustness and can be interfaced to pulse 
+transformers directly without using rectifier diodes. With 
+a wide input hysteresis, the device can receive analog 
+or digital PWM signals with improved noise immunity. 
+A 120V rated bootstrap diode is integrated internally to 
+save the external diode and reduce PCB dimension 
+size. 
+Under-voltage lockout (UVLO) is integrated in both the 
+high-side and the low-side drivers. The output of each 
+channel is forced low if the corresponding driving 
+voltage falls below the specified threshold. 
+The SGM48211 is available in Green SOIC-8, SOIC-8 
+(Exposed Pad) and TDFN-4×4-8AL packages. 
+FEATURES 
+● Wide Operating Range: 8V to 17V 
+● Drive Two N-MOSFETs Configured in Half Bridge 
+● Maximum Blocking Voltage: 120V DC 
+● Integrated Internal Bootstrap Diode for Cost 
+Saving 
+● 4A Peak Sink and Source Currents 
+● -10V to 20V Tolerance of Input Pins 
+● COMS/TTL Compatible Inputs 
+● 6.5ns (TYP) Rise Time and 4.5ns (TYP) Fall Time 
+with 1000pF Load 
+● Propagation Delay Time: 31ns (TYP) 
+● Delay Matching: 3ns (TYP) 
+● UVLO Functions for Both High-side and Low-side 
+Drivers 
+● -40℃ to +140℃ Operating Junction Temperature 
+Range 
+● Available in Green SOIC-8, SOIC-8 (Exposed Pad) 
+and TDFN-4×4-8AL Packages 
+ 
+APPLICATIONS 
+Power Converters in 48V or Lower Systems Used in 
+Telecom, Datacom, Portable Storage, etc. 
+Half-Bridge, Full-Bridge, Push-Pull, Synchronous-Buck 
+and Forward Converters 
+Synchronous Rectifiers 
+Class-D Audio Amplifiers 
+ 
+ 
+ 
+ 
+
+120V Boot, 4A Peak, High Frequency 
+SGM48211 
+High-side and Low-side Driver 
+ 
+ 
+2 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM48211 
+SOIC-8 
+-40℃ to +140℃ 
+SGM48211XS8G/TR 
+SGM 
+48211XS8 
+XXXXX 
+Tape and Reel, 4000 
+SOIC-8 (Exposed Pad) 
+-40℃ to +140℃ 
+SGM48211XPS8G/TR 
+SGM 
+48211XPS8 
+XXXXX 
+Tape and Reel, 4000 
+TDFN-4×4-8AL 
+-40℃ to +140℃ 
+SGM48211XTGW8G/TR 
+SGM48211 
+XTGW8 
+XXXXX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code. 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Supply Voltage Range, VDD (1), VHB - VHS 
+........... -0.3V to 20V 
+Input Voltages on LI and HI, VLI, VHI ................... -10V to 20V 
+LO Output Voltage, VLO ...........................-0.3V to VDD + 0.3V 
+HO Output Voltage, VHO................... VHS - 0.3V to VHB + 0.3V 
+HS Voltage, VHS 
+DC 
+................................................................... -1V to 115V 
+Repetitive Pulse < 100ns ................... -(24V - VDD) to 115V 
+HB Voltage, VHB 
+............................................... -0.3V to 120V 
+Package Thermal Resistance 
+SOIC-8, θJA ........................................................ 104.9℃/W 
+SOIC-8, θJB .......................................................... 50.7℃/W 
+SOIC-8, θJC .......................................................... 49.4℃/W 
+SOIC-8 (Exposed Pad), θJA.................................. 37.9℃/W 
+SOIC-8 (Exposed Pad), θJB.................................. 14.2℃/W 
+SOIC-8 (Exposed Pad), θJC (TOP) .......................... 59.3℃/W 
+SOIC-8 (Exposed Pad), θJC (BOT) ............................ 4.3℃/W 
+TDFN-4×4-8AL, θJA 
+.............................................. 32.6℃/W 
+TDFN-4×4-8AL, θJB 
+.............................................. 11.5℃/W 
+TDFN-4×4-8AL, θJC (TOP)....................................... 33.9℃/W 
+TDFN-4×4-8AL, θJC (BOT) ........................................ 2.8℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+2000V 
+CDM ............................................................................ 
+1000V 
+ 
+NOTE: 
+1. All voltages are with reference to VSS. Positive and 
+negative currents are defined by flowing into and out of the 
+specified terminal respectively. 
+RECOMMENDED OPERATING CONDITIONS 
+Supply Voltage Range, VDD, VHB - VHS ................... 8V to 17V 
+HS Voltage, VHS .................................................. 
+-1V to 105V 
+HB Voltage, VHB ..................................VHS + 8V to VHS + 17V 
+HB Voltage, VHB .......................................... VDD - 1V to 110V 
+HS Voltage Slew Rate 
+........................................50V/ns (MAX) 
+Operating Junction Temperature Range ..... -40℃ to +140℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+
+120V Boot, 4A Peak, High Frequency 
+SGM48211 
+High-side and Low-side Driver 
+ 
+ 
+3 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+(TOP VIEW) 
+(TOP VIEW) 
+1
+4
+3
+2
+8
+5
+6
+7
+HB
+HO
+HI
+LO
+VDD
+HS
+LI
+VSS
+ 
+1
+4
+3
+2
+8
+5
+6
+7
+HB
+HO
+HI
+LO
+VDD
+HS
+LI
+VSS
+EP
+ 
+SOIC-8 
+SOIC-8 (Exposed Pad) 
+ 
+ 
+ 
+ 
+(TOP VIEW) 
+ 
+8
+5
+6
+7
+VSS
+HI
+HB
+HO
+HS
+VDD
+LO
+LI
+1
+4
+3
+2
+EP
+ 
+ 
+TDFN-4×4-8AL 
+ 
+ 
+ 
+ 
+
+120V Boot, 4A Peak, High Frequency 
+SGM48211 
+High-side and Low-side Driver 
+ 
+ 
+4 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+PIN DESCRIPTION 
+PIN 
+NAME 
+I/O (1) 
+FUNCTION 
+1 
+VDD 
+P 
+Positive Supply of the Whole Driver. A decoupling capacitor in the range of 0.22µF to 4.7µF is 
+connected between VDD and VSS pins. (2) 
+2 
+HB 
+P 
+High-side Bootstrap Supply. A bootstrap capacitor in the range of 0.022µF to 0.1µF is 
+connected between HB and HS pins. The capacitor value varies with total gate charge of 
+external MOSFET, the switching speed, as well as the voltage ripple criteria. 
+3 
+HO 
+O 
+Output of the High-side Driver. Connect this pin to the gate of the high-side MOSFET. 
+4 
+HS 
+P 
+Reference Ground of the High-side Output Stage. Tie this pin directly to the source of external 
+high-side power MOSFET. 
+5 
+HI 
+I 
+Input of the High-side Driver. (3) 
+6 
+LI 
+I 
+Input of the Low-side Driver. (3) 
+7 
+VSS 
+G 
+Reference Ground of the Device. 
+8 
+LO 
+O 
+Output of the Low-side Driver. Connect this pin to the gate of the low-side MOSFET. 
+Exposed 
+Pad (4) 
+— 
+— 
+Thermal Pad. Connect directly to VSS with a large wide trace or polygon copper to achieve 
+improved thermal conduction. 
+ 
+NOTES: 
+1. P: power supply, I: input, O: output, G: ground. 
+2. It is recommended to use the upper capacitance range for low temperature consideration. 
+3. Capacitors with typical value of 1nF to 10nF are recommended to be placed between HI/LI and VSS pins, which will be a great 
+help to filter noise presented on these pins. 
+4. The exposed pad is internally connected to the substrate for thermal conduction and should be connected to the ground 
+outside. 
+ 
+ 
+
+120V Boot, 4A Peak, High Frequency 
+SGM48211 
+High-side and Low-side Driver 
+ 
+ 
+5 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL APPLICATION CIRCUIT 
+SGM48211
+HI
+LI
+VSS
+HO
+HB
+HS
+LO
+VDD
+PWM
+Controller
+Secondary
+Side
+Circuit
+100V
+Isolation
+and
+Feedback
+12V
+Option
+Option
+ 
+ 
+Figure 1. Typical Application Diagram 
+ 
+The capacitance value of the bootstrap capacitor is 
+recommended to be less than 680nF to prevent 
+excessive transient current breakdown of the bootstrap 
+diode when charging the bootstrap capacitor. 
+If the QG of the power transistor is particularly large and 
+requires a capacitor greater than 680nF, a resistor can 
+be directly connected in series with bootstrap capacitor 
+at the HB pin to reduce the transient current. A 1Ω to 
+2Ω series resistance is recommended. It is also 
+important to note that this series resistance also 
+increases the total turn-on resistance. 
+A Schottky diode is recommended to clamp the HS 
+voltage slightly lower than VSS during large di/dt as 
+shown in the dashed box in Figure 1. Connect the 
+diode between HS pin and VSS pin directly and tie the 
+cathode of the diode to HS pin. Its minimum blocking 
+voltage should be larger than the maximum positive 
+voltage of the half bridge. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+120V Boot, 4A Peak, High Frequency 
+SGM48211 
+High-side and Low-side Driver 
+ 
+ 
+6 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VDD = VHB = 12V, VHS = VSS = 0V, no load on LO or HO, TJ = -40℃ to +140℃, typical values are at TJ = +25℃, unless otherwise 
+noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Supply Currents 
+VDD Quiescent Current 
+IDD 
+VLI = VHI = 0V 
+0.08 
+0.13 
+0.2 
+mA 
+VDD Operating Current 
+IDDO 
+f = 500kHz, CLOAD = 0 
+0.2 
+1.25 
+2.3 
+mA 
+Boot Voltage Quiescent Current 
+IHB 
+VLI = VHI = 0V 
+0.06 
+0.1 
+0.14 
+mA 
+Boot Voltage Operating Current 
+IHBO 
+f = 500kHz, CLOAD = 0 
+0.5 
+0.9 
+1.2 
+mA 
+HB to VSS Quiescent Current 
+IHBS 
+VHS = VHB = 110V 
+ 
+14 
+45 
+µA 
+HB to VSS Operating Current 
+IHBSO 
+f = 500kHz, CLOAD = 0 
+ 
+0.43 
+0.8 
+mA 
+Input 
+Input Voltage Threshold 
+VIH 
+ 
+1.9 
+2.25 
+2.6 
+V 
+Input Voltage Threshold 
+VIL 
+ 
+1.3 
+1.55 
+1.8 
+V 
+Input Voltage Hysteresis 
+VIHYS 
+ 
+ 
+0.7 
+ 
+V 
+Input Pull-Down Resistance 
+RIN 
+ 
+ 
+68 
+ 
+kΩ 
+Under-Voltage Lockout (UVLO) 
+VDD Turn-On Threshold 
+VDDR 
+ 
+6.2 
+7 
+7.8 
+V 
+Hysteresis 
+VDDHYS 
+ 
+ 
+0.5 
+ 
+V 
+VHB Turn-On Threshold 
+VHBR 
+ 
+5.2 
+6.4 
+7.6 
+V 
+Hysteresis 
+VHBHYS 
+ 
+ 
+1 
+ 
+V 
+Bootstrap Diode 
+Low-Current Forward Voltage 
+VF 
+IVDD-HB = 100µA 
+ 
+0.65 
+0.9 
+V 
+High-Current Forward Voltage 
+VFI 
+IVDD-HB = 100mA 
+ 
+0.95 
+1.2 
+V 
+Dynamic Resistance, ΔVF/ΔI 
+RD 
+IVDD-HB = 100mA and 80mA 
+0.5 
+0.9 
+1.5 
+Ω 
+LO Gate Driver 
+Low Level Output Voltage 
+VOLL 
+ILO = 100mA 
+0.02 
+0.06 
+0.12 
+V 
+High Level Output Voltage 
+VOHL 
+ILO = -100mA, VOHL = VDD - VLO 
+0.04 
+0.1 
+0.18 
+V 
+Peak Pull-Up Current 
+IOHL 
+VLO = 0V 
+ 
+4 
+ 
+A 
+Peak Pull-Down Current 
+IOLL 
+VLO = 12V 
+ 
+5 
+ 
+A 
+HO Gate Driver 
+Low Level Output Voltage 
+VOLH 
+IHO = 100mA 
+0.02 
+0.06 
+0.12 
+V 
+High Level Output Voltage 
+VOHH 
+IHO = -100mA, VOHH = VHB - VHO 
+0.04 
+0.1 
+0.18 
+V 
+Peak Pull-Up Current 
+IOHH 
+VHO = 0V 
+ 
+3.7 
+ 
+A 
+Peak Pull-Down Current 
+IOLH 
+VHO = 12V 
+ 
+4.6 
+ 
+A 
+ 
+ 
+ 
+
+120V Boot, 4A Peak, High Frequency 
+SGM48211 
+High-side and Low-side Driver 
+ 
+ 
+7 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+SWITCHING CHARACTERISTICS 
+(VDD = 12V, VHB - VHS = 12V, TJ = -40℃ to +140℃, typical values are at TJ = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN (2) 
+TYP 
+MAX (2) 
+UNITS 
+Propagation Delays 
+VLI Falling to VLO Falling 
+tDLFF 
+CLOAD = 0 
+18 
+28 
+42 
+ns 
+VHI Falling to VHO Falling 
+tDHFF 
+18 
+28 
+42 
+ns 
+VLI Rising to VLO Rising 
+tDLRR 
+18 
+31 
+47 
+ns 
+VHI Rising to VHO Rising 
+tDHRR 
+18 
+31 
+47 
+ns 
+Delay Matching 
+From HO Off to LO On 
+tMON 
+ 
+ 
+3 
+10 
+ns 
+From LO Off to HO On 
+tMOFF 
+ 
+ 
+3 
+10 
+ns 
+Output Rise and Fall Time 
+LO Rise Time 
+tR 
+CLOAD = 1nF, from 10% to 90% 
+ 
+6.5 
+12 
+ns 
+HO Rise Time 
+tR 
+ 
+6.5 
+12 
+ns 
+LO Fall Time 
+tF 
+CLOAD = 1nF, from 90% to 10% 
+ 
+4.5 
+7.5 
+ns 
+HO Fall Time 
+tF 
+ 
+4.5 
+7.5 
+ns 
+LO 
+tR 
+CLOAD = 0.1μF, (3V to 9V) 
+ 
+235 
+365 
+ns 
+HO 
+tR 
+ 
+235 
+365 
+ns 
+LO 
+tF 
+CLOAD = 0.1μF, (9V to 3V) 
+ 
+170 
+265 
+ns 
+HO 
+tF 
+ 
+170 
+265 
+ns 
+Miscellaneous 
+Minimum Input Pulse Width that 
+Changes the Output (1) 
+tMIN 
+ 
+ 
+ 
+33 
+ns 
+ 
+NOTES: 
+1. Ensure that the minimum pulse width of the input is greater than 33ns and configure enough dead time to prevent high-side 
+and low-side transistor pass-through. 
+2. Specified by design and characterization, not production tested. 
+ 
+Input
+(HI, LI)
+Output
+(HO, LO)
+tDLRR, tDHRR
+tDLFF, tDHFF
+LI
+HI
+LO
+HO
+tMON
+tMOFF
+ 
+ 
+Figure 2. Timing Diagram 
+ 
+ 
+ 
+
+120V Boot, 4A Peak, High Frequency 
+SGM48211 
+High-side and Low-side Driver 
+ 
+ 
+8 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+ 
+ 
+     VDD Operating Current vs. Frequency 
+Boot Voltage Operating Current vs. Frequency (HB to HS) 
+ 
+ 
+     Quiescent Current vs. Supply Voltage 
+     Propagation Delays vs. Supply Voltage 
+ 
+ 
+    HI Input Threshold Voltage vs. Supply Voltage 
+    LI Input Threshold Voltage vs. Supply Voltage 
+ 
+ 
+ 
+ 
+0.001
+0.01
+0.1
+1
+10
+100
+10
+100
+1000
+VDD Operating Current (mA) 
+Frequency (kHz) 
+VDD = 12V 
+— CL = 0pF, T = -40℃        — CL = 1000pF, T = +140℃ 
+— CL = 0pF, T = +25℃       — CL = 4700pF, T = -40℃ 
+— CL = 0pF, T = +140℃     — CL = 4700pF, T = +25℃ 
+— CL = 1000pF, T = -40℃  — CL = 4700pF, T = +140℃ 
+— CL = 1000pF, T = +25℃ 
+0.001
+0.01
+0.1
+1
+10
+100
+10
+100
+1000
+Boot Voltage Operating Current (mA) 
+Frequency (kHz) 
+VHB - VHS = 12V 
+— CL = 0pF, T = -40℃        — CL = 1000pF, T = +140℃ 
+— CL = 0pF, T = +25℃       — CL = 4700pF, T = -40℃ 
+— CL = 0pF, T = +140℃     — CL = 4700pF, T = +25℃ 
+— CL = 1000pF, T = -40℃  — CL = 4700pF, T = +140℃ 
+— CL = 1000pF, T = +25℃ 
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+Quiescent Current (µA) 
+Supply Voltage (V) 
+T = +25℃, VDD = VHB 
+IHB 
+IDD 
+10
+15
+20
+25
+30
+35
+8
+10
+12
+14
+16
+18
+20
+Propagation Delay (ns) 
+Supply Voltage (V) 
+— tDLRR 
+— tDLFF 
+— tDHRR 
+— tDHFF 
+T = +25℃, VDD = VHB 
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+8
+10
+12
+14
+16
+18
+20
+HI Input Theshold Voltage (V) 
+Supply Voltage (V) 
+T = +25℃ 
+VIL_HI 
+VIH_HI 
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+8
+10
+12
+14
+16
+18
+20
+LI Input Theshold Voltage (V) 
+Supply Voltage (V) 
+T = +25℃ 
+VIL_LI 
+VIH_LI 
+
+120V Boot, 4A Peak, High Frequency 
+SGM48211 
+High-side and Low-side Driver 
+ 
+ 
+9 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+    Output Current vs. Output Voltage 
+    Diode Current vs. Diode Voltage 
+ 
+ 
+    HI Input Threshold Voltage vs. Temperature 
+    LI Input Threshold Voltage vs. Temperature 
+ 
+ 
+    UVLO Threshold Voltage vs. Temperature 
+    UVLO Hysteresis vs. Temperature 
+ 
+ 
+ 
+ 
+0
+1
+2
+3
+4
+5
+6
+0
+2
+4
+6
+8
+10
+12
+Output Current (A) 
+Output Voltage (V) 
+VDD = VHB = 12V 
+Pull-Up Current 
+Pull-Down Current 
+0.001
+0.01
+0.1
+1
+10
+100
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+Diode Current (mA) 
+Diode Voltage (V) 
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+HI Input Theshold Voltage (V) 
+Temperature (℃) 
+VDD = 12V 
+VIL_HI 
+VIH_HI 
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+LI Input Theshold Voltage (V) 
+Temperature (℃) 
+VDD = 12V 
+VIL_LI 
+VIH_LI 
+5.0
+5.5
+6.0
+6.5
+7.0
+7.5
+8.0
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+UVLO Threshold Voltage (V) 
+Temperature (℃) 
+VDD Rising Threshold 
+HB Rising Threshold 
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+UVLO Hysteresis (V) 
+Temperature (℃) 
+VDD UVLO Hysteresis 
+HB UVLO Hysteresis 
+
+120V Boot, 4A Peak, High Frequency 
+SGM48211 
+High-side and Low-side Driver 
+ 
+ 
+10 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+    LO and HO High-Level Output Voltage vs. Temperature 
+    LO and HO Low-Level Output Voltage vs. Temperature 
+ 
+ 
+     Propagation Delay vs. Temperature 
+    Delay Matching vs. Temperature 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+0.04
+0.06
+0.08
+0.10
+0.12
+0.14
+0.16
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+VOH (V) 
+Temperature (℃) 
+IHO = ILO = -100mA 
+— VDD = VHB = 8V 
+— VDD = VHB = 12V 
+— VDD = VHB = 17V 
+— VDD = VHB = 20V 
+0.03
+0.04
+0.05
+0.06
+0.07
+0.08
+0.09
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+VOL (V) 
+Temperature (℃) 
+IHO = ILO = 100mA 
+— VDD = VHB = 8V 
+— VDD = VHB = 12V 
+— VDD = VHB = 17V 
+— VDD = VHB = 20V 
+10
+15
+20
+25
+30
+35
+40
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Propagation Delay (ns) 
+Temperature (℃) 
+VDD = VHB = 12V 
+— tDLRR 
+— tDLFF 
+— tDHRR 
+— tDHFF 
+0
+1
+2
+3
+4
+5
+6
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Delay Matching (ns) 
+Temperature (℃) 
+VDD = VHB = 12V 
+tMON 
+tMOFF 
+
+120V Boot, 4A Peak, High Frequency 
+SGM48211 
+High-side and Low-side Driver 
+ 
+ 
+11 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAM 
+HS_LDO
+HS_UVLO
+HS
+HO
+HB
+VSS
+LO
+VDD
+OTP
+Logic & 
+Deadtime 
+Control
+LS_LDO
+High Speed
+Level Shift
+LS_UVLO
+Logic & 
+Deadtime 
+Control
+Bandgap
+High Speed
+Level Shift
+3
+4
+1
+8
+5
+HI
+VDD
+Delay 
+Matching
+Delay 
+Matching
+6
+LI
+2
+7
+ 
+Figure 3. Functional Block Diagram 
+ 
+ 
+ 
+
+120V Boot, 4A Peak, High Frequency 
+SGM48211 
+High-side and Low-side Driver 
+ 
+ 
+12 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION 
+The SGM48211 is a high-side and low-side gate driver 
+and is designed to drive two switches in a half-bridge 
+configuration. 
+Highlights of the SGM48211 are listed in Table 1. Due 
+to the combination of these features, the device can 
+operate with high frequency and robustness. 
+ 
+Table 1. Prominent Features and Benefits 
+Feature 
+Benefit 
+4A peak source and sink current. 
+To drive large power MOSFET and minimum switching losses. 
+Wide input withstanding voltage range of -10V to 20V VDC. 
+High robustness and reliability. Can be used in various 
+applications. 
+120V internal bootstrap diode. 
+Large margin to meet telecom 100V surge requirements and 
+reduce system cost. 
+Robust ESD circuitry. 
+Improved immunity to Common Mode (CM) and Differential 
+Mode (DM) noises. 
+31ns (TYP) propagation delay. 
+Low current distortion. 
+3ns (TYP) delay matching between channels. 
+Better Symmetry of Positive and Negative waveform. 
+Both high-side and low-side drivers feature UVLO circuit. 
+Ensures two channels shutdown simultaneously. 
+CMOS/TTL optimized thresholds with wide voltage hysteresis. Improved noise immunity. 
+ 
+Input Stage 
+The input of each channel is designed with 68kΩ input 
+impedance (internal pull-down to VSS). The input stages 
+of the SGM48211 are CMOS/TTL compatible and 
+designed with 2.25V logic high and 1.55V logic low 
+thresholds, 68kΩ equivalent input impedance. A 68kΩ 
+pull-down resistor is integrated internally in each 
+channel. 
+ 
+Output Stage 
+Both output stages of the two drivers are designed to 
+source and sink 4A peak current. Thus it allows for 
+driving MOSFETs with high current capability and low 
+switching losses. VSS is the reference ground of the 
+low-side output stage and HS is the reference ground 
+of the high-side output stage. 
+ 
+Under-Voltage Lockout (UVLO) 
+UVLO protections are implemented in both bias 
+supplies of the high-side and low-side drivers. Once 
+triggered, the VDD UVLO disables both drivers while the 
+VHB UVLO only disables the high-side driver. The rising 
+UVLO thresholds of VDD and VHB are 7V with 0.5V 
+hysteresis and 6.4V with 1V hysteresis respectively. 
+ 
+Level Shift 
+A level shift circuit is integrated to shift the input signal 
+to the output stage of the high-side driver and provides 
+the minimum delay matching with the low-side driver. 
+ 
+Bootstrap Diode 
+A 120V rated bootstrap diode is internally connected 
+between VDD and HB pins of the SGM48211 for 
+generating the high-side bias. During turn-on of the 
+low-side MOSFET in each cycle, the capacitor 
+connected between the HB and HS pins is charged 
+from VDD to HS through the bootstrap diode which 
+provides fast recovery time and low diode resistance 
+for efficient operation. 
+ 
+Device Functional Modes 
+When the SGM48211 operates in normal mode 
+(inactive UVLO), the outputs (HO and LO) of both 
+drivers follow their corresponding input signals (HI and LI) 
+as listed in Table 2. 
+ 
+Table 2. Device Logic Table 
+HI Pin 
+LI Pin 
+HO Pin (1) 
+LO Pin (2) 
+L 
+L 
+L 
+L 
+L 
+H 
+L 
+H 
+H 
+L 
+H 
+L 
+H 
+H 
+H 
+H 
+ 
+NOTES: 
+1. With reference to HS. 
+2. With reference to VSS. 
+ 
+ 
+ 
+ 
+
+120V Boot, 4A Peak, High Frequency 
+SGM48211 
+High-side and Low-side Driver 
+ 
+ 
+13 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+The SGM48211 implements both the level-shifting and 
+buffer-drive functions to boost the 3.3V signal to the 
+gate-drive voltage to fully turn on the power device for 
+achieving high-frequency switching, minimizing noise 
+and controlling floating power-device gates and 
+reducing power losses. 
+The SGM48211 is designed with low propagation 
+delays and adopts low-inductance and compact 
+package. It is available to drive wide band-gap power 
+device such as GaN based switches for supporting very 
+high switching frequency and low-cost component 
+count. 
+Design Requirements 
+Table 3. Design Specifications 
+Design Parameter 
+Example Value 
+Supply Voltage, VDD 
+12V 
+Voltage on HS, VHS 
+0V to 100V 
+Voltage on HB, VHB 
+12V to 112V 
+Output Current Rating, IO 
+-4A to 4A 
+Operating Frequency 
+500kHz 
+ 
+Input Threshold Type 
+The SGM48211 can handle a maximum input voltage 
+range from -10V to 20V to achieve enhanced 
+robustness and allow compatibility with both inputs 
+from microcontrollers, as well as higher-voltage inputs 
+from gate-drive transformers. The inputs adopt TTL and 
+CMOS compatible structure with a wide range of 
+hysteresis. The voltage threshold is independent of 
+VDD. 
+ 
+Supply Voltage VDD 
+The SGM48211 operates with a wide supply voltage 
+range from 8V to 17V for applications such as driving Si 
+MOSFETs, IGBTs, SiC MOSFETs and GaN FETs. The 
+maximum voltage on VDD when applied to a 
+single-ended power, and the differential voltage of the 
+positive voltage and the negative voltage when applied 
+to dual-railed power, as well as the bias supply voltage 
+on the VDD pin should never exceed the values listed 
+in the Absolute Maximum Ratings section. 
+ 
+Peak Driving Currents 
+The SGM48211 is designed with 4A peak source and 
+sink currents for fast switching of power devices. For 
+example, when the SGM48211 is used to drive an 
+IPB60R120P7 power MOSFET with a DC bus voltage 
+of 400V in a continuous conduction mode (CCM) PFC 
+converter, the turn-on event and the turn-off event are 
+supposed to be completed in approximately 14ns and 
+8ns (refer to DS of IPB60R120P7 with typical 36nC of 
+total QG) separately. Therefore, a source current of 
+2.57A (= 36nC/14ns) and a sink current of 4.5A (= 
+36nC/8ns) or higher are necessary. The SGM48211 
+can provide 4A peak source current and sink currents 
+larger than the requirements of IPB60R120P7. 
+In practical designs, the parasitic inductance of PCB 
+traces will limit the di/dt of the gate driving current that 
+may not reach the full peak current capability of the 
+driver. To minimize this impact caused by the parasitic 
+inductance, it is recommended to place the gate drive 
+device as close to the power MOSFET as possible and 
+design a tight gate driving loop with minimum parasitic 
+inductance.  
+External gate resistors for turn-on and turn-off of the 
+MOSFETs should be chosen carefully to achieve 
+efficiency and EMI optimizations. 
+ 
+Propagation Delay 
+The SGM48211 features 31ns (TYP) propagation delay 
+and 3ns (TYP) delay matching between the high-side 
+and the low-side drivers, which makes it possible for 
+the device to operate in very high frequency with little 
+pulse distortion. 
+ 
+Power Dissipation 
+Power dissipation is the sum of conduction loss and 
+switching loss as shown in Equation 1. 
+PDISS = PDC + PSW              (1) 
+where PDC is the conduction loss and can be calculated 
+by Equation 2. 
+PDC = IQ × VDD                        (2) 
+where 
+IQ is the total quiescent current consumed by all internal 
+block circuits and internal parasitic devices during 
+switching (such as charging and discharging). 
+VDD is the voltage between the VDD and VSS pins. 
+ 
+ 
+ 
+
+120V Boot, 4A Peak, High Frequency 
+SGM48211 
+High-side and Low-side Driver 
+ 
+ 
+14 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+PG (PSW) is the switching loss which can be calculated 
+by Equation 3. 
+PG = QG × VDD × fSW                (3) 
+where 
+fSW is the switching frequency. 
+QG is the total gate charge of the MOSFET, typical 
+36nC of IPB60R120P7 in this example. 
+Half of PG is dissipated during turn-on, and the other 
+half is dissipated by both the external gate resistors and 
+the internal resistance of the SGM48211 during 
+turn-off. 
+When no external gate resistors are used, PG is 
+completely dissipated inside the device. 
+When using external gate resistors, the effective PG_PK 
+dissipated inside the package can be calculated by 
+Equation 4. 
+IN_ON
+IN_OFF
+G_PK
+G
+IN_ON
+EX_ON
+IN_OFF
+EX_OFF
+R
+R
+1
+P
+=
+P
+(
++
+)
+2
+R
++R
+R
++R
+×
+×
+   (4) 
+where 
+RIN_ON is the effective pull-up resistance of the output 
+stage of SGM48211. 
+REX_ON is the total external turn-on resistance of gate 
+resistor and internal gate resistance of the power 
+MOSFET. 
+RIN_OFF is the effective pull-down resistance of the 
+output stage of SGM48211. 
+REX_OFF is the total external turn-off resistance of gate 
+resistor and internal gate resistance of the power 
+MOSFET. 
+ 
+Power Supply Recommendations 
+The SGM48211 operates in normal mode from the 
+minimum 8V bias supply governed by the UVLO 
+function to the maximum 17V bias supply limited by the 
+20V absolute maximum voltage with a 3V margin to 
+allow for transient voltage spikes during switching. 
+UVLO functions are implemented in both VDD and VHB 
+with a hysteresis function. The voltage thresholds of the 
+UVLOs are typical 7V on VDD - VSS and 6.4V on VHB - 
+VHS with respective 0.5V and 1V hysteresis. 
+To avoid from entering the UVLO mode caused by the 
+voltage ripple lower than the hysteresis on both VDD 
+and VHB during switching, local bypass capacitors must 
+be placed between the VDD and VSS pins and 
+between the HB and HS pins as close to the device as 
+possible. Low-ESR, ceramic surface-mount capacitors 
+with capacitance in the range of 0.22μF to 4.7μF 
+between VDD and VSS pins and 0.022μF to 0.1μF 
+between HB and HS pins are recommended. 
+ 
+Layout Guidelines 
+The following layout recommendations should be 
+considered: 
+• Place the SGM48211 as close to the MOSFETs as 
+possible. 
+• Locate the bootstrap capacitor (VHB - VHS) and 
+decoupling capacitor (VDD - VSS) as close to the device 
+as possible. 
+• Minimize the gate drive loops from the output pins to 
+the gate of MOSFETs. Tie the HS and VSS pins 
+directly to the corresponding source of MOSFETs in 
+short distance. 
+• Exposed pad should be connected to VSS net and 
+with large polygon copper for improved thermal 
+conduction. 
+• VDD traces should be away from the high-side pins 
+and the LO pin. 
+• A minimum width of 60mils is recommended for the 
+HO and LO traces. 
+• Two or more vias should be used if routing through 
+different layers and for thermal conduction on VSS net. 
+• Input traces of HI and LI should be away from traces 
+with higher dV/dt. 
+ 
+Thermal Considerations 
+Measures that reduce the effective thermal resistances 
+from the package to PCB or to the open air should be 
+taken to keep the junction temperature within rated 
+limits. 
+ 
+ 
+
+120V Boot, 4A Peak, High Frequency 
+SGM48211 
+High-side and Low-side Driver 
+ 
+ 
+15 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+APRIL 2024 ‒ REV.A.1 to REV.A.2 
+Page 
+Added Absolute Maximum Ratings section 
+.......................................................................................................................................................... 
+2 
+Changed Typical Performance Characteristics section ........................................................................................................................................ 
+9 
+ 
+JANUARY 2024 ‒ REV.A to REV.A.1 
+Page 
+Added Pin Description section ............................................................................................................................................................................. 
+4 
+Added and Changed Switching Characteristics section ....................................................................................................................................... 
+7 
+Changed Application Information section 
+........................................................................................................................................................... 
+14 
+ 
+Changes from Original (DECEMBER 2023) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00010.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOIC-8 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+1.350 
+1.750 
+0.053 
+0.069 
+A1 
+0.100 
+0.250 
+0.004 
+0.010 
+A2 
+1.350 
+1.550 
+0.053 
+0.061 
+b 
+0.330 
+0.510 
+0.013 
+0.020 
+c 
+0.170 
+0.250 
+0.006 
+0.010 
+D 
+4.700 
+5.100 
+0.185 
+0.200 
+E 
+3.800 
+4.000 
+0.150 
+0.157 
+E1 
+5.800 
+6.200 
+0.228 
+0.244 
+e 
+1.27 BSC 
+0.050 BSC 
+L 
+0.400 
+1.270 
+0.016 
+0.050 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+D
+E
+E1
+e
+b
+A
+A2
+A1
+c
+L
+θ
+1.27
+0.6
+2.2
+5.2
+RECOMMENDED LAND PATTERN (Unit: mm)
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00013.003 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOIC-8 (Exposed Pad) 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+ 
+ 
+1.700 
+A1 
+0.000 
+- 
+0.150 
+A2 
+1.250 
+- 
+1.650 
+b 
+0.330 
+- 
+0.510 
+c 
+0.170 
+- 
+0.250 
+D 
+4.700 
+- 
+5.100 
+D1 
+3.020 
+- 
+3.420 
+E 
+3.800 
+- 
+4.000 
+E1 
+5.800 
+- 
+6.200 
+E2 
+2.130 
+- 
+2.530 
+e 
+1.27 BSC 
+L 
+0.400 
+- 
+1.270 
+θ 
+0° 
+- 
+8° 
+ccc 
+0.100 
+ 
+NOTES: 
+1. This drawing is subject to change without notice. 
+2. The dimensions do not include mold flashes, protrusions or gate burrs. 
+3. Reference JEDEC MS-012. 
+ 
+ 
+D
+E
+E1
+e
+b
+A2
+A1
+c
+L
+θ
+E2
+D1
+3.22
+2.33
+0.61
+1.27
+1.91
+5.56
+RECOMMENDED LAND PATTERN (Unit: mm)
+ccc C
+SEATING PLANE
+C
+A
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00346.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TDFN-4×4-8AL 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.700 
+- 
+0.800 
+A1 
+0.000 
+- 
+0.050 
+A2 
+0.203 REF 
+b 
+0.250 
+- 
+0.350 
+D 
+3.900 
+- 
+4.100 
+E 
+3.900 
+- 
+4.100 
+D1 
+3.300 
+- 
+3.500 
+E1 
+2.350 
+- 
+2.550 
+e 
+0.800 BSC 
+L 
+0.300 
+- 
+0.500 
+eee 
+0.080 
+ 
+NOTE: This drawing is subject to change without notice.
+ 
+ 
+E
+D
+e
+L
+b
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+E1
+D1
+N1
+0.80
+4.00
+0.30
+0.80
+2.45
+3.40
+RECOMMENDED LAND PATTERN (Unit: mm)
+PIN 1#
+DETAIL A
+DETAIL A
+ALTERNATE TERMINAL
+CONSTRUCTION
+ALTERNATE A-2
+ALTERNATE A-1
+N8
+A
+A2
+A1
+C
+SEATING PLANE
+eee C
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+SOIC-8 
+13″ 
+12.4 
+6.40 
+5.40 
+2.10 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+SOIC-8 
+(Exposed Pad) 
+13" 
+12.4 
+6.40 
+5.40 
+2.10 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+TDFN-4×4-8AL 
+13" 
+12.4 
+4.30 
+4.30 
+1.10 
+4.0 
+8.0 
+2.0 
+12.0 
+Q2 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

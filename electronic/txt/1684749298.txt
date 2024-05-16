@@ -1,0 +1,877 @@
+ 
+SGM9155 
+1-Channel, Video Filter 
+Driver for HD (720p) 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+MAY 2023– REV. A. 1
+GENERAL DESCRIPTION 
+The SGM9155 is a 1-channel, 6th-order output 
+reconstruction filter which can operate from 3.1V to 
+5.5V single power supply. It is designed to replace 
+passive LC filters and drivers with an integrated device. 
+One channel is High Definition (HD) filter. 
+The device allows DC- or AC-coupled output. SGM9155 
+can be DC-coupled or AC-coupled with input video 
+signal to eliminate out-of-band noise, such as the 
+output stage of DAC. Internal bias circuitry may be 
+used for providing constant bias voltage if AC-coupled 
+inputs are required. 
+The SGM9155 is available in Green SOT-23-6 and 
+SC70-5 packages. It operates over an ambient 
+temperature range of -40℃ to +85℃. 
+ 
+FEATURES 
+● Supply Voltage Range: 3.1V to 5.5V 
+● One 6th-Order 720p High Definition Filter 
+● Bias Mode Active with AC-Coupled Inputs 
+● Bias Mode Inactive with DC-Coupled Inputs 
+● AC- or DC-Coupled Output 
+● DC-Coupled Outputs Eliminate AC-Coupled  
+Capacitors 
+● -40℃ to +85℃ Operating Temperature Range 
+● Available in Green SOT-23-6 and SC70-5 Packages 
+ 
+ 
+APPLICATIONS 
+Video Recorders 
+Video on Demand (VOD) 
+Cable and Satellite Set-Top Boxes 
+Portable and Handheld Products 
+Communication Devices 
+TVs 
+ 
+BLOCK DIAGRAM 
+ 
+ 
+ 
+Bias
+HD IN
+HD OUT
+6dB Gain Amp.
+720p
+
+1-Channel, Video Filter 
+SGM9155 
+Driver for HD (720p) 
+ 
+ 
+2 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM9155A 
+(6dB Gain) 
+SOT-23-6 
+-40℃ to +85℃ 
+SGM9155AYN6G/TR 
+SZ2XX 
+Tape and Reel, 3000 
+SC70-5 
+-40℃ to +85℃ 
+SGM9155AYC5G/TR 
+SZ3XX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XX = Date Code. 
+Date Code - Year 
+Date Code - Month 
+Serial Number
+YYY X X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+Input Voltage 
+................................. GND - 0.3V to VCC + 0.3V 
+Supply Voltage, VCC 
+....................................................... 6.0V 
+Junction Temperature ................................................ 
++150℃ 
+Storage Temperature Range 
+........................ -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ........................... 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................ 8000V 
+MM 
+................................................................................ 400V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Voltage Range................................... 3.1V to 5.5V 
+Operating Temperature Range ...................... -40℃ to +85℃ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+
+1-Channel, Video Filter 
+SGM9155 
+Driver for HD (720p) 
+ 
+ 
+3 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+(TOP VIEW) 
+(TOP VIEW) 
+VCC
+GND
+1
+3
+2
+6
+4
+5
+IN
+OUT
+NC
+EN
+ 
+1
+3
+2
+5
+4
+VCC
+GND
+IN
+GND
+OUT
+ 
+SOT-23-6 
+SC70-5 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+SOT-23-6 
+SC70-5 
+1 
+— 
+EN 
+Enable Pin. 
+2 
+5 
+OUT 
+Video Output. 
+3 
+— 
+NC 
+No Internal Connection. 
+4 
+3 
+IN 
+Video Input. 
+5 
+1, 2 
+GND 
+Ground. 
+6 
+4 
+VCC 
+Power Supply. 
+ 
+ 
+
+1-Channel, Video Filter 
+SGM9155 
+Driver for HD (720p) 
+ 
+ 
+4 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VCC = 5V, SGM9155A VIN = 1VPP, TA = +25℃, RSOURCE = 37.5Ω; the input is AC-coupled with 0.1µF; the output is AC-coupled 
+with 220µF into 150Ω, referenced to 400kHz, unless otherwise noted.) 
+PARAMETER 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+DC Electrical Characteristics 
+Operating Voltage Range (VCC) 
+ 
+3.1 
+5 
+5.5 
+V 
+Quiescent Current (IQ) 
+No load 
+ 
+12.5 
+16.5 
+mA 
+Output Level Shift Voltage (VOLS) 
+VIN = 0V, no load 
+ 
+360 
+550 
+mV 
+Voltage Gain of SGM9155A (AV) 
+RL = 150Ω 
+5.75 
+6.1 
+6.35 
+dB 
+Output Voltage High Swing 
+VIN = 3V, RL = 150Ω to GND 
+ 
+4.8 
+ 
+V 
+Shutdown Current 
+ 
+ 
+1.3 
+15 
+μA 
+Video Input Voltage Range 
+Referenced to GND if DC-coupled 
+ 
+1.4 
+ 
+VPP 
+Power Supply Rejection Ratio (PSRR) 
+DC 
+ 
+52 
+ 
+dB 
+VIH of EN Pin 
+ 
+2.4 
+ 
+ 
+V 
+VIL of EN Pin 
+ 
+ 
+ 
+0.8 
+V 
+720p High Definition Mode Electrical Characteristics 
+Channel Gain 
+Active video input range = 1VPP 
+ 
+6 
+ 
+dB 
+-1dB Bandwidth of SGM9155A 
+RL = 150Ω 
+ 
+36 
+ 
+MHz 
+-3dB Bandwidth of SGM9155A 
+RL = 150Ω 
+ 
+40 
+ 
+MHz 
+Filter Response (Normalized Gain) 
+fIN = 400kHz to 74.25MHz 
+ 
+30 
+ 
+dB 
+Group Delay Variation (D/DT) 
+Difference between 400kHz and 30MHz 
+ 
+3.8 
+ 
+ns 
+Slew Rate 
+2V output step, 80% to 20% 
+ 
+175 
+ 
+V/μs 
+Fall Time 
+2V output step, 80% to 20% 
+ 
+6.5 
+ 
+ns 
+Rise Time 
+2V output step, 80% to 20% 
+ 
+7.0 
+ 
+ns 
+Signal to Noise Ratio (SNR) 
+100kHz to 30MHz 
+ 
+-65 
+ 
+dB 
+Enable Time (tON) 
+ 
+ 
+2 
+ 
+μs 
+Disable Time (tOFF) 
+ 
+ 
+0.5 
+ 
+μs 
+ 
+ 
+
+1-Channel, Video Filter 
+SGM9155 
+Driver for HD (720p) 
+ 
+ 
+5 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+VCC = 5V, SGM9155A VIN = 1VPP, TA = +25℃, RSOURCE = 37.5Ω; the input is AC-coupled with 0.1µF; the output is AC-coupled with 
+220µF into 150Ω, referenced to 400kHz, unless otherwise noted. 
+Gain vs. Frequency 
+ Group Delay vs. Frequency 
+ 
+ 
+ 
+ 
+Large Signal Step Response 
+  Small Signal Step Response 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+-40
+-30
+-20
+-10
+0
+10
+20
+0.1
+1
+10
+100
+1000
+Frequency (MHz)
+Normalized Gain (dB)
+-30
+-10
+10
+30
+50
+70
+90
+0.1
+1
+10
+100
+1000
+Frequency (MHz)
+Group Delay (ns)
+ 
+-1.80
+-1.20
+-0.60
+0.00
+0.60
+1.20
+1.80
+-0.35
+-0.15
+0.05
+0.25
+0.45
+0.65
+0.85
+Time (µs)
+Output Voltage (V)
+VIN = 1VPP
+-0.18
+-0.12
+-0.06
+0.00
+0.06
+0.12
+0.18
+-0.35
+-0.15
+0.05
+0.25
+0.45
+0.65
+0.85
+Time (μs)
+Output Voltage (V)
+VIN = 0.1VPP
+
+1-Channel, Video Filter 
+SGM9155 
+Driver for HD (720p) 
+ 
+ 
+6 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+MAY 2023 ‒ REV.A to REV.A.1 
+Page 
+Updated Package Outline Dimensions section .................................................................................................................................................... 
+8 
+ 
+Changes from Original (APRIL 2015) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00034.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOT-23-6 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+1.050 
+1.250 
+0.041 
+0.049 
+A1 
+0.000 
+0.100 
+0.000 
+0.004 
+A2 
+1.050 
+1.150 
+0.041 
+0.045 
+b 
+0.300 
+0.500 
+0.012 
+0.020 
+c 
+0.100 
+0.200 
+0.004 
+0.008 
+D 
+2.820 
+3.020 
+0.111 
+0.119 
+E 
+1.500 
+1.700 
+0.059 
+0.067 
+E1 
+2.650 
+2.950 
+0.104 
+0.116 
+e 
+0.950 BSC 
+0.037 BSC 
+e1 
+1.900 BSC 
+0.075 BSC 
+L 
+0.300 
+0.600 
+0.012 
+0.024 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+E
+E1
+e
+e1
+b
+D
+A1
+A2
+A
+c
+L
+θ
+0.2
+2.59
+0.99
+0.95
+0.69
+RECOMMENDED LAND PATTERN (Unit: mm)
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00043.001 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SC70-5 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.800 
+1.100 
+0.031 
+0.043 
+A1 
+0.000 
+0.100 
+0.000 
+0.004 
+A2 
+0.800 
+1.000 
+0.031 
+0.039 
+b 
+0.150 
+0.350 
+0.006 
+0.014 
+c 
+0.080 
+0.220 
+0.003 
+0.009 
+D 
+2.000 
+2.200 
+0.079 
+0.087 
+E 
+1.150 
+1.350 
+0.045 
+0.053 
+E1 
+2.150 
+2.450 
+0.085 
+0.096 
+e 
+0.65 TYP 
+0.026 TYP 
+e1 
+1.300 BSC 
+0.051 BSC 
+L 
+0.525 REF 
+0.021 REF 
+L1 
+0.260 
+0.460 
+0.010 
+0.018 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+e
+e1
+E1
+E
+D
+b
+A
+A2
+A1
+L
+c
+θ
+0.20
+L1
+RECOMMENDED LAND PATTERN (Unit: mm)
+1.9
+0.65
+1.3
+0.75
+0.4
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+SOT-23-6 
+7″ 
+9.5 
+3.23 
+3.17 
+1.37 
+4.0 
+4.0 
+2.0 
+8.0 
+Q3 
+ 
+SC70-5 
+7″ 
+9.5 
+2.40 
+2.50 
+1.20 
+4.0 
+4.0 
+2.0 
+8.0 
+Q3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 
+ 

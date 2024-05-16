@@ -1,0 +1,1050 @@
+ 
+SGM2030 
+Low Power, Low Dropout, 
+RF Linear Regulator 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+MAY2016–REV.B 
+GENERAL DESCRIPTION 
+The SGM2030 is a low power and low dropout voltage 
+RF linear regulator. It is capable of supplying 300mA 
+output current with typical dropout voltage of only 
+270mV. The operating input voltage range is from 2.5V 
+to 5.5V. The fixed output voltage range is from 1.2V to 
+3.3V. 
+Other features include logic-controlled shutdown mode, 
+output current limit and thermal shutdown protection. 
+The SGM2030 is available in a Green UTDFN-1.2×1.6-4L 
+package. It operates over an operating temperature 
+range of -40℃ to +85℃. 
+FEATURES 
+ Operating Input Voltage Range: 2.5V to 5.5V 
+ Fixed Output Voltages: 
+1.2V, 1.5V, 1.8V, 2.5V, 2.6V, 2.8V, 2.85V, 3.0V, 3.3V 
+ Output Voltage Accuracy: ±3% at +25℃ 
+ Low Output Noise: 140μVRMS (TYP) 
+ Low Dropout Voltage: 270mV (TYP) at 300mA 
+ High PSRR: 71dB (TYP) at 1kHz 
+ Shutdown Current: 0.01μA (TYP) 
+ Thermal Shutdown Protection 
+ Output Current Limit 
+ -40℃ to +85℃ Operating Temperature Range 
+ Available in a Green UTDFN-1.2×1.6-4L Package 
+ 
+ 
+APPLICATIONS 
+Modems 
+MP3 Players 
+Cellular Telephones 
+PCMCIA Cards 
+Palmtop Computers 
+Portable Electronics 
+ 
+ 
+TYPICAL APPLICATION 
+ 
+VOUT
+VIN
+2.5V to 5.5V
+IN
+OUT
+GND
+CIN 
+1μF
+COUT
+1μF
+SGM2030
+EN
+ON
+OFF
+3
+2
+1
+4
+ 
+ 
+Figure 1. Typical Application Circuit 
+ 
+ 
+
+Low Power, Low Dropout, 
+SGM2030 
+RF Linear Regulator 
+ 
+ 
+2 
+MAY 2016 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+VOUT (V) 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM2030-1.2 
+1.2V 
+UTDFN-1.2×1.6-4L -40℃ to +85℃ 
+SGM2030-1.2YUDG4G/TR 
+63X 
+Tape and Reel, 5000 
+SGM2030-1.5 
+1.5V 
+UTDFN-1.2×1.6-4L -40℃ to +85℃ 
+SGM2030-1.5YUDG4G/TR 
+9DX 
+Tape and Reel, 5000 
+SGM2030-1.8 
+1.8V 
+UTDFN-1.2×1.6-4L -40℃ to +85℃ 
+SGM2030-1.8YUDG4G/TR 
+4EX 
+Tape and Reel, 5000 
+SGM2030-2.5 
+2.5V 
+UTDFN-1.2×1.6-4L -40℃ to +85℃ 
+SGM2030-2.5YUDG4G/TR 
+9EX 
+Tape and Reel, 5000 
+SGM2030-2.6 
+2.6V 
+UTDFN-1.2×1.6-4L -40℃ to +85℃ 
+SGM2030-2.6YUDG4G/TR 
+68X 
+Tape and Reel, 5000 
+SGM2030-2.8 
+2.8V 
+UTDFN-1.2×1.6-4L -40℃ to +85℃ 
+SGM2030-2.8YUDG4G/TR 
+4FX 
+Tape and Reel, 5000 
+SGM2030-2.85 2.85V UTDFN-1.2×1.6-4L -40℃ to +85℃ SGM2030-2.85YUDG4G/TR 
+BAX 
+Tape and Reel, 5000 
+SGM2030-3.0 
+3.0V 
+UTDFN-1.2×1.6-4L -40℃ to +85℃ 
+SGM2030-3.0YUDG4G/TR 
+50X 
+Tape and Reel, 5000 
+SGM2030-3.3 
+3.3V 
+UTDFN-1.2×1.6-4L -40℃ to +85℃ 
+SGM2030-3.3YUDG4G/TR 
+56X 
+Tape and Reel, 5000 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ORDER NUMBER 
+MARKING INFORMATION 
+NOTE: X = Date Code. 
+ 
+Date Code - Year 
+Serial Number
+YY X
+ 
+ 
+ 
+SGM2030 - X X X G / TR
+Operating Temperature Range
+Output Voltages
+Package Type
+Green Product
+Tape and Reel
+UDG4       UTDFN-1.2×1.6-4L
+Y         -40℃ to +85℃
+1.2       1.2V
+1.5       1.5V
+1.8       1.8V
+  .           .
+  .           .
+  .           .
+3.0       3.0V
+3.3       3.3V
+
+Low Power, Low Dropout, 
+SGM2030 
+RF Linear Regulator 
+ 
+ 
+3 
+MAY 2016 
+SG Micro Corp 
+www.sg-micro.com 
+ABSOLUTE MAXIMUM RATINGS 
+IN to GND ............................................................ -0.3V to 6V 
+Output Short-Circuit Duration 
+....................................... 
+Infinite 
+EN to GND 
+........................................................... 
+-0.3V to VIN 
+OUT to GND .......................................... -0.3V to (VIN + 0.3V) 
+Package Thermal Resistance 
+UTDFN-1.2×1.6-4L, θJA ........................................... 148℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... 
+-65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+MM 
+................................................................................. 
+400V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Temperature Range ...................... 
+-40℃ to +85℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+PIN CONFIGURATION 
+(TOP VIEW) 
+2
+1
+3
+4
+OUT
+EN
+IN
+GND
+NC
+ 
+UTDFN-1.2×1.6-4L 
+ 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1 
+IN 
+Input Voltage Supply Pin. It is 
+recommended to use a 1μF or larger 
+ceramic capacitor from IN pin to 
+ground. 
+2 
+GND 
+Ground. 
+3 
+EN 
+Enable Pin. Drive EN high to turn on 
+the regulator. Drive EN low to turn off 
+the regulator. 
+4 
+OUT 
+Regulator Output Voltage Pin. It is 
+recommended to use 1μF or larger 
+ceramic output capacitor from OUT 
+pin to ground. The capacitor should 
+be located very close to this pin. 
+Exposed 
+Pad 
+NC 
+No Connection. 
+ 
+ 
+ 
+
+Low Power, Low Dropout, 
+SGM2030 
+RF Linear Regulator 
+ 
+ 
+4 
+MAY 2016 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VIN = VOUT (NOMINAL) + 0.5V (1), Full = -40℃ to +85℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN 
+TYP 
+MAX 
+UNITS 
+Input Voltage 
+VIN 
+ 
++25℃ 
+2.5 
+ 
+5.5 
+V 
+Output Voltage Accuracy 
+(1) 
+ 
+IOUT = 0.1mA 
++25℃ 
+-3 
+ 
++3 
+% 
+Maximum Output Current 
+(1) 
+ 
+ 
++25℃ 
+300 
+ 
+ 
+mA 
+Output Current Limit 
+(1) 
+ILIMIT 
+ 
++25℃ 
+310 
+ 
+ 
+mA 
+Ground Pin Current 
+IQ 
+No load, EN = 2V 
++25℃ 
+ 
+95 
+200 
+µA 
+Dropout Voltage 
+(2) 
+ 
+IOUT = 1mA 
++25℃ 
+ 
+0.9 
+ 
+mV 
+IOUT = 300mA 
+ 
+270 
+400 
+Line Regulation 
+(1) 
+ΔVLNR 
+VIN = 2.5V or (VOUT + 0.5V) to 5.5V, 
+IOUT = 1mA 
++25℃ 
+ 
+0.02 
+0.05 
+%/V 
+Load Regulation 
+ΔVLDR 
+IOUT = 0.1mA to 300mA, COUT = 1µF, 
+VOUT > 2V 
++25℃ 
+ 
+0.002 
+0.005 
+%/mA 
+IOUT = 0.1mA to 300mA, COUT = 1µF, 
+VOUT ≤ 2V 
+ 
+0.004 
+0.008 
+Output Voltage Noise 
+en 
+f = 10Hz to 100kHz, COUT = 10µF 
++25℃ 
+ 
+140 
+ 
+µVRMS 
+Power Supply Rejection Ratio 
+PSRR 
+IOUT = 50mA, COUT = 1μF, 
+VIN = VOUT + 1V 
+f = 217Hz 
++25℃ 
+ 
+72 
+ 
+dB 
+f = 1kHz 
++25℃ 
+ 
+71 
+ 
+dB 
+Shutdown 
+(3) 
+EN Input Threshold 
+VIH 
+VIN = 2.5V to 5.5V, VEN = -0.3V to VIN 
+Full 
+1.5 
+ 
+ 
+V 
+VIL 
+Full 
+ 
+ 
+0.3 
+EN Input Bias Current 
+IB(SHDN) 
+EN = 0V and EN = 5.5V 
++25℃ 
+ 
+0.01 
+1 
+μA 
+Full 
+ 
+0.01 
+ 
+Shutdown Supply Current 
+IQ(SHDN) 
+EN = 0.4V 
++25℃ 
+ 
+0.01 
+1 
+μA 
+Full 
+ 
+0.01 
+ 
+Shutdown Exit Delay 
+(4) 
+ 
+COUT = 1μF, No Load 
++25℃ 
+ 
+10 
+ 
+μs 
+Thermal Protection 
+Thermal Shutdown Temperature 
+TSHDN 
+ 
+ 
+150 
+ 
+℃ 
+Thermal Shutdown Hysteresis 
+ΔTSHDN 
+ 
+ 
+15 
+ 
+℃ 
+ 
+NOTES:  
+1. VIN = VOUT (NOMINAL) + 0.5V or 2.5V, whichever is greater. 
+2. The dropout voltage is defined as VIN - VOUT, when VOUT is 100mV below the value of VOUT for VIN = VOUT + 0.5V.  
+(Only applicable for VOUT = +2.5V to +5.0V.) 
+3. VEN = -0.3V to VIN 
+4. Time needed for VOUT to reach 90% of final value. 
+ 
+ 
+ 
+ 
+
+Low Power, Low Dropout, 
+SGM2030 
+RF Linear Regulator 
+ 
+ 
+5 
+MAY 2016 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+VIN = VOUT (NOMINAL) + 0.5V or 2.5V (whichever is greater), CIN = 1μF, COUT = 1μF, TA = +25℃, unless otherwise noted. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Current Limit vs. Temperature
+200
+300
+400
+500
+600
+700
+800
+-40
+-15
+10
+35
+60
+85
+Temperature (℃)
+Current limit (mA)
+SGM2030-2.8YUDG4G
+Ground Pin Current vs.Input Voltage
+0
+20
+40
+60
+80
+100
+120
+0
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Input Voltage (V)
+Ground Pin Current (µA)
+SGM2030-2.8YUDG4G
+No Load
+Normalized Output Voltage vs. Temperature
+0.994
+0.996
+0.998
+1.000
+1.002
+1.004
+1.006
+-40
+-15
+10
+35
+60
+85
+Temperature (℃)
+Normalized Output Voltage
+SGM2030-2.8YUDG4G
+Normalized to TA = +25℃
+I
+LOAD = 0.1mA
+Dropout Voltage vs. Load Current
+0
+50
+100
+150
+200
+250
+300
+350
+400
+0
+50
+100
+150
+200
+250
+300
+Load Current (mA)
+Dropout Voltage (mV)
+TA = +25℃
+TA = +85℃
+SGM2030-2.8YUDG4G
+TA = -40℃
+Ground Pin Current vs. Load Current
+80
+100
+120
+140
+160
+180
+200
+220
+0
+50
+100
+150
+200
+250
+300
+Load Current (mA)
+Ground Pin Current (µA)
+SGM2030-2.8YUDG4G
+Output Voltage vs. Input Voltage
+0
+0.8
+1.6
+2.4
+3.2
+4
+0
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Input Voltage (V)
+Output Voltage (V)
+SGM2030-2.8YUDG4G
+No Load
+
+Low Power, Low Dropout, 
+SGM2030 
+RF Linear Regulator 
+ 
+ 
+6 
+MAY 2016 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+VIN = VOUT (NOMINAL) + 0.5V or 2.5V (whichever is greater), CIN = 1μF, COUT = 1μF, TA = +25℃, unless otherwise noted. 
+ 
+  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+  
+ 
+ 
+  
+ 
+Output Voltage vs. Load Current
+2.5
+2.6
+2.7
+2.8
+2.9
+3
+0
+50
+100
+150
+200
+250
+300
+Load Current (mA)
+Output Voltage (V)
+SGM2030-2.8YUDG4G
+0
+20
+40
+60
+80
+100
+0.01
+0.1
+1
+10
+100
+1000
+PSRR (dB) 
+Frequency (kHz) 
+Power Supply Rejection Ratio vs. Frequency 
+ILOAD = 50mA 
+VIN = 3.8V to 3.9V 
+VOUT = 2.8V 
+COUT = 1μF 
+COUT = 10μF 
+
+Low Power, Low Dropout, 
+SGM2030 
+RF Linear Regulator 
+ 
+ 
+7 
+MAY 2016 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+VIN = VOUT (NOMINAL) + 0.5V or 2.5V (whichever is greater), CIN = 1μF, COUT = 1μF, TA = +25℃, unless otherwise noted. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Low Power, Low Dropout, 
+SGM2030 
+RF Linear Regulator 
+ 
+ 
+8 
+MAY 2016 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+The SGM2030 is a low power and low dropout LDO and 
+provides 300mA output current. These features make 
+the device a reliable solution to solve many challenging 
+problems in the generation of clean and accurate 
+power supply. The high performance also makes the 
+SGM2030 useful in a variety of applications. The 
+SGM2030 provides protection functions for output 
+overload, output short-circuit condition and overheating. 
+ 
+Input Capacitor Selection (CIN) 
+The input decoupling capacitor is necessary to be 
+connected as close as possible to the IN pin for 
+ensuring the device stability. 1μF or larger X7R or X5R 
+ceramic capacitor is selected to get good dynamic 
+performance. 
+When VIN is required to provide large current 
+instantaneously, a large effective input capacitor is 
+required. Multiple input capacitors can limit the input 
+tracking inductance. Adding more input capacitors is 
+available to restrict the ringing and to keep it below the 
+device absolute maximum ratings. 
+ 
+Output Capacitor Selection (COUT) 
+The output decoupling capacitor should be located as 
+close as possible to the OUT pin. 1μF or larger X7R or 
+X5R ceramic capacitor is selected to get good dynamic 
+performance. The minimum effective capacitance of 
+COUT that SGM2030 can remain stable is 0.5μF. For 
+ceramic capacitor, temperature, DC bias and package 
+size will change the effective capacitance, so enough 
+margin of COUT must be considered in design. Larger 
+capacitance and lower ESR COUT will help improve the 
+load transient response and increase the high 
+frequency PSRR. 
+ 
+Enable Control 
+The SGM2030 uses the EN pin to enable/disable its 
+device. 
+When the EN pin voltage is lower than 0.3V, the device 
+is in shutdown state. 
+When the EN pin voltage is higher than 1.5V, the device 
+is in active state. The output voltage is regulated to 
+expected value. 
+ 
+Output Current Limit and Short-Circuit 
+Protection 
+When overload events happen, the output current is 
+internally limited to 310mA (MIN). When the OUT pin is 
+shorted to ground, the short-circuit protection will limit 
+the output current. 
+ 
+Thermal Shutdown 
+The SGM2030 can detect the temperature of die. When 
+the die temperature exceeds the threshold value of 
+thermal shutdown, the SGM2030 will be in shutdown 
+state and it will remain in this state until the die 
+temperature decreases to +135℃. 
+ 
+Layout Guidelines 
+To get good PSRR, low output noise and high transient 
+response performance, the input and output bypass 
+capacitors must be placed as close as possible to the 
+IN pin and OUT pin separately. VIN and VOUT had better 
+use separate ground planes and these ground planes 
+are single point connected to the GND pin. 
+ 
+ 
+ 
+ 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+MAY 2016 ‒ REV.A.4 to REV.B 
+Page 
+Changed Normalized Output Voltage vs. Temperature ............................................................................................................................................6 
+ 
+AUGUST 2014 ‒ REV.A.3 to REV.A.4 
+Page 
+Changed TYPICAL PERFORMANCE CHARACTERISTICS section .......................................................................................................................7 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00067.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+UTDFN-1.2×1.6-4L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.500 
+0.550 
+0.600 
+A1 
+0.000 
+ 
+0.050 
+A2 
+0.152 REF 
+D 
+1.150 
+1.200 
+1.250 
+D1 
+0.810 
+0.860 
+0.910 
+E 
+1.550 
+1.600 
+1.650 
+E1 
+0.450 
+0.500 
+0.550 
+b 
+0.200 
+0.250 
+0.300 
+e 
+0.500 BSC 
+L 
+0.300 
+0.350 
+0.400 
+ 
+ 
+ 
+RECOMMENDED LAND PATTERN (Unit: mm)
+0.6
+0.35
+0.50
+0.5
+0.86
+2.1
+L
+E
+A2
+A1
+A
+e
+D1
+E1
+b
+D
+SIDE VIEW
+BOTTOM VIEW
+TOP VIEW
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+UTDFN-1.2×1.6-4L 
+7″ 
+9.0 
+1.50 
+1.70 
+0.60 
+4.0 
+4.0 
+2.0 
+8.0 
+Q2 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 

@@ -2,6 +2,7 @@
 import json
 # Press ⌃R to execute it or replace it with your code.
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+import re
 
 
 from fastapi import FastAPI
@@ -160,6 +161,24 @@ def do_qwen_v1(messages):
     response = requests.post(url, headers=headers, json=data)
     logger.info(response.text)
     return response
+
+def do_qwen_v2(query):
+    url = 'http://localhost:8000/v1/chat/completions'
+    headers = {'Content-Type': 'application/json'}
+    data = {
+        "model": "gpt-3.5-turbo",
+        "stream": False,
+        "messages": [
+            {"role": "user", "content": query}
+        ]
+    }
+
+    # 发送 POST 请求
+    response = requests.post(url, headers=headers, json=data)
+    logger.info(response.text)
+    res = json.loads(response.text)
+    answer = res['choices'][0]['message']['content']
+    return answer
 
 @app.post("/callwritings")
 async def create_item(args: str):
@@ -410,7 +429,7 @@ async def create_item(args: argsinput):
     
     return answer
 
-def get_document(product_name=None ,insurance_type=None ,age_limit=None ,insurance_time=None):
+def get_documents(product_name=None ,insurance_type=None ,age_limit=None ,insurance_time=None):
     conditions = []
 
     if product_name is not None:
@@ -437,9 +456,9 @@ def get_document(product_name=None ,insurance_type=None ,age_limit=None ,insuran
     response = requests.post(url, headers=headers, json=data)
     return response.text
 
-def get_documents(product_name=None ,insurance_type=None ,age_limit=None ,insurance_time=None):
+def get_document(product_name=None ,insurance_type=None ,age_limit=None ,insurance_time=None):
     conditions = []
-
+    
     if product_name is not None:
         conditions.append({"match": {"product_name": product_name}})
     if insurance_type is not None:
@@ -464,9 +483,12 @@ def get_documents(product_name=None ,insurance_type=None ,age_limit=None ,insura
     response = requests.post(url, headers=headers, json=data)
     return response.text
 
+func_list=["get_document","get_documents"]
+SysPrompt = "你是一个保险产品推荐和信息查询小助手，当用户在询问保险产品有关的问题时，请使用请使用get_document和get_documents函数来获取相关信息回答，需要根据工具结果获得回答，不要随便回答。"
+
 func_messages = [{
         'role': 'system',
-        'content': "你是一个保险产品推荐和信息查询小助手，当用户在询问保险产品有关的问题时，请使用get_document函数来获取相关信息回答"
+        'content': SysPrompt
     }]
 @app.post("/func_call")
 async def create_item(args:argsString):
@@ -474,9 +496,12 @@ async def create_item(args:argsString):
         'model': "/mnt/resource/public_models/Qwen_Qwen-14B-Chat",
         'model_server': 'http://localhost:8000/v1',  # api_base
         'api_key': 'EMPTY',
+        'generate_cfg': {
+                'temperature': 0
+            }
     })
 
-    prompt = f"给定一个问题，如果需要推荐保险或查询保险信息，请使用get_document函数。问题：{args.query}"
+    prompt = f"给定一个问题，如果需要推荐保险或查询保险信息，请使用get_document和get_documents函数。问题：{args.query}"
 
     # Step 1: send the conversation and available functions to the model    
     func_messages.append({
@@ -484,8 +509,8 @@ async def create_item(args:argsString):
         'content': prompt
     })
     functions = [{
-        'name': 'get_document',
-        'description': '当需要进行保险的推荐时，或者是需要展示多个保险产品的场景时，请使用此函数来获得保险产品列表',
+        'name': 'get_documents',
+        'description': '当需要进行保险的推荐时，或者是需要展示多个保险产品的场景时，请使用此函数来获得保险产品列表，不存在的参数请填写null',
         'parameters': {
             'type': 'object',
             'properties': {
@@ -495,7 +520,7 @@ async def create_item(args:argsString):
                 },
                 'insurance_type': {
                     'type': 'string',
-                    'enum': [ '健康保险', '两全保险', '人寿保险', '年金保险', '医疗保险','其他']
+                    'enum': [ '健康保险', '两全保险', '人寿保险', '年金保险', '医疗保险','分红型保险','其他']
                 },
                 'age_limit': {
                     'type': 'string',
@@ -510,8 +535,8 @@ async def create_item(args:argsString):
         },
     },
     {
-        'name': 'get_documents',
-        'description': '当需要查询保险的详细信息时，请使用此函数来获得保险的相关信息',
+        'name': 'get_document',
+        'description': '当需要查询保险的详细信息时，请使用此函数来获得保险的相关信息，不存在的参数请填写null',
         'parameters': {
             'type': 'object',
             'properties': {
@@ -521,7 +546,7 @@ async def create_item(args:argsString):
                 },
                 'insurance_type': {
                     'type': 'string',
-                    'enum': [ '健康保险', '两全保险', '人寿保险', '年金保险', '医疗保险','其他']
+                    'enum': [ '健康保险', '两全保险', '人寿保险', '年金保险', '医疗保险','分红型保险','其他']
                 },
                 'age_limit': {
                     'type': 'string',
@@ -552,6 +577,7 @@ async def create_item(args:argsString):
         # Note: the JSON response may not always be valid; be sure to handle errors
         available_functions = {
             'get_document': get_document,
+            'get_documents': get_documents,
         }  # only one function in this example, but you can have multiple
         function_name = last_response['function_call']['name']
         function_to_call = available_functions[function_name]
@@ -582,12 +608,429 @@ async def create_item(args:argsString):
     
     return responses[0]['content']
 
+def get_electronic_products(product_name=None, table_name=None, content=None):
+    product_name = product_name or ""
+    table_name = table_name or ""
+    content = content or ""
+
+    url = 'http://localhost:9200/electronic_products/_search'
+    headers = {'Content-Type': 'application/json'}
+    data = {
+        "size": 5, 
+        "query": {
+            "bool": {
+                "must": [
+                    {"match": {"product_name": product_name}}
+                ],
+                "should": [
+                    {"match": {"table_name": table_name}},
+                    {"match": {"content": content}}
+                ],
+                "minimum_should_match": 1
+            }
+        }
+    }
+    print(f"es_data:{data}")
+    # 发送 POST 请求
+    response = requests.post(url, headers=headers, json=data)
+    return response.text
+
+electronic_sysPrompt = "你是一个电器文档查询小助手，当用户在电器元件有关的问题时，请使用get_electronic_products函数来获取相关信息回答，需要根据工具结果获得回答，不要随便回答。"
+electronic_func_messages = [{
+        'role': 'system',
+        'content': electronic_sysPrompt
+    }]
+@app.post("/electronic_func_call")
+async def create_item(args:argsString):
+    llm = get_chat_model({
+        'model': "/mnt/resource/public_models/Qwen_Qwen-14B-Chat",
+        'model_server': 'http://localhost:8000/v1',  # api_base
+        'api_key': 'EMPTY',
+        'generate_cfg': {
+                'temperature': 0
+            }
+    })
+
+    # 英文翻译
+    query = f"如果此问题是中文，请把它翻译成英文返回：{args.query}"
+    res = do_qwen(query)
+    res = json.loads(res.text)
+    en_query = res['choices'][0]['message']['content']
+    print(en_query)
+
+    prompt = f"给定一个问题，如果需要查询电器元件信息，请使用get_electronic_products函数。问题：{en_query}"
+
+    # 设计function   
+    electronic_func_messages.append({
+        'role': 'user',
+        'content': prompt
+    })
+    functions = [{
+        'name': 'get_electronic_products',
+        'description': '当需要查询电器元件的信息时，请使用此函数来获得电器元件信息，不存在的参数请填写null',
+        'parameters': {
+            'type': 'object',
+            'properties': {
+                'product_name': {
+                    'type': 'string',
+                    'description': '电器元件名称'
+                },
+                'table_name': {
+                    'type': 'string',
+                    'description': '电器元件查询文档的具体章节'
+                },
+                'content': {
+                    'type': 'string',
+                    'description': '电器元件查询的内容',
+                },
+            },
+            'required': ['product_name', 'table_name' ,'content'],
+        },
+    }]
+
+    # 第一轮提问
+    print('# Assistant Response 1:')
+    responses = llm.chat(
+                messages=electronic_func_messages,
+                functions=functions,
+                stream=False)
+    print(responses[0])
+    electronic_func_messages.extend(responses) 
+
+    # 判断LLM返回值
+    last_response = electronic_func_messages[-1]
+    if last_response.get('function_call', None):
+        # 执行函数
+        available_functions = {
+            'get_electronic_products': get_electronic_products
+        } 
+        function_name = last_response['function_call']['name']
+        function_to_call = available_functions[function_name]
+        function_args = json.loads(last_response['function_call']['arguments'])
+        function_response = function_to_call(
+            product_name=function_args.get('product_name'),
+            table_name=function_args.get('table_name'),
+            content=function_args.get('content')
+        )
+        print('# Function Response:')
+        print(function_response)
+
+        # 添加function信息
+        electronic_func_messages.append({
+            'role': 'function',
+            'name': function_name,
+            'content': function_response,
+        })  
+
+        # 第二轮提问
+        print('# Assistant Response 2:')
+        responses = llm.chat(
+                messages=electronic_func_messages,
+                functions=functions,
+                stream=False)
+        print(responses[0])
+        electronic_func_messages.extend(responses)
+    
+    return responses[0]['content']
+
+
+electronic_messages = [{
+        'role': 'system',
+        'content': "You are a helpful assistant"
+    }]
+@app.post("/electronic_search_V2")
+async def create_item(args:argsString):
+    url = 'http://localhost:9200/electronic_product_id/_search'
+    headers = {'Content-Type': 'application/json'}
+    data = {
+        "size" : 10,
+        "query" : { "match" : { "product_name" : args.query }}
+    }
+    print(f"es_data:{data}")
+    # 发送 POST 请求
+    response = requests.post(url, headers=headers, json=data)
+    pcjsondata = json.loads(response.text)
+    
+    try:
+        product_name = pcjsondata['hits']['hits'][0]['_source']['product_name']
+    except Exception as e:
+        print(e)
+        return "答案不存在"
+
+    print(product_name)
+
+    # 指定 JSONL 文件路径
+    file_path = "electronic_content.jsonl"
+
+    document_chuck = []
+    # 打开 JSONL 文件并逐行读取
+    with open(file_path, "r") as file:
+        for line in file:
+            # 解析 JSON 行
+            json_item = json.loads(line)
+            
+            # 检查是否包含搜索关键词
+            if product_name == json_item["product_name"]:
+                document_chuck.append(json_item)
+                print(json_item)
+
+    answer_total = ""
+    print(len(document_chuck))
+    for chuck in document_chuck:
+        content = chuck["content"]
+        prompt = f"请判断此文件片内是否存在问题答案，如果有请回答，如果没有答案请返回‘答案不存在‘。文件内容：{content},问题：{args.query}"
+        answer = do_qwen_v2(prompt)
+        print(answer)
+        if "答案不存在" in answer: continue
+        answer_total = answer_total + ";" +answer
+    
+    
+    prompt_v1 = f"请根据信息完成问题的回答，文本：{answer_total},问题：{args.query}"
+    electronic_messages.append({
+        'role': 'user',
+        'content': prompt_v1
+    })
+    response = do_qwen_v1(electronic_messages)
+    res = json.loads(response.text)
+    result = res['choices'][0]['message']['content']
+    electronic_messages.append(res['choices'][0]['message'])
+    
+    print("==================")
+    print(prompt_v1)
+    print(result)
+    print(electronic_messages)
+
+    return result
+
+
+@app.post("/electronic_search_without_multi_talk")
+async def create_item(args:argsString):
+    
+    url = 'http://localhost:9200/electronic_product_id/_search'
+    headers = {'Content-Type': 'application/json'}
+    data = {
+         "query" : { "match" : { "product_name" : args.query }}
+    }
+    print(f"es_data:{data}")
+    # 发送 POST 请求
+    response = requests.post(url, headers=headers, json=data)
+    pcjsondata = json.loads(response.text)
+    # 只查询了第一个满足要求的型号
+    try:
+        product_name = pcjsondata['hits']['hits'][0]['_source']['product_name']
+    except Exception as e:
+        print(e)
+        return "答案不存在"
+
+    print(product_name)
+
+    # 指定 JSONL 文件路径
+    file_path = "electronic_content.jsonl"
+
+    document_chuck = []
+    # 打开 JSONL 文件并逐行读取
+    with open(file_path, "r") as file:
+        for line in file:
+            # 解析 JSON 行
+            json_item = json.loads(line)
+            
+            # 检查是否包含搜索关键词
+            if product_name == json_item["product_name"]:
+                document_chuck.append(json_item)
+                print(json_item)
+
+    answer_total = ""
+    print(len(document_chuck))
+    for chuck in document_chuck:
+        content = chuck["content"]
+        prompt = f"请判断此文件片内是否存在问题答案，如果有请回答，如果没有答案请返回‘答案不存在‘。文件内容：{content},问题：{args.query}"
+        answer = do_qwen_v2(prompt)
+        print(answer)
+        if "答案不存在" in answer: continue
+        answer_total = answer_total + ";" +answer
+    
+    
+    prompt_v1 = f"请根据信息完成问题的回答，文本：{answer_total},问题：{args.query}"
+    result = do_qwen_v2(prompt_v1)
+    
+    print("==================")
+    print(prompt_v1)
+    print(result)
+
+    return result
+
+
+electronic_messagesV3 = [{
+        'role': 'system',
+        'content': "You are a helpful assistant"
+    }]
+@app.post("/electronic_search_V3")
+async def create_item(args:argsString):
+    global electronic_messagesV3
+
+    # 清理message
+    total_length = 0
+    for message in electronic_messagesV3:
+        total_length += len(message['content'])
+    if total_length > 3000:
+        electronic_messagesV3 = [{
+            'role': 'system',
+            'content': "You are a helpful assistant"
+        }]
+    
+
+    llm = get_chat_model({
+        'model': "/mnt/resource/public_models/Qwen_Qwen-14B-Chat",
+        'model_server': 'http://localhost:8000/v1',  # api_base
+        'api_key': 'EMPTY',
+        'generate_cfg': {
+                'temperature': 0
+            }
+    })
+
+    functions = [{
+        'name': 'get_electronic_name',
+        'description': '查询问题中有关电子元件的名称',
+        'parameters': {
+            'type': 'object',
+            'properties': {
+                'product_name': {
+                    'type': 'list',
+                    'description': '电器元件名称'
+                }
+            },
+            'required': ['product_name'],
+        },
+    }]
+        
+    url = 'http://localhost:9200/electronic_product_id/_search'
+    headers = {'Content-Type': 'application/json'}
+    data = {
+        "size" : 10,
+        "query" : { "match" : { "product_name" : args.query }}
+    }
+    print(f"es_data:{data}")
+    # 发送 POST 请求
+    response = requests.post(url, headers=headers, json=data)
+    pcjsondata = json.loads(response.text)
+    
+    product_name_list = []
+    try:
+        for hit in pcjsondata['hits']['hits']:
+            product_name_list.append(hit["_source"]['product_name'])
+        product_name_list = list(set(product_name_list))
+    except Exception as e:
+        print(e)
+        return "答案不存在"
+
+    print(product_name_list)
+
+    # 只使用es 
+    product_list = product_name_list
+
+    # 大模型进行判断
+    prompt_electron_list = f'''请在产品列表中抽取跟问题有关的产品名称，不返回无关信息，返回json格式["xxx","xxx","xxx"...]，相关产品列表如下：{product_name_list},问题：{args.query}'''
+    
+    responses = llm.chat(
+        messages=[{
+            'role': 'user',
+            'content': prompt_electron_list
+        }],
+        functions=functions,
+        stream=False)
+    print(responses[0])
+
+    # 判断LLM返回值
+    last_response = responses[0]
+    product_list_llm = []
+    if last_response.get('function_call', None): 
+        function_args = json.loads(last_response['function_call']['arguments'])
+        product_list_llm = function_args.get("product_name")
+    
+    # matches = re.findall(r'\[(.*?)\]', answer)
+    # if matches:
+    #     product_list = [item.strip().replace("\"","") for item in matches[0].split(',')]
+    
+    print(product_list)
+
+    # 指定 JSONL 文件路径
+    file_path = "electronic_content.jsonl"
+    answer_total = ""
+    for product_name in product_list:
+        print(product_name)
+
+        # 简单的问题分解
+        query = args.query
+        for item in product_list_llm:
+            if item in product_name or product_name in item: continue
+            else:
+                query = query.replace(item , "")
+
+        print(query)
+
+        document_chuck = []
+        # 打开 JSONL 文件并逐行读取
+        with open(file_path, "r") as file:
+            for line in file:
+                # 解析 JSON 行
+                json_item = json.loads(line)
+                
+                # 检查是否包含搜索关键词
+                if product_name == json_item["product_name"]:
+                    document_chuck.append(json_item)
+                    # print(json_item)
+
+        answer_single = product_name + ": "
+
+        for chuck in document_chuck:
+            content = chuck["content"]
+            prompt_chuck_answer = f"请判断此文件片内是否存在问题答案，如果有请回答，如果没有答案请返回‘答案不存在‘，最后的结果请删除无关的信息。文件内容：{content},问题：{query}"
+            chuck_answer = do_qwen_v2(prompt_chuck_answer)
+            print(chuck_answer)
+            if "答案不存在" in chuck_answer: continue
+            answer_single = answer_single + chuck_answer
+        
+        answer_total = answer_total + answer_single
+    
+    
+    prompt_total_answer = f"请根据信息完成问题的回答，文本：{answer_total},问题：{args.query}"
+    electronic_messagesV3.append({
+        'role': 'user',
+        'content': prompt_total_answer
+    })
+    response = do_qwen_v1(electronic_messagesV3)
+    res = json.loads(response.text)
+    result = res['choices'][0]['message']['content']
+    electronic_messagesV3.append(res['choices'][0]['message'])
+    
+    print("==================")
+    print(prompt_total_answer)
+    print(result)
+    print(electronic_messagesV3)
+
+    return result
+
+
 @app.post("/reset_history")
 async def create_item():
+    # 这里要使用全局函数必须制定global关键字
+    global history, func_messages, electronic_func_messages, electronic_messages, electronic_messagesV3
     history = []
     func_messages = [{
         'role': 'system',
-        'content': "你是一个保险产品推荐和信息查询小助手，当用户在询问保险产品有关的问题时，请使用get_document函数来获取相关信息回答"
+        'content': SysPrompt
+    }]
+    electronic_func_messages = [{
+        'role': 'system',
+        'content': electronic_sysPrompt
+    }]
+    electronic_messages = [{
+        'role': 'system',
+        'content': "You are a helpful assistant"
+    }]
+    electronic_messagesV3 = [{
+        'role': 'system',
+        'content': "You are a helpful assistant"
     }]
 
 if __name__ == "__main__":

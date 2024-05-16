@@ -1,0 +1,4398 @@
+ 
+ 
+SGM41600 
+I2C Controlled 6A Single-Cell Switched-Capacitor 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+MARCH 2023 – REV. A. 1 
+ 
+GENERAL DESCRIPTION 
+The SGM41600 is an efficient 6A switched-capacitor battery 
+charging device with I2C control that can operate either in 
+charge-pump voltage divider mode or in bypass mode. It can 
+charge single-cell Li-Ion or Li-polymer battery in a wide 3.3V 
+to 11.5V input voltage range (VBUS) from smart wall adapters 
+or power banks. The switched-capacitor architecture is 
+optimized for 50% duty cycle to cut the input current to 
+one-half of the battery current and reduce the wiring drops, 
+losses and temperature rise in the application. 
+A two-phase switched-capacitor topology is used to reduce 
+the required input capacitors, improve efficiency and minimize 
+the output ripple. Necessary protection features for safe 
+charging performance including input over-voltage protection 
+by external OVPFET (QOVP) and input reverse blocking (using 
+an internal NFET) are provided. 
+A fast analog-to-digital converter (ADC) with 12-bit effective 
+resolution is also included to measure die temperature, bus 
+voltage, bus current, battery voltage and battery current (5 
+channels) for battery management of the charge process. 
+The SGM41600 is available in a Green WLCSP- 2.6×2.6-36B 
+package and can operate in the -40℃ to +85℃ ambient 
+temperature range. 
+FEATURES 
+● 
+Efficiency Optimized Switched-Capacitor Architecture 
+ Up to 6A Output Current 
+ 3.3V to 11.5V Input Voltage Range 
+ 200kHz to 1.5MHz Switching Frequency Setting 
+ Up to 97% Voltage Divider Mode Efficiency 
+(when VBAT = 4V, IBAT = 3A) 
+● 
+Comprehensive Integrated Protection Features 
+ External OVP Control and Regulation 
+ Input Over-Voltage Protection (BUS_OVP) 
+ Input Short-Circuit Protection (BUS_SC) 
+ Input Over-Current Protection (IBUS_OCP) 
+ Input Under-Current Protection (IBUS_UCP) 
+ Battery Over-Voltage Protection (BAT_OVP) 
+ Output Short-Circuit Protection (VOUT_SC) 
+ Battery Over-Current Protection (IBAT_OCP) 
+ CFLY Short-Circuit Protection (CFLY_SC) 
+ Converter Over-Current Protection (CONV_OCP) 
+ Die Over-Temperature Protection (TDIE_OTP) 
+● 
+5-Channel 12-Bit (Effective) ADC Converter 
+ VBUS, IBUS, VBAT, IBAT, TDIE Monitoring 
+ 
+APPLICATIONS 
+Smart Phone, Tablet PC 
+TYPICAL APPLICATION 
+VBUS
+OVPGATE
+VAC BST1 CFH1 CFL1
+REGN
+SDA
+SCL
+nINT
+DP
+DM
+VOUT
+PGND
+BATP
+BATN/SRP
+SRN
+BST2 CFH2 CFL2
+PMID
+Battery 
+Pack
+AGND
+Host
+Adapter
+CREGN
+CPMID
+CVOUT
+CVBUS
+RSEN
+QOVP
+SGM41600
+CBST1
+CFLY1
+CBST2 CFLY2
+ 
+Figure 1. Typical Application Circuit 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+2 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM41600 
+WLCSP-2.6×2.6-36B 
+-40℃ to +85℃ 
+SGM41600YG/TR 
+SGM 
+41600 
+XXXXX 
+XX#XX 
+Tape and Reel, 5000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code. XX#XX = Coordinate Information and Wafer ID Number. 
+Wafer ID Number ("A" = 01, "B" = 02, … "Y" = 25)
+Coordinate Information
+Coordinate Information
+XX
+XX
+Trace Code
+Vendor Code 
+Date Code - Year
+X
+X X
+X X
+＃
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+VAC (Converter Not Switching) ......................... -0.3V to 30V 
+OVPGATE ......................................................... -0.3V to 30V 
+OVPGATE to VBUS 
+............................................. -0.3V to 6V 
+VBUS, PMID (Converter Not Switching) ............ -0.3V to 22V 
+BST1, BST2 
+....................................... -0.3V to (PMID + 5.5V) 
+VOUT 
+................................................................... -0.3V to 6V 
+CFH1, CFH2 to VOUT ......................................... -0.3V to 6V 
+CFL1, CFL2 ......................................................... -0.3V to 6V 
+DP, DM, REGN, BATP, SDA, SDL, nINT............. -0.3V to 6V 
+BATN/SRP, SRN .............................................. -0.3V to 1.8V 
+SRP to SRN 
+...................................................... -0.5V to 0.5V 
+Package Thermal Resistance 
+WLCSP-2.6×2.6-36B, θJA .......................................... 58℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+2000V 
+CDM ............................................................................ 
+1000V 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+RECOMMENDED OPERATING CONDITIONS 
+VAC 
+..................................................................... 3.3V to 18V 
+OVPGATE 
+.............................................................. 8V to 23V 
+VBUS (Bypass Mode) ........................................ 3.3V to 5.5V 
+VBUS (Voltage Divider Mode) 
+.......................... 5.5V to 11.5V 
+VOUT, BATP 
+............................................................ 3V to 5V 
+IVOUT (Bypass Mode) 
+................................................. 0A to 4A 
+IVOUT (Voltage Divider Mode) .................................... 0A to 6A 
+(CFH1 - VOUT), CFL1 
+........................................... 0V to 5.5V 
+(CFH2 - VOUT), CFL2 
+........................................... 0V to 5.5V 
+BATN/SRP, SRN 
+................................................... 0V to 1.5V 
+(SRP - SRN) 
+.................................................. 
+-0.05V to 0.05V 
+SDA, SCL, nINT ....................................................... 0V to 5V 
+Junction Temperature Range 
+...................... -40℃ to +125℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+3 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+   (TOP VIEW) 
+1
+2
+3
+VOUT
+VOUT
+BATN
+/SRP
+D
+VBUS
+VAC
+VBUS
+A
+PMID
+BST1
+DP
+B
+CFH1
+CFH1
+SDA
+C
+4
+SRN
+VBUS
+DM
+SCL
+5
+VOUT
+VBUS
+PMID
+CFH2
+6
+VOUT
+OVP
+GATE
+BST2
+CFH2
+PGND
+PGND
+AGND
+F
+CFL1
+CFL1
+BATP
+E
+REGN
+nINT
+PGND
+CFL2
+PGND
+CFL2
+ 
+   WLCSP-2.6×2.6-36B 
+ 
+ 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+4 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN DESCRIPTION 
+PIN 
+NAME 
+TYPE (1) 
+FUNCTION 
+A1 
+VAC 
+AI 
+Adapter DC Voltage Sense Input Pin. Connect it to the drain of the external OVPFET (QOVP). 
+A2, A3, A4, A5 
+VBUS 
+P 
+Device Power Input Pins. Connect a 10µF or larger ceramic capacitor between VBUS and PGND 
+pins as close to the device as possible. 
+A6 
+OVPGATE 
+AO 
+External N-FET Gate Control Pin. Connect to the gate of the external OVPFET (QOVP). 
+B1 
+BST1 
+P 
+Phase 1 Bootstrap Pin. It is the BST pin to supply QCH1 gate driver. Use a 0.1μF or larger MLCC 
+capacitor from this pin to CFH1 pin. 
+B2, B5 
+PMID 
+P 
+Power Stage Supply Input Pins. Bypass them with at least 10µF ceramic capacitor to PGND. 
+B3 
+DP 
+AIO 
+USB Communication Interface Positive Line. Connect to the USB D+ data line. 
+B4 
+DM 
+AIO 
+USB Communication Interface Negative Line. Connect to the USB D- data line. 
+B6 
+BST2 
+P 
+Phase 2 Bootstrap Pin. It is the BST pin to supply QCH2 gate driver. Use a 0.1μF or larger MLCC 
+capacitor from this pin to CFH2 pin. 
+C1, C2 
+CFH1 
+P 
+Phase 1 Flying Capacitor Positive Pins. Connect two 22µF or larger parallel capacitors between 
+CFH1 and CFL1 pins as close as possible to the device. 
+C3 
+SDA 
+DIO 
+I2C Interface Data Line. 
+C4 
+SCL 
+DI 
+I2C Interface Clock Input Line. 
+C5, C6 
+CFH2 
+P 
+Phase 2 Flying Capacitor Positive Pins. Connect two 22µF or larger parallel capacitors between 
+CFH2 and CFL2 pins as close as possible to the device. 
+D1, D2, D5, D6 
+VOUT 
+P 
+Output Pins. Connect to the battery pack positive terminal. Two 10µF capacitors between VOUT 
+and PGND pins are recommended. 
+D3 
+BATN/SRP 
+AI 
+Battery Voltage Sensing Negative Input or Battery Current Sensing Positive Input. 
+D4 
+SRN 
+AI 
+Battery Current Sensing Negative Input. Place a 5mΩ (RSEN) shunt resistor between SRN and 
+BATN/SRP pins. 
+E1, E2 
+CFL1 
+P 
+Phase 1 Flying Capacitor Negative Pins. Connect two 22µF or larger parallel capacitors between 
+CFH1 and CFL1 pins as close as possible to the device. 
+E3 
+BATP 
+AI 
+Battery Voltage Sensing Positive Input. Connect a 100Ω resistor between BATP and positive 
+terminal of the battery pack. 
+E4 
+nINT 
+DO 
+Open-Drain Interrupt Output Pin. Connect a pull-up 10kΩ to the logic high rail. It is normally high 
+but generates a low 256µs pulse when a charge fault occurs to inform the host. 
+E5, E6 
+CFL2 
+P 
+Phase 2 Flying Capacitor Negative Pins. Connect two 22µF or larger parallel capacitors between 
+CFH2 and CFL2 pins as close as possible to the device. 
+F1, F2, F5, F6 
+PGND 
+P 
+Power Ground Pin. 
+F3 
+AGND 
+P 
+Analog Ground Pin (reference for low current signals). 
+F4 
+REGN 
+AO 
+Internal 3.3V LDO Output. Connect a 4.7μF MLCC capacitor between this pin and AGND. 
+ 
+NOTE: 
+1. P = power, AI = analog input, AO = analog output, AIO = analog input/output, DI = digital input, DO = digital output, DIO = 
+digital input/output. 
+ 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+5 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(TJ = -40℃ to +125℃, typical values are at TJ = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Supply Currents 
+VAC Input Quiescent Current 
+(No VBUS or BAT sources) 
+IQ_VAC 
+ADC disabled, charge disabled, QOVP used,  
+VAC OVP activated, VVAC = 12V, VVBUS = 0V,  
+VVOUT = 0V 
+ 
+200 
+280 
+µA 
+VBUS Power Input Quiescent 
+Current (1) 
+IQ_VBUS 
+ADC disabled, charge disabled, QOVP used, 
+VVBUS = 8V 
+ 
+50 
+70 
+µA 
+ADC enabled, charge enabled, QOVP used, 
+VVBUS = 8V > 2 × VVOUT, fSW = 500kHz 
+ 
+10 
+ 
+mA 
+Battery-Only Quiescent Current 
+IQ_VOUT 
+ADC disabled, charge disabled, 
+VBUS not present, VVAC = 0V, VVOUT = 4.5V 
+ 
+10 
+30 
+µA 
+ADC enabled, charge disabled, (after 1-shot ADC 
+conversion complete), VBUS not present, 
+VVAC = 0V, VVOUT = 4.5V 
+ 
+10 
+ 
+µA 
+VBUS Present Rising Threshold 
+VBUS_PRESENT_R 
+VVBUS rising 
+ 
+3 
+3.3 
+V 
+VBUS Present Hysteresis 
+VBUS_PRESENT_HYS  
+ 
+240 
+ 
+mV 
+External OVP Control 
+VAC Present Rising Threshold 
+VVAC_PRESENT_R 
+VVAC rising 
+ 
+3 
+3.35 
+V 
+VAC Present Hysteresis 
+VVAC_PRESENT_HYS  
+ 
+160 
+ 
+mV 
+VAC Present Rising Threshold 
+Deglitch Time (1) 
+tVAC_IN_DEG 
+VBAT = 4V, deglitch between VVAC rising above 
+VVAC_PRESENT_R and starting external OVPFET turn-on 
+ 
+20 
+ 
+ms 
+VAC OVP Rising Threshold 
+VVAC_OVP 
+I2C programmable, 1V per step, 12V by default 
+4 
+ 
+19 
+V 
+VAC OVP Threshold Accuracy 
+VVAC_OVP_ACC 
+VVAC_OVP = 5V or 12V 
+-2.7 
+ 
+3.7 
+% 
+VAC OVP Rising 
+Deglitch Time (1) 
+tVAC_OVP_DEG 
+Deglitch between VVAC rising above VVAC_OVP 
+and triggering the protection action 
+ 
+100 
+ 
+ns 
+VBUS Pull-Down Resistor 
+RPD_VBUS 
+VVBUS = 2V 
+ 
+1 
+ 
+kΩ 
+VAC Pull-Down Resistor 
+RPD_VAC 
+ 
+ 
+60 
+70 
+Ω 
+VAC Pull-Down Timeout (1) 
+tVAC_PD 
+AC_PDN_EN = 1 
+ 
+400 
+ 
+ms 
+VBAT Regulation Range 
+VBAT_REG 
+I2C programmable, 50mV per step 
+VBAT_OVP 
+- 200mV 
+ 
+VBAT_OVP 
+- 50mV 
+ 
+VBAT Regulation Accuracy 
+VBAT_REG_ACC 
+VBAT_REG = 4.3V, TJ = +25℃ 
+-0.4 
+ 
+0.4 
+% 
+VBAT_REG = 4.3V, TJ = -40℃ to +125℃ 
+-0.8 
+ 
+0.8 
+VBAT Regulation Entry  
+Deglitch Time (1) 
+tVBAT_IN_DEG 
+Deglitch between VBAT rising above VBAT_REG 
+(entering regulation mode), and flag bit set to 1 
+ 
+500 
+ 
+µs 
+IBAT Regulation Range 
+IBAT_REG 
+I2C programmable, 100mA per step 
+IBAT_OCP 
+- 500mA 
+ 
+IBAT_OCP 
+- 200mA 
+ 
+IBAT Regulation Accuracy 
+IBAT_REG_ACC 
+IBAT = 4A, RSEN = 5mΩ, TJ = +25℃ 
+-5.5 
+ 
+5 
+% 
+IBAT Regulation Entry  
+Deglitch Time (1) 
+tIBAT_IN_DEG 
+Deglitch between IBAT rising above IBAT_REG 
+(entering regulation mode ) and flag bit set to 1 
+ 
+500 
+ 
+µs 
+Switched Capacitor Chargers 
+VBUS to VOUT Resistance 
+RDROPOUT 
+Bypass mode 
+ 
+30 
+45 
+mΩ 
+RDSON of Reverse Blocking FET 
+RDS_QRB 
+VVBUS = 10V, VVOUT = 5V, IBAT = 1A 
+ 
+10 
+18 
+mΩ 
+RDSON of QCH1/2 
+RDS_QCH 
+VVBUS = 10V, VVOUT = 5V, IBAT = 1A 
+ 
+26 
+ 
+mΩ 
+RDSON of QDH1/2 
+RDS_QDH 
+VVBUS = 10V, VVOUT = 5V, IBAT = 1A 
+ 
+14 
+ 
+mΩ 
+RDSON of QCL1/2 
+RDS_QCL 
+VVBUS = 10V, VVOUT = 5V, IBAT = 1A 
+ 
+14 
+ 
+mΩ 
+RDSON of QDL1/2 
+RDS_QDL 
+VVBUS = 10V, VVOUT = 5V, IBAT = 1A 
+ 
+14 
+ 
+mΩ 
+ 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+6 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(TJ = -40℃ to +125℃, typical values are at TJ = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Protection 
+nINT Low Pulse Duration when a 
+Protection Occurs 
+tINT 
+ 
+ 
+256 
+ 
+µs 
+VBUS OVP Rising Threshold 
+Programming Range 
+VBUS_OVP 
+I2C programmable, 100mV per step, 11.5V by 
+default 
+4 
+ 
+14 
+V 
+VBUS OVP Threshold Accuracy 
+VBUS_OVP_ACC 
+VBUS_OVP = 5V or 11.5V 
+-3.5 
+ 
+2 
+% 
+VBUS OVP Rising Deglitch Time (1) 
+tVBUS_OVP_DEG 
+Deglitch between VVBUS rising above VBUS_OVP 
+and triggering protection action 
+ 
+100 
+ 
+ns 
+IBUS OCP Threshold Programming 
+Range 
+IBUS_OCP 
+Voltage divider 
+mode 
+I2C programmable, 
+100mA per step, 3A by default 
+0.5 
+ 
+3.6 
+A 
+Bypass mode 
+I2C programmable, 
+100mA per step, 5A by default 
+2.5 
+ 
+5.6 
+IBUS OCP Threshold Initial Accuracy 
+IBUS_OCP_ACC 
+IBUS = 2.5A, TJ = +25℃ 
+-6 
+ 
+6 
+% 
+IBUS OCP Deglitch Time 
+tIBUS_OCP_DEG 
+Deglitch between IBUS rising above IBUS_OCP 
+and triggering protection action 
+ 
+50 
+ 
+µs 
+IBUS UCP Rising Threshold 
+IBUS_UCP_R 
+Rising, set by REG0x07[6] = 0 
+200 
+300 
+400 
+mA 
+Rising, set by REG0x07[6] = 1 
+400 
+500 
+600 
+IBUS UCP Rising Deglitch Time 
+tIBUS_UCPR_DEG 
+Deglitch between IBUS rising above IBUS_UCP_R 
+and triggering protection action 
+ 
+10 
+ 
+µs 
+IBUS UCP Falling Threshold 
+IBUS_UCP_F 
+Falling, set by REG0x07[6] = 0 
+50 
+150 
+250 
+mA 
+Falling, set by REG0x07[6] = 1 
+150 
+250 
+350 
+IBUS UCP Falling Deglitch Time 
+tIBUS_UCPF_DEG 
+Deglitch between IBUS falling below IBUS_UCP_F 
+and triggering protection action 
+ 
+10 
+ 
+µs 
+VBAT OVP Rising Threshold 
+Programming Range 
+VBAT_OVP 
+I2C programmable, 25mV per step, 
+4.35V by default 
+4 
+ 
+5 
+V 
+VBAT OVP Threshold Accuracy 
+VBAT_OVP_ACC 
+VBAT_OVP = 4.35V 
+-0.5 
+ 
+0.5 
+% 
+VBAT OVP Rising Deglitch Time 
+tVBAT_OVP_DEG 
+Deglitch between VBAT rising above VBAT_OVP 
+and triggering protection action 
+ 
+8 
+ 
+µs 
+During VBAT_REG 
+ 
+500 
+ 
+µs 
+IBAT OCP Threshold Programming 
+Range 
+IBAT_OCP 
+I2C programmable, 100mA per step, 
+7.2A by default 
+2 
+ 
+7.2 
+A 
+IBAT OCP Threshold Accuracy 
+IBAT_OCP_ACC 
+IBAT = 4A, RSEN = 5mΩ, TJ = +25℃ 
+ 
+4.1 
+ 
+A 
+IBAT = 4A, RSEN = 5mΩ, TJ = +25℃ 
+-5.5 
+ 
+5.5 
+% 
+IBAT OCP Deglitch Time 
+tIBAT_OCP_DEG 
+Deglitch between IBAT rising above IBAT_OCP 
+and triggering protection action 
+ 
+50 
+ 
+µs 
+During IBAT_REG 
+ 
+500 
+ 
+µs 
+VDRP OVP Threshold Programming 
+Range 
+VDRP_OVP 
+I2C programmable, 50mV per step, 
+300mV by default, VDRP = VVAC - VVBUS 
+50 
+ 
+400 
+mV 
+TDIE OTP Rising Threshold 
+TDIE_OTP 
+ 
+ 
+150 
+ 
+℃ 
+Watchdog Timeout Programming 
+Range (1) 
+tWDT 
+I2C programmable, 0.5s by default 
+0.5 
+ 
+80 
+s 
+ADC Specification 
+ADC Resolution 
+ADCRES 
+ 
+ 
+12 
+ 
+bits 
+ADC Conversion Time (1) 
+tADC_CONV 
+Report data for each channel 
+ 
+3 
+3.5 
+ms 
+ADC BUS Voltage Readable in 
+REG0x12 and REG0x13 
+VBUS_ADC 
+Range 
+0 
+ 
+16.38 
+V 
+LSB 
+ 
+4 
+ 
+mV 
+ADC BUS Voltage Accuracy 
+VBUS_ADC_ACC 
+VVBUS = 3.3V to 11.5V, TJ = 0℃ to +85℃ 
+-2.5 
+ 
+2 
+% 
+ADC BUS Current Readable in 
+REG0x14 and REG0x15 
+IBUS_ADC 
+Range 
+0 
+ 
+8.19 
+A 
+LSB 
+ 
+2 
+ 
+mA 
+ADC BUS Current Accuracy 
+IBUS_ADC_ACC 
+IBUS = 2A, TJ = 0℃ to +85℃ 
+ 
+2 
+ 
+% 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+7 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(TJ = -40℃ to +125℃, typical values are at TJ = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+ADC BAT Voltage Readable in 
+REG0x16 and REG0x17 
+VBAT_ADC 
+Range 
+0 
+ 
+5.5 
+V 
+LSB 
+ 
+2 
+ 
+mV 
+ADC BAT Voltage Initial Accuracy 
+VBAT_ADC_ACC VBAT = 3V to 4.8V, TJ =+25℃ 
+-0.85 
+ 
+0.75 
+% 
+ADC BAT Current Readable in 
+REG0x18 and REG0x19 
+IBAT_ADC 
+Range 
+0 
+ 
+8.19 
+A 
+LSB 
+ 
+2 
+ 
+mA 
+ADC BAT Current Initial Accuracy 
+IBAT_ADC_ACC IBAT = 4A, RSEN = 5mΩ, TJ =+25℃ 
+-7.5 
+ 
+7.5 
+% 
+ADC TDIE Temperature Readable in 
+REG0x1A 
+TDIE_ADC 
+Range 
+-40 
+ 
+150 
+℃ 
+LSB 
+ 
+1 
+ 
+℃ 
+ADC TDIE Temperature Accuracy 
+TDIE_ADC_ACC  
+ 
+±4 
+ 
+℃ 
+Logic I/O Threshold (SCL, SDA and nINT Pins) 
+High Level Input Voltage 
+VIH_I2C 
+SCL and SDA pins 
+1.3 
+ 
+ 
+V 
+Low Level Input Voltage 
+VIL_I2C 
+SCL and SDA pins 
+ 
+ 
+0.4 
+V 
+Low Level Output Voltage 
+VOL_I2C 
+Sink 5mA, SDA and nINT pins 
+ 
+ 
+0.4 
+V 
+I2C Characteristics 
+SCL Clock Frequency 
+fCLK 
+Fast-mode 
+ 
+400 
+ 
+kHz 
+Fast-mode plus 
+ 
+1000 
+ 
+DP/DM Detection 
+DP Force Detection Voltage 
+VDP_SRC 
+ 
+0.55 
+0.6 
+0.65 
+V 
+DM Pull-Down Detection Threshold 
+VDAT_REF 
+ 
+ 
+ 
+0.4 
+V 
+DM Pull-Down Detection Debounce Time (1) 
+tDCD_DBNC 
+ 
+ 
+60 
+ 
+ms 
+ 
+NOTE: 
+1. Guaranteed by design. 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+8 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+Typical performance characteristics are taken with test equipment and the demo board for non-switching and switching tests, 
+respectively. 
+ 
+    Efficiency vs. Charge Current 
+    Efficiency vs. Charge Current 
+ 
+ 
+     Device Loss vs. Charge Current 
+    Device Loss vs. Charge Current 
+ 
+ 
+    VOUT Ripple at 500kHz 
+    VBAT_OVP Accuracy vs. VBAT_OVP Setting Voltage 
+ 
+ 
+ 
+ 
+94
+95
+96
+97
+98
+99
+0
+1
+2
+3
+4
+5
+6
+7
+Efficiency (%) 
+Charge Current (A) 
+VBAT = 4V, 2 × 22μF per Phase 
+— 200kHz 
+— 375kHz 
+— 500kHz 
+— 750kHz 
+— 1000kHz  
+— 1250kHz 
+— 1500kHz  
+94
+95
+96
+97
+98
+99
+0
+1
+2
+3
+4
+5
+6
+7
+Efficiency (%) 
+Charge Current (A) 
+VBAT = 4V, 3 × 22μF per Phase 
+— 200kHz 
+— 375kHz 
+— 500kHz 
+— 750kHz 
+— 1000kHz  
+— 1250kHz 
+— 1500kHz  
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2
+1.4
+1.6
+0
+1
+2
+3
+4
+5
+6
+7
+Device Loss (W) 
+Charge Current (A) 
+VBAT = 4V, 2 × 22μF per Phase 
+— 200kHz 
+— 375kHz 
+— 500kHz 
+— 750kHz 
+— 1000kHz  
+— 1250kHz 
+— 1500kHz  
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2
+1.4
+1.6
+0
+1
+2
+3
+4
+5
+6
+7
+Device Loss (W) 
+Charge Current (A) 
+VBAT = 4V, 3 × 22μF per Phase 
+— 200kHz 
+— 375kHz 
+— 500kHz 
+— 750kHz 
+— 1000kHz  
+— 1250kHz 
+— 1500kHz  
+40
+60
+80
+100
+120
+140
+160
+1
+2
+3
+4
+5
+6
+VOUT Ripple (mV) 
+Charge Current (A) 
+VBAT = 4V, f = 500kHz 
+— 2 × 22μF per Phase 
+— 3 × 22μF per Phase 
+-0.5
+-0.4
+-0.3
+-0.2
+-0.1
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+4.0
+4.1
+4.2
+4.3
+4.4
+4.5
+4.6
+4.7
+4.8
+4.9
+5.0
+VBAT_OVP Accuracy (%) 
+VBAT_OVP (V) 
+IBAT = 1A, f = 500kHz 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+9 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+Typical performance characteristics are taken with test equipment and the demo board for non-switching and switching tests, 
+respectively. 
+ 
+     IBUS_ADC Accuracy vs. BUS Current 
+     IBUS_ADC Error vs. BUS Current 
+ 
+ 
+     IBAT_ADC Accuracy vs. BAT Current 
+     IBAT_ADC Error vs. BAT Current 
+ 
+ 
+     VBAT_ADC Accuracy vs. BAT Voltage 
+      VBAT_ADC Error vs. BAT Voltage 
+ 
+ 
+ 
+ 
+-5
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+4
+5
+0.3
+0.6
+0.9
+1.2
+1.5
+1.8
+2.1
+2.4
+2.7
+3.0
+IBUS_ADC Accuracy (%) 
+IBUS (A) 
+VBAT = 4V, f = 500kHz 
+-0.100
+-0.075
+-0.050
+-0.025
+0.000
+0.025
+0.050
+0.075
+0.100
+0.0
+0.3
+0.6
+0.9
+1.2
+1.5
+1.8
+2.1
+2.4
+2.7
+3.0
+IBUS_ADC Error (A) 
+IBUS (A) 
+VBAT = 4V, f = 500kHz 
+-1
+0
+1
+2
+3
+4
+5
+0.5
+1.5
+2.5
+3.5
+4.5
+5.5
+6.5
+IBAT_ADC Accuracy (%) 
+IBAT (A) 
+VBAT = 4V, f = 500kHz 
+-0.10
+-0.05
+0.00
+0.05
+0.10
+0.15
+0.20
+0.5
+1.5
+2.5
+3.5
+4.5
+5.5
+6.5
+IBAT_ADC Error (A) 
+IBAT (A) 
+VBAT = 4V, f = 500kHz 
+-1.00
+-0.75
+-0.50
+-0.25
+0.00
+0.25
+0.50
+0.75
+1.00
+3.0
+3.2
+3.4
+3.6
+3.8
+4.0
+4.2
+4.4
+4.6
+VBAT_ADC Accuracy (%) 
+VBAT (V) 
+IBAT = 4A, f = 500kHz 
+-0.100
+-0.075
+-0.050
+-0.025
+0.000
+0.025
+0.050
+0.075
+0.100
+0
+1
+2
+3
+4
+5
+6
+VBAT_ADC Error (V) 
+VBAT (V) 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+10 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL APPLICATION CIRCUIT 
+VBUS
+OVPGATE
+VAC BST1 CFH1 CFL1
+REGN
+SDA
+SCL
+nINT
+DP
+DM
+VOUT
+PGND
+BATP
+BATN/SRP
+SRN
+BST2 CFH2 CFL2
+PMID
+Battery 
+Pack
+AGND
+Host
+CREGN
+4.7μF
+CPMID
+10μF
+CVBUS
+10μF
+10kΩ × 3
+RSEN
+5mΩ
+RBATP
+100Ω 
+QOVP
+SGM41600
+Adapter
+CVAC
+1μF
+3V3
+CBST1
+100nF
+CFLY1
+22μF × 2
+CFLY2
+22μF × 2
+CBST2
+100nF
+CVOUT
+10μF × 2
+ 
+Figure 2. Typical Application Circuit 
+ 
+FUNCTIONAL BLOCK DIAGRAM 
+Driver
+Control
+Driver
+Control
+CFH1
+CFL1
+PMID
+BST1
+PGND
+VOUT
+Driver
+Control
+VBUS
+Bias Power 
+Select
+& LDO
+REGN
+VAC
+External 
+OVPFET 
+Control
+OVPGATE
+Protection
+IBUS_OCP
+IBUS_UCP
+VBUS_OVP
+VBUS
+VBAT_OVP
+VBAT
+BATP
+IBAT_OCP
+IBAT
+BATN/SRP
+SRN
+CFLY_SC
+CFHx
+CFLx
+VAC_OVP
+VAC
+CONV_OCP
+ICONV
+TDIE_OTP
+TDIE
+VDRP_OVP
+VAC
+VBUS
+VBAT
+IBAT
+Driver
+Control
+Driver
+Control
+BST2
+CFH2
+CFL2
+Switched 
+Capacitor 
+Control
+Digital 
+Control
+SCL
+SDA
+nINT
+DP
+DM
+12-Bit
+ADC
+VBUS
+IBUS
+VBAT
+IBAT
+TDIE
+VOUT
+PGND
+PMID
+AGND
+QRB
+QCH1
+QDL1
+QDH1
+QCL1
+QDH2
+QCL2
+QCH2
+QDL2
+ 
+Figure 3. Functional Block Diagram 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+11 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION 
+The SGM41600 is an efficient 6A battery charger that 
+operates in voltage divider mode (switched-capacitor charge 
+pump) or in bypass mode. A two-phase switched-capacitor 
+core is integrated in the device to minimize the ripples and 
+improve efficiency in the voltage divider mode. A FET control 
+output for protection, a reverse blocking NFET and all other 
+necessary protection features for safe charging are included. 
+A high speed 12-bit ADC converter is also included to provide 
+bus voltage, bus current, battery voltage, battery current, and 
+die temperature information for the charge management host 
+via I2C serial interface. 
+Charge-Pump Voltage Divider Mode 
+The charge-pump voltage divider mode operates with a fixed 
+50% duty cycle. The basic principle of operation is shown in 
+Figure 4. In period 1, Q1 and Q3 are tuned on and VPMID 
+charges the CFLY and the battery (in series) such that: 
+VCFLY = VPMID - VBAT 
+(1) 
+In period 2, Q2 and Q4 are turned on and CFLY appears in 
+parallel with the battery: 
+VCFLY = VBAT 
+(2) 
+Ignoring the small fluctuation of the capacitor and battery 
+voltages in period 1 and 2 in steady state operation, Equation 
+1 and 2 can be combined to calculate capacitor voltage: 
+VCFLY = VBAT = VPMID/2 
+ (3) 
+Ignoring small energy loss in each switching period, the input 
+and output cycle-average powers are equal. Therefore, 
+VPMID × IBUS = VBAT × IBAT 
+(4) 
+or 
+IBUS = IBAT/2 
+(5) 
+VPMID
+CFLY
+Q1
+Q2
+Q3
+CVOUT
+VBAT
+Q4
+IBUS
+CFLY
+IBAT
+VCFLY
+VPMID
+VBAT
+Period 1
+IBUS
+CFLY
+IBAT
+VCFLY
+VPMID
+VBAT
+Period 2
+ 
+Figure 4. Voltage Divider Charger Operating Principle 
+ 
+Assuming no charge leakage path and considering REFF as 
+the effective input to output resistance (due to the switch 
+on-resistances and CFLY losses), the divider can be modeled 
+as shown in Figure 5. Using this model, the output voltage is 
+half of the input voltage under no load conditions as explained 
+before. The SGM41600 has two phases of such architecture 
+operating at fSW frequency with 180° phase difference. Each 
+phase provides IVOUT/2 at the VOUT node, so: 
+VVOUT = ½VPMID - ½REFF × IVOUT        (6) 
+At low switching frequencies the capacitor charge sharing 
+losses are dominant and REFF ≈ 1/(4fSWCFLY). As frequency 
+increases, REFF finally approaches (RDS_QCH + RDS_QDH + 
+RDS_QCL + RDS_QDL)/2. 
+REFF
+VPMID
+2:1
+VVOUT
++
+-
++
+-
+ 
+Figure 5. Model of Voltage Divider 
+ 
+The two-phase interleaved operation ensures a smooth input 
+current and simplifies the noise filtering. The VOUT ripple can 
+be estimated by first order approximation of CFLY voltage drop 
+due to the discharge in the half period, plus the discharge 
+drop during the short dead time (15ns, TYP). 
+Selecting high quality CFLY capacitors and proper switching 
+frequency are the key factors for a well performing capacitor 
+voltage divider. Switching frequency selection is a trade-off 
+between efficiency and capacitor size. Lower frequency 
+increases efficiency by reducing switching losses but requires 
+larger capacitance to maintain low output ripple and low 
+output impedance (REFF). An optimum switching frequency 
+can be found for any selected CFLY capacitor to minimize 
+losses. 
+Bypass Mode 
+The SGM41600 is designed to operate in bypass mode when 
+VBUS is close to the VVOUT. When such valid voltage is present 
+on VBUS, the device enters bypass mode and all switches 
+between VBUS and VOUT are fully turned on while the other 
+switches are kept off. When VBUS is near VVOUT, the bypass 
+mode offers the best efficiency and the device is capable of 
+sourcing up to 5.6A (Maximum 4A continuous current is 
+recommended in this mode). 
+The output voltage is close to the VBUS minus a voltage drop 
+caused by the on-resistances of the RBFET plus the two 
+high-side switches of the two phases in parallel. So the REFF 
+in bypass mode is: 
+EFF
+DS _ QCH1
+DS _ QDH1
+DS _ QCH2
+DS _ QDH2
+(
+)
+(
+)|
+R
+Bypass mode
+R
+R
+)
+R
+| R
+(
+≈
++
++
+ (7) 
+where RDS_QXX is the on-resistance of the switch xx. 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+12 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Charge System 
+The SGM41600 is a slave charger device and needs a host. 
+The host must set up all protection functions and disable the 
+main charger before enabling the SGM41600. The host must 
+monitor the nINT interrupts especially during high current 
+charging. It must also communicate with the wall adapter to 
+control the charge current. 
+Figure 6 shows the block diagram of a charge system using 
+the SGM41600 along with a PD controller and other devices. 
+In this system, the SGM41600 can allow each of the D+/D 
+lines to be controlled independently to output one of the 
+preset voltage levels (0V, 0.6V, 1.2V, 2.0V, 2.7V, 3.3V, and 
+Hi-Z). Each line can be set to one of these presets via I2C in 
+REG0x36. This allows the implementation of a handshaking 
+protocol between the charger and an adapter with an 
+interface that allows adjusting the voltage. Since the adapter 
+voltage is controllable, the operating point of the charger can 
+be fine-tuned to ensure high efficiency during charging. When 
+the smart wall adapter is detected, the AP unit controls the 
+switching charger (SGM41516) that powers the load system 
+and the switched capacitor charger (SGM41600) that 
+provides high current charging. The communication between 
+those devices is via I2C serial interface. 
+A typical charge profile for a high-capacity battery using 
+switching charger and switched capacitor charger together is 
+shown in Figure 7. During the trickle charge and pre-charge, 
+the charging is controlled by the switching charger. Once the 
+battery voltage reaches 3V, the adapter can negotiate for a 
+higher bus voltage and enable the SGM41600 for charging 
+(bypass or voltage divider mode). Once the battery voltage 
+reaches the VBAT_REG point, the SGM41600 provides feedback 
+to the adapter to reduce the current. This will eventually 
+reduce and ramp down the bus current below IBUS_UCP_F. 
+Startup Sequence 
+The SGM41600 is powered from the greater of VAC or VOUT 
+(VAC is used as sense input for adapter voltage as well). The 
+internal watchdog timer is enabled by default and if no I2C 
+read or write occurs before its expiry, the ADC_EN and 
+CHG_MODE bits are reset to their default values and after an 
+initial 8ms power-up time, an INT pulse is triggered to show 
+watchdog timeout. The host should not attempt to read or 
+write before this initial nINT signal. 
+The device does not start charging after powered up, 
+because by default the charger is disabled. The ADC can be 
+enabled and the host can read the system parameters before 
+enabling charge. The charge can be enabled only if VVBUS > 
+VBUS_PRESENT_R and VBATP > 2.8V. 
+Device Power-Up from Battery without 
+Input Source 
+To reduce the quiescent current and maximize the battery run 
+time when it is the only available source, the REGN LDO and 
+most of the sensing circuits are turned off, except 
+AC_PRESENT, BUS_INSERT and BAT_INSERT functions. 
+When the BUS_PDN_EN bit is set, the external OVPFET is 
+turned off, and VBUS pull-down RPD_VBUS is activated to help 
+discharging VBUS after a hot-plug event. This will keep the 
+device in low quiescent current mode even after an input 
+source is plugged. 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+13 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+ 
+Smart Wall 
+Adaptor
+Type C
+Connector
+VBUS
+D+
+D-
+CC1
+CC2
+CC1
+CC2
+D+
+D-
+VBUS
+Type C
+Connector
+CC1
+CC2
+VBUS
+PD Controller
+AP
+I2C BUS
+SDA/
+SCL
+DM
+DP
+VBUS
+OVPGATE
+VAC
+GND
+BAT
+SYS
+SW
+System
+CFH2
+CFL2
+Phase 2
+Phase 1
+CFH1
+CFL1
+VOUT
+PGND
+SGM41600
+SGM41516
++
+-
+Battery
+Portable Device
+SDA/
+SCL
+ 
+Figure 6. Simplified Charge System 
+IBUS (A)
+Pre-charge by 
+SGM41516
+Fast Charge 
+by SGM41516
+Fast Charge 
+by SGM41600
+Constant Voltage 
+by SGM41600
+Constant Voltage 
+by SGM41516
+Time
+Pre-Charge Level
+VBAT_REG
+VBAT (V)
+IBUS_UCP_FALL
+≥ 3V
+ 
+Figure 7. SGM41600 System Charging Profile 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+14 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Device Power-Up from Input Source 
+When an input source is plugged-in and the VVBUS > 
+VBUS_PRESENT_R condition is valid, the host must initialize all 
+protections to the desired thresholds before enabling charge. 
+The protection thresholds that need to be set are AC_OVP, 
+VBUS_LO, VBUS_HI, BUS_OVP, IBUS_OCP, IBUS_UCP, 
+BAT_OVP, 
+IBAT_OCP, 
+VBAT_REG, 
+IBAT_REG, 
+and 
+VDRP_OVP. If one of the protection trigger conditions is met, 
+the charger stops switching. It will also turn off the external 
+OVPFET when AC_OVP or BUS_SC event occurs. 
+After setting protections, the VBUS voltage is checked to be 
+between 2 × VBUS_LO × VVOUT and 2 × VBUS_HI × VVOUT to allow 
+voltage divider mode operation, or between VBUS_LO × VVOUT 
+and VBUS_HI × VVOUT for bypass mode operation. Charging is 
+enabled and current flows into the battery when the host sets 
+bypass or voltage divider mode by writing 001 or 010 in the 
+CHG_MODE[2:0] bits respectively. Then raising the VBUS 
+voltage will increase the battery charge current. When the 
+converter is on, any command to change the charge mode is 
+ignored. To do so, the charging must be disabled first, and 
+then the charge mode can be changed by I2C serial interface. 
+REGN Management 
+The SGM41600 internal digital core is powered by the REGN 
+LDO. This LDO is enabled and powered by PMID. A 4.7µF or 
+lager capacitor is required on the REGN pin. 
+ADC 
+The SGM41600 integrates a fast 5-channel, 12-bit ADC 
+converter to monitor input/output currents and voltages and 
+the temperature of the device. The ADC is controlled by the 
+ADC_CTRL register. Setting the ADC_EN bit to 1 enables the 
+ADC. This bit can be used to turn off the ADC and save power 
+when it is not needed. The ADC_RATE bit allows choosing 
+continuous conversion or 1-shot conversion mode. The ADC 
+operates independent of the faults, unless the host sets the 
+ADC_EN bit to 0. 
+The ADC can operate if VVBUS > VBUS_PRESENT_R or VBATP > 
+2.8V condition is valid. Otherwise the ADC conversion is 
+postponed until one of them is satisfied. The ADC readings 
+are valid only for DC values and not for transients. 
+By default, all ADC channels are converted in continuous 
+conversion mode except the channels disabled by the 
+ADC_CTRL register. If the 1-shot conversion mode is 
+selected, the ADC_DONE_FLAG bit is set to 1 when all 
+channels are converted, then the ADC_EN bit is reset to 0. In 
+the continuous conversion mode, the ADC_DONE_FLAG bit 
+is set to 0. 
+nINT Pin, Flag and Mask Bits 
+The nINT pin is an open-drain output and must be pulled up 
+to a logic high rail. It is pulled low with a duration of tINT to 
+notify the host when it is triggered by an event. See the 
+register map for all event flag and control bits. 
+When an event occurs, a nINT signal is sent to the host and 
+the corresponding flag bit is set to 1. The flag bit can be reset 
+by read only after the fault is cleared. The nINT signal is not 
+re-sent if an event is still present after the flag bit is read, 
+unless another kind of event occurs. If an event mask bit is 
+set, that event will not send nINT signal, but the flag bit is still 
+updated independent of the mask bit. 
+ 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+15 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Fault Event and Protection Status 
+Table 1 shows the protection features and corresponding 
+conditions of the device. 
+VAC Over-Voltage Protection (AC_OVP) 
+The SGM41600 monitors the adapter voltage on the VAC pin 
+to control the external OVPFET using OVPGATE output. The 
+VAC over-voltage protection circuit is powered by VAC and is 
+enabled if VVAC rises above VVAC_PRESENT_R. If VVAC is above 
+VVAC_PRESENT_R for at least tVAC_IN_DEG time, a 5V gate voltage 
+is sent to the OVPGATE output to turn on the external 
+OVPFET. If the VVAC reaches the VVAC_OVP threshold for 
+tVAC_OVP_DEG deglitch time, the gate voltage starts to drop. 
+Figure 8 shows the AC_OVP and OVPGATE operation 
+timings. The VVAC_OVP threshold can be set by I2C serial 
+interface. The adapter voltage must never exceed the 
+absolute maximum rating of the VAC pin and the external 
+OVPFET. 
+ 
+Table 1. Fault Event List 
+FAULT EVENT 
+CONDITIONS 
+PROTECTION ACTION 
+AC_OVP 
+VVAC > VVAC_OVP for tVAC_OVP_DEG during AC_PRESENT interval Turn off OVPFET and QRB, enable RPD_VBUS, and reset 
+CHG_MODE[2:0] to 000 
+BUS_SC 
+VBUS < 2V during BUS_INSERT interval 
+or during OVPFET turn-on interval 
+or reverse IQRB > 4A during switching 
+or VVBUS < 1.9 × VVOUT in divider mode 
+or VVBUS < 0.95 × VVOUT in bypass mode 
+Turn off OVPFET and QRB, and reset CHG_MODE[2:0] to 
+000 
+VBUS_LO 
+CHG_MODE[2:0] ≠ 000 (Off Mode) 
+(disabled after switching for 100s) 
+Charging initiation suspended 
+VBUS_HI 
+CHG_MODE[2:0] ≠000 (Off Mode) 
+(disabled after switching for 100s) 
+Charging initiation suspended 
+BUS_OVP 
+VVBUS > VBUS_OVP for tVBUS_OVP_DEG during BUS_INSERT interval Turn off QRB and reset CHG_MODE[2:0] to 000 
+IBUS_OCP 
+CHG_MODE[2:0] ≠ 000 (Off Mode) 
+Turn off QRB and reset CHG_MODE[2:0] to 000 
+IBUS_UCP 
+CHG_MODE[2:0] ≠ 000 (Off Mode) 
+Turn off QRB and reset CHG_MODE[2:0] to 000 
+IBUS_UCP_TIMEOUT IBUS < IBUS_UCP_R after 100s timeout 
+Turn off QRB and reset CHG_MODE[2:0] to 000 
+BAT_OVP 
+VBAT > VBAT_OVP for tVBAT_OVP_DEG during BAT_INSERT interval 
+Turn off QRB and reset CHG_MODE[2:0] to 000 
+IBAT_OCP 
+CHG_MODE[2:0] ≠ 000 (Off Mode) 
+Turn off QRB and reset CHG_MODE[2:0] to 000 
+VOUT_SC 
+CHG_MODE[2:0] ≠ 000 (Off Mode) 
+Turn off QRB and reset CHG_MODE[2:0] to 000 
+CFLY_SC 
+CHG_MODE[2:0] = 010 (Voltage Divider Mode) 
+Turn off QRB and reset CHG_MODE[2:0] to 000 
+CONV_OCP 
+CHG_MODE[2:0] = 010 (Voltage Divider Mode) 
+Turn off QRB and reset CHG_MODE[2:0] to 000 
+VDRP_OVP 
+CHG_MODE[2:0] ≠ 000 (Off Mode) 
+Turn off QRB and reset CHG_MODE[2:0] to 000 
+REG_TIMEOUT 
+CHG_MODE[2:0] ≠ 000 (Off Mode) 
+Turn off QRB and reset CHG_MODE[2:0] to 000 
+TDIE_OTP 
+CHG_MODE[2:0] ≠ 000 (Off Mode) or ADC_EN = 1 
+Turn off QRB and reset CHG_MODE[2:0] to 000 
+ 
+t
+V(t)
+VVAC_PRESENT_R
+VVAC
+tVAC_IN_DEG
+5V
+VOVPGATE
+VVAC_OVP
+tVAC_OVP_DEG
+tVAC_IN_DEG
+VVAC_PRESENT_HYS
+ 
+Figure 8. AC_OVP and OVPGATE Operation Timings 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+16 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Input Short-Circuit Protection (BUS_SC) 
+The BUS_SC function monitors the VBUS pin for short-circuit. 
+This function is enabled if the external OVPFET is turned on 
+or if VVBUS rises above VBUS_PRESENT_R. If the VVBUS falls below 
+2V (BUS_SC event), the OVPFET is turned off, and charging 
+is stopped. CHG_MODE[2:0] bits are reset to 000 (disable). 
+Also, BUS_ABSENT_FLAG bit is set to 1, and an INT pulse is 
+asserted. The device will wait for 650ms before automatically 
+re-enabling and initiating startup sequence. 
+During charging, if VVBUS is less than 1.9 × VVOUT in divider 
+mode or 0.95 × VVOUT in bypass mode, or if the QRB reverse 
+current rises above 4A, the QRB and OVPFET are turned off, 
+and charging is stopped. CHG_MODE[2:0] bits are reset to 
+000 (disable). Also, BUS_ABSENT_FLAG bit is set to 1, and 
+an INT pulse is asserted. 
+VBUS Charge Voltage Range (VBUS_LO and 
+VBUS_HI) 
+The VBUS_LO and VBUS_HI functions are included to avoid 
+problems due to wrong VBUS setting for charging. Under no 
+charge condition if VVBUS is less than (VVOUT × VBUS_LO × 2) or 
+above (VVOUT × VBUS_HI × 2), the device remains in charge 
+initiation operation if the voltage divider mode is selected. If 
+the bypass mode is selected, the range is from (VVOUT × 
+VBUS_LO) to (VVOUT × VBUS_HI). Charging will start once VBUS is 
+within the charge range. VBUS_LO and VBUS_HI functions 
+are enabled for maximum 100s at startup and are disabled if 
+IBUS is above IBUS_UCP_R during a period of 100s. The 
+VBUS_LO and VBUS_HI thresholds can be set by I2C serial 
+interface. 
+Input and Battery Over-Voltage Protections 
+(BUS_OVP and BAT_OVP) 
+The BUS_OVP and BAT_OVP functions detect input and 
+output charge voltage conditions. If either input or output 
+voltage is higher than the protection threshold, the charger is 
+turned off and CHG_MODE[2:0] bits are reset to 000 (disable). 
+The BUS_OVP function monitors VBUS pin voltage. The 
+BAT_OVP uses BATP and BATN/SRP remote sense pins to 
+monitor differential voltage between the battery terminals. To 
+minimize the risk of battery terminal short in the 
+manufacturing process, a series 100Ω resistor on the BATP 
+pin is required. The BUS_OVP and BAT_OVP thresholds can 
+be set by I2C serial interface. 
+Input and Battery Over-Current Protections 
+(IBUS_OCP and IBAT_OCP) 
+The IBUS_OCP function monitors the input current via QRB. If 
+CHG_MODE[2:0] bits are set to enable charge, the QRB is 
+turned on and the IBUS_OCP function starts detecting the 
+input current. If the IBUS reaches IBUS_OCP threshold, the device 
+stops charging and resets CHG_MODE[2:0] bits to 000 
+(disable). The battery current is monitored by the voltage 
+across an external 5mΩ series shunt resistor. This differential 
+voltage is measured between BATN/SRP and SRN pins. If 
+IBAT_OCP threshold is reached, the device stops charging and 
+resets CHG_MODE[2:0] bits to 000 (disable). The IBUS_OCP 
+and IBAT_OCP thresholds can be set by I2C serial interface. 
+Input Under-Current Protection (IBUS_UCP) 
+The IBUS_UCP function detects the input current via QRB. 
+After charging is started, a 100s timer is enabled and IBUS 
+current is compared with IBUS_UCP_R (selected by the 
+IBUS_UCP bit). If IBUS cannot exceed IBUS_UCP_R within the 
+100s 
+period, 
+the 
+charging 
+will 
+be 
+stopped 
+and 
+CHG_MODE[2:0] bits are reset to 000 (disable). If IBUS 
+exceeds IBUS_UCP_R within the 100s period, the timer is 
+stopped and from then, if IBUS falls below the IBUS_UCP_F 
+threshold, the charging will be stopped and CHG_MODE[2:0] 
+bits are reset to 000 (disable). 
+VOUT Short-Circuit Protection (VOUT_SC) 
+The VOUT_SC function monitors the VOUT pin for 
+short-circuit. This function is enabled during charging. If VVOUT 
+falls below VVBUS/2.28 threshold when the voltage divider 
+mode 
+is 
+selected, 
+the 
+charger 
+is 
+turned 
+off 
+and 
+CHG_MODE[2:0] bits are reset to 000 (disable). Also, the 
+PIN_DIAG_FLAG bit is set to 1, and an INT pulse is 
+generated. When the bypass mode is selected, the threshold 
+is VVBUS/1.14. 
+CFLY Short-Circuit Protection (CFLY_SC) 
+The CFLY_SC function identifies the health of flying 
+capacitors before and during voltage divider switching 
+(charging). The device initialization process is started after 
+CHG_MODE[2:0] bits are set to 010. When VBUS is in the 
+charge range, the flying capacitors (CFLY) in both phases are 
+pre-charged. A CFLY short-circuit is detected if they cannot 
+be charged, and the voltage between VCFHx and VCFLx 
+remains below 2V. If so, the initialization process is stopped 
+and CHG_MODE[2:0] bits are reset to 000 (disable). Even if 
+CFLY capacitors pass the short-circuit test in the initialization 
+process, the CFLY_SC function remains active and whenever 
+a VCFLY voltage falls below 2V, the charger is turned off and 
+CHG_MODE[2:0] bits are reset to 000 (disable). The 
+PIN_DIAG_FLAG bit is set to 1 and an INT pulse is generated 
+as well. During a CFLY_SC event, other protection events 
+such as IBUS_OCP, BAT_OVP or CONV_OCP may occur. 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+17 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+A CFLY discharge circuit is activated before the internal 
+RBFET (QRB) is turned on if VVBUS > VBUS_PRESENT_R to prevent 
+over-current stress at the start of charging. 
+Converter Over-Current Protection (CONV_OCP) 
+The CONV_OCP function monitors the converter switch 
+operating currents. If the QCHx and QDLx currents reach switch 
+OCP 
+threshold 
+during 
+voltage 
+divider 
+mode, 
+the 
+CONV_OCP_FLAG bit is set to 1, an INT pulse is generated, 
+the charging is stopped, and CHG_MODE[2:0] bits are reset 
+to 000 (disable). 
+Battery Voltage and Current Regulation 
+(VBAT_REG and IBAT_REG) 
+The SGM41600 has VBAT_REG and IBAT_REG regulation 
+functions to regulate the battery voltage and current for a 
+short period before the system can re-adjust the conditions 
+such that these functions can be disabled. The regulation 
+thresholds can be set by I2C serial interface. 
+The VBAT_REG function monitors the differential voltage 
+between BATP and BATN/SRP pins and if the battery voltage 
+is above the VBAT_REG threshold, the OVPGATE voltage is 
+controlled to regulate the battery voltage. 
+The VBAT_REG_FLAG bit is also set to 1, and an INT pulse 
+is generated. Then the host can negotiate with the adapter to 
+reduce the current. This will gradually reduce the current until 
+the bus current falls to the IBUS_UCP_F and charging will end. 
+Similarly, the IBAT_REG function monitors the differential 
+voltage between BATN/SRP and SRN pins to find the battery 
+current and if the IBAT_REG threshold is exceeded, the 
+OVPGATE voltage is controlled (reduced) to regulate the 
+charge current. 
+If one of the regulation functions is triggered and persist for 
+650ms when REG_TIMEOUT_DIS bit is set to 0, the charging 
+will be stopped and CHG_MODE[2:0] bits are reset to 000 
+(disable). The system should adjust the charging conditions 
+to prevent the battery voltage and current regulation for more 
+than 650ms (or prevent triggering of the VDRP_OVP). 
+Dropout Over-Voltage Protection (VDRP_OVP) 
+When VBAT_REG or IBAT_REG is active, a large voltage 
+drop may appear on the external OVPFET and cause 
+excessive power loss and heat. To avoid that, the 
+VDRP_OVP function monitors the voltage drop between VAC 
+and VBUS pins. If it is higher than VDRP_OVP threshold for 
+tDRP_OVP_DEG deglitch time (set by VDRP_OVP_DEG bit in 
+REG0x05), the charging will be stopped and CHG_MODE[2:0] 
+bits are reset to 000 (disable). The VDRP_OVP threshold and 
+tDRP_OVP_DEG deglitch time can be programmed by I2C serial 
+interface. 
+Die Over-Temperature Protection (TDIE_OTP) 
+The 
+TDIE_OTP 
+function 
+prevents 
+charging 
+in 
+over-temperature condition. The die temperature is monitored 
+and if the +150℃ threshold is reached, the charging is 
+stopped and CHG_MODE[2:0] bits are reset to 000 (disable). 
+An automatic startup sequence can initiate if the die 
+temperature falls below +130℃. 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+18 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAP 
+All registers are 8-bit and individual bits are named from D[0] (LSB) to D[7] (MSB). 
+ 
+I2C Slave Address of SGM41600 is: 0x6F (0b1101111 + W/R) 
+FUNCTION 
+FLAG 
+MASK 
+THRESHOLD 
+SETTING 
+ENABLE 
+DEGLITCH 
+REG_RST 
+— 
+— 
+0x00[7] 
+— 
+— 
+CHG_MODE 
+— 
+— 
+0x00[6:4] 
+— 
+— 
+WD_TIMEOUT 
+0x0F[5] 
+0x10[5] 
+0x00[2:0] 
+0x00[3] 
+— 
+FSW_SET 
+— 
+— 
+0x01[7:5] 
+— 
+— 
+FSW_SHIFT 
+— 
+— 
+0x01[4:3] 
+— 
+— 
+PIN_DIAG 
+(CFLY_SC and VOUT_SC) 
+0x0F[0] 
+0x10[0] 
+-- 
+0x02[7] 
+— 
+VBUS_LO 
+0x0D[2] 
+0x0E[2] 
+0x02[3:2] 
+0x02[5] 
+— 
+VBUS_HI 
+0x0D[1] 
+0x0E[1] 
+0x02[1:0] 
+0x02[4] 
+— 
+BUS_SC and BUS_ABSENT 
+0x0F[3] 
+0x10[3] 
+0x01[0] 
+— 
+— 
+DEVICE_REV 
+— 
+— 
+0x03[7:4] 
+— 
+— 
+DEVICE_ID 
+— 
+— 
+0x03[3:0] 
+— 
+— 
+AC_OVP 
+0x0B[7] 
+0x0C[7] 
+0x04[3:0] 
+0x04[4] 
+— 
+AC_PDN 
+0x0B[6] 
+0x0C[6] 
+— 
+0x05[7] 
+— 
+BUS_PDN 
+0x0B[5] 
+0x0C[5] 
+— 
+0x05[6] 
+— 
+VDRP_OVP 
+0x0B[4] 
+0x0C[4] 
+0x05[2:0] 
+0x05[5] 
+0x05[4] 
+BUS_OVP 
+0x0B[3] 
+0x0C[3] 
+0x06[6:0] 
+0x06[7] 
+— 
+IBUS_OCP 
+0x0B[2] 
+0x0C[2] 
+0x07[4:0] 
+0x07[5] 
+— 
+IBUS_UCP_RISE 
+0x0B[1] 
+0x0C[1] 
+0x07[6] 
+0x07[7] 
+— 
+IBUS_UCP_FALL 
+0x0B[0] 
+0x0C[0] 
+0x07[6] 
+0x07[7] 
+— 
+IBUS_UCP_TIMEOUT 
+0x0F[2] 
+0x10[2] 
+— 
+— 
+— 
+BAT_OVP 
+0x0D[7] 
+0x0E[7] 
+0x08[5:0] 
+0x08[7] 
+— 
+IBAT_OCP 
+0x0D[6] 
+0x0E[6] 
+0x09[5:0] 
+0x09[7] 
+— 
+VBAT_REG 
+0x0D[5] 
+0x0E[5] 
+0x0A[1:0] 
+0x0A[2] 
+— 
+IBAT_REG 
+0x0D[4] 
+0x0E[4] 
+0x0A[4:3] 
+0x0A[5] 
+— 
+REG_TIMEOUT 
+— 
+— 
+— 
+0x0A[6] 
+— 
+TDIE_OTP 
+0x0D[3] 
+0x0E[3] 
+— 
+— 
+— 
+CONV_OCP 
+0x0D[0] 
+0x0E[0] 
+0x01[1] 
+— 
+— 
+BUS_INSERT 
+0x0F[7] 
+0x10[7] 
+— 
+— 
+— 
+BAT_INSERT 
+0x0F[6] 
+0x10[6] 
+— 
+— 
+— 
+AC_ABSENT 
+0x0F[4] 
+0x10[4] 
+— 
+— 
+— 
+ADC_DONE 
+0x0F[1] 
+0x10[1] 
+— 
+— 
+— 
+ADC_EN 
+— 
+— 
+— 
+0x11[7] 
+— 
+ADC_RATE 
+— 
+— 
+0x11[6] 
+— 
+— 
+VBUS_ADC 
+— 
+— 
+0x12[3:0] + 0x13[7:0] 
+0x11[5] 
+— 
+IBUS_ADC 
+— 
+— 
+0x14[3:0] + 0x15[7:0] 
+0x11[4] 
+— 
+VBAT_ADC 
+— 
+— 
+0x16[3:0] + 0x17[7:0] 
+0x11[3] 
+— 
+IBAT_ADC 
+— 
+— 
+0x18[3:0] + 0x19[7:0] 
+0x11[2] 
+— 
+TDIE_ADC 
+— 
+— 
+0x1A[7:0] 
+0x11[1] 
+— 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+19 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAP (continued) 
+Bit Types: 
+R: 
+ 
+Read only 
+R/W:  
+Read/Write  
+RC:  
+Read clears the bit 
+R/WC: 
+Read/Write. Writing a ‘1’ clears the bit. Writing a ‘0’ has no effect. 
+ 
+REG0x00: CONTROL1 Register Address [reset = 0x00] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7] 
+REG_RST 
+0 
+R/W 
+Register Reset 
+0 = No register reset (default) 
+1 = Reset all registers to their default values 
+REG_RST  
+D[6:4] 
+CHG_MODE[2:0] 
+000 
+R/W 
+Charge Mode Control 
+000 = Off mode (default) 
+001 = Forward bypass mode 
+010 = Forward charge-pump voltage divider mode 
+011 ~ 111 = Off mode 
+Note: These bits are not allowed to change during charging. 
+REG_RST, 
+Watchdog or 
+many other 
+events 
+D[3] 
+WDT_DIS 
+0 
+R/W 
+Watchdog Enable 
+0 = Watchdog enabled (default) 
+1 = Watchdog disabled 
+REG_RST 
+D[2:0] 
+WDT_TIMER[2:0] 
+000 
+R/W 
+Watchdog Timer Setting 
+000 = 0.5s (default) 
+001 = 1s 
+010 = 2s 
+011 = 5s 
+100 = 10s 
+101 = 20s 
+110 = 40s 
+111 = 80s 
+REG_RST 
+ 
+ 
+REG0x01: CONTROL2 Register Address [reset = 0x42] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7:5] 
+FSW_SET[2:0] 
+010 
+R/W 
+Voltage Divider Switching Frequency Setting 
+000 = 200kHz 
+001 = 375kHz 
+010 = 500kHz (default) 
+011 = 750kHz 
+100 = 1000kHz 
+101 = 1250kHz 
+110 ~ 111 = 1500kHz 
+NA 
+D[4:3] 
+FSW_SHIFT[1:0] 
+00 
+R/W 
+Trimming Bits for Switching Frequency 
+(for EMI frequency spectrum shifting) 
+00/11 = Nominal frequency (default) 
+01 = Nominal frequency + 10% 
+10 = Nominal frequency - 10% 
+REG_RST 
+D[2] 
+Reserved 
+0 
+R 
+Reserved 
+NA 
+D[1] 
+CONV_OCP 
+1 
+R/W 
+CONV OCP Threshold Setting Bit 
+0 = 7.3A 
+1 = 5.6A (default) 
+NA 
+D[0] 
+BUS_SC_TRG 
+0 
+R/W 
+Setting Bit of VBUS Short-Circuit Trigger Mode during Switching 
+0 = Triggered by QRB 4A reverse current (default) 
+1 = Triggered by VVBUS/VOUT scale factor, 1.9 in voltage divider 
+mode while 0.95 in bypass mode 
+NA 
+ 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+20 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAP (continued) 
+REG0x02: CONTROL3 Register Address [reset = 0xBC] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7] 
+PIN_DIAG_EN 
+1 
+R/W 
+Pin Diagnosis Enable 
+0 = Disabled 
+1 = Enabled (default) 
+REG_RST 
+D[6] 
+Reserved 
+0 
+R 
+Reserved 
+NA 
+D[5] 
+VBUS_LO_EN 
+1 
+R/W 
+Low VBUS Error Detection Enable 
+0 = Disabled 
+1 = Enabled (default) 
+REG_RST 
+D[4] 
+VBUS_HI_EN 
+1 
+R/W 
+High VBUS Error Detection Enable 
+0 = Disabled 
+1 = Enabled (default) 
+REG_RST 
+D[3:2] 
+VBUS_LO[1:0] 
+11 
+R/W 
+Low VBUS Error Range Scale Setting 
+00 = 1.01 
+01 = 1.02 
+10 = 1.03 
+11 = 1.04 (default) 
+NA 
+D[1:0] 
+VBUS_HI[1:0] 
+00 
+R/W 
+High VBUS Error Range Scale Setting 
+00 = 1.10 (default) 
+01 = 1.15 
+10 = 1.20 
+11 = 1.25 
+NA 
+ 
+ 
+REG0x03: DEVICE_INFO Register Address [reset = 0x08] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7:4] 
+DEVICE_REV[3:0] 
+0000 
+R 
+Device Revision 
+NA 
+D[3:0] 
+DEVICE_ID[3:0] 
+1000 
+R 
+Device ID 
+1000 = SGM41600 
+NA 
+ 
+ 
+REG0x04: AC_OVP Register Address [reset = 0x18] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7:5] 
+Reserved 
+000 
+R 
+Reserved 
+NA 
+D[4] 
+AC_OVP_EN 
+1 
+R/W 
+VAC OVP Enable 
+0 = Disabled 
+1 = Enabled (default) 
+REG_RST 
+D[3:0] 
+AC_OVP[3:0] 
+1000 
+R/W 
+VAC OVP Rising Threshold Setting 
+ 
+VAC OVP Rising Threshold Value: = 4V + AC_OVP[3:0] × 1V 
+Offset: 4V 
+Range: 4V (0000) - 19V (1111) 
+Default: 12V (1000) 
+REG_RST 
+ 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+21 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAP (continued) 
+REG0x05: Pull-Down & VDRP_OVP Register Address [reset = 0x25] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7] 
+AC_PDN_EN 
+0 
+R/W 
+VAC Pull-Down Resistor Enable 
+0 = Disabled (default) 
+1 = Enabled 
+When enabled, the VAC is pulled down for 400ms and then this 
+bit is automatically reset to 0. 
+NA 
+D[6] 
+BUS_PDN_EN 
+0 
+R/W 
+VBUS Pull-Down Resistor Enable 
+0 = Disabled (default) 
+1 = Enabled 
+Enabling this bit will turn off the external OVPFET and discharge 
+VBUS with RPD_VBUS. This action is important during a hot-plug 
+event to prevent transient over-voltages. 
+REG_RST 
+D[5] 
+VDRP_OVP_EN 
+1 
+R/W 
+VDRP OVP Enable (VDRP = VVAC - VVBUS) 
+0 = Disabled 
+1 = Enabled (default) 
+REG_RST 
+D[4] 
+VDRP_OVP_DEG 
+0 
+R/W 
+VDRP OVP Deglitch Time Setting 
+0 = 10µs (default) 
+1 = 5ms 
+This is deglitch time (tDRP_OVP_DEG) between the moment VDRP 
+exceeds VDRP_OVP threshold and triggering of the protection action. 
+REG_RST 
+D[3] 
+Reserved 
+0 
+R 
+Reserved  
+NA 
+D[2:0] 
+VDRP_OVP[2:0] 
+101 
+R/W 
+VDRP OVP Threshold Setting 
+ 
+VDRP OVP Threshold Value: = 50mV + VDRP_OVP[2:0] × 50mV 
+Offset: 50mV 
+Range: 50mV (000) - 400mV (111) 
+Default: 300mV (101) 
+NA 
+ 
+ 
+REG0x06: BUS_OVP Register Address [reset = 0xCB] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7] 
+BUS_OVP_EN 
+1 
+R/W 
+VBUS OVP Enable 
+0 = Disabled 
+1 = Enabled (default) 
+REG_RST 
+D[6:0] 
+BUS_OVP[6:0] 
+1001011 
+R/W 
+VBUS OVP Rising Threshold Setting 
+ 
+VBUS OVP Rising Threshold Value: = 4V + BUS_OVP[6:0] × 100mV 
+Offset: 4V 
+Range: 4V (0000000) - 14V (1100100) 
+Default: 11.5V (1001011) 
+If BUS_OVP[6:0] ≥ 1100100, VBUS_OVP = 14V 
+REG_RST 
+ 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+22 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAP (continued) 
+REG0x07: IBUS_OCP and IBUS_UCP Register Address [reset = 0xB9] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7] 
+IBUS_UCP_EN 
+1 
+R/W 
+IBUS UCP Enable 
+0 = Disabled 
+1 = Enabled (default) 
+REG_RST 
+D[6] 
+IBUS_UCP 
+0 
+R/W 
+IBUS UCP Threshold Setting 
+0 = IBUS_UCP_R = 300mA rising, IBUS_UCP_F = 150mA falling (default) 
+1 = IBUS_UCP_R = 500mA rising, IBUS_UCP_F = 250mA falling 
+The system should control the IBUS current to rise to IBUS_UCP_R 
+within 100s. 
+This bit can only be changed before enabling switching. 
+NA 
+D[5] 
+IBUS_OCP_EN 
+1 
+R/W 
+IBUS OCP Enable 
+0 = Disabled 
+1 = Enabled (default) 
+REG_RST 
+D[4:0] 
+IBUS_OCP[4:0] 
+11001 
+R/W 
+IBUS OCP Threshold Setting 
+ 
+Voltage Divider Mode:  
+IBUS_OCP = 0.5A + IBUS_OCP[4:0] × 100mA 
+Offset: 0.5A 
+Range: 0.5A (00000) - 3.6A (11111) 
+Default: 3A (11001) 
+ 
+Bypass Mode:  
+IBUS_OCP = 2.5A + IBUS_OCP[4:0] × 100mA 
+Offset: 2.5A 
+Range: 2.5A (00000) - 5.6A (11111) 
+Default: 5A (11001) 
+REG_RST 
+ 
+ 
+REG0x08: BAT_OVP Register Address [reset = 0x8E] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7] 
+BAT_OVP_EN 
+1 
+R/W 
+VBAT OVP Enable 
+0 = Disabled 
+1 = Enabled (default) 
+REG_RST 
+D[6] 
+Reserved 
+0 
+R 
+Reserved 
+NA 
+D[5:0] 
+BAT_OVP[5:0] 
+001110 
+R/W 
+VBAT OVP Rising Threshold Setting 
+ 
+VBAT OVP Rising Threshold Value: = 4V + BAT_OVP[5:0] × 25mV 
+Offset: 4V 
+Range: 4V (000000) - 5V (101000) 
+Default: 4.35V (001110) 
+When BAT_OVP[5:0] ≥ 101000, VBAT_OVP = 5V 
+REG_RST 
+ 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+23 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAP (continued) 
+REG0x09: IBAT_OCP Register Address [reset = 0xB4] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7] 
+IBAT_OCP_EN 
+1 
+R/W 
+IBAT OCP Enable 
+0 = Disabled 
+1 = Enabled (default) 
+REG_RST 
+D[6] 
+Reserved 
+0 
+R 
+Reserved 
+NA 
+D[5:0] 
+IBAT_OCP[5:0] 
+110100 
+R/W 
+IBAT OCP Threshold Setting 
+ 
+IBAT OCP Threshold Value: = 2A + IBAT_OCP[5:0] × 100mA 
+Offset: 2A 
+Range: 2A (000000) to 7.2A (110100) 
+Default: 7.2A (110100) 
+When IBAT_OCP[5:0] ≥ 110100, IBAT_OCP = 7.2A 
+REG_RST 
+ 
+REG0x0A: Regulation Register Address [reset = 0x24] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7] 
+Reserved 
+0 
+R 
+Reserved 
+NA 
+D[6] 
+REG_TIMEOUT_DIS 
+0 
+R/W 
+Regulation Timeout Disable 
+0 = Enabled (default) 
+1 = Disabled. 
+If the regulation lasts longer than 650ms, charging will be disabled. 
+NA 
+D[5] 
+IBAT_REG_EN 
+1 
+R/W 
+IBAT Regulation Enable 
+0 = Disabled 
+1 = Enabled (default) 
+During regulation, tIBAT_OCP_DEG is increased to 500µs to avoid 
+unwanted triggering of IBAT_OCP 
+NA 
+D[4:3] 
+IBAT_REG[1:0] 
+00 
+R/W 
+IBAT Regulation Threshold Setting 
+00 = 200mA below IBAT_OCP[5:0] threshold setting (default) 
+01 = 300mA below IBAT_OCP[5:0] threshold setting 
+10 = 400mA below IBAT_OCP[5:0] threshold setting 
+11 = 500mA below IBAT_OCP[5:0] threshold setting 
+The margin below IBAT_OCP[5:0] threshold at which IBAT 
+regulation starts. 
+NA 
+D[2] 
+VBAT_REG_EN 
+1 
+R/W 
+VBAT Regulation Enable 
+0 = Disabled 
+1 = Enabled (default) 
+During regulation, tVBAT_OVP_DEG is increased to 500µs to avoid 
+unwanted triggering of VBAT OVP 
+NA 
+D[1:0] 
+VBAT_REG[1:0] 
+00 
+R/W 
+VBAT Regulation Threshold Setting 
+00 = 50mV below BAT_OVP[5:0] threshold setting (default) 
+01 = 100mV below BAT_OVP[5:0] threshold setting 
+10 = 150mV below BAT_OVP[5:0] threshold setting 
+11 = 200mV below BAT_OVP[5:0] threshold setting 
+The margin below BAT_OVP[5:0] threshold at which VBAT 
+regulation starts. 
+NA 
+ 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+24 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAP (continued) 
+REG0x0B: FLT_FLAG1 Register Address [reset = 0x00] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7] 
+AC_OVP_FLAG 
+0 
+RC 
+VAC OVP Fault Flag 
+0 = No VAC OVP fault 
+1 = VAC OVP fault has occurred 
+It generates an interrupt on nINT pin if unmasked. After the VAC 
+OVP fault is cleared, a read on this bit will reset it to 0. 
+NA 
+D[6] 
+AC_PDN_FLAG 
+0 
+RC 
+VAC Pull-Down Event Flag 
+0 = No VAC pull-down event 
+1 = VAC pull-down event has occurred  
+It generates an interrupt on nINT pin if unmasked. After the VAC 
+pull-down event is cleared, a read on this bit will reset it to 0. 
+NA 
+D[5] 
+BUS_PDN_FLAG 
+0 
+RC 
+VBUS Pull-Down Event Flag 
+0 = No VBUS pull-down event 
+1 = VBUS pull-down event has occurred 
+It generates an interrupt on nINT pin if unmasked. After the VBUS 
+pull-down event is cleared, a read on this bit will reset it to 0. 
+REG_RST 
+D[4] 
+VDRP_OVP_FLAG 
+0 
+RC 
+VDRP OVP Fault Flag 
+0 = No VDRP OVP fault 
+1 = VDRP OVP fault has occurred  
+It generates an interrupt on nINT pin if unmasked. Read this bit 
+to reset it to 0. 
+NA 
+D[3] 
+BUS_OVP_FLAG 
+0 
+RC 
+VBUS OVP Fault Flag 
+0 = No VBUS OVP fault 
+1 = VBUS OVP fault has occurred 
+It generates an interrupt on nINT pin if unmasked. After the VBUS 
+OVP fault is cleared, a read on this bit will reset it to 0. 
+NA 
+D[2] 
+IBUS_OCP_FLAG 
+0 
+RC 
+IBUS OCP Fault Flag 
+0 = No IBUS OCP fault 
+1 = IBUS OCP fault has occurred 
+It generates an interrupt on nINT pin if unmasked. Read this bit 
+to reset it to 0. 
+NA 
+D[1] 
+IBUS_UCP_RISE_
+FLAG 
+0 
+RC 
+IBUS_UCP_RISE Event Flag 
+0 = No IBUS_UCP_RISE event 
+1 = IBUS_UCP_RISE event has occurred 
+It generates an interrupt on nINT pin if unmasked. Read this bit 
+to reset it to 0. 
+REG_RST 
+D[0] 
+IBUS_UCP_FALL_
+FLAG 
+0 
+RC 
+IBUS_UCP_FALL Event Flag 
+0 = No IBUS_UCP_FALL event 
+1 = IBUS_UCP_FALL event has occurred 
+It generates an interrupt on nINT pin if unmasked. Read this bit 
+to reset it to 0. 
+REG_RST 
+ 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+25 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAP (continued) 
+REG0x0C: FLT_INT_MASK1 Register Address [reset = 0x00] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7] 
+AC_OVP_MASK 
+0 
+R/W 
+Mask VAC OVP Fault Interrupt 
+0 = VAC OVP fault interrupt can work (default) 
+1 = Mask VAC OVP fault interrupt 
+AC_OVP_FLAG bit is set after the event, but the interrupt signal 
+is not generated. 
+REG_RST 
+D[6] 
+AC_PDN_MASK 
+0 
+R/W 
+Mask VAC Pull-Down Event Interrupt 
+0 = VAC pull-down event interrupt can work (default) 
+1 = Mask VAC pull-down event interrupt 
+AC_PDN_FLAG bit is set after the event, but the interrupt signal 
+is not generated. 
+REG_RST 
+D[5] 
+BUS_PDN_MASK 
+0 
+R/W 
+Mask VBUS Pull-Down Event Interrupt 
+0 = VBUS pull-down event interrupt can work (default) 
+1 = Mask VBUS pull-down event interrupt 
+BUS_PDN_FLAG bit is set after the event, but the interrupt 
+signal is not generated. 
+REG_RST 
+D[4] 
+VDRP_OVP_MASK 
+0 
+R/W 
+Mask VDRP OVP Fault Interrupt 
+0 = VDRP OVP fault interrupt can work (default) 
+1 = Mask VDRP OVP fault interrupt 
+VDRP_OVP_FLAG bit is set after the event, but the interrupt 
+signal is not generated. 
+REG_RST 
+D[3] 
+BUS_OVP_MASK 
+0 
+R/W 
+Mask BUS OVP Fault Interrupt 
+0 = BUS OVP fault interrupt can work (default) 
+1 = Mask BUS OVP fault interrupt 
+BUS_OVP_FLAG bit is set after the event, but the interrupt 
+signal is not generated. 
+REG_RST 
+D[2] 
+IBUS_OCP_MASK 
+0 
+R/W 
+Mask IBUS OCP Fault Interrupt 
+0 = IBUS OCP fault interrupt can work (default) 
+1 = Mask IBUS OCP fault interrupt 
+IBUS_OCP_FLAG bit is set after the event, but the interrupt 
+signal is not generated. 
+REG_RST 
+D[1] 
+IBUS_UCP_RISE_
+MASK 
+0 
+R/W 
+Mask IBUS_UCP_RISE Event Interrupt 
+0 = IBUS_UCP_RISE event interrupt can work (default) 
+1 = Mask IBUS_UCP_RISE event interrupt 
+IBUS_UCP_RISE_FLAG bit is set after the event, but the 
+interrupt signal is not generated. 
+REG_RST 
+D[0] 
+IBUS_UCP_FALL_
+MASK 
+0 
+R/W 
+Mask IBUS_UCP_FALL Event Interrupt 
+0 = IBUS_UCP_FALL event interrupt can work (default) 
+1 = Mask IBUS_UCP_FALL event interrupt 
+IBUS_UCP_FALL_FLAG bit is set after the event, but the 
+interrupt signal is not generated. 
+REG_RST 
+ 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+26 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAP (continued) 
+REG0x0D: FLT_FLAG2 Register Address [reset = 0x00] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7] 
+BAT_OVP_FLAG 
+0 
+RC 
+VBAT OVP Fault Flag  
+0 = No VBAT OVP fault 
+1 = VBAT OVP fault has occurred 
+It generates an interrupt on nINT pin if unmasked. After the 
+VBAT OVP fault is cleared, reading this bit will reset it to 0. 
+NA 
+D[6] 
+IBAT_OCP_FLAG 
+0 
+RC 
+IBAT OCP Fault Flag 
+0 = No IBAT OCP fault 
+1 = IBAT OCP fault has occurred 
+It generates an interrupt on nINT pin if unmasked. Read this bit 
+to reset it to 0. 
+NA 
+D[5] 
+VBAT_REG_FLAG 
+0 
+RC 
+VBAT Regulation Event Flag 
+0 = No VBAT regulation event 
+1 = VBAT regulation event has occurred 
+It generates an interrupt on nINT pin if unmasked. After the 
+VBAT regulation event is cleared, reading this bit will reset it to 0. 
+NA 
+D[4] 
+IBAT_REG_FLAG 
+0 
+RC 
+IBAT Regulation Event Flag 
+0 = No IBAT regulation event 
+1 = IBAT regulation event has occurred 
+It generates an interrupt on nINT pin if unmasked. After the IBAT 
+regulation event is cleared, reading this bit will reset it to 0. 
+NA 
+D[3] 
+TDIE_OTP_FLAG 
+0 
+RC 
+TDIE OTP Fault Flag (Die Over-Temperature) 
+0 = No TDIE OTP fault 
+1 = TDIE OTP fault has occurred 
+It generates an interrupt on nINT pin if unmasked. After the TDIE 
+OTP fault is cleared, reading this bit will reset it to 0. 
+NA 
+D[2] 
+VBUS_LO_FLAG 
+0 
+RC 
+VBUS_LO Fault Flag Bit (VBUS under-voltage) 
+It is set to 1 if VVBUS/VVOUT < 2 × VBUS_LO in voltage divider mode, 
+or VVBUS/VVOUT < VBUS_LO in bypass mode. 
+0 = No VBUS_LO fault 
+1 = VBUS_LO fault has occurred 
+It generates an interrupt on nINT pin if unmasked. After the 
+VBUS_LO fault is cleared, reading this bit will reset it to 0. 
+NA 
+D[1] 
+VBUS_HI_FLAG 
+0 
+RC 
+VBUS_HI Fault Flag Bit (VBUS over-voltage) 
+It is set to 1 if VVBUS/VVOUT > 2 × VBUS_HI in voltage divider mode, 
+or VVBUS/VVOUT > VBUS_HI in bypass mode. 
+0 = No VBUS_HI fault 
+1 = VBUS_HI fault has occurred 
+It generates an interrupt on nINT pin if unmasked. After the 
+VBUS_HI fault is cleared, reading this bit will reset it to 0. 
+NA 
+D[0] 
+CONV_OCP_FLAG 
+0 
+RC 
+CONV OCP Fault Flag 
+(Converter over-current during voltage divider mode) 
+It is set to 1 if the internal switching FETs, QCHx and QDLx reach 
+switch OCP threshold successively. 
+0 = No CONV OCP fault 
+1 = CONV OCP fault has occurred 
+It generates an interrupt on nINT pin if unmasked. Read this bit 
+to reset it to 0. 
+NA 
+ 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+27 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAP (continued) 
+REG0x0E: FLT_INT_MASK2 Register Address [reset = 0x00] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7] 
+BAT_OVP_MASK 
+0 
+R/W 
+Mask VBAT OVP Fault Interrupt 
+0 = VBAT OVP fault interrupt can work (default) 
+1 = Mask VBAT OVP fault interrupt 
+BAT_OVP_FLAG bit is set after the event, but the interrupt 
+signal is not generated. 
+REG_RST 
+D[6] 
+IBAT_OCP_MASK 
+0 
+R/W 
+Mask IBAT OCP Fault Interrupt 
+0 = IBAT OCP fault interrupt can work (default) 
+1 = Mask IBAT OCP fault interrupt 
+IBAT_OCP_FLAG bit is set after the event, but the interrupt 
+signal is not generated. 
+REG_RST 
+D[5] 
+VBAT_REG_MASK 
+0 
+R/W 
+Mask VBAT Regulation Event Interrupt 
+0 = VBAT regulation event interrupt can work (default) 
+1 = Mask VBAT regulation event interrupt.  
+VBAT_REG_FLAG bit is set after the event, but the interrupt 
+signal is not generated. 
+REG_RST 
+D[4] 
+IBAT_REG_MASK 
+0 
+R/W 
+Mask IBAT Regulation Event Interrupt 
+0 = IBAT regulation event interrupt can work (default) 
+1 = Mask IBAT regulation event interrupt 
+IBAT_REG_FLAG bit is set after the event, but the interrupt 
+signal is not generated. 
+REG_RST 
+D[3] 
+TDIE_OTP_MASK 
+0 
+R/W 
+Mask TDIE OTP Fault Interrupt 
+0 = TDIE OTP fault interrupt can work (default) 
+1 = Mask TDIE OTP fault interrupt 
+TDIE_OTP_FLAG bit is set after the event, but the interrupt 
+signal is not generated. 
+REG_RST 
+D[2] 
+VBUS_LO_MASK 
+0 
+R/W 
+Mask VBUS_LO Fault Interrupt 
+0 = VBUS_LO fault interrupt can work (default) 
+1 = Mask VBUS_LO fault interrupt 
+VBUS_LO_FLAG bit is set after the event, but the interrupt 
+signal is not generated. 
+REG_RST 
+D[1] 
+VBUS_HI_MASK 
+0 
+R/W 
+Mask VBUS_HI Fault Interrupt 
+0 = VBUS_HI fault interrupt can work (default) 
+1 = Mask VBUS_HI fault interrupt 
+VBUS_HI_FLAG bit is set after the event, but the interrupt signal 
+is not generated. 
+REG_RST 
+D[0] 
+CONV_OCP_MASK 
+0 
+R/W 
+Mask CONV OCP Fault Interrupt 
+0 = CONV OCP fault interrupt can work (default) 
+1 = Mask CONV OCP fault interrupt 
+CONV_OCP_FLAG bit is set after the event, but the interrupt 
+signal is not generated. 
+REG_RST 
+ 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+28 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAP (continued) 
+REG0x0F: FLT_FLAG3 Register Address [reset = 0x00] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7] 
+BUS_INSERT_FLAG 
+0 
+RC 
+VBUS Insert Event Flag 
+This bit is set to 1 if VVBUS > VBUS_PRESENT_R. 
+0 = No VBUS insert event 
+1 = VBUS insert event has occurred 
+It generates an interrupt on nINT pin if unmasked. Read this 
+bit to reset it to 0. 
+NA 
+D[6] 
+BAT_INSERT_FLAG 
+0 
+RC 
+VBAT Insert Event Flag 
+If ADC_EN bit = 1 or VVAC > VVAC_PRESENT_R or VVBUS > 
+VBUS_PRESENT_R, this bit will set to 1 when VBATP > 2.8V. 
+0 = No VBAT insert event 
+1 = VBAT insert event has occurred 
+It generates an interrupt on nINT pin if unmasked. Read this 
+bit to reset it to 0. 
+NA 
+D[5] 
+WD_TIMEOUT_FLAG 
+0 
+RC 
+Watchdog Timeout Fault Flag 
+0 = No watchdog timeout fault 
+1 = Watchdog timeout fault has occurred 
+It generates an interrupt on nINT pin if unmasked. Read this 
+bit to reset it to 0. 
+REG_RST 
+D[4] 
+AC_ABSENT_FLAG 
+0 
+RC 
+VAC Absent Fault Flag 
+This bit is set to 1 if VVAC < VVAC_PRESENT_R - VVAC_PRESENT_HYS. 
+0 = No VAC absent fault 
+1 = VAC absent fault has occurred 
+It generates an interrupt on nINT pin if unmasked. Read this 
+bit to reset it to 0. 
+NA 
+D[3] 
+BUS_ABSENT_FLAG 
+0 
+RC 
+VBUS Absent Fault Flag 
+It is set to 1 if VVBUS < VBUS_PRESENT_R - VBUS_PRESENT_HYS. 
+0 = No VBUS absent fault 
+1 = VBUS absent fault has occurred. 
+It generates an interrupt on nINT pin if unmasked. Read this 
+bit to reset it to 0. 
+NA 
+D[2] 
+IBUS_UCP_TIMEOUT_
+FLAG 
+0 
+RC 
+IBUS UCP Timeout Fault Flag 
+0 = No IBUS UCP timeout fault 
+1 = IBUS UCP timeout fault has occurred 
+It generates an interrupt on nINT pin if unmasked. Read this 
+bit to reset it to 0. 
+NA 
+D[1] 
+ADC_DONE_FLAG 
+0 
+RC 
+ADC Conversion Complete Flag 
+In 1-shot conversion mode, this bit is set to 1 after ADC 
+conversion of all enabled channels is complete. 
+0 = Normal 
+1 = ADC conversion complete. 
+It generates an interrupt on nINT pin if unmasked. Read this 
+bit to reset it to 0. 
+NA 
+D[0] 
+PIN_DIAG_FLAG 
+0 
+RC 
+Pin Diagnosis Fail Flag 
+When charging is enabled, some conditions are checked on 
+the CFLY and VOUT to assure proper operation. 
+0 = Normal 
+1 = CFLY or VOUT short fault has occurred 
+It generates an interrupt on nINT pin if unmasked. Read this 
+bit to reset it to 0. 
+REG_RST 
+ 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+29 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAP (continued) 
+REG0x10: FLT_INT_MASK3 Register Address [reset = 0x00] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7] 
+BUS_INSERT_MASK 
+0 
+R/W 
+Mask VBUS Insert Event Interrupt 
+0 = VBUS insert event interrupt can work (default) 
+1 = Mask VBUS insert event interrupt 
+BUS_INSERT_FLAG bit is set after the event, but the interrupt 
+signal is not generated. 
+REG_RST 
+D[6] 
+BAT_INSERT_MASK 
+0 
+R/W 
+Mask VBAT Insert Event Interrupt 
+0 = VBAT insert event interrupt can work (default) 
+1 = Mask VBAT insert event interrupt 
+BAT_INSERT_FLAG bit is set after the event, but the interrupt 
+signal is not generated. 
+REG_RST 
+D[5] 
+WD_TIMEOUT_MASK 
+0 
+R/W 
+Mask Watchdog Timeout Fault Interrupt 
+0 = watchdog timeout fault interrupt can work (default) 
+1 = Mask watchdog timeout fault interrupt 
+WD_TIMEOUT_FLAG bit is set after the event, but the 
+interrupt signal is not generated. 
+REG_RST 
+D[4] 
+AC_ABSENT_MASK 
+0 
+R/W 
+Mask VAC Absent Fault Interrupt 
+0 = VAC absent fault interrupt can work (default) 
+1 = Mask VAC absent fault interrupt 
+AC_ABSENT_FLAG bit is set after the event, but the interrupt 
+signal is not generated. 
+REG_RST 
+D[3] 
+BUS_ABSENT_MASK 
+0 
+R/W 
+Mask VBUS Absent Fault Interrupt 
+0 = VBUS absent fault interrupt can work (default) 
+1 = Mask VBUS absent fault interrupt 
+BUS_ABSENT_FLAG bit is set after the event, but the 
+interrupt signal is not generated. 
+REG_RST 
+D[2] 
+IBUS_UCP_TIMEOUT_
+MASK 
+0 
+R/W 
+Mask IBUS UCP Timeout Fault Interrupt 
+0 = IBUS UCP timeout fault interrupt can work (default) 
+1 = Mask IBUS UCP timeout fault interrupt 
+IBUS_UCP_TIMEOUT_FLAG bit is set after the event, but the 
+interrupt signal is not generated. 
+REG_RST 
+D[1] 
+ADC_DONE_MASK 
+0 
+R/W 
+Mask ADC Conversion Complete Event Interrupt 
+0 = ADC conversion complete event interrupt can work (default) 
+1 = Mask ADC conversion complete event interrupt 
+ADC_DONE_FLAG bit is set after the event, but the interrupt 
+signal is not generated. 
+REG_RST 
+D[0] 
+PIN_DIAG_MASK 
+0 
+R/W 
+Mask Pin Diagnosis Fail Interrupt 
+0 = Pin diagnosis fail interrupt can work (default) 
+1 = Mask pin diagnosis fail interrupt 
+PIN_DIAG_FLAG bit is set after the event, but the interrupt 
+signal is not generated. 
+REG_RST 
+ 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+30 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAP (continued) 
+REG0x11: ADC_CTRL Register Address [reset = 0x00] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7] 
+ADC_EN 
+0 
+R/W 
+ADC Conversion Enable 
+0 = Disabled (default) 
+1 = Enabled 
+Note: In 1-shot mode when the selected channel conversions 
+are complete, the ADC_EN bit is automatically reset to 0. 
+REG_RST 
+or Watchdog 
+D[6] 
+ADC_RATE 
+0 
+R/W 
+ADC Conversion Mode Control 
+0 = Continuous conversion (default) 
+1 = 1-shot conversion 
+REG_RST 
+D[5] 
+VBUS_ADC_DIS 
+0 
+R/W 
+VBUS ADC Control 
+0 = Enable conversion (default) 
+1 = Disable conversion 
+REG_RST 
+D[4] 
+IBUS_ADC_DIS 
+0 
+R/W 
+IBUS ADC Control 
+0 = Enable conversion (default) 
+1 = Disable conversion 
+REG_RST 
+D[3] 
+VBAT_ADC_DIS 
+0 
+R/W 
+VBAT ADC Control 
+0 = Enable conversion (default) 
+1 = Disable conversion 
+REG_RST 
+D[2] 
+IBAT_ADC_DIS 
+0 
+R/W 
+IBAT ADC Control 
+0 = Enable conversion (default) 
+1 = Disable conversion 
+REG_RST 
+D[1] 
+TDIE_ADC_DIS 
+0 
+R/W 
+TDIE ADC Control 
+0 = Enable conversion (default) 
+1 = Disable conversion 
+REG_RST 
+D[0] 
+Reserved 
+0 
+R 
+Reserved 
+NA 
+ 
+REG0x12: VBUS_ADC1 Register Address [reset = 0x00] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7:4] 
+Reserved 
+0000 
+R 
+Reserved 
+NA 
+D[3:0] 
+VBUS_ADC[11:8] 
+0000 
+R 
+Higher 4 bits of the 12-bit ADC VBUS Data (4mV resolution) 
+MSB<3:0>: 8192mV, 4096mV, 2048mV, 1024mV 
+REG_RST 
+ 
+REG0x13: VBUS_ADC0 Register Address [reset = 0x00] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7:0] 
+VBUS_ADC[7:0] 
+00000000 
+R 
+Low Byte of the ADC VBUS Data (4mV resolution) 
+LSB<7:0>: 512mV, 256mV, 128mV, 64mV, 32mV, 16mV, 8mV, 
+4mV 
+REG_RST 
+ 
+REG0x14: IBUS_ADC1 Register Address [reset = 0x00] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7:4] 
+Reserved 
+0000 
+R 
+Reserved 
+NA 
+D[3:0] 
+IBUS_ADC[11:8] 
+0000 
+R 
+Higher 4 bits of the 12-bit ADC IBUS Data (2mA resolution) 
+MSB<3:0>: 4096mA, 2048mA, 1024mA, 512mA 
+REG_RST 
+ 
+REG0x15: IBUS_ADC0 Register Address [reset = 0x00] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7:0] 
+IBUS_ADC[7:0] 
+00000000 
+R 
+Low Byte of the ADC IBUS Data (2mA resolution) 
+LSB<7:0>: 256mA, 128mA, 64mA, 32mA, 16mA, 8mA, 4mA, 
+2mA 
+REG_RST 
+ 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+31 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAP (continued) 
+REG0x16: VBAT_ADC1 Register Address [reset = 0x00] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7:4] 
+Reserved 
+0000 
+R 
+Reserved 
+NA 
+D[3:0] 
+VBAT_ADC[11:8] 
+0000 
+R 
+Higher 4 bits of the 12-bit ADC VBAT Data (2mV resolution) 
+MSB<3:0>: 4096mV, 2048mV, 1024mV, 512mV 
+REG_RST 
+ 
+REG0x17: VBAT_ADC0 Register Address [reset = 0x00] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7:0] 
+VBAT_ADC[7:0] 
+00000000 
+R 
+Low Byte of the ADC VBAT Data (2mV resolution) 
+LSB<7:0>: 256mV, 128mV, 64mV, 32mV, 16mV, 8mV, 4mV, 
+2mV 
+REG_RST 
+ 
+REG0x18: IBAT_ADC1 Register Address [reset = 0x00] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7:4] 
+Reserved 
+0000 
+R 
+Reserved 
+NA 
+D[3:0] 
+IBAT_ADC[11:8] 
+0000 
+R 
+Higher 4 bits of the 12-bit IBAT Data (2mA resolution) 
+MSB<3:0>: 4096mA, 2048mA, 1024mA, 512mA 
+REG_RST 
+ 
+REG0x19: IBAT_ADC0 Register Address [reset = 0x00] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7:0] 
+IBAT_ADC[7:0] 
+00000000 
+R 
+Low Byte of ADC IBAT Data (2mA resolution) 
+LSB<7:0>: 256mA, 128mA, 64mA, 32mA, 16mA, 8mA, 4mA, 
+2mA 
+REG_RST 
+ 
+REG0x1A: TDIE_ADC Register Address [reset = 0x00] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7:0] 
+TDIE_ADC[7:0] 
+00000000 
+R 
+ADC TDIE Data (8-bit) 
+LSB<7:0>: 128℃, 64℃, 32℃, 16℃, 8℃, 4℃, 2℃, 1℃ 
+ADC TDIE Temperature Value: = TDIE_ADC[7:0] × 1℃ - 40℃ 
+REG_RST 
+ 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+32 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAP (continued) 
+REG0x36: DPDM_DAC Register Address [reset = 0x00] 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+RESET BY 
+D[7:5] 
+DP_DAC[2:0] 
+000 
+R/W 
+DP Pin Output Driver Voltage Setting 
+000 = Hi-Z mode (default) 
+001 = 0V (V0P0_VSRC) 
+010 = 0.6V (V0P6_VSRC) 
+011 = 1.2V (V1P2_VSRC) 
+100 = 2.0V (V2P0_VSRC) 
+101 = 2.7V (V2P7_VSRC) 
+110 = 3.3V (V3P3_VSRC) 
+111 = Reserved 
+Register bits are reset to default value when input source is 
+plugged-in and can be changed after DP/DM detection is 
+complete. 
+REG_RST or 
+Watchdog 
+D[4:2] 
+DM_DAC[2:0] 
+000 
+R/W 
+DM Pin Output Driver Voltage Setting 
+000 = Hi-Z mode (default) 
+001 = 0V (V0P0_VSRC) 
+010 = 0.6V (V0P6_VSRC) 
+011 = 1.2V (V1P2_VSRC) 
+100 = 2.0V (V2P0_VSRC) 
+101 = 2.7V (V2P7_VSRC) 
+110 = 3.3V (V3P3_VSRC) 
+111 = Reserved 
+Register bits are reset to default value when input source is 
+plugged-in and can be changed after DP/DM detection is 
+complete. 
+REG_RST or 
+Watchdog 
+D[1] 
+EN_HVDCP 
+0 
+R/W 
+Enable Bit of DP/DM DAC for HVDCP 
+0 = Disabled (default) 
+1 = Enabled 
+REG_RST or 
+Watchdog 
+D[0] 
+Reserved 
+0 
+R 
+Reserved 
+NA 
+ 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+33 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+Input Capacitors (CVAC, CVBUS and CPMID) 
+Input capacitors are selected by considering two main factors:  
+1. Adequate voltage margin above maximum surge voltage 
+2. Not too large voltage margin in order to limit the peak 
+currents drawn from the source and reduce the input noise 
+For CVAC, use at least a 1µF low ESR bypass ceramic 
+capacitor placed close to the VAC and PGND pins. The CVBUS 
+and CPMID are determined by the minimum capacitance 
+needed for stable operation and the required ESR to minimize 
+the voltage ripple and load step transients. Typically, 10μF or 
+larger X5R ceramic capacitors are sufficient for CVBUS and 
+CPMID. Consider the DC bias derating of the ceramic 
+capacitors. The X5R and X7R capacitors are relatively stable 
+against DC bias and high temperature. Note that the bias 
+effect is more severe with smaller package sizes, so choose 
+the largest affordable package size. Also consider a large 
+margin for the voltage rating for the worst-case transient input 
+voltages. 
+External OVPFET (QOVP) 
+The maximum recommended VVBUS input range is 11.5V. If 
+the supplied VAC voltage is above 11.5V, or if regulation 
+functions are needed during load or wall adapter transients, 
+an external OVPFET is recommended between the USB 
+connector and the SGM41600. Choose a low RDSON MOSFET 
+for the OVPFET to minimize power losses. 
+Flying Capacitors (CFLY) 
+For selection of the CFLY capacitors, the current rating, ESR 
+and the bias voltage derating are critical parameters. The 
+CFLY capacitors are biased to half of the input voltage. To 
+trade-off between efficiency and power density, set the CFLY 
+voltage ripple to the 2% of the VVOUT as a good starting point. 
+The CFLY for each phase can be calculated by equation 8: 
+CFLY = 
+IBAT
+4fSWVCFLY_RPP  = 
+IBAT
+8%fSWVOUT          (8) 
+where IBAT is the charging current and VCFLY_RPP is the 
+peak-to-peak voltage ripple of the CFLY. 
+Choosing a too small capacitor for CFLY results in lower 
+efficiency and high output voltage/current ripples. However 
+choosing a too large CFLY only provides minor efficiency and 
+output ripple improvements. 
+The default switching frequency is fSW = 500kHz. It can be 
+adjusted by FSW_SET[2:0] bits in REG0x01. Selecting a low 
+switching frequency improves the efficiency, but the voltage 
+and current ripples are increased. 
+Output Capacitor (CVOUT) 
+CVOUT selection criteria are similar to the CFLY capacitor. 
+Larger CVOUT value results in less output voltage ripple, but 
+due to the dual-phase operation, the CVOUT RMS current is 
+much smaller than CFLY, so smaller capacitance value can be 
+chosen for CVOUT as given in equation 9: 
+CVOUT = 
+IBAT × tDEAD
+0.5 × VVOUT_RPP                (9) 
+where tDEAD is the dead time between the two phases and 
+VVOUT_RPP is the peak-to-peak output voltage ripple and is 
+typically set to the 2% of VVOUT. 
+CVOUT is biased to the battery voltage and its nominal value 
+should be derated for battery voltage DC bias. Typically two 
+10µF, X5R or better grade ceramic capacitors placed close to 
+the VOUT and PGND pins provide stable performance. 
+External Bootstrap Capacitor (CBST) 
+The bootstrap capacitors provide the gate driver supply 
+voltage for the internal high-side switches (QCH1 and QCH2). 
+Place a 100nF low ESR ceramic capacitor between BST1 
+and CFH1 pins and another one between BST2 and CFH2 
+pins. 
+PCB Layout Guidelines 
+A good PCB layout is critical for stable operation of the 
+SGM41600. Follow these guidelines for the best results: 
+1. Use short and wide traces for VBUS as it carries high 
+current. 
+2. Minimize connectors wherever possible. Connector losses 
+are significant especially at high currents. 
+3. Use solid thermal vias for better thermal relief. 
+4. Bypass VBUS, PMID and VOUT pins to PGND with 
+ceramic capacitors as close to the device pins as 
+possible. 
+5. Place CFLY capacitors as close as possible to the device 
+with small pad areas to reduce switching noise and EMI. 
+6. Connect or reference all quiet signals to the AGND pin. 
+7. Connect and reference all power signals to the PGND pins 
+(preferably the nearest ones). 
+8. Try not to interrupt or break the power planes by signal 
+traces. 
+ 
+ 
+ 
+
+I2C Controlled Single-Cell 6A Switched-Capacitor 
+SGM41600 
+Fast Charger with Bypass Mode and ADC 
+ 
+ 
+ 
+34 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+MARCH 2023 ‒ REV.A to REV.A.1 
+Page 
+Changed Detailed Description section ............................................................................................................................................................... 
+12 
+ 
+Changes from Original (JULY 2022) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00222.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+WLCSP-2.6×2.6-36B 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.525 
+0.575 
+0.625 
+A1 
+0.180 
+0.200 
+0.220 
+D 
+2.570 
+2.600 
+2.630 
+E 
+2.570 
+2.600 
+2.630 
+d 
+0.230 
+0.260 
+0.290 
+e 
+0.400 BSC 
+ 
+NOTE: This drawing is subject to change without notice. 
+ 
+ 
+ 
+ 
+ 
+PIN1 #
+TOP VIEW
+0.4
+0.4
+0.22
+0.20
+36 ×
+ Φ
+RECOMMENDED LAND PATTERN (Unit: mm)
+A1
+A
+SIDE VIEW
+1
+2
+3
+A
+B
+C
+D
+E
+F
+6
+5
+4
+36 ×
+ Φd
+BOTTOM VIEW
+e
+e
+D
+E
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+WLCSP-2.6×2.6-36B 
+13″ 
+12.4 
+2.75 
+2.75 
+0.77 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

@@ -12,12 +12,13 @@ from argparse import ArgumentParser
 from contextlib import asynccontextmanager
 from pprint import pprint
 from typing import Dict, List, Literal, Optional, Union
+import numpy
 
 import torch
 import uvicorn
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 from sse_starlette.sse import EventSourceResponse
 from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.requests import Request
@@ -132,6 +133,12 @@ class ChatCompletionResponse(BaseModel):
     choices: List[Union[ChatCompletionResponseChoice,
                         ChatCompletionResponseStreamChoice]]
     created: Optional[int] = Field(default_factory=lambda: int(time.time()))
+
+class GenerateRequest(BaseModel):
+    text: str  
+
+class GenerateResponse(BaseModel):
+    logits: list
 
 
 @app.get('/v1/models', response_model=ModelList)
@@ -381,6 +388,16 @@ def text_complete_last_message(history, stop_words_ids, gen_kwargs, system):
     print(f'<completion>\n{prompt}\n<!-- *** -->\n{output}\n</completion>')
     return output
 
+@app.post('/v1/raw/generate', response_model=GenerateResponse)
+async def create_logit_generate(request: GenerateRequest):
+    global model,tokenizer
+
+    model_inputs = tokenizer(request.text, return_tensors="pt").to("cuda")
+    outputs = model(**model_inputs)
+    logits = outputs.logits
+    logits_list = logits.cpu().detach().numpy().tolist()
+
+    return GenerateResponse(logits=logits_list)
 
 @app.post('/v1/chat/completions', response_model=ChatCompletionResponse)
 async def create_chat_completion(request: ChatCompletionRequest):
@@ -407,7 +424,7 @@ async def create_chat_completion(request: ChatCompletionRequest):
 
     query, history, system = parse_messages(request.messages,
                                             request.functions)
-
+ 
     print(f"query:{query}")
     print(f"request.messages:{request.messages}")
     # print(f"history:{history}")

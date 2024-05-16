@@ -1,0 +1,992 @@
+ 
+SGM13005M2 
+Low Noise Amplifier with 
+Bypass Switch for LTE Middle Band 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+APRIL 2024 – REV.A.3 
+ 
+ 
+GENERAL DESCRIPTION 
+The SGM13005M2 is a low noise amplifier (LNA) with 
+bypass for LTE middle band receiving application. The 
+device features low noise figure and high linearity over a 
+supply voltage range from 1.5V to 3.6V. Low noise figure 
+improves the sensitivity of the SGM13005M2, and high 
+linearity enables the device to provide better immunity to 
+interference signals. 
+No external DC blocking capacitors are required on the 
+RF paths as long as no external DC voltage is applied, 
+which can save PCB area and cost. 
+The SGM13005M2 is available in a Green UTDFN- 
+1.1×0.7-6L package. 
+ 
+APPLICATIONS 
+Cell Phones 
+Tablets 
+Other RF Front-End Modules 
+ 
+FEATURES 
+● Operating Frequency Range: 1800MHz to 2200MHz 
+● Low Noise Figure: 1.0dB at 2000MHz 
+● Low Operation Current: 5.8mA 
+● Bypass Mode Current: 1μA (MAX) 
+● Single Supply Voltage Range: 1.5V to 3.6V 
+● Input and Output DC Decoupled 
+● Integrated Matching for the Output 
+● Available in a Green UTDFN-1.1×0.7-6L Package 
+ 
+BLOCK DIAGRAM 
+Bias
+GND
+RFOUT
+RFIN
+EN
+VDD
+ 
+Figure 1. SGM13005M2 Block Diagram 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Low Noise Amplifier with 
+SGM13005M2 
+Bypass Switch for LTE Middle Band 
+ 
+ 
+2 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM13005M2 
+UTDFN-1.1×0.7-6L 
+-40℃ to +85℃ 
+SGM13005M2YUEC6G/TR 
+04 
+Tape and Reel, 10000  
+ 
+MARKING INFORMATION 
+NOTE: Fixed character for 04. 
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Supply Voltage, VDD 
+.......................................... -0.3V to 4.0V 
+EN to GND 
+........................................................ -0.3V to 4.0V 
+RFIN, RFOUT to GND ...................................... -0.3V to 0.3V 
+Supply Maximum Current, IVDD ..................................... 
+30mA 
+RF Input Power, PIN .................................................... 
+10dBm 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -55℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+1500V 
+CDM ............................................................................ 
+2000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Frequency Range, f0 .......... 
+1800MHz to 2200MHz 
+Operating Temperature Range ...................... -40℃ to +85℃ 
+Supply Voltage Range, VDD ................................ 
+1.5V to 3.6V 
+Control Voltage High, VCTL_H 
+.............................. 1.35V to VDD 
+Control Voltage Low, VCTL_L 
+................................. 
+0V to 0.45V 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+Serial Number
+YY
+
+Low Noise Amplifier with 
+SGM13005M2 
+Bypass Switch for LTE Middle Band 
+ 
+ 
+3 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+(TOP VIEW) 
+6
+EN
+1
+GND
+5
+RFIN
+4
+GND
+3
+RFOUT
+2
+VDD
+ 
+UTDFN-1.1×0.7-6L 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1, 4 
+GND 
+Ground. 
+2 
+VDD 
+Power Supply. 
+3 
+RFOUT 
+LNA Output. 
+5 
+RFIN 
+LNA Input from Antenna. 
+6 
+EN 
+Active High Enable Input for the Device. Pull high to LNA mode, pull low into bypass mode. 
+ 
+ 
+ 
+ 
+ 
+
+Low Noise Amplifier with 
+SGM13005M2 
+Bypass Switch for LTE Middle Band 
+ 
+ 
+4 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(TA = +25℃, VDD = 1.5V to 3.6V, f0 = 1800MHz to 2200MHz, typical values are at VDD = 2.8V, input and output resistance = 50Ω, 
+unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+DC Characteristics 
+Supply Voltage 
+VDD 
+ 
+1.5 
+ 
+3.6 
+V 
+Supply Current 
+IVDD 
+EN = High 
+ 
+5.8 
+7.2 
+mA  
+Control Voltage 
+VCTL_H 
+High 
+0.8 
+1.8 
+VDD 
+V 
+VCTL_L 
+Low 
+0 
+0 
+0.45 
+RF Characteristics 
+Power Gain 
+G 
+f0 = 1800MHz ~ 2200MHz 
+12.4 
+14.1 
+15.6 
+dB 
+f0 = 1800MHz ~ 2000MHz 
+12.4 
+13.7 
+15.6 
+f0 = 2000MHz ~ 2200MHz 
+12.8 
+13.9 
+15.6 
+Input Return Loss 
+RLI 
+f0 = 1800MHz ~ 2200MHz 
+4.9 (1) 
+8.6 
+ 
+dB 
+f0 = 1800MHz ~ 2000MHz 
+4.9 (1) 
+8.1 
+ 
+f0 = 2000MHz ~ 2200MHz 
+6.9 (1) 
+8.9 
+ 
+Output Return Loss 
+RLO 
+f0 = 1800MHz ~ 2200MHz 
+6.0 (1) 
+12.6 
+ 
+dB 
+f0 = 1800MHz ~ 2000MHz 
+7.0 (1) 
+10.3 
+ 
+f0 = 2000MHz ~ 2200MHz 
+6.0 (1) 
+9.5 
+ 
+Reverse Isolation 
+ISO 
+f0 = 1800MHz ~ 2200MHz 
+27.0 (1) 
+31.0 
+ 
+dB 
+f0 = 1800MHz ~ 2000MHz 
+27.8 (1) 
+31.2 
+ 
+f0 = 2000MHz ~ 2200MHz 
+27.0 (1) 
+31.1 
+ 
+Noise Figure 
+NF 
+f0 = 1800MHz ~ 2200MHz 
+ 
+1.0 
+1.3 (1) 
+dB 
+f0 = 1800MHz ~ 2000MHz 
+ 
+1.0 
+1.2 (1) 
+f0 = 2000MHz ~ 2200MHz 
+ 
+1.1 
+1.3 (1) 
+Input Power 1dB 
+Compression Point 
+P1dB 
+f0 = 1800MHz 
+-12.4 (1) 
+-10.4 
+ 
+dBm 
+f0 = 2000MHz 
+-11.1 (1) 
+-9.1 
+ 
+f0 = 2200MHz 
+-10.4 (1) 
+-8.4 
+ 
+Input In-Band IP3 
+IIP3_ib 
+f1 = 1800MHz, f2 = 1801MHz, P1 = P2 = -25dBm 
+-3.7 (1) 
+1.3 
+ 
+dBm 
+f1 = 2000MHz, f2 = 2001MHz, P1 = P2 = -25dBm 
+-3.0 (1) 
+2.0 
+ 
+f1 = 2200MHz, f2 = 2201MHz, P1 = P2 = -25dBm 
+-2.7 (1) 
+2.3 
+ 
+Turn-On Time 
+tON 
+Time from EN on to 90% of the gain 
+ 
+1.0 
+1.2 
+μs 
+Turn-Off Time 
+tOFF 
+Time from EN off to 10% of the gain 
+ 
+0.06 
+0.50 
+μs 
+Bypass Mode 
+Supply Current 
+IVDD 
+VEN < 0.45V 
+ 
+0.2 
+1 
+μA  
+Insertion Loss 
+IL 
+f0 = 1800MHz ~ 2200MHz 
+ 
+4.4 
+5.9 
+dB 
+f0 = 1800MHz ~ 2000MHz 
+ 
+4.6 
+5.4 
+f0 = 2000MHz ~ 2200MHz 
+ 
+4.8 
+5.9 
+Input Return Loss 
+RLI 
+f0 = 1800MHz ~ 2200MHz 
+5.9 (1) 
+13.2 
+ 
+dB 
+f0 = 1800MHz ~ 2000MHz 
+10.3 (1) 
+14.7 
+ 
+f0 = 2000MHz ~ 2200MHz 
+5.9 (1) 
+8.0 
+ 
+Output Return Loss 
+RLO 
+f0 = 1800MHz ~ 2200MHz 
+5.6 (1) 
+10.9 
+ 
+dB 
+f0 = 1800MHz ~ 2000MHz 
+6.5 (1) 
+9.7 
+ 
+f0 = 2000MHz ~ 2200MHz 
+5.6 (1) 
+8.7 
+ 
+ 
+ 
+
+Low Noise Amplifier with 
+SGM13005M2 
+Bypass Switch for LTE Middle Band 
+ 
+ 
+5 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(TA = +25℃, VDD = 1.5V to 3.6V, f0 = 1800MHz to 2200MHz, typical values are at VDD = 1.8V, input and output resistance = 50Ω, 
+unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+DC Characteristics 
+Supply Voltage 
+VDD 
+ 
+1.5 
+1.8 
+3.6 
+V 
+Supply Current 
+IVDD 
+EN = High 
+ 
+5.9 
+7.3 
+mA  
+Control Voltage 
+VCTL_H 
+High 
+0.8 
+1.8 
+VDD 
+V 
+VCTL_L 
+Low 
+0 
+0 
+0.45 
+RF Characteristics 
+Power Gain 
+G 
+f0 = 1800MHz ~ 2200MHz 
+12.5 
+14.1 
+15.6 
+dB 
+f0 = 1800MHz ~ 2000MHz 
+12.5 
+13.8 
+15.6 
+f0 = 2000MHz ~ 2200MHz 
+12.8 
+13.8 
+15.6 
+Input Return Loss 
+RLI 
+f0 = 1800MHz ~ 2200MHz 
+5.0 (1) 
+8.7 
+ 
+dB 
+f0 = 1800MHz ~ 2000MHz 
+5.0 (1) 
+8.3 
+ 
+f0 = 2000MHz ~ 2200MHz 
+7.0 (1) 
+9.6 
+ 
+Output Return Loss 
+RLO 
+f0 = 1800MHz ~ 2200MHz 
+5.2 (1) 
+12.6 
+ 
+dB 
+f0 = 1800MHz ~ 2000MHz 
+7.4 (1) 
+10.3 
+ 
+f0 = 2000MHz ~ 2200MHz 
+5.2 (1) 
+9.5 
+ 
+Reverse Isolation 
+ISO 
+f0 = 1800MHz ~ 2200MHz 
+26.7 (1) 
+30.4 
+ 
+dB 
+f0 = 1800MHz ~ 2000MHz 
+27.2 (1) 
+30.9 
+ 
+f0 = 2000MHz ~ 2200MHz 
+26.7 (1) 
+30.4 
+ 
+Noise Figure 
+NF 
+f0 = 1800MHz ~ 2200MHz 
+ 
+1.0 
+1.3 (1) 
+dB 
+f0 = 1800MHz ~ 2000MHz 
+ 
+1.0 
+1.2 (1) 
+f0 = 2000MHz ~ 2200MHz 
+ 
+1.1 
+1.3 (1) 
+Input Power 1dB 
+Compression Point 
+P1dB 
+f0 = 1800MHz 
+-13.8 (1) 
+-11.8 
+ 
+dBm 
+f0 = 2000MHz 
+-13.0 (1) 
+-11.0 
+ 
+f0 = 2200MHz 
+-12.6 (1) 
+-10.6 
+ 
+Input In-Band IP3 
+IIP3_ib 
+f1 = 1800MHz, f2 = 1801MHz, P1 = P2 = -25dBm 
+-3.6 (1) 
+1.4 
+ 
+dBm 
+f1 = 2000MHz, f2 = 2001MHz, P1 = P2 = -25dBm 
+-3.6 (1) 
+1.4 
+ 
+f1 = 2200MHz, f2 = 2201MHz, P1 = P2 = -25dBm 
+-3.1 (1) 
+1.9 
+ 
+Turn-On Time 
+tON 
+Time from EN on to 90% of the gain 
+ 
+1.2 
+1.4 
+μs 
+Turn-Off Time 
+tOFF 
+Time from EN off to 10% of the gain 
+ 
+0.09 
+0.50 
+μs 
+Bypass Mode 
+Supply Current 
+IVDD 
+VEN < 0.45V 
+ 
+0.2 
+1 
+μA 
+Insertion Loss 
+IL 
+f0 = 1800MHz ~ 2200MHz 
+ 
+4.8 
+5.5 
+dB 
+f0 = 1800MHz ~ 2000MHz 
+ 
+5.0 
+5.5 
+f0 = 2000MHz ~ 2200MHz 
+ 
+5.2 
+5.5 
+Input Return Loss 
+RLI 
+f0 = 1800MHz ~ 2200MHz 
+6.1 (1) 
+13.5 
+ 
+dB 
+f0 = 1800MHz ~ 2000MHz 
+10.6 (1) 
+14.9 
+ 
+f0 = 2000MHz ~ 2200MHz 
+6.1 (1) 
+8.2 
+ 
+Output Return Loss 
+RLO 
+f0 = 1800MHz ~ 2200MHz 
+5.5 (1) 
+11.1 
+ 
+dB 
+f0 = 1800MHz ~ 2000MHz 
+6.8 (1) 
+10.1 
+ 
+f0 = 2000MHz ~ 2200MHz 
+5.5 (1) 
+8.7 
+ 
+NOTE: 
+1. Guaranteed by design, not tested in production. 
+ 
+ 
+
+Low Noise Amplifier with 
+SGM13005M2 
+Bypass Switch for LTE Middle Band 
+ 
+ 
+6 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL APPLICATION CIRCUIT 
+C1
+L2
+Optional
+Supply Voltage
+LNA Output
+Enable
+L1
+LNA Input
+VDD
+RFOUT
+GND
+RFIN
+EN
+SGM13005M2
+ 
+ 
+Figure 2. SGM13005M2 Typical Application Circuit 
+ 
+Table 1. Inductor Selection Table 
+Part 
+Typical (nH) 
+Q (min) 
+Frequency (MHz) 
+MFR 
+Size 
+LQW15A 
+6.8 
+25 
+250 
+Murata 
+0402 
+ 
+Table 2. Capacitor Selection Table 
+Part 
+Typical (pF) 
+Voltage (V) 
+MFR 
+Size 
+GRM155 
+1000 
+50 
+Murata 
+0402 
+ 
+EVALUATION BOARD LAYOUT 
+ 
+ 
+Figure 3. Evaluation Board Layout 
+ 
+ 
+
+Low Noise Amplifier with 
+SGM13005M2 
+Bypass Switch for LTE Middle Band 
+ 
+ 
+7 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+APRIL 2024 ‒ REV.A.2 to REV.A.3 
+Page 
+Updated Electrical Characteristics section ....................................................................................................................................................... 
+4, 5 
+ 
+JUNE 2023 ‒ REV.A.1 to REV.A.2 
+Page 
+Updated Electrical Characteristics section ....................................................................................................................................................... 
+4, 5 
+ 
+MAY 2023 ‒ REV.A to REV.A.1 
+Page 
+Updated Electrical Characteristics section ....................................................................................................................................................... 
+4, 5 
+ 
+Changes from Original (DECEMBER 2022) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00199.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+UTDFN-1.1×0.7-6L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.400 
+0.450 
+0.500 
+A1 
+0.000 
+0.020 
+0.050 
+A2 
+0.152 REF 
+D 
+1.050 
+1.100 
+1.150 
+E 
+0.650 
+0.700 
+0.750 
+b 
+0.150 
+0.200 
+0.250 
+e 
+0.300 
+0.400 
+0.500 
+e1 
+0.300 
+0.400 
+0.500 
+H 
+0.100 REF 
+ 
+NOTE: This drawing is subject to change without notice. 
+ 
+ 
+ 
+TOP VIEW
+BOTTOM VIEW
+A
+SIDE VIEW
+A1
+PIN 1#
+E
+A2
+N1
+N6
+e
+e1
+H
+H
+Φb
+D
+0.40
+0.40
+Φ0.20
+RECOMMENDED LAND PATTERN (Unit: mm)
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+UTDFN-1.1×0.7-6L 
+7″ 
+9.5 
+0.80 
+1.20 
+0.55 
+4.0 
+2.0 
+2.0 
+8.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 

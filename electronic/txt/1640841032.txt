@@ -1,0 +1,1467 @@
+ 
+SGM3758 
+38V High Efficiency, Boost White LED 
+Driver with Strobe Interface for Flash Mode 
+ 
+ 
+NOVEMBER2017–REV.A 
+SG Micro Corp 
+www.sg-micro.com 
+GENERAL DESCRIPTION 
+The SGM3758 is a high efficiency white LED driver with 
+a 1.2MHz boost converter. With the fixed switching 
+frequency and an internal 40V/3A switch FET, the 
+SGM3758 is designed for powering single or parallel 
+LED strings for various size panel backlighting and 
+ideal for smart phone image capture using display 
+device as a flash mode light source, as it is capable of 
+driving up to 200mA current at 30V for 320ms when the 
+strobe signal is active. 
+The FB feedback voltage is regulated at 200mV 
+typically. The backlight mode default LED current is 
+programmed by an external RSET resistor. During the 
+operation, the LED current can be controlled by 
+applying a PWM signal to the CTRL pin. The feedback 
+voltage depends on the PWM signal duty cycle. For 
+PWM dimming control, there are no audible noises on 
+the output capacitor. 
+The SGM3758 integrates LED open protection. It 
+prevents the device from damaging due to the over- 
+voltage during LED open conditions. 
+When the device is in operation and the STROBE pin is 
+pulled up, the SGM3758 will enter flash mode within 
+100µs. The feedback voltage is regulated to 5× of the 
+backlight mode voltage that is determined by the PWM 
+signal duty cycle. When the STROBE pin is pulled 
+down or the strobe signal remains high for longer than 
+the 320ms timer, the SGM3758 will enter backlight 
+mode within 100µs. 
+The SGM3758 is available in a Green TDFN-2×2-6L 
+package. It operates over an ambient temperature 
+range of -40℃ to +85℃. 
+FEATURES 
+● Input Voltage Range: 2.7V to 5.5V 
+● Integrated 40V/3A Switch 
+● Up to 200mA Output Current at 30V 
+● Accumulated 320ms Flash Timer Control 
+● Switching Frequency: 1.2MHz 
+● PWM Dimming Control 
+● PWM Dimming Frequency: 20kHz to 100kHz 
+● Strobe Interface for Image Capture Mode 
+● Up to 87% Efficiency for 7S2P LEDs 
+● Up to 92% Efficiency for 3S20P LEDs 
+● Dimming Stable in 1:500 Range 
+● Feedback Voltage 
+ Backlight Mode: 200mV 
+ Flash Mode: 1000mV 
+● Flash Mode Under-Voltage Lockout 
+● Automatic Soft-Start for Reducing Inrush Current 
+● PFM Mode at Light Load 
+● Protection Features 
+ 38V Over-Voltage Protection 
+ LED Open or Short Protection 
+ Thermal Shutdown 
+● -40℃ to +85℃ Operating Temperature Range 
+● Available in a Green TDFN-2×2-6L Package 
+ 
+ 
+ 
+APPLICATIONS 
+PDAs, Handheld Computers 
+Backlight for Media Form Factor LCD Displays with 
+1-Cell Battery Input 
+ 
+ 
+ 
+ 
+ 
+
+38V High Efficiency, Boost White LED 
+SGM3758 
+Driver with Strobe Interface for Flash Mode 
+ 
+ 
+2 
+NOVEMBER 2017 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM3758 
+TDFN-2×2-6L 
+-40℃ to +85℃ 
+SGM3758YTDI6G/TR 
+3758 
+XXXX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XXXX = Date Code. 
+TDFN-2×2-6L 
+ 
+Date Code - Week
+Date Code - Year
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Voltages on VIN, CTRL, STROBE, FB ................ -0.3V to 6V 
+Package Thermal Resistance 
+TDFN-2×2-6L, θJA 
+.................................................... 120℃/W 
+Voltage on SW 
+................................................... -0.3V to 40V 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ........................ 
+-65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+3000V 
+MM 
+................................................................................. 
+200V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Input Voltage Range ........................................... 
+2.7V to 5.5V 
+Output Voltage Range ........................................... VIN to 38V 
+Inductor 
+........................................................... 4.7μH to 22μH 
+Input Capacitor ...................................................... 1μF (MIN) 
+Output Capacitor 
+................................................. 
+1μF to 10μF 
+Operating Temperature Range ....................... 
+-40℃ to +85℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+
+38V High Efficiency, Boost White LED 
+SGM3758 
+Driver with Strobe Interface for Flash Mode 
+ 
+ 
+3 
+NOVEMBER 2017 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+(TOP VIEW) 
+3
+2
+1
+4
+6
+5
+GND
+FB
+STROBE
+VIN
+CTRL
+SW
+GND
+ 
+TDFN-2×2-6L 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+I/O 
+FUNCTION 
+1 
+FB 
+I 
+Feedback Input for Current. Connect the sense resistor from FB to GND. 
+2 
+STROBE 
+I 
+Strobe Signal Input Pin. STROBE synchronizes the flash pulse to the image capture. 
+Generally, this signal is directly generated from the image sensor. 
+3 
+GND 
+O 
+Ground Pin. 
+4 
+SW 
+I 
+Boost Switching Node. The device monitors the output voltage on this pin for LED 
+open protection. Connect an inductor between the VIN and SW pins. 
+5 
+CTRL 
+I 
+Boost Regulator Control Pin. It is used for enable control and PWM dimming control. 
+6 
+VIN 
+I 
+Input Supply Pin.  
+Exposed Pad 
+GND 
+— 
+Exposed Pad. It should be soldered to the analog ground plane. If possible, use 
+thermal via connection to ground plane for enhanced power dissipation. 
+ 
+TYPICAL APPLICATION 
+VIN
+STROBE
+GND
+FB
+D1
+COUT
+1μF
+VIN
+2.7V to 5.5V
+CIN
+22μF
+SGM3758
+L
+10μH
+SW
+RSET
+5Ω
+Enable and 
+PWM Dimming Control
+CTRL
+Strobe
+7S2P
+ 
+Figure 1. Typical Application Circuit 
+ 
+ 
+
+38V High Efficiency, Boost White LED 
+SGM3758 
+Driver with Strobe Interface for Flash Mode 
+ 
+ 
+4 
+NOVEMBER 2017 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VIN = 3.6V, CTRL = VIN, CIN = 22μF, Full = -40℃ to +85℃, typical values are at TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN 
+TYP 
+MAX 
+UNITS 
+Power Supply 
+Input Voltage Range 
+VIN 
+ 
+Full 
+2.7 
+ 
+5.5 
+V 
+Under-Voltage Lockout Threshold 
+UVLO 
+VIN falling 
++25℃ 
+ 
+2.2 
+ 
+V 
+VIN rising 
++25℃ 
+ 
+2.3 
+2.5 
+V 
+UVLO Hysteresis 
+VHYS 
+ 
++25℃ 
+ 
+100 
+ 
+mV 
+Operating Quiescent Current into VIN 
+IQ 
+VFB = 300mV, no switching 
++25℃ 
+ 
+0.2 
+0.35 
+mA 
+Shutdown Current 
+ISD 
+CTRL = GND 
++25℃ 
+ 
+ 
+1 
+μA 
+Boost Converter 
+Backlight Mode Feedback Regulation Voltage 
+VFB(BL) 
+PWM duty cycle 100% 
++25℃ 
+193.5 
+200 
+205.3 
+mV 
+PWM duty cycle 10% 
++25℃ 
+18 
+20 
+22 
+mV 
+PWM duty cycle 1% 
++25℃ 
+1.4 
+2.2 
+3 
+mV 
+PWM duty cycle 0.2% 
++25℃ 
+ 
+0.65 
+ 
+mV 
+Flash Mode Feedback Regulation Voltage 
+VFB(FL) 
+PWM duty cycle 100% 
++25℃ 
+950 
+1000 
+1050 
+mV 
+PWM duty cycle 67% 
++25℃ 
+630 
+670 
+710 
+mV 
+PWM duty cycle 33% 
++25℃ 
+300 
+330 
+360 
+mV 
+FB Pin Bias Current 
+IFB 
+VFB = 100mV 
++25℃ 
+ 
+0.6 
+1 
+μA 
+VREF Filter Time Constant 
+tREF 
+ 
++25℃ 
+ 
+0.1 
+ 
+ms 
+N-Channel MOSFET On-Resistance 
+RDS(ON) 
+ 
++25℃ 
+ 
+0.2 
+0.3 
+Ω 
+Switching Frequency 
+fSW 
+ 
+Full 
+0.9 
+1.2 
+1.35 
+MHz 
+Switching MOSFET Current Limit for Backlight Mode 
+ILIMBL 
+ 
++25℃ 
+1.15 
+1.5 
+1.85 
+A 
+Switching MOSFET Current Limit for Flash Mode 
+ILIMFL 
+ 
++25℃ 
+ 
+3 
+ 
+A 
+Output Voltage Over-Voltage Threshold 
+VOVP_SW 
+ 
+Full 
+36 
+38 
+39.5 
+V 
+Control 
+CTRL Logic High Voltage 
+VCTRLH 
+ 
+Full 
+1.6 
+ 
+ 
+V 
+CTRL Logic Low Voltage 
+VCTRLL 
+ 
+Full 
+ 
+ 
+0.4 
+V 
+CTRL Pin internal Pull-Down Resistor 
+RCTRLPD 
+ 
++25℃ 
+ 
+580 
+ 
+kΩ 
+CTRL Logic High Time to Backlight Mode 
+tRP1 
+ 
++25℃ 
+ 
+6 
+ 
+ms 
+CTRL Logic Low Time to Shutdown 
+tSD1 
+CTRL high to low 
++25℃ 
+2.5 
+ 
+ 
+ms 
+STROBE Logic High Voltage 
+VSTROBEH 
+ 
+Full 
+1.6 
+ 
+ 
+V 
+STROBE Logic Low Voltage 
+VSTROBEL 
+ 
+Full 
+ 
+ 
+0.4 
+V 
+STROBE Pin internal Pull-Down Resistor 
+RSTROBEPD 
+ 
++25℃ 
+ 
+180 
+ 
+kΩ 
+STROBE Logic High Time to Flash Mode 
+tRP2 
+ 
++25℃ 
+ 
+50 
+ 
+µs 
+STROBE Logic Low Time to Backlight Mode 
+tSD2 
+ 
++25℃ 
+ 
+50 
+ 
+µs 
+Flash Mode Under-Voltage Lockout Threshold 
+UVLOFL 
+ 
++25℃ 
+3.2 
+3.3 
+3.45 
+V 
+Flash Mode UVLO Hysteresis 
+VHYSFL 
+ 
++25℃ 
+ 
+100 
+ 
+mV 
+Flash Mode Timer 
+tP 
+ 
++25℃ 
+280 
+320 
+380 
+ms 
+PWM Dimming Frequency Range 
+DFR 
+ 
++25℃ 
+20 
+ 
+100 
+kHz 
+Minimum PWM On-Time 
+ 
+ 
++25℃ 
+40 
+ 
+ 
+ns 
+PWM Duty Cycle Changing Time to Output 
+DCCTO 
+Duty cycle from100% to 50% 
++25℃ 
+ 
+2 
+ 
+ms 
+Stable Dimming Range 
+DR 
+ 
++25℃ 
+0.2 
+ 
+100 
+% 
+Thermal Shutdown 
+Thermal Shutdown Threshold 
+TSHUTDOWN 
+ 
+ 
+ 
+160 
+ 
+℃ 
+Thermal Shutdown Hysteresis 
+THYS 
+ 
+ 
+ 
+20 
+ 
+℃ 
+ 
+ 
+
+38V High Efficiency, Boost White LED 
+SGM3758 
+Driver with Strobe Interface for Flash Mode 
+ 
+ 
+5 
+NOVEMBER 2017 
+SG Micro Corp 
+www.sg-micro.com 
+RECOMMENDED COMPONENTS OF TEST CIRCUITS 
+ 
+Component 
+ 
+Component 
+Inductor 
+10μH/ETQP3M100KVP 
+Capacitor 
+1μF/C2012X7R1H105JT 
+Diode 
+PMEG4030ER 
+22μF/C2012X7R1H226JT 
+ 
+ 
+ 
+ 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+TA = +25℃, L = 10μH, CIN = 22μF, COUT = 1μF, unless otherwise noted. 
+      Feedback Voltage vs. PWM Duty Cycle 
+     Efficiency vs. Output Current 
+ 
+ 
+      Efficiency vs. Output Current 
+     Efficiency vs. Output Current 
+ 
+ 
+ 
+ 
+ 
+ 
+0
+40
+80
+120
+160
+200
+0
+20
+40
+60
+80
+100
+Feedback Voltage (mV) 
+PWM Duty Cycle (%) 
+fPWM = 20kHz 
+ 
+ 
+ 
+ VIN = 3.6V 
+ 
+ 
+fPWM = 40kHz 
+ 
+ 
+ 
+0
+20
+40
+60
+80
+100
+0
+8
+16
+24
+32
+40
+Efficiency (%) 
+Output Current (mA) 
+5S2P LEDs 
+ 
+ 
+ 
+6S2P LEDs 
+ 
+ 
+ 
+7S2P LEDs 
+ 
+ 
+ 
+8S2P LEDs 
+ 
+ 
+ 
+ VIN = 3.6V 
+ 
+ 
+ 
+0
+20
+40
+60
+80
+100
+0
+8
+16
+24
+32
+40
+Efficiency (%) 
+Output Current (mA) 
+ VIN = 4.2V, 7S2P LEDs 
+ 
+ 
+ 
+40
+50
+60
+70
+80
+90
+100
+0
+80
+160
+240
+320
+400
+Efficiency (%) 
+Output Current (mA) 
+ VIN = 5V, 3S20P LEDs 
+ 
+ 
+ 
+
+38V High Efficiency, Boost White LED 
+SGM3758 
+Driver with Strobe Interface for Flash Mode 
+ 
+ 
+6 
+NOVEMBER 2017 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, L = 10μH, CIN = 22μF, COUT = 1μF, unless otherwise noted. 
+ 
+ 
+Open LED Protection 
+ 
+ 
+ 
+Output Ripple at PWM Dimming 
+ 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+VFB 
+ 
+IL 
+ 
+               10V/div  500mV/div 1A/div 
+ 
+ 
+ 
+ 
+PWM 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ILED 
+ 
+ 
+2V/div      100mV/div   20mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (2s/div) 
+ 
+ 
+ 
+Time (50μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Switching Waveform 
+ 
+ 
+ 
+Switching Waveform 
+ 
+ 
+ 
+ 
+VSW 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+IL 
+ 
+ 
+20V/div    200mV/div  200mA/div 
+ 
+ 
+ 
+VSW 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+IL 
+ 
+ 
+20V/div     2V/div   1A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (2μs/div) 
+ 
+ 
+ 
+Time (2μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Start-Up 
+ 
+ 
+ 
+Start-Up 
+ 
+ 
+ 
+ 
+VCTRL 
+  
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+ 
+2V/div  10V/div        200mA/div 
+ 
+ 
+ 
+ 
+VCTRL 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+ 
+ 2V/div   5V/div        500mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+VIN = 3.6V, ILED = 20mA, 7S2P LEDs 
+AC Coupled 
+VIN = 3.6V, ILED = 20mA, 7S2P LEDs 
+AC Coupled 
+AC Coupled 
+VIN = 3.6V, ILED = 40mA, 7S2P LEDs 
+VIN = 3.6V, ILED = 40mA, 7S2P LEDs 
+VIN = 3.6V, ILED = 200mA, 7S2P LEDs 
+VIN = 3.6V, ILED = 400mA, 3S20P LEDs 
+
+38V High Efficiency, Boost White LED 
+SGM3758 
+Driver with Strobe Interface for Flash Mode 
+ 
+ 
+7 
+NOVEMBER 2017 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, L = 10μH, CIN = 22μF, COUT = 1μF, unless otherwise noted. 
+ 
+ 
+Flash Mode Start-Up 
+ 
+ 
+ 
+Flash Mode Shut-Down 
+ 
+ 
+STROBE 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VFB 
+ 
+IL 
+ 
+ 
+ 
+ 
+ 
+ 5V/div   200mV/div     1A/div 
+ 
+ 
+STROBE 
+ 
+VFB 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+ 
+ 
+ 
+  5V/div     200mV/div     1A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (20μs/div) 
+ 
+ 
+ 
+Time (10μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Flash Mode Over Time Protection 
+ 
+ 
+ 
+Flash Mode Over Time Protection 
+ 
+ 
+STROBE 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+VFB 
+ 
+ 
+ 
+IL 
+ 
+ 
+ 5V/div 20V/div  500mV/div  1A/div   
+ 
+ 
+STROBE 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+VFB 
+ 
+ 
+ 
+IL 
+ 
+ 
+5V/div 20V/div 500mV/div  1A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (200ms/div) 
+ 
+ 
+ 
+Time (200ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Flash Mode Over Time Protection 
+ 
+ 
+ 
+ 
+ 
+ 
+STROBE 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+VFB 
+ 
+ 
+ 
+IL 
+ 
+  
+5V/div 20V/div 500mV/div  1A/div 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (200ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN = 3.6V, 7S2P LEDs 
+VIN = 3.6V, 7S2P LEDs 
+VIN = 3.6V, T = 200ms, D = 50%, 7S2P LEDs 
+ 
+VIN = 3.6V, T = 400ms, D = 50%, 7S2P LEDs 
+ 
+VIN = 3.6V, T = 800ms, D = 50%, 7S2P LEDs 
+ 
+
+38V High Efficiency, Boost White LED 
+SGM3758 
+Driver with Strobe Interface for Flash Mode 
+ 
+ 
+8 
+NOVEMBER 2017 
+SG Micro Corp 
+www.sg-micro.com 
+ADDITIONAL TYPICAL APPLICATION 
+ 
+VIN
+STROBE
+GND
+FB
+D1
+COUT
+10μF
+VIN
+2.7V to 5.5V
+CIN
+22μF
+SGM3758
+L
+22μH
+SW
+RSET
+0.5Ω
+Enable and 
+PWM Dimming Control
+CTRL
+Strobe
+3S20P
+60 LEDs
+……
+ 
+ 
+Figure 2. Drive 60 LEDs for Media Form Factor Display 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+Changes from Original (NOVEMBER 2017) to REV.A 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00055.001 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TDFN-2×2-6L 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.700 
+0.800 
+0.028 
+0.031 
+A1 
+0.000 
+0.050 
+0.000 
+0.002 
+A2 
+0.203 REF 
+0.008 REF 
+D 
+1.900 
+2.100 
+0.075 
+0.083 
+D1 
+1.100 
+1.450 
+0.043 
+0.057 
+E 
+1.900 
+2.100 
+0.075 
+0.083 
+E1 
+0.600 
+0.850 
+0.024 
+0.034 
+k 
+0.200 MIN 
+0.008 MIN 
+b 
+0.180 
+0.300 
+0.007 
+0.012 
+e 
+0.650 TYP 
+0.026 TYP 
+L 
+0.250 
+0.450 
+0.010 
+0.018 
+ 
+ 
+ 
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+D
+E
+b
+E1
+D1
+e
+k
+N3
+N1
+N6
+A
+A2
+A1
+L
+0.24
+0.65
+0.80
+1.40
+0.65
+RECOMMENDED LAND PATTERN (Unit: mm)
+2.60
+N1
+N2
+N1
+N2
+SEE DETAIL A
+DETAIL A
+Pin #1 ID and Tie Bar Mark Options
+NOTE: The configuration of the Pin #1 identifier is optional,
+but must be located within the zone indicated.
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TDFN-2×2-6L 
+7″ 
+9.5 
+2.30 
+2.30 
+1.10 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 
+ 
+ 

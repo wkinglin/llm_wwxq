@@ -1,0 +1,774 @@
+ 
+SGM48756 
+3.5Ω, Low Voltage SPDT 
+Analog Switch in Ultra-Thin Package 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+APRIL 2024 – REV. A. 1 
+GENERAL DESCRIPTION 
+The SGM48756 is a bidirectional, SPDT (single-pole/ 
+double-throw), CMOS analog switch. It operates from a 
+1.8V to 5.5V single power supply. 
+The SGM48756 features low on-resistance, low voltage 
+and high bandwidth. The high performances make it 
+very suitable for multiple applications, such as portable 
+equipment, audio and video signal routing, etc. Low 
+power consumption is also one of the important 
+reasons that make it a good choice for applications. 
+The SGM48756 is available in Green SC70-6, 
+XTDFN-1×1-6L and UTDFN-1.45×1-6AL packages. It 
+operates -40 ℃ to +125 ℃ operating temperature 
+range. 
+ 
+FEATURES 
+● Single Supply Voltage Range: 1.8V to 5.5V 
+● Low On-Resistance: 3.5Ω (TYP) at 5V 
+● Fast Switching Times: 
+tON: 26ns (TYP) 
+tOFF: 20ns (TYP) 
+● Low On-Resistance Flatness 
+● -3dB Bandwidth: 250MHz (TYP) 
+● High Off-Isolation: -50dB (TYP) at 10MHz 
+● TTL/CMOS Compatible 
+● Rail-to-Rail Input and Output Operation 
+● Break-Before-Make Switching 
+● -40℃ to +125℃ Operating Temperature Range 
+● Available in Green SC70-6, XTDFN-1×1-6L and 
+UTDFN-1.45×1-6AL Packages 
+ 
+ 
+APPLICATIONS 
+Cellular Phones 
+Portable Equipment 
+Computer Peripherals 
+Sample-and-Hold Circuits 
+Personal Digital Assistants 
+Battery-Powered Systems 
+Audio and Video Signal Routing 
+ 
+ 
+ 
+ 
+
+3.5Ω, Low Voltage SPDT 
+SGM48756 
+Analog Switch in Ultra-Thin Package 
+ 
+ 
+2 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM48756 
+SC70-6 
+-40℃ to +125℃ 
+SGM48756XC6G/TR 
+01QXX 
+Tape and Reel, 3000 
+XTDFN-1×1-6L 
+-40℃ to +125℃ 
+SGM48756XXDM6G/TR 
+1X 
+Tape and Reel, 10000 
+UTDFN-1.45×1-6AL 
+-40℃ to +125℃ 
+SGM48756XUDL6G/TR 
+00X 
+Tape and Reel, 5000 
+ 
+MARKING INFORMATION 
+NOTE: XX = Date Code. X = Date Code. 
+SC70-6 
+XTDFN-1×1-6L 
+Date Code - Year 
+Date Code - Week 
+Serial Number
+YYY X X
+ 
+Date Code - Quarter 
+Serial Number
+Y X
+  
+UTDFN-1.45×1-6AL 
+ 
+Date Code - Quarter 
+Serial Number
+YY X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+V+, IN to GND ...................................................... -0.3V to 6V 
+Analog Voltage Range (1) 
+........................ -0.3V to (V+ + 0.3V) 
+Continuous Current, NO, NC, or COM 
+........................ ±50mA 
+Peak Current, NO, NC, or COM 
+.................................. ±80mA 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ........................ 
+-65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+XTDFN-1×1-6L Package 
+HBM 
+........................................................................... 
+8000V 
+CDM 
+........................................................................... 
+1000V 
+SC70-6 and UTDFN-1.45×1-6AL Packages 
+HBM 
+........................................................................... 
+4000V 
+CDM 
+........................................................................... 
+1000V 
+ 
+NOTE: 
+1. Internal diodes will clamp voltages on NC, NO, or COM 
+that exceed V+. Limit the current through the forward diode 
+to the maximum ratings. 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Temperature Range ..................... 
+-40℃ to +125℃ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+
+3.5Ω, Low Voltage SPDT 
+SGM48756 
+Analog Switch in Ultra-Thin Package 
+ 
+ 
+3 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+(TOP VIEW) 
+4
+3
+1
+6
+5
+NO
+IN
+COM
+V+
+NC
+2
+GND
+ 
+SC70-6 
+ 
+ 
+(TOP VIEW) 
+(TOP VIEW) 
+V+
+GND
+NO
+NC
+IN
+COM
+2
+1
+3
+5
+4
+6
+ 
+IN
+COM
+V+
+NO
+NC
+GND
+3
+2
+6
+5
+4
+1
+ 
+XTDFN-1×1-6L 
+UTDFN-1.45×1-6AL 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+SC70-6 
+XTDFN-1×1-6L 
+UTDFN-1.45×1-6AL 
+1 
+6 
+NO 
+Normally Open Pin. 
+2 
+5 
+GND 
+Ground. 
+3 
+4 
+NC 
+Normally Closed Pin. 
+4 
+3 
+COM 
+Common Pin. 
+5 
+2 
+V+ 
+Positive Power Supply Pin. 
+6 
+1 
+IN 
+Digital Control Pin to Connect the COM Pin to the NO or NC Pins. 
+NOTE: NO, NC and COM pins may be an input or output. 
+ 
+FUNCTION TABLE 
+IN 
+NO 
+NC 
+0 
+OFF 
+COM = NC 
+1 
+COM = NO 
+OFF 
+NOTE: Switches shown for logic "0" input. 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00044.001 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SC70-6 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.800 
+1.100 
+0.031 
+0.043 
+A1 
+0.000 
+0.100 
+0.000 
+0.004 
+A2 
+0.800 
+1.000 
+0.031 
+0.039 
+b 
+0.150 
+0.350 
+0.006 
+0.014 
+c 
+0.080 
+0.220 
+0.003 
+0.009 
+D 
+2.000 
+2.200 
+0.079 
+0.087 
+E 
+1.150 
+1.350 
+0.045 
+0.053 
+E1 
+2.150 
+2.450 
+0.085 
+0.096 
+e 
+0.65 TYP 
+0.026 TYP 
+e1 
+1.300 BSC 
+0.051 BSC 
+L 
+0.525 REF 
+0.021 REF 
+L1 
+0.260 
+0.460 
+0.010 
+0.018 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+e
+e1
+E1
+E
+D
+b
+A
+A2
+A1
+L
+c
+θ
+0.20
+L1
+0.65
+0.75
+1.3
+0.4
+1.9
+RECOMMENDED LAND PATTERN (Unit: mm)
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00072.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+XTDFN-1×1-6L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.320 
+0.400 
+0.013 
+0.016 
+A1 
+0.000 
+0.050 
+0.000 
+0.002 
+A2 
+0.100 REF 
+0.004 REF 
+D 
+0.950 
+1.050 
+0.037 
+0.041 
+E 
+0.950 
+1.050 
+0.037 
+0.041 
+k 
+0.150 MIN 
+0.006 MIN 
+b 
+0.120 
+0.230 
+0.005 
+0.009 
+e 
+0.350 TYP 
+0.014 TYP 
+L 
+0.350 
+0.450 
+0.014 
+0.018 
+L1 
+0.350 
+0.450 
+0.014 
+0.018 
+ 
+NOTE: This drawing is subject to change without notice. 
+ 
+ 
+TOP VIEW
+BOTTOM VIEW
+D
+E
+A
+A2
+A1
+SIDE VIEW
+e
+k
+L
+b
+N6
+N1
+L1
+RECOMMENDED LAND PATTERN (Unit: mm)
+0.20
+0.53
+0.35
+0.15
+1.20
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX000164.002 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+UTDFN-1.45×1-6AL 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.450 
+- 
+0.600 
+A1 
+-0.004 
+- 
+0.050 
+A2 
+0.150 REF 
+b 
+0.150 
+- 
+0.300 
+D 
+1.374 
+- 
+1.526 
+E 
+0.924 
+- 
+1.076 
+e 
+0.500 BSC 
+L 
+0.250 
+- 
+0.450 
+L1 
+0.250 
+- 
+0.500 
+L2 
+0.000 
+- 
+0.100 
+eee 
+0.050 
+ 
+NOTE: This drawing is subject to change without notice. 
+ 
+ 
+L
+E
+A
+e
+b
+D
+SIDE VIEW
+BOTTOM VIEW
+TOP VIEW
+N1
+N6
+RECOMMENDED LAND PATTERN (Unit: mm)
+0.30
+0.49
+0.5
+0.75
+eee C
+PIN 1#
+C
+SEATING PLANE
+A1
+A2
+L1
+ALTERNATE B-1
+ALTERNATE CONSTRUCTION
+DETAIL B
+ALTERNATE A-3
+ALTERNATE TERMINAL CONSTRUCTION
+DETAIL A
+ALTERNATE A-2
+ALTERNATE A-1
+ALTERNATE B-2
+ALTERNATE B-3
+DETAIL A
+DETAIL B
+L2
+A1
+L (L1)
+A2
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+SC70-6 
+7" 
+9.5 
+2.40 
+2.50 
+1.20 
+4.0 
+4.0 
+2.0 
+8.0 
+Q3 
+XTDFN-1×1-6L 
+7" 
+9.5 
+1.16 
+1.16 
+0.50 
+4.0 
+2.0 
+2.0 
+8.0 
+Q2 
+UTDFN-1.45×1-6AL 
+7" 
+9.5 
+1.15 
+1.60 
+0.75 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 

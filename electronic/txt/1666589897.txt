@@ -1,0 +1,1502 @@
+ 
+SGM2528 
+5A, 12V Electronic Fuse (eFuse) 
+with Thermal Shutdown 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+OCTOBER 2022 – REV. A. 2 
+ 
+GENERAL DESCRIPTION 
+The SGM2528 is a compact electronic fuse (eFuse) 
+with a complete set of protection functions. The wide 
+operating voltage range is specifically designed for 
+many popular DC buses. The SGM2528 provides 
+excellent accuracy, making it very suitable for many 
+system protection applications. 
+It provides accurate over-voltage (OV) and under- 
+voltage lockout (UVLO) protections, which ensure tight 
+supervision of bus voltages and eliminate the need for 
+supervisor circuits. The over-voltage (OV) protection 
+will clamp the eFuse output at a fixed level during input 
+voltage surges. During the input voltage transient, the 
+internal FET remains on, which allows the load to 
+continue to operate. If the transient duration remains 
+long, the accumulated heat will cause the eFuse 
+thermal shutdown. Once in thermal shutdown, latch-off 
+and auto-retry thermal options are available. 
+The SGM2528 is available in a Green TDFN-3×3-10L 
+package.  
+ 
+FEATURES 
+● Wide Input Voltage Range from 9V to 18V with 
+Surge up to 30V 
+● Extremely Low RDS(ON) for the Integrated 
+Protection Switch: 26mΩ (TYP) 
+● 3-State ENABLE/FAULT Pin, Bidirectional Interface 
+● Programmable Soft-Start Time 
+● Programmable Current Limit up to 5A 
+● Thermal Shutdown Options: 
+ SGM2528A: Thermal Latch-Off with VCLAMP 
+ SGM2528B: Thermal Auto-Retry with VCLAMP 
+ SGM2528C: Thermal Latch-Off without VCLAMP 
+● Fault Output for Thermal Shutdown 
+● Accurate Under-Voltage Lockout 
+● Accurate Over-Voltage Clamp (SGM2528A and 
+SGM2528B) 
+● Available in a Green TDFN-3×3-10L Package 
+ 
+ 
+APPLICATIONS 
+Hard Drives 
+PCIE SSD 
+Motherboard Power Management 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+5A, 12V Electronic Fuse (eFuse) 
+SGM2528 
+with Thermal Shutdown 
+ 
+ 
+2 
+OCTOBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM2528A 
+TDFN-3×3-10L 
+-40℃ to +125℃ 
+SGM2528AXTD10G/TR 
+SGM 
+2528AD 
+XXXXX 
+Tape and Reel, 4000 
+SGM2528B 
+TDFN-3×3-10L 
+-40℃ to +125℃ 
+SGM2528BXTD10G/TR 
+SGM 
+2528BD 
+XXXXX 
+Tape and Reel, 4000 
+SGM2528C 
+TDFN-3×3-10L 
+-40℃ to +125℃ 
+SGM2528CXTD10G/TR 
+SGM 
+2528CD 
+XXXXX 
+Tape and Reel, 4000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code. 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Operating Input Voltage Range (VCC to GND) (1) 
+Steady-State .................................................. -0.3V to 18V 
+Transient (100ms) .......................................... -0.6V to 25V 
+VCC, SOURCE, ILIMIT to GND 
+.............................. -0.3V to 25V 
+dV/dt, ENABLE/FAULT to GND ........................ -0.3V to 5.5V 
+Package Thermal Resistance 
+TDFN-3×3-10L, θJA .................................................. 90℃/W 
+TDFN-3×3-10L, θJB .................................................. 54℃/W 
+TDFN-3×3-10L, θJC .................................................. 52℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+2000V 
+CDM ............................................................................ 
+1000V 
+ 
+NOTE: 1. Negative voltages can be withstood by the device 
+without damage as long as the power dissipation is limited to 
+the power rating allowed by the package. 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Junction Temperature Range ...... -40℃ to +125℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+
+5A, 12V Electronic Fuse (eFuse) 
+SGM2528 
+with Thermal Shutdown 
+ 
+ 
+3 
+OCTOBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+      (TOP VIEW) 
+4
+1
+3
+5
+2
+7
+10
+8
+6
+9
+GND
+dV/dt
+ENABLE/FAULT
+ILIMIT
+NC
+SOURCE
+SOURCE
+SOURCE
+SOURCE
+SOURCE
+VCC
+ 
+      TDFN-3×3-10L 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1 
+GND 
+Ground. 
+2 
+dV/dt 
+Internal dV/dt Circuit. Leaving this pin open will allow the device to ramp up in 2ms. An 
+external capacitor between this pin and GND will set the slew rate according to the 
+application requirements.  
+3 
+ENABLE/ 
+FAULT 
+Enable or Fault Pin. This pin is a 3-state, bidirectional interface. Asserting ENABLE/FAULT 
+pin high enables the device. When the thermal shutdown occurs, the device sinks current 
+from ENABLE/FAULT, and pulls the pin low to alert the host (this pin is used as output 
+port).  
+4 
+ILIMIT 
+Current Limit Pin. This pin is used to set the overload and short-circuit current limit levels by 
+placing a resistor.  
+5 
+NC 
+No Connection. 
+6 - 10 
+SOURCE 
+Power Output Pins.  
+Exposed 
+Pad 
+VCC 
+Power Input Pin. Power input and supply voltage of the device. 
+ 
+ 
+ 
+ 
+ 
+
+5A, 12V Electronic Fuse (eFuse) 
+SGM2528 
+with Thermal Shutdown 
+ 
+ 
+4 
+OCTOBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(TJ = +25℃, VCC = 12V and dV/dt pin is open, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Power FET 
+Delay Time 
+tDLY 
+Enabling of chip to ID = 100mA with 1A resistive load 
+ 
+386 
+ 
+µs 
+Kelvin On-Resistance 
+RDS(ON) 
+TJ = +25℃ 
+21 
+26 
+31 
+mΩ 
+TJ = +135℃ 
+ 
+38 
+ 
+Off-State Output Voltage 
+VOFF 
+VCC = 18V, VGS = 0V, RL = ∞ 
+ 
+20 
+200 
+mV 
+Continuous Current 
+ID 
+ 
+ 
+5 
+ 
+A 
+Thermal Latch 
+Shutdown Temperature 
+TSD 
+ 
+ 
+158 
+ 
+℃ 
+Thermal Hysteresis 
+THYST 
+Decrease in die temperature for turn-on; does not 
+apply to latch-off options. 
+ 
+22 
+ 
+℃ 
+Under/Over-Voltage Protection 
+Output Clamping Voltage 
+VCLAMP 
+Over-voltage protection, VCC = 18V 
+14.5 
+15 
+15.5 
+V 
+Under-Voltage Lockout 
+VUVLO 
+Turn on, voltage going high 
+8.2 
+8.5 
+8.8 
+V 
+UVLO Hysteresis 
+VHYST 
+ 
+ 
+0.83 
+ 
+V 
+Current Limit 
+Kelvin Short-Circuit Current Limit 
+ILIM-SC 
+RLIMIT = 77Ω 
+0.5 
+0.95 
+1.4 
+A 
+Kelvin Overload Current Limit 
+ILIM-OL 
+RLIMIT = 77Ω 
+ 
+3 
+ 
+A 
+dV/dt Circuit 
+Output Voltage Ramp Time 
+tSLEW 
+Enable to VOUT = 11.7V 
+1.3 
+2 
+2.8 
+ms 
+Maximum Capacitor Voltage 
+VMAX 
+ 
+ 
+ 
+5.3 
+V 
+ENABLE/FAULT Pin 
+Logic Level Low 
+VIN-LOW 
+Output disabled 
+0.45 
+0.55 
+0.65 
+V 
+Logic Level Mid 
+VIN-MID 
+Thermal fault, output disabled 
+1.35 
+1.45 
+1.55 
+V 
+Logic Level High 
+VIN-HIGH 
+Output enabled 
+2.5 
+2.62 
+2.75 
+V 
+High State Maximum Voltage 
+VIN-MAX 
+ 
+4.9 
+5.1 
+5.3 
+V 
+Logic Low Sink Current 
+IIN-LOW 
+VENABLE = 0V 
+ 
+-15 
+-22 
+µA 
+Power Supply 
+Quiescent Current 
+IQ 
+Operating 
+ 
+110 
+140 
+µA 
+Shutdown 
+ 
+48 
+ 
+ 
+ 
+ 
+
+5A, 12V Electronic Fuse (eFuse) 
+SGM2528 
+with Thermal Shutdown 
+ 
+ 
+5 
+OCTOBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+TJ = +25℃, unless otherwise noted. 
+ 
+     UVLO Turn-On Voltage vs. Temperature 
+     UVLO Hysteresis vs. Temperature 
+ 
+ 
+     Output Clamping Voltage vs. Temperature 
+     Output Clamping Voltage vs. Temperature 
+ 
+ 
+      Output Clamping Voltage vs. Temperature 
+     Output Clamping Voltage vs. Temperature 
+ 
+ 
+ 
+ 
+8.42
+8.44
+8.46
+8.48
+8.50
+8.52
+8.54
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+VUVLO (V) 
+Temperature (℃) 
+0.80
+0.81
+0.82
+0.83
+0.84
+0.85
+0.86
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+VHYST (V) 
+Temperature (℃) 
+14.94
+14.96
+14.98
+15.00
+15.02
+15.04
+15.06
+15.08
+15.10
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Voltage (V) 
+Temperature (℃) 
+ILOAD = 0A 
+SGM2528A and SGM2528B 
+14.88
+14.90
+14.92
+14.94
+14.96
+14.98
+15.00
+15.02
+15.04
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Voltage (V) 
+Temperature (℃) 
+ILOAD = 0.1A 
+SGM2528A and SGM2528B 
+14.86
+14.88
+14.90
+14.92
+14.94
+14.96
+14.98
+15.00
+15.02
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Voltage (V) 
+Temperature (℃) 
+ILOAD = 0.5A 
+SGM2528A and SGM2528B 
+14.84
+14.86
+14.88
+14.90
+14.92
+14.94
+14.96
+14.98
+15.00
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Voltage (V) 
+Temperature (℃) 
+ILOAD = 1A 
+SGM2528A and SGM2528B 
+
+5A, 12V Electronic Fuse (eFuse) 
+SGM2528 
+with Thermal Shutdown 
+ 
+ 
+6 
+OCTOBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, unless otherwise noted. 
+ 
+     Current Limit vs. RLIMIT for Direct Current Sensing 
+     Current Limit vs. RLIMIT for Kelvin Current Sensing 
+ 
+ 
+ 
+      Direct Current Sensing Levels vs. Temperature 
+     Kelvin Current Sensing Levels vs. Temperature 
+ 
+ 
+     Kelvin Current Sensing Levels vs. Temperature 
+     Kelvin Current Sensing Levels vs. Temperature 
+ 
+ 
+ 
+ 
+0.1
+1
+10
+10
+100
+Current Limit (A)  
+RLIMIT for Direct Current Sensing (Ω) 
+SC 
+OL 
+0.1
+1
+10
+10
+100
+Current Limit (A)  
+RLIMIT for Kelvin Current Sensing (Ω) 
+SC 
+OL 
+0
+1
+2
+3
+4
+5
+6
+7
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Current Limit (A) 
+Temperature (℃) 
+RLIMIT = 27Ω 
+OL 
+SC 
+0
+1
+2
+3
+4
+5
+6
+7
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Current Limit (A) 
+Temperature (℃) 
+RLIMIT = 15Ω 
+OL 
+SC 
+0
+1
+2
+3
+4
+5
+6
+7
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Current Limit (A) 
+Temperature (℃) 
+RLIMIT = 33Ω 
+OL 
+SC 
+0
+1
+2
+3
+4
+5
+6
+7
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Current Limit (A) 
+Temperature (℃) 
+RLIMIT = 77Ω 
+OL 
+SC 
+
+5A, 12V Electronic Fuse (eFuse) 
+SGM2528 
+with Thermal Shutdown 
+ 
+ 
+7 
+OCTOBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, unless otherwise noted. 
+ 
+     On-Resistance vs. Supply Voltage 
+    Output Voltage dV/dt Rate vs. Temperature 
+ 
+ 
+ Body Diode Forward Characteristics 
+      Power Dissipation vs. Thermal Trip Time 
+ 
+ 
+ 
+ 
+ Input Transient Response 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VCC 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VLOAD 
+ 
+5V/div  5V/div  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (50μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+25.2
+25.4
+25.6
+25.8
+26.0
+26.2
+26.4
+8
+9
+10
+11
+12
+13
+14
+15
+16
+On-Resistance (mΩ) 
+Supply Voltage (V) 
+ILOAD = 0.5A 
+1.90
+1.92
+1.94
+1.96
+1.98
+2.00
+2.02
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Ramp Time (ms) 
+Temperature (℃) 
+0
+100
+200
+300
+400
+500
+600
+700
+800
+0.5
+0.55
+0.6
+0.65
+0.7
+0.75
+0.8
+Current (mA) 
+Forward Voltage (V) 
+0
+10
+20
+30
+40
+50
+60
+0.1
+1
+10
+100
+1000
+10000 100000
+Power (W) 
+Time (ms) 
++25℃ 
++80℃ 
++50℃ 
+VCC = 15V to 25V 
+ILOAD = 0.1A 
+
+5A, 12V Electronic Fuse (eFuse) 
+SGM2528 
+with Thermal Shutdown 
+ 
+ 
+8 
+OCTOBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL APPLICATION CIRCUITS 
++12V
+ENABLE
+GND
+VCC
+ENABLE/
+FAULT
+GND
+SOURCE
+ILIMIT
+dV/dt
+RLIMIT
+Load
+SGM2528
+1
+2
+3
+4
+6, 7, 8, 9, 10
+11
+ 
+Figure 1. Application Circuit with Direct Current Sensing 
+ 
++12V
+ENABLE
+GND
+VCC
+ENABLE/
+FAULT
+GND
+SOURCE
+ILIMIT
+dV/dt
+RLIMIT
+Load
+SGM2528
+1
+2
+3
+4
+7, 8, 9, 10
+11
+6
+ 
+Figure 2. Application Circuit with Kelvin Current Sensing 
+ 
+ENABLE
+VCC
+ENABLE/
+FAULT
+GND
+SOURCE
+ILIMIT
+RLIMIT
+Load
+SGM2528
+VCC
+ENABLE/
+FAULT
+GND
+SOURCE
+ILIMIT
+dV/dt
+RLIMIT
+Load
+SGM2528
+dV/dt
+ 
+Figure 3. Common Thermal Shutdown 
+ 
+ 
+ 
+
+5A, 12V Electronic Fuse (eFuse) 
+SGM2528 
+with Thermal Shutdown 
+ 
+ 
+9 
+OCTOBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAM 
+UVLO
+ENABLE/
+FAULT
+VCC
+SOURCE
+ILIMIT
+dV/dt
+GND
+SGM2528
+Enable
+Thermal
+Shutdown
+Charge 
+Pump
+Logic 
+Control
+Voltage 
+Clamp (1)
+Current 
+Limit
+dV/dt 
+Control
+IIN_LOW
+ 
+ 
+NOTE: 1. SGM2528A and SGM2528B versions. 
+Figure 4. Block Diagram 
+ 
+APPLICATION INFORMATION 
+Basic Operation 
+This device is a smart eFuse with enhanced built-in 
+protection circuitry. It provides robust protection for all 
+systems and applications powered from 9V to 18V. 
+For hot plug boards, the device provides inrush current 
+control and programmable output ramp rate. The 
+SGM2528 integrates over-current and short-circuit 
+protections. The precision over-current limit helps 
+minimize over design of the input power supply. The 
+short-circuit protection with fast response isolates the 
+load from input immediately when the short-circuit is 
+detected. The device provides precision monitoring of 
+bus voltage for brown-out and over-voltage conditions, 
+and asserts fault for downstream system. The SGM2528 
+is designed to protect systems such as hard disks, 
+PCIE SSDs and motherboard systems. 
+The input voltage will be limited by the device's internal 
+control circuitry and then applied to the load. The slew 
+rate of the output voltage is controlled by the internal 
+dV/dt circuit. The output voltage will ramp up in 2ms, 
+unless additional capacitor is placed at the dV/dt pin to 
+slow down the ramp-up rate. 
+The device will not shut down unless the temperature 
+exceeds the factory-set shutdown threshold. When 
+entering current limit mode, the device will not be shut 
+down, but the FET current will be limited to the value 
+set by the ILIMIT pin. When entering input over-voltage 
+clamp mode, the device will also not be shut down, but 
+the output voltage will be limited to 15V even the input 
+voltage is larger. 
+ 
+Current Limit 
+The current mirror structure is applied to limit the peak 
+current of the device, which measures a small fraction 
+of the load current, so that the loss made by the 
+sensing resistor is reduced. In addition, current mirror 
+structure also reduces the cost of the sensing resistor. 
+ 
+ 
+
+5A, 12V Electronic Fuse (eFuse) 
+SGM2528 
+with Thermal Shutdown 
+ 
+ 
+10 
+OCTOBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+The current limit circuit has two limit levels: a lower 
+current limit level will be triggered by the excessive load 
+where the gate voltage is high and the FET is fully on. A 
+higher current limit level will be triggered by a short- 
+circuit event, where the device is actively limiting the 
+current and the gate voltage is at an intermediate level. 
+There are two methods to bias the ILIMIT pin with a 
+sensing resistor (RLIMIT). They are shown in Figure 1 
+and Figure 2. 
+For the direct current sensing method, since the 
+sensing resistor is placed between the ILIMIT pin and the 
+load, the bond wire resistance is inevitably included in 
+the current limit circuit. This resistor not only affects the 
+current limit accuracy, but may also vary slightly as the 
+impedance between the sensing resistor and the 
+SOURCE pin changes. Considering that the 5 
+SOURCE 
+pins 
+are 
+connected 
+in 
+parallel, 
+the 
+on-resistance of the device will be slightly reduced, and 
+the bond wire resistance of this pin is also one fifth of 
+the other pins. 
+For the Kelvin current sensing method, the sensing 
+resistor is placed between the ILIMIT pin and one of the 
+SOURCE pins. Since the current limit circuit senses the 
+voltage on the die, any bond wire resistance as well as 
+external impedance will not affect the current limit 
+levels. Compared with direct current sensing, this 
+method has only four SOURCE pins for power, which 
+will make the on-resistance slightly larger. 
+ 
+Over-Voltage Clamp (SGM2528A and 
+SGM2528B) 
+The over-voltage clamp circuit monitors the output 
+voltage. If the input voltage is larger than 15V, the 
+device will regulate the main integrated FET to make 
+the output voltage limited to 15V. This can not only 
+ensure the continuity of the device during transient 
+operation, but also protect the load. If the over-voltage 
+event lasts for a long time, the power consumption of 
+the main FET may overheat the device, then trigger the 
+thermal protection circuit which will turn off the device. 
+ 
+Under-Voltage Lockout 
+The under-voltage lockout circuit monitors the input 
+voltage via a comparator with hysteresis. In its high 
+state, the internal output switch is enabled. A low level 
+on this pin will turn off the output switch.  
+ 
+dV/dt Circuit 
+The SGM2528 is designed to control the inrush current 
+during hot plugging. This limits the voltage sag on the 
+backplane 
+power 
+supply 
+voltage 
+and 
+prevents 
+unintended resets of the system power supply. A slew 
+rate controlled startup (dV/dt) regardless of the load is 
+realized by the internal circuit, which generates a fixed 
+slope ramp signal. The rising slope of the output 
+voltage is determined by this ramp and the scaling 
+factor. 
+If the dV/dt pin is left open, the output voltage ramps up 
+in approximately 2ms. By connecting an external 
+capacitor from this pin to ground, the user can get a 
+longer output ramp-up time. There is a constant current 
+source of about 100nA inside the dV/dt pin. 
+Considering the low current level of the current source, 
+it is recommended to connect a ceramic capacitor or a 
+low leakage capacitor to the dV/dt pin if necessary, and 
+external electrolytic capacitors are not recommended 
+for this pin. 
+The total ramp time (t0-12) of output voltage for 0V to 
+12V can be calculated using the following equations: 
+t0-12 = 25.5e6 (5pF + CEXT)            (1) 
+0-12
+EXT
+t
+C
+ = 
+ - 5pF
+25.5e6
+              (2)
+ 
+where: 
+CEXT is in Farads. 
+t is in seconds. 
+If the device is turned off due to a fault, disable or input 
+power recycling, the output voltage will ramp up from 
+0V via the timing capacitor being discharging when it is 
+turned back on. 
+ 
+ 
+ 
+
+5A, 12V Electronic Fuse (eFuse) 
+SGM2528 
+with Thermal Shutdown 
+ 
+ 
+11 
+OCTOBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+Enable/Fault 
+The ENABLE/FAULT not only controls the on/off state 
+of the internal FET, but also indicates whether the 
+device is shut down due to thermal protection, so it is a 
+multifunctional, bidirectional pin. The output of the 
+device turns on when the ENABLE/FAULT is high and 
+vice versa. 
+Considering the 3-state operation of this pin, it should 
+be connected to an open drain or open collector circuit 
+instead of a circuit with a pull-up structure. 
+As shown in Figure 5, if the device triggers thermal 
+protection and shuts down, the ENABLE/FAULT pin will 
+be pulled down to logic medium level (1.45V, TYP). The 
+voltage signal at this pin can be monitored by an 
+external circuit to obtain information on whether thermal 
+shutdown of the device has occurred. If this pin shares 
+an external open drain or open collector circuit with 
+another device in the family like Figure 3 shows, a 
+thermal shutdown failure of either device will cause 
+both devices to shut down. 
+There are two ways to enable the output of latched 
+thermal devices, either by pulling the ENABLE/FAULT 
+pin to ground through an external switch and then going 
+high, or when the input power is recycled. For 
+auto-retry devices, as long as the die temperature of 
+the device in the shutdown state is below the 
+temperature threshold, both devices will restart. 
+ 
+Thermal Shutdown 
+The SGM2528 integrates a temperature sensing circuit 
+for sensing the die temperature on the power FET. If 
+the temperature exceeds the temperature threshold 
+(158℃), the device enters thermal shutdown mode and 
+the load is powered down. For latched thermal devices, 
+the output will be enabled in two ways: recycling the 
+input or toggling the ENABLE/FAULT pin. For auto-retry 
+devices, as long as the die temperature drops by more 
+than 22℃, the output will be enabled and the load will 
+power up again. 
+To increase the device trip time during transient events 
+at high power conditions, the thermal shutdown 
+temperature threshold is set high. Therefore, it is not 
+recommended to allow this device to work for a long 
+time in a working condition above +125℃. 
+ 
+5.1V
+1.55V
+1.35V
+GND
+Enable/Fault Signal
+Device Operational
+Thermal Shutdown
+Shutdown, Thermal Reset
+ 
+ 
+Figure 5. Enable/Fault Signal Levels 
+ 
+Start-Up 
+Blanking
+ENABLE/
+FAULT
+5.1V
+15μA
+1.45V
+SD
+Thermal
+Shutdown
+Thermal SD
+Thermal Reset
+Enable SD
+2.62V
+0.55V
++
+_
++
+_
+ 
+ 
+Figure 6. Enable/Fault Simplified Circuit 
+ 
+ 
+ 
+
+5A, 12V Electronic Fuse (eFuse) 
+SGM2528 
+with Thermal Shutdown 
+ 
+ 
+12 
+OCTOBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+OCTOBER 2022 ‒ REV.A.1 to REV.A.2 
+Page 
+Update Application Information section 
+.................................................................................................................................................... 9, 10, 11 
+ 
+AUGUST 2020 ‒ REV.A to REV.A.1 
+Page 
+Updated Typical Performance Characteristics section ......................................................................................................................................... 
+6 
+ 
+Changes from Original (JULY 2020) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00060.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TDFN-3×3-10L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.700 
+0.800 
+0.028 
+0.031 
+A1 
+0.000 
+0.050 
+0.000 
+0.002 
+A2 
+0.203 REF 
+0.008 REF 
+D 
+2.900 
+3.100 
+0.114 
+0.122 
+D1 
+2.300 
+2.600 
+0.091 
+0.103 
+E 
+2.900 
+3.100 
+0.114 
+0.122 
+E1 
+1.500 
+1.800 
+0.059 
+0.071 
+k 
+0.200 MIN 
+0.008 MIN 
+b 
+0.180 
+0.300 
+0.007 
+0.012 
+e 
+0.500 TYP 
+0.020 TYP 
+L 
+0.300 
+0.500 
+0.012 
+0.020 
+ 
+RECOMMENDED LAND PATTERN (Unit: mm)
+1.7
+2.8
+2.4
+0.6
+0.24
+0.5
+A
+N10
+N5
+N1
+D1
+E1
+SIDE VIEW
+BOTTOM VIEW
+TOP VIEW
+A1
+A2
+k
+b
+L
+e
+D
+E
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TDFN-3×3-10L 
+13″ 
+12.4 
+3.35 
+3.35 
+1.13 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

@@ -1,0 +1,1703 @@
+ 
+SGM822 
+3-Rail Power Sequencer 
+with Programmable Timing 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+APRIL2024–REV.A.2 
+ 
+GENERAL DESCRIPTION 
+The SGM822 is an integrated, 3-rail power sequencer. 
+It controls the power-up and power-down sequence of 
+three power supplies by pulling their enable or 
+shutdown pins high or low. Staggered start sequence 
+can avoid the impact of latch conditions or large inrush 
+current on system reliability. 
+This simple sequencer has three open-drain output 
+flags. When the enable (EN) pin is pulled high, the flags 
+are successively released from FLAG1 to FLAG3 after 
+individual 
+programmable 
+delay 
+time. 
+Then 
+the 
+connected power supplies power up. When the EN pin 
+is pulled low, the flags output low with a reverse 
+sequence from FLAG3 to FLAG1 after individual 
+programmable 
+delay 
+time. 
+The 
+delay 
+time 
+is 
+programmed by connecting a capacitor between the 
+TADJ pin and ground. The logic of the output flags can 
+be inverted by the user. 
+The SGM822 is available in Green MSOP-8 and 
+UTDFN-1.5×1.5-8L packages. It operates over an 
+ambient temperature range of -40℃ to +125℃. 
+FEATURES 
+● Up to 3-Rail Power Sequence Control 
+● Low Quiescent Current: 36μA (TYP) 
+● Input Voltage Range: 2.7V to 5.5V 
+● Pin-Selected Flag Output Logic 
+● Capacitor-Programmable Power-Up/Power-Down 
+Sequencing Delay 
+● Available in Green MSOP-8 and UTDFN-1.5×1.5-8L 
+Packages 
+ 
+APPLICATIONS 
+Multivoltage Systems 
+Servers 
+Networking Systems 
+Telecom Equipment 
+Microprocessor, Microcontroller and FPGA Sequencing 
+Multiple Supply Sequencing 
+ 
+ 
+ 
+TYPICAL SYSTEM APPLICATION 
+SGM822
+GND
+VCC
+Power Supply
+EN
+INV
+Enable
+Invert
+FLAG1
+FLAG2
+FLAG3
+EN
+Device 2
+EN
+Device 3
+EN
+Device 1
+0.1µF
+ 
+ 
+Figure 1. Typical System Application 
+TYPICAL APPLICATION 
+SGM822
+EN
+FLAG1
+INV
+FLAG2
+FLAG3
+GND
+VCC
+2.7V to 5.5V Supply
+Enable Input
+TADJ
+CADJ
+10nF
+Flag 2
+Flag 1
+Flag 3
+R1
+100kΩ
+R2
+100kΩ
+R3
+100kΩ
+0.1µF
+ 
+ 
+Figure 2. Typical Application Circuit 
+ 
+ 
+ 
+
+3-Rail Power Sequencer 
+SGM822 
+with Programmable Timing 
+ 
+ 
+2 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM822 
+MSOP-8 
+-40℃ to +125℃ 
+SGM822XMS8G/TR 
+SGM822 
+XMS8 
+XXXXX 
+Tape and Reel, 4000 
+UTDFN-1.5×1.5-8L 
+-40℃ to +125℃ 
+SGM822XUDW8G/TR 
+0NE 
+XXX 
+Tape and Reel, 4000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code. 
+MSOP-8 
+UTDFN-1.5×1.5-8L 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+Y Y Y  
+X X X
+Date Code - Year
+Trace Code 
+Serial Number
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+VCC, EN, INV, TADJ, FLAG1, FLAG2, FLAG3 to GND 
+ 
+............................................................................. -0.3V to 6V 
+Package Thermal Resistance 
+MSOP-8, θJA ....................................................... 183.3℃/W 
+MSOP-8, θJB ....................................................... 126.4℃/W 
+MSOP-8, θJC ......................................................... 84.5℃/W 
+UTDFN-1.5×1.5-8L, θJA 
+....................................... 149.5℃/W 
+UTDFN-1.5×1.5-8L, θJB 
+....................................... 105.7℃/W 
+UTDFN-1.5×1.5-8L, θJC ...................................... 126.4℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+VCC to GND ....................................................... 
+2.7V to 5.5V 
+EN, INV, TADJ, FLAG1, FLAG2, FLAG3 to GND 
+ 
+.................................................................-0.3V to VCC + 0.3V 
+Operating Junction Temperature Range 
+...... -40℃ to +125℃ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+
+3-Rail Power Sequencer 
+SGM822 
+with Programmable Timing 
+ 
+ 
+3 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+(TOP VIEW) 
+(TOP VIEW) 
+ 
+ 
+VCC
+FLAG1
+FLAG2
+FLAG3
+TADJ
+GND
+INV
+EN
+8
+7
+6
+5
+1
+2
+3
+4
+ 
+MSOP-8 
+UTDFN-1.5×1.5-8L 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+I/O 
+FUNCTION 
+1 
+VCC 
+I 
+Input Supply. 
+2 
+EN 
+I 
+Precision Enable. 
+3 
+GND 
+– 
+Ground. 
+4 
+INV 
+I 
+Output Logic Invert. 
+5 
+TADJ 
+O 
+Timer Adjustment. 
+6 
+FLAG3 
+O 
+Open-Drain Output 3. 
+7 
+FLAG2 
+O 
+Open-Drain Output 2. 
+8 
+FLAG1 
+O 
+Open-Drain Output 1. 
+ 
+NOTE: I: input; O: output. 
+ 
+ 
+ 
+VCC
+1
+2
+3
+4
+EN
+GND
+INV
+FLAG1
+8
+FLAG2
+7
+6
+FLAG3
+TADJ
+5
+
+3-Rail Power Sequencer 
+SGM822 
+with Programmable Timing 
+ 
+ 
+4 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VCC = 3.3V, TJ = -40℃ to +125℃, typical values are measured at TJ = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Operating Quiescent Current 
+IQ 
+EN = H 
+ 
+30 
+55 
+µA 
+EN = L 
+ 
+36 
+65 
+FLAGx Leakage Current 
+IFLAG 
+VFLAGx = 3.3V 
+ 
+0.001 
+0.5 
+µA 
+VFLAGx = 6.0V 
+ 
+ 
+1.0 
+FLAGx Output Voltage Low 
+VOL 
+IFLAGx = 1.2mA 
+ 
+ 
+0.3 
+V 
+TADJ Source Current 
+ITADJ_SRC 
+ 
+7 
+11 
+15 
+µA 
+TADJ Sink Current 
+ITADJ_SNK 
+ 
+7 
+11 
+15 
+µA 
+High Threshold Level 
+VHTH 
+ 
+1.1 
+1.2 
+1.3 
+V 
+Low Threshold Level 
+VLTH 
+ 
+0.4 
+0.5 
+0.6 
+V 
+Clock Cycle 
+tCLK 
+CADJ = 10nF 
+1.10 
+1.30 
+1.45 
+ms 
+Flag Delay Time 
+tD1, tD4 
+ 
+9 
+ 
+10 
+Clock Cycles 
+tD2, tD3, tD5, tD6 
+ 
+ 
+8 
+ 
+Clock Cycles 
+EN Pin Threshold 
+VEN 
+ 
+1.1 
+1.2 
+1.3 
+V 
+EN Pin Pull-Up Current 
+IEN 
+VEN = 0V 
+ 
+6.5 
+ 
+µA 
+INV Pin VIH 
+VIH_INV 
+ 
+0.9 × VCC 
+ 
+ 
+V 
+INV Pin VIL 
+VIL_INV 
+ 
+ 
+ 
+0.1 × VCC 
+V 
+ 
+ 
+ 
+ 
+
+3-Rail Power Sequencer 
+SGM822 
+with Programmable Timing 
+ 
+ 
+5 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+VCC = 3.3V, unless otherwise noted. 
+ 
+   Operating Quiescent Current vs. Temperature 
+     Enable Threshold vs. Temperature 
+ 
+ 
+     Delay Time vs. Temperature 
+     Operating Quiescent Current vs. Supply Voltage 
+ 
+ 
+    Delay Time vs. Supply Voltage 
+      FLAG Voltage vs. Supply Voltage 
+ 
+ 
+ 
+ 
+20
+25
+30
+35
+40
+45
+50
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Operating Quiescent Current (μA) 
+Temperature (℃) 
+EN = H 
+EN = L 
+1.200
+1.205
+1.210
+1.215
+1.220
+1.225
+1.230
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Enable Threshold (V) 
+Temperature (℃) 
+10.4
+10.5
+10.6
+10.7
+10.8
+10.9
+11.0
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Delay Time (ms) 
+Temperature (℃) 
+CADJ = 10nF Nominal 
+30
+35
+40
+45
+50
+55
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Operating Quiescent Current (μA) 
+Supply Voltage (V) 
+EN = H 
+EN = L 
+10.45
+10.47
+10.49
+10.51
+10.53
+10.55
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Delay Time (ms) 
+Supply Voltage (V) 
+CADJ = 10nF Nominal 
+0
+0.2
+0.4
+0.6
+0.8
+1
+0
+0.4
+0.8
+1.2
+1.6
+2
+VFLAG (V) 
+Supply Voltage (V) 
+INV Low, RFLAG = 100kΩ 
+
+3-Rail Power Sequencer 
+SGM822 
+with Programmable Timing 
+ 
+ 
+6 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+VCC = 3.3V, unless otherwise noted. 
+ 
+ 
+     FLAG Voltage vs. FLAG Current  
+ 
+ 
+ 
+ 
+ 
+FUNCTIONAL BLOCK DIAGRAM 
+Timing Delay 
+Generation
+Sequence 
+Control
+Clock
+VCC
+GND
+INV
+TADJ
+EN
+FLAG2
+FLAG1
+FLAG3
+1.2V
+6.5μA
++
+_
+tD1
+tD2
+tD3
+tD4
+tD5
+tD6
+ 
+ 
+Figure 3. SGM822 Block Diagram 
+ 
+ 
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0
+1
+2
+3
+4
+5
+VFLAG (V) 
+IFLAG (mA) 
+VCC = 3.3V 
+VCC = 5V 
+
+3-Rail Power Sequencer 
+SGM822 
+with Programmable Timing 
+ 
+ 
+7 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION 
+The SGM822 multivoltage power sequencer provides 
+power-up and power-down control for up to three power 
+supplies. Three output flags are connected to the 
+enable or shutdown pins of the power supplies to 
+control the operation. The delay time between each flag 
+signals is programmed by the TADJ capacitor. These 
+functions allow users to design a complex power 
+system without the concern of large inrush currents or 
+latch-up conditions that may cause the system 
+abnormality or even damaged. The user can use the 
+invert (INV) pin to reverse the logic of the flag outputs. 
+The INV pin is not allowed to be floating. The following 
+discussion assumes INV is held low so that the flag 
+output is active high. 
+ 
+Adjustable Timing 
+An external timing capacitor is connected between the 
+TADJ pin and ground that establishes the clock 
+waveform. The SGM822 linearly charges or discharges 
+this capacitor by a fixed current source/sink, denoted 
+ITADJ_SRC/ITADJ_SNK, 
+of 
+magnitude 
+11µA 
+between 
+predefined threshold voltage levels, denoted VHTH and 
+VLTH. Figure 4 shows the timing waveform. Once the 
+capacitor voltage drops to VLTH, the chip reverses to 
+charge again. With this method, the clock cycle is 
+generated. 
+tCLK
+TADJ
+High Threshold Level,
+VHTH = 1.2V
+Low Threshold Level,
+VLTH = 0.5V
+ 
+ 
+Figure 4. TADJ Pin Timing Waveform 
+ 
+The clock cycle period is directly proportional to the 
+timing capacitor value. Considering the TADJ threshold 
+voltage levels and the charge/discharge current 
+magnitude, it can be shown that the timing capacitor- 
+clock period relationship is typically 130µs/nF. For 
+example, a 10nF capacitor sets up a clock period of 
+1.3ms. 
+The flag outputs are controlled by the enable (EN) pin. 
+After power-on, all the flags are held low until the 
+precision EN voltage exceeds its threshold. After EN is 
+asserted, the open-drain flags will be sequentially 
+released. 
+The first flag (FLAG1) is released after a fixed time 
+period, denoted tD1 in Figure 5. This corresponds to 
+least nine, maximum ten, clock cycles depending on 
+where EN is asserted relative to the clock signal. After 
+the release of the first flag, another timing procedure 
+will begin to delay the release of the second flag 
+(FLAG2). This timing procedure simultaneously begins 
+when the timing capacitor starts charging. As a result, 
+the delay time, denoted tD2, corresponds to exactly 
+eight clock periods. Similarly, FLAG3 is released after 
+the delay time, denoted tD3, again eight clock cycles, 
+has expired. A 10nF TADJ capacitor generates typical 
+delay time tD2 and tD3 of 10.4ms and tD1 of from 11.7ms 
+to 13ms. 
+The power-down sequence is the same as power-up, 
+but in reverse order. When EN is pulled low, the third 
+flag (FLAG3) is pulled low after the delay time, denoted 
+tD4, has expired. The second and first flags will then 
+follow in a sequential manner after the corresponding 
+delay time. The delay time, denoted tD4, tD5, tD6, is equal 
+to tD1, tD2, tD3, respectively. 
+For robustness, the internal pull-down FET of each flag 
+is designed to limit the sink current level so that it can 
+sustain a short circuit to VCC for a short period. 
+EN
+FLAG1
+FLAG2
+FLAG3
+TADJ
+tD1
+9 Clock
+Cycles
+tD2
+8 Clock
+Cycles
+tD3
+8 Clock
+Cycles
+ 
+ 
+Figure 5. Power-Up Sequence, INV Low 
+ 
+ 
+ 
+
+3-Rail Power Sequencer 
+SGM822 
+with Programmable Timing 
+ 
+ 
+8 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+EN
+FLAG1
+FLAG2
+FLAG3
+TADJ
+tD1
+9 Clock
+Cycles
+tD2
+8 Clock
+Cycles
+tD3
+8 Clock
+Cycles
+ 
+ 
+Figure 6. Power-Up Sequence, INV High 
+ 
+EN
+FLAG1
+FLAG2
+FLAG3
+TADJ
+tD4
+9 Clock
+Cycles
+tD5
+8 Clock
+Cycles
+tD6
+8 Clock
+Cycles
+ 
+ 
+Figure 7. Power-Down Sequence, INV Low 
+ 
+EN
+FLAG1
+FLAG2
+FLAG3
+TADJ
+tD4
+9 Clock
+Cycles
+tD5
+8 Clock
+Cycles
+tD6
+8 Clock
+Cycles
+ 
+ 
+Figure 8. Power-Down Sequence, INV High 
+ 
+ 
+
+3-Rail Power Sequencer 
+SGM822 
+with Programmable Timing 
+ 
+ 
+9 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Enable Circuit 
+The enable circuit is designed with an internal 
+comparator, an accurate bandgap voltage (1.2V, TYP), 
+to provide a precision enable threshold. With this 
+precision enable function, the user can use an external 
+capacitor to set the timing as shown in Figure 9. 
+6.5μA
+1.2V
++
+_
+CEN
+EN
+Enable
+ 
+ 
+Figure 9. Precision Enable Circuit 
+ 
+Using the internal current source to charge the external 
+capacitor CEN, assuming EN is charging from 0V, the 
+delay time can be calculated by the equation as follows. 
+ 
+×
+=
+EN
+ENABLE _DELAY
+1.2V
+C
+t
+6.5μA
+            (1) 
+ 
+1.2V
+EN
+0V
+tENABLE_DELAY
+ 
+Figure 10. Enable Delay Timing 
+ 
+Alternatively, sequencing can be based on a certain 
+event. For example, connect the power supply of 
+SGM822 to EN pin through a resistor divider, as shown 
+in Figure 11. After the VCC voltage exceeds the 
+threshold voltage, the sequencing begins to execute. 
+When calculating the VCC threshold voltage that 
+triggers the sequencing event, take care of the effects 
+of the internal EN pull-up current source. The supply 
+voltage for which EN is asserted is given by: 
+
+
+=
+×
++
+×
+
+
+
+
+EN1
+ENABLE
+EN1
+EN2
+R
+VCC
+1.2V
+1
+- 6.5μA
+R
+R
+    (2) 
+ 
+SGM822
+EN
+FLAG1
+INV
+FLAG2
+FLAG3
+GND
+VCC
+Input Supply
+(2.7V to 5.5V)
+TADJ
+CADJ
+REN1
+REN2
+ 
+ 
+Figure 11. Enable Based On Input Supply Level 
+ 
+The EN pin provides the glitch-free feature to make the 
+system robust. The timer will start counting at the EN 
+rising edge, but will always reset if EN is pulled low 
+before FLAG1 is released. This is illustrated in Figure 
+12 with INV low. 
+EN
+FLAG1
+tD1
+ 
+ 
+Figure 12. Enable Glitch Timing, INV Low 
+ 
+If EN is pulled low before the complete power-up 
+sequence, the SGM822 will enter a controlled 
+shutdown. Figure 13 describes the flag sequence if EN 
+is pulled low after FLAG1 releases, but before the 
+entire power-up sequence is completed. INV is 
+assumed low. 
+ 
+ 
+
+3-Rail Power Sequencer 
+SGM822 
+with Programmable Timing 
+ 
+ 
+10 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+tD1
+9 Clock
+Cycles
+< 8 Clock
+Cycles
+9 Clock
+Cycles
+EN
+FLAG1
+FLAG2
+FLAG3
+TADJ
+tD4
+EN
+FLAG1
+FLAG2
+FLAG3
+TADJ
+< 8 Clock
+Cycles
+tD1
+9 Clock
+Cycles
+tD4
+9 Clock
+Cycles
+tD2
+8 Clock
+Cycles
+8 Clock
+Cycles
+tD5
+ 
+Figure 13. Incomplete Sequence Timing, INV Low 
+ 
+ 
+The Sequencing with EN Pin Control 
+The timing sequence of the SGM822 is controlled by 
+the enable (EN) pin. After power-on, all the flags are 
+held low until the precision EN pin is pulled high. After 
+EN is pulled high, the power-up sequence begins to 
+execute. 
+When EN is pulled low, the power-down sequence will 
+execute. After the third flag (FLAG3) corresponding 
+delay time expires, FLAG3 is pulled low. The second 
+and first flags will then be pulled low after their 
+appropriate delays. 
+ 
+INV Pin Setting the Logic Output 
+When the INV pin is tied to a logic low, the flag output is 
+active high. When the INV pin is tied to a logic high, the 
+flag output is active low. 
+ 
+ 
+ 
+ 
+ 
+
+3-Rail Power Sequencer 
+SGM822 
+with Programmable Timing 
+ 
+ 
+11 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+Pulling up Flag Pins to Independent Power 
+Supply 
+The SGM822 contains three open-drain output flags 
+which need external pulled-up resistors, for example 
+100kΩ pull-up resistors. This part is designed to protect 
+the flag output pins from damaging if these pins are 
+shorted to VCC for a short period. 
+For some application scenarios, the flag output voltage 
+needs to be different from the VCC voltage. The 
+separate flag power supply is used to pull up the 
+open-drain outputs. With this method, each flag is 
+pulled high to the required level of the controlled power 
+supplies. The user must make sure the flag supply 
+voltage is within the recommended operating range. 
+ 
+Design Example 
+In this example, the SGM822 is used to implement a 
+power-up (1 - 2 - 3) and power-down (3 - 2 - 1) sequence 
+of three power supplies. 
+ 
+Design Requirements 
+For this design example, use the parameters listed in 
+Table 1. 
+Design Procedure 
+A timing capacitor of CADJ = 10nF generates typical delay 
+time tD2 and tD3 of 10.4ms and tD1 of between 11.7ms 
+and 13ms. Connect the INV pin to GND so that the 
+output flags are active high. See Adjustable Timing for 
+calculating the value for CADJ. 
+SGM822
+EN
+FLAG1
+INV
+FLAG2
+FLAG3
+GND
+VCC
+2.7V to 5.5V Supply
+Enable Input
+TADJ
+CADJ
+10nF
+Flag 2
+Flag 1
+Flag 3
+R1
+100kΩ
+R2
+100kΩ
+R3
+100kΩ
+0.1µF
+Flag 
+Supply
+ 
+ 
+Figure 14. Sequencing Using Independent Flag Supply 
+ 
+Table 1. Design Parameters 
+Design Parameter 
+Example Value 
+Input Supply Voltage Range 
+2.7V to 5.5V 
+Flag Output Voltage, EN high 
+Input Supply 
+Flag Output Voltage, EN low 
+0V 
+Flag Timing Delay, tD1 
+11.7ms - 13ms 
+Flag Timing Delay, tD2 and tD3 
+10.4ms 
+Power-Up Sequence 
+1 - 2 - 3 
+Power-Down Sequence 
+3 - 2 - 1 
+ 
+Table 2. Evaluation Board Bill of Materials 
+Ref Des 
+Description 
+Case Size 
+Manufacturer 
+Manufacturer P/N 
+U1 
+SGM822 Sequencer 
+MSOP-8/UTDFN-1.5×1.5-8L 
+SGMICRO 
+XXX 
+R1 
+100kΩ 
+0603 
+Vishay Dale 
+CRCW06031003F-e3 
+R2 
+100kΩ 
+0603 
+Vishay Dale 
+CRCW06031003F-e3 
+R3 
+100kΩ 
+0603 
+Vishay Dale 
+CRCW06031003F-e3 
+CADJ 
+10nF ±5% 50V C0G 
+0603 
+Murata 
+GRM1885C1H103JA01D 
+ 
+ 
+
+3-Rail Power Sequencer 
+SGM822 
+with Programmable Timing 
+ 
+ 
+12 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION CURVES 
+ 
+ 
+ 
+Power-Up Sequence 
+ 
+ 
+ 
+Power-Down Sequence 
+ 
+ 
+ 
+ 
+ 
+EN 
+ 
+ 
+FLAG1 
+ 
+ 
+FLAG2 
+ 
+ 
+FLAG3 
+ 
+5V/div  5V/div  5V/div  5V/div 
+ 
+ 
+ 
+ 
+EN 
+ 
+ 
+FLAG1 
+ 
+ 
+FLAG2 
+ 
+ 
+FLAG3 
+ 
+       5V/div  5V/div  5V/div  5V/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  Time (4ms/div) 
+ 
+ 
+ 
+Time (4ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Power-Up Sequence 
+ 
+ 
+ 
+Power-Down Sequence 
+ 
+ 
+ 
+ 
+ 
+EN 
+ 
+ 
+FLAG1 
+ 
+ 
+FLAG2 
+ 
+ 
+FLAG3 
+ 
+  
+    5V/div  5V/div  5V/div  5V/div 
+ 
+ 
+ 
+ 
+EN 
+ 
+ 
+FLAG1 
+ 
+ 
+FLAG2 
+ 
+ 
+FLAG3 
+ 
+       5V/div  5V/div  5V/div  5V/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (20μs/div) 
+ 
+ 
+ 
+Time (20μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+LAYOUT GUIDELINES 
+An input capacitor is not necessary but recommended 
+to avoid the possible noise effect which might be 
+present on the VCC pin. A 0.1μF ceramic capacitor 
+may be placed as close as possible to the VCC pin. 
+Connect pull-up resistors between the flag output pins 
+and a positive input supply (VCC or an independent 
+flag supply). Minimal trace length is recommended to 
+avoid the unexpected noise from the environment. A 
+typical value for the pull-up resistors is 100kΩ. 
+ 
+ 
+ 
+ 
+ 
+ 
+VCC = 5V, CADJ = 10nF 
+VCC = 5V, CADJ = 10nF  
+VCC = 5V, TADJ Open  
+VCC = 5V, TADJ Open  
+
+3-Rail Power Sequencer 
+SGM822 
+with Programmable Timing 
+ 
+ 
+13 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+APRIL 2024 ‒ REV.A.1 to REV.A.2 
+Page 
+Added UTDFN-1.5×1.5-8L package................................................................................................................................................................... All 
+Changed Electrical Characteristics section .......................................................................................................................................................... 
+4 
+ 
+AUGUST 2020 ‒ REV.A to REV.A.1 
+Page 
+Changed Absolute Maximum Ratings section 
+...................................................................................................................................................... 
+2 
+Changed Electrical Characteristics section .......................................................................................................................................................... 
+4 
+Changed Enable Circuit section 
+......................................................................................................................................................................... 
+10 
+ 
+Changes from Original (JULY 2020) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00014.001 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+MSOP-8 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+- 
+- 
+1.100 
+A1 
+0.000 
+- 
+0.150 
+A2 
+0.750 
+- 
+0.950 
+b 
+0.220 
+- 
+0.380 
+c 
+0.080 
+- 
+0.230 
+D 
+2.800 
+- 
+3.200 
+E 
+2.800 
+- 
+3.200 
+E1 
+4.650 
+- 
+5.150 
+e 
+0.650 BSC 
+L 
+0.400 
+- 
+0.800 
+H 
+0.250 TYP 
+θ 
+0° 
+- 
+8° 
+ccc 
+0.100 
+ 
+NOTES: 
+1. This drawing is subject to change without notice. 
+2. The dimensions do not include mold flashes, protrusions or gate burrs. 
+3. Reference JEDEC MO-187. 
+ 
+ 
+E1
+E
+e
+D
+A1
+L
+c
+A
+A2
+θ
+b
+RECOMMENDED LAND PATTERN (Unit: mm)
+1.02
+0.41
+0.65
+4.8
+SEATING PLANE
+ccc C
+C
+H
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00130.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+UTDFN-1.5×1.5-8L 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.400 
+0.500 
+0.016 
+0.020 
+A1 
+0.000 
+0.050 
+0.000 
+0.002 
+A2 
+0.127 REF 
+0.005 REF 
+D 
+1.450 
+1.550 
+0.057 
+0.061 
+D1 
+0.600 
+0.800 
+0.024 
+0.031 
+D2 
+0.200 REF 
+0.008 REF 
+E 
+1.450 
+1.550 
+0.057 
+0.061 
+E1 
+1.100 
+1.300 
+0.043 
+0.051 
+E2 
+0.050 REF 
+0.002 REF 
+E3 
+1.200 
+1.400 
+0.047 
+0.055 
+k 
+0.200 REF 
+0.008 REF 
+b 
+0.150 
+0.250 
+0.006 
+0.010 
+e 
+0.400 BSC 
+0.016 BSC 
+L 
+0.150 
+0.250 
+0.006 
+0.010 
+ 
+NOTE: This drawing is subject to change without notice. 
+ 
+ 
+ 
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+N1
+0.40
+D
+b
+k
+A1
+A
+A2
+e
+L
+N8
+N5
+N4
+E1
+D1
+1.2
+0.7
+1.10
+0.25
+0.45
+E2
+E3
+D2
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+MSOP-8 
+13″ 
+12.4 
+5.20 
+3.30 
+1.50 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+UTDFN-1.5×1.5-8L 
+7" 
+9.0 
+1.70 
+1.70 
+0.75 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

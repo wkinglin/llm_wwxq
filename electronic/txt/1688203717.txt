@@ -1,0 +1,1811 @@
+ 
+SGM862 
+Dual-Channel, Low-Power, 
+High-Accuracy Voltage Detector 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+JUNE2023–REV.A 
+ 
+GENERAL DESCRIPTION 
+The SGM862 family is a high-accuracy, low-power, and 
+small size dual-channel voltage detector which can 
+monitor two power rails respectively. 
+SENSEx is the input pin which can be programmed with 
+an external resistor divider. There are four different 
+hysteresis options of 0.6%, 1%, 5% or 10%. 
+OUTx is the open-drain corresponding output of SENSEx. 
+OUTx goes low when the input voltage of SENSEx is 
+lower than the falling threshold (VIT-). OUTx goes high 
+when the input voltage of SENSEx is higher than the 
+rising threshold (VIT+). The internal hysteresis of SENSEx 
+has glitch immunity and ensures stable operation. 
+The device has low quiescent current of 1.1µA (TYP), 
+high accuracy and small size, which is particularly suitable 
+for system-monitoring of low power and portable 
+equipment. 
+The SGM862 is available in Green UTDFN-1.45×1-6AL 
+and SOT-23-6 packages. 
+FEATURES 
+● Supply Voltage Range: 1.65V to 6.5V 
+● High-Accuracy Threshold and Hysterisis: 
+ 1.5% at VDD = 1.65V to 3.3V 
+ 1.7% at VDD = 1.65V to 6.5V 
+● Low Quiescent Current: 1.1µA (TYP) 
+● Four Hysteresis Options: 0.6%, 1%, 5% and 10% 
+● Open-Drain Output 
+● Available in Green UTDFN-1.45×1-6AL and 
+SOT-23-6 Packages 
+ 
+APPLICATIONS 
+DSP or Microcontroller 
+Notebooks and Tablet Computers 
+Portable and Handheld Devices 
+Battery-Powered Products 
+Set-top Boxes  
+Solid-State Drives (SSD) 
+Building Automation 
+Power Sequencing 
+ 
+ 
+TYPICAL APPLICATION 
+              
+SGM862
+OUT2
+VDD
+GND
+SENSE2
+SENSE1
+OUT1
+VDD
+1.65V to 6.5V
+R4
+R3
+R1
+R2
+VMON1
+VMON2
+0.1µF
+RPU1
+RPU2
+VPULL-UP
+To a reset or Enable 
+Output of the System
+To a reset or Enable 
+Output of the System
+ 
+ 
+Figure 1. Typical Application Circuit 
+ 
+
+Dual-Channel, Low-Power, 
+SGM862 
+High-Accuracy Voltage Detector 
+ 
+ 
+2 
+JUNE 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+HYSTERESIS 
+(%) 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM862A 
+0.6 
+UTDFN-1.45×1-6AL -40℃ to +125℃ SGM862ABXUDL6G/TR 
+0DX 
+Tape and Reel, 5000 
+SOT-23-6 
+-40℃ to +125℃ 
+SGM862ABXN6G/TR 
+06QXX 
+Tape and Reel, 3000 
+SGM862B 
+1 
+UTDFN-1.45×1-6AL -40℃ to +125℃ SGM862BBXUDL6G/TR 
+0EX 
+Tape and Reel, 5000 
+SOT-23-6 
+-40℃ to +125℃ 
+SGM862BBXN6G/TR 
+0DOXX 
+Tape and Reel, 3000 
+SGM862C 
+5 
+UTDFN-1.45×1-6AL -40℃ to +125℃ SGM862CBXUDL6G/TR 
+0FX 
+Tape and Reel, 5000 
+SOT-23-6 
+-40℃ to +125℃ 
+SGM862CBXN6G/TR 
+0DPXX 
+Tape and Reel, 3000 
+SGM862D 
+10 
+UTDFN-1.45×1-6AL -40℃ to +125℃ SGM862DBXUDL6G/TR 
+0GX 
+Tape and Reel, 5000 
+SOT-23-6 
+-40℃ to +125℃ 
+SGM862DBXN6G/TR 
+0G4XX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: X = Date Code. XX = Date Code. 
+UTDFN-1.45×1-6L 
+SOT-23-6 
+Date Code - Quarter 
+Serial Number
+YY X
+ 
+Date Code - Year 
+Date Code - Week 
+Serial Number
+YYY X X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+VDD Voltage 
+........................................................ -0.3V to 7V 
+OUT1, OUT2 Voltage .......................................... -0.3V to 7V 
+SENSE1, SENSE2 Voltage ................................. -0.3V to 7V 
+OUT1, OUT2 Current 
+.................................................. ±20mA 
+Package Thermal Resistance 
+UTDFN-1.45×1-6AL, θJA .......................................... 241℃/W 
+SOT-23-6, θJA .......................................................... 225℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+VDD Voltage 
+..................................................... 
+1.65V to 6.5V 
+SENSE1, SENSE2 Voltage ................................... 
+0V to 6.5V 
+OUT1, OUT2 Voltage ............................................ 
+0V to 6.5V 
+OUT1, OUT2 Current 
+.................................................... ±5mA 
+Pull-up Resistor, RPU...................................... 1.5kΩ to 10MΩ 
+Input Capacitor, CIN ....................................................... 
+0.1μF 
+Operating Junction Temperature Range 
+...... -40℃ to +125℃ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+
+Dual-Channel, Low-Power, 
+SGM862 
+High-Accuracy Voltage Detector 
+ 
+ 
+3 
+JUNE 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+  (TOP VIEW) 
+(TOP VIEW) 
+6
+2
+5
+3
+4
+1
+SENSE1
+GND
+SENSE2
+VDD
+OUT2
+OUT1
+ 
+ 
+3
+4
+6
+1
+2
+VDD
+OUT1
+OUT2
+SENSE1
+5
+SENSE2
+GND
+ 
+   UTDFN-1.45×1-6AL 
+SOT-23-6 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+UTDFN-1.45×1-6AL 
+SOT-23-6 
+1 
+6 
+SENSE1 
+Voltage Monitor Input 1. This pin is the input of external resistor divider. 
+2 
+5 
+GND 
+Ground. 
+3 
+4 
+SENSE2 
+Voltage Monitor Input 2. This pin is the input of external resistor divider. 
+4 
+3 
+OUT2 
+Voltage Monitor Output 2 for SENSE 2. It is an open-drain output that can be 
+pulled up to 6.5V independently of VDD through a pull-up resistor. When the 
+input voltage of SENSE2 falls below the falling threshold VIT-, OUT2 is driven 
+low. When the input voltage of SENSE2 exceeds the rising threshold VIT+, 
+OUT2 goes high. 
+5 
+2 
+OUT1 
+Voltage Monitor Output 1 for SENSE 1. It is an open-drain output that can be 
+pulled up to 6.5V independently of VDD through a pull-up resistor. When the 
+input voltage of SENSE1 falls below the falling threshold VIT-, OUT1 is driven 
+low. When the input voltage of SENSE1 exceeds the rising threshold VIT+, 
+OUT1 goes high. 
+6 
+1 
+VDD 
+Power Supply input. Connect VDD to a 1.65V to 6.5V supply. A 0.1µF 
+ceramic capacitor near this pin is recommended. 
+ 
+ 
+
+Dual-Channel, Low-Power, 
+SGM862 
+High-Accuracy Voltage Detector 
+ 
+ 
+4 
+JUNE 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VDD = 1.65V to 6.5V, TJ = -40℃ to +125℃, typical values are at VDD = 3.3V and TJ = +25℃, unless otherwise noted.) 
+Parameter 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Input Supply Range 
+VDD 
+ 
+1.65 
+ 
+6.5 
+V 
+Power-on Reset Voltage (1) 
+VPOR 
+VOL_MAX = 0.2V, IOL = 15µA 
+ 
+ 
+0.8 
+V 
+Supply Current (Into VDD Pin) 
+IDD 
+VDD = 3.3V, no load 
+ 
+1.1 
+3.0 
+µA 
+VDD = 6.5V, no load 
+ 
+1.8 
+4.5 
+Positive-Going Input Threshold 
+Voltage 
+VIT+ 
+VSENSE rising 
+ 
+ 
+1.182 
+ 
+V 
+VDD = 1.65V to 3.3V 
+-1.5 
+ 
+1.5 
+% 
+VDD = 1.65V to 6.5V 
+-1.7 
+ 
+1.7 
+% 
+Negative-Going Input Threshold 
+Voltage 
+VIT- 
+VSENSE falling 
+SGM862A 
+(0.6% hysteresis) 
+ 
+1.175 
+ 
+V 
+SGM862B 
+(1% hysteresis) 
+ 
+1.169 
+ 
+SGM862C 
+(5% hysteresis) 
+ 
+1.121 
+ 
+SGM862D 
+(10% hysteresis) 
+ 
+1.062 
+ 
+VDD = 1.65V to 3.3V 
+-1.5 
+ 
+1.5 
+% 
+VDD = 1.65V to 6.5V 
+-1.7 
+ 
+1.7 
+% 
+Input Current 
+ISENSE 
+VSENSE = 0V or VDD 
+ 
+0.2 
+50 
+nA 
+Low-Level Output Voltage 
+VOL 
+VDD ≥ 1.3V, ISINK = 0.4mA 
+ 
+ 
+0.25 
+V 
+VDD ≥ 1.65V, ISINK = 0.4mA 
+ 
+ 
+0.25 
+VDD ≥ 2.7V, ISINK = 2mA 
+ 
+ 
+0.25 
+VDD ≥ 4.5V, ISINK = 3.2mA 
+ 
+ 
+0.3 
+Open-Drain Output Leakage 
+Current 
+ILKG_OD 
+High impedance, VSENSE = VOUT = 6.5V 
+-70 
+ 
+70 
+nA 
+ 
+NOTE: 
+1. Outputs are undetermined below VPOR. 
+ 
+ 
+
+Dual-Channel, Low-Power, 
+SGM862 
+High-Accuracy Voltage Detector 
+ 
+ 
+5 
+JUNE 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TIMING REQUIRMENTS 
+(SENSEx transitions between 0V and 1.3V, RPU1 = RPU2 = 10kΩ, typical values are at VDD = 3.3V and TJ = +25℃, unless 
+otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+SENSEx (Rising) to OUT Propagation Delay 
+tPD_R 
+ 
+ 
+14 
+ 
+µs 
+SENSEx (Falling) to OUT Propagation Delay 
+tPD_F 
+ 
+ 
+12 
+ 
+µs 
+Startup Delay (1) 
+tSD 
+ 
+ 
+730 
+ 
+µs 
+ 
+NOTE: 
+1. During power-on or a period that VDD transient is lower than VDD_MIN, the outputs reflect the input conditions 730µs after VDD 
+transitions through VDD_MIN. 
+ 
+VPOR
+= Undefined State
+VDD_MIN
+VPOR
+SENSEx
+OUTx
+tSD
+tSD
+tSD
+TPD_F
+TPD_R
+VIT+
+VIT-
+VHYS
+ 
+ 
+Figure 2. Timing Diagram 
+ 
+
+Dual-Channel, Low-Power, 
+SGM862 
+High-Accuracy Voltage Detector 
+ 
+ 
+6 
+JUNE 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+TJ = +25°C with a 0.1μF capacitor beside VDD, unless otherwise noted. 
+ 
+     Sense Threshold (VIT+) Deviation vs. Temperature 
+     Sense Threshold (VIT-) Deviation vs. Temperature 
+ 
+ 
+     Supply Current vs. Supply Voltage 
+     Output Voltage Low vs. Output Current 
+ 
+ 
+     Output Voltage Low vs. Output Current 
+     Output Voltage Low vs. Output Current 
+ 
+ 
+ 
+ 
+-0.3
+-0.2
+-0.1
+0
+0.1
+0.2
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Sense Threshold (VIT+) Deviation (%) 
+Temperature (℃) 
+          SENSE1, VDD = 1.65V 
+          SENSE1, VDD = 6.5V 
+          SENSE2, VDD = 1.65V 
+          SENSE2, VDD = 6.5V 
+-0.3
+-0.2
+-0.1
+0
+0.1
+0.2
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Sense Threshold (VIT-) Deviation (%) 
+Temperature (℃) 
+          SENSE1, VDD = 1.65V 
+          SENSE1, VDD = 6.5V 
+          SENSE2, VDD = 1.65V 
+          SENSE2, VDD = 6.5V 
+-0.5
+0
+0.5
+1
+1.5
+2
+2.5
+3
+0
+1.3
+2.6
+3.9
+5.2
+6.5
+Supply Current (µA) 
+Supply Voltage (V) 
+           TJ = -40℃               TJ = 0℃ 
+           TJ = +25℃              TJ = +85℃ 
+           TJ = +105℃            TJ = +125℃ 
+SENSE1 = SENSE2 = 1.5V 
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+0
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+Low-Level Output Voltage (V) 
+Output Sink Current (mA) 
+           TJ = -40℃               TJ = 0℃ 
+           TJ = +25℃              TJ = +85℃ 
+           TJ = +100℃            TJ = +125℃ 
+VDD = 1.65V 
+0.00
+0.05
+0.10
+0.15
+0.20
+0.25
+0.30
+0.35
+0.40
+0
+1
+2
+3
+4
+5
+Low-Level Output Voltage (V) 
+Output Sink Current (mA) 
+           TJ = -40℃               TJ = 0℃ 
+           TJ = +25℃              TJ = +85℃ 
+           TJ = +100℃            TJ = +125℃ 
+VDD = 3.3V 
+0.00
+0.05
+0.10
+0.15
+0.20
+0.25
+0.30
+0
+1
+2
+3
+4
+5
+Low-Level Output Voltage (V) 
+Output Sink Current (mA) 
+           TJ = -40℃               TJ = 0℃ 
+           TJ = +25℃              TJ = +85℃ 
+           TJ = +100℃            TJ = +125℃ 
+VDD = 6.5V 
+
+Dual-Channel, Low-Power, 
+SGM862 
+High-Accuracy Voltage Detector 
+ 
+ 
+7 
+JUNE 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25°C with a 0.1μF capacitor beside VDD, unless otherwise noted. 
+ 
+     Sense Threshold (VIT+) 
+     Sense Threshold (VIT-) 
+ 
+ 
+     Minimum Transient Duration (HL) vs. Overdrive 
+     Minimum Transient Duration (HL) vs. Overdrive 
+ 
+ 
+     Minimum Transient Duration (LH) vs. Overdrive 
+     Minimum Transient Duration (LH) vs. Overdrive 
+ 
+ 
+ 
+ 
+0
+10
+20
+30
+40
+50
+-1.0
+-0.8
+-0.6
+-0.4
+-0.2
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+Percentage of Amplifiers (%) 
+VIT+ Accuracy (%) 
+VDD = 6.5V 
+14200 Samples  
+0
+10
+20
+30
+40
+50
+-1.0
+-0.8
+-0.6
+-0.4
+-0.2
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+Percentage of Amplifiers (%) 
+VIT- Accuracy (%) 
+VDD = 6.5V 
+14200 Samples 
+0
+4
+8
+12
+16
+20
+24
+0
+5
+10
+15
+20
+25
+30
+Transient Duration (µs) 
+Overdrive (%) 
+           TJ = -40℃               TJ = 0℃ 
+           TJ = +25℃              TJ = +85℃ 
+           TJ = +105℃            TJ = +125℃ 
+High-to-low transition, VDD = 1.65V 
+0
+4
+8
+12
+16
+20
+24
+0
+5
+10
+15
+20
+25
+30
+Transient Duration (µs) 
+Overdrive (%) 
+           TJ = -40℃               TJ = 0℃ 
+           TJ = +25℃              TJ = +85℃ 
+           TJ = +105℃            TJ = +125℃ 
+High-to-low transition, VDD = 6.5V 
+0
+2
+4
+6
+8
+10
+0
+5
+10
+15
+20
+25
+30
+Transient Duration (µs) 
+Overdrive (%) 
+           TJ = -40℃               TJ = 0℃ 
+           TJ = +25℃              TJ = +85℃ 
+           TJ = +105℃            TJ = +125℃ 
+Low-to-high transition, VDD = 1.65V 
+0
+2
+4
+6
+8
+10
+0
+5
+10
+15
+20
+25
+30
+Transient Duration (µs) 
+Overdrive (%) 
+           TJ = -40℃               TJ = 0℃ 
+           TJ = +25℃              TJ = +85℃ 
+           TJ = +105℃            TJ = +125℃ 
+Low-to-high transition, VDD = 6.5V 
+
+Dual-Channel, Low-Power, 
+SGM862 
+High-Accuracy Voltage Detector 
+ 
+ 
+8 
+JUNE 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25°C with a 0.1μF capacitor beside VDD, unless otherwise noted. 
+ 
+     Propagation Delay from Sense High to Output High 
+     Propagation Delay from Sense Low to Output Low 
+ 
+ 
+     Startup Delay 
+ 
+ 
+ 
+ 
+ 
+ 
+0
+4
+8
+12
+16
+20
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+tPD_R (µs) 
+Temperature (℃) 
+          SENSE1, VDD = 1.65V 
+          SENSE1, VDD = 6.5V 
+          SENSE2, VDD = 1.65V 
+          SENSE2, VDD = 6.5V 
+SENSE1 = SENSE2 = 0V to 1.3V 
+0
+2
+4
+6
+8
+10
+12
+14
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+tPD_F (µs) 
+Temperature (℃) 
+          SENSE1, VDD = 1.65V 
+          SENSE1, VDD = 6.5V 
+          SENSE2, VDD = 1.65V 
+          SENSE2, VDD = 6.5V 
+SENSE1 = SENSE2 = 1.3V to 0V 
+0
+200
+400
+600
+800
+1000
+1200
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+tSD (µs) 
+Temperature (℃) 
+          VDD = 1.65V 
+          VDD = 6.5V 
+
+Dual-Channel, Low-Power, 
+SGM862 
+High-Accuracy Voltage Detector 
+ 
+ 
+9 
+JUNE 2023 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAM 
+-
++
+SENSE2
+-
++
+SENSE1
+GND
+VDD
+-
++
+VIT+
+OUT1
+OUT2
+ 
+ 
+Figure 3. SGM862 Block Diagram 
+ 
+ 
+
+Dual-Channel, Low-Power, 
+SGM862 
+High-Accuracy Voltage Detector 
+ 
+ 
+10 
+JUNE 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION 
+Overview 
+The SGM862 family is a high-accuracy, low-power, and 
+small size dual-channel voltage detector with open-drain 
+output. 
+SENSEx is the input pin which can be programmed with 
+an external resistor divider. There are four different 
+hysteresis options of 0.6%, 1%, 5% or 10%. As shown in 
+Table 1, OUTx goes low when the input voltage of 
+SENSEx is lower than the falling threshold (VIT-). OUTx 
+goes high when the input voltage of SENSEx is higher 
+than the rising threshold (VIT+). The internal hysteresis of 
+SENSEx has glitch immunity and ensures stable 
+operation. 
+The device can be used to monitor multiple voltage rails 
+in applications or simultaneously monitor both early 
+warning signal channel and reset signal channel in one 
+system. 
+Table 1. SGM862 Truth Table 
+Conditions 
+Output 
+SENSE1 < VIT– 
+OUT1 = low 
+SENSE2 < VIT– 
+OUT2 = low 
+SENSE1 > VIT+ 
+OUT1 = high 
+SENSE2 > VIT+ 
+OUT2 = high 
+ 
+Inputs (SENSE1, SENSE2) 
+The SGM862 has two voltage detection comparators. 
+The comparator input voltage is from 0V to 6.5V, which 
+is independent of the device power supply voltage used. 
+The no-inverting input of the comparator is connected 
+to the external resistor divider. The inverting input of the 
+comparator is connected to an internal threshold 
+reference. When SENSEx voltage drops below VIT-, the 
+corresponding OUTx is driven low. When SENSEx 
+voltage rises above VIT+, the corresponding OUTx is 
+driven high. The hysteresis falling threshold prevents 
+the comparator from being falsely triggered, and 
+ensures stable operation. 
+In situations with extremely high noise and interference, 
+it is recommended to place a 1nF to 10nF bypass 
+capacitor at the input of the comparator to improve 
+transient immunity and reduce the sensitivity of layout 
+parasitism. In most cases, the decoupling capacitance 
+is not required. See Figure 2 for more details. 
+ 
+Outputs (OUT1, OUT2) 
+The SGM862 is usually used in reset or power 
+sequencing circuit, where the output is connected to 
+the digital signal processor (DSP), microcontroller (µC), 
+microprocessor (CPU) and so on, or the output is 
+connected to the DC/DC or LDO enable terminal to 
+enable or disable the power converter. 
+OUT1 and OUT2 are two open-drain outputs of 
+SGM862. A pull-up resistor is needed to connect a 
+voltage rail, which can be up to 6.5V and is 
+independent of the device power supply voltage (VDD). 
+To choose a proper pull-up resistor, users should 
+consider low-level output voltage (VOL), sink current 
+capability and output leakage current (ILKG_OD). The 
+open-drain output is convenient for the logic level 
+compatibility. Another advantage of open-drain output 
+is to implement wired and logic easily. OUT1 and OUT2 
+can be combined into one logic signal. The input 
+(SENSE1, SENSE2) section has described how to 
+assert or desserts the output. 
+ 
+Device Functional Modes 
+Normal Operation (VDD ≥ VDD_MIN) 
+Once the voltage on VDD rises above VDD_MIN and lasts 
+for tSD, the OUTx starts to indicate the present state of 
+corresponding SENSEx pins. 
+ 
+Power-On Reset (VDD < VPOR) 
+Once the voltage on VDD is below VPOR which is the 
+required voltage to pull the output to GND, the OUTx is 
+undefined and unreliable for proper system operation. 
+ 
+ 
+ 
+
+Dual-Channel, Low-Power, 
+SGM862 
+High-Accuracy Voltage Detector 
+ 
+ 
+11 
+JUNE 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+The SGM862 family is a dual-voltage detector with high 
+accuracy. The monitored voltage, VDD voltage and 
+output pull-up voltage can be flexibly used as 
+independent voltages or connected to any other 
+configuration. 
+ 
+Threshold Overdrive 
+Threshold overdrive is how much SENSEx exceeds the 
+threshold VIT, which is important to know because the 
+larger the overdrive is, the faster the OUTX responses. 
+VIT is the threshold voltage in Equation 1. Use the 
+percent of the sense voltage threshold to calculate the 
+threshold overdrive. 
+Overdrive = | (VSENSE/VIT - 1) × 100% |    (1) 
+VIT is VIT- when caculating the negative-going threshold 
+overdrive. VIT is VIT+ when caculating the positive-going 
+threshold overdrive. 
+ 
+Sense Resistor Divider 
+Use Equation 2 to caculate the resistor divider values, 
+which determines VMON_UV. Use Equation 3 to caculate 
+the target threshold voltage, which determines VMON_PG. 
+−
+
+
+=
++
+×
+
+
+
+
+
+
+1
+MON_UV
+IT
+2
+R
+V
+1
+V
+R
+           (2) 
++
+
+
+=
++
+×
+
+
+
+
+
+
+1
+MON_PG
+IT
+2
+R
+V
+1
+V
+R
+           (3) 
+SENSEx pins: 
+R1 is the upper divider resistor. R2 is the lower divider 
+resistor. 
+VMON_UV is the target voltage for monitoring the 
+under-voltage. 
+VMON_PG is the target voltage that monitors the output 
+goes high during VMONx rises. 
+Selecting the total resistance values of R1 and R2 
+determines that the current flowing through the divider 
+about 100 times higher than the SENSEx input current. 
+Meanwhile, choose the resistors values as high as 
+possible to minimize current consumption which will not 
+bring about obvious error to the resistance divider. 
+ 
+Power-Supply Recommendations 
+The input supply voltage of SGM862 ranges from 
+1.65V to 6.5V. A 0.1μF or greater ceramic capacitor 
+close to VDD pin is recommended. VDD pin has a 7V 
+absolute maximum rating. 
+ 
+ 
+ 
+ 
+
+Dual-Channel, Low-Power, 
+SGM862 
+High-Accuracy Voltage Detector 
+ 
+ 
+12 
+JUNE 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (Continued) 
+Monitoring Two Separate Rails 
+SGM862D
+OUT2
+VDD
+GND
+SENSE2
+SENSE1
+OUT1
+VDD = 5V
+R4
+R3
+R1
+R2
+VMON1
+VMON2
+0.1µF
+RPU1
+RPU2
+VPULL-UP
+To a reset or Enable 
+Output of the System
+To a reset or Enable 
+Output of the System
+ 
+Figure 4. Monitoring Two Separate Rails Circuit 
+Table 2. Design Parameters 
+Parameter 
+Design Requirement 
+Design Result 
+VDD 
+5V 
+5V 
+Hysteresis 
+10% 
+10% 
+Monitored Voltage 1 
+3.3V Norminal, VMON_PG = 2.9V, VMON_UV = 2.6V 
+VMON_PG = 2.905V, VMON_UV = 2.610V 
+Monitored Voltage 2 
+3.3V Norminal, VMON_PG = 2.6V, VMON_UV = 2.35V 
+VMON_PG = 2.604V, VMON_UV = 2.340V 
+Output Logic Voltage 
+3.3V CMOS 
+3.3V CMOS 
+ 
+Detailed Design Procedure 
+The SGM862D is 10% hysterisis version and chosen 
+finally. An open-drain output allows for the output to be 
+pulled up to a voltage other than VDD. 
+Use Equation 2 and Equation 3 to calculate the resistor 
+divider values. For SENSE1, R1 = 1.72MΩ and R2 = 
+1.18MΩ. While R3 and R4 of SENSE2 can be caculate 
+through R1 and R2 in Equation 2 and Equation 3. 
+Therefore, R3 = 1.42MΩ and R4 = 1.18MΩ. 
+ 
+ 
+ 
+ 
+Application Curve 
+ 
+ 
+Monitoring Two Separate Rails 
+ 
+ 
+VMON2 
+ 
+VOUT2 
+ 
+ 
+VMON1 
+VOUT1 
+ 
+ 
+ 
+500mV/div 1V/div 500mV/div 1V/div 
+ 
+ 
+ 
+ 
+Time (500µs/div) 
+ 
+ 
+ 
+
+Dual-Channel, Low-Power, 
+SGM862 
+High-Accuracy Voltage Detector 
+ 
+ 
+13 
+JUNE 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (Continued) 
+Early Warning Detection 
+SGM862D
+OUT2
+VDD
+GND
+SENSE2
+SENSE1
+OUT1
+R3
+R1
+R2
+VMON
+0.1µF
+RPU1
+RPU2
+VPULL-UP
+To a reset or Enable 
+Output of the System
+To a reset or Enable 
+Output of the System
+ 
+Figure 5. Early Warning Detection Schematic 
+Table 3. Design Parameters 
+Parameter 
+Design Requirement 
+Design Result 
+VDD 
+VMON 
+VMON 
+Hysteresis 
+10% 
+10% 
+Monitored voltage 1 
+VMON_PG = 3.3V, VMON_UV = 3V 
+VMON_PG = 3.389V, VMON_UV = 3.050V 
+Monitored voltage 2 
+VMON_PG = 3.9V, VMON_UV = 3.5V 
+VMON_PG = 3.937V, VMON_UV = 3.543V 
+ 
+Detailed Design Procedure 
+The SGM862D is 10% hysterisis version and chosen 
+finally. 
+Use Equation 4 to calculate the total resistor divider 
+values. The minimum total resistance of the resistor 
+network 
+is 
+calculated 
+based 
+on 
+the 
+current 
+consumption 
+specification. 
+Choose 
+the 
+current 
+approximately 1μA that flows through the resistor 
+network. In this case, from low to high conversion, 
+VMON_PG2 is considered more important. 
+MON_PG_ 2
+TOTAL
+V
+3.9V
+R
+3.9MΩ
+I
+1μA
+=
+=
+=
+      (4) 
+Use Equation 5 to calculate R3. VMON_PG2 corresponds 
+to VIT+ value in channel 2. Select the nearest 1% 
+accuracy resistor value instead of the calculated. In this 
+case, 1.18MΩ is the closest value for R3. 
+Ω
++
+=
+=
+=
+IT
+3
+V
+1.182V
+R
+1.182M
+I
+1μA
+         (5) 
+Use Equation 6 to calculate R2. Select the nearest 1% 
+accuracy resistor value instead of the calculated. In 
+this case, 200kΩ is the closest value for R2. In this 
+case, from high-to-low conversion, VMON_UV_1 is 
+considered more important. 
+Ω
+Ω
+Ω
+=
+×
+=
+×
+=
+TOTAL
+2
+IT-
+3
+MON_UV _1
+R
+R
+V
+-R
+V
+3.9M
+1.061V -1.18M
+199k
+3V
+  (6) 
+Use Equation 7 to calculate R1. Select the nearest 1% 
+accuracy resistor value instead of the calculated. In 
+this case, 2.55MΩ is the closest value for R1. 
+1
+2
+3
+R
+3.9
+200
+1.18M
+2.52
+TOTAL
+R
+-R -R
+MΩ -
+kΩ -
+Ω
+MΩ
+=
+=
+=
+  (7) 
+ 
+Application Curve 
+ 
+ 
+Early Warning Detection 
+ 
+ 
+ 
+ 
+ 
+ 
+VMON1 
+VOUT1 
+VMON2 
+ 
+ 
+1V/div  1V/div 1V/div 
+ 
+ 
+ 
+ 
+Time (5ms/div) 
+ 
+ 
+
+Dual-Channel, Low-Power, 
+SGM862 
+High-Accuracy Voltage Detector 
+ 
+ 
+14 
+JUNE 2023 
+SG Micro Corp 
+www.sg-micro.com 
+LAYOUT 
+It is recommended to place the decoupling capacitor 
+close to VDD, and place the bypass capacitor close to 
+the SENSEx if the bypass capacitor is necessary. 
+Avoid long traces to power VDD. The VDD decoupling 
+capacitor and parasitic inductance from long traces 
+can form LC resonance and cause ringing with peak 
+voltages, which may damage the device. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+Changes from Original (JUNE 2023) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX000164.002 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+UTDFN-1.45×1-6AL 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.450 
+- 
+0.600 
+A1 
+-0.004 
+- 
+0.050 
+A2 
+0.150 REF 
+b 
+0.150 
+- 
+0.300 
+D 
+1.374 
+- 
+1.526 
+E 
+0.924 
+- 
+1.076 
+e 
+0.500 BSC 
+L 
+0.250 
+- 
+0.450 
+L1 
+0.250 
+- 
+0.500 
+L2 
+0.000 
+- 
+0.100 
+eee 
+0.050 
+ 
+NOTE: This drawing is subject to change without notice. 
+ 
+ 
+L
+E
+A
+e
+b
+D
+SIDE VIEW
+BOTTOM VIEW
+TOP VIEW
+N1
+N6
+RECOMMENDED LAND PATTERN (Unit: mm)
+0.30
+0.49
+0.5
+0.75
+eee C
+PIN 1#
+C
+SEATING PLANE
+A1
+A2
+L1
+ALTERNATE B-1
+ALTERNATE CONSTRUCTION
+DETAIL B
+ALTERNATE A-3
+ALTERNATE TERMINAL CONSTRUCTION
+DETAIL A
+ALTERNATE A-2
+ALTERNATE A-1
+ALTERNATE B-2
+ALTERNATE B-3
+DETAIL A
+DETAIL B
+L2
+A1
+L (L1)
+A2
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+TX00034.001 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOT-23-6 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+- 
+- 
+1.450 
+A1 
+0.000 
+- 
+0.150 
+A2 
+0.900 
+- 
+1.300 
+b 
+0.300 
+- 
+0.500 
+c 
+0.080 
+- 
+0.220 
+D 
+2.750 
+- 
+3.050 
+E 
+1.450 
+- 
+1.750 
+E1 
+2.600 
+- 
+3.000 
+e 
+0.950 BSC 
+e1 
+1.900 BSC 
+L 
+0.300 
+- 
+0.600 
+θ 
+0° 
+- 
+8° 
+ccc 
+0.100 
+ 
+NOTES: 
+1. This drawing is subject to change without notice. 
+2. The dimensions do not include mold flashes, protrusions or gate burrs. 
+3. Reference JEDEC MO-178. 
+ 
+ 
+E
+E1
+e
+e1
+b
+D
+A1
+A2
+c
+L
+θ
+0.25
+2.59
+0.99
+0.95
+0.69
+RECOMMENDED LAND PATTERN (Unit: mm)
+ccc C
+SEATING PLANE
+C
+A
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+UTDFN-1.45×1-6AL 
+7" 
+9.5 
+1.15 
+1.60 
+0.75 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+SOT-23-6 
+7" 
+9.5 
+3.23 
+3.17 
+1.37 
+4.0 
+4.0 
+2.0 
+8.0 
+Q3 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 

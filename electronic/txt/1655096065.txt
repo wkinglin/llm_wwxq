@@ -1,0 +1,5904 @@
+SGM41512A 
+I2C Controlled 3A Single-Cell Battery Charger 
+with High Input Voltage Capability and Narrow 
+Voltage DC (NVDC) Power Path Management 
+ 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+JUNE 2022 – REV. A. 1 
+FEATURES 
+● 3.9V to 13.5V Operating Input Voltage Range 
+● Up to 20V Sustainable Voltage 
+● 14V Default Input Voltage OVP Threshold 
+● High Efficiency, 1.5MHz, Synchronous Buck Charger 
+ 93% Charge Efficiency at 1A from 5V Input 
+ 91% Charge Efficiency at 2A from 5V Input 
+ Optimized for USB Voltage Input (5V) 
+ Selectable PFM Mode for Light Load Efficiency 
+● USB On-The-Go (OTG) Support (Boost Mode) 
+ Boost Converter with up to 1.2A Output 
+ Boost Efficiency of 93.5% at 0.5A and 92.2% at 1A 
+ Accurate Hiccup Mode Over-Current Protection 
+ Soft-Start Capable with up to 500μF Capacitive Load 
+ Output Short Circuit Protection 
+ Selectable PFM Mode for Light Load Operations 
+● Programmable Input Current Limit (IINDPM) and 
+Dynamic Power Management to Support USB 
+Standard Adapters 
+● Maximum Power Tracking by Programmable Input 
+Voltage Limit (VINDPM) 
+● Auto Detect USB BC1.2, SDP, CDP, DCP and 
+Non-Standard Adaptors 
+● High Battery Discharge Efficiency with 28mΩ Switch 
+● Narrow Voltage DC (NVDC) Power Path Management 
+ Instant-On with No or Highly Depleted Battery 
+ Ideal Diode Operation in Battery Supplement Mode 
+● Ship Mode, Wake-Up and Full System Reset Capability 
+by Battery FET Control 
+● Flexible Autonomous and I2C Operation Modes for 
+Optimal System Performance 
+● Fully Integrated All MOSFETs, Current Sense and 
+Compensation 
+● 10μA Ship Mode Low Battery Leakage Current 
+● High Accuracy 
+ ±0.5% Charge Voltage Regulation 
+ ±5% Charge Current Regulation at 1.5A 
+ ±10% Input Current Regulation at 0.9A 
+● Safety 
+ Battery Temperature Sensing (Charge/Boost Modes) 
+ Thermal Regulation and Thermal Shutdown 
+ Input Under-Voltage Lockout (UVLO) 
+ Input Over-Voltage (ACOV) Protection 
+ 
+ 
+APPLICATIONS 
+Smart Phones, EPOS 
+Portable Internet Devices and Accessory 
+ 
+ 
+SIMPLIFIED SCHEMATIC 
+VBUS
+SW
+SYS
+BAT
+nQON
+TS
+Host Control
+Input
+3.9V to 13.5V
+OTG
+5V at 1.2A
+SYS 3.5V to 4.6V 
+Optional
+SGM41512A
+REGN
+BTST
+USB
+Host
+I2C Bus
+ICHG = 3A
+USB Detection
+D+/D-
+ 
+ 
+ 
+ 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+2 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+GENERAL DESCRIPTION 
+The SGM41512A is a battery charger and system power path 
+management device with integrated converter and power 
+switches for use with single-cell Li-Ion or Li-polymer batteries. 
+This highly integrated 3A device is capable of fast charging 
+and supports a wide input voltage range suitable for smart 
+phones, tablets and portable systems. I2C programming 
+makes it a very flexible powering and charger design solution. 
+The device includes four main power switches: input reverse 
+blocking FET (RBFET, Q1), high-side switching FET for Buck 
+or Boost mode (HSFET, Q2), low-side switching FET for Buck 
+or Boost mode switching (LSFET, Q3) and battery FET that 
+controls the interconnection of the system and battery 
+(BATFET, Q4). The bootstrap diode for the high-side gate 
+driving is also integrated. The internal power path has a very 
+low impedance that reduces the charging time and maximizes 
+the battery discharge efficiency. Moreover, the input voltage 
+and current regulations provide maximum charging power 
+delivery to the battery with various types of input sources. 
+A wide range of input sources are supported, including 
+standard USB hosts, charging ports and USB compliant high 
+voltage adapters. The default input current limit is 
+automatically selected based on the built-in USB interface. 
+This limit is determined by the detection circuit in the system 
+(e.g. USB PHY). SGM41512A is USB 2.0 and USB 3.0 power 
+specifications compliant with input current and voltage 
+regulation. It also meets USB On-The-Go (OTG) power rating 
+specification and is capable to boost the battery voltage to 
+supply 5.15V on VBUS with 1.2A (or 0.5A) current limit. 
+The system voltage is regulated slightly above the battery 
+voltage by the power path management circuit and is kept 
+above the programmable minimum system voltage (3.5V by 
+default). Therefore, system power is maintained even if the 
+battery is completely depleted or removed. Dynamic power 
+management 
+(DPM) 
+feature 
+is 
+also 
+included 
+that 
+automatically reduces the charge current if the input current 
+or voltage limit is reached. If the system load continues to 
+increase after reduction of charge current down to zero, the 
+power path management provides the deficit from battery by 
+discharging battery to the system until the system power 
+demand is fulfilled. This is called supplement mode, which 
+prevents the input source from overloading. 
+Starting and termination of a charging cycle can be 
+accomplished without software control. The sensed battery 
+voltage is used to decide for starting phase of charging in one 
+of the three phases of charging cycle: pre-conditioning, 
+constant current or constant voltage. When the charge 
+current falls below a preset limit and the battery voltage is 
+above recharge threshold, the charger function will 
+automatically terminate and end the charging cycle. If the 
+voltage of a charged battery falls below the recharge 
+threshold, the charger begins another charging cycle. 
+Several safety features are provided in the SGM41512A such 
+as over-voltage and over-current protections, battery 
+temperature monitoring, charging safety timing, thermal 
+shutdown and input UVLO. TS pin is connected to an NTC 
+thermistor for battery temperature monitoring and protection 
+in both charge and Boost modes according to JEITA profile. 
+This device also features thermal regulation in which the 
+charge current is reduced if the junction temperature exceeds 
+80°C or 120℃ (selectable).  
+Charging status is reported by the STAT output and fault/status 
+bits. A negative pulse is sent to the nINT output pin as soon 
+as a fault occurs to notify the host. BATFET reset control is 
+provided by nQON pin to exit ship mode or for a full system reset. 
+The SGM41512A is available in a Green TQFN-4×4-24L 
+package. 
+PIN CONFIGURATION 
+(TOP VIEW) 
+1
+VAC
+2
+3
+4
+5
+6
+18
+17
+16
+15
+14
+13
+24
+23
+22
+21
+20
+19
+7
+8
+9
+10
+11
+12
+SGM41512A
+D+
+STAT
+SCL
+SDA
+GND
+GND
+SYS
+SYS
+BAT
+BAT
+VBUS
+PMID
+REGN
+BTST
+SW
+SW
+nINT
+NC
+NC
+TS
+nCE
+nQON
+D-
+ 
+TQFN-4×4-24L 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+3 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM41512A 
+TQFN-4×4-24L 
+-40℃ to +85℃ 
+SGM41512AYTQF24G/TR 
+SGMRAE 
+YTQF24 
+XXXXX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code. 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Voltage Range (with Respect to GND) 
+VAC, VBUS (Converter Not Switching) 
+............-2V to 20V (1) 
+BTST, PMID (Converter Not Switching) 
+........... -0.3V to 20V 
+SW ...................................................................... -2V to 16V 
+SW (Peak for 10ns Duration) .............................. -3V to 16V 
+BTST to SW 
+....................................................... -0.3V to 6V 
+D+, D- ................................................................ -0.3V to 6V 
+REGN, TS, nCE, BAT, SYS (Converter Not Switching) 
+ 
+........................................................................... -0.3V to 6V 
+SDA, SCL, nINT, nQON, STAT 
+.......................... -0.3V to 6V 
+Output Sink Current 
+STAT, nINT 
+................................................................... 
+6mA 
+Package Thermal Resistance 
+TQFN-4×4-24L, θJA 
+.................................................. 37℃/W 
+TQFN-4×4-24L, θJC 
+.................................................. 24℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ........................ 
+-65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+CDM ............................................................................ 
+1000V 
+ 
+NOTE: 1. Maximum 28V for 10 seconds. 
+RECOMMENDED OPERATING CONDITIONS 
+Input Voltage Range, VVBUS 
+.............................. 3.9V to 13.5V 
+Input Current (VBUS), IIN 
+................................... 3.25A (MAX) 
+Output DC Current (SW), ISWOP ......................... 3.25A (MAX) 
+Battery Voltage, VBATOP ................................... 4.616V (MAX) 
+Fast Charging Current, ICHGOP ................................ 3A (MAX) 
+Discharging Current (Continuous), IBATOP 
+............... 6A (MAX) 
+Operating Ambient Temperature Range ........ -40℃ to +85℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+4 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+PIN DESCRIPTION 
+PIN 
+NAME 
+TYPE (1) 
+FUNCTION 
+1 
+VAC 
+AI 
+Sense Input for DC Input Voltage (Typically from an AC/DC Adaptor). Must be connected to VBUS pin. 
+2 
+D+ 
+AIO 
+Positive USB Data Line. D+/D- based USB device protocol detection. The detection includes data contact 
+detection (DCD), primary and secondary detection in BC1.2 and non-standard adaptors. 
+3 
+D- 
+AIO 
+Negative USB Data Line. D+/D- based USB device protocol detection. The detection includes data contact 
+detection (DCD), primary and secondary detection in BC1.2 and non-standard adaptors. 
+4 
+STAT 
+DO 
+Open-Drain Charge Status Output. Use a 10kΩ pull-up to the logic high rail (or an LED + a resistor). The 
+STAT pin acts as follows:  
+During charge: low (LED ON). 
+Charge completed or charger in sleep mode: high (LED OFF). 
+Charge suspended (in response to a fault): 1Hz, 50% duty cycle pulses (LED BLINKS). 
+The function can be disabled via EN_ICHG_MON[1:0] register. 
+5 
+SCL 
+DI 
+I2C Clock Signal. Use a 10kΩ pull-up to the logic high rail. 
+6 
+SDA 
+DIO 
+I2C Data Signal. Use a 10kΩ pull-up to the logic high rail. 
+7 
+nINT 
+DO 
+Open-Drain Interrupt Output Pin. Use a 10kΩ pull-up to the logic high rail. The nINT pin sends out a 
+negative 256μs pulse to the host when a fault occurs or a new charge status updates. 
+8, 10 
+NC 
+— 
+Do Not Connect and Leave This Pin Float. 
+9 
+nCE 
+DI 
+Charge Enable Input Pin (Active Low). Battery charging is enabled when CHG_CONFIG bit is 1 and nCE 
+pin is pulled low. 
+11 
+TS 
+AI 
+Temperature Sense Input Pin. Connect to the battery NTC thermistor that is grounded on the other side. To 
+program operating temperature window, it can be biased by a resistor divider between REGN and GND. 
+Charge suspends if TS voltage goes out of the programmed range. It is recommended to use a 103AT-2 
+type thermistor. 
+If NTC or TS pin function is not needed, use a 10kΩ/10kΩ pair for the resistor divider. 
+12 
+nQON 
+DI 
+BATFET On/Off Control Pin. Use an internal pull-up to a small voltage for maintaining the default high logic 
+(whenever a source or battery is available). In the ship mode, the BATFET is off. To exit ship mode and turn 
+BATFET on, a logic low pulse with a duration of tSHIPMODE (1s TYP) can be applied to nQON. When VBUS 
+source is not connected, a logic low pulse with a duration of tQON_RST (10s TYP) resets the system power 
+(SYS) by turning BATFET off for tBATFET_RST (250ms TYP) and then back on to provide a full power reset for 
+system. 
+13, 14 
+BAT 
+P 
+Battery Positive Terminal Pin. Use a 10µF capacitor between BAT and GND pins close to the device. SYS 
+and BAT pins are internally connected by BATFET with current sensing capability.  
+15, 16 
+SYS 
+P 
+Connection Point to Converter Output. SYS connects to the converter LC filter output that powers the 
+system. BAT to SYS internal current (power from battery to system) is sensed. Connect a 20μF capacitor 
+between SYS pin and GND close to the device (in addition to COUT). 
+17, 18 
+GND 
+— 
+Ground Pin of the Device. 
+19, 20 
+SW 
+P 
+Switching Node Output. Connect SW pin to the output inductor. Connect a 47nF bootstrap capacitor from 
+SW pin to BTST pin. 
+21 
+BTST 
+P 
+High-side Driver Positive Supply. It is internally connected to the boost-strap diode cathode. Use a 47nF 
+ceramic capacitor from SW pin to BTST pin. 
+22 
+REGN 
+P 
+LDO Output that Powers LSFET Driver and Internal Circuits. Internally, the REGN pin is connected to the 
+anode of the bootstrap diode. Place a 4.7μF (10V rating) ceramic capacitor between REGN pin and GND.  
+It is recommended to place the capacitor close to the REGN pin. The output is typically 4.5V to 5V. 
+23 
+PMID 
+DO 
+PMID Pin. PMID is the actual higher voltage port of converter (Buck or Boost) and is connected to the drain 
+of the reverse blocking MOSFET (RBFET) and the drain of HSFET. Connect a 10μF ceramic capacitor 
+from PMID pin to GND. It is the proper point for decoupling of high frequency switching currents. 
+24 
+VBUS 
+P 
+Charger Input (VIN). The internal N-channel reverse blocking MOSFET (RBFET) is connected between 
+VBUS and PMID pins. Place a 1μF ceramic capacitor from VBUS pin to GND close to the device. 
+Exposed 
+Pad 
+— 
+P 
+Thermal Pad and Ground Reference. It is the ground reference for the device and also the thermal pad to 
+conduct heat from the device (not suitable for high current return). Tie externally to the PCB ground plane 
+(GND). Thermal vias under the pad are needed to conduct the heat to the PCB ground planes. 
+NOTE:  
+1. AI = Analog Input, AO = Analog Output, AIO = Analog Input and Output, DI = Digital Input, DO = Digital Output, DIO = Digital Input and Output, 
+P = Power. 
+ 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+5 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VVAC_UVLOZ < VVAC < VVAC_OV and VVAC > VBAT + VSLEEP, TJ = -40℃ to +85℃, typical values are at TJ = +25℃, unless otherwise 
+noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Quiescent Currents 
+Battery Discharge Current 
+(BAT, SW, SYS) in Buck Mode 
+IBQ_VBUS 
+VBAT = 4.5V, VVBUS < VVAC_UVLOZ,  
+leakage between BAT and VBUS, BATFET off 
+ 
+0.1 
+1 
+µA 
+Battery Discharge Current 
+(BAT) in Buck Mode 
+IBQ_HIZ_BOFF 
+VBAT = 4.5V, HIZ mode and BATFET_DIS = 1 or 
+no VBUS, I2C disabled, BATFET disabled 
+ 
+10 
+20 
+µA 
+Battery Discharge Current 
+(BAT, SW, SYS) 
+IBQ_HIZ_BON 
+VBAT = 4.5V, HIZ mode and BATFET_DIS = 0 or 
+no VBUS, I2C disabled, BATFET enabled 
+ 
+20 
+40 
+µA 
+Input Supply Current 
+(VBUS) in Buck Mode 
+IVBUS_HIZ 
+VVBUS = 5V, HIZ mode and BATFET_DIS = 1, 
+no battery 
+ 
+25 
+40 
+µA 
+VVBUS = 12V, HIZ mode and BATFET_DIS = 1, 
+no battery 
+ 
+45 
+70 
+IVBUS 
+VVBUS = 12V, VVBUS > VBAT,  
+converter not switching 
+ 
+1.4 
+2 
+mA 
+VBAT = 3.8V, ISYS = 0A, VVBUS > VBAT,  
+VVBUS > VVAC_UVLOZ, converter switching,  
+BATFET off 
+ 
+4 
+ 
+Battery Discharge Current 
+in Boost Mode 
+IBOOST 
+VBAT = 4.2V, IVBUS = 0A, converter switching 
+ 
+3 
+ 
+mA 
+BAT Pin, VAC Pin and VBUS Pin Power-Up 
+VBUS Operating Range 
+VVBUS_OP 
+VVBUS rising 
+3.9 
+ 
+13.5 
+V 
+VBUS UVLO to Have Active I2C 
+(with No Battery) Seen by Sense 
+VAC Pin 
+VVAC_UVLOZ 
+VVAC rising, TJ = +25℃ 
+ 
+3.25 
+3.8 
+V 
+I2C Active Hysteresis 
+VVAC_UVLOZ_HYS 
+VVAC falling from above VVAC_UVLOZ 
+ 
+50 
+ 
+mV 
+VVAC Minimum (as One of the 
+Conditions) to Turn on REGN 
+VVAC_PRESENT 
+VVAC rising, TJ = +25℃ 
+ 
+3.25 
+3.8 
+V 
+VVAC Hysteresis (as One of the 
+Conditions) to Turn on REGN 
+VVAC_PRESENT_HYS VVAC falling 
+ 
+50 
+ 
+mV 
+Sleep Mode Falling Threshold 
+VSLEEP 
+(VVAC - VBAT), VVBUSMIN_FALL ≤ VBAT ≤ VREG,  
+VVAC falling, TJ = +25℃ 
+15 
+65 
+125 
+mV 
+Sleep Mode Rising Threshold 
+VSLEEPZ 
+(VVAC - VBAT), VVBUSMIN_FALL ≤ VBAT ≤ VREG,  
+VVAC rising, TJ = +25℃ 
+150 
+200 
+260 
+mV 
+VAC 
+Over-Voltage 
+Rising Threshold 
+6.5V Setting 
+VVAC_OV_RISE 
+VVAC rising, OVP[1:0] = 01 
+6.15 
+6.5 
+7.05 
+V 
+10.5V Setting 
+VVAC rising, OVP[1:0] = 10 
+10.00 
+10.5 
+11.15 
+14V Setting 
+VVAC rising, OVP[1:0] = 11 
+13.2  
+14 
+14.75 
+VAC 
+Over-Voltage 
+Hysteresis 
+6.5V Setting 
+VVAC_OV_HYS 
+VVAC falling, OVP[1:0] = 01 
+ 
+500 
+ 
+mV 
+10.5V Setting 
+VVAC falling, OVP[1:0] = 10 
+ 
+500 
+ 
+14V Setting 
+VVAC falling, OVP[1:0] = 11 
+ 
+500 
+ 
+BAT Voltage to Have Active I2C, 
+(No Source on VBUS) 
+VBAT_UVLOZ 
+VBAT rising 
+2.65 
+ 
+ 
+V 
+BAT Depletion Threshold 
+VBAT_DPL_FALL 
+VBAT falling 
+2 
+2.25 
+2.45 
+V 
+VBAT_DPL_RISE 
+VBAT rising 
+2.1 
+2.5 
+2.85 
+BAT Depletion Rising Hysteresis 
+VBAT_DPL_HYS 
+VBAT rising 
+ 
+250 
+ 
+mV 
+Bad Adapter Detection Current 
+(Internal Current Sink) 
+IBAD_SRC 
+Sink current from VBUS to GND 
+ 
+30 
+ 
+mA 
+Bad Adapter Detection (VBUS 
+Voltage Drop) Falling Threshold 
+VVBUSMIN_FALL 
+VVBUS falling 
+3.35 
+3.5 
+3.65 
+V 
+Bad Adapter Detection (VBUS 
+Voltage Drop) Hysteresis 
+VVBUSMIN_HYS 
+ 
+ 
+450 
+ 
+mV 
+ 
+ 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+6 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(VVAC_UVLOZ < VVAC < VVAC_OV and VVAC > VBAT + VSLEEP, TJ = -40℃ to +85℃, typical values are at TJ = +25℃, unless otherwise 
+noted.)  
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Power Path Management 
+System Regulation Voltage 
+VSYS 
+ISYS = 0A, VBAT = 4.4V, VBAT > VSYS_MIN, 
+BATFET_DIS = 1 
+ 
+VBAT + 
+50mV 
+ 
+V 
+Minimum DC System Voltage 
+Output 
+VSYS_MIN 
+ISYS = 0A, VBAT < SYS_MIN[2:0] = 101 (3.5V), 
+BATFET_DIS = 1 
+3.5 
+3.69 
+ 
+V 
+Maximum DC System Voltage 
+Output 
+VSYS_MAX 
+ISYS = 0A, VBAT ≤ 4.4V, VBAT > VSYS_MIN = 3.5V, 
+BATFET_DIS = 1 
+4.37 
+4.45 
+4.54 
+V 
+Top Reverse Blocking MOSFET 
+On-Resistance between VBUS  
+and PMID - Q1 
+RON_RBFET 
+ 
+ 
+41 
+ 
+mΩ 
+Top Switching MOSFET 
+On-Resistance between PMID 
+and SW - Q2 
+RON_HSFET 
+VREGN = 5V 
+ 
+45 
+ 
+mΩ 
+Bottom Switching MOSFET 
+On-Resistance between SW  
+and GND - Q3 
+RON_LSFET 
+VREGN = 5V 
+ 
+55 
+ 
+mΩ 
+BATFET forward Voltage  
+in Supplement Mode 
+VFWD 
+ 
+ 
+30 
+ 
+mV 
+Battery Charger 
+Charge Voltage Program Range 
+VBAT_REG_RANGE  
+3.848 
+ 
+4.616 
+V 
+Charge Voltage Step 
+VBAT_REG_STEP 
+ 
+ 
+32 
+ 
+mV 
+Charge Voltage Setting 
+VBAT_REG 
+VREG[4:0] = 01011 (4.200V) 
+TJ = +25℃ 
+4.185  
+4.200 
+4.215  
+V 
+TJ = -40℃ to +85℃ 
+4.175  
+4.200 
+4.225  
+VREG[4:0] = 01111 (4.344V) 
+TJ = +25℃ 
+4.325  
+4.341 
+4.357  
+TJ = -40℃ to +85℃ 
+4.315  
+4.341 
+4.367  
+VREG[4:0] = 10001 (4.392V) 
+TJ = +25℃ 
+4.375  
+4.391 
+4.407  
+TJ = -40℃ to +85℃ 
+4.365  
+4.391 
+4.417  
+Charge Voltage Setting Accuracy 
+VBAT_REG_ACC 
+VBAT_REG = 4.200V or  
+VBAT_REG = 4.344V or  
+VBAT_REG = 4.392V 
+TJ = +25℃ 
+-0.4 
+ 
+0.4 
+% 
+TJ = -40℃ to +85℃ 
+-0.6 
+ 
+0.6 
+Charge Current Regulation 
+Range 
+ICHG_REG_RANGE  
+0 
+ 
+3000 
+mA 
+Charge Current Regulation Step 
+ICHG_REG_STEP 
+ 
+ 
+60 
+ 
+mA 
+Charge Current Regulation 
+Setting 
+ICHG_REG 
+VBAT = 3.8V, TJ = +25℃ 
+ICHG = 240mA 
+0.19 
+0.24 
+0.29 
+A 
+ICHG = 720mA 
+0.67 
+0.72 
+0.77 
+ICHG = 1.38A 
+1.3 
+1.38 
+1.43 
+Pre-Charge Current Regulation 
+Setting 
+IPRECHG 
+IPRECHG[3:0] = 0010 (180mA), TJ = +25℃ 
+105 
+160 
+215 
+mA 
+Battery LOW Falling Threshold 
+VBATLOW_FALL 
+ICHG = 480mA 
+2.83 
+2.95 
+3.05 
+V 
+Battery LOW Rising Threshold 
+VBATLOW_RISE 
+Change from pre-charge to fast charging 
+3.06 
+3.15 
+3.22 
+V 
+Termination Current Regulation 
+Setting 
+ITERM 
+VBAT_REG = 4.200V, ITERM[3:0] = 0010 (180mA),  
+TJ = +25℃ 
+130 
+175 
+220 
+mA 
+Battery Short Voltage 
+VSHORT 
+VBAT falling 
+1.95 
+2.05 
+2.15 
+V 
+VSHORTZ 
+VBAT rising 
+2.15 
+2.2 
+2.25 
+Battery Short Current 
+ISHORT 
+VBAT < VSHORTZ 
+ 
+60 
+ 
+mA 
+Recharge Threshold below 
+VBAT_REG 
+VRECHG 
+VBAT falling, VRECHG = 0 (100mV) 
+60 
+95 
+130 
+mV 
+VBAT falling, VRECHG = 1 (200mV) 
+155 
+190 
+225 
+System Discharge Load Current 
+ISYS_LOAD 
+VSYS = 4.2V 
+ 
+21 
+ 
+mA 
+BATFET MOSFET 
+On-Resistance 
+RON_BATFET 
+VBAT = 4.2V, measured from BAT pin to SYS pin,  
+TJ = +25℃ 
+ 
+28 
+38 
+mΩ 
+ 
+ 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+7 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(VVAC_UVLOZ < VVAC < VVAC_OV and VVAC > VBAT + VSLEEP, TJ = -40℃ to +85℃, typical values are at TJ = +25℃, unless otherwise 
+noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX UNITS 
+Input Voltage and Current Regulation (DPM: Dynamic Power Management) 
+Input Voltage Regulation Limit 
+VINDPM 
+VINDPM[3:0] = 0000 (3.9V) 
+3.83 
+3.91 
+3.99 
+V 
+Input Voltage Regulation 
+Accuracy 
+VINDPM_ACC 
+ 
+-2 
+ 
+2 
+% 
+Input Voltage Regulation Limit 
+VINDPM 
+VINDPM[3:0] = 0101 (4.4V) 
+4.315 
+4.4 
+4.485 
+V 
+Input Voltage Regulation 
+Accuracy 
+VINDPM_ACC 
+ 
+-2 
+ 
+2 
+% 
+Input Voltage Regulation Limit 
+Tracking VBAT 
+VDPM_VBAT 
+VBAT = 4V, VINDPM = 3.9V, TJ = +25℃, 
+VDPM_BAT_TRACK[1:0] = 11 (300mV) 
+4.172 
+4.3 
+4.428 
+V 
+Input Voltage Regulation 
+Accuracy Tracking VBAT 
+VDPM_VBAT_ACC 
+TJ = +25℃ 
+-3 
+ 
+3 
+% 
+USB Input Current Regulation 
+Limit 
+IINDPM 
+VVBUS = 5V,  
+current pulled from SW, 
+TJ = +25℃ 
+IINDPM[4:0] = 00100 (500mA) 
+450 
+ 
+525 
+mA 
+IINDPM[4:0] = 01000 (900mA) 
+800 
+ 
+960 
+IINDPM[4:0] = 01110 (1.5A) 
+1280 
+ 
+1570 
+Input Current Limit during System 
+Start-Up Sequence 
+IIN_START 
+ 
+ 
+200 
+ 
+mA 
+BAT Pin Over-Voltage Protection 
+Battery Over-Voltage Threshold 
+VBATOVP_RISE 
+As percentage of 
+VBAT_REG, TJ = +25℃ 
+VBAT rising 
+102.8 
+104 
+104.8 
+% 
+VBATOVP_FALL 
+VBAT falling 
+100.8 
+102 
+102.8 
+Thermal Regulation and Thermal Shutdown 
+Junction Temperature Regulation 
+Threshold 
+TJUNCTION_REG 
+Temperature increasing 
+TREG = 1 (120℃) 
+ 
+120 
+ 
+℃ 
+TREG = 0 (80℃) 
+ 
+80 
+ 
+Thermal Shutdown Rising 
+Temperature 
+TSHUT 
+Temperature increasing 
+ 
+150 
+ 
+℃ 
+Thermal Shutdown Hysteresis 
+TSHUT_HYS 
+ 
+ 
+20 
+ 
+℃ 
+JEITA Thermistor Comparator (Buck Mode) 
+T1 (0℃) Threshold Voltage on TS 
+Pin 
+VT1 
+Charge suspends if temperature T is below T1 (T < T1),  
+as percentage of VREGN 
+72.6 
+73.2 
+73.9 
+% 
+T1 Falling 
+As percentage of VREGN 
+71.0 
+71.6 
+72.1 
+T2 (10℃) Threshold 
+VT2 
+Charge sets to ICHG/2 and 4.2V if T1 < T < T2,  
+as percentage of VREGN 
+67.4 
+68 
+68.7 
+% 
+T2 Falling 
+As percentage of VREGN 
+66.0 
+66.7 
+67.4 
+T3 (45℃) Threshold 
+VT3 
+Charge sets to normal (ICHG and 4.05V) if T2 < T < T3,  
+as percentage of VREGN 
+43.4 
+44.5 
+45.5 
+% 
+T3 Falling 
+As percentage of VREGN 
+45.1 
+45.8 
+46.4 
+T4 (60℃) Threshold 
+VT4 
+Charge sets to 4.1V or VREG if T3 < T < T4 and suspends 
+if T > T4, as percentage of VREGN 
+33.5 
+34.1 
+34.8 
+% 
+T4 Falling 
+As percentage of VREGN 
+34.8 
+35.4 
+36.1 
+ 
+ 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+8 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(VVAC_UVLOZ < VVAC < VVAC_OV and VVAC > VBAT + VSLEEP, TJ = -40℃ to +85℃, typical values are at TJ = +25℃, unless otherwise 
+noted.)  
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Cold or Hot Thermistor Comparator (Boost Mode) 
+Cold Temperature Threshold 
+(TS Pin Voltage Rising Threshold) 
+VBCOLD 
+As percentage of VREGN (approx. -20℃ w/ 103AT) 
+79.4 
+80 
+80.7 
+% 
+TS Voltage Falling  
+(Exit from Cold Range to Cool) 
+As percentage of VREGN 
+78.2 
+79 
+79.6 
+Hot Temperature Threshold 
+(TS Pin Voltage Falling Threshold) 
+VBHOT 
+As percentage of VREGN (approx. 60℃ w/ 103AT) 
+30.5 
+31.2 
+31.9 
+% 
+TS Voltage Rising  
+(Exit Hot Range to Warm) 
+As percentage of VREGN  
+33.7 
+34.4 
+35.0 
+Charge Over-Current Comparator (Cycle-by-Cycle) 
+HSFET Cycle-by-Cycle Over-Current 
+Threshold 
+IHSFET_OCP 
+TJ = +25℃ 
+4 
+ 
+6.2 
+A 
+System Overload Threshold 
+IBATFET_OCP 
+TJ = +25℃ 
+6 
+ 
+ 
+A 
+Charge Under-Current Comparator (Cycle-by-Cycle) 
+LSFET Under-Current Falling 
+Threshold 
+ILSFET_UCP 
+Change rectifier from synchronous mode to 
+non-synchronous mode 
+ 
+160 
+ 
+mA 
+PWM 
+PWM Switching Frequency 
+fSW 
+Oscillator frequency, TJ = +25℃ 
+Buck mode 
+1400 
+1500 
+1600 
+kHz 
+Boost mode 
+1400 
+1500 
+1600 
+Maximum PWM Duty Cycle (1) 
+DMAX 
+ 
+ 
+98 
+ 
+% 
+Boost Mode Operation 
+Boost Mode Regulation Voltage 
+VOTG_REG 
+VBAT = 3.8V, IPMID = 0A, BOOSTV[1:0] = 10 (5.15V) 
+5.040  
+5.19 
+5.345 
+V 
+Boost Mode Regulation Voltage 
+Accuracy 
+VOTG_REG_ACC 
+VBAT = 3.8V, IPMID = 0A, BOOSTV[1:0] = 10 (5.15V) 
+-3 
+ 
+3 
+% 
+Exit Boost Mode Due to Low Battery 
+Voltage 
+VBATLOW_OTG 
+VBAT falling, MIN_BAT_SEL = 0 
+2.845  
+2.95  
+3.055  
+V 
+VBAT rising, MIN_BAT_SEL = 0 
+3.075  
+3.15  
+3.215  
+VBAT falling, MIN_BAT_SEL = 1 
+2.49  
+2.60  
+2.69  
+VBAT rising, MIN_BAT_SEL = 1 
+2.725  
+2.80  
+2.85  
+OTG Mode Maximum Output Current 
+IOTG 
+BOOST_LIM = 1 (1.2A), TJ = +25℃ 
+1.15 
+1.5 
+1.80 
+A 
+OTG Over-Voltage Threshold 
+VOTG_OVP 
+Rising threshold 
+5.87  
+6.015 
+6.15  
+V 
+HSFET Under-Current Falling 
+Threshold 
+IOTG_HSZCP 
+Change rectifier from synchronous mode to 
+non-synchronous mode 
+ 
+100 
+ 
+mA 
+REGN LDO 
+REGN LDO Output Voltage 
+VREGN 
+VVBUS = 9V, IREGN = 40mA 
+4.75  
+5  
+5.25  
+V 
+VVBUS = 5V, IREGN = 20mA 
+4.35  
+4.65  
+4.95  
+Logic I/O Pin Characteristics (nCE, SCL, SDA and nINT) 
+Input Low Threshold (nCE) 
+VIL 
+ 
+ 
+ 
+0.3 
+V 
+Input High Threshold (nCE) 
+VIH 
+ 
+1 
+ 
+ 
+V 
+Input Low Threshold (SCL, SDA, 
+nINT) 
+VIL 
+ 
+ 
+ 
+0.2 
+V 
+Input High Threshold (SCL, SDA, 
+nINT) 
+VIH 
+ 
+1 
+ 
+ 
+V 
+High-Level Leakage Current 
+IBIAS 
+Pull up rail 1.8V 
+ 
+ 
+1 
+µA 
+Logic I/O Pin Characteristics (STAT) – Open-Drain 
+Low-Level Output Voltage 
+VOL 
+ 
+ 
+ 
+0.3 
+V 
+ 
+NOTE:  
+1. Guaranteed by design. Not production tested. 
+ 
+ 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+9 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+TIMING REQUIREMENTS 
+(TJ = +25℃, unless otherwise noted.) 
+ 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+VVBUS/VBAT Power-Up 
+VBUS OVP Reaction Time 
+tACOV 
+VVBUS rising above ACOV threshold to turn off 
+Q2 
+ 
+0.1 
+ 
+µs 
+Wait Window for Bad Adapter Detection 
+tBAD_SRC 
+ 
+ 
+30 
+ 
+ms 
+Battery Charger 
+Deglitch Time for Charge Termination 
+tTERM_DGL 
+ 
+ 
+230 
+ 
+ms 
+Deglitch Time for Recharge 
+tRECHG_DGL 
+ 
+ 
+230 
+ 
+ms 
+System Over-Current Deglitch Time to Turn 
+off Q4 
+tSYSOVLD_DGL  
+ 
+112 
+ 
+µs 
+Battery Over-Voltage Deglitch Time to 
+Disable Charge 
+tBATOVP 
+ 
+ 
+1 
+ 
+µs 
+Typical Charge Safety Timer Range 
+tSAFETY 
+CHG_TIMER = 1 
+8 
+10 
+12 
+h 
+Typical Top-Off Timer Range 
+tTOP_OFF 
+TOPOFF_TIMER[1:0] = 10 (30min) 
+32 
+35 
+39 
+min 
+nQON Timing and Ship Mode Timing 
+nQON Negative Pulse Low Pulse Width to 
+Turn on BATFET and Exit Ship Mode 
+tSHIPMODE 
+ 
+0.9 
+1 
+1.2 
+s 
+nQON Low Time to Reset BATFET 
+tQON_RST 
+ 
+8 
+10 
+12  
+s 
+BATFET off Time during Full System Reset 
+tBATFET_RST 
+ 
+200 
+250 
+300 
+ms 
+Wait Delay for Entering Ship Mode 
+tSM_DLY 
+ 
+10 
+12.5 
+15 
+s 
+Digital Clock and Watchdog Timer 
+Watchdog Reset Time 
+tWDT 
+WATCHDOG[1:0] = 01, REGN LDO disabled 
+ 
+40 
+ 
+s 
+Digital Clock Frequency in Low Power 
+fLPDIG 
+REGN LDO disabled 
+ 
+31 
+ 
+kHz 
+Digital Clock Frequency 
+fDIG 
+REGN LDO enabled 
+ 
+500 
+ 
+kHz 
+I2C Interface 
+SCL Clock Frequency 
+fSCL 
+ 
+ 
+400 
+ 
+kHz 
+ 
+ 
+ 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+10 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+ 
+ 
+     Charge Efficiency vs. Charge Current 
+ 
+     Efficiency vs. OTG Current 
+ 
+ 
+      OTG Output Voltage vs. Output Current 
+ 
+     Charge Current Accuracy vs. Charge Current 
+ 
+ 
+     SYS_MIN Voltage vs. Junction Temperature 
+     BAT_REG Charge Voltage vs. Junction Temperature 
+ 
+ 
+ 
+ 
+60
+65
+70
+75
+80
+85
+90
+95
+100
+0
+0.5
+1
+1.5
+2
+2.5
+3
+Charge Efficiency (%) 
+Charge Current (A) 
+VVBUS = 5V 
+VVBUS = 9V 
+VVBUS = 12V 
+65
+70
+75
+80
+85
+90
+95
+100
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+Efficiency (%) 
+OTG Current (A) 
+VBAT = 3.2V 
+VBAT = 3.8V 
+VBAT = 4.1V 
+0
+1
+2
+3
+4
+5
+6
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+1.6
+OTG Output Voltage (V) 
+Output Current (A) 
+-8
+-6
+-4
+-2
+0
+2
+4
+6
+0.5 0.75
+1
+1.25 1.5 1.75
+2
+2.25 2.5 2.75
+3
+Charge Current Accuracy (%) 
+Charge Current (A) 
+3.50
+3.55
+3.60
+3.65
+3.70
+3.75
+3.80
+3.85
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+SYS_MIN Voltage (V) 
+Junction Temperature (℃) 
+4.0
+4.1
+4.2
+4.3
+4.4
+4.5
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+BAT_REG Charge Voltage (V) 
+Junction Temperature (℃) 
+VBAT_REG = 4.200V 
+VBAT_REG = 4.344V 
+VBAT_REG = 4.392V 
+ 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+11 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+     Input Current Limit vs. Junction Temperature 
+     Charge Current vs. Junction Temperature 
+ 
+ 
+ 
+ 
+VBUS Power-Up with Charge Disable (VBAT = 3.2V) 
+ 
+ 
+ 
+VBUS Power-Up with Charge Enable (VBAT = 3.2V) 
+ 
+ 
+ 
+ 
+VBUS 
+ 
+ 
+ 
+REGN 
+ 
+ 
+ 
+ 
+ 
+VSYS 
+ 
+ 
+ 
+ 
+ 
+ 
+  5V/div      5V/div     2V/div 
+ 
+ 
+ 
+ 
+VBUS 
+ 
+REGN 
+ 
+ 
+VSYS 
+ 
+ 
+ 
+ 
+IBAT 
+ 
+ 5V/div  5V/div    2V/div    2A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (40ms/div) 
+ 
+ 
+ 
+Time (50ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Charge Enable 
+ 
+ 
+ 
+Charge Disable 
+ 
+ 
+ 
+ 
+STAT 
+ 
+ 
+ 
+nCE 
+ 
+ 
+SW 
+ 
+ 
+IBAT 
+ 
+   2V/div    5V/div 5V/div  2A/div 
+ 
+ 
+ 
+ 
+STAT 
+ 
+ 
+ 
+nCE 
+ 
+ 
+SW 
+ 
+ 
+IBAT 
+ 
+   2V/div   5V/div  5V/div  2A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (10ms/div) 
+ 
+ 
+ 
+Time (10ms/div) 
+ 
+ 
+ 
+ 
+ 
+0.00
+0.25
+0.50
+0.75
+1.00
+1.25
+1.50
+1.75
+2.00
+2.25
+2.50
+-40
+-25
+-10
+5
+20
+35
+50
+65
+80
+95
+Input Current Limit (A) 
+Junction Temperature (℃) 
+IINDPM = 0.5A 
+IINDPM = 0.9A 
+IINDPM = 1.5A 
+ 
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2
+1.4
+1.6
+1.8
+2.0
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Charge Current (A) 
+Junction Temperature (℃) 
+ICHG = 0.24A 
+ICHG = 0.72A 
+ICHG = 1.38A 
+ 
+VBAT = 3.8V 
+ 
+VVBUS = 5V, VBAT = 3.2V 
+VVBUS = 5V, VBAT = 3.2V, ICHG = 2A 
+VVBUS = 5V, VBAT = 3.2V, ICHG = 2A 
+VVBUS = 5V, VBAT = 3.2V, ICHG = 2A 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+12 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+ 
+PFM Switching in Buck Mode, Charge Disabled 
+ 
+ 
+ 
+OTG Switching (Boost Mode) 
+ 
+ 
+VSYS 
+ 
+ 
+ 
+ 
+ 
+SW 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+ 100mV/div  5V/div         1A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+SW 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+        5V/div      500mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (4μs/div) 
+ 
+ 
+ 
+Time (4μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PFM Switching in Buck Mode, Charge Disabled 
+ 
+ 
+ 
+OTG Switching (Boost Mode) 
+ 
+ 
+VSYS 
+ 
+ 
+ 
+ 
+ 
+SW 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+ 100mV/div  5V/div         1A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+SW 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+      5V/div   500mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (2μs/div) 
+ 
+ 
+ 
+Time (400ns/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PFM Switching in Buck Mode, Charge Disabled 
+ 
+ 
+ 
+OTG Switching (Boost Mode) 
+ 
+ 
+VSYS 
+ 
+ 
+ 
+ 
+ 
+SW 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+ 100mV/div  5V/div         1A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+SW 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+        5V/div        500mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (1μs/div) 
+ 
+ 
+ 
+Time (400ns/div) 
+ 
+ 
+ 
+ 
+VVBUS = 5V, ISYS = 50mA 
+VVBUS = 9V, ISYS = 50mA 
+VVBUS = 12V, ISYS = 50mA 
+VBAT = 4V, ILOAD = 50mA, PFM Enable 
+VBAT = 4V, ILOAD = 1A, PWM 
+VBAT = 4V, ILOAD = 0A, PFM Disable 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+13 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+ 
+System Load Transient 
+ 
+ 
+ 
+System Load Transient 
+ 
+ 
+VSYS 
+ 
+ 
+IBAT 
+ 
+ 
+ 
+ 
+ 
+ 
+ISYS 
+ 
+IIN 
+ 
+5V/div  2A/div      2A/div  2A/div 
+ 
+ 
+VSYS 
+ 
+ 
+IBAT 
+ 
+ 
+ 
+ 
+ 
+ 
+ISYS 
+ 
+IIN 
+ 
+ 
+ 5V/div  2A/div    2A/div    2A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+System Load Transient 
+ 
+ 
+ 
+System Load Transient 
+ 
+ 
+ 
+ 
+VSYS 
+ 
+IBAT 
+ 
+ 
+ 
+ 
+ 
+ISYS 
+ 
+IIN 
+ 
+2V/div  2A/div      2A/div   2A/div 
+ 
+ 
+ 
+ 
+VSYS 
+ 
+IBAT 
+ 
+ 
+ 
+ 
+ 
+ISYS 
+ 
+IIN 
+ 
+2V/div   2A/div      5A/div  2A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+System Load Transient 
+ 
+ 
+ 
+System Load Transient 
+ 
+ 
+ 
+ 
+VSYS 
+ 
+IBAT 
+ 
+ 
+ 
+ISYS 
+ 
+ 
+ 
+IIN 
+ 
+ 
+2V/div   2A/div   2A/div   2A/div 
+ 
+ 
+ 
+ 
+VSYS 
+ 
+IBAT 
+ 
+ 
+ 
+ 
+ 
+ISYS 
+ 
+ 
+IIN 
+ 
+ 
+2V/div  2A/div    2A/div    2A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+ 
+VVBUS = 5V, IINDPM = 1A, ICHG = 1A 
+VBAT = 3.7V, ISYS = 0A to 2A 
+VVBUS = 5V,IINDPM = 2A,ICHG = 1A,VBAT = 3.7V,ISYS = 0A to 4A 
+VVBUS = 5V, IINDPM = 1A, ICHG = 2A 
+VBAT = 3.7V, ISYS = 0A to 2A 
+VVBUS = 5V, IINDPM = 1A, ICHG = 2A 
+VBAT = 3.7V, ISYS = 0A to 4A 
+VVBUS = 5V, IINDPM = 2A, ICHG = 2A 
+VBAT = 3.7V, ISYS = 0A to 2A 
+VVBUS = 5V, IINDPM = 2A, ICHG = 2A 
+VBAT = 3.7V, ISYS = 0A to 4A 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+14 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+ 
+PWM Switching in Buck Mode (L = 1µH) 
+ 
+ 
+ 
+PWM Switching in Buck Mode (L = 1μH) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SW 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+             5V/div       2A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SW 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+         5V/div           2A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (1μs/div) 
+ 
+ 
+ 
+Time (1μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+OTG Start-Up 
+ 
+ 
+ 
+VINDPM Tracking Battery Voltage 
+ 
+ 
+ 
+ 
+ 
+VPMID 
+ 
+ 
+VBUS 
+ 
+ 
+ 
+ 
+ 
+SW 
+ 
+   2V/div  2V/div     2V/div 
+ 
+ 
+ 
+ 
+VBUS 
+VBAT 
+ 
+ 
+ 
+ 
+ 
+ 
+IBAT 
+ 
+    2V/div  2V/div       1A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (20ms/div) 
+ 
+ 
+ 
+Time (1s/div) 
+ 
+ 
+ 
+ 
+ 
+VVBUS = 5V, VBAT = 3.8V, ICHG = 2A 
+VVBUS = 12V, VBAT = 3.8V, ICHG = 2A 
+VBAT = 3.8V, CBUS = 470μF 
+Adaptor ILIM = 1A 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+15 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL APPLICATION CIRCUIT 
+VBUS
+SW
+SYS
+BAT
+nQON
+SGM41512A
+TS
+SYS 3.5V to 4.6V
+Optional
+PMID
+10µF
+1µH
+47nF
+BTST
+REGN
+GND
+D+
+SYS
+STAT
+SDA
+SCL
+VREF
+nINT
+nCE
+1µF
+2.2kΩ
+10kΩ
+10kΩ
+10kΩ
+30.1kΩ
+10µF
+10µF
+10µF
+4.7µF
+5.23kΩ
+10kΩ
+REGN
+Host
+USB
+VAC
+D-
+ICHG = 3A
+Input 
+3.9V to 13.5V
+OTG
+5V at 1.2A
+ 
+ 
+Figure 1. Typical Application Circuit 
+ 
+ 
+ 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+16 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAM 
+REGN
+LDO
+Converter
+Control
+REGN
+LSFET (Q3) 
+HSFET (Q2) 
+I2C
+Interface
+Voltage & Current
+ Sensing
+&
+DAC Reference 
+Digital
+Control
+D+
+nINT
+STAT
+VBUS
+VPULL-UP
+Q4 Gate 
+Control
+Battery 
+Temperature
+Sensing
+BATFET (Q4) 
+ICHG
+TS
+GND
+BTST
+PMID
+REGN
+SYS
+BAT
+nQON
+SGM41512A
+Input 
+Source 
+Detection
+VAC
+RBFET (Q1) 
+Q1
+Control
+nCE
+SDA
+SCL
+JEITA
+Control
+SW
+Protections:
+OVP
+UVP
+OCP
+UCP
+OTP
+D-
+ 
+Figure 2. Block Diagram 
+ 
+ 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+17 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION 
+The SGM41512A is a power management and charger 
+device for applications such as cell phones and tablets that 
+use high capacity single-cell Li-Ion or Li-polymer batteries. 
+The SGM41512A can accommodate a wide range of input 
+sources including USB, wall adapter and car chargers. It is 
+optimized for 5V input (USB voltage) but is capable to operate 
+with input voltages from 3.9V up to 13.5V. It also supports 
+JEITA profile for battery charging safety at high or low 
+temperatures. Automatic power path selection to power the 
+system (SYS) from the input source (VBUS), battery (BAT), or 
+both, is another feature of the device. Battery charge current 
+is programmable and can reach to a maximum of 3A (charge). 
+In the Boost mode, the battery voltage is boosted to power 
+the VBUS pin (1.2A MAX) when it is a power receiving node 
+(USB OTG) that is typically regulated to 5.15V. 
+The device may operate in several different modes: 
+In HIZ mode, the reverse blocking FET (Q1), internal REGN 
+LDO, converter switches and some other parts of the internal 
+circuit remain off to save the battery while it is supplying DC 
+power to the system through BATFET. 
+In the sleep mode, the switching is stopped. The charger goes 
+to the sleep mode when the input source voltage (VVAC) is not 
+high enough for charging the battery. In other words, VVAC is 
+smaller than VBAT + VSLEEP (where VSLEEP is a small threshold) 
+and Buck converter is not able to charge, even at its 
+maximum duty cycle. The Boost may also go to the sleep 
+mode if similar issue happens in the reverse direction (when 
+VVAC is almost equal or smaller than VBAT). 
+In supplement mode, the input source power is not enough to 
+supply system demanded power and the battery assists by 
+discharging to the system in parallel, providing the deficit. 
+ 
+Power-On Reset (POR) 
+The internal circuit of the device is powered from the greater 
+voltage between VVBUS and VBAT. When the voltage of the 
+selected source goes above its UVLO level (VVBUS > 
+VVBUS_UVLOZ or VBAT > VBAT_UVLOZ), a POR happens and 
+activates the sleep comparator, battery depletion comparator 
+and BATFET driver. Upon activation, the I2C interface will 
+also be ready for communication and all registers reset to 
+their default values. 
+ 
+Power-Up from Battery Only (No Input 
+Source) 
+When only the battery is presented as a source and its 
+voltage is above depletion threshold (VBAT_DPL_RISE), the 
+BATFET turns on and connects the battery to the system. 
+The quiescent current is minimum because the REGN LDO 
+remains off. Conduction losses are also low due to small 
+RDSON of BATFET. Low losses help to extend the battery run 
+time. 
+The discharge current through BATFET is continuously 
+monitored. In the supplement mode, if a system overload (or 
+short) occurs (IBAT > IBATFET_OCP), the BATFET is turned off 
+immediately and BATFET_DIS bit is set to 1. The BATFET 
+will not enable until the input source is applied or one of the 
+BATFET Enable Mode (Exit Ship Mode) methods 
+(explained later) is used to activate the BATFET. 
+ 
+Power-Up Process from the Input Power 
+Source 
+Upon connection of an input source (VBUS), its voltage 
+sensed from VAC pin is checked to turn on the internal REGN 
+LDO regulator and the bias circuits (no matter if the battery is 
+present or not). The input current limit is determined and set 
+before the Buck converter is started. The sequences of 
+actions when VBUS as input source is powered up are: 
+1. Poor power source detection (qualification). 
+2. Input power source type detection. (Based on D+/D- 
+input. It is used to set the default input current limit 
+(IINDPM[4:0]).) 
+3. REGN LDO power-up. 
+4. Setting of the input voltage limit threshold (VINDPM 
+threshold). 
+5. DC/DC converter power-up. 
+ 
+Details of the power-up steps are explained in the following 
+sections. 
+ 
+ 
+ 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+18 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Poor Power Source Detection (Qualification) 
+When REGN LDO is powered, the input source (adaptor) is 
+checked for its type and current capacity. To start the Buck 
+converter, the input (VBUS) must meet the following 
+conditions: 
+1. VVBUS < VVAC_OV. 
+2. VVBUS > VVBUS_MIN during tBAD_SRC test period (30ms TYP) in 
+which the IBAD_SRC (30mA TYP) current is pulled from VBUS. 
+If the test is failed, the conditions are repeatedly checked 
+every two seconds. As soon as the input source passes 
+qualification, the VBUS_GD bit in status register is set to 1 
+and a pulse is sent to the nINT pin to inform the host. Type 
+detection will start as next step. 
+ 
+Input Power Source Type Detection 
+The input source detection will run through the D+/D- lines 
+while REGN LDO is powered and after the VBUS_GD bit is 
+set. The SGM41512A follows the USB Battery Charging 
+Specification 1.2 (BC1.2) to detect input source (SDP/DCP) 
+and non-standard adapter through USB D+/D- lines. A pulse 
+is sent to nINT pin to inform the host when the input source 
+type detection is completed. Some registers and pins are also 
+updated as detailed below: 
+1. Input current limit register (the value in the IINDPM[4:0]) is 
+changed to set current limit. 
+2. PG_STAT (power good) bit is set. 
+3. VBUS_STAT[2:0] register is updated to indicate USB or 
+adaptor input source types. 
+The input current is always limited by the IINDPM[4:0] register 
+and the limit can be updated by the host if needed. 
+ 
+Input Current Limit by D+/D- Detection 
+The SGM41512A integrates a D+/D- based input source 
+detection to set the input current limit when VBUS plug-in. 
+The 
+detection 
+includes 
+standard 
+USB 
+BC1.2 
+and 
+non-standard adapter. When input source is plugged in, the 
+SGM41512A starts standard USB BC1.2 detection and set 
+the SDP/DCP related input current limit. The non-standard 
+adapter detection is applied to set the input current limit, 
+when the Data Contact Detection (DCD) timer expires. 
+Please refer to Table 1 and Table 2. 
+ 
+REGN LDO Power-Up 
+The REGN low dropout regulator powers the internal bias 
+circuits, HSFET and LSFET gate drivers and TS rail 
+(thermistor pin). The STAT pin can also be pulled up to REGN. 
+The REGN enables when the following 2 conditions are 
+satisfied and remain valid for a 220ms delay time, otherwise 
+the device stays in high impedance mode (HIZ) with REGN 
+LDO off. 
+1. VVAC > VVAC_PRESENT. 
+2. VVAC > VBAT + VSLEEPZ (in Buck mode) or VVBUS < VBAT + 
+VSLEEP (in Boost mode). 
+In HIZ state, the quiescent current drawn from VBUS is very 
+small (less than IVBUS_HIZ). System is only powered by the 
+battery in HIZ mode. 
+ 
+ 
+ 
+ 
+Table 1. Non-Standard Adapter Type Detection 
+Non-Standard Adapter 
+D+ Threshold 
+D- Threshold 
+Input Current Limit (A) 
+Divider 1 
+VD+ within V2P7 
+VD- within V2P0 
+2.1 
+Divider 2 
+VD+ within V1P2 
+VD- within V1P2 
+2 
+Divider 3 
+VD+ within V2P0 
+VD- within V2P7 
+1 
+Divider 4 
+VD+ within V2P7 
+VD- within V2P7 
+2.4 
+ 
+Table 2. Input Current Limit Setting from D+/D- Detection 
+D+/D- Detection 
+Input Current Limit (IINLIM) 
+USB SDP (USB500) 
+500mA 
+USB DCP 
+2.4A 
+Divider 1 
+2.1A 
+Divider 2 
+2A 
+Divider 3 
+1A 
+Divider 4 
+2.4A 
+Unknown 5V Adapter 
+500mA 
+ 
+ 
+ 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+19 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Setting of the Input Voltage Limit Threshold (VINDPM 
+Threshold) 
+A wide voltage range (3.9V to 5.4V) is supported for the input 
+voltage limit setting in VINDPM[3:0]. 4.5V is the default for 
+USB. 
+The device supports dynamic tracking of the battery voltage 
+(VINDPM). VDPM_BAT_TRACK[1:0] bits can be used to 
+enable  tracking (00 to disable tracking) and set the tracking 
+offset value. When the tracking is enabled, the input voltage 
+limit will be set to the larger value between the VINDPM[3:0] and 
+VBAT + VDPM_BAT_TRACK[1:0]. The VDPM_BAT_TRACK[1:0] 
+tracking offset can be set to 200mV, 250mV or 300mV. 
+ 
+DC/DC Converter Power-Up 
+The 1.5MHz switching converter composed of LSFET and 
+HSFET is enabled and can start switching when the input 
+current limit is set. Converter is initiated with a soft start when 
+the system voltage is ramped up. The input current is limited 
+to 200mA or IINDPM[4:0], whichever is smaller, if SYS 
+voltage is less than 2.2V, otherwise the limit is set to 
+IINDPM[4:0]. 
+The BATFET remains on to charge the battery if the battery 
+charging function is enabled, otherwise BATFET turns off. 
+When converter operates for battery charging, it acts as an 
+efficient, fixed frequency synchronous Buck converter 
+regardless of the input/output voltages and currents. However, 
+it is capable to switch to PFM mode at light load when 
+charging is disabled or when the detected battery voltage is 
+less than minimum system voltage setting. PFM operation 
+can be enabled or prevented in either Buck or Boost mode 
+using the PFM_DIS bit. 
+ 
+Boost Mode 
+The SGM41512A supports USB On-The-Go. When a load 
+device is connected to the USB port, the converter can 
+operate as a step-up synchronous converter (Boost mode) 
+with 1.5MHz switching frequency to supply power from the 
+battery to that load. The 500mA USB OTG output current limit 
+requirement is achieved by programming, however the Boost 
+converter can deliver 1.2A to the output (default limit). 
+Converter will be set to Boost mode if at least 30ms is passed 
+from enabling this mode (OTG_CONFIG bit = 1) and the 
+following conditions are satisfied: 
+1. VBAT > VBATLOW_OTG. 
+2. VVBUS < VBAT + VSLEEP (in sleep mode). 
+3. Acceptable voltage range at TS pin (VBHOT < VTS < VBCOLD). 
+The output voltage is set to VVBUS = 5.15V and is maintained 
+as long as VBAT is above VBATLOW_OTG. The output current can 
+reach up to the programmed value by BOOST_LIM bit (0.5A 
+or 1.2A). The VBUS_STAT[2:0] status register bits are set to 
+111 in Boost mode (OTG). 
+To minimize the output overshoot in Boost mode, the device 
+starts with PFM first and then switches to PWM. As stated 
+before, PFM can be avoided by using PFM_DIS bit in Buck 
+and Boost modes. 
+ 
+Host Mode and Default Mode Operation 
+with Watchdog Timer 
+After a power-on reset, (POR), the SGM41512A starts in 
+default mode (standalone) with all registers reset as if the 
+watchdog timer is expired. When the host is in sleep mode or 
+there is no host, the device stays in the default mode in which 
+the SGM41512A operates like an autonomous charger. The 
+battery is charged for 10 hours (default value for the fast 
+charging safety timer). Then the charge stops while Buck 
+converter continues to operate to power the system load. In 
+this mode WATCHDOG_FAULT bit is high. 
+Most of the flexibility features of the SGM41512A become 
+available in the host mode when the device is controlled by a 
+host with I2C. By setting the WD_RST bit to 1, the charger 
+mode changes from default mode to host mode. In this mode 
+the WATCHDOG_FAULT bit is low and all device parameters 
+can be programmed by the host. To prevent device watchdog 
+reset that results in going back to default mode, the host must 
+disable the watchdog timer by setting WATCHDOG[1:0] = 00, or 
+it must consistently reset the watchdog timer before expiry by 
+writing 1 to WD_RST to prevent WATCHDOG_FAULT bit to be 
+set. Every time a 1 is written to the WD_RST, the watchdog 
+timer will restart counting. Therefore, it should be reset again 
+before overflow (expiry) to keep the device in the host mode. 
+If the watchdog timer expires (WATCHDOG_FAULT bit = 1), the 
+device returns to default mode and all registers are reset to 
+their default values except for IINDPM[4:0], VINDPM[3:0], 
+BATFET_RST_EN, BATFET_DLY and BATFET_DIS bits that 
+keep their values unchanged. 
+ 
+POR 
+Watchdog Timer Expired
+Reset Registers
+I2C Interface Enabled
+I2C Write?
+Default Mode
+Reset Watchdog Timer
+Reset Selective Registers
+WD_RST Bit = 1?
+Host Mode
+Host Programs Registers
+Watchdog Timer 
+Expired?
+I2C Write?
+Y
+N
+N
+Y
+Y
+N
+N
+Y
+Start
+Watchdog Timer
+ 
+Figure 3. Watchdog Timer Flow Chart 
+ 
+ 
+ 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+20 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued)
+Battery Charging Management 
+The SGM41512A is designed for charging single-cell Li-Ion or 
+Li-poly batteries with a charge current up to 3A (MAX). The 
+battery connection switch (BATFET) is in the charge or 
+discharge current path features low on-resistance (28mΩ) to 
+allow high efficiency and low voltage drop. 
+ 
+Charging Cycle in Autonomous Mode 
+Charging is enabled if CHG_CONFIG = 1 and nCE pin is 
+pulled low. In default mode, the SGM41512A runs a charge 
+cycle with the default parameters itemized in Table 3. At any 
+moment, the host can be controlled by changing to host 
+mode. 
+ 
+Table 3. Charging Parameter Default Setting 
+Default Mode 
+SGM41512A 
+Charging Voltage (VREG) 
+4.20V 
+Charging Current (ICHG) 
+2.04A 
+Pre-Charge Current (IPRECHG) 
+180mA 
+Termination Current (ITERM) 
+180mA 
+Temperature Profile 
+JEITA 
+Safety Timer 
+10h 
+ 
+Start a New Charging Cycle 
+If the converter can start switching and all the following 
+conditions are satisfied a new charge cycle starts: 
+• NTC temperature fault is not asserted (TS pin). 
+• Safety timer fault is not asserted. 
+• BATFET is not forced off. (BATFET_DIS bit = 0). 
+• Charging enabled (3 conditions: CHG_CONFIG bit = 1, 
+ICHG[5:0] register is not 0mA and nCE pin is low). 
+• Battery voltage is below the programmed full charge level 
+(VREG). 
+A new charge cycle starts automatically if battery voltage falls 
+below the recharge threshold level (VREG - 100mV or VREG - 
+200mV configured by VRECHG bit). Also, if the charge cycle 
+is completed, a new charging cycle can be initiated by 
+toggling of the nCE pin or CHG_CONFIG bit. 
+Normally a charge cycle terminates when the charge voltage 
+is above the recharge threshold level and the charging 
+current falls below the termination threshold if the device is 
+not in thermal regulation or Dynamic Power Management 
+(DPM) mode. 
+ 
+Charge Status Report 
+STAT is an open-drain output pin that reports the status of 
+charge and can drive an LED for indication: a low indicates 
+charging is in progress, a high shows charging is completed 
+or disabled and alternating low/high (blinking) show a 
+charging fault. The STAT may be disabled (keep the open 
+drain switch off) by setting EN_ICHG_MON[1:0] = 11. 
+The CHRG_STAT[1:0] status register reports the present 
+charging phase and status by two bits: 00 = charging disabled, 
+01 = in pre-charge, 10 = in fast charging (constant current mode 
+or constant voltage mode) and 11 = charging completed. 
+A negative pulse is sent on nINT pin to inform the host when a 
+charging cycle is completed. 
+ 
+Battery Charging Profile 
+The SGM41512A features a full battery charging profile with 
+five phases. In the beginning of the cycle, the battery voltage 
+(VBAT) is tested, and appropriate current and voltage 
+regulation levels are selected as shown in Table 4. 
+Depending on the detected status of the battery, the proper 
+phase is selected to start or for continuation of the charging 
+cycle. The phases are trickle charge (VBAT < 2.2V), 
+pre-charge, fast-charge (constant current and constant 
+voltage) and optional top-off trickle charge. 
+ 
+Table 4. Charging Current Setting Based on VBAT 
+VBAT 
+Voltage 
+Selected 
+Charging 
+Current 
+Default Value  
+in the Register 
+CHRG_STAT[1:0] 
+< 2.2V 
+ISHORT 
+60mA 
+01 
+2.2V to 3V 
+IPRECHG 
+180mA 
+01 
+> 3V 
+ICHG 
+2.048A 
+10 
+ 
+Note that in the DPM or thermal regulation modes, normal 
+charging functions are temporarily modified: The charge 
+current will be less than the value in the register; termination 
+is disabled, and the charging safety timer is slowed down by 
+counting at half clock rate. 
+ 
+ 
+ 
+ 
+ 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+21 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+ 
+Figure 4. Battery Charging Profile 
+ 
+Charge Termination 
+A charge cycle is terminated when the battery voltage is 
+higher than the recharge threshold and the charge current 
+falls below the programmed termination current. Unless there 
+is a high power demand for system and it needs to operate in 
+supplement mode, the BATFET turns off at the end of the 
+charge cycle. Even after termination, the Buck converter 
+operates continuously to supply the system. 
+CHRG_STAT[1:0] bits are set to 11 and a negative pulse is 
+sent to nINT pint after termination. 
+If the charger is regulating input current or input voltage or 
+junction temperature instead of charge current, termination 
+will be temporarily prevented. EN_TERM bit is a termination 
+control bit and can be set to 0 to disable termination before it 
+happens. 
+At low termination currents (60mA TYP), the offset in the 
+internal comparator may give rise to a higher (+10mA to 
++20mA) actual termination current. A delay in termination can 
+be added (optional) as a compensation for comparator offset 
+using a programmable top-off timer. During the delay, 
+constant voltage charge phase continues and gives the falling 
+charge current the chance to drop closer to the programmed 
+value. The top-off delay timer has the same restrictions of the 
+safety timer. As an example, if under some conditions the 
+safety timer is suspended, the top-off timer will also be 
+suspended or if the safety timer is slowed down, the 
+termination timer will also be slowed down. The TOPOFF_ 
+ACTIVE bit reports the active/not active status of the top-off 
+timer. The CHRG_STAT[1:0] and TOPOFF_ACTIVE bits can 
+be read to find status of the termination. 
+Any of the following events resets the top-off timer:  
+1. Disable to enable transition of nCE (charge enable). 
+2. A low to high change in the status of termination. 
+3. Set REG_RST bit to 1. 
+The setting of the top-off timer is applied at the time of 
+termination detection and unless a new charge cycle is 
+started, modifying the top-off timer parameters after 
+termination has no effect. A negative pulse is sent to nINT 
+when top-off timer is started or ended. 
+ 
+Temperature Qualification 
+The charging current and voltage of the battery must be 
+limited when battery is cold or hot. A thermistor input for 
+battery temperature monitoring is included in the device that 
+can protect the battery based on JEITA guidelines. There is 
+no battery temperature protection when battery is discharging 
+to the system (either boosting or not charging). 
+ 
+ 
+Charge Current
+Battery Voltage
+Regulation Voltage
+VREG[4:0]
+Charge Current
+ICHG[5:0]
+VBATLOW (3V)
+VSHORTZ (2.22V)
+IPRECHG[3:0]
+ITERM[3:0]
+ISHORT 
+Trickle Charge
+Pre-charge
+Fast Charge and Voltage Regulation
+Safety Timer 
+Expiration
+Top-Off Timer 
+(Optional)
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+22 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Compliance with JEITA Guideline 
+JEITA guideline (April 20, 2007 release) is implemented in the 
+device for safe charging of the Li-Ion battery. JEITA highlights 
+the considerations and limits that should to be considered for 
+charging at cold or hot battery temperatures. High charge 
+current and voltage must be avoided outside normal 
+operating temperatures (typically 0 ℃ and 60 ℃). This 
+functionality 
+can 
+be 
+disabled 
+if 
+not 
+needed. 
+Four 
+temperatures levels are defined by JEITA from T1 (minimum) 
+to T4 (maximum). Outside this range charging should be 
+stopped. The corresponding voltages sensed by NTC are 
+named VT1 to VT4. Due to the sensor negative resistance, a 
+higher temperature results in a lower voltage on TS pin. The 
+battery cool range is between T1 - T2 and the warm range is 
+between T3 - T4. Charge must be limited in the cool and 
+warm ranges. 
+One of the conditions for starting a charge cycle is having the 
+TS voltage within VT1 to VT4 window limits. If during the 
+charge, battery gets too cold or too hot and TS voltage 
+exceeds the T1 - T4 limits, charging is suspended (zero 
+charge current) and the controller waits for the battery 
+temperature to come back within the T1 to T4 window. 
+JEITA recommends reducing charge current to 1/2 of fast 
+charging current or lower at cool temperatures (T1 - T2). For 
+warmer temperature (within T3 - T4 range), charge voltage is 
+recommended to be kept below 4.1V. 
+The SGM41512A exceeds the JEITA requirement by its 
+flexible charge parameter settings. At warm temperature 
+range (T3 - T4), the charge voltage is set to VREG or 4.1V 
+using the JEITA_VSET bit. At cool temperatures (T1 - T2), 
+the current setting can be reduced down to 50% or 20% of 
+fast charging current selectable by the JEITA_ISET bit. 
+ 
+BAT
+SGM41512A
+TS
+Li-Ion 
+Cell
+10µF
+4.7µF
+RT1
+NTC
+10kΩ@25℃ 
+REGN
+RT2
+ 
+Figure 5. Battery Thermistor Connection and Bias 
+Network 
+ 
+A 103AT-2 type thermistor is recommended to use for the 
+SGM41512A. Other thermistors may be used and bias 
+network (see Figure 5) can be calculated based on the 
+following equations: 
+ 
+
+
+×
+×
+×
+−
+
+
+
+
+=
+
+
+
+
+×
+−
+−
+×
+−
+
+
+
+
+
+
+
+
+REGN
+THCOLD
+THHOT
+T1
+T4
+T2
+REGN
+REGN
+THHOT
+THCOLD
+T4
+T1
+1
+1
+V
+R
+R
+V
+V
+R
+V
+V
+R
+1
+R
+1
+V
+V
+ 
+(1) 
+ 
+
+
+
+−
+
+
+
+
+
+
+
+
+
+
+=
+
+
+
++ 
+
+
+
+
+
+
+
+REGN
+T1
+T1
+T2
+THCOLD
+V
+1
+V
+R
+1
+1
+R
+R
+ 
+(2) 
+where, VT1, VT4 and VREGN are characteristics of the device 
+and RTHCOLD and RTHHOT are thermistor resistances (RTH) at 
+desired T1 (Cold) and T4 (Hot) temperatures. Select TCOLD = 
+0℃ and THOT = 60℃ for Li-Ion or Li-polymer batteries. For a 
+103AT-2 type thermistor RTHCOLD = 27.28kΩ and RTHHOT = 
+3.02kΩ that results in: RT1 = 5.23kΩ and RT2 = 30.1kΩ. 
+ 
+Boost Mode Temperature Monitoring (Battery Discharge) 
+The device is capable to monitor the battery temperature for 
+safety during the Boost mode. The temperature must remain 
+within the VBCOLD to VBHOT thresholds otherwise the Boost 
+mode will be suspended and VBUS_STAT[2:0] bits are set to 
+000. Moreover, NTC_FAULT[2:0] bits are updated to report 
+Boost mode cold or hot condition. Once the temperature 
+returns within the right window, the Boost mode is resumed 
+and NTC_FAULT[2:0] bits are cleared to 000 (normal). 
+ 
+ 
+ 
+ 
+Figure 6. TS Pin Thermistor Temperature Window 
+Settings in Boost Mode 
+ 
+ 
+ 
+VREGN
+VBCOLD
+(-20℃)
+VBHOT
+(60℃)
+AGND
+Boost Disabled
+Boost Enabled
+Boost Disabled
+VTS
+Temperature Increasing 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+23 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Safety Timer 
+Abnormal battery conditions may result in prolonged charge 
+cycles. An internal safety timer is considered to stop charging 
+in 
+such 
+conditions. 
+If 
+the 
+safety 
+time 
+is 
+expired, 
+CHRG_FAULT[1:0] bits are set to 11 and a negative pulse is 
+sent to nINT pin. By default the charge time limit is 2 hours if 
+the battery voltage does not rise above VBATLOW threshold and 
+10 hours if it goes above VBATLOW. This feature is optional and 
+can be disabled by clearing EN_TIMER bit. The 10 hours limit 
+can also be reduced to 5 hours by clearing CHG_TIMER bit. 
+The safety timer counts at half clock rate when charger is 
+running under input voltage regulation, input current 
+regulation, JEITA cool or thermal regulation because in these 
+conditions, the actual charge current is likely to be less than 
+the register setting. As an example, if the safety timer is set to 
+5 hours and the charger is regulating the input current 
+(IINDPM_STAT bit = 1) in the whole charging cycle, the 
+actual safety time will be 10 hours. Clearing the TMR2X_EN 
+bit will disable the half clock rate feature. 
+The safety timer is paused if a fault occurs and charging is 
+suspended. It will resume once the fault condition is removed. 
+If charging cycle is stopped by a restart or by toggling nCE pin 
+or CHG_CONFIG bit, the timer resets and restarts a new 
+timing. 
+ 
+Narrow Voltage DC (NVDC) Design in SGM41512A 
+The SGM41512A features an NVDC design using the 
+BATFET that connects the system and battery. By using the 
+linear region of the BATFET, the charger regulates the 
+system bus voltage (SYS pin) above the minimum setting 
+using Buck converter even if the battery voltage is very low. 
+MOSFET linear mode allows for the large voltage difference 
+between SYS and BAT pins to appear as VDS across the 
+switch while conducting and charging battery. SYS_MIN[2:0] 
+register sets the minimum system voltage (default 3.5V). If 
+the system is in minimum system voltage regulation, 
+VSYS_STAT bit is set. 
+The BATFET operates in linear region when the battery 
+voltage is lower than the minimum system voltage. The 
+system voltage is regulated to 180mV (TYP) above the 
+minimum system voltage setting. The battery gradually gets 
+charged and its voltage rises above the minimum system 
+voltage and lets BATFET to change from linear mode to fully 
+turned-on switch such that the voltage difference between the 
+system and battery is the small VDS of fully on BATFET. 
+The system voltage is always regulated to 50mV (TYP) above 
+the battery voltage if: 
+1. The charging is terminated. 
+2. Charging is disabled and the battery voltage is above the 
+minimum system voltage setting. 
+ 
+ 
+Figure 7. System Voltage vs. Battery Voltage 
+ 
+SGM41512A Dynamic Power Management (DPM) 
+The SGM41512A features a dynamic power management 
+(DPM). To implement DPM the device always monitors, the 
+input current and voltage to regulate power demand from the 
+source and avoid input adapter overloading or to meet the 
+maximum current limits specified in the USB specs. 
+Overloading an input power source may results in either the 
+voltage tending to fall below the input voltage limit (VINDPM) or 
+the current trying to exceed the input current limit (IINDPM). 
+With DPM, the device keeps the VSYS regulated to its 
+minimum setting by reducing the battery charge current 
+adequately such that the input parameter (voltage or current) 
+does not exceed the limit. In other words, charge current is 
+reduces to satisfy IIN ≤ IINDPM or VIN ≥ VINDPM whichever occurs 
+first. DPM can be either an IIN type (IINDPM) or VIN type 
+(VINDPM) depending on which limit is reached. 
+Changing to the supplement mode may be required if the 
+charge current is decreased and reached to zero while the 
+input is still overloaded. In this case, the charger reduces the 
+system voltage below the battery voltage to allow operation in 
+the supplement mode and provide a portion of system power 
+demand from the battery through the BATFET. 
+The IINDPM_STAT or VINDPM_STAT status bits are set 
+during an IINDPM or VINDPM respectively. Figure 8 
+summarizes the DPM behavior (IINDPM type) for a design 
+example with a 9V/1.2A adapter, 3.2V battery, 2.8A charge 
+current setting and 3.4V minimum system voltage setting. 
+ 
+ 
+3.1
+3.3
+3.5
+3.7
+3.9
+4.1
+4.3
+4.5
+2.7
+2.9
+3.1
+3.3
+3.5
+3.7
+3.9
+4.1
+4.3
+System Voltage (V) 
+Battery Voltage (V) 
+Charge Enabled 
+Charge Disabled 
+Minimum System Voltage 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+24 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+VBUS
+VSYS
+VBAT
+ICHG
+IIN
+ISYS
+DPM
+DPM
+Supplement
+-0.6A
+0.5A
+1.0A
+1.2A
+2.8A
+3.2A
+4A
+Current
+3.18V
+3.2V
+3.4V
+3.6V
+Voltage
+9V
+ 
+ 
+Figure 8. DPM Behavior Plot 
+ 
+Battery Supplement Mode 
+If the system voltage drops below the battery voltage, the 
+BATFET gradually starts to turn on. The threshold margin is 
+180mV if VSYS_MIN setting is less than VBAT and 45mV if 
+VSYS_MIN setting is larger than VBAT. At low discharge currents, 
+the BATFET gate voltage is regulated (RDS modulation) such 
+that the BATFET VDS stays at 30mV. At higher currents, the 
+BATFET will turn fully on (reaching its lowest RDSON). From 
+this point, increasing the discharge current will linearly 
+increase the BATFET VDS (determined by RDSON × ID). Using 
+the MOSFET linear mode at lower currents prevents swinging 
+oscillation of entering and exiting the supplement mode. 
+BATFET gate regulation V-I characteristics is shown in Figure 
+9. If the battery voltage falls below its minimum depletion, the 
+BATFET turns off and exits supplement mode. 
+ 
+Figure 9. BATFET Gate Regulation V-I Curve 
+BATFET Control for System Power Reset 
+and Ship Mode 
+Ship Mode (BATFET Disable) 
+Ship mode is usually used when the system is stored or in 
+idle state for a long time or is in shipping. In such conditions, it 
+is better to completely disconnect battery and make system 
+voltage zero to minimize the leakage and extend the battery 
+life. To enter ship mode, the BATFET has to be forced off by 
+setting BATFET_DIS bit. The BATFET turns off immediately if 
+BATFET_DLY bit is 0, or turns off after a tSM_DLY delay (12.5 
+seconds) if BATFET_DLY is set. 
+ 
+Exit Ship Mode (BATFET Enable) 
+To exit the ship mode and enable the BATFET one of the 
+following can be applied: 
+With no input power (no operating VBUS): 
+1. Connect the adapter to the input with a valid voltage to the 
+VBUS input. 
+2. Pull nQON pin from logic high to low to enable BATFET for 
+example by shorting nQON to GND. The negative pulse width 
+should be at least a tSHIPMODE (1s TYP) for deglitching. 
+With the chip already powered by VBUS: 
+3. Clear BATFET_DIS bit using host and I2C. 
+4. Set REG_RST bit to 1 to reset all registers. 
+5. Apply a negative pulse to nQON pin (same as 2). 
+ 
+Full System Reset with BATFET Using nQON 
+When the input source is not present, the BATFET can act as 
+a load on/off switch between the system and battery. This 
+feature can be used to apply a power-on reset to the system. 
+Host can toggle BATFET_DIS bit to cycle power off/on and 
+reset the system. A push-button connected to nQON pin or a 
+negative pulse can also be used to manually force a system 
+power cycle when BATFET is ON (BATFET_DIS bit = 0). For 
+this function, a negative logic pulse with a minimum width of 
+tQON_RST (10s TYP) must be applied to the nQON pin that 
+results in a temporary BATFET turn off for tBATFET_RST (250ms 
+TYP) that automatically turns on afterward. This functionality 
+can be disabled by setting BATFET_RST_EN bit to 0. 
+ 
+ 
+ 
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+4.0
+4.5
+0
+20
+40
+60
+80
+100 120 140 160 180
+Current (A) 
+VBAT-SYS (mV) 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+25 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+In summary the nQON pin controls BATFET and system reset 
+in two different ways: 
+1. Enable BATFET: Applying an nQON logic high to low 
+transition with longer than tSHIPMODE deglitch time (negative 
+pulse) turns on BATFET to exit ship mode (Figure 10 left). HIZ 
+is also enabled (EN_HIZ = 1) when exiting shipping mode. 
+After exiting shipping mode, the host can disable HIZ (EN_HIZ 
+= 0). OTG cannot be enabled (OTG_CONFIG = 1) until HIZ is 
+disabled. 
+2. Reset BATFET: By applying a logic low for a duration of at 
+least tQON_RST to nQON pin while VBUS is not powered and 
+BATFET is allowed to turn on (BATFET_DIS bit = 0), the 
+BATFET turns off for tBATFET_RST and then it is re-enabled 
+resulting in a system power-on reset. This function can be 
+disabled by clearing BATFET_RST_EN bit (Figure 10 right). 
+A typical push button circuit for nQON is given in Figure 11. 
+ 
+ 
+ 
+Figure 10. nQON Enable and Reset BATFET Timing 
+ 
+ 
+Figure 11. nQON Push Button Circuit 
+ 
+Status Outputs Pins (STAT and nINT) 
+Power Good Indication (PG_STAT Bit) 
+When a good input source is connected to VBUS and input 
+type is detected, the PG_STAT status bit goes high. A good 
+input source is detected if all following conditions on VVBUS 
+are satisfied and input type detection is completed: 
+• VVBUS is in the operating range: VVBUS_UVLOZ < VVBUS < VVAC_OV. 
+• Device is not in sleep mode: VVBUS > VBAT + VSLEEP. 
+• Input source is not poor: VVBUS > VVBUSMIN (3.5V TYP) when 
+IBAD_SRC (30mA TYP) loading is applied. (Poor source 
+detection.) 
+• Completed input source type detection. 
+ 
+Charge Status (STAT Pin) 
+Charging state is indicated with the open-drain STAT pin as 
+explained in Table 5. This pin is able to drive an LED (see 
+Figure 1). The functionality of the STAT pin is disabled if the 
+EN_ICHG_MON[1:0] bits are set to 11. 
+Table 5. STAT Pin Function 
+Charging State 
+STAT Indicator 
+Charging battery (or recharge) 
+Low (LED ON) 
+Charging completed 
+High (LED OFF) 
+Charging is disabled or in sleep mode 
+High (LED OFF) 
+Charge is suspended due to input over-voltage, 
+TS fault, timer faults or system over-voltage or 
+Boost mode is suspended (TS fault) 
+1Hz Blinking 
+ 
+ 
+Press Push Button
+Press Push Button
+tSHIPMODE
+tQON_RST
+tBATFET_RST
+nQON
+BATFET 
+Status
+BATFET on
+BATFET off
+BATFET off due to I2C 
+or system overload
+Turn on BATFET 
+When BATFET_DIS = 1 or SLEEPZ = 1
+Reset BATFET
+When  BATFET_DIS = 0 and SLEEPZ = 0
+BATFET on
+BATFET (Q4)
+Control
+SYS
+BAT
+nQON
+VPULL-UP
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+26 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+nINT Interrupt Output Pin 
+When a new update occurs in the charger states, a 256μs 
+negative pulse is sent through the nINT pin to interrupt the 
+host. The host may not continuously monitor the charger 
+device and by receiving the interrupt it can react and check 
+the charger situation on time. 
+The following events can generate an interrupt pulse: 
+1. Faults reflected in REG09 register (watchdog, Boost 
+overload, charge faults and battery over-voltage). 
+2. Charging completed. 
+3. D+/D- detection identified a connected source (USB or 
+adapter). 
+4. Input source voltage entered the "input good" range: 
+a) VVBUS exceeded VBAT (not in sleep mode). 
+b) VVBUS came below VVAC_OV. 
+c) VVBUS remained above VVBUSMIN (3.5V TYP) when 
+IBAD_SRC (30mA TYP) load current is applied. 
+5. Input removed or out of the "input good" range. 
+6. A DPM event (VINDPM or IINDPM) occurred (a maskable 
+interrupt). 
+Once a fault happens, the INT pulse is asserted once and the 
+fault bits are updated in REG09. Fault status is not reset in 
+the register until the host reads it. A new fault will not assert a 
+new INT pulse until the host reads REG09 and all the 
+previous faults are cleared. Therefore in order to read the 
+current time faults the host must read REG09 two times 
+consecutively. The first read returns the history of the fault 
+register status (from the time of the last read or reset) and the 
+second one checks the current active faults. As an exception, 
+the NTC_FAULT bit reports the actual real time status of TS 
+pin. 
+REG09 does not support multi-read and multi-write as will be 
+explained later. 
+ 
+SGM41512A Protection Features 
+Monitoring of Voltage and Current 
+During the converter operation, the input and system voltages 
+(VBUS and VSYS) and switch currents are constantly 
+monitored to assure safe operation of the device in both Buck 
+and Boost modes, as will be explained below. 
+ 
+Buck Mode Voltage and Current Monitoring 
+1. Input Over-Voltage (ACOV) 
+Converter switching will stop as soon as VBUS voltage 
+exceeds VVAC_OV over-voltage limit that is programmable by 
+OVP[1:0] in REG06. It is selectable between 5.5V, 6.5V, 
+10.5V and 14V (default) for USB or 5V, 9V or 12V adaptors 
+respectively. 
+Each time VBUS exceeds the OVP limit, an INT pulse is 
+asserted. As long as the over-voltage persists, the 
+CHRG_FAULT[1:0] bits are set to 01 in REG09. Fault will be 
+cleared to 00 if the voltage comes back below limit (and a 
+hysteresis threshold) and host reads the fault register. 
+Charger resumes its normal operation when the voltage 
+comes back below OVP limit. 
+2. System Over-Voltage (SYSOVP) 
+During a system load transient, the device clamps the system 
+voltage to protect the system components from over-voltage. 
+The SYSOVP over-voltage limit threshold is 350mV + 
+VSYS_MIN (programmed minimum system regulation voltage + 
+350mV). Once a SYSOVP occurs, switching stops to clamp 
+any overshoot and a 30mA sink current is applied to SYS to 
+pull the voltage down. 
+ 
+Boost Mode Voltage and Current Monitoring 
+In Boost mode the RBFET (reverse blocking) and LSFET 
+(low-side switch) FET currents and VBUS voltage are 
+monitored for protection. 
+1. Soft-Start on VBUS 
+Boost mode begins with a soft-start to prevent large inrush 
+currents when it is enabled. 
+2. Output Short Protection for VBUS 
+Short circuit protection is provided for VBUS output in Boost 
+mode. To accept different types of load connected to VBUS 
+and OTG adaptation, an accurate constant current regulation 
+control is implemented for Boost mode. In case of a short 
+circuit on VBUS pin, the Q1 turns off and retries 7 times 
+(Hiccup). If short is not removed after retries, the OTG will be 
+disabled by clearing OTG_CONFIG bit. Also, an INT pulse is 
+sent and the BOOST_FAULT bit is set to 1 in REG09. When 
+the host activates the Boost mode again, the BOOST_FAULT 
+bit will be cleared. 
+3. Output Over-Voltage Protection for VBUS 
+In Boost mode, converter stops switching and exits Boost 
+mode (by clearing OTG_CONFIG bit) if VBUS voltage rises 
+above regulation and exceeds the VOTG_OVP over-voltage limit 
+(6.015V TYP). An INT pulse is sent and the BOOST_FAULT 
+bit is set 1. 
+ 
+SGM41512A Thermal Regulation and Shutdown 
+Buck Mode Thermal Protections 
+Internal junction temperature (TJ) is always monitored to 
+avoid overheating. A limit of +120 ℃ is considered for 
+maximum IC surface temperature in Buck mode and if TJ 
+intends to exceed this level, the device reduces the charge 
+current to keep maximum temperature limited to 120°C 
+(thermal regulation mode) and sets the THERM_STAT bit to 1. 
+As expected, the actual charging current is usually lower than 
+programmed value during thermal regulation. Therefore, the 
+safety timer runs at half clock rate and charge termination is 
+disabled during thermal regulation. 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+27 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+If the junction temperature exceeds TSHUT (+150℃), thermal 
+shutdown protection arise in which the converter and 
+BATFET are turned off, CHRG_FAULT[1:0] bits are set to 10 
+in the fault register and an INT pulse is sent.  
+When the device recovers and TJ falls below the hysteresis 
+band of TSHUT_HYS (20℃ under TSHUT), the converter and 
+BATFET resume automatically. 
+ 
+Boost Mode Thermal Protections 
+Similar to Buck mode, TJ is monitored in Boost mode for 
+thermal shutdown protection. If junction temperature exceeds 
+TSHUT (+150℃), BATFET will turn off and the Boost mode will 
+be disabled (OTG_CONFIG bit clears). BATFET will resume If 
+TJ falls below the hysteresis band of TSHUT_HYS (20℃ under 
+TSHUT). The Boost mode can recover again by re-enabling 
+OTG_CONFIG bit by host. 
+ 
+Battery Protections 
+Battery Over-Voltage Protection (BATOVP) 
+The over-voltage limit for the battery is 4% above the battery 
+regulation voltage setting. In case of a BATOVP, charging 
+stops right away, the BAT_FAULT bit is set to 1 and an INT 
+pulse is sent. 
+ 
+Battery Over-Discharge Protection 
+If battery discharges too much and VBAT falls below the 
+depletion level (VBAT_DPL_FALL), the device turns off BATFET to 
+protect battery. This protection is latched and is not recovered 
+until an input source is connected to the VBUS pin. In such 
+condition, the battery will start charging with the small ISHORT 
+current (60mA TYP) first as long as VBAT < VSHORTZ. When 
+battery voltage is increased and VSHORTZ < VBAT < VBATLOW, 
+the charge current will increase to the pre-charge current 
+level programmed in the IPRECHG[3:0] register. 
+ 
+Battery Over-Current Protection for System 
+The BATFET will latch off, if its current limit is exceeded due to 
+a short or large overload on the system (IBAT > IBATOP). To reset 
+this latch off and enable BATFET, the "Exit Ship Mode" 
+procedure must be followed. 
+ 
+I2C Serial Interface and Data Communication 
+Standard I2C interface is used to program SGM41512A 
+parameters and get status reports. I2C is well known 2 wire 
+serial communication interface that can connect one (or more) 
+master device(s) to some slave devices for two-way 
+communication. The bus lines are named serial data (SDA) 
+and serial clock (SCL). The device that initiates a data 
+transfer is a master. A master generates the SCL signal. 
+Slave devices have unique addresses to identify. A master is 
+typically a micro controller or a digital signal processor. 
+The SGM41512A operates as a slave device that address is 
+0x6B (6BH). It has twelve 8-bit registers, numbered from 
+REG00 to REG0B. A register read beyond REG0B (0x0B) 
+returns 0xFF. 
+ 
+Physical Layer 
+The standard I2C interface of SGM41512A supports standard 
+mode and fast mode communication speeds. The frequency 
+of stand mode is up to 100kbits/s, while the fast mode is up to 
+400kbits/s. Bus lines are pulled high by weak current source 
+or pull-up resistors are in logic high state with no clocking 
+when the bus is free. The SDA and SCL pins are open-drain. 
+ 
+I2C Data Communication 
+START and STOP Conditions 
+A transaction is started by taking control of the bus by master 
+if the bus is free. The transaction is terminated by releasing 
+the bus when the data transfer job is done as shown in Figure 
+12. All transactions begin by the master who applies a 
+START condition on the bus lines to take over the bus and 
+exchange data. At the end, the master terminates the 
+transaction by applying one (or more) STOP condition. 
+START condition is defined when SCL is high and a high to 
+low transition on the SDA is generated by master. Similarly, a 
+STOP is defined when SCL is high and SDA goes from low to 
+high. START and STOP are always generated by a master. 
+After a START and before a STOP the bus is considered 
+busy. 
+ 
+ 
+ 
+Figure 12. I2C Bus in START and STOP Conditions 
+ 
+Data Bit Transmission and Validity 
+Data bit (high or low) must remain stable during clock HIGH 
+period. The state of SDA can only change when SCL is LOW. 
+For each data bit transmission, one clock pulse is generated 
+by the master. Bit transfer in I2C is shown in Figure 13. 
+ 
+ 
+Figure 13. I2C Bus Bit Transfer 
+ 
+ 
+SDA
+SCL
+START
+STOP
+S
+P
+SDA
+SCL
+Data Line Stable 
+and Data Valid
+Change of Data 
+Allowed
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+28 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Byte Format 
+Data is transmitted in 8-bit packets (one byte at a time). The 
+number of bytes in one transaction is not limited. In each 
+packet the 8 bits are sent successively with the Most Significant 
+Bit (MSB) first. An acknowledge (or not-acknowledge) bit must 
+come after the 8 data bits. This bit informs the transmitter 
+whether the receiver is ready to proceed for the next byte or 
+not. Figure 14 shows the byte transfer process with I2C 
+interface. 
+ 
+Acknowledge (ACK) and Not Acknowledge (NCK) 
+After 
+transmission 
+of 
+each 
+byte 
+by 
+transmitter 
+an 
+acknowledge bit is replied by the receiver as ninth bit. With 
+the acknowledge bit the receiver informs the transmitter that 
+the byte has been received, and another byte is expected or 
+can be sent (ACK) or it is not expected (NCK = not ACK). 
+Clock (SCL) is always generated by the master, including for 
+the acknowledge clock pulse, no matter who is acting as 
+transmitter or receiver. SDA line is released for receiver 
+control during the acknowledge clock pulse and the receiver 
+can pull the SDA line low as ACK (reply a 0 bit) or let it be 
+high as NCK during the SCL high pulse. After that the master 
+can either STOP (P) to end the transaction or send a new 
+START (S) condition to start a new transfer (called repeated 
+start). For example, when master wants to read a register in 
+slave, one start is needed to send the slave address and 
+register address and then without a stop condition another 
+start is sent by master to initiate the receiving transaction 
+from slave. Master then sends the STOP condition and 
+releases the bus. 
+ 
+Data Direction Bit and Addressing Slaves 
+The first byte sent by master after the START is always the 
+target slave address (7 bits) and an eighth data-direction bit 
+(R/W). R/W bit is 0 for a WRITE transaction and 1 for READ 
+(when master is asking for data). Data direction is the same 
+for all next bytes of the transaction. To reverse it, a new 
+START or repeated START condition must be sent by master 
+(STOP will end the transaction). Usually the second byte is a 
+WRITE sending the register address that is supposed to be 
+accesses in the next byte(s). The data transfer transaction is 
+shown in Figure 15. 
+WRITE: If the master wants to write in the register, the third 
+byte can be written directly as shown in Figure 16 for a single 
+write data transfer. After receiving the ACK, master may issue 
+a STOP condition to end the transaction or send the next 
+register data, which will be written to the next address in a 
+slave as multi-write. A STOP is needed after sending the last 
+data.  
+READ: If the master wants to read a single register (Figure 
+17), it sends a new START condition along with device 
+address with R/W bit = 1. After ACK is received, master reads 
+the SDA line to receive the content of the register. Master 
+replies with NCK to inform slave that no more data is needed 
+(single read) or it can send an ACK to request for sending the 
+next register content (multi-read). This can continue until a 
+NCK is sent by master. A STOP must be sent by master in 
+any case to end the transaction. 
+In the figures, the data blocks with gray background shows 
+the bits sent by master and the white background represent 
+data bits sent by slave. If the register address is not defined, 
+the device replies with NCK and goes back to the I2C slave 
+idle state. 
+ 
+ 
+Figure 14. Byte Transfer Process 
+ 
+ 
+ 
+Figure 15. Data Transfer Transaction 
+ 
+1
+9
+1
+MSB
+9
+SCL
+SDA
+START 
+or Repeated 
+START
+ACK
+ACK
+Acknowledgement 
+signal from receiver
+STOP 
+or Repeated 
+START
+S/Sr
+P/Sr
+Acknowledgement 
+signal from receiver
+1
+9
+1
+9
+SCL
+SDA
+START
+ACK
+ACK
+S
+I2C Slave Address
+R/W
+Data Byte
+1
+9
+ACK
+Data Byte
+STOP
+P
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+29 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+1
+9
+1
+1
+1
+0
+1
+0
+1
+1
+W
+B7
+B6
+B5
+B4
+B3
+B1
+B0
+9
+B2
+SCL
+SDA
+1
+9
+D7
+D6
+D5
+D4
+D3
+D1
+D0
+D2
+SCL
+(Continued)
+SDA
+(Continued)
+START by 
+Master
+ACK by 
+Device
+ACK by 
+Device
+Frame 1 
+Frame 2
+Byte#1  I2C Slave Address Byte
+Byte#2  Register Address Byte
+Frame 3 
+ACK by 
+Device
+STOP by 
+Master
+Byte#3 Data Byte 1 to SGM41512A Register  
+ 
+ 
+Figure 16. A Single Write Transaction 
+ 
+ 
+ 
+Figure 17. A Single Read Transaction 
+ 
+ 
+1
+9
+1
+1
+1
+0
+1
+0
+1
+1
+W
+B7
+B6
+B5
+B4
+B3
+B1
+B0
+9
+B2
+SCL
+SDA
+1
+9
+D7
+D6
+D5
+D4
+D3
+D1
+D0
+D2
+SCL
+(Continued)
+SDA
+(Continued)
+START by 
+Master
+ACK by 
+Device
+ACK by 
+Device
+Frame 1 
+Frame 2
+Byte#1  I2C Slave Address Byte
+Byte#2  Register Address Byte
+Frame 4 
+NCK by 
+Master
+STOP by 
+Master
+Byte#4 Data Byte from Device 
+1
+9
+1
+1
+0
+1
+0
+1
+1
+R
+START by 
+Master
+ACK by 
+Device
+Frame 3 
+Byte#3  I2C Slave Address Byte
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+30 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Data Transactions with Multi-Read or Multi-Write 
+Multi-read and multi-write are supported by SGM41512A for 
+REG00 through REG0B registers, except for REG09 as 
+explained in Figure 18 and Figure 19. REG09 (fault register), 
+is skipped in multi-read/writes. In the multi-write, every new 
+data byte sent by master is written to the next register of the 
+device. A STOP is sent whenever master is done with writing 
+into device registers. 
+In a multi-read transaction, after receiving the first register 
+data (whose address is already written to the slave), the 
+master replies with an ACK to ask the slave for sending the 
+next register data. This can continue as much as it is needed 
+by master. Master sends back an NCK after the last received 
+byte and issues an STOP condition. 
+ 
+1
+9
+1
+1
+1
+0
+1
+0
+1
+1
+W
+9
+SCL
+SDA
+1
+9
+D7
+D6
+D5
+D4
+D3
+D1
+D0
+D2
+SCL
+(Continued)
+SDA
+(Continued)
+START by 
+Master
+ACK by 
+Device
+ACK by 
+Device
+Frame 1 
+Frame 2
+Byte#1  I2C Slave Address Byte
+Byte#2  Register Address Byte
+Frame 3 
+ACK by 
+Device
+Byte#3 Data Byte 1 to SGM41512A Register  
+1
+9
+ACK by 
+Device
+Byte#4 Data Byte 2 to SGM41512A Register  
+Frame 4
+D7
+D6
+D5
+D4
+D3
+D1
+D0
+D2
+1
+9
+D7
+D6
+D5
+D4
+D3
+D1
+D0
+D2
+Frame N 
+ACK by 
+Device
+STOP by 
+Master
+Byte#N Data Byte n to SGM41512A Register  
+SCL
+(Continued)
+SDA
+(Continued)
+B7
+B6
+B5
+B4
+B3
+B1
+B0
+B2
+ 
+ 
+Figure 18. A Multi-Write Transaction 
+ 
+ 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+31 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+ 
+ 
+ 
+Figure 19. A Multi-Read Transaction 
+ 
+ 
+1
+9
+1
+1
+1
+0
+1
+0
+1
+1
+W
+B7
+B6
+B5
+B4
+B3
+B1
+B0
+9
+B2
+SCL
+SDA
+1
+D7
+D6
+D5
+D4
+D3
+D1
+D0
+D2
+SCL
+(Continued)
+SDA
+(Continued)
+START by 
+Master
+ACK by 
+Device
+ACK by 
+Device
+Frame 1 
+Frame 2
+Byte#1  I2C Slave Address Byte
+Byte#2  Register Address Byte
+Frame 4 
+Byte#4 Data Byte 1 from Device 
+1
+9
+1
+1
+0
+1
+0
+1
+1
+R
+START by 
+Master
+ACK by 
+Device
+Frame 3 
+Byte#3  I2C Slave Address Byte
+1
+9
+D7
+D6
+D5
+D4
+D3
+D1
+D0
+D2
+Frame N 
+NCK by 
+Master
+STOP by 
+Master
+Byte#N Data Byte n from Device 
+9
+ACK by 
+Master
+1
+9
+D7
+D6
+D5
+D4
+D3
+D1
+D0
+D2
+Frame 5 
+ACK by 
+Master
+Byte#5 Data Byte 2 from Device 
+SCL
+(Continued)
+SDA
+(Continued)
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+32 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAPS 
+All registers are 8-bit and individual bits are named from D[0] (LSB) to D[7] (MSB). 
+ 
+I2C Slave Address of SGM41512A: 0x6B 
+R/W:  
+Read/Write bit(s) 
+R:   
+Read only bit(s) 
+PORV:  Power-On Reset Value 
+n:   
+Parameter code formed by the bits as an unsigned binary number. 
+ 
+REG00 
+Register address: 0x00; R/W 
+PORV = 00010111 
+ 
+Table 6. REG00 Register Details 
+BITS 
+BIT NAME 
+DESCRIPTION 
+COMMENT 
+PORV 
+TYPE 
+RESET BY 
+D[7] 
+EN_HIZ 
+Enable HIZ Mode 
+0 = Disable (default) 
+1 = Enable 
+In HIZ mode, the VBUS pin is effectively 
+disconnected from internal circuit. Some 
+leakage current may exist. 
+0 
+R/W 
+REG_RST 
+or Watchdog 
+D[6:5] EN_ICHG_MON[1:0] 
+Enable STAT Pin Function 
+00 = Enable (default) 
+01 = Reserved 
+10 = Reserved 
+11 = Disable (float pin) 
+These bits turn on or off the function of the 
+STAT open-drain output pin (charge status 
+indicator). 
+00 
+R/W 
+REG_RST 
+D[4:0] 
+IINDPM[4:0] 
+IINDPM[4] 
+1 = 1600mA 
+Input Current Limit Value (n: 5 bits): 
+= 100 + 100n (mA) 
+ 
+Offset: 100mA 
+Range: 100mA (00000) - 3.2A (11111) 
+Default: 2400mA (10111), not typical 
+ 
+IINDPM changes after an input source 
+detection. 
+ 
+Host can overwrite IINDPM after input 
+source detection is completed. 
+10111 
+R/W 
+REG_RST 
+IINDPM[3] 
+1 = 800mA 
+IINDPM[2] 
+1 = 400mA 
+IINDPM[1] 
+1 = 200mA 
+IINDPM[0] 
+1 = 100mA 
+ 
+ 
+ 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+33 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAPS (continued) 
+REG01 
+Register address: 0x01; R/W 
+PORV = 00011010 
+ 
+Table 7. REG01 Register Details 
+BITS 
+BIT NAME 
+DESCRIPTION 
+COMMENT 
+PORV TYPE 
+RESET BY 
+D[7] 
+PFM_DIS 
+Enable PFM Mode 
+0 = Enable (default) 
+1 = Disable 
+Enable Pulse Frequency Modulation.  
+PFM is normally used to save power at light 
+load by reducing converter switching 
+frequency. 
+0 
+R/W REG_RST 
+D[6] 
+WD_RST 
+I2C Watchdog Timer Reset 
+0 = Normal (default) 
+1 = Reset 
+Watchdog Timer Reset Control Bit.  
+Write 1 to this bit to avoid watchdog expiry. 
+WD_RST resets to 0 after watchdog timer 
+reset (expiry). 
+0 
+R/W REG_RST 
+or Watchdog 
+D[5] 
+OTG_CONFIG 
+Enable OTG 
+0 = OTG disable (default) 
+1 = OTG enable 
+This bit has priority over charge enable in 
+the CHG_CONFIG. 
+0 
+R/W REG_RST 
+or Watchdog 
+D[4] 
+CHG_CONFIG 
+Enable Battery Charging 
+0 = Charge disable 
+1 = Charge enable (default) 
+Charge is enabled when CHG_CONFIG bit 
+is 1 and nCE pin is pulled low. 
+1 
+R/W REG_RST 
+or Watchdog 
+D[3:1] 
+SYS_MIN[2:0] 
+Minimum System Voltage 
+000 = 2.6V 
+001 = 2.8V 
+010 = 3V 
+011 = 3.2V 
+100 = 3.4V 
+101 = 3.5V (default) 
+110 = 3.6V 
+111 = 3.7V 
+Minimum System Voltage Value. 
+ 
+Offset: 2.6V 
+Range: 2.6V (000) - 3.7V (111) 
+Default: 3.5V (101) 
+101 
+R/W REG_RST 
+D[0] 
+MIN_BAT_SEL 
+Minimum Battery Voltage for 
+OTG Mode 
+0 = 2.95V VBAT falling (default) 
+1 = 2.6V VBAT falling 
+Default:  
+VBAT falling, VBATLOW_OTG = 2.95V. 
+VBAT rising, VBATLOW_OTG = 3.15V. 
+0 
+R/W REG_RST 
+ 
+REG02 
+Register address: 0x02; R/W 
+PORV = 10100010 
+ 
+Table 8. REG02 Register Details 
+BITS 
+BIT NAME 
+DESCRIPTION 
+COMMENT 
+PORV TYPE 
+RESET BY 
+D[7] 
+BOOST_LIM 
+Boost Mode Current Limit 
+0 = 0.5A 
+1 = 1.2A (default) 
+The current limit options listed values are the 
+minimum specs. Actual value is typically 
+higher. 
+1 
+R/W REG_RST 
+or Watchdog 
+D[6] 
+Q1_FULLON 
+VBUS FET Switch (Q1) 
+0 = Use higher RDSON if IINDPM  
+< 700mA (for better accuracy) 
+1 = Use lower RDSON always 
+(fully ON for better efficiency) 
+Used to control the on-resistance of Q1 
+(VBUS switch) for better input current 
+measurement accuracy. 
+ 
+In Boost mode, full FET is always used, and 
+this bit has no effect. 
+0 
+R/W REG_RST 
+D[5:0] 
+ICHG[5:0] 
+ICHG[5] 
+1 = 1920mA 
+Fast Charge Current Value (n: 6 bits): 
+= 60n (mA) (n ≤ 50) 
+ 
+Offset: 0mA 
+Range: 0mA (000000) - 3000mA (110010) 
+Default: 2040mA (100010) 
+ 
+Notes: 
+Setting ICHG = 0mA disables charge. 
+Values above 50D = 110010 (3000mA) are 
+clamped to 50D = 110010 (3000mA). 
+1 
+R/W 
+REG_RST 
+or Watchdog 
+ICHG[4] 
+1 = 960mA 
+0 
+R/W 
+ICHG[3] 
+1 = 480mA 
+0 
+R/W 
+ICHG[2] 
+1 = 240mA 
+0 
+R/W 
+ICHG[1] 
+1 = 120mA 
+1 
+R/W 
+ICHG[0] 
+1 = 60mA 
+0 
+R/W 
+ 
+ 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+34 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAPS (continued) 
+REG03 (Pre-Charge and Termination Current Settings) 
+Register address: 0x03; R/W 
+PORV = 00100010 
+ 
+Table 9. REG03 Register Details 
+BITS 
+BIT NAME 
+DESCRIPTION 
+COMMENT 
+PORV 
+TYPE 
+RESET BY 
+D[7:4] 
+IPRECHG[3:0] 
+IPRECHG[3] 
+1 = 480mA 
+Pre-Charge Current Limit (n: 4 bits): 
+= 60 + 60n (mA) (n ≤ 12) 
+ 
+Offset: 60mA 
+Range: 60mA (0000) - 780mA (1100) 
+Default: 180mA (0010) 
+ 
+Note:  
+Values above 12D = 1100 (780mA) are 
+clamped to 12D = 1100 (780mA). 
+0 
+R/W 
+REG_RST 
+or Watchdog 
+IPRECHG[2] 
+1 = 240mA 
+0 
+R/W 
+IPRECHG[1] 
+1 = 120mA 
+1 
+R/W 
+IPRECHG[0] 
+1 = 60mA 
+0 
+R/W 
+D[3:0] 
+ITERM[3:0] 
+ITERM[3] 
+1 = 480mA 
+Termination Current Limit (n: 4 bits): 
+= 60 + 60n (mA) 
+ 
+Offset: 60mA 
+Range: 60mA (0000) - 960mA (1111) 
+Default: 180mA (0010) 
+0 
+R/W 
+REG_RST 
+or Watchdog 
+ITERM[2] 
+1 = 240mA 
+0 
+R/W 
+ITERM[1] 
+1 = 120mA 
+1 
+R/W 
+ITERM[0] 
+1 = 60mA 
+0 
+R/W 
+ 
+ 
+ 
+REG04 
+Register address: 0x04; R/W 
+PORV = 01011000 
+ 
+Table 10. REG04 Register Details 
+BITS 
+BIT NAME 
+DESCRIPTION 
+COMMENT 
+PORV TYPE 
+RESET BY 
+D[7:3] 
+VREG[4:0] 
+VREG[4] 
+1 = 512mV 
+Charge Voltage Limit (n: 5 bits): 
+= 3848 + 32n (mV)  if n ≤ 24, n≠15;  
+= 4.344V           if n = 15 
+Offset: 3.848V 
+Range: 3.848V (00000) - 4.616V (11000) 
+Default: 4.20V (01011) 
+Special Value: 4.344V (01111) 
+ 
+Note:  
+Values above 24D = 11000 (4.616V) are 
+clamped to 24D = 11000 (4.616V). 
+0 
+R/W 
+REG_RST 
+or Watchdog 
+VREG[3] 
+1 = 256mV 
+1 
+R/W 
+VREG[2] 
+1 = 128mV 
+0 
+R/W 
+VREG[1] 
+1 = 64mV 
+1 
+R/W 
+VREG[0] 
+1 = 32mV 
+1 
+R/W 
+D[2:1] TOPOFF_TIMER[1:0] 
+Top-Off Timer 
+00 = Disabled (default) 
+01 = 15 minutes 
+10 = 30 minutes 
+11 = 45 minutes 
+The charge extension time added after the 
+termination condition is detected. 
+ 
+If disabled, charging terminates as soon as 
+termination conditions are met. 
+0 
+R/W 
+REG_RST 
+or Watchdog 
+0 
+R/W 
+D[0] 
+VRECHG 
+Battery Recharge Threshold 
+0 = 100mV below VREG[4:0] 
+(default) 
+1 = 200mV below VREG[4:0] 
+A recharge cycle will start if a fully charged 
+battery voltage drops below VREG - VRECHG 
+settings. 
+0 
+R/W 
+REG_RST 
+or Watchdog 
+ 
+ 
+ 
+ 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+35 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAPS (continued) 
+REG05 
+Register address: 0x05; R/W 
+PORV = 10011111 
+ 
+Table 11. REG05 Register Details 
+BITS 
+BIT NAME 
+DESCRIPTION 
+COMMENT 
+PORV 
+TYPE 
+RESET BY 
+D[7] 
+EN_TERM 
+Charging Termination Enable 
+0 = Disable 
+1 = Enable (default) 
+ 
+1 
+R/W 
+REG_RST 
+or Watchdog 
+D[6] 
+Reserved 
+Reserved 
+Reserved. 
+0 
+R/W 
+REG_RST 
+or Watchdog 
+D[5:4] 
+WATCHDOG[1:0] 
+Watchdog Timer Setting 
+00 = Disable watchdog timer 
+01 = 40s (default) 
+10 = 80s 
+11 = 160s 
+Expiry time of the watchdog timer if it is 
+not reset. 
+01 
+R/W 
+REG_RST 
+or Watchdog 
+D[3] 
+EN_TIMER 
+Charge Safety Timer Enable 
+0 = Disable 
+1 = Enable (default) 
+When enabled the pre-charge and fast 
+charge periods are included in the timing. 
+1 
+R/W 
+REG_RST 
+or Watchdog 
+D[2] 
+CHG_TIMER 
+Charge Safety Timer Setting 
+0 = 5h 
+1 = 10h (default) 
+ 
+1 
+R/W 
+REG_RST 
+or Watchdog 
+D[1] 
+TREG 
+Thermal Regulation Threshold 
+0 = 80℃ 
+1 = 120℃ (default) 
+For Buck mode. 
+1 
+R/W 
+REG_RST 
+or Watchdog 
+D[0] 
+JEITA_ISET 
+(0℃ - 10℃) 
+JEITA Charging Current 
+0 = 50% of ICHG 
+1 = 20% of ICHG (default) 
+ 
+1 
+R/W 
+REG_RST 
+or Watchdog 
+ 
+ 
+ 
+REG06 
+Register address: 0x06; R/W 
+PORV = 11100110 
+ 
+Table 12. REG06 Register Details 
+BITS 
+BIT NAME 
+DESCRIPTION 
+COMMENT 
+PORV TYPE 
+RESET BY 
+D[7:6] 
+OVP[1:0] 
+VAC Pin OVP Threshold 
+00 = 5.5V 
+01 = 6.5V (5V input) 
+10 = 10.5V (9V input) 
+11 = 14V (12V input) (default) 
+OVP Threshold for Input Supply. 
+1 
+R/W 
+REG_RST 
+1 
+R/W 
+D[5:4] 
+BOOSTV[1:0] 
+Boost Mode Voltage Regulation 
+00 = 4.85V 
+01 = 5.00V 
+10 = 5.15V (default) 
+11 = 5.30V 
+ 
+1 
+R/W 
+REG_RST 
+0 
+R/W 
+D[3:0] 
+VINDPM[3:0] 
+VINDPM[3] 
+1 = 800mV 
+VINDPM Threshold (n: 4 bits): 
+= 3.9V + 0.1n (V) 
+ 
+Offset: 3.9V 
+Range: 3.9V (0000) - 5.4V (1111) 
+Default: 4.5V (0110) 
+0 
+R/W 
+REG_RST 
+VINDPM[2] 
+1 = 400mV 
+1 
+R/W 
+VINDPM[1] 
+1 =200mV 
+1 
+R/W 
+VINDPM[0] 
+1 =100mV 
+0 
+R/W 
+ 
+ 
+ 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+36 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAPS (continued) 
+REG07 
+Register address: 0x07; R/W 
+PORV = 01001100 
+ 
+Table 13. REG07 Register Details 
+BITS 
+BIT NAME 
+DESCRIPTION 
+COMMENT 
+PORV TYPE 
+RESET BY 
+D[7] 
+IINDET_EN 
+Input Current Limit Detection 
+0 = Not in input current limit detection 
+(default) 
+1 = Force input current limit detection 
+when VBUS is present 
+Reloads with 0 when input detection 
+is completed. 
+0 
+R/W 
+REG_RST 
+or Watchdog 
+D[6] 
+TMR2X_EN 
+Enable Half Clock Rate Safety Timer 
+0 = Disable 
+1 = Safety timer slow down during 
+DPM, JEITA cool, or thermal 
+regulation (default) 
+Slow down by a factor of 2. 
+1 
+R/W 
+REG_RST 
+or Watchdog 
+D[5] 
+BATFET_DIS 
+Disable BATFET 
+0 = Allow BATFET (Q4) to turn on 
+(default) 
+1 = Turn off BATFET (Q4) after a 
+tSM_DLY delay time (REG07 D[3]) 
+tSM_DLY is typically 12.5 seconds. 
+0 
+R/W 
+REG_RST 
+D[4] 
+JEITA_VSET 
+(45℃ - 60℃) 
+JEITA Charging Voltage 
+0 = Set charge voltage to the lower of 
+4.1V (default) 
+1 = Set charge voltage to VREG 
+ 
+0 
+R/W 
+REG_RST 
+or Watchdog 
+D[3] 
+BATFET_DLY 
+BATFET Turn Off Delay Control 
+0 = Turn off BATFET immediately 
+1 = Turn off BATFET after tSM_DLY 
+(default) 
+BATFET_DIS bit is set. 
+1 
+R/W 
+REG_RST 
+D[2] 
+BATFET_RST_EN 
+Enable BATFET Reset 
+0 = Disable BATFET reset 
+1 = Enable BATFET reset (default) 
+  
+1 
+R/W 
+REG_RST 
+or Watchdog 
+D[1:0] 
+VDPM_BAT_ 
+TRACK[1:0] 
+Dynamic VINDPM Tracking 
+00 = Disable (VINDPM set by register) 
+01 = VBAT + 200mV 
+10 = VBAT + 250mV 
+11 = VBAT + 300mV 
+Set VINDPM to track VBAT voltage. Actual 
+VINDPM is the larger of VINDPM[3:0] and 
+this register value. 
+0 
+R/W 
+REG_RST 
+0 
+R/W 
+ 
+ 
+ 
+ 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+37 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAPS (continued) 
+REG08 (Status Bits, Read Only) 
+Register address: 0x08; R 
+PORV = xxxxxxxx 
+ 
+Table 14. REG08 Register Details 
+BITS 
+BIT NAME 
+DESCRIPTION 
+PORV 
+TYPE 
+RESET BY 
+D[7:5] 
+VBUS_STAT[2:0] 
+VBUS Status Register (SGM41512A) 
+000 = No input 
+001 = USB host SDP 
+010 = USB CDP (1.5A) 
+011 = USB DCP (2.4A) 
+101 = Unknown adapter (500mA) 
+110 = Non-standard adapter (1A/2A/2.1A/2.4A) 
+111 = OTG 
+Other values are reserved. 
+Current limit value is reported in IINDPM[4:0] register. 
+x 
+R 
+NA 
+x 
+R 
+x 
+R 
+D[4:3] 
+CHRG_STAT[1:0] 
+Charging Status 
+00 = Charge disable 
+01 = Pre-charge (VBAT < VBATLOW) 
+10 = Fast charging (constant current or voltage) 
+11 = Charging terminated 
+x 
+R 
+NA 
+x 
+R 
+D[2] 
+PG_STAT 
+Input Power Status (VBUS in good voltage range and not poor) 
+0 = Input power source is not good 
+1 = Input power source is good 
+x 
+R 
+NA 
+D[1] 
+THERM_STAT 
+Thermal Regulation Status 
+0 = Not in thermal regulation 
+1 = In thermal regulation 
+x 
+R 
+NA 
+D[0] 
+VSYS_STAT 
+System Voltage Regulation Status 
+0 = Not in VSYSMIN regulation (VBAT > VSYS_MIN) 
+1 = In VSYSMIN regulation (VBAT < VSYS_MIN) 
+x 
+R 
+NA 
+ 
+ 
+REG09 (Fault Bits, Read Only) 
+Register address: 0x09; R 
+PORV = xxxxxxxx 
+ 
+Table 15. REG09 Register Details 
+BITS 
+BIT NAME 
+DESCRIPTION 
+PORV 
+TYPE 
+RESET BY 
+D[7] 
+WATCHDOG_FAULT 
+Watchdog Fault Status 
+0 = Normal (no fault) 
+1 = Watchdog timer expired 
+x 
+R 
+NA 
+D[6] 
+BOOST_FAULT 
+Boost Mode Fault Status 
+0 = Normal 
+1 = VBUS overloaded in OTG, or VBUS OVP, or battery voltage too low 
+(any condition that prevents Boost starting) 
+x 
+R 
+NA 
+D[5:4] 
+CHRG_FAULT[1:0] 
+Charging Fault Status 
+00 = Normal 
+01 = Input fault (VAC OVP or VBAT < VVBUS < 3.8V) 
+10 = Thermal shutdown 
+11 = Charge safety timer expired 
+x 
+R 
+NA 
+x 
+R 
+D[3] 
+BAT_FAULT 
+Battery Fault Status 
+0 = Normal 
+1 = Battery over-voltage (BATOVP) 
+x 
+R 
+NA 
+D[2:0] 
+NTC_FAULT[2:0] 
+JEITA Condition Based on Battery NTC Temperature Measurement 
+000 = Normal 
+010 = Warm 
+011 = Cool (Buck mode only) 
+101 = Cold 
+110 = Hot 
+NTC fault bits are updated in real time and does not need a read to reset. 
+x 
+R 
+NA 
+x 
+R 
+x 
+R 
+ 
+ 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+38 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAPS (continued) 
+REG0A 
+Register address: 0x0A; R and R/W 
+PORV = xxxxxx00 
+ 
+Table 16. REG0A Register Details 
+BITS 
+BIT NAME 
+DESCRIPTION 
+PORV 
+TYPE 
+RESET BY 
+D[7] 
+VBUS_GD 
+Good Input Source Detected 
+0 = A good VBUS is not attached 
+1 = A good VBUS attached 
+x 
+R 
+NA 
+D[6] 
+VINDPM_STAT 
+Input Voltage Regulation (Dynamic Power Management) 
+0 = Not in VINDPM 
+1 = In VINDPM 
+x 
+R 
+NA 
+D[5] 
+IINDPM_STAT 
+Input Current Regulation (Dynamic Power Management) 
+0 = Not in IINDPM 
+1 = In IINDPM 
+x 
+R 
+NA 
+D[4] 
+Reserved 
+ 
+x 
+R 
+NA 
+D[3] 
+TOPOFF_ACTIVE 
+Active Top-Off Timer Counting Status 
+0 = Top-off timer not counting 
+1 = Top-off timer counting 
+x 
+R 
+NA 
+D[2] 
+ACOV_STAT 
+Input Over-Voltage Status (AC adaptor is the input source) 
+0 = No over-voltage (no ACOV) 
+1 = Over-voltage detected (ACOV) 
+x 
+R 
+NA 
+D[1] 
+VINDPM_INT_MASK 
+VINDPM Event Detection Interrupt Mask 
+0 = Allow VINDPM INT pulse 
+1 = Mask VINDPM INT pulse 
+0 
+R/W 
+REG_RST 
+D[0] 
+IINDPM_INT_MASK 
+IINDPM Event Detection Mask 
+0 = Allow IINDPM to send INT pulse 
+1 = Mask IINDPM INT pulse 
+0 
+R/W 
+REG_RST 
+ 
+ 
+ 
+ 
+REG0B 
+Register address: 0x0B; R and R/W 
+PORV = 00101101 
+ 
+Table 17. REG0B Register Description 
+BITS 
+BIT NAME 
+DESCRIPTION 
+PORV TYPE 
+RESET BY 
+D[7] 
+REG_RST 
+Register Reset 
+0 = No effect (keep current register settings) 
+1 = Reset R/W bits of all registers to the default and reset safety timer 
+(It also resets itself to 0 after register reset is completed.) 
+0 
+R/W 
+REG_RST 
+D[6:3] 
+PN[3:0] 
+Part ID 
+0101 = SGM41512 
+0 
+R 
+NA 
+1 
+R 
+0 
+R 
+1 
+R 
+D[2] 
+SGMPART 
+ 
+1 
+R 
+NA 
+D[1:0] 
+DEV_REV[1:0] 
+00 = SGM41512 
+01 = SGM41512A 
+0 
+R 
+NA 
+1 
+R 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+39 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+The SGM41512A is typically used as a charger with power 
+path management in smart phones, tablets and other portable 
+devices. In a design, it comes along with a host controller (a 
+processor with I2C interface) and a single-cell Li-Ion or 
+Li-polymer battery. 
+ 
+Detailed Design Procedure 
+Inductor Design 
+Small energy storage elements (inductor and capacitor) can 
+be used thanks to the high frequency (1.5MHz) switching 
+converter used in the SGM41512A. Inductor should tolerate 
+currents higher than the maximum charge current (ICHG) plus 
+half the inductor peak to peak ripple current (∆I) without 
+saturation: 
+ 
+∆
+>
++
+SAT
+CHG
+I
+I
+I
+2
+ 
+(3) 
+The inductor ripple current is determined by the input voltage 
+(VVBUS), duty cycle (D = VBAT/VVBUS), switching frequency (fS = 
+1.5MHz) and the inductance (L). In CCM we have: 
+ 
+(
+)
+×
+×
+−
+∆=
+×
+VBUS
+S
+V
+D
+1 D
+I
+f
+L
+ 
+(4) 
+Inductor ripple current is maximum when D ≈ 0.5. If the input 
+voltage range (VVBUS) is limited higher D values can be 
+considered.  
+In a practical designs, inductor peak to peak current ripple is 
+selected in a range between 20% to 40% of the maximum DC 
+current ∆I = (0.2 ~ 0.4) × ICHG for a good trade-off between 
+inductor size and efficiency. Selecting higher ripple allows 
+choosing of smaller inductance. 
+For each application, VVBUS and ICHG are known, so L can be 
+calculated from (4) and current rating of the inductor can be 
+selected from (3). Choose an inductor that has small DCR 
+and core losses at 1.5MHz to have high efficiency and cool 
+operation at full load. 
+ 
+Input Capacitor Design 
+Select low ESR ceramic input capacitor (X7R or X5R) with 
+sufficient voltage and RMS ripple current rating for decoupling 
+of the input switching ripple current (ICIN). The RMS ripple 
+current in the worst case is around the ICHG/2 when D ≈ 0.5. If 
+the converter does not operate at D ≈ 50%, the worst case 
+capacitor RMS current can be estimated from (5) in which D 
+is the closest operating duty cycle to 0.5. 
+ 
+(
+)
+CIN
+CHG
+I
+I
+D
+1 D
+=
+×
+×
+−
+ 
+(5) 
+For SGM41512A place CIN across PMID and GND pins close 
+to the chip. Voltage rating of the capacitor must be at least 25% 
+higher than the normal input voltage to minimize voltage 
+derating. For a 15V input voltage, the preferred rating is 25V 
+or higher. 
+A CIN = 22μF is suggested. 
+ 
+Output Capacitor Design 
+The output capacitance (on the system) must have enough 
+RMS (ripple) current rating to carry the inductor switching 
+ripple and provide enough energy for system transient current 
+demands. ICOUT (COUT RMS current) can be calculated by: 
+ 
+RIPPLE
+COUT
+RIPPLE
+I
+I
+0.29 I
+2
+3
+=
+≈
+×
+×
+ 
+(6) 
+And the output voltage ripple can be calculated by: 
+ 
+
+
+∆
+=
+−
+
+
+
+
+OUT
+OUT
+O
+2
+OUT S
+VBUS
+V
+V
+V
+1
+8LC
+f
+V
+ 
+(7) 
+Increasing L or COUT (the LC filter) can reduce the ripple.  
+The internal loop compensation of the device is optimized for > 
+22μF ceramic output capacitor. 10V, X7R (or X5R) ceramic 
+capacitors are recommended for the output. 
+The design is based on Buck mode operation that has almost 
+2.5 times higher current rating (3A) compared to the Boost 
+mode (1.2A). The design is sufficient for proper Boost 
+operation, because converter is bidirectional and only the 
+direction of currents is reversed. 
+ 
+Input Power Supply Considerations 
+To power the system from the SGM41512A, either an input 
+power source with a voltage between 3.9V to 13.5V and at 
+least 100mA current rating should power VBUS, or a 
+single-cell Li-Ion battery with voltage higher than VBAT_UVLOZ 
+should be connected to BAT pin of the device. The input 
+source must have enough current rating to allow maximum 
+power delivery through charger (Buck converter) to the 
+system. 
+ 
+ 
+ 
+ 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+40 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+Layout Guidelines 
+The switching node (SW) creates very high frequency noises 
+several times higher than fSW (1.5MHz) due to sharp rise and 
+fall of the voltage and current in the switches. To reduce the 
+ringing issues and noise generation designing a proper layout 
+is important to minimize the current path impedance and loop 
+area. A graphical guideline for the current loops and their 
+frequency content is provided in Figure 20. The following 
+considerations can help making a better layout.  
+1. Place the input capacitor between PMID and GND pins as 
+close as possible to the chip with shortest copper connections 
+(avoid vias). Choose the smallest capacitor size. 
+2. Connect one pin of the inductor as close as possible to the 
+SW pin of the device and minimize the copper area 
+connected to the SW node to reduce capacitive coupling from 
+SW area to nearby signal traces. This decreases the noise 
+induced 
+through 
+parasitic 
+stray 
+capacitances 
+and 
+displacement currents to other conductors. SW connection 
+should be wide enough to carry the charging current. Keep 
+other signals and traces away from SW if possible. 
+3. Place output capacitor GND pin as close as possible to the 
+GND pin of the device and the GND pin of input capacitor CIN. 
+It is better to avoid using vias for these connections and keep 
+the high frequency current paths very short and on the same 
+layer. A GND copper layer under the component layer helps 
+reducing noise emissions. Pay attention to the DC current 
+and AC current paths in the layout and keep them short and 
+decoupled as much as possible. 
+4. For analog signals, it is better to use a separate analog 
+ground (AGND) branched only at one point from GND pin. To 
+avoid high current flow through the AGND path, it should be 
+connected to GND only at one point (preferably the GND pin). 
+5. Place decoupling capacitors close to the IC pins with 
+shortest possible copper connections. 
+6. Solder the exposed thermal pad of the package to the PCB 
+ground planes. Ensure that there are enough thermal vias 
+directly under the IC, connecting to the ground plane on the 
+other layers for better heat dissipation and cooling of the 
+device. 
+7. Select proper sizes for the vias and ensure enough copper 
+is available to carry the current for a given current path. Vias 
+usually have some considerable parasitic inductance and 
+resistance. 
+ 
+ 
+ 
+Very High 
+Frequency 
+(Current Path)
+Switching Frequency 
+and  Its Low Order 
+Harmonics 
+(Current Path)
+DC Current 
+(IAC ≈ 0)
+ 
+SW
+CIN
+COUT
+SYS
+SYS
+Load 
+Transient 
+Current Path
+DC Current Path 
+(IAC ≈ 0)
+(Boost Mode
+Direction)
+ 
+ 
+Figure 20. The Paths and Loops Carrying High Frequency, DC Currents and Very High Frequency 
+(for Layout Design Consideration) 
+ 
+ 
+ 
+ 
+ 
+
+I2C Controlled 3A Single-Cell Battery Charger with High Input Voltage 
+SGM41512A 
+Capability and Narrow Voltage DC (NVDC) Power Path Management 
+ 
+ 
+41 
+JUNE 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+JUNE 2022 ‒ REV.A to REV.A.1 
+Page 
+Updated Detailed Description section ...............................................................................................................................................28, 29, 30, 31 
+ 
+Changes from Original (DECEMBER 2020) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00086.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS  
+TQFN-4×4-24L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.700 
+0.800 
+0.028 
+0.031 
+A1 
+0.000 
+0.050 
+0.000 
+0.002 
+A2 
+0.203 REF 
+0.008 REF 
+D 
+3.900 
+4.100 
+0.154 
+0.161 
+D1 
+2.600 
+2.800 
+0.102 
+0.110 
+E 
+3.900 
+4.100 
+0.154 
+0.161 
+E1 
+2.600 
+2.800 
+0.102 
+0.110 
+k 
+0.200 MIN 
+0.008 MIN 
+b 
+0.180 
+0.300 
+0.007 
+0.012 
+e 
+0.500 TYP 
+0.020 TYP 
+L 
+0.300 
+0.500 
+0.012 
+0.020 
+ 
+ 
+ 
+RECOMMENDED LAND PATTERN (Unit: mm)
+N13
+k
+E1
+e
+E
+N24
+N7
+N1
+D
+D1
+L
+b
+A1
+A2
+A
+SIDE VIEW
+BOTTOM VIEW
+TOP VIEW
+0.7
+0.5
+0.24
+2.7
+3.1
+4.5
+2.7
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TQFN-4×4-24L 
+13″ 
+12.4 
+4.30 
+4.30 
+1.10 
+4.0 
+8.0 
+2.0 
+12.0 
+Q2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

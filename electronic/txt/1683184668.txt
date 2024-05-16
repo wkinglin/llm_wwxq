@@ -1,0 +1,1787 @@
+ 
+ 
+SGM3112 
+5V Charge Pump Boost Converter 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+APRIL 2023–REV.A 
+ 
+GENERAL DESCRIPTION 
+The SGM3112 is a switched capacitor converter with 
+low noise output voltage. The SGM3112 is capable of 
+delivering 200mA output current at 5V output from 3.1V 
+to 5.5V input voltage range. The available output 
+current is 125mA when the input voltage reaches 2.7V. 
+In the case of small output current, SGM3112 operates 
+in PFM mode to reduce power loss. The PFM mode 
+can be configured by pulling MODE pin to logic high. In 
+addition, by pulling the OUTDIS pin to logic high, the 
+device will discharge the output voltage when the 
+device is disabled. 
+The SGM3112 is available in a Green TDFN-2×2-8AL 
+package. It offers excellent thermal performance which 
+prevents the device from overheating under rated 
+operating conditions. 
+ 
+FEATURES 
+● Input Voltage Range: 2.7V to 5.5V 
+● 5V Fixed Output Voltage 
+● 200mA Output Current Capability 
+● Inductorless: Only 3 External Components 
+● Input Disconnected from Load during Shutdown 
+● Thermal Shutdown/Short-Circuit Protection 
+● 2.2MHz Switching Frequency in Step-up Mode 
+● Operating in Pulse Frequency Modulation (PFM) 
+Mode at Light Load 
+● Available in a Green TDFN-2×2-8AL Package 
+ 
+APPLICATIONS 
+Multi-Cell AA Battery Applications 
+5V Bias 
+I/O Bias Power 
+ 
+ 
+TYPICAL APPLICATION 
+SGM3112
+5V at up to 200mA
+COUT
+2.2μF
+CFLY
+1μF
+VIN
+2.7V to 5.5V
+CIN
+2.2μF
+VIN
+EN
+MODE
+OUTDIS
+VOUT
+C1+
+C1-
+GND
+7
+5
+1
+4
+6
+3
+2
+8
+ 
+ 
+Figure 1. Typical Application Circuit 
+ 
+ 
+ 
+ 
+
+ 
+SGM3112 
+5V Charge Pump Boost Converter 
+ 
+ 
+2 
+APRIL 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM3112 
+TDFN-2×2-8AL 
+-40℃ to +85℃ 
+SGM3112YTDE8G/TR 
+3112 
+XXXX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XXXX = Date Code, Trace Code and Vendor Code. 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+VIN, VOUT 
+........................................................... -0.3V to 6V 
+EN, OUTDIS, MODE ........... -0.3V to VIN + 0.3V with 6V Max 
+Package Thermal Resistance 
+TDFN-2×2-8AL, θJA 
+.................................................... 58℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+VIN 
+....................................................................... 
+2.7V to 5.5V 
+Operating Ambient Temperature Range 
+........ -40℃ to +85℃ 
+Operating Junction Temperature Range 
+...... -40℃ to +125℃ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+
+ 
+SGM3112 
+5V Charge Pump Boost Converter 
+ 
+ 
+3 
+APRIL 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+  (TOP VIEW) 
+VIN
+MODE
+GND
+VOUT
+EN
+C1+
+OUTDIS
+C1-
+8
+7
+6
+5
+1
+2
+3
+4
+GND
+ 
+  TDFN-2×2-8AL 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+I/O 
+FUNCTION 
+1 
+MODE 
+I 
+PFM Mode Enable Input. This pin enables or disables PFM operation. 
+1 = PFM enabled. 
+0 = PFM disabled (PWM enabled). 
+2 
+C1- 
+P 
+Negative Connection for the Charge Pump Flying Capacitor. 
+3 
+C1+ 
+P 
+Positive Connection for the Charge Pump Flying Capacitor. 
+4 
+OUTDIS 
+I 
+Logic high enables output discharge when EN is disabled, and logic low for high 
+impedance output without output discharge when disabled. 
+5 
+EN 
+I 
+Active High Enable Input. Logic high enables the chip and logic low disables the chip. 
+6 
+VOUT 
+O 
+Output of the Charge Pump Converter. 
+7 
+VIN 
+P 
+Power Supply Input. 
+8 
+GND 
+G 
+Ground. 
+Exposed Pad 
+GND 
+— 
+Exposed Pad. It should be connected to the ground. 
+ 
+ 
+ 
+
+ 
+SGM3112 
+5V Charge Pump Boost Converter 
+ 
+ 
+4 
+APRIL 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VIN = 3.6V, CIN = COUT = 2.2μF, CFLY = 1μF, TA = -40℃ to +85℃, typical values are at TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Output Voltage Regulation 
+VOUT 
+IOUT = 180mA 
+4.85 
+5 
+5.15 
+V 
+Quiescent Current 
+IQ 
+IOUT = 0mA, MODE = 1 
+ 
+60 
+100 
+µA 
+IOUT = 0mA, MODE = 0 
+ 
+5.5 
+ 
+mA 
+Shutdown Current 
+ISD 
+EN = 0 
+ 
+0 
+1 
+µA 
+Output Discharge Current 
+IOUTDIS 
+OUTDIS = 1 
+ 
+540 
+ 
+µA 
+Input Current Limit 
+ICL 
+ 
+ 
+630 
+ 
+mA 
+Input Logic Low: EN, OUTDIS, MODE 
+VIL 
+ 
+0 
+ 
+0.4 
+V 
+Input Logic High: EN, OUTDIS, MODE 
+VIH 
+ 
+1.2 
+ 
+VIN 
+V 
+Under-Voltage Lockout Threshold 
+UVLO 
+VIN rising 
+ 
+2.61 
+2.70 
+V 
+VIN falling 
+ 
+2.40 
+2.53 
+Switching Frequency 
+fSW 
+ 
+1.8 
+2.2 
+2.7 
+MHz 
+Over-Temperature Protection 
+ 
+ 
+ 
++150 
+ 
+℃ 
+Over-Temperature Hysteresis 
+ 
+ 
+ 
+20 
+ 
+℃ 
+ 
+ 
+ 
+
+ 
+SGM3112 
+5V Charge Pump Boost Converter 
+ 
+ 
+5 
+APRIL 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+TA = +25℃, VIN = 3.6V, CIN = COUT = 10μF (10V, 0603 case), CFLY = 1μF (10V, 0402 case), VEN = VIN, unless otherwise noted. 
+ 
+     PWM Line Regulation 
+     PFM Line Regulation 
+ 
+ 
+     PFM Load Regulation 
+     PWM Load Regulation 
+ 
+ 
+     PWM Load Regulation 
+     PFM Quiescent Current vs. Input Voltage 
+ 
+ 
+ 
+ 
+4.5
+4.6
+4.7
+4.8
+4.9
+5.0
+5.1
+5.2
+2.7
+3.1
+3.5
+3.9
+4.3
+4.7
+5.1
+5.5
+Output Voltage (V) 
+Input Voltage (V) 
+           TA = -40℃ 
+           TA = +25℃ 
+           TA = +85℃ 
+ILOAD = 200mA, MODE = 0 
+4.5
+4.6
+4.7
+4.8
+4.9
+5.0
+5.1
+5.2
+2.7
+3.1
+3.5
+3.9
+4.3
+4.7
+5.1
+5.5
+Output Voltage (V) 
+Input Voltage (V) 
+          TJ = -40℃ 
+          TJ = +25℃ 
+          TJ = +85℃ 
+           TA = -40℃ 
+           TA = +25℃ 
+           TA = +85℃ 
+ILOAD = 200mA, MODE = 1 
+4.92
+4.94
+4.96
+4.98
+5.00
+5.02
+5.04
+0.00
+0.04
+0.08
+0.12
+0.16
+0.20
+Output Voltage (V) 
+Load Current (A) 
+           TA = -40℃ 
+           TA = +25℃ 
+           TA = +85℃ 
+VIN = 3.3V, MODE = 1 
+4.92
+4.94
+4.96
+4.98
+5.00
+5.02
+5.04
+0.00
+0.04
+0.08
+0.12
+0.16
+0.20
+Output Voltage (V) 
+Load Current (A) 
+          TA = -40℃ 
+          TA = +25℃ 
+          TA = +85℃ 
+VIN = 3.3V, MODE = 0 
+4.5
+4.6
+4.7
+4.8
+4.9
+5.0
+5.1
+5.2
+0.00
+0.04
+0.08
+0.12
+0.16
+0.20
+Output Voltage (V) 
+Load Current (A) 
+           TA = -40℃ 
+           TA = +25℃ 
+           TA = +85℃ 
+VIN = 2.7V, MODE = 0 
+40
+50
+60
+70
+80
+90
+100
+110
+2.7
+3.1
+3.5
+3.9
+4.3
+4.7
+5.1
+5.5
+Quiscient Current (µA) 
+Input Voltage (V) 
+           TA = -40℃ 
+           TA = +25℃ 
+           TA = +85℃ 
+ILOAD = 0mA, MODE = 1 
+
+ 
+SGM3112 
+5V Charge Pump Boost Converter 
+ 
+ 
+6 
+APRIL 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, VIN = 3.6V, CIN = COUT = 10μF (10V, 0603 case), CFLY = 1μF (10V, 0402 case), VEN = VIN, unless otherwise noted. 
+ 
+     PWM Quiescent Current vs. Input Voltage 
+     Shutdown Current vs. Input Voltage 
+ 
+ 
+     Output Leakage Current vs. Input Voltage 
+     Switching Frequency vs. Input Voltage 
+ 
+ 
+     PWM Effciency vs. Input Voltage 
+     PWM Effciency vs. Load Current 
+ 
+ 
+ 
+ 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+2.7
+3.1
+3.5
+3.9
+4.3
+4.7
+5.1
+5.5
+Quiscient Current (mA) 
+Input Voltage (V) 
+           TA = -40℃ 
+           TA = +25℃ 
+           TA = +85℃ 
+ILOAD = 0mA, MODE = 0 
+-20
+0
+20
+40
+60
+80
+100
+120
+140
+2.7
+3.1
+3.5
+3.9
+4.3
+4.7
+5.1
+5.5
+Shutdown Current (nA) 
+Input Voltage (V) 
+EN = 0 
+           TA = -40℃ 
+           TA = +25℃ 
+           TA = +85℃ 
+0.00
+0.01
+0.02
+0.03
+0.04
+0.05
+0.06
+2.7
+3.1
+3.5
+3.9
+4.3
+4.7
+5.1
+5.5
+Output Leakage Current (µA) 
+Input Voltage (V) 
+           TA = -40℃ 
+           TA = +25℃ 
+           TA = +85℃ 
+EN = 0, OUTDIS = 0 
+2.13
+2.16
+2.19
+2.22
+2.25
+2.28
+2.31
+2.7
+3.1
+3.5
+3.9
+4.3
+4.7
+5.1
+5.5
+Switching Frequency (MHz) 
+Input Voltage (V) 
+           TA = -40℃ 
+           TA = +25℃ 
+           TA = +85℃ 
+EN = 0, OUTDIS = 0 
+40
+50
+60
+70
+80
+90
+100
+2.7
+3.1
+3.5
+3.9
+4.3
+4.7
+5.1
+5.5
+Effciency (%) 
+Input Voltage (V) 
+           TA = -40℃ 
+           TA = +25℃ 
+           TA = +85℃ 
+ILOAD = 100mA, MODE = 0 
+40
+50
+60
+70
+80
+90
+100
+0.00
+0.04
+0.08
+0.12
+0.16
+0.20
+Effciency (%) 
+Load Current (A) 
+           TA = -40℃ 
+           TA = +25℃ 
+           TA = +85℃ 
+VIN = 3.3V, MODE = 0 
+
+ 
+SGM3112 
+5V Charge Pump Boost Converter 
+ 
+ 
+7 
+APRIL 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, VIN = 3.6V, CIN = COUT = 10μF (10V, 0603 case), CFLY = 1μF (10V, 0402 case), VEN = VIN, unless otherwise noted. 
+ 
+     PFM Effciency vs. Load Current 
+ 
+PFM Load Step 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ILOAD 
+ 
+       100mV/div        200mA/div 
+ 
+ 
+ 
+ 
+Time (200µs/div) 
+ 
+ 
+PWM Load Step 
+ 
+ 
+ 
+Output Discharge Disabled 
+ 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ILOAD 
+ 
+        100mV/div        100mA/div 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+VEN 
+ 
+2V/div        1V/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (200µs/div) 
+ 
+ 
+ 
+Time (10ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Output Discharge Enabled 
+ 
+ 
+ 
+Start-up into a Load 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+VEN 
+ 
+         2V/div  1V/div 
+ 
+VIN 
+ 
+ 
+VEN 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+IIN 
+ 
+IOUT 
+ 
+ 
+2V//div 1V/div 2V/div 1A/div 100mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (10ms/div) 
+ 
+ 
+ 
+Time (200µs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+40
+50
+60
+70
+80
+90
+100
+0.00
+0.04
+0.08
+0.12
+0.16
+0.20
+Effciency (%) 
+Load Current (A) 
+          TA = -40℃ 
+          TA = +25℃ 
+          TA = +85℃ 
+          TA = -40℃ 
+          TA = +25℃ 
+          TA = +85℃ 
+VIN = 3.3V, MODE = 1 
+AC Coupled 
+VIN = 3.6V, MODE = 1, ILOAD = 1mA to 200mA 
+VIN = 3.6V, MODE = 0, ILOAD = 1mA to 100mA 
+AC Coupled 
+VIN = 3.6V, OUTDIS = 0 
+VIN = 3.6V, OUTDIS = 1 
+VIN = 3.6V, ILOAD = 100mA 
+
+ 
+SGM3112 
+5V Charge Pump Boost Converter 
+ 
+ 
+8 
+APRIL 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, VIN = 3.6V, CIN = COUT = 10μF (10V, 0603 case), CFLY = 1μF (10V, 0402 case), VEN = VIN, unless otherwise noted. 
+ 
+ 
+OUT Pin Short-Circuit During Steady State 
+ 
+ 
+ 
+OUT Pin Short-Circuit During Steady State 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+IIN 
+ 
+ 
+2V/div         2V/div    500mA/div 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+VEN 
+ 
+IIN 
+ 
+ 
+ 
+   2V/div    2V/div 1V/div  500mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (5ms/div) 
+ 
+ 
+ 
+Time (100µs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Power-up with OUT Pin Short-Circuit to GND 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IIN 
+ 
+ 
+ 
+2V/div       2V/div  500mA/div 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (20µs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN = 5V 
+VIN = 3.6V, VEN = 1.2V 
+VIN = 3.6V 
+
+ 
+SGM3112 
+5V Charge Pump Boost Converter 
+ 
+ 
+9 
+APRIL 2023 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAM 
+OCL
+(Current 
+Limit)
+1.2V
+Reference
+2.2MHz
+Oscillator
++
+_
+C1-
+C1+
+VIN
+MODE
+EN
+S1
+S3
+S2
+S4
+ϕ1
+ϕ2
+ϕ1
+ϕ2
+VOUT
+OUTDIS
+GND
+PFM 
+EN
+ 
+ 
+Figure 2. Functional Block Diagram 
+ 
+ 
+ 
+
+ 
+SGM3112 
+5V Charge Pump Boost Converter 
+ 
+ 
+10 
+APRIL 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION 
+Overview 
+The SGM3112 is a fully integrated switched-cap Boost 
+converter which is capable of providing a stable output 
+voltage from various input sources such as single-cell 
+Li-Ion battery or 2-cell or 3-cell alkaline battery. The 
+output 
+voltage 
+is 
+regulated 
+via 
+a 
+two-phase 
+non-overlapping clock which controls the output of the 
+converter. When the device is enabled, during phase 1 
+(φ1), the flying capacitor is charged to the input voltage 
+through internal switches S1 and S2, and during phase 
+2 (φ2), the flying capacitor is connected between the 
+input and output via internal switches S3 and S4. The 
+charge of the flying capacitor boosts the output voltage 
+on top of the input voltage to supply the load demand of 
+the output. 
+The 50% duty operation of the internal switch-cap 
+boosts the input voltage to twice the input voltage. 
+Output voltage regulation is achieved by modulating the 
+current of the S2 and S3 in each phase connected to 
+the VIN pin. 
+ 
+Input Feed-Forward 
+The internal architecture of the SGM3112 consists of 
+four switches and an external flying capacitor. Output 
+voltage regulation is achieved by controlling the current 
+through the two switches connected to the VIN pin, one 
+switch in each phase which results in that the output 
+regulation is achieved before the voltage doubling, thus 
+achieving VIN feed-forward. This control method 
+effectively removes the undesirable input current ripple 
+that is common on many switched capacitor devices. 
+ 
+Input Current Limit 
+The SGM3112 implements internal current limit to 
+protect the device against over current or output short 
+to ground scenarios. In the case of output short to 
+ground, the input current is limited to 630mA (TYP). 
+During output short condition, higher power dissipation 
+is expected which will cause the device to enter 
+over-temperature cycle. 
+ 
+Pulse Frequency Modulation (PFM) Mode 
+By pulling the MODE pin to logic high, PFM mode is 
+enabled. In PFM mode, power consumption is reduced 
+by varying the switching frequency based on the load, 
+where the switching is initiated when the output voltage 
+drops below 5V. In no load condition, the switching 
+frequency could drop below 1kHz to maintain output 
+voltage regulation. 
+By pulling the MODE pin to logic low, fixed frequency is 
+configured. Power consumption is increased in this 
+setting. However, this setting offers various advantages 
+such as fixed switching frequency and lower output 
+ripple, which are beneficial for noise sensitive 
+applications. 
+ 
+Output Discharge 
+When the device is disabled by pulling the EN pin to 
+logic low, there are two ways to control the output 
+voltage via the OUTDIS pin. Pulling the OUTDIS pin to 
+logic high, the SGM3112 automatically pulls the output 
+to GND for fast discharge, where the output pin sinks 
+540µA (TYP). Pulling the OUTDIS pin to logic low, the 
+SGM3112 does not actively discharge the output, and 
+the output voltage slowly reduces to zero when the EN 
+pin is pulled to logic low, where the output pin 
+consumes only 2.5µA (TYP). 
+ 
+Thermal Shutdown 
+The thermal shutdown circuit is integrated inside the 
+SGM3112 to prevent the device from damaging due to 
+overheating. When the junction temperature is greater 
+than +150℃ (TYP), the chip performs thermal shutdown. 
+The chip restarts when the junction temperature falls 
+below +130℃ (TYP). 
+ 
+Under-Voltage Lockout 
+The SGM3112 implements under-voltage lockout on 
+the VIN pin. The device is enabled when the input 
+voltage is higher than 2.61V (TYP), and stops operation 
+when the input voltage drops below 2.40V (TYP). 
+ 
+Shutdown 
+Pulling the EN pin to logic low or removing VIN will shut 
+down the SGM3112. In the shutdown state, the 
+SGM3112 only consumes 1µA (MAX) shutdown current 
+from the input. 
+ 
+Boost Mode 
+When the input voltage is above the 2.61V (TYP) UVLO 
+rising threshold, and EN pin is logic high, the device 
+operates in Boost mode to regulate the output voltage. 
+According to the configuration of the MODE pin, the 
+SGM3112 works in either PFM mode or fixed frequency 
+mode. 
+ 
+ 
+
+ 
+SGM3112 
+5V Charge Pump Boost Converter 
+ 
+ 
+11 
+APRIL 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+The SGM3112 is designed to deliver 200mA load 
+current at 5V output. The 2.2MHz switching frequency 
+enables the use of small value external components. 
+SGM3112
+5V @ 200mA
+10μF
+1μF
+10μF
+VIN
+MODE
+OUTDIS
+EN
+VOUT
+C1+
+C1-
+GND
+VIN
+3.1V to 5.5V
+VOUT
+ 
+Figure 3. SGM3112 Typical Configuration 
+ 
+Design Requirements 
+Design Parameter 
+Example Value 
+Input Voltage Range 
+2.7V to 5.5V 
+Output Current Range 
+0mA to 200mA 
+ 
+Detailed Design Procedure 
+Output Current Capability 
+The SGM3112 is capable of delivering up to 200mA 
+load current when the input voltage is higher than 3.1V. 
+The maximum output current is 125mA when the input 
+voltage operates from 2.7V to 3.1V. 
+Figure 4 is a simplified drawing of the voltage doubler 
+architecture, which consists of a pre-regulation block, a 
+voltage doubler block, and an equivalent output 
+resistance which is used to estimate the output voltage 
+drop in open loop operation. 
+The equivalent output resistance is approximately 3.8Ω 
+at VIN = 2.7V, which is approximately twice the internal 
+resistance of the four switches. Under normal operation, 
+the device regulates the V’ voltage to ensure the output 
+voltage is 5V ± 3%. Increasing the load current causes 
+the voltage drop on ROUT increases, the SGM3112 
+adjusts the V’ voltage to ensure the output voltage is 
+within 5V regulation. When the voltage drop on ROUT 
+results in zero voltage drop on the regulator, V’ voltage 
+is equal to the input voltage. When this occurs, the 
+SGM3112 is on the edge of out of regulation. As the 
+load current increases further, the output voltage will 
+decrease. Use Equation below to calculate the output 
+voltage in out of regulation state. 
+OUT
+IN
+OUT
+OUT
+V
+2
+V -I
+R
+×
+×
+=
+          (1) 
+VIN
+Reg
+2×
+VOUT
+ROUT
+V’
+2×V’
+ 
+Figure 4. SGM3112 Output Resistance Model 
+Use Equation 2 to calculate the accurate output 
+resistance. 
+OUT
+SW
+CFLY
+COUT
+SW
+FLY
+1
+R
+2 R
+4 ESR
+ESR
+f
+C
+=
+×
++
++
+×
++
+×
+  (2) 
+RSW resistance of 3Ω is the main contributor to the 
+output resistance. The switching frequency and flying 
+capacitor CFLY only contribute 0.5Ω. Increasing the size 
+of the flying capacitor improves the output current 
+capability. However, careful design to balance the 
+needed load current and flying capacitor size is 
+necessary. If the selected output capacitor is ceramic 
+capacitor, the ESR is not significant and can be 
+neglected. 
+ 
+Efficiency 
+Use Equation 3 to calculate the charge pump efficiency. 
+IN
+OUT
+OUT
+OUT
+IN
+IN
+OUT
+IN
+I
+G I
+E
+(V
+I
+)
+(V
+I )
+V
+(G
+V )
+=
+×
+=
+×
+÷
+×
+=
+÷
+×
+   (3) 
+where G is the charge pump gain, and G = 2 for 
+SGM3112. 
+Use Equation 4 to estimate the efficiency with 
+quiescent current taken into account. 
+OUT
+OUT
+OUT
+IN
+IN
+OUT
+Q
+P
+V
+I
+E
+P
+V
+(2 I
+I )
+×
+=
+=
+×
+×
++
+          (4) 
+ 
+Power Dissipation 
+Use Equation 5 to calculate the power loss of 
+SGM3112. 
+D
+IN
+OUT
+IN
+OUT
+Q
+OUT
+OUT
+P
+P -P
+[V
+(2 I
+I )] - [V
+I
+]
+=
+=
+×
+×
++
+×
+   (5) 
+The highest power dissipation occurs at maximum VIN 
+and maximum load current, which is 5.5V/200mA, 
+equivalent of 1.2W loss. Care should be taken when 
+the operating condition is near the worst-case power 
+dissipation where the device might enter thermal 
+protection. 
+ 
+ 
+
+ 
+SGM3112 
+5V Charge Pump Boost Converter 
+ 
+ 
+12 
+APRIL 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+Output Capacitor and Output Voltage Ripple 
+The output capacitor affects the output voltage ripple, 
+while input voltage, load current, and flying capacitance 
+also contribute to the output voltage ripple. Larger 
+output capacitance results in lower output voltage ripple. 
+In φ1 operation, the output capacitor supplies the 
+current to the load. Use Equation below to estimate the 
+output ripple, where the time of discharge is half the 
+switching period. 
+(
+)
+OUT
+RIPPLE PEAK-PEAK
+OUT
+SW
+I
+V
+2 C
+f
+=
+×
+×
+         (6) 
+The two operating phases’ non-overlapping time and 
+output capacitor ESR play significant role to the output 
+voltage ripple. For proper operation, the two operating 
+phases should not overlap. While the overlap occurs, 
+all internal switches are turned off immediately. The 
+SGM3112 has built-in mechanism on the internal clock 
+to prevent the overlap from occurring. During the 
+non-overlapping time, all switches are turned off, thus 
+no energy is delivered to the output, and this period 
+contributes to the output ripple. Use Equation below to 
+calculate the overlap ripple, where the output capacitor 
+discharge time is approximately 60% of the switching 
+period. 
+(
+)
+(
+)
+OUT
+OUT
+COUT
+RIPPLE PEAK-PEAK
+OUT
+SW
+I
+0.6
+V
++ 2 I
+ESR
+C
+f
+
+
+=
+×
+×
+×
+
+
+
+
+ (7) 
+In general, a 10μF ceramic capacitor with 10V rating is 
+recommended for the SGM3112. When PFM mode is 
+enabled, and a small output capacitor is used, the 
+output ripple increases during the transition between 
+PFM mode and fixed frequency mode. DC bias 
+derating should be evaluated when using ceramic 
+capacitor. 
+Ceramic capacitors have small ESR in general. 
+However, electrolytic capacitor or tantalum capacitor 
+has larger ESR which will contribute to higher output 
+ripple. A parallel combination of ceramic capacitor is 
+recommended to reduce the effective ESR. 
+ 
+Input Capacitor and Input Voltage Ripple 
+The input capacitor serves various roles for SGM3112. 
+During the charging phase, the input capacitor helps to 
+speed up the charging of the flying capacitor. In 
+addition, the input capacitor helps to avoid the input 
+voltage drop when the flying capacitor is being charged. 
+Lastly, the input capacitor serves as decoupling to filter 
+out noise on the input line to reduce the input voltage 
+ripple. 
+A 10μF, 10V or higher voltage rated X5R/X7R low ESR 
+ceramic capacitor is recommended for SGM3112. 
+ 
+Flying Capacitor 
+A 1μF, 10V rated X5R/X7R low ESR ceramic capacitor 
+is recommended for SGM3112. Tantalum or electrolytic 
+capacitors must not be used for SGM3112. Since these 
+types of capacitors have polarity requirement, these 
+types of capacitors could become reverse-biased in 
+normal operation. 
+ 
+Layout Guidelines 
+Layout is critical to ensure the proper operation and 
+performance of the SGM3112. It is recommended to 
+place the input, output and flying capacitors as close as 
+possible to the device, and on the same side. Use short 
+and wide traces to connect these capacitors to the IC is 
+also critical to reduce trace parasitic. 
+Use multiple GND vias to connect the GND pin and the 
+PCB ground plane to improve thermal dissipation 
+performance. 
+ 
+ 
+Figure 5. PCB Layout Reference 
+ 
+ 
+ 
+
+ 
+SGM3112 
+5V Charge Pump Boost Converter 
+ 
+ 
+13 
+APRIL 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+Changes from Original (APRIL 2023) to REV.A 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00184.003 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TDFN-2×2-8AL 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.700 
+0.750 
+0.800 
+A1 
+0.000 
+- 
+0.050 
+A2 
+0.203 REF 
+b 
+0.200 
+0.250 
+0.300 
+D 
+1.900 
+2.000 
+2.100 
+D1 
+1.450 
+1.600 
+1.700 
+E 
+1.900 
+2.000 
+2.100 
+E1 
+0.750 
+0.900 
+1.000 
+k 
+0.150 
+0.250 
+0.350 
+e 
+0.450 
+0.500 
+0.550 
+L 
+0.200 
+0.300 
+0.400 
+eee 
+0.080 
+ 
+NOTE: This drawing is subject to change without notice. 
+ 
+ 
+ 
+RECOMMENDED LAND PATTERN (Unit: mm)
+0.50
+0.25
+1.60
+0.90
+L
+A
+N8
+N1
+k
+e
+D1
+E1
+b
+E
+D
+SIDE VIEW
+BOTTOM VIEW
+TOP VIEW
+1.90
+0.50
+PIN 1#
+DETAIL A
+ALTERNATE A-1
+DETAIL A
+ALTERNATE TERMINAL
+CONSTRUCTION
+ALTERNATE A-2
+C
+SEATING PLANE
+eee C
+A1
+A2
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TDFN-2×2-8AL 
+7" 
+9.5 
+2.30 
+2.30 
+1.10 
+4.0 
+4.0 
+2.0 
+8.0 
+Q2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 

@@ -1,0 +1,2116 @@
+ 
+SGM2821 
+3W Low EMI Class-D Audio Power Amplifier 
+with Dual Mode of Automatic Level Control 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+OCTOBER2023–REV.A 
+ENERAL DESCRIPTION 
+The SGM2821 is a high efficiency, high-performance, 
+Class-D audio power amplifier with dual mode of 
+Automatic Level Control (ALC). It operates from 2.5V to 
+5.5V supply voltage. When powered with 5V supply 
+voltage, it is capable of delivering a continuous average 
+output of 2.4W into 4Ω load with 1% THD+N. 
+As a Class-D audio amplifier, the SGM2821 features up 
+to 88% efficiency and 72dB PSRR at 217Hz which 
+make the device ideal for battery-powered high-quality 
+audio applications.  
+A key benefit of the SGM2821 over typical Class-D 
+audio power amplifiers is that it generates much less 
+EMI emissions, thus greatly simplifying the system 
+design for portable applications. The device also 
+includes the over-current and short-circuit protections 
+with auto-recovery, which ensures the device can be 
+operated safely and reliably without the need for 
+system interaction. 
+ 
+APPLICATIONS 
+Mobile Phones 
+Portable Navigation Devices 
+Multimedia Internet Devices 
+Portable Speakers 
+FEATURES 
+• Filterless Class-D Operation 
+• High Efficiency up to 88% 
+• Automatic Level Control to Eliminate Output 
+Clipping 
+• Output Power at 5V Supply (ALC-OFF) 
+ 3.0W (4Ω Load, 10% THD+N) 
+ 2.4W (4Ω Load, 1% THD+N) 
+ 1.7W (8Ω Load, 10% THD+N) 
+ 1.4W (8Ω Load, 1% THD+N) 
+• Low THD+N: 0.05% (VDD = 3.6V, f = 1kHz, RL = 8Ω, 
+PO = 0.5W) 
+• ALC Range: 13dB 
+• Low Quiescent Current: 2.6mA at VDD = 3.6V 
+• Low Shutdown Current: 0.1µA (TYP) 
+• High PSRR: 72dB at 217Hz 
+• No Bypass Capacitor Required for the 
+Common-Mode Bias 
+• Under-Voltage Lockout 
+• Auto-Recovering Over-Current and Short-Circuit 
+Protections 
+• Thermal Overload Protection 
+• Low EMI Design 
+• Available in a Green UTQFN-1.5×1.5-9L Package 
+ 
+TYPICAL APPLICATION 
+ON
+To Battery
+VDD
+Differential Input
+CTRL
+GND/PGND
+INP
+VON
+INP
+INN
+VOP
+OFF
+INN
+CI
+CI
+CS
+SGM2821
+ON
+To Battery
+VDD
+Single-ended Input
+CTRL
+GND/PGND
+VON
+INP
+IN
+VOP
+OFF
+INN
+CI
+CI
+CS
+SGM2821
+ 
+ 
+Figure 1. Typical Application Circuits 
+ 
+ 
+
+3W Low EMI Class-D Audio Power Amplifier 
+SGM2821 
+with Dual Mode of Automatic Level Control 
+ 
+ 
+2 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM2821 
+UTQFN-1.5×1.5-9L 
+-40℃ to +85℃ 
+SGM2821YUSN9G/TR 
+087 
+XXX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XXX = Date Code and Trace Code. 
+Y Y Y  
+X X X
+Date Code - Year
+Trace Code 
+Serial Number
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Supply Voltage 
+..................................................... -0.3V to 6V 
+All Other Pins 
+...........................................-0.3V to VDD + 0.3V 
+Package Thermal Resistance 
+UTQFN-1.5×1.5-9L, θJA ........................................... 128℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Supply Voltage, VDD 
+............................................ 
+2.5V to 5.5V 
+Minimum Load Resistance, RLOAD, VDD < 4.6V ............... 
+3.2Ω 
+Minimum Load Resistance, RLOAD, VDD ≥ 4.6V ............... 
+3.6Ω 
+Operating Ambient Temperature, TA 
+.............. -40℃ to +85℃ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+
+3W Low EMI Class-D Audio Power Amplifier 
+SGM2821 
+with Dual Mode of Automatic Level Control 
+ 
+ 
+3 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+  (TOP VIEW) 
+3
+2
+1
+A
+B
+C
+VON
+PGND
+VOP
+NC
+VDD
+GND
+INN
+CTRL
+INP
+ 
+  UTQFN-1.5×1.5-9L 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+DESCRIPTION 
+A1 
+INP 
+Positive Audio Input Terminal. 
+A2 
+VDD 
+Power Supply. 
+A3 
+VON 
+Negative BTL Audio Output Terminal. 
+B1 
+GND 
+Ground. 
+B2 
+NC 
+No Internal Connection. 
+B3 
+PGND 
+Power Ground. 
+C1 
+INN 
+Negative Audio Input Terminal. 
+C2 
+CTRL 
+Shutdown and ALC Mode Control. 
+C3 
+VOP 
+Positive BTL Audio Output Terminal. 
+ 
+ 
+
+3W Low EMI Class-D Audio Power Amplifier 
+SGM2821 
+with Dual Mode of Automatic Level Control 
+ 
+ 
+4 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+IMPORTANT APPLICATION NOTES 
+1. When turning on the supply voltage or cancelling 
+the shutdown mode, it must first enter ALC-1 mode 
+as the default state. Be sure that the device stays in 
+ALC-1 mode for a period longer than 10µs, and 
+then lower the voltage level of the CTRL pin to 
+enter other operating modes. 
+2. As a Class-D power audio amplifier, the SGM2821 
+requires adequate power supply decoupling to 
+ensure its optimum performance such as output 
+power, efficiency, and THD+N. Place a 10µF 
+decoupling ceramic capacitor as close to the VDD 
+pin as possible. 
+3. It is recommended to employ a ground plane for 
+SGM2821 on the system board. 
+4. Use a simple ferrite bead filter for further EMI 
+suppression. Choose a ferrite bead with a rated 
+current which is no less than 2A or greater for 
+applications with a load resistance less than 6Ω. 
+Also, place the respective ferrite beard filters as 
+close to the output pins, VOP and VON, as 
+possible. 
+5. For applications where the power supply is rated 
+more than 4.6V or the load resistance less than 6Ω, 
+it is strongly recommended to add a simple 
+snubber circuit (as shown in Figure 8) between the 
+two output pins, VOP and VON, to prevent the 
+device from accelerated deterioration or abrupt 
+destruction due to excessive inductive flybacks that 
+are induced on fast output switching or by an 
+over-current or short-circuit condition. 
+ 
+ 
+TEST SETUP FOR PERFORMANCE TESTING 
+SGM2821
+Supply
+INP
+VOP
+VON
+GND
+VDD
+Measurement
+Output
++
+AUX-0025 
+Switching Amplifier 
+Measurement Filter
+Measurement
+Input
+INN
+CIN
+CIN
+CS
+-
+Load
++
+-
+ 
+NOTE:  
+1. A 33µH inductor is placed in series with the load resistor to emulate a small speaker for efficiency measurements.  
+ 
+Figure 2. Test Block Diagram 
+ 
+ 
+
+3W Low EMI Class-D Audio Power Amplifier 
+SGM2821 
+with Dual Mode of Automatic Level Control 
+ 
+ 
+5 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(TA = -40℃ to +85℃, VDD = 2.5V to 5.5V, RL = 8Ω + 33µH, Gain = 9V/V, CI = 0.1µF, f = 1kHz, all typical values are at TA = +25℃, 
+unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Supply Voltage 
+VDD 
+ 
+2.5 
+ 
+5.5 
+V 
+Power-Up Threshold Voltage 
+VUVLU 
+VDD from Low-to-High 
+ 
+2.2 
+2.5 
+V 
+Power-Down Threshold Voltage 
+VUVLD 
+VDD from High-to-Low 
+1.8 
+2 
+ 
+V 
+Quiescent Current 
+IDD 
+VDD = 2.5V, No Load, Inputs AC-Grounded 
+ 
+2.0 
+3.6 
+mA 
+VDD = 3.6V, No Load, Inputs AC-Grounded 
+ 
+2.6 
+3.8 
+mA 
+VDD = 5.5V, No Load, Inputs AC-Grounded 
+ 
+3.3 
+4.5 
+mA 
+Shutdown Current 
+ISD 
+CTRL Low 
+ 
+0.1 
+1.2 
+µA 
+Maximum Output Power 
+VDD = 5V, Load = 8Ω + 33µH 
+PO, ALC-OFF 
+THD+N = 10% 
+ 
+1.7 
+ 
+W 
+THD+N = 1% 
+ 
+1.4 
+ 
+Maximum Output Power 
+VDD = 3.6V, Load = 8Ω + 33µH 
+THD+N = 10% 
+ 
+0.88 
+ 
+W 
+THD+N = 1% 
+ 
+0.7 
+ 
+Maximum Output Power 
+VDD = 5V, Load = 4Ω + 33µH 
+PO, ALC-OFF 
+THD+N = 10% 
+ 
+3 
+ 
+W 
+THD+N = 1% 
+ 
+2.4 
+ 
+Maximum Output Power  
+VDD = 3.6V, Load = 4Ω + 33µH 
+THD+N = 10% 
+  
+1.5 
+ 
+W 
+THD+N = 1% 
+ 
+1.2 
+ 
+Constant Output Power (ALC) 
+Load = 8Ω + 33µH 
+PO, ALC 
+VIN = 0.6VRMS, VDD = 5V 
+ 
+1.25 
+ 
+W 
+VIN = 0.4VRMS, VDD = 3.6V 
+ 
+0.65 
+ 
+Constant Output Power (ALC) 
+Load = 4Ω + 33µH 
+VIN = 0.6VRMS, VDD = 5V 
+ 
+2.2 
+ 
+W 
+VIN = 0.4VRMS, VDD = 3.6V 
+ 
+1.15 
+ 
+Gain 
+AV 
+RI = 0Ω 
+7.5 
+9 
+10.5 
+V/V 
+Maximum ALC Attenuation 
+AMAX 
+ 
+ 
+13 
+ 
+dB 
+Output Resistance in Shutdown Mode 
+RO 
+CTRL Low 
+ 
+2.5 
+ 
+kΩ 
+Input Resistance 
+RIN 
+@INP, INN 
+ 
+29 
+ 
+kΩ 
+CTRL Input Resistance 
+RCTRL 
+ 
+ 
+330 
+ 
+kΩ 
+VREF Voltage 
+VREF 
+VDD > 3V 
+ 
+1.6 
+ 
+V 
+Total Harmonic Distortion + Noise 
+Load = 8Ω + 33µH 
+THD+N 
+VDD = 3.6V, PO = 0.5W 
+ 
+0.05 
+ 
+% 
+VDD = 5V, PO = 1W 
+ 
+0.05 
+ 
+Total Harmonic Distortion + Noise 
+Load = 4Ω + 33µH 
+VDD = 3.6V, PO = 1W 
+ 
+0.05 
+ 
+% 
+VDD = 5V, PO = 2W 
+ 
+0.05 
+ 
+Output Voltage Noise 
+VN 
+A-Weighted, Gain = 19dB, 
+Inputs AC-Grounded 
+ 
+110 
+ 
+µVRMS 
+Output Offset Voltage 
+VOS 
+Inputs AC-Grounded 
+ 
+±15 
+±55 
+mV 
+Efficiency 
+η 
+VDD = 5V, PO = 1W, RL = 8Ω + 33µH 
+ 
+88 
+ 
+% 
+Power Supply Rejection Ratio 
+PSRR 
+f = 217Hz 
+ 
+72 
+ 
+dB 
+Common Mode Rejection Ratio 
+CMRR 
+VIN = 0.2VRMS 
+ 
+55 
+ 
+dB 
+Startup Time 
+tSTUP 
+ 
+ 
+29 
+ 
+ms 
+PWM Carrier Frequency 
+fPWM 
+ 
+ 
+500 
+ 
+kHz 
+ 
+ 
+ 
+
+3W Low EMI Class-D Audio Power Amplifier 
+SGM2821 
+with Dual Mode of Automatic Level Control 
+ 
+ 
+6 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(TA = -40℃ to +85℃, VDD = 2.5V to 5.5V, RL = 8Ω + 33µH, Gain = 9V/V, CI = 0.1µF, f = 1kHz, all typical values are at TA = +25℃, 
+unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Over-Current Threshold 
+ILIMIT 
+VDD = 5V 
+ 
+2 
+ 
+A 
+Over-Temperature Threshold 
+TOTP 
+ 
+ 
+160 
+ 
+℃ 
+Over-Temperature Hysteresis 
+THYS 
+ 
+ 
+30 
+ 
+℃ 
+ALC-1 Mode Setting Threshold Voltage 
+VMODE1 
+TA = +25℃ 
+1.48 
+ 
+VDD 
+V 
+ALC-2 Mode Setting Threshold Voltage 
+VMODE2 
+TA = +25℃ 
+0.85 
+ 
+1.12 
+V 
+ALC-OFF Mode Setting Threshold Voltage 
+VMODE3 
+TA = +25℃ 
+0.4 
+ 
+0.58 
+V 
+Shutdown Mode Setting Threshold Voltage 
+VMODE4 
+TA = +25℃ 
+0 
+ 
+0.1 
+V 
+ 
+ 
+
+3W Low EMI Class-D Audio Power Amplifier 
+SGM2821 
+with Dual Mode of Automatic Level Control 
+ 
+ 
+7 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAM 
+Input
+Buffer
+Class-D
+Modulator
+Output
+Stage
+OCP
+OTP
+UVLO
+Oscillator
+Mode
+Control
+INN
+INP
+VDD
+VON
+VOP
+GND
+PGND
+CTRL
+SGM2821
+ 
+Figure 3. Block Diagram 
+ 
+ 
+ 
+
+3W Low EMI Class-D Audio Power Amplifier 
+SGM2821 
+with Dual Mode of Automatic Level Control 
+ 
+ 
+8 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+TA = +25℃, VDD = 3.6V, f = 1kHz, Gain = 9V/V, CI = 0.1µF, unless otherwise noted. 
+ 
+    Output Power vs. Supply Voltage 
+    Output Power vs. Supply Voltage 
+ 
+ 
+    ALC Output Power vs. Supply Voltage 
+    ALC Output Power vs. Supply Voltage 
+ 
+ 
+    Output Power vs. Input Voltage 
+    Output Power vs. Input Voltage 
+ 
+ 
+ 
+ 
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+4.0
+4.5
+5.0
+2.5
+3.0
+3.5
+4.0
+4.5
+5.0
+5.5
+Output Power (W) 
+Supply Voltage (V) 
+RL = 4Ω + 33μH, THD+N=1% 
+RL = 4Ω + 33μH, THD+N=10% 
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+2.5
+3.0
+3.5
+4.0
+4.5
+5.0
+5.5
+Output Power (W) 
+Supply Voltage (V) 
+RL = 8Ω + 33μH, THD+N=1% 
+RL = 8Ω + 33μH, THD+N=10% 
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+2.5
+3.0
+3.5
+4.0
+4.5
+5.0
+5.5
+Output Power (W) 
+Supply Voltage (V) 
+RL = 4Ω + 33μH, ALC-1, VIN = 0.5VRMS 
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2
+1.4
+1.6
+1.8
+2.0
+2.5
+3.0
+3.5
+4.0
+4.5
+5.0
+5.5
+Output Power (W) 
+Supply Voltage (V) 
+RL = 8Ω + 33μH, ALC-1, VIN = 0.5VRMS 
+0.001
+0.01
+0.1
+1
+10
+0.01
+0.1
+Output Power (W) 
+Input Voltage (VRMS) 
+VDD = 2.5V, RL = 4Ω + 33μH, ALC-OFF 
+VDD = 3.6V, RL = 4Ω + 33μH, ALC-OFF 
+VDD = 5.0V, RL = 4Ω + 33μH, ALC-OFF 
+ 
+0.4 
+0.001
+0.01
+0.1
+1
+10
+0.01
+0.1
+Output Power (W) 
+Input Voltage (VRMS) 
+VDD = 2.5V, RL = 8Ω + 33μH, ALC-OFF 
+VDD = 3.6V, RL = 8Ω + 33μH, ALC-OFF 
+VDD = 5.0V, RL = 8Ω + 33μH, ALC-OFF 
+ 
+0.4 
+
+3W Low EMI Class-D Audio Power Amplifier 
+SGM2821 
+with Dual Mode of Automatic Level Control 
+ 
+ 
+9 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, VDD = 3.6V, f = 1kHz, Gain = 9V/V, CI = 0.1µF, unless otherwise noted. 
+ 
+     ALC Output Power vs. Input Voltage 
+    ALC Output Power vs. Input Voltage 
+ 
+ 
+     Efficiency vs. Output Power 
+     Efficiency vs. Output Power 
+ 
+ 
+    THD+N vs. Output Power 
+    THD+N vs. Output Power 
+ 
+ 
+ 
+ 
+0.001
+0.01
+0.1
+1
+10
+0.01
+0.1
+1
+Output Power (W) 
+Input Voltage (VRMS) 
+VDD = 2.5V, RL = 4Ω + 33μH, ALC-1 
+VDD = 3.6V, RL = 4Ω + 33μH, ALC-1 
+VDD = 5.0V, RL = 4Ω + 33μH, ALC-1 
+ 
+2 
+0.001
+0.01
+0.1
+1
+10
+0.01
+0.1
+1
+Output Power (W) 
+Input Voltage (VRMS) 
+VDD = 2.5V, RL = 8Ω + 33μH, ALC-1 
+VDD = 3.6V, RL = 8Ω + 33μH, ALC-1 
+VDD = 5.0V, RL = 8Ω + 33μH, ALC-1 
+ 
+2 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+0
+0.4
+0.8
+1.2
+1.6
+2
+2.4
+2.8
+3.2
+Efficiency (%) 
+Output Power (W) 
+VDD = 2.5V, RL = 4Ω + 33μH, ALC-OFF 
+VDD = 3.6V, RL = 4Ω + 33μH, ALC-OFF 
+VDD = 5.0V, RL = 4Ω + 33μH, ALC-OFF 
+ 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+0
+0.4
+0.8
+1.2
+1.6
+2
+Efficiency (%) 
+Output Power (W) 
+VDD = 2.5V, RL = 8Ω + 33μH, ALC-OFF 
+VDD = 3.6V, RL = 8Ω + 33μH, ALC-OFF 
+VDD = 5.0V, RL = 8Ω + 33μH, ALC-OFF 
+ 
+0.01
+0.1
+1
+10
+100
+0.01
+0.1
+1
+THD+N (%) 
+Output Power (W) 
+VDD = 2.5V, RL = 4Ω + 33μH, ALC-OFF 
+VDD = 3.6V, RL = 4Ω + 33μH, ALC-OFF 
+VDD = 5.0V, RL = 4Ω + 33μH, ALC-OFF 
+ 
+5 
+0.01
+0.1
+1
+10
+100
+0.01
+0.1
+1
+THD+N (%) 
+Output Power (W) 
+VDD = 2.5V, RL = 8Ω + 33μH, ALC-OFF 
+VDD = 3.6V, RL = 8Ω + 33μH, ALC-OFF 
+VDD = 5.0V, RL = 8Ω + 33μH, ALC-OFF 
+ 
+5 
+
+3W Low EMI Class-D Audio Power Amplifier 
+SGM2821 
+with Dual Mode of Automatic Level Control 
+ 
+ 
+10 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, VDD = 3.6V, f = 1kHz, Gain = 9V/V, CI = 0.1µF, unless otherwise noted. 
+ 
+    THD+N vs. Input Voltage (ALC) 
+    THD+N vs. Input Voltage (ALC) 
+ 
+ 
+    THD+N vs. Frequency 
+    THD+N vs. Frequency 
+ 
+ 
+    THD+N vs. Frequency 
+    THD+N vs. Frequency 
+ 
+ 
+ 
+ 
+0.01
+0.1
+1
+10
+100
+0.01
+0.1
+1
+THD+N (%) 
+Input Voltage (VRMS) 
+VDD = 2.5V, RL = 4Ω + 33μH, ALC-1 
+VDD = 3.6V, RL = 4Ω + 33μH, ALC-1 
+VDD = 5.0V, RL = 4Ω + 33μH, ALC-1 
+ 
+2 
+0.01
+0.1
+1
+10
+100
+0.01
+0.1
+1
+THD+N (%) 
+Input Voltage (VRMS) 
+VDD = 2.5V, RL = 8Ω + 33μH, ALC-1 
+VDD = 3.6V, RL = 8Ω + 33μH, ALC-1 
+VDD = 5.0V, RL = 8Ω + 33μH, ALC-1 
+ 
+2 
+0.001
+0.01
+0.1
+1
+10
+100
+20
+200
+2000
+20000
+THD+N (%) 
+Frequency (Hz) 
+VDD = 2.5V, PO = 0.3W, RL = 4Ω + 33μH  
+0.001
+0.01
+0.1
+1
+10
+100
+20
+200
+2000
+20000
+THD+N (%) 
+Frequency (Hz) 
+VDD = 3.6V, PO = 1W, RL = 4Ω + 33μH  
+0.001
+0.01
+0.1
+1
+10
+100
+20
+200
+2000
+20000
+THD+N (%) 
+Frequency (Hz) 
+VDD = 5.0V, PO = 2W, RL = 4Ω + 33μH  
+0.001
+0.01
+0.1
+1
+10
+100
+20
+200
+2000
+20000
+THD+N (%) 
+Frequency (Hz) 
+VDD = 2.5V, RL = 4Ω + 33μH, PO = 0.2W 
+VDD = 3.6V, RL = 4Ω + 33μH, PO = 0.2W 
+VDD = 5.0V, RL = 4Ω + 33μH, PO = 0.2W 
+ 
+
+3W Low EMI Class-D Audio Power Amplifier 
+SGM2821 
+with Dual Mode of Automatic Level Control 
+ 
+ 
+11 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, VDD = 3.6V, f = 1kHz, Gain = 9V/V, CI = 0.1µF, unless otherwise noted. 
+ 
+    THD+N vs. Frequency 
+     PSRR vs. Input Frequency 
+ 
+ 
+     Quiescent Current vs. Supply Voltage 
+     ALC Operation 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+2V/div         2V/div 
+Time (500ms/div) 
+ 
+Startup Waveform 
+ 
+ 
+Shutdown Waveform 
+ 
+ 
+ 
+ 
+ 
+ 
+CTRL 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+VOUT 
+  
+   2V/div    2V/div      2V/div 
+ 
+ 
+CTRL 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+     2V/div   2V/div     2V/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (10ms/div) 
+ 
+ 
+Time (10ms/div) 
+ 
+ 
+ 
+0.001
+0.01
+0.1
+1
+10
+100
+20
+200
+2000
+20000
+THD+N (%) 
+Frequency (Hz) 
+VDD = 2.5V, RL = 8Ω + 33μH, PO = 0.1W 
+VDD = 3.6V, RL = 8Ω + 33μH, PO = 0.1W 
+VDD = 5.0V, RL = 8Ω + 33μH, PO = 0.1W 
+ 
+-80
+-70
+-60
+-50
+-40
+-30
+-20
+-10
+0
+20
+200
+2000
+20000
+PSRR (dB) 
+Input Frequency (Hz) 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+2.5
+3.0
+3.5
+4.0
+4.5
+5.0
+5.5
+Quiescent Current (mA) 
+Supply Voltage (V) 
+VDD = 3.6V, RL = 8Ω + 33µH, VIN = 0.1VRMS, f = 200Hz, 
+ALC-1 Mode 
+ 
+VDD = 3.6V, RL = 8Ω + 33µH, VIN = 0.1VRMS, f = 200Hz, 
+ALC-1 Mode 
+ 
+VDD = 3.6V, RL = 8Ω + 33µH, VIN = 0.25VRMS to 1.0VRMS, 
+f = 1kHz, ALC-1 Mode 
+Attack 
+Release 
+
+3W Low EMI Class-D Audio Power Amplifier 
+SGM2821 
+with Dual Mode of Automatic Level Control 
+ 
+ 
+12 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+The SGM2821 is a high efficiency, high-performance, 
+filterless Class-D audio power amplifier with dual 
+modes of Automatic Level Control (ALC). The SGM2821 
+operates from 2.5V to 5.5V supply. When powered with 
+5V supply voltage, the SGM2821 is capable of 
+delivering up to 3W into a 4Ω load or 1.7W into an 8Ω 
+load, with 10% THD+N in ALC-OFF mode. 
+As a Class-D power audio amplifier, the SGM2821 
+features 88% high efficiency and 72dB PSRR at 217Hz 
+which make the device ideal for battery-supplied, 
+high-quality audio applications. A key benefit of the 
+SGM2821 over typical Class-D audio power amplifiers 
+is that it generates much less EMI emissions, thus 
+greatly simplifying the system design for portable 
+applications. The device includes the circuitry can 
+minimize turn-on and turn-off transients (also known as 
+pops-and-clicks), as well as auto-recovering over- 
+current protection (OCP) and short-circuit protection 
+(SCP). 
+Furthermore, the SGM2821 includes under-voltage 
+lockout to ensure proper operation when the device is 
+first powered up, and thermal-overload protection to 
+safeguard the die temperature during operation. 
+Fully Differential Amplifier 
+The SGM2821 is configured in a fully differential 
+topology. The fully differential topology ensures that the 
+amplifier outputs a differential voltage on the output that 
+is equal to the differential input times the gain. The 
+common-mode feedback ensures that the common- 
+mode voltage at the output is biased around 1.6V 
+regardless of the common-mode voltage at the input. 
+Although the fully differential topology of the SGM2821 
+can still be used with a single-ended input, it is highly 
+recommended that the SGM2821 be used with 
+differential inputs in a noisy environment, like a wireless 
+handset, to ensure maximum noise rejection. 
+Automatic Level Control (ALC) 
+The automatic level control is to maintain the audio 
+output signals for a maximum voltage swing without 
+distortion when an excessive input that may cause 
+output clipping is applied. With the ALC function, the 
+SGM2821 lowers the voltage gain of the amplifier to an 
+appropriate value such that the clipping at the outputs 
+is eliminated. It also eliminates the clipping of the 
+output signal due to the reduction of the power-supply 
+voltage. 
+The attack time and release time of the ALC are 
+separately set for ALC-1 and ALC-2 modes, as shown 
+in Table 1. The attack time is defined as the time 
+interval required for the gain fall to its steady-state gain, 
+assumed that a sufficiently large input signal is applied. 
+The release time is the time interval required for the 
+amplifier to exit out of the present mode of operation. 
+Table 1. Attack Time and Release Time 
+Mode 
+Attack Time 
+Release Time 
+ALC-1 
+25ms 
+1.2s 
+ALC-2 
+6ms 
+0.6s 
+ 
+ 
+Attack
+Release 
+Output Signal when Supply Voltage is Sufficiently Large
+Output Signal in ALC Off Mode
+Output Signal in ALC On Mode
+ 
+Figure 4. Automatic Level Control Diagram 
+ 
+
+3W Low EMI Class-D Audio Power Amplifier 
+SGM2821 
+with Dual Mode of Automatic Level Control 
+ 
+ 
+13 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+Mode Control 
+Shutdown and Startup 
+When the CTRL pin is pulled to ground, the SGM2821 
+is forced into the shutdown mode. In the shutdown 
+mode, all the circuitry is disabled and the supply current 
+is eliminated except leakage current, and the 
+differential outputs are shorted to ground through an 
+internal resistor (2.5kΩ) individually. Once in the 
+shutdown mode, the CTRL pin must remain low for at 
+least 1ms (the shutdown settling time), before it can be 
+brought high again. When the CTRL pin is asserted 
+high, the device exits out of the shutdown mode and 
+enters into the ALC-1 mode after a startup time (tSTUP) 
+of 29ms. 
+CTRL Voltage Setting 
+The mode of operation in SGM2821 is determined by 
+the voltage applied to the CTRL pin. An example of 
+setting the mode of operation by a host processor or 
+microcontroller is shown in Figure 5. As depicted in the 
+Figure 5, three external resistors (RCTRL1, RCTRL2 and 
+RCTRL3 with ±1% accuracy) connected to the CTRL pin 
+and two GPIO ports from the host are used to set the 
+voltage at the CTRL pin. By asserting the two GPIO 
+pins high or low, 4 modes of operation (ALC-1, ALC-2, 
+ALC-OFF and Shutdown) are defined, as described in 
+Table 2. It is recommended to add a ceramic capacitor 
+(≥ 0.1μF) to the CTRL pin to smooth out the mode 
+transition as well as to minimize noise interference. 
+Micro
+Computer
+RCTRL1
+RCTRL3
+RCTRL2
+CCTRL
+0.1μF
+CTRL1
+CTRL2
+CTRL
+VIO
+ 
+Figure 5. Mode Control Circuit 1 
+Table 2. 4-Mode Control 
+CTRL1 
+CTRL2 
+MODE 
+H 
+H 
+ALC-1 
+H 
+L 
+ALC-2 
+L 
+H 
+ALC-OFF 
+L 
+L 
+Shutdown Mode 
+In Table 2, ‘H’ indicates a high-level output voltage (VIO) 
+at the host’s I/O ports. ‘L’ indicates a low-level output 
+voltage (GND) at the ports. To generate a proper 
+voltage at the CTRL pin for a specific mode of 
+operation, the two GPIO ports are required to have 
+sufficient pull-down capability. Also, the ground (GND) 
+of the host must be at the same potential as that of 
+SGM2821. Furthermore, the voltage at the CTRL pin is 
+a function of the supply voltage (VIO) applied onto the 
+host. Table 3 defines suitable resistors to be used for 
+various supply voltages at VIO.  
+Table 3. CTRL Circuit Setup 
+VIO 
+1.8V 
+2.5V 
+3.0V 
+3.3V 
+5.0V 
+RCTRL1 
+6.81kΩ 
+26.7kΩ 
+34.0kΩ 
+34.0kΩ 
+68.1kΩ 
+RCTRL2 
+13.7kΩ 
+53.6kΩ 
+68.1kΩ 
+68.1kΩ 
+137kΩ 
+RCTRL3 
+27.4kΩ 
+30.9kΩ 
+25.5kΩ 
+21.5kΩ 
+21.5kΩ 
+In applications where only ALC-1 and shutdown modes 
+are needed, the CTRL circuit diagram can be simplified 
+as shown in Figure 6. In this case, one external resistor 
+(RCTRL1) and one GPIO port are used to set the voltage 
+at the CTRL pin. The value of the resistor is chosen 
+such that the resulting RC time constant (≥ 1ms) will 
+provide sufficient noise rejection at the CTRL pin. Two 
+modes of operation (ALC-1 and Shutdown) are defined, 
+as described in Table 4. It is recommended to add a 
+ceramic capacitor (≥ 0.1μF) to the CTRL pin to smooth 
+out the mode transition as well as to minimize noise 
+interference. 
+ 
+Micro
+Computer
+RCTRL1
+10kΩ
+CCTRL
+0.1μF
+CTRL1
+CTRL
+VIO
+ 
+Figure 6. Mode Control Circuit 2 
+Table 4. 2-Mode Control 
+CTRL1 
+MODE 
+H 
+ALC-1 
+L 
+Shutdown Mode 
+ 
+ 
+ 
+
+3W Low EMI Class-D Audio Power Amplifier 
+SGM2821 
+with Dual Mode of Automatic Level Control 
+ 
+ 
+14 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+Mode Transition 
+When SGM2821 exits shutdown mode to working state, 
+it must first enter ALC-1 mode as the default state. Be 
+sure that the device stays in ALC-1 mode for a period 
+longer than 10µs. After the startup, the device can be 
+configured into another active state, either ALC-2 or 
+ALC-OFF, and can also transition back and forth 
+among three active modes as dictated by the host 
+without constraints. 
+Filterless Design 
+Traditional Class-D amplifiers require an output filter. 
+The filter adds cost and the size of the system board. 
+Furthermore, it degrades the performance of power 
+efficiency and THD+N. The SGM2821’s filterless 
+modulation scheme does not require an output filter. 
+Because the switching frequency of the SGM2821 is 
+well beyond the bandwidth of most speakers, voice coil 
+movement due to the switching frequency is very small. 
+Use a speaker with a series inductance larger than 
+10µH. An 8Ω speaker typically exhibits a series 
+inductance in the range from 20µH to 100µH. 
+However, LC filter is required when the trace between 
+the SGM2821 and the speaker exceeds 100mm. Long 
+trace acts like tiny antenna and generates EMI 
+emissions which may result in FCC and CE certification 
+failures. 
+Low EMI Design 
+Traditional Class-D amplifiers require the use of 
+external LC filters, or shielding, to minimize EMI 
+emissions. The SGM2821 uses a proprietary edge-rate- 
+controlled (ERC) circuitry to reduce EMI emissions, 
+while maintaining high efficiency. 
+How to Reduce EMI 
+The SGM2821 does not require an LC output filter for 
+short connections from the amplifier to the speaker. 
+However, additional EMI suppressions can be made by 
+use of a ferrite bead in conjunction with a capacitor, as 
+shown in Figure 7. Choose a ferrite bead with low DC 
+resistance (DCR) and high impedance (100Ω ~ 330Ω) 
+at high frequencies (> 100MHz). The current flowing 
+through the ferrite bead must be also taken into 
+consideration. The effectiveness of ferrites can be 
+greatly aggravated at much lower than the rated current 
+values. Choose a ferrite bead with at least 2A rated 
+current. The capacitor value varies based on the 
+chosen ferrite bead and the actual speaker lead length. 
+Choose a capacitor less than 1nF based on EMI 
+performance. 
+VON
+VOP
+Ferrite
+Chip Bead
+FB1 220Ω/2A
+C1
+1nF
+Ferrite
+Chip Bead
+FB2 220Ω/2A
+C2
+1nF
+ 
+Figure 7. Ferrite Bead Filter to Reduce EMI 
+RC Snubber Circuit 
+For applications where the power supply is rated more 
+than 4.6V or the load resistance less than 6Ω, it may 
+become necessary to add an RC snubber circuit 
+between the two output pins, VOP and VON, for 
+robustness and reliability. Figure 8 shows a simple RC 
+snubber circuit, which can be used to prevent the 
+device from accelerated deterioration or abrupt 
+destruction due to excessive inductive flybacks that are 
+induced on fast output switching or by an over-current 
+or short-circuit condition. 
+VON
+VOP
+R
+4.7Ω 
+C
+4.7nF
+SPEAKER
+ 
+Figure 8. RC Snubber Circuit 
+Under-Voltage Lockout (UVLO) 
+The SGM2821 incorporates circuitry designed to detect 
+a low supply voltage. When the supply voltage drops 
+below 2V (TYP), the SGM2821 goes into shutdown 
+mode. The device will emerge out of the shutdown 
+mode and resume its normal operation only when the 
+supply voltage is restored to above 2.2V (TYP) and the 
+CTRL pin is pulled high. 
+ 
+ 
+
+3W Low EMI Class-D Audio Power Amplifier 
+SGM2821 
+with Dual Mode of Automatic Level Control 
+ 
+ 
+15 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+Auto-Recovering Over-Current Protection 
+(OCP) & Short-Circuit Protection (SCP) 
+Once an over-current or a short-circuit condition at the 
+differential outputs is detected, either to the power 
+supply or to ground or to each other, the SGM2821 
+goes into shutdown mode. During shutdown, the 
+SGM2821 activates auto-recovering process whose 
+aim is to return the device to normal operation once the 
+fault condition is removed. This process repeatedly 
+examines if the fault condition persists, and returns the 
+device to normal operation immediately after the fault 
+condition is removed. This feature helps protect the 
+device from large currents and maintain long-term 
+reliability while removing the need for external system 
+interaction to resume normal operation. 
+Over-Temperature Shutdown (OTSD) 
+The thermal-overload protection on the SGM2821 
+prevents the device from being damaged when the die 
+temperature exceeds +160℃. Once the die temperature 
+exceeds the prescribed value, the device will be forced 
+into shutdown mode and the outputs are disabled. Note 
+that this is not a latched fault. Instead, the thermal fault 
+will be cleared once the temperature of the die is 
+lowered by 30℃. This large hysteresis will prevent it 
+from generating motor boating sound and allow the 
+device resume normal operation without the need for 
+external system interaction. 
+Pop-and-Click Suppression 
+When asserting CTRL pin from low to high level, the 
+SGM2821 features a 29ms startup turn-on time to 
+suppress the click-pop noise. For the best power-off 
+pop performance, the amplifier should be placed in 
+shutdown mode before removing the power supply 
+voltage. 
+Decoupling Capacitor (CS) 
+The decoupling capacitor stabilizes the power supply 
+voltage applied onto the SGM2821, thus improving its 
+THD performance. It also prevents voltage ringing with 
+a long lead. A ceramic capacitor of 10µF with low 
+equivalent-series-resistance (ESR) is required for 
+decoupling and to be placed as close to the SGM2821 
+as possible to minimize the resistance and inductance 
+of the traces between the device and the capacitor. To 
+filter out lower-frequency noise, a capacitor of 100µF or 
+greater should be placed close to the SGM2821. 
+Input Capacitors (CI) 
+The input capacitors and input resistors determine the 
+corner frequency of the high-pass filter. The corner 
+frequency (fC) is calculated with the Equation 1. 
+=
+π
+C
+I
+I
+1
+f
+2 RC
+                  (1) 
+where RI = 29kΩ. 
+The corner frequency directly influences the low 
+frequency signals and consequently determines output 
+bass quality. 
+PCB Layout 
+As the output power increases, the interconnect 
+resistance (PCB traces and wires) among the audio 
+amplifier, load, and power supply creates a voltage 
+drop. The voltage loss on the traces between the 
+SGM2821 and the load results in lower output power 
+and lower efficiency. The higher trace resistance 
+between the supply and the SGM2821 has the same 
+effect as a poorly regulated supply, increasing the 
+voltage ripples on the supply line and also reducing the 
+peak output power. The effect of the residual trace 
+resistance will be intensified as the output current 
+increases. To maintain the highest output voltage swing 
+for a maximum output power, the PCB traces that 
+connect the output pins to the load and the supply pins 
+to the power supply should be as wide and short as 
+possible to minimize trace resistance. 
+The use of power and ground planes will give the best 
+THD+N performance. While reducing trace resistance, 
+the use of power planes also creates parasite 
+capacitors that help filter the power supply line. 
+The inductive nature of the speakers can also result in 
+overshoots on one or both edges, clamped by the 
+parasitic diodes to ground and VDD in each case. From 
+an EMI standpoint, this is the highly unfavorable 
+waveform that will radiate or conduct to other 
+components 
+on 
+the system board and cause 
+interference. It is essential to keep the power and 
+output traces short and well shielded if possible. Use of 
+ground 
+planes, 
+beads, 
+and 
+micro-strip 
+layout 
+techniques are all useful in preventing unwanted 
+interference. 
+ 
+ 
+
+3W Low EMI Class-D Audio Power Amplifier 
+SGM2821 
+with Dual Mode of Automatic Level Control 
+ 
+ 
+16 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+As the distance from the SGM2821 to the speaker 
+increases, the amount of EMI radiation will increase 
+since the output wires or traces acting as antenna 
+become more efficient with their lengths. Acceptable 
+EMI is highly application specific. Ferrite bears placed 
+close to the SGM2821 may be needed to reduce EMI 
+radiation. The value of the ferrite bears is also application 
+specific. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+3W Low EMI Class-D Audio Power Amplifier 
+SGM2821 
+with Dual Mode of Automatic Level Control 
+ 
+ 
+17 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL APPLICATION CIRCUITS 
+ 
+ 
+Figure 9. Single-Ended Input with One Control Signal (for 2-Mode Operation) 
+ 
+ 
+ 
+ 
+Figure 10. Differential Input with One Control Signal (for 2-Mode Operation) 
+ 
+ 
+ 
+INPUT
+SGM2821
+A1
+A2
+A3
+B1
+B3
+C1
+C2
+C3
+INP
+VDD
+VON
+AGND
+PGND
+INN
+CTRL
+VOP
+CTRL
+C2
+0.1μF
+VDD
+C3
+10μF
+C1
+0.1μF
+Single-ended Input
+C5
+0.1μF
+LS1
+SPEAKER
+R1
+10K
++ C4
+220μF
+C1
+0.1μF
+CTRL
+R1
+10K
+LS1
+SPEAKER
+Differential Inputs
+C5
+0.1μF
+INN
+VDD
++ C4
+220μF
+C3
+10μF
+C2
+0.1μF
+SGM2821
+A1
+A2
+A3
+B1
+B3
+C1
+C2
+C3
+INP
+VDD
+VON
+AGND
+PGND
+INN
+CTRL
+VOP
+INP
+
+3W Low EMI Class-D Audio Power Amplifier 
+SGM2821 
+with Dual Mode of Automatic Level Control 
+ 
+ 
+18 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL APPLICATION CIRCUITS (continued) 
+ 
+ 
+Figure 11. Differential Inputs with Two Control Signals (for 4-Mode Operation) 
+ 
+ 
+ 
++ C4
+220μF
+C5
+0.1μF
+LS1
+SPEAKER
+R4
+4.7Ω
+INN
+R1
+6.81K
+VDD
+SGM2821
+A1
+A2
+A3
+B1
+B3
+C1
+C2
+C3
+INP
+VDD
+VON
+AGND
+PGND
+INN
+CTRL
+VOP
+C2
+0.1μF
+C1
+0.1μF
+VIO=1.8V
+R3
+27.4K
+CTRL2
+Differential Inputs
+INP
+C6
+4.7nF
+R2
+13.7K
+C3
+10μF
+CTRL1
+
+3W Low EMI Class-D Audio Power Amplifier 
+SGM2821 
+with Dual Mode of Automatic Level Control 
+ 
+ 
+19 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+Changes from Original (OCTOBER 2023) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00358.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+UTQFN-1.5×1.5-9L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.450 
+- 
+0.550 
+A1 
+0.000 
+- 
+0.050 
+A2 
+0.152 REF 
+b 
+0.174 
+- 
+0.326 
+D 
+1.400 
+- 
+1.600 
+E 
+1.400 
+- 
+1.600 
+d 
+0.174 
+- 
+0.326 
+e 
+0.500 BSC 
+L 
+0.174 
+- 
+0.326 
+eee 
+0.050 
+ 
+ 
+NOTE: This drawing is subject to change without notice. 
+ 
+ 
+RECOMMENDED LAND PATTERN (Unit: mm)
+SIDE VIEW
+BOTTOM VIEW
+TOP VIEW
+D
+E
+A
+A1
+A2
+C
+SEATING PLANE
+eee C
+N1
+PIN 1#
+e
+b
+L
+8 × Φd
+0.50
+0.50
+0.25
+0.25
+8 × Φ0.25
+e
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1 
+Quadrant 
+DD0001 
+ 
+ 
+UTQFN-1.5×1.5-9L 
+7" 
+9.5 
+1.70 
+1.70 
+0.75 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 

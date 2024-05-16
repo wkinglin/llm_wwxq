@@ -1,0 +1,693 @@
+ 
+74AHCT244 
+Octal Buffer/Line Driver 
+with 3-State Outputs 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+OCTOBER2023–REV.A.1 
+GENERAL DESCRIPTION 
+The 74AHCT244 is an octal buffer/line driver with 
+non-inverting 3-state outputs, and it is designed for 
+4.5V to 5.5V VCC operation. 
+The device can be used as two 4-bit buffers or one 8-bit 
+buffer. The 1OE
+ത
+ത
+ത
+ത
+ത and 2OE
+ത
+ത
+ത
+ത
+ത are two output enable inputs, 
+and each controls four of the 3-state outputs. When 
+nOE
+ത
+ത
+ത
+ത
+ത is set high, the outputs are in high-impedance 
+state. When nOE
+ത
+ത
+ത
+ത
+ത is set low, data transmits from the 
+nAn inputs to the nYn outputs.  
+ 
+ 
+FUNCTION TABLE 
+CONTROL INPUT 
+INPUT 
+OUTPUT 
+nOE
+ത
+ത
+ത
+ത
+ത 
+nAn 
+nYn 
+L 
+L 
+L 
+L 
+H 
+H 
+H 
+X 
+Z 
+H = High Voltage Level 
+L = Low Voltage Level 
+Z = High-Impedance State 
+X = Don’t Care 
+FEATURES 
+● Supply Voltage Range: 4.5V to 5.5V 
+● Input Accept Voltages Higher than the Supply 
+Voltage 
+● +8mA/-8mA Output Current  
+● 3-State Buffers  
+● -40℃ to +125℃ Operating Temperature Range 
+● Available in Green SOIC-20 and TSSOP-20 
+Packages 
+ 
+ 
+ 
+LOGIC DIAGRAM 
+2
+1
+1Y0
+4
+6
+8
+12
+18
+16
+14
+1Y1
+1Y2
+1Y3
+1A0
+1A1
+1A2
+1A3
+11
+19
+2Y0
+13
+15
+17
+3
+9
+7
+5
+2Y1
+2Y2
+2Y3
+2A0
+2A1
+2A2
+2A3
+1OE
+2OE
+ 
+ 
+ 
+ 
+ 
+ 
+
+Octal Buffer/Line Driver 
+74AHCT244 
+with 3-State Outputs 
+ 
+ 
+2 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+74AHCT244 
+SOIC-20 
+-40℃ to +125℃ 
+74AHCT244XS20G/TR 
+74AHCT244XS20 
+XXXXX 
+Tape and Reel, 1500 
+TSSOP-20 
+-40℃ to +125℃ 
+74AHCT244XTS20G/TR 
+0KGXTS20 
+XXXXX 
+Tape and Reel, 4000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code. 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS (1) 
+Supply Voltage Range, VCC .............................. -0.5V to 7.0V 
+Input Voltage Range, VI
+ (2) ................................ -0.5V to 7.0V 
+Output Voltage Range, VO
+ (2) -0.5V to MIN(7.0V, VCC + 0.5V) 
+Input Clamp Current, IIK (VI < 0V) ................................ 
+-20mA  
+Output Clamp Current, IOK (VO > VCC or VO < 0V) 
+....... ±20mA 
+Continuous Output Current, IO .................................... 
+±25mA  
+Continuous Current through VCC or GND 
+.................... ±75mA 
+Junction Temperature (3) ............................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Function Supply Voltage Range, VCC 
+.................. 
+4.5V to 5.5V 
+Input Voltage Range, VI ......................................... 
+0V to 5.5V 
+Output Voltage Range, VO ...................................... 0V to VCC
+ 
+Output Current, IO ......................................................... ±8mA 
+Input Transition Rise or Fall Rate, Δt/ΔV 
+VCC = 4.5V to 5.5V ......................................... 10ns/V (MAX) 
+Operating Temperature Range .................... -40℃ to +125℃ 
+OVERSTRESS CAUTION 
+1. Stresses beyond those listed in Absolute Maximum 
+Ratings may cause permanent damage to the device. 
+Exposure to absolute maximum rating conditions for 
+extended periods may affect reliability. Functional operation 
+of the device at any conditions beyond those indicated in the 
+Recommended Operating Conditions section is not implied. 
+2. The input and output negative voltage ratings may be 
+exceeded if the input and output clamp current ratings are 
+observed. 
+3. The performance capability of a high-performance integrated 
+circuit in conjunction with its thermal environment can create 
+junction temperatures which are detrimental to reliability. 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+
+Octal Buffer/Line Driver 
+74AHCT244 
+with 3-State Outputs 
+ 
+ 
+3 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+(TOP VIEW) 
+1
+2
+3
+4
+5
+1OE
+1A0
+2Y3
+2A3
+2OE
+1Y0
+6
+7
+2Y2
+1A1
+2A2
+1A2
+1Y2
+VCC
+8
+9
+10
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+2Y1
+1A3
+2Y0
+GND
+1Y1
+1Y3
+2A0
+2A1
+ 
+SOIC-20/TSSOP-20 
+ 
+PIN DESCRIPTION 
+PINS 
+NAME 
+FUNCTION 
+1, 19 
+1OE
+ത
+ത
+ത
+ത
+ത, 2OE
+ത
+ത
+ത
+ത
+ത 
+Output Enable Inputs (Active Low). 
+2, 4, 6, 8 
+1A0, 1A1, 1A2, 1A3 
+Data Inputs. 
+18, 16, 14, 12 
+1Y0, 1Y1, 1Y2, 1Y3 
+Data Outputs. 
+10 
+GND 
+Ground. 
+11, 13, 15, 17 
+2A0, 2A1, 2A2, 2A3 
+Data Inputs. 
+9, 7, 5, 3 
+2Y0, 2Y1, 2Y2, 2Y3 
+Data Outputs. 
+20 
+VCC 
+Supply Voltage. 
+ 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00181.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOIC-20 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+2.350 
+2.650 
+0.093 
+0.104 
+A1 
+0.100 
+0.300 
+0.004 
+0.012 
+A2 
+2.100 
+2.500 
+0.083 
+0.098 
+b 
+0.330 
+0.510 
+0.013 
+0.020 
+c 
+0.204 
+0.330 
+0.008 
+0.013 
+D 
+12.520 
+13.000 
+0.493 
+0.512 
+E 
+7.400 
+7.600 
+0.291 
+0.299 
+E1 
+10.210 
+10.610 
+0.402 
+0.418 
+e 
+1.27 BSC 
+0.050 BSC 
+L 
+0.400 
+1.270 
+0.016 
+0.050 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+e
+D
+E
+E1
+A2
+A1
+A
+b
+c
+L
+θ
+2.20
+1.27
+0.60
+9.61
+RECOMMENDED LAND PATTERN (Unit: mm)
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00021.002 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TSSOP-20 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+- 
+- 
+1.200 
+A1 
+0.050 
+- 
+0.150 
+A2 
+0.800 
+- 
+1.050 
+b 
+0.190 
+- 
+0.300 
+c 
+0.090 
+- 
+0.200 
+D 
+6.400 
+- 
+6.600 
+E 
+4.300 
+- 
+4.500 
+E1 
+6.200 
+- 
+6.600 
+e 
+0.650 BSC 
+L 
+0.450 
+- 
+0.750 
+H 
+0.250 TYP 
+θ 
+0° 
+- 
+8° 
+ccc 
+0.100 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+3. Reference JEDEC MO-153. 
+ 
+ 
+E1
+E
+e
+b
+A
+A1
+A2
+θ
+L
+H
+c
+D
+1.78
+0.65
+0.42
+RECOMMENDED LAND PATTERN (Unit: mm)
+5.94
+ccc C
+SEATING PLANE
+C
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+SOIC-20 
+13" 
+24.4 
+10.90 
+13.30 
+3.00 
+4.0 
+12.0 
+2.0 
+24.0 
+Q1 
+TSSOP-20 
+13″ 
+16.4 
+6.80 
+6.90 
+1.50 
+4.0 
+8.0 
+2.0 
+16.0 
+Q1 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

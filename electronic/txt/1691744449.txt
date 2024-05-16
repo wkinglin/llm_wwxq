@@ -1,0 +1,1549 @@
+ 
+ 
+SGM42403 
+Quad Low-side Driver IC 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+MAY 2023 – REV. A 
+GENERAL DESCRIPTION 
+The SGM42403 consists of four identical low-side 
+drivers with over-current protection. It has integrated 
+diodes to discharge the inductive load energy such as 
+unipolar stepper motors, DC motors, relays, solenoids 
+or other loads when output is turned off. 
+The SGM42403 can provide continuous output current 
+up to 1.5A (1-channel on) or 800mA/CH (4-channel on) 
+by the SOIC package at +25℃. And its continuous 
+output current capability is up to 2A (1-channel on) or 
+1A/CH (4-channel on) by the TSSOP package at 
++25℃. 
+The device has multiple protection functions, including 
+under-voltage lockout, over-current, short-circuit protection 
+and 
+thermal 
+shutdown. 
+Over-current 
+and 
+over- 
+temperature can be reported by the nFAULT pin. 
+The SGM42403 is available in Green SOIC-20 and 
+TSSOP-16 (Exposed Pad) packages. 
+ 
+ 
+SIMPLIFIED SCHEMATIC 
+8.5V to 50V
+Quad
+Low-side
+Driver with Fault 
+Protection and 
+Champ Diodes
+SGM42403
+nENBL/INx
+RESET
+nFAULT
+Controller
+1A
+1A
+M
+1A
+1A
+5
+VM
+VM
+ 
+ 
+Figure 1. Simplified Schematic 
+FEATURES 
+● Supply Voltage Range: 8.5V to 50V 
+● Quad Low-side Driver 
+ Four N-Channel MOSFETs 
+ Can be Paralleled for Higher Current Capability 
+ Integrated Diodes for Inductive Energy Discharge 
+● Continuous Output Current 
+SOIC-20 Package: 
+ 1.5A (1-Channel On) 
+ 800mA/CH (4-Channel On)  
+TSSOP-16 (Exposed Pad) Package: 
+ 2A (1-Channel On) 
+ 1A/CH (4-Channel On)  
+● Full Set of Protections 
+ Integrated Diodes for Inductive Energy Clamp 
+ Thermal Shutdown with Auto-Retry 
+ Overload Protection 
+ Short-Circuit Protection 
+ Under-Voltage Lockout 
+ 
+ 
+APPLICATIONS 
+Low-side Switch Applications 
+Unipolar Stepper Motor Drivers 
+Relay Drivers and Solenoid Drivers 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+SGM42403 
+Quad Low-side Driver IC 
+ 
+ 
+2 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM42403 
+TSSOP-16 
+(Exposed Pad) 
+-40℃ to +125℃ 
+SGM42403XPTS16G/TR 
+SGM42403 
+XPTS16 
+XXXXX 
+Tape and Reel, 4000  
+SOIC-20 
+-40℃ to +125℃ 
+SGM42403XS20G/TR 
+SGM42403XS20 
+XXXXX 
+Tape and Reel, 1500 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code. 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ABSOLUTE MAXIMUM RATINGS 
+Power Supply Voltage Range, VM 
+...................... -0.3V to 52V 
+Output Voltage, VOUTx ........................................ -0.3V to 52V 
+Output Clamp Voltage (1), VCLAMP ....................... -0.3V to 52V 
+Output Current, InFAULT ............................................... 
+< 20mA 
+Peak Clamp Diode Current 
+............................................. 
+< 2A 
+DC or RMS Clamp Diode Current 
+................................... 
+< 1A 
+Digital Input Pin Voltage ...................................... -0.3V to 6V 
+Digital Output Pin Voltage, VnFAULT ...................... -0.3V to 6V 
+Peak Motor Drive Output Current, t < 1μs... Internally Limited 
+Package Thermal Resistance 
+TSSOP-16 (Exposed Pad), θJA ............................... 36℃/W 
+SOIC-20, θJA ........................................................... 58℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+2500V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Power Supply Voltage Range, VM 
+........................ 
+8.5V to 50V 
+Output Clamp Voltage (1), VCLAMP ............................ 
+0V to 50V 
+Continuous Output Current, IOUTx 
+SOIC-20 at TA = +25℃ 
+1-Channel On 
+.............................................................. 
+1.5A 
+4-Channel On 
+.............................................................. 
+0.8A 
+TSSOP-16 (Exposed Pad) at TA = +25℃ 
+1-Channel On 
+................................................................. 
+2A 
+4-Channel On 
+................................................................. 
+1A 
+NOTE: 1. VCLAMP is not a power supply and is only used to 
+supply the power to clamp diodes. 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+
+ 
+SGM42403 
+Quad Low-side Driver IC 
+ 
+ 
+3 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+ (TOP VIEW) 
+(TOP VIEW) 
+nFAULT
+NC
+IN1
+IN2
+IN3
+VM
+OUT4
+OUT2
+OUT1
+VCLAMP
+OUT3
+1
+2
+3
+4
+5
+6
+7
+8
+RESET
+nENBL
+IN4
+GND
+GND
+9
+10
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+GND
+GND
+GND
+GND
+ 
+nFAULT
+NC
+IN1
+IN2
+IN3
+VM
+OUT4
+OUT2
+OUT1
+VCLAMP
+OUT3
+12
+13
+14
+15
+16
+1
+2
+3
+4
+5
+6
+7
+8
+11
+10
+9
+RESET
+nENBL
+IN4
+GND
+GND
+GND
+ 
+ SOIC-20 
+ TSSOP-16 (Exposed Pad) 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+TYPE 
+FUNCTION 
+SOIC-20 
+TSSOP-16 
+(Exposed Pad) 
+1 
+1 
+VM 
+- 
+Power Supply. 
+2 
+2 
+VCLAMP 
+- 
+Output Clamp Voltage. Tie to VM supply, or Zener diode to VM supply. 
+3 
+3 
+OUT1 
+O 
+Output 1 of the Device.  
+4 
+4 
+OUT2 
+O 
+Output 2 of the Device.  
+5, 6, 7, 14, 
+15, 16 
+5, 12 
+GND 
+- 
+Ground. 
+8 
+6 
+OUT3 
+O 
+Output 3 of the Device.  
+9 
+7 
+OUT4 
+O 
+Output 4 of the Device.  
+10 
+8 
+nENBL 
+I 
+Enable Input Pin. A low DC signal on this pin will enable the device, internal 
+pull-down. 
+11 
+9 
+RESET 
+I 
+Reset Input Pin. Logic high resets internal logic and over-current protection, 
+internal pull-down. 
+12 
+10 
+IN4 
+I 
+Channel 4 Input. Active high drives OUT4 to low, internal pull-down. 
+13 
+11 
+IN3 
+I 
+Channel 3 Input. Active high drives OUT3 to low, internal pull-down. 
+17 
+13 
+IN2 
+I 
+Channel 2 Input. Active high drives OUT2 to low, internal pull-down. 
+18 
+14 
+IN1 
+I 
+Channel 1 Input. Active high drives OUT1 to low, internal pull-down. 
+19 
+15 
+NC 
+- 
+No Connection. 
+20 
+16 
+nFAULT 
+OD 
+Fault Flag Pin. Pull this pin low when the over-temperature or over-current 
+occurs.  
+- 
+Exposed Pad 
+GND 
+- 
+Ground. 
+ 
+NOTE: I = input, O = output, OD = open-drain output. 
+ 
+ 
+ 
+
+ 
+SGM42403 
+Quad Low-side Driver IC 
+ 
+ 
+4 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VM = 24V, TJ = -40℃ to +125℃. Typical values are at TJ = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Power Supplies 
+Power Supply Voltage 
+VM 
+ 
+8.5 
+ 
+50 
+V 
+Power Supply Current 
+IVM 
+ 
+ 
+0.6 
+0.9 
+mA 
+Under-Voltage Lockout Voltage 
+VUVLO 
+VM rising 
+ 
+ 
+8.5 
+V 
+Logic Level Inputs (Schmitt Trigger Inputs with Hysteresis) 
+Input Logic Low Voltage 
+VIL 
+ 
+ 
+ 
+0.7 
+V 
+Input Logic High Voltage 
+VIH 
+ 
+2 
+ 
+ 
+V 
+Input Logic Hysteresis 
+VHYS 
+ 
+ 
+0.35 
+ 
+V 
+Input Logic Low Current 
+IIL 
+VIN = 0V 
+ 
+ 
+1 
+μA 
+Input Logic High Current 
+IIH 
+VIN = 3.3V 
+ 
+ 
+20 
+μA 
+Pull-Down Resistance 
+RPD 
+ 
+ 
+300 
+ 
+kΩ 
+nFAULT Output (Open-Drain Output) 
+Output Low Voltage 
+VOL 
+IO = 5mA 
+ 
+ 
+0.5 
+V 
+Output High Leakage Current 
+IOH 
+VO = 3.3V 
+ 
+ 
+1 
+μA 
+Low-side FETs 
+FET On-Resistance 
+RDSON 
+IO = 700mA 
+ 
+0.35 
+0.7 
+Ω 
+IO = 700mA, TJ = +85℃ 
+ 
+0.45 
+ 
+Off-State Leakage Current 
+IOFF1 
+VM = 50V 
+ 
+ 
+10 
+μA 
+High-side Diodes 
+Diode Forward Voltage 
+VF 
+IO = 700mA 
+ 
+1 
+ 
+V 
+Off-State Leakage Current 
+IOFF2 
+VM = 50V 
+ 
+ 
+1 
+μA 
+Outputs 
+Rise Time 
+tR 
+IO = 700mA, resistive load 
+ 
+ 
+200 
+ns 
+Fall Time 
+tF 
+IO = 700mA, resistive load 
+ 
+ 
+250 
+ns 
+Protection Circuits 
+Over-Current Protection Trip Level 
+IOCP 
+TJ = +25℃ 
+2 
+ 
+3.6 
+A 
+Over-Current Protection Deglitch Time 
+tOCP 
+ 
+ 
+3.5 
+ 
+µs 
+Over-Current Protection Retry Time 
+tRETRY 
+ 
+ 
+10 
+ 
+ms 
+Thermal Shutdown Temperature 
+TSD 
+Die temperature 
+ 
+160 
+ 
+℃ 
+ 
+ 
+ 
+ 
+
+ 
+SGM42403 
+Quad Low-side Driver IC 
+ 
+ 
+5 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TIMING PARAMETERS AND REQUIREMENTS 
+(VM = 24V, TJ = -40℃ to +125℃. Typical values are at TJ = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Enable Time 
+tnENBL 
+nENBL to output low 
+ 
+ 
+300 
+ns 
+Propagation Delay Time 
+tPD_L-H 
+INx to OUTx, low to high 
+ 
+ 
+450 
+ns 
+tPD_H-L 
+INx to OUTx, high to low 
+ 
+ 
+250 
+ns 
+RESET Pulse Width 
+tRESET 
+ 
+ 
+20 
+ 
+µs 
+ 
+nENBL
+INx
+OUTx
+tnENBL
+tPD_L-H
+tPD_H-L
+ 
+ 
+Figure 2. SGM42403 Timing Definition  
+ 
+FUNCTIONAL BLOCK DIAGRAM 
+TSD
+OCP
+& 
+Gate 
+Drive
+LDO
+Control 
+Logic
+VM
+nENBL
+RESET
+IN1
+IN2
+IN4
+IN3
+nFAULT
+OCP
+& 
+Gate 
+Drive
+VCLAMP
+OUT1
+OUT4
+Inductive Load
+Inductive Load
+(Optional Zener)
+GND
+(Multiple Pins)
+VM
+VM
+VM
+.
+.
+.
+.
+.
+.
+ 
+Figure 3. Block Diagram 
+ 
+
+ 
+SGM42403 
+Quad Low-side Driver IC 
+ 
+ 
+6 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+ 
+ 
+     Supply Current vs. Temperature 
+    Supply Current vs. Power Supply Voltage 
+ 
+ 
+   On-Resistance vs. Temperature 
+     On-Resistance vs. Power Supply Voltage 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+0.35
+0.43
+0.51
+0.59
+0.67
+0.75
+-50
+-25
+0
+25
+50
+75
+100
+125
+Supply Current (mA) 
+Temperature (℃) 
+VM = 8.2V 
+VM = 24V 
+VM = 30V 
+VM = 50V 
+ 
+ 
+ 
+0.35
+0.43
+0.51
+0.59
+0.67
+0.75
+8
+14
+20
+26
+32
+38
+44
+50
+Supply Current (mA) 
+Power Supply Voltage (V) 
+TJ = -40℃ 
+TJ = +25℃ 
+TJ = +85℃ 
+TJ = +125℃ 
+ 
+ 
+ 
+0.15
+0.23
+0.31
+0.39
+0.47
+0.55
+-50
+-25
+0
+25
+50
+75
+100
+125
+On-Resistance (Ω) 
+Temperature (℃) 
+VM = 8.2V 
+VM = 24V 
+VM = 50V 
+ 
+ 
+ 
+0.15
+0.23
+0.31
+0.39
+0.47
+0.55
+8
+14
+20
+26
+32
+38
+44
+50
+On-Resistance (Ω) 
+Power Supply Voltage (V) 
+TJ = -40℃ 
+TJ = +25℃ 
+TJ = +85℃ 
+TJ = +125℃ 
+ 
+ 
+ 
+
+ 
+SGM42403 
+Quad Low-side Driver IC 
+ 
+ 
+7 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+ 
+Current Ramp with a 16Ω, 1mH RL Load 
+ 
+ 
+ 
+Current Ramp with a 16Ω, 1mH RL Load 
+ 
+ 
+ 
+ 
+ 
+ 
+nENBL 
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT1 
+ 
+ 
+2V/div          500mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+nENBL 
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT1 
+ 
+       2V/div     500mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+OCP 
+ 
+ 
+ 
+OCP Separated by tRETRY 
+ 
+ 
+ 
+ 
+nENBL 
+ 
+ 
+ 
+VM 
+ 
+ 
+ 
+ 
+ 
+IOUT1 
+ 
+   2V/div   5V/div       5A/div 
+ 
+ 
+ 
+ 
+nENBL 
+ 
+ 
+ 
+VM 
+ 
+ 
+ 
+ 
+ 
+IOUT1 
+ 
+  2V/div   5V/div       5A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (2μs/div) 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VM = 8.2V 
+VM = 30V 
+VM = 8.2V 
+OUT1 Shorted to VM 
+VM = 8.2V 
+OUT1 Shorted to VM 
+
+ 
+SGM42403 
+Quad Low-side Driver IC 
+ 
+ 
+8 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL APPLICATION CIRCUIT 
+The SGM42403 drives one unipolar stepper motor. 
+nFAULT
+IN1
+IN2
+IN3
+VM
+OUT4
+OUT2
+OUT1
+VCLAMP
+OUT3
+RESET
+nENBL
+IN4
+GND
+GND
+GND
+GND
+GND
+GND
+M
+SGM42403
+VM
+0.1μF
+100μF +
++
++
+-
+-
+NC
+ 
+Figure 4. Typical Application Circuit 
+ 
+Design Requirements 
+Table 1 lists the design parameters for this design 
+example. 
+Table 1. Design Parameters 
+Design Parameter 
+Reference 
+Example Value 
+Supply Voltage 
+VM 
+24V 
+Motor Winding Resistance 
+RL 
+7.4Ω/phase 
+Motor Full Step Angle 
+θstep 
+1.8°/step 
+Motor Rated Current 
+IRATED 
+0.75A 
+PWM Frequency 
+fPWM 
+31.25kHz 
+ 
+Motor Voltage 
+The motor voltage used depends on the application 
+requirements. Higher voltage will generate more 
+current and torque, and using higher voltage can also 
+make the motor run faster than low voltage. 
+Drive Current 
+There is a current path from the power supply to the 
+motor winding and low-side MOSFET. For the power 
+dissipation on the MOSFET, please refer to calculation 
+below: 
+P = I2 × RDSON                (1) 
+For the TSSOP package, SGM42403 can support up to 
+2A (1-channel on) or 1A/channel (4-channel on 
+simultaneously) at +25℃, while the SOIC package can 
+support to 1.5A (1-channel on) or 800mA/channel 
+(4-channel on simultaneously). The max continuous 
+current depends on PCB 
+layout and 
+ambient 
+temperature. 
+ 
+ 
+ 
+ 
+
+ 
+SGM42403 
+Quad Low-side Driver IC 
+ 
+ 
+9 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION 
+Overview 
+The SGM42403 is a quad industrial low-side switch. 
+Each output is controlled by its individual input. And the 
+low-side MOSFET has a low RDSON of typically 350mΩ. 
+The four switches are pin controlled, allowing parallel 
+interface and high switching rates of over 100kHz on 
+each channel. The outputs are protected against 
+short-circuit and thermal overload.  
+ 
+Output Drivers 
+The SGM42403 integrates four low-side MOSFETs. 
+Each MOSFET is protected by its own over-current 
+protection circuit. And all the four outputs are 
+connected to VCLAMP pin through the integrated 
+diodes. The VCLAMP can be shorted to power supply 
+(VM pin) directly. Also, a Zener or TVS can be put 
+between VM and VCLAMP pins, this connection is used 
+when current fast decay is needed. However, if using 
+this connection, it is necessary to make sure that the 
+output voltage should not go beyond the maximum 
+rating of output pin. 
+ 
+Protection Circuits 
+The SGM42403 device is fully protected against 
+over-current, over-temperature and under-voltage events. 
+ 
+Over-Current Protection (OCP) 
+Each MOSFET is protected by its own over-current limit. 
+In case of an over-current (if the current limit lasts 
+longer than OCP deglitch time), all the four output 
+MOSFETs will be turned off, the nFAULT pin will be 
+driven low, and the device will retry after about 10ms. 
+ 
+Thermal Shutdown (TSD) 
+If a junction over-temperature occurs in the device, the 
+nFAULT pin will be driven low and all outputs are 
+shutdown. Once the temperature goes back to the safe 
+level, the device resumes its operation. 
+ 
+Under-Voltage Lockout (UVLO) 
+If the voltages on VM pin fall below under-voltage 
+lockout threshold, the device will be disabled, and 
+internal logic will be reset. Device resumes its operation 
+when VM goes back above its UVLO threshold. 
+ 
+Parallel Interface Operation 
+Paralleling the outputs is used for higher current 
+applications, please refer to SGM42403 control 
+interface in Figure 5. 
+ 
+nENBL
+IN1
+IN2
+IN4
+IN3
+OUT1
+OUT2
+OUT3
+OUT4
+ 
+ 
+Figure 5. Parallel Interface Operation 
+ 
+nENBL and RESET Operation 
+The nENBL pin is active low and is pulled down 
+internally. 
+The RESET pin is active high. If RESET pin is pulled to 
+high, the internal logic is reset, outputs are turned off, 
+and input control signal on INx pin is ignored. RESET 
+pin is pulled down internally. 
+ 
+ 
+ 
+ 
+ 
+ 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+Changes from Original (MAY 2023) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00024.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TSSOP-16 (Exposed Pad) 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+ 
+1.100 
+ 
+0.043 
+A1 
+0.050 
+0.150 
+0.002 
+0.006 
+A2 
+0.800 
+1.000 
+0.031 
+0.039 
+b 
+0.190 
+0.300 
+0.007 
+0.012 
+c 
+0.090 
+0.200 
+0.004 
+0.008 
+D 
+4.900 
+5.100 
+0.193 
+0.201 
+D1 
+2.900 
+3.100 
+0.114 
+0.122 
+E 
+4.300 
+4.500 
+0.169 
+0.177 
+E1 
+6.250 
+6.550 
+0.246 
+0.258 
+E2 
+2.200 
+2.400 
+0.087 
+0.094 
+e 
+0.650 BSC 
+0.026 BSC 
+L 
+0.500  
+0.700 
+0.02 
+0.028 
+H 
+0.25 TYP 
+0.01 TYP 
+θ 
+1° 
+7° 
+1° 
+7° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+E1
+E
+b
+e
+A
+A2
+A1
+c
+θ
+L
+H
+D
+E2
+D1
+2.3
+1.78
+0.65
+0.42
+RECOMMENDED LAND PATTERN (Unit: mm)
+3.0
+5.94
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00181.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOIC-20 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+2.350 
+2.650 
+0.093 
+0.104 
+A1 
+0.100 
+0.300 
+0.004 
+0.012 
+A2 
+2.100 
+2.500 
+0.083 
+0.098 
+b 
+0.330 
+0.510 
+0.013 
+0.020 
+c 
+0.204 
+0.330 
+0.008 
+0.013 
+D 
+12.520 
+13.000 
+0.493 
+0.512 
+E 
+7.400 
+7.600 
+0.291 
+0.299 
+E1 
+10.210 
+10.610 
+0.402 
+0.418 
+e 
+1.27 BSC 
+0.050 BSC 
+L 
+0.400 
+1.270 
+0.016 
+0.050 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+e
+D
+E
+E1
+A2
+A1
+A
+b
+c
+L
+θ
+2.20
+1.27
+0.60
+9.61
+RECOMMENDED LAND PATTERN (Unit: mm)
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TSSOP-16 
+(Exposed Pad) 
+13″ 
+12.4 
+6.80 
+5.40 
+1.50 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+SOIC-20 
+13″ 
+24.4 
+10.90 
+13.30 
+3.00 
+4.0 
+12.0 
+2.0 
+24.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

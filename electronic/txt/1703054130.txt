@@ -1,0 +1,662 @@
+ 
+SGM821 
+Nano-Power System Timer 
+with Watchdog Function 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DECEMBER2023–REV.A.1  
+GENERAL DESCRIPTION 
+The SGM821 is an ultra-low power and programmable 
+watchdog timer designed for system wake-up in 
+duty-cycled and battery-powered applications. 
+The SGM821 with programmable interrupt timer 
+consumes only 35nA (TYP) system current. Accordingly, 
+the system can be placed in sleeping mode, consuming 
+less power, and only returning to active mode when the 
+device is interrupted. The SGM821 is ideal for wireless 
+sensor applications or other applications with smaller 
+batteries compared to the μC that typically costs 
+micro-amps of total system current. The watchdog 
+timer of the SGM821 can be programmed by an 
+external resistor of 500Ω to 180kΩ. And it provides a 
+corresponding time interval from 100ms to 8200s (TYP). 
+The SGM821 is available in Green SOT-23-6 and 
+TDFN-2×2-6AL packages. It operates over a junction 
+temperature range of -40℃ to +105℃. 
+FEATURES 
+● Supply Voltage Range: 1.8V to 5.5V 
+● Low Current Consumption: 35nA (TYP) 
+● Programmable Watchdog Time: 
+100ms to 8200s (TYP) 
+● Manual Reset Input 
+● Available in Green SOT-23-6 and TDFN-2×2-6AL 
+Packages 
+ 
+ 
+APPLICATIONS 
+Low Power Systems 
+IoT 
+Tamper Detectors 
+Smart Home Controllers 
+Wireless Sensors 
+ 
+ 
+ 
+ 
+ 
+TYPICAL APPLICATION 
+ 
+SGM821
+Power 
+Management
+μC
+GND
+VIN
+VOUT
+Battery
+VDD
+GND
+DELAY/
+M_RST
+RP
+RSTn
+WAKE
+DONE
+RSTn
+GPIO
+GPIO
+GND
+VDD
+R1
+C1
+REXT
+ 
+Figure 1. Simplified Application Schematic 
+ 
+ 
+ 
+ 
+
+Nano-Power System Timer 
+SGM821 
+with Watchdog Function 
+ 
+ 
+2 
+ 
+DECEMBER 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM821 
+SOT-23-6 
+-40℃ to +105℃ 
+SGM821GN6G/TR 
+RCEXX 
+Tape and Reel,3000 
+TDFN-2×2-6AL 
+-40℃ to +105℃ 
+SGM821GTDI6G/TR 
+RCF 
+XXXX 
+Tape and Reel,3000 
+ 
+MARKING INFORMATION 
+NOTE: XX = Date Code. XXXX = Date Code and Trace Code. 
+SOT-23-6 
+TDFN-2×2-6AL 
+Date Code - Year 
+Date Code - Week 
+Serial Number
+YYY X X
+ 
+Date Code - Year
+Trace Code 
+Serial Number
+Y Y Y
+X
+X
+X
+X
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Supply Voltage, VCC 
+............................................. -0.3V to 6V 
+Input Voltage at Any Pin (1) ......................-0.3V to VCC + 0.3V 
+Package Thermal Resistance 
+SOT-23-6, θJA .......................................................... 215℃/W 
+TDFN-2×2-6AL, θJA 
+.................................................. 106℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Supply Voltage, VCC 
+............................................ 
+1.8V to 5.5V 
+Operating Junction Temperature Range 
+...... -40℃ to +105℃ 
+ 
+NOTE: 
+1. The voltage between any two pins is not allowed to be 
+greater than 6V. 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged by ESD if you don’t 
+pay attention to ESD protection. SGMICRO recommends that 
+all integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because very small parametric changes could cause the 
+device not to meet its published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+
+Nano-Power System Timer 
+SGM821 
+with Watchdog Function 
+ 
+ 
+3 
+ 
+DECEMBER 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+(TOP VIEW) 
+   (TOP VIEW) 
+3
+4
+6
+1
+2
+DONE
+VDD
+GND
+DELAY/
+M_RST
+RSTn
+5
+WAKE
+ 
+3
+2
+1
+4
+6
+5
+DELAY/
+M_RST
+VDD
+GND
+RSTn
+WAKE
+DONE
+GND
+ 
+SOT-23-6 
+TDFN-2×2-6AL 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+TYPE 
+FUNCTION 
+SOT-23-6 
+TDFN-2×2-6AL 
+1 
+6 
+VDD 
+P 
+Supply Voltage Pin. 
+2 
+5 
+GND 
+G 
+Ground. 
+3 
+4 
+DELAY/ 
+M_RST 
+I 
+One-Time External Resistance Detection and Manual Reset Pin. Resistor 
+connected between this pin and GND is used to set the watchdog timer. The 
+allowable external resistance ranges from 500Ω to180kΩ. This pin is also 
+used as an input manual reset pin, and pulling this pin up to VDD will issue 
+an RSTn signal. 
+4 
+3 
+DONE 
+I 
+Logic Watchdog Input Pin. Digital signal sent by the external system, 
+indicating that the WAKE signal is received. This pin is not allowed to be 
+floating. 
+5 
+2 
+WAKE 
+O 
+Watchdog output (Push-Pull) Pin. A pulse signal is sent at the end of the 
+programming time interval to wake up the external system. 
+6 
+1 
+RSTn 
+O 
+Reset Output (Open-Drain Output) Pin. Digital signal to RESET the external 
+system. A pull-up resistor is required. 
+— 
+Exposed Pad 
+GND 
+— 
+Connect the thermal pad to a large-area ground plane. The exposed pad is 
+internally connected to GND. 
+ 
+NOTE: I = Input, O = Output, G = Ground, P = Power. 
+ 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+TX00034.001 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOT-23-6 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+- 
+- 
+1.450 
+A1 
+0.000 
+- 
+0.150 
+A2 
+0.900 
+- 
+1.300 
+b 
+0.300 
+- 
+0.500 
+c 
+0.080 
+- 
+0.220 
+D 
+2.750 
+- 
+3.050 
+E 
+1.450 
+- 
+1.750 
+E1 
+2.600 
+- 
+3.000 
+e 
+0.950 BSC 
+e1 
+1.900 BSC 
+L 
+0.300 
+- 
+0.600 
+θ 
+0° 
+- 
+8° 
+ccc 
+0.100 
+ 
+NOTES: 
+1. This drawing is subject to change without notice. 
+2. The dimensions do not include mold flashes, protrusions or gate burrs. 
+3. Reference JEDEC MO-178. 
+ 
+ 
+E
+E1
+e
+e1
+b
+D
+A1
+A2
+c
+L
+θ
+0.25
+2.59
+0.99
+0.95
+0.69
+RECOMMENDED LAND PATTERN (Unit: mm)
+ccc C
+SEATING PLANE
+C
+A
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00132.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TDFN-2×2-6AL 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.700 
+0.800 
+0.028 
+0.031 
+A1 
+0.000 
+0.050 
+0.000 
+0.002 
+A2 
+0.203 REF 
+0.008 REF 
+D 
+1.900 
+2.100 
+0.075 
+0.083 
+D1 
+1.500 
+1.700 
+0.059 
+0.067 
+E 
+1.900 
+2.100 
+0.075 
+0.083 
+E1 
+0.900 
+1.100 
+0.035 
+0.043 
+b 
+0.250 
+0.350 
+0.010 
+0.014 
+e 
+0.650 BSC 
+0.026 BSC 
+L 
+0.174 
+0.326 
+0.007 
+0.013 
+ 
+ 
+ 
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+D
+E
+E1
+D1
+e
+N3
+N1
+N6
+A
+A2
+A1
+L
+0.30
+0.65
+1.00
+1.60
+0.55
+RECOMMENDED LAND PATTERN (Unit: mm)
+2.60
+b
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+SOT-23-6 
+7″ 
+9.5 
+3.17 
+3.23 
+1.37 
+4.0 
+4.0 
+2.0 
+8.0 
+Q3 
+TDFN-2×2-6AL 
+7″ 
+9.5 
+2.30 
+2.30 
+1.10 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 

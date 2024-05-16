@@ -1,0 +1,466 @@
+ 
+ 
+SGM13001B 
+Low Noise Amplifier for GNSS 
+ 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+MARCH 2023 – REV.A.1 
+GENERAL DESCRIPTION 
+The SGM13001B is a low noise amplifier (LNA) for 
+GLONASS, Galileo, Beidou and GPS applications. The 
+device delivers 18.3dB gain at an extremely low noise 
+figure of 0.9dB. It also features high gain and excellent 
+linearity performance that operates from 1550MHz to 
+1615MHz.  
+The device requires 6.5mA from a single 1.6V to 3.6V 
+supply, dropping to below 2.5μA in power down mode. 
+No external DC blocking capacitors are required on the 
+RF paths as long as no external DC voltage is applied, 
+which can save PCB area and cost. 
+The SGM13001B is available in a Green UTDFN- 
+1.1×0.9-6L package. 
+ 
+APPLICATIONS 
+Car Navigation 
+Personal Navigation Equipment 
+Mobile Phone with GPS 
+RF Front End Modules 
+Digital Video Camera, Digital Camera 
+ 
+FEATURES 
+● High Gain: 18.3dB at 1575.42MHz 
+● Low Noise Figure: 0.90dB at 1575.42MHz 
+● Low Operation Current: 6.5mA 
+● Current Less than 2.5μA in Power Down Mode 
+● Operating Frequency Range:  
+1550MHz to 1615MHz 
+● Single Supply Voltage Range: 1.6V to 3.6V 
+● Low Cost BOM 
+● Lead-Free and RoHS Compliant  
+● Available in a Green UTDFN-1.1×0.9-6L Package  
+ 
+BLOCK DIAGRAM 
+Bias
+GND
+RFOUT
+RFIN
+EN
+VDD
+GNDRF
+ 
+ 
+Figure 1. SGM13001B Block Diagram 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+SGM13001B 
+Low Noise Amplifier for GNSS 
+ 
+ 
+ 
+ 
+2 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM13001B 
+UTDFN-1.1×0.9-6L 
+-40℃ to +85℃ 
+SGM13001BYUER6G/TR 
+ZZ 
+Tape and Reel, 5000 
+ 
+MARKING INFORMATION 
+NOTE: Fixed character for ZZ. 
+Serial Number
+YY
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Supply Voltage, VDD 
+.......................................... -0.3V to 4.0V 
+EN to GND 
+........................................................ -0.3V to 4.0V 
+RFIN, RFOUT to GND ...................................... -0.3V to 0.3V 
+RF Input Power, PIN .................................................... 
+10dBm 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -55℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+CDM .............................................................................. 
+500V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Temperature Range ...................... -40℃ to +85℃ 
+Supply Voltage Range, VDD ................................ 
+1.6V to 3.6V 
+Operating Frequency Range, f0 .......... 
+1550MHz to 1615MHz 
+Control Voltage High, VCTL_H 
+.............................. 1.35V to VDD 
+Control Voltage Low, VCTL_L 
+................................. 
+0V to 0.45V 
+ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+ 
+
+ 
+SGM13001B 
+Low Noise Amplifier for GNSS 
+ 
+ 
+ 
+ 
+3 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+(TOP VIEW) 
+6
+EN
+2
+VDD
+5
+RFIN
+3
+RFOUT
+4
+GNDRF
+1
+GND
+ 
+UTDFN-1.1×0.9-6L 
+ 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1 
+GND 
+Analog Ground. 
+2 
+VDD 
+Power Supply. 
+3 
+RFOUT 
+LNA Output. 
+4 
+GNDRF 
+RF Ground. 
+5 
+RFIN 
+LNA Input from Antenna. 
+6 
+EN 
+Active High Enable Input for the Device. Pull high enable, pull low into power down mode. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00250.001 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+UTDFN-1.1×0.9-6L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.400 
+- 
+0.500 
+A1 
+0.000 
+- 
+0.050 
+b 
+0.150 
+- 
+0.250 
+D 
+1.000 
+- 
+1.200 
+E 
+0.800 
+- 
+1.000 
+e 
+0.400 BSC 
+e1 
+0.500 BSC 
+L 
+0.200 
+- 
+0.400 
+L1 
+0.000 
+- 
+0.100 
+eee 
+0.050 
+ 
+NOTE: This drawing is subject to change without notice.
+ 
+ 
+ 
+TOP VIEW
+BOTTOM VIEW
+RECOMMENDED LAND PATTERN (Unit: mm)
+SIDE VIEW
+PIN 1 #
+E
+N1
+N6
+b
+D
+L1
+0.40
+0.20
+L
+0.30
+A1
+e
+0.50
+e1
+A
+C
+SEATING PLANE
+eee C
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+UTDFN-1.1×0.9-6L 
+7″ 
+9.5 
+1.02 
+1.22 
+0.60 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 

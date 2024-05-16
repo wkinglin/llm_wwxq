@@ -1,0 +1,2704 @@
+ 
+ 
+SGM61450 
+4.5V to 42V Input, 5A Buck Converter 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+JULY 2023 – REV. A.3 
+GENERAL DESCRIPTION 
+The SGM61450 is a current mode controlled non- 
+synchronous Buck converter with 4.5V to 42V input 
+range and 5A continuous output current. A low RDSON 
+N-MOSFET is integrated as high-side switch. The 
+quiescent current is as low as 148μA. The shutdown 
+current drops to 2.75μA during shutdown (EN = low). The 
+internal under-voltage lockout (UVLO) threshold is 4.2V 
+and can be adjusted (increased) by an external resistor 
+divider. An internal soft-start circuit controls the output 
+voltage start-up ramp. Switching frequency can be 
+selected over a wide range (100kHz to 2500kHz) to 
+allow desired tradeoff among efficiency, component 
+sizes and conversion voltage ratio. Protection against 
+over-voltage transient is provided to limit the startup or 
+other transient overshoots. Secure operation in overload 
+conditions is ensured by cycle-by-cycle current limit, 
+frequency fold-back and thermal shutdown protection.  
+The SGM61450 is available in a Green SOIC-8 
+(Exposed Pad) package. 
+ 
+FEATURES 
+● 4.5V to 42V Input Voltage Range 
+● 0.8V to 36V Adjustable Output Voltage Range 
+● Integrated 68mΩ High-side MOSFET Supports up 
+to 5A Continuous Output Current 
+● Programmable Switching Frequency: 100kHz to 
+2500kHz 
+● Low Quiescent Current: 148μA (TYP) 
+● Low Shutdown Current: 2.75μA (TYP) 
+● Power-Save Mode for High Light Load Efficiency 
+● Frequency Synchronization to External Clock 
+● Programmable UVLO Threshold 
+● Over-Voltage Transient Protection 
+● Cycle-by-Cycle Current Limit 
+● Frequency Fold-Back Protection 
+● Integrated BOOT Recharge FET for Low Light 
+Load Dropout 
+● Thermal Shutdown (+176℃) 
+● Available in a Green SOIC-8 (Exposed Pad) 
+Package 
+ 
+APPLICATIONS 
+USB Dedicated Charging Ports 
+Industrial Power Supplies 
+Battery Chargers 
+TYPICAL APPLICATION 
+SGM61450
+VIN
+CIN
+VIN = 4.5V to 42V
+EN
+BOOT
+CBOOT
+L
+D
+COUT
+SW
+GND
+ROUT1
+FB
+ROUT2
+VOUT
+Exposed Pad
+COMP
+RT/CLK
+RT
+CCOMP1
+RCOMP
+CCOMP2
+ 
+ 
+Figure 1. Typical Application Circuit 
+ 
+
+ 
+SGM61450 
+4.5V to 42V Input, 5A Buck Converter 
+ 
+ 
+2 
+JULY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM61450 
+SOIC-8  
+(Exposed Pad) 
+-40℃ to +125℃ 
+SGM61450XPS8G/TR 
+SGM 
+61450XPS8 
+XXXXX 
+Tape and Reel, 4000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code. 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Input Voltages (Referred to GND Pin if not Specified) 
+VIN ................................................................. -0.3V to 45V 
+EN .................................................................. -0.3V to 45V 
+FB .................................................................... -0.3V to 3V 
+COMP .............................................................. -0.3V to 3V 
+RT/CLK ......................................................... -0.3V to 5.5V 
+Output Voltages 
+BOOT to SW .................................................................. 
+6V 
+SW to GND .................................................... -0.6V to 45V 
+SW to GND (10ns Transient) ............................ -3V to 45V 
+SW to GND (3ns Transient) .............................. -6V to 45V 
+Package Thermal Resistance 
+SOIC-8 (Exposed Pad), θJA ...................................... 40℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+2500V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Supply Input Voltage, VIN 
+..................................... 
+4.5V to 42V 
+Output Voltage, VO 
+............................................... 
+0.8V to 36V 
+Output Current, IO ..................................................... 
+0A to 5A 
+Operating Junction Temperature Range ....... 
+-40℃ to +125℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+
+ 
+SGM61450 
+4.5V to 42V Input, 5A Buck Converter 
+ 
+ 
+3 
+FEBRUARY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+(TOP VIEW) 
+Exposed
+Pad
+1
+4
+BOOT
+VIN
+EN
+RT/CLK
+FB
+COMP
+GND
+SW
+2
+3
+8
+5
+7
+6
+ 
+SOIC-8 (Exposed Pad) 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+I/O 
+FUNCTION 
+1 
+BOOT 
+P 
+Bootstrap Input (for N-MOSFET Gate Driver Supply Voltage). Connect this pin to SW pin with a 0.1μF 
+ceramic capacitor. The high-side MOSFET will be turned off if the BOOT capacitor voltage drops below 
+its BOOT-UVLO level to get the capacitor voltage refreshed. 
+2 
+VIN 
+P 
+Supply Input. Connect to a 4.5V to 42V power source. 
+3 
+EN 
+I 
+Active High Enable Input. Float or pull up to enable or pull down below 1.18V to disable the device. 
+Input UVLO threshold can be programmed using a resistor divider from VIN pin. 
+4 
+RT/CLK 
+I 
+Frequency Setting Resistor (RT) or External SYNC Clock Input Pin. The voltage on this pin is kept at a 
+constant level by an internal amplifier for setting frequency by the external RT resistor. If an external 
+clock signal is connected to this pin, it will act as a synchronization input and the switching frequency 
+will be synchronized to external clock. When the clock stops (no clock) and no fast transient edges are 
+detected, the internal amplifier will be enabled again and the pin returns to RT mode (resistor 
+frequency setting). 
+5 
+FB 
+I 
+Feedback Input. FB is the inverting input of the control loop transconductance (gm) error amplifier 
+(EA). It is used as the feedback input to sense and regulate VOUT. Connect a feedback resistor divider 
+tap to this pin. 
+6 
+COMP 
+O 
+EA Output (internally connected to the PWM comparator input). Place the compensation network 
+between COMP and GND pins. The EA output current is injected into this network to create the control 
+voltage (VCOMP). It will be compared with the compensated sensed current signal to generate the 
+switching pulses (set duty cycle). 
+7 
+GND 
+G 
+Ground Pin. 
+8 
+SW 
+P 
+Switching Node. It is connected to the source of the internal high-side switch. An external switching 
+power diode (catch diode) must be connected between this pin (cathode) and GND (anode) to 
+complete the Buck converter. 
+— 
+Exposed Pad 
+G 
+Exposed Pad. This pin must be connected directly to the GND pin and is intended for better device cooling 
+by providing a low thermal resistance path from junction to the PCB. 
+ 
+NOTE: I = input, O = output, G = ground, P = power. 
+ 
+ 
+ 
+
+ 
+SGM61450 
+4.5V to 42V Input, 5A Buck Converter 
+ 
+ 
+4 
+FEBRUARY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(TJ = -40℃ to +125℃, VIN = 4.5V to 42V, typical values are at TJ = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Supply Voltage (VIN Pin) 
+Operating Input Voltage 
+VIN 
+ 
+4.5 
+ 
+42 
+V 
+Under-Voltage Lockout Threshold 
+VUVLO 
+VIN rising 
+4.0 
+4.2 
+4.5 
+V 
+Under-Voltage Lockout Threshold Hysteresis 
+VUVLO_HYS 
+ 
+ 
+270 
+ 
+mV 
+Shutdown Current 
+ISD 
+TJ = +25℃, VEN = 0V  
+ 
+2.75 
+6.6 
+μA 
+Quiescent Current (No Switching) 
+IQ 
+TJ = +25℃, VFB = 0.9V 
+ 
+148 
+175 
+μA 
+Enable and UVLO (EN Pin) 
+Enable Threshold Voltage 
+VEN_TH 
+Rising and falling (there is no hysteresis) 
+1.1 
+1.18 
+1.3 
+V 
+EN Input Current (Negative Value Means 
+Current Going out of the IC) 
+IEN 
+Enable threshold +50mV (IEN2) 
+ 
+-4.8 
+ 
+μA 
+Enable threshold -50mV (IEN1) 
+-0.8 
+-1.3 
+-1.8 
+Internal Current Source Hysteresis Current 
+IEN_HYS 
+ 
+-2.7 
+-3.5 
+-4.1 
+μA 
+Voltage Reference 
+Internal Voltage Reference 
+VFB 
+ 
+0.789 
+0.8 
+0.824 
+V 
+High-side Internal MOSFET (High-side) 
+On-Resistance 
+RDSON 
+VIN = 12V, VBOOT - VSW = 5V 
+ 
+68 
+130 
+mΩ 
+Error Amplifier (EA) 
+Input Current (FB pin) 
+IIN 
+ 
+ 
+10 
+ 
+nA 
+Error Amplifier DC Voltage Gain 
+AEA 
+VFB = 0.8V 
+ 
+10000 
+ 
+V/V 
+Unity-Gain Bandwidth 
+ 
+ 
+ 
+2500 
+ 
+kHz 
+EA Amp Source/Sink Current 
+IEA 
+VFB = 0.7V/0.9V 
+ 
+±30 
+ 
+μA 
+SW Current to VCOMP Transconductance 
+gmps 
+ 
+ 
+14 
+ 
+A/V 
+Error Amplifier Transconductance (gm) 
+GEA 
+-2μA < ICOMP < 2μA, VCOMP = 1V 
+ 
+407 
+ 
+μs 
+Error Amplifier Transconductance (gm) 
+during Soft-Start 
+GEA_SS 
+-2μA < ICOMP < 2μA, VCOMP = 1V, VFB = 0.4V 
+ 
+77 
+ 
+μs 
+Switch Current Limit 
+Open-Loop Current-Limit (Directly Tested 
+and Measured at the SW Pin, Independent 
+of the Inductance or Slope Compensation) 
+ILIMT 
+VIN = 4.5V to 42V 
+6.2 
+8.0 
+9.95 
+A 
+VIN = 12V 
+6.2 
+8.0 
+9.95 
+TJ = +25℃, VIN = 12V  
+6.7 
+8.0 
+9.45 
+Thermal Shutdown 
+Thermal Shutdown 
+TSHDN 
+Temperature rising 
+ 
+176 
+ 
+℃ 
+Thermal Shutdown Hysteresis 
+THYS 
+ 
+ 
+20 
+ 
+℃ 
+Timing Resistor (RT) and External SYNC Clock (RT/CLK Pin) 
+Switching Frequency Range at RT Mode 
+fSW 
+ 
+100 
+ 
+2500 
+kHz 
+Switching Frequency Tolerance 
+fSW 
+RT = 200kΩ 
+450 
+500 
+550 
+kHz 
+SYNC Switching Frequency Range at CLK 
+Mode 
+fCLK 
+ 
+160 
+ 
+2300 
+kHz 
+SYNC Input Clock High Level 
+VSYNC_R 
+ 
+1.9 
+ 
+ 
+V 
+SYNC Input Clock Low Level 
+VSYNC_F 
+ 
+ 
+ 
+0.9 
+V 
+ 
+ 
+ 
+ 
+
+ 
+SGM61450 
+4.5V to 42V Input, 5A Buck Converter 
+ 
+ 
+5 
+FEBRUARY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TIMING PARAMETERS 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Enable and UVLO (EN Pin) 
+Device Enabled to COMP Active Delay 
+ 
+TJ = +25℃, VIN = 12V  
+ 
+340 
+ 
+µs 
+Internal Soft-Start Time 
+Soft-Start Time 
+tSS 
+fSW = 500kHz, 0 to 100% reference voltage 
+ 
+2.73 
+ 
+ms 
+fSW = 2500kHz, 0 to 100% reference voltage 
+ 
+0.546 
+ 
+ms 
+Current Limit 
+Current-Limit Threshold Delay 
+ 
+ 
+ 
+60 
+ 
+ns 
+Timing Resistor and External Clock (RT/CLK Pin) 
+Minimum CLK Input Pulse Width 
+tCLK_MIN 
+ 
+ 
+15 
+ 
+ns 
+RT/CLK Falling Edge to SW Rising Edge Delay 
+ 
+Measured at 500kHz with RT resistor in 
+connected 
+ 
+70 
+ 
+ns 
+PLL Lock in Time 
+tLOCK_IN 
+Measured at 500kHz 
+ 
+78 
+ 
+μs 
+ 
+ 
+
+ 
+SGM61450 
+4.5V to 42V Input, 5A Buck Converter 
+ 
+ 
+6 
+FEBRUARY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+TA = +25℃, VIN = 12V, VOUT = 3.3V, fSW = 420kHz, L = 5.5μH and COUT = 200μF, unless otherwise noted. 
+ 
+ 
+Load Transient 
+ 
+ 
+ 
+CCM Mode 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+500mV/div            2A/div 
+ 
+ 
+VOUT 
+ 
+ 
+VSW 
+ 
+ 
+ 
+IL 
+ 
+20mV/div 10V/div  2A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (200μs/div) 
+ 
+ 
+ 
+Time (2μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DCM Mode 
+ 
+ 
+ 
+PSM Mode 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+VSW 
+ 
+ 
+ 
+ 
+IL 
+ 
+20mV/div   10V/div    500mA/div 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+VSW 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+20mV/div     5V/div     500mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (2μs/div) 
+ 
+ 
+ 
+Time (5ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Startup by VIN 
+ 
+ 
+ 
+Startup by VIN 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+VIN 
+ 
+VSW 
+ 
+ 
+ 
+IL 
+ 
+2V/div  10V/div  10V/div   1A/div 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+VIN 
+ 
+VSW 
+ 
+ 
+ 
+IL 
+ 
+2V/div  10V/div  10V/div  5A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+ 
+AC Coupled 
+AC Coupled 
+AC Coupled 
+AC Coupled 
+IOUT = 0.5A to 5A, 2.5A/μs 
+IOUT = 5A 
+IOUT = 200mA 
+IOUT = 0A 
+IOUT = 0A 
+IOUT = 5A 
+
+ 
+SGM61450 
+4.5V to 42V Input, 5A Buck Converter 
+ 
+ 
+7 
+FEBRUARY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, VIN = 12V, VOUT = 3.3V, fSW = 420kHz, L = 5.5μH and COUT = 200μF, unless otherwise noted. 
+ 
+ 
+Startup by EN 
+ 
+ 
+ 
+Startup by EN 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+EN 
+ 
+VSW 
+ 
+ 
+ 
+IL 
+ 
+2V/div   2V/div  10V/div   1A/div 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+EN 
+ 
+VSW 
+ 
+ 
+ 
+IL 
+ 
+2V/div  2V/div  10V/div  5A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Shutdown by VIN 
+ 
+ 
+ 
+Shutdown by VIN 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+VSW 
+ 
+ 
+ 
+ 
+IL 
+ 
+    2V/div  10V/div  10V/div  1A/div 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+VSW 
+ 
+ 
+ 
+IL 
+ 
+    2V/div  10V/div  10V/div  5A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (50ms/div) 
+ 
+ 
+ 
+Time (50ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Shutdown by EN 
+ 
+ 
+ 
+Shutdown by EN 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+EN 
+ 
+ 
+ 
+ 
+VSW 
+ 
+ 
+ 
+IL 
+ 
+2V/div     2V/div 10V/div  1A/div 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+EN 
+ 
+ 
+ 
+ 
+VSW 
+ 
+ 
+IL 
+ 
+    2V/div   2V/div 10V/div  5A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (500ms/div) 
+ 
+ 
+ 
+Time (50μs/div) 
+ 
+ 
+IOUT = 0A 
+IOUT = 0A 
+IOUT = 0A 
+IOUT = 5A 
+IOUT = 5A 
+IOUT = 5A 
+
+ 
+SGM61450 
+4.5V to 42V Input, 5A Buck Converter 
+ 
+ 
+8 
+FEBRUARY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, VIN = 12V, fSW = 420kHz, L = 5.5μH and COUT = 200μF, unless otherwise noted. 
+ 
+    Quiescent Current vs. Input Voltage 
+     Quiescent Current vs. Junction Temperature 
+ 
+ 
+    Shutdown Current vs. Input Voltage 
+     Shutdown Current vs. Junction Temperature 
+ 
+ 
+    Switching Frequency vs. RT/CLK Resistance 
+    Current Limit vs. Junction Temperature 
+ 
+ 
+70
+90
+110
+130
+150
+170
+190
+210
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+Quiescent Current  (μA) 
+Input Voltage (V) 
+70
+90
+110
+130
+150
+170
+190
+210
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Quiescent Current  (μA) 
+Temperature (℃) 
+0
+2
+4
+6
+8
+10
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+Shutdown Current  (μA) 
+Input Voltage (V) 
+0
+2
+4
+6
+8
+10
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Shutdown Current  (μA) 
+Temperature (℃) 
+100
+500
+900
+1300
+1700
+2100
+2500
+0
+200
+400
+600
+800
+1000
+Switching Frequency (kHz) 
+RT/CLK Resistence (kΩ) 
+6.5
+6.9
+7.3
+7.7
+8.1
+8.5
+8.9
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Current Limit (A) 
+Temperature (℃) 
+
+ 
+SGM61450 
+4.5V to 42V Input, 5A Buck Converter 
+ 
+ 
+9 
+FEBRUARY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, VIN = 12V, fSW = 420kHz, L = 5.5μH and COUT = 200μF, unless otherwise noted. 
+ 
+     UVLO Rising vs. Junction Temperature  
+    UVLO Hysteresis vs. Junction Temperature 
+ 
+ 
+    Efficiency vs. Output Current 
+    Load Regulation vs. Output Current 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4.00
+4.05
+4.10
+4.15
+4.20
+4.25
+4.30
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+UVLO Rising (V) 
+Temperature (℃) 
+200
+220
+240
+260
+280
+300
+320
+340
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Input UVLO Hysteresis (mV) 
+Temperature (℃) 
+0
+20
+40
+60
+80
+100
+0.001
+0.01
+0.1
+1
+10
+Efficiency (%) 
+Output Current (A) 
+— VIN = 5V 
+— VIN = 12V 
+— VIN = 24V 
+— VIN = 36V 
+— VIN = 42V 
+VOUT = 3.3V 
+-0.5
+-0.3
+-0.1
+0.1
+0.3
+0.5
+0
+1
+2
+3
+4
+5
+Load Regulation (%) 
+Output Current (A) 
+— VIN = 5V 
+— VIN = 12V 
+— VIN = 24V 
+— VIN = 36V 
+— VIN = 42V 
+VOUT = 3.3V 
+
+ 
+SGM61450 
+4.5V to 42V Input, 5A Buck Converter 
+ 
+ 
+10 
+FEBRUARY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAM 
+EN
+1.3μA
+3.5μA
+1.18V
+Voltage
+Reference
+OVP
+FB
+Soft-Start
+Discharge
+Logic
+Shutdown
+PSM Mode
+COMP
+Maximum
+Clamp
+PWM
+Control
+UVLO & Thermal
+Shutdown Logic
+Oscillator
+& Slope
+Shutdown
+R
+S
+Q
+Boot Bias
+Boot
+UVLO
+VIN
+BOOT
+SW
+Frequency
+Fold-back
+VFB
+GND
+RT/CLK
++
++
++
++
++
++
++
+SGM61450
+ 
+Figure 2. Block Diagram 
+ 
+ 
+
+ 
+SGM61450 
+4.5V to 42V Input, 5A Buck Converter 
+ 
+ 
+11 
+FEBRUARY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION 
+Overview 
+The SGM61450 is a 42V Buck converter with integrated 
+N-MOSFET power switch and 5A continuous output 
+current capability. Using peak current mode control and 
+operating at fixed PWM frequency, this device provides 
+good line and load transient responses with reduced 
+output capacitance. 
+The minimum operating input voltage of the device is 
+4.5V. The output voltage can be set down to 0.8V 
+(reference voltage). The quiescent current is 148μA 
+and shutdown current drops to 2.75μA during shutdown 
+(EN = low). The low RDSON (68mΩ) high-side switch 
+allows high operating efficiency. 
+The EN pin is internally pulled up by a current source 
+that can keep the device enable if EN is floating. It can 
+also be used to increase the input UVLO threshold 
+using a resistor divider.  
+This device can operate with duty cycles close to 100% 
+using the automated internal CBOOT recharge circuit. 
+This feature allows setting the VOUT very close to the 
+VIN. 
+The internal phase-locked loop (PLL) synchronizes to 
+the RT/CLK pin so that the high-side switch turn-on 
+time is synchronized to the input clock falling edges. 
+Over-voltage protection (OVP) circuit is designed to 
+minimum the output over-voltage transients. When this 
+comparator detects an OVP (VFB > 109% × VREF), the 
+switch is kept off until the output falls below 106% of the 
+VREF. 
+The output voltage ramps up slowly during start-up with 
+slow increasing of the PWM reference voltage by the 
+integrated soft-start circuit. Soft-start is necessary to 
+limit the inrush current, output voltage overshoot and to 
+avoid potential over-current hiccups during power-up. 
+Any recovery from shutdown state begins with a soft-start. 
+Light load efficiency is enhanced by a special power-save 
+mode that is activated when the peak inductor current 
+falls below 690mA (TYP). 
+During startup and over-current, the frequency is reduced 
+(frequency fold-back) to allow easy maintenance of low 
+inductor current. The thermal shutdown provides an 
+additional protection in fault conditions. 
+ 
+Minimum Input Voltage (4.5V) and UVLO 
+The recommended minimum operating input voltage is 
+4.5V. The device may operate with lower voltages that 
+are above the input UVLO threshold (4.2V TYP). If VIN 
+falls below its falling UVLO threshold, the device will 
+stop switching. 
+ 
+Enable Input and UVLO Adjustment 
+The device will be enabled if VIN exceeds 4.2V and EN 
+voltage is above 1.18V. The device will be disabled if 
+the EN voltage is externally pulled low or the VIN pin 
+voltage falls below its UVLO threshold. When the EN 
+pin is floating, an internal pull-up current source keeps 
+the EN pin voltage at high state that enables the 
+device. 
+If an application requires a higher input UVLO threshold, 
+an external input UVLO adjustment circuit (resistor 
+divider) is recommended in Figure 3. Figure 3 shows 
+how UVLO and hysteresis are increased using REN1 
+and REN2. A 3.5μA additional current is injected to the 
+divider when EN pin voltage exceeds 1.18V to provide 
+hysteresis. When the EN pin voltage falls below 1.18V, 
+the 3.5μA additional current is removed. Use Equations 
+1 and 2 to calculate these resistors. VSTART is the input 
+start (turn-on) threshold voltage and VSTOP is the input 
+stop (turn-off) threshold voltage. 
+=
+START
+STOP
+EN1
+V
+- V
+R
+3.5μA
+                  (1) 
+              (2) 
+EN
+1.3µA
+3.5µA
+1.18V
+VIN
+REN1
+REN2
++
+ 
+ 
+Figure 3. Input UVLO Adjustment 
+ 
+ 
+ 
+EN
+EN2
+START
+EN
+EN1
+V
+R
+= V
+-V
++1.3
+R
+μA
+
+ 
+SGM61450 
+4.5V to 42V Input, 5A Buck Converter 
+ 
+ 
+12 
+FEBRUARY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Switching Frequency and Timing Resistor 
+(RT/CLK Pin) 
+The switching frequency can be set from 100kHz to 
+2500kHz by a timing resistor (RT) placed between the 
+RT/CLK and GND pins. There is an internal bias 
+voltage (0.5V TYP) on the RT/CLK pin during the RT 
+mode and must have a resistor to ground to set the 
+switching frequency. Use Equation 3 to find the RT 
+resistance for any desired switching frequency (fSW). 
+(
+)
+(
+)
+=
+SW
+0.985
+T
+92417
+f
+kHz
+R
+kΩ
+             (3) 
+ 
+Synchronization to RT/CLK Pin 
+The internal oscillator can synchronize to an external 
+logic clock source applied to the RT/CLK pin (see 
+Figure 4) in the 160kHz to 2300kHz range. The SW 
+rising edge (high-side switch turn-on) is synchronized 
+to the external logic clock falling edge. The external 
+logic clock low and high levels must be less than 0.9V 
+and more than 1.9V and have a pulse width larger than 
+15ns. So, when the external logic clock source is off, 
+the DC resistance (RT) between RT/CLK pin and GND 
+determines the default switching frequency (fCLK).  
+SGM61450
+RT/CLK
+RT
+Logic Clock Source
+ 
+Figure 4. Synchronization to External Clock 
+ 
+Low Dropout Operation and Bootstrap 
+Voltage (BOOT Pin) 
+An internal regulator provides the bias voltage for gate 
+driver using a 0.1μF ceramic capacitor. X5R or better 
+dielectric types are recommended. The BOOT capacitor 
+is refreshed when the high-side switch is off and the 
+external low-side diode conducts. 
+The SGM61450 operates at maximum duty cycle when 
+input voltage is closed to output voltage as long as the 
+bootstrap voltage (VBOOT - VSW) is greater than its UVLO 
+threshold (2.6V). If the bootstrap voltage drops below 
+2.1V, the high-side switch will be temporarily turned off 
+and an integrated small MOSFET at low-side will pull 
+the SW voltage low to recharge CBOOT. After the 
+recharge, the high-side switch is turned on again to 
+regulate the output. To reduce the losses of the 
+integrated small low-side MOSFET at high output 
+voltages, the function of CBOOT refreshed  is disabled 
+when output voltage is over 24V and re-enabled when 
+output voltage reaches 21.5V. 
+Because the small gate current sourced from CBOOT, 
+the high-side switch can remain on for many switching 
+cycles before the switch is turned off to recharge the 
+CBOOT. Thus, this will effectively increase the SGM61450 
+switching duty cycle, approaching 100%. 
+ 
+Internal Soft-Start 
+During each startup, a digital soft-start gradually ramps 
+the regulation reference from 0V to 0.8V in 1365 switching 
+cycles. The soft-start time is given in Equation 4. 
+(
+)
+(
+)
+=
+SS
+SW
+1365
+t
+ms
+f
+kHz
+                 (4) 
+Each time the SGM61450 is disabled, for example after 
+a thermal shutdown or when the EN voltage falls below 
+1.18V, the device stops switching and resets the soft-start 
+timer. 
+ 
+Error Amplifier (EA) 
+This SGM61450 uses a transconductance amplifier to 
+compare the sensed output voltage (VFB) and the 
+internal reference as error amplifier (EA). The gain of 
+EA amplifier in normal operation is 407μA/V. The output 
+current is injected into the frequency compensation 
+network (between COMP and GND pins) to produce 
+the control signal (VCOMP) for the PWM comparator. 
+ 
+ 
+
+ 
+SGM61450 
+4.5V to 42V Input, 5A Buck Converter 
+ 
+ 
+13 
+FEBRUARY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Slope Compensation 
+Without implementing some slope compensation, the 
+PWM pulse widths will be unstable and oscillatory at 
+duty cycles above 50%. To avoid sub-harmonic oscillations 
+in this device, an internal compensation ramp is added 
+to the measured high-side switch current before 
+comparing it with the control signal by the PWM 
+comparator. 
+ 
+Power-Save Mode 
+To reduce light load loss and increase the efficiency, 
+power-save mode (PSM) feature is included in the 
+SGM61450. When the peak inductor current is below 
+PSM current threshold, the corresponding COMP pin 
+voltage (VCOMP) will be lower than 600mV. The device 
+will enter PSM in such conditions. 
+In PSM, VCOMP is internally clamped at 600mV that 
+inhibits the high-side MOSFET switching. The device 
+can exit PSM if VCOMP rises above the clamp level and 
+the peak inductor current exceeds current threshold. 
+During PSM operation, the peak inductor current is the 
+sensed parameter for entering the PSM, the actual load 
+current (DC) threshold for PSM will depend on the 
+output filter. 
+ 
+Over-Current and Frequency Fold-Back 
+Protections 
+Over-current protection (OCP) is naturally provided by 
+current mode control. In each cycle, the high-side 
+current sensing starts a short time (blanking time) after 
+the high-side switch is turned on. The sensed high-side 
+switch current is continuously compared with the 
+current limit threshold and when the high-side current 
+reaches to that threshold, the high-side switch is turned 
+off. If the output is overloaded, VOUT drops and VCOMP is 
+increased by EA to compensate that. However, the EA 
+output (VCOMP) is clamped to a maximum value. By 
+limiting the VCOMP (maximum peak current), the output 
+current can actually be limited precisely. 
+The natural OCP of the peak current mode control may 
+not be able to provide a complete protection when an 
+output short-circuit occurs and an extra protection 
+mechanism for short-circuit is needed. In a short-circuit 
+event, the inductor current can significantly exceed the 
+peak current limit threshold at high input voltage 
+because the switch cannot be turned off as fast as 
+needed due to the limited minimum on-time. During the 
+output short, the inductor current decreases slowly 
+because a small negative diode forward voltage 
+appears across the inductor during the off-time, as a 
+result the inductor current cannot be reset. In these 
+conditions, current can saturate the inductor and the 
+current may even increase higher until the device is 
+damaged. In the SGM61450, this problem is effectively 
+solved by increasing the off-time during short-circuit by 
+reducing the switching frequency (frequency fold-back). 
+As the output voltage drops and the FB pin voltage falls 
+from 0.8V to 0V, the frequency will be divided by 1, 2, 4 
+and 8. 
+ 
+Over-Voltage Protection 
+When an overload or an output fault condition is 
+removed, large overshoots may occur on the output. 
+The SGM61450 includes over-voltage protection (OVP) 
+circuit to reduce such over-voltage transients. If the FB 
+pin voltage exceeds 109% of the VREF threshold, the 
+high-side MOSFET is turned off. When it returns below 
+106% of the VREF threshold, the high-side MOSFET is 
+released again. 
+ 
+Thermal Shutdown (TSD) 
+If the junction temperature (TJ) exceeds +176℃, the 
+TSD protection circuit will stop switching to protect the 
+device from overheating. The device will automatically 
+restart with a power up sequence when the junction 
+temperature drops below +156℃. 
+ 
+ 
+
+ 
+SGM61450 
+4.5V to 42V Input, 5A Buck Converter 
+ 
+ 
+14 
+FEBRUARY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+A typical application circuit for the SGM61450 as a Buck converter is shown in Figure 5. It is used for converting a 
+6V to 42V supply voltage to a lower voltage level supply voltage (3.3V) suitable for the system. 
+ 
+Typical Application 
+SGM61450
+VIN
+R1
+365kΩ 
+R2
+88.7kΩ 
+C4
+4.7μF
+VIN = 6V to 42V
+EN
+BOOT
+C8
+0.1μF
+R5
+0Ω 
+L
+5.5μH
+D
+C9
+100μF
+SW
+GND
+R6
+31.6kΩ 
+FB
+R7
+10.2kΩ 
+VOUT = 3.3V
+IOUT = 5A (MAX)
+Exposed Pad
+COMP
+RT/CLK
+R4
+243kΩ 
+C6
+4.7nF
+R3
+16.9kΩ 
+C7
+47pF
+C3
+4.7μF
+C2
+4.7μF
+C1
+4.7μF
+C10
+100μF
+C5
+0.22μF
+ 
+ 
+Figure 5. 3.3V Output SGM61450 Design Example 
+ 
+Design Requirements 
+The design parameters given in Table 1 are used for 
+this design example. 
+Table 1. Design Parameters 
+Design Parameters 
+Example Values 
+Input Voltage 
+6V to 42V  
+(12V TYP) 
+Start Input Voltage-Rising VIN (VSTART) 
+5.55V 
+Stop Input Voltage-Falling VIN (VSTOP) 
+4.27V 
+Input Ripple Voltage 
+420mV 
+Output Voltage (VOUT) 
+3.3V 
+Output Voltage Ripple (VRIPPLE) 
+1% of VOUT 
+Maximum Output Current (IOUT) 
+5A 
+Transient Response (ΔVOUT) 
+25% - 75% Load Steps 
+4% 
+Operation Frequency 
+420kHz 
+ 
+Switching Frequency Selection 
+Several parameters such as losses, inductor and 
+capacitors sizes and response time are considered in 
+selection of the switching frequency. Higher frequency 
+increases the switching and gate charge losses. Lower 
+frequency requires larger inductance and capacitances, 
+and results in larger overall physical size and higher 
+cost. Therefore, a tradeoff is needed between losses 
+and component size. If the application is noise-sensitive 
+to a frequency range, the frequency should be selected 
+out of that range. 
+For this design, a lower switching frequency of 420kHz 
+is chosen and a 243kΩ resistor can be chosen for R4 
+according to Equation 3. 
+ 
+Input Capacitor Design 
+A high-quality ceramic capacitor (X5R or X7R or better 
+dielectric grade) must be used for input decoupling of 
+the SGM61450. At least 3μF of effective capacitance 
+(after deratings) is needed on the VIN input. In some 
+applications additional bulk capacitance may also be 
+required for the VIN input, for example, when the 
+SGM61450 is more than 5cm away from the input 
+source. The VIN capacitor ripple current rating must 
+also be greater than the maximum input current ripple. 
+The input current ripple can be calculated using 
+Equation 5 and the maximum value occurs at 50% duty 
+cycle. Using the design example values, IOUT = 5A, 
+yields an RMS input ripple current of 2.5A. 
+(
+)
+=
+×
+×
+=
+×
+×
+−
+IN
+OUT
+OUT
+CIN _RMS
+OUT
+OUT
+IN
+IN
+V - V
+V
+I
+I
+I
+D
+(1 D)
+V
+V
+ (5) 
+ 
+ 
+ 
+
+ 
+SGM61450 
+4.5V to 42V Input, 5A Buck Converter 
+ 
+ 
+15 
+FEBRUARY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+In this example, four 4.7μF/50V, X7R capacitors are 
+used to cover capacitance deratings due to the 
+operating DC voltage (42V MAX), aging and high ambient 
+temperature. The input capacitance determines the 
+regulator input voltage ripple. This ripple can be 
+calculated from Equation 6. In this example, the total 
+effective capacitance of the four 4.7µF/50V capacitors 
+is around 7.4µF at 12V input, and the input voltage 
+ripple is 420mV. 
+×
+×
+−
+=
+×
+OUT
+IN
+IN
+SW
+I
+D
+(1 D)
+ΔV
+C
+f
+               (6) 
+It is recommended to place an additional small size 
+0.22μF ceramic capacitor right beside VIN and GND 
+pins (anode of the diode) for high frequency filtering. 
+ 
+Inductor Design 
+Equation 7 is conventionally used to calculate the 
+output inductance of a Buck converter. Generally, a 
+smaller inductor is preferred to allow larger bandwidth 
+and smaller size. The ratio of inductor current ripple (∆IL) 
+to the maximum output current (IOUT) is represented as 
+KIND factor (∆IL/IOUT). The inductor ripple current is 
+bypassed and filtered by the output capacitor and the 
+inductor DC current is passed to the output. Inductor 
+ripple is selected based on a few considerations. The 
+peak inductor current (IOUT + ∆IL/2) must have a safe 
+margin from the saturation current of the inductor in the 
+worst-case conditions especially if a hard-saturation 
+core type inductor (such as ferrite) is chosen. For peak 
+current mode converter, selecting an inductor with 
+saturation current above the switch current limit is 
+sufficient. The ripple current also affects the selection of 
+the output capacitor. COUT RMS current rating must be 
+higher than the inductor RMS ripple. Typically, a 20% to 
+40% ripple is selected (KIND = 0.2 ~ 0.4). Choosing a 
+higher KIND value reduces the selected inductance, but 
+a too high KIND factor may result in insufficient slope 
+compensation. 
+=
+×
+×
+×
+IN_MAX
+OUT
+OUT
+OUT
+IND
+IN_MAX
+SW
+V
+- V
+V
+L
+I
+K
+V
+f
+       (7) 
+KIND = 0.3 is a suitable choice when low-ESR ceramic 
+capacitors are used for output capacitors. KIND = 0.2 is 
+preferred when a high-ESR output capacitor is used. In 
+this example, the calculated inductance will be 4.9μH 
+with KIND = 0.3, so the nearest larger inductance of 
+5.5μH is selected. The ripple, RMS and peak inductor 
+current calculations are summarized in Equations 8, 9 
+and 10 respectively. 
+=
+×
+×
+IN_MAX
+OUT
+OUT
+L
+IN_MAX
+SW
+V
+- V
+V
+ΔI
+L
+V
+f
+       (8) 
+=
++
+2
+2
+L
+L _RMS
+OUT
+ΔI
+I
+I
+12
+              (9) 
+=
++
+L
+L _PEAK
+OUT
+ΔI
+I
+I
+2
+             (10) 
+Note that during startup, load transients or fault 
+conditions, the peak inductor current may exceed the 
+calculated IL_PEAK. Therefore it is always safer to choose 
+the inductor saturation current higher than the switch 
+current limit. 
+ 
+External Diode  
+An external power diode between the SW and GND 
+pins is needed by the SGM61450 to complete the 
+converter. This diode must tolerate the application’s 
+absolute maximum ratings. The reverse blocking 
+voltage must be higher than VIN_MAX and its peak 
+current must be above the maximum inductor current. 
+Choose a diode with small forward voltage drop for 
+higher efficiency. Typically, diodes with higher voltage 
+and current ratings have higher forward voltages. A 
+diode with a minimum of 42V reverse voltage is 
+preferred to allow input voltage transients up to the 
+rated voltage of the SGM61450. 
+ 
+ 
+ 
+
+ 
+SGM61450 
+4.5V to 42V Input, 5A Buck Converter 
+ 
+ 
+16 
+FEBRUARY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+Output Capacitor 
+Three primary criteria must be considered for design of 
+the output capacitor (COUT):  
+1. The converter pole location. 
+2. The output voltage ripple. 
+3. The transient response to a large change in load 
+current. 
+The selected value must satisfy all of them. The desired 
+transient response is usually expressed as maximum 
+overshoot, maximum undershoot, or maximum recovery 
+time of VOUT in response to a large load step. Transient 
+response is usually the more stringent criteria in low 
+output voltage applications. The output capacitor must 
+provide the increased load current or absorb the excess 
+inductor current (when the load current steps down) 
+until the control loop can re-adjust the current of the 
+inductor to the new load level. Typically, it requires two 
+or more cycles for the loop to detect the output change 
+and respond (change the duty cycle). Another 
+requirement may also be expressed as desired hold-up 
+time in which the output capacitor must hold the output 
+voltage above a certain level for a specified period if the 
+input power is removed. It may also be expressed as 
+the maximum output voltage drop or rise when the full 
+load is connected or disconnected (100% load step). 
+Equation 11 can be used to calculate the minimum 
+output capacitance that is needed to supply a current 
+step (ΔIOUT) for at least 2 cycles until the control loop 
+responds to the load change with a maximum allowed 
+output transient of ΔVOUT (overshoot or undershoot). 
+×
+>
+×
+OUT
+OUT
+SW
+OUT
+2
+ΔI
+C
+f
+ΔV
+             (11) 
+where: 
+ΔIOUT is the change in output current. 
+ΔVOUT is the allowable change in the output voltage. 
+For example, if the acceptable transient from 1.25A to 
+3.75A load step is 4%, by inserting ΔVOUT = 0.04 × 3.3V 
+= 0.132V and ΔIOUT = 2.5A, the minimum required 
+capacitance will be 95μF. Note that the impact of output 
+capacitor ESR on the transient is not taken into account 
+in Equation 11. For ceramic capacitors, the ESR is 
+generally small enough to ignore its impact on the 
+calculation of ΔVOUT transient. However, for aluminum 
+electrolytic and tantalum capacitors, or high current 
+power supplies, the ESR contribution to ΔVOUT must be 
+considered. 
+When the load steps down, the excess inductor current 
+will charge the capacitor and the output voltage will 
+overshoot. The catch diode current cannot discharge 
+COUT, so COUT must be large enough as given in 
+Equation 12 to absorb the excess inductor energy with 
+limited over-voltage. The excess energy absorbed in the 
+output capacitor increases the voltage on the capacitor. 
+The capacitor must be sized to maintain the desired 
+output voltage during these transient periods. Equation 
+12 calculates the minimum capacitance required to keep 
+the output-voltage overshoot to a desired value. 
+>
+×
++
+−
+2
+2
+OUT _H
+OUT _L
+OUT
+2
+2
+OUT
+OUT
+OUT
+I
+-I
+C
+L
+(V
+Δ V
+)
+V
+       (12) 
+where: 
+IOUT_H is the high level of the current step. 
+IOUT_L is the low level of the current step. 
+For example, if the acceptable transient from 3.75A to 
+1.25A load step is 4%, by inserting ΔVOUT = 0.04 × 
+3.3V = 0.132V, the minimum required capacitance will 
+be 77.4μF. 
+Equation 13 can be used for the output ripple criteria 
+and finding the minimum output capacitance needed. 
+VOUT_RIPPLE is the maximum acceptable ripple. In this 
+example, the allowed ripple is 33mV that results in 
+minimum capacitance of 13.5μF. 
+>
+×
+×
+L
+OUT
+SW
+OUT _RIPPLE
+ΔI
+C
+8
+f
+V
+           (13) 
+Note that the impact of output capacitor ESR on the 
+ripple is not considered in Equation 13. For a specific 
+output capacitance value, use Equation 14 to 
+calculate the maximum acceptable ESR of the output 
+capacitor to meet the output voltage ripple requirement. 
+<
+−
+×
+×
+OUT _RIPPLE
+COUT
+L
+SW
+OUT
+V
+1
+ESR
+ΔI
+8
+f
+C
+      (14) 
+ 
+ 
+ 
+ 
+ 
+
+ 
+SGM61450 
+4.5V to 42V Input, 5A Buck Converter 
+ 
+ 
+17 
+FEBRUARY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+Higher nominal capacitance value must be chosen due 
+to aging, temperature, and DC bias derating of the 
+output capacitors. In this example, 2 × 100μF/10V X5R 
+ceramic capacitors with 2mΩ of ESR are used. The 
+amount of ripple current that a capacitor can handle 
+without damage or overheating is limited. The inductor 
+ripple is bypassed through the output capacitor. 
+Equation 15 calculates the RMS current that the output 
+capacitor must support. In this example, it is 380mA. 
+(
+)
+×
+=
+×
+×
+×
+OUT
+IN _MAX
+OUT
+COUT_RMS
+IN _MAX
+SW
+V
+V
+- V
+I
+12
+V
+L
+f
+          (15) 
+ 
+Bootstrap Capacitor Selection 
+Use a 0.1μF high-quality ceramic capacitor (X7R or 
+X5R) with 10V or higher voltage rating for the bootstrap 
+capacitor (C8). A 5Ω to 10Ω resistor (R5) can be added 
+in series with C8 to slow down switch-on speed of the 
+high-side switch and reduce EMI if needed. Too high 
+values for R5 may cause insufficient C8 charging in high 
+duty-cycle applications. Slower switch-on speed will 
+also increase switch losses and reduce efficiency. 
+ 
+UVLO Setting 
+The input UVLO can be programmed using an external 
+voltage divider on the EN pin of the device. In this 
+example R1 is connected between VIN pin and EN pin 
+and R2 is connected between EN and GND (see Figure 
+5). The turn-on (enable to start switching) occurs when 
+VIN rises above 5.55V (UVLO rising threshold). When 
+the regulator is working, it will not stop switching 
+(disabled) until the input falls below 4.27V (UVLO 
+falling threshold). Equations 1 and 2 are provided to 
+calculate the resistors. For this example, the nearest 
+standard resistor values are R1 = 365kΩ and R2 = 
+88.7kΩ. 
+ 
+Feedback Resistors Setting 
+Use an external resistor divider (R6 and R7) to set the 
+output voltage using Equations 16 and 17. 
+
+
+−
+=
+×
+
+
+
+OUT
+REF
+6
+7
+REF
+V
+V
+R
+R
+V
+                (16) 
+
+
+=
+×
++
+
+
+
+
+6
+OUT
+REF
+7
+R
+V
+V
+1
+R
+                 (17) 
+In this example by selecting R7 = 10.2kΩ for the lower 
+resistor, the calculated R6 value will be 31.9kΩ and a 
+31.6kΩ resistor is selected as the nearest standard 1% 
+resistor. 
+ 
+Compensation Network Setting 
+Several techniques are used by engineers to compensate 
+a DC/DC regulator. The method presented here uses 
+simple calculations and generally results in high phase 
+margins. In most conditions, the phase margin will be 
+between 60 and 90 degrees. In this method the effects 
+of the slope compensation are ignored. Because of this 
+approximation, the actual cross over frequency is 
+usually lower than the calculated value. 
+First, the converter pole (fP) and ESR-zero (fZ) are 
+calculated from Equations 18 and 19. For COUT, the 
+worst derated value of 130μF should be used. 
+Equations 20 and 21 can be used to find an estimation 
+for closed-loop crossover frequency (fCO) as a starting 
+point. 
+=
+×
+×
+×
+OUT
+P
+OUT
+OUT
+I
+f
+2
+π
+V
+C
+              (18) 
+=
+×
+×
+×
+Z
+ESR
+OUT
+1
+f
+2
+π
+R
+C
+              (19) 
+=
+×
+co
+P
+Z
+f
+f
+f                     (20) 
+=
+×
+SW
+co
+P
+f
+f
+f
+2
+                   (21) 
+For this design, fP = 1.85kHz and fZ = 610kHz. Equation 
+20 yields 33.6kHz and Equation 21 gives 19.2kHz. Use 
+the geometric mean value of Equation 20 and Equation 
+21 for an initial crossover frequency. In this application 
+example, the lab experiments shows that to achieve the 
+required transient response the crossover frequency 
+must be at least fCO = 30kHz. Having the crossover 
+frequency, the compensation network (R3 and C6) can 
+be calculated. R3 sets the gain of the compensated 
+network at the crossover frequency and can be 
+calculated by Equation 22. 
+×
+×
+×
+×
+=
+×
+×
+CO
+OUT
+OUT
+3
+m
+REF
+mps
+2
+π
+f
+C
+V
+R
+g
+V
+g
+           (22) 
+ 
+ 
+ 
+
+ 
+SGM61450 
+4.5V to 42V Input, 5A Buck Converter 
+ 
+ 
+18 
+FEBRUARY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+C6 sets the location of the compensation zero along 
+with R3. To place this zero on the converter pole, use 
+Equation 23 
+×
+=
+×
+OUT
+OUT
+6
+OUT
+3
+V
+C
+C
+I
+R
+                
+(23) 
+From Equations 22 and 23 the standard selected 
+values are R3 = 16.9kΩ and C6 = 4.7nF. 
+If needed, a far compensation pole can be added by 
+adding capacitor C7 to further reduce high frequency 
+loop gain for better transient stability. The larger value 
+between the two values calculated from Equations 24 
+and 25 can be used for C7. In this example C7 = 47pF is 
+selected. 
+×
+=
+OUT
+ESR
+7
+3
+C
+R
+C
+R
+                 (24) 
+=
+×
+×
+7
+3
+SW
+1
+C
+R
+f
+π
+                (25) 
+ 
+Layout Considerations 
+PCB layout is an important part of the converter design. 
+A weak layout can result in poor performance, resistive 
+losses, EMI issues and instability problems. The 
+following guidelines are helpful for designing a good 
+layout for the SGM61450.  
+ Bypass the VIN pin to GND pin (where it connects 
+to the anode pin of the power diode) with low-ESR 
+ceramic capacitors and place them as close as 
+possible to the device. 
+ Connect the diode as close as possible to SW and 
+GND pins. 
+ Share the same GND connection point with the 
+input and output capacitors. 
+ Connect the device GND to the PCB ground plane 
+right at the GND pin. 
+ Stitch the exposed pad to the internal ground 
+planes and the back side of the PCB directly under 
+the IC using multiple thermal vias. 
+ Minimize the length and the area of the connection 
+route from SW pin to the cathode of the diode and 
+the inductor to reduce the noise coupling from this 
+area. 
+ Minimize FB trace length and keep both feedback 
+resistors close to the FB pin. Bring the VOUT sense 
+trace from the point where VOUT accuracy is 
+important and keep it away from the noisy nodes 
+(SW), preferably through another layer that is on 
+the other side of a shield layer.  
+ Place the RT resistor as close as possible to the 
+RT/CLK pin with short routes. 
+ Choose wide traces for VIN, VOUT and ground to 
+minimize voltage drops and maximize efficiency. 
+ For operation at full-rated load, the top side ground 
+area must provide adequate heat dissipating area. 
+ 
+  
+ 
+Top Layer 
+ 
+  
+ 
+Bottom Layer 
+Figure 6. Layout 
+ 
+ 
+ 
+ 
+4
+2
+7
+6
+5
+GND
+8
+1
+3
+VIN
+C5
+C1
+L
+SW
+VOUT
+R1
+GND
+C2
+C3
+C4
+R2
+R7
+R3
+C6
+C7
+R5
+R6
+C8
+SW
+VOUT
+R4
+C9
+C10
+D1
+L1
+GND
+BOOT
+VOUT
+
+ 
+SGM61450 
+4.5V to 42V Input, 5A Buck Converter 
+ 
+ 
+19 
+FEBRUARY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+JULY 2023 ‒ REV.A.2 to REV.A.3 
+Page 
+Updated Absolute Maximum Ratings 
+................................................................................................................................................................... 
+2 
+ 
+FEBRUARY 2023 ‒ REV.A.1 to REV.A.2 
+Page 
+Updated Electrical Characteristics ....................................................................................................................................................................... 
+4 
+ 
+OCTOBER 2022 ‒ REV.A to REV.A.1 
+Page 
+Updated Layout Considerations 
+......................................................................................................................................................................... 
+18 
+ 
+Changes from Original (MARCH 2022) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00013.003 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOIC-8 (Exposed Pad) 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+ 
+ 
+1.700 
+A1 
+0.000 
+- 
+0.150 
+A2 
+1.250 
+- 
+1.650 
+b 
+0.330 
+- 
+0.510 
+c 
+0.170 
+- 
+0.250 
+D 
+4.700 
+- 
+5.100 
+D1 
+3.020 
+- 
+3.420 
+E 
+3.800 
+- 
+4.000 
+E1 
+5.800 
+- 
+6.200 
+E2 
+2.130 
+- 
+2.530 
+e 
+1.27 BSC 
+L 
+0.400 
+- 
+1.270 
+θ 
+0° 
+- 
+8° 
+ccc 
+0.100 
+ 
+NOTES: 
+1. This drawing is subject to change without notice. 
+2. The dimensions do not include mold flashes, protrusions or gate burrs. 
+3. Reference JEDEC MS-012. 
+ 
+ 
+D
+E
+E1
+e
+b
+A2
+A1
+c
+L
+θ
+E2
+D1
+3.22
+2.33
+0.61
+1.27
+1.91
+5.56
+RECOMMENDED LAND PATTERN (Unit: mm)
+ccc C
+SEATING PLANE
+C
+A
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+SOIC-8 
+(Exposed Pad) 
+13″ 
+12.4 
+6.40 
+5.40 
+2.10 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

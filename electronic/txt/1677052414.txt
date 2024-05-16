@@ -1,0 +1,5418 @@
+SGM51652H4/SGM51652H8 
+16-Bit, 500kSPS, 4- and 8-Channel, 
+Single Supply, SAR ADCs 
+with Bipolar Input Ranges 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DECEMBER 2022–REV.A 
+GENERAL DESCRIPTION 
+The SGM51652H4 and SGM51652H8 are 4-channel and 
+8-channel, 16-bit resolution, high-precision successive 
+approximation (SAR) analog-to-digital converters (ADCs).  
+These ADCs are powered by a single unipolar 5V, and 
+support true bipolar ±10.24V, ±5.12V, and ±2.56V inputs, as 
+well as unipolar input ranges of 0V to 10.24V and 0V to 5.12V. 
+The input range is configured by software. 
+These chips provide over-voltage protection up to ±20V at the 
+input. 
+These chips have an on-chip high accuracy and low drift 
+10ppm reference. 
+The input impedance of these chips is ~1MΩ and it is 
+independent of input range selection. 
+The digital interface is compatible to the traditional SPI 
+protocol. 
+ 
+FEATURES 
+● Supported Input Ranges: 
+ Bipolar Single-Ended Ranges: ±10.24V, ±5.12V, and 
+±2.56V 
+ Unipolar Single-Ended Ranges: 0V to 10.24V and 
+0V to 5.12V 
+ Bipolar Differential Ranges: ±10.24V, ±5.12V, and 
+±2.56V 
+● Supply Voltage Ranges: 
+ Analog Supply: 5V 
+ I/O Supply: 1.65V to 5V 
+● On-Chip Reference: 4.096V 
+● Differential Nonlinearity (DNL): -0.6/+0.9LSB (TYP) 
+● Integral Nonlinearity (INL): ±1.3LSB (TYP) 
+● Signal-to-Noise Ratio (SNR): 89.5dB (TYP) 
+● Total Harmonic Distortion (THD): -99dB (TYP) 
+● Alarm Features 
+● Daisy-Chain Operation 
+● -40℃ to +125℃ Operating Temperature Range 
+● Available in a Green TSSOP-38 Package 
+ 
+APPLICATIONS 
+Power Automation 
+Protection Relays 
+PLC Analog Input Modules 
+Factory Automation 
+ 
+ 
+ 
+ 
+ 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+2 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM51652H4 
+TSSOP-38 
+-40℃ to +125℃ 
+SGM51652H4XTS38G-S/TR 
+SGM51652H4 
+XTS38 
+XXXXX 
+Tape and Reel, 500 
+SGM51652H4XTS38G/TR 
+SGM51652H4 
+XTS38 
+XXXXX 
+Tape and Reel, 4000 
+SGM51652H8 
+TSSOP-38 
+-40℃ to +125℃ 
+SGM51652H8XTS38G-S/TR 
+SGM51652H8 
+XTS38 
+XXXXX 
+Tape and Reel, 500 
+SGM51652H8XTS38G/TR 
+SGM51652H8 
+XTS38 
+XXXXX 
+Tape and Reel, 4000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code. 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+AIN_nP, AIN_nN to AGND (1) 
+.............................. -20V to 20V 
+AIN_nP, AIN_nN to AGND (2) 
+.............................. -11V to 11V 
+AVDD to AGND ................................................... -0.3V to 6V 
+AUX_INP to AGND ............................. -0.3V to AVDD + 0.3V 
+AUX_INN to AGND 
+............................. -0.3V to AVDD + 0.3V 
+AGND to DGND 
+............................................. -0.3V to + 0.3V 
+REFCAP to REFGND or REFIO to REFGND ... -0.3V to 5.7V 
+REFGND to AGND ........................................... -0.3V to 0.3V 
+DVDD to DGND .............................................. 
+-0.3V to AVDD 
+Digital Input Pins to DGND ................. -0.3V to DVDD + 0.3V 
+Digital Output Pins to DGND 
+............... -0.3V to DVDD + 0.3V 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM (Analog Input Pins: AIN_nP, AIN_nN) ............... ±7000V 
+HBM (Other Pins) ...................................................... ±2000V 
+CDM ............................................................................ ±500V 
+ 
+NOTES: 
+1. AVDD = 5V or offers a low impedance of < 30kΩ. 
+2. AVDD = floating with an impedance > 30kΩ. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+RECOMMENDED OPERATING CONDITIONS 
+Analog Supply Voltage Range, AVDD 
+ ...................................................... 4.75V to 5.25V, 5V (TYP) 
+Digital Supply Voltage Range, DVDD 
+ ................................................... 
+1.65V to AVDD, 3.3V (TYP) 
+Operating Temperature Range 
+.................... -40℃ to +125℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+ 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+3 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+SGM51652H4 (TOP VIEW) 
+SGM51652H8 (TOP VIEW) 
+1
+2
+3
+4
+5
+7
+8
+9
+10
+6
+11
+12
+13
+14
+15
+17
+18
+19
+16
+38
+37
+36
+35
+34
+32
+31
+30
+29
+33
+28
+27
+26
+25
+24
+22
+21
+20
+23
+SDI
+nRST/nPD
+DAISY
+nREFSEL
+REFIO
+REFGND
+REFCAP
+AGND
+AVDD
+AUX_INP
+AUX_INN
+NC
+NC
+NC
+NC
+AIN_0P
+AIN_0N
+AIN_1P
+AIN_1N
+nCS
+SCLK
+SDO
+DNC
+DVDD
+DGND
+AGND
+AGND
+AVDD
+AGND
+AGND
+NC
+NC
+NC
+NC
+AIN_3P
+AIN_3N
+AIN_2P
+AIN_2N
+SGM51652H4
+ 
+1
+2
+3
+4
+5
+7
+8
+9
+10
+6
+11
+12
+13
+14
+15
+17
+18
+19
+16
+38
+37
+36
+35
+34
+32
+31
+30
+29
+33
+28
+27
+26
+25
+24
+22
+21
+20
+23
+SDI
+nRST/nPD
+DAISY
+nREFSEL
+REFIO
+REFGND
+REFCAP
+AGND
+AVDD
+AUX_INP
+AUX_INN
+AIN_6P
+AIN_6N
+AIN_7P
+AIN_7N
+AIN_0P
+AIN_0N
+AIN_1P
+AIN_1N
+nCS
+SCLK
+SDO
+DNC
+DVDD
+DGND
+AGND
+AGND
+AVDD
+AGND
+AGND
+AIN_5P
+AIN_5N
+AIN_4P
+AIN_4N
+AIN_3P
+AIN_3N
+AIN_2P
+AIN_2N
+SGM51652H8
+ 
+TSSOP-38 
+TSSOP-38 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+TYPE (1) 
+FUNCTION 
+SGM51652H4 
+SGM51652H8 
+1 
+SDI 
+DI 
+Serial Data Input. 
+2 
+nRST/nPD 
+DI 
+Dual-Function Pin: Reset/Power-Down the Device. Active low. 
+3 
+DAISY 
+DI 
+Chain the Serial Data Input in Daisy-Chain Mode. 
+4 
+nREFSEL 
+DI 
+Active Low. When it is enabled, the internal reference is on.  
+5 
+REFIO 
+AIO 
+Internal Reference Output and External Reference Input Pin.  
+6 
+REFGND 
+AI 
+Reference Ground Pin. 
+7 
+REFCAP 
+AO 
+ADC Reference Decoupling Capacitor Pin.  
+8 
+AGND 
+P 
+Analog Ground.  
+9 
+AVDD 
+P 
+Analog Power Supply.  
+10 
+AUX_INP 
+AI 
+Positive Auxiliary Input Pin.  
+11 
+AUX_INN 
+AI 
+Negative Auxiliary Input Pin.  
+ 
+ 
+ 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+4 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+PIN DESCRIPTION (continued) 
+PIN 
+NAME 
+TYPE (1) 
+FUNCTION 
+SGM51652H4 
+SGM51652H8 
+12 
+NC 
+AIN_6P 
+AI 
+Channel 6 Positive Analog Input. 
+13 
+NC 
+AIN_6N 
+AI 
+Channel 6 Negative Analog Input. 
+14 
+NC 
+AIN_7P 
+AI 
+Channel 7 Positive Analog Input. 
+15 
+NC 
+AIN_7N 
+AI 
+Channel 7 Negative Analog Input.  
+16 
+AIN_0P 
+AI 
+Channel 0 Positive Analog Input.  
+17 
+AIN_0N 
+AI 
+Channel 0 Negative Analog Input.  
+18 
+AIN_1P 
+AI 
+Channel 1 Positive Analog Input.  
+19 
+AIN_1N 
+AI 
+Channel 1 Negative Analog Input. 
+20 
+AIN_2N 
+AI 
+Channel 2 Negative Analog Input. 
+21 
+AIN_2P 
+AI 
+Channel 2 Positive Analog Input.  
+22 
+AIN_3N 
+AI 
+Channel 3 Negative Analog Input. 
+23 
+AIN_3P 
+AI 
+Channel 3 Positive Analog Input.  
+24 
+NC 
+AIN_4N 
+AI 
+Channel 4 Negative Analog Input. 
+25 
+NC 
+AIN_4P 
+AI 
+Channel 4 Positive Analog Input.  
+26 
+NC 
+AIN_5N 
+AI 
+Channel 5 Negative Analog Input. 
+27 
+NC 
+AIN_5P 
+AI 
+Channel 5 Positive Analog Input. 
+28, 29, 
+31, 32 
+AGND 
+P 
+Analog Ground. 
+30 
+AVDD 
+P 
+Analog Power Supply.  
+33 
+DGND 
+P 
+Digital Ground.  
+34 
+DVDD 
+P 
+Digital Power Supply.  
+35 
+DNC 
+‒ 
+Do Not Connect This Pin. Keep it floating. 
+36 
+SDO 
+DO 
+Serial Data Output. 
+37 
+SCLK 
+DI 
+Serial Clock Input. 
+38 
+nCS 
+DI 
+Chip-Select Input Pin. Active low. 
+ 
+NOTE:  
+1. AI = Analog Input, AO = Analog Output, AIO = Analog Input and Output, DI = Digital Input, DO = Digital Output, DIO = Digital 
+Input and Output, P = Power Supply. 
+ 
+ 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+5 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(AVDD = 5V, DVDD = 3V, VREF = 4.096V (internal), and fSAMPLE = 500kSPS, Full = -40℃ to +125℃, typical values are at TA = 
++25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Analog Inputs 
+Absolute Input Voltage Range 
+AIN_nP-AGND 
+Input range = ±2.5 × VREF 
+-10.24 
+ 
+10.24 
+V 
+Input range = ±1.25 × VREF 
+-5.12 
+ 
+5.12 
+Input range = ±0.625 × VREF 
+-2.56 
+ 
+2.56 
+Input range = 0 to 2.5 × VREF (2) 
+0 
+ 
+10.24 
+Input range = 0 to 1.25 × VREF (2) 
+0 
+ 
+5.12 
+AIN_nN-AGND 
+Input range = ±2.5 × VREF 
+-10.24 
+ 
+10.24 
+V 
+Input range = ±1.25 × VREF 
+-5.12 
+ 
+5.12 
+Input range = ±0.625 × VREF 
+-2.56 
+ 
+2.56 
+Input range = 0 to 2.5 × VREF (2) 
+ 
+0 
+ 
+Input range = 0 to 1.25 × VREF (2) 
+ 
+0 
+ 
+Input Voltage Range (1) 
+(Single-Ended Input) 
+AIN_nP-AIN_nN 
+(AIN_nN = AGND) 
+Or  
+AIN_nP-AIN_nN 
+(AIN_nP = AGND) 
+Input range = ±2.5 × VREF 
+-10.24 
+ 
+10.24 
+V 
+Input range = ±1.25 × VREF 
+-5.12 
+ 
+5.12 
+Input range = ±0.625 × VREF 
+-2.56 
+ 
+2.56 
+Input range = 0 to 2.5 × VREF (2) 
+0 
+ 
+10.24 
+Input range = 0 to 1.25 × VREF (2) 
+0 
+ 
+5.12 
+Input Voltage Range (1) 
+(Bipolar Differential Input) 
+AIN_nP-AIN_nN 
+Input range = ±2.5 × VREF 
+-10.24 
+ 
+10.24 
+V 
+Input range = ±1.25 × VREF 
+-5.12 
+ 
+5.12 
+Input range = ±0.625 × VREF 
+-2.56 
+ 
+2.56 
+Common Mode 
+Input Range 
+Input range = ±2.5 × VREF (3) 
+-5.0 
+ 
+7.5 
+V 
+Input range = ±1.25 × VREF (3) 
+-2.5 
+ 
+5.0 
+Input range = ±0.625 × VREF (3) 
+-1.2 
+ 
+2.5 
+Input Impedance 
+RIN 
+TA = +25℃, all input ranges 
+ 
+1 
+ 
+MΩ 
+Input Impedance Drift 
+ 
+All input ranges 
+ 
+15 
+ 
+ppm/℃ 
+Input Current 
+IIN 
+With voltage at the 
+AIN_nP pin = VIN 
+VIN = 10.24V 
+ 
+7.3 
+ 
+µA 
+VIN = 5.12V 
+ 
+2.8 
+ 
+VIN = 2.56V 
+ 
+0.9 
+ 
+Input Over-Voltage Protection 
+Over-Voltage Protection 
+Voltage 
+VOVP 
+AVDD = 5V or offers low impedance  
+< 30kΩ, all input ranges 
+-20 
+ 
++20 
+V 
+AVDD = floating with impedance 
+> 30kΩ, all input ranges 
+-11 
+ 
++11 
+V 
+ 
+NOTES:  
+1. Ideal input range. It does not consider gain and offset error. 
+2. These two unipolar input ranges are only valid for unipolar single-ended input with AIN_nN = AGND. 
+3. These input common mode voltage range is guaranteed by design, and tested by limited samples, and not covered by 
+manufacture testing. When the input common mode voltage exceeds ±100mV, the critical DC and AC performance are not 
+guaranteed. 
+ 
+ 
+ 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+6 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(AVDD = 5V, DVDD = 3V, VREF = 4.096V (internal), and fSAMPLE = 500kSPS, Full = -40℃ to +125℃, typical values are at TA = 
++25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+System Performance (If without otherwise noted, the following parameters are tested with single-ended input) 
+Resolution 
+ 
+ 
+ 
+16 
+ 
+Bits 
+No Missing Codes 
+NMC 
+ 
+ 
+16 
+ 
+Bits 
+Differential Nonlinearity 
+DNL 
+ 
+-1 
+-0.6/+0.9 
+2.1 
+LSB (4) 
+Integral Nonlinearity (5) 
+INL 
+All bipolar range 
+TA = +25℃ 
+-3 
+±1.3 
+3 
+LSB 
+TA = -40℃ to +125℃ 
+-5.7 
+±1.3 
+5.1 
+All unipolar range 
+ 
+-3.1/+1.2 
+ 
+Gain Error 
+EG 
+TA = +25℃,  
+input range = ±2.5 × VREF 
+ 
+±0.07 
+±0.14 
+%FSR (6) 
+TA = +25℃,  
+input range = ±1.25 × VREF 
+ 
+±0.07 
+±0.34 
+TA = +25℃,  
+input range = ±0.625 × VREF 
+ 
+±0.2 
+±0.68 
+TA = +25℃, 
+input range = 0 to 2.5 × VREF 
+ 
+±0.07 
+±0.16 
+TA = +25℃, 
+input range = 0 to 1.25 × VREF 
+ 
+±0.07 
+±0.45 
+Gain Error Matching 
+(Channel-to-Channel) 
+ 
+TA = +25℃,  
+input range = ±2.5 × VREF 
+ 
+±0.05 
+±0.15 
+%FSR 
+TA = +25℃,  
+input range = ±1.25 × VREF 
+ 
+±0.05 
+±0.15 
+TA = +25℃,  
+input range = ±0.625 × VREF 
+ 
+±0.1 
+±0.3 
+TA = +25℃, 
+input range = 0 to 2.5 × VREF 
+ 
+±0.05 
+±0.15 
+TA = +25℃, 
+input range = 0 to 1.25 × VREF 
+ 
+±0.05 
+±0.15 
+Offset Error 
+EO 
+TA = +25℃, 
+input range = ±2.5 × VREF 
+ 
+±0.3 
+±2.8 
+mV 
+TA = +25℃, 
+input range = ±1.25 × VREF 
+ 
+±0.3 
+±2.9 
+TA = +25℃, 
+input range = ±0.625 × VREF 
+ 
+±0.3 
+±3.1 
+TA = +25℃, 
+input range = 0 to 2.5 × VREF 
+ 
+±0.3 
+±2.9 
+TA = +25℃, 
+input range = 0 to 1.25 × VREF 
+ 
+±0.3 
+±2.6 
+Offset Error Matching 
+(Channel-to-Channel) 
+ 
+TA = +25℃, 
+input range = ±2.5 × VREF 
+ 
+±0.5 
+±2.5 
+mV 
+TA = +25℃, 
+input range = ±1.25 × VREF 
+ 
+±0.5 
+±2.5 
+TA = +25℃, 
+input range = ±0.625 × VREF 
+ 
+±0.5 
+±2.5 
+TA = +25℃, 
+input range = 0 to 2.5 × VREF 
+ 
+±0.5 
+±2.5 
+TA = +25℃, 
+input range = 0 to 1.25 × VREF 
+ 
+±0.5 
+±2.5 
+NOTES: 
+4. LSB = Least significant bit. 
+5. This is best-fit INL. 
+6. FSR = Full-scale range. 
+ 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+7 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(AVDD = 5V, DVDD = 3V, VREF = 4.096V (internal), and fSAMPLE = 500kSPS, Full = -40℃ to +125℃, typical values are at TA = 
++25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Sampling Dynamics (If without otherwise noted, the following parameters are tested with single-ended input.) 
+Conversion Time 
+tCONV 
+ 
+ 
+ 
+1000 
+ns 
+Acquisition Time 
+tACQ 
+ 
+1000 
+ 
+ 
+ns 
+Maximum Throughput Rate without 
+Latency 
+fS 
+ 
+ 
+ 
+500 
+kSPS 
+Dynamic Characteristics (If without otherwise noted, the following parameters are tested with single-ended input.) 
+Signal-to-Noise Ratio 
+(VIN - 0.5dBFS at 1kHz) 
+SNR 
+Input range = ±2.5 × VREF 
+84.6 
+89.5 
+ 
+dB 
+Input range = ±1.25 × VREF 
+84.4 
+89.3 
+ 
+Input range = ±0.625 × VREF 
+83.7 
+88.4 
+ 
+Input range = 0 to 2.5 × VREF 
+80.2 
+84.4 
+ 
+Input range = 0 to 1.25 × VREF 
+79.7 
+84.1 
+ 
+Total Harmonic Distortion (7) 
+(VIN - 0.5dBFS at 1kHz) 
+THD 
+All input ranges 
+ 
+-99 
+ 
+dB 
+Signal-to-Noise Ratio 
+(VIN - 0.5dBFS at 1kHz) 
+SINAD 
+Input range = ±2.5 × VREF 
+84.0 
+89.1 
+ 
+dB 
+Input range = ±1.25 × VREF 
+83.6 
+88.9 
+ 
+Input range = ±0.625 × VREF 
+83.2 
+88 
+ 
+Input range = 0 to 2.5 × VREF 
+79.4 
+84.2 
+ 
+Input range = 0 to 1.25 × VREF 
+79.1 
+83.9 
+ 
+Spurious-Free Dynamic Range  
+(VIN - 0.5dBFS at 1kHz) 
+SFDR 
+All input ranges 
+ 
+101 
+ 
+dB 
+Crosstalk Isolation (8) 
+ 
+Aggressor channel input is overdriven to 
+2 × maximum input voltage 
+ 
+120 
+ 
+dB 
+Crosstalk Memory (9) 
+ 
+Aggressor channel input is overdriven to 
+2 × maximum input voltage 
+ 
+94 
+ 
+dB 
+Small-Signal Bandwidth 
+-3dB 
+BW-3dB 
+TA = +25℃, all input ranges 
+ 
+13 
+ 
+kHz 
+-0.1dB 
+BW-0.1dB 
+TA = +25℃, all input ranges 
+ 
+2.1 
+ 
+Auxiliary Channel  
+Resolution 
+ 
+ 
+16 
+ 
+ 
+Bits 
+Input Voltage Range 
+VAUX_INP - 
+VAUX_INN 
+AUX_INP - AUX_INN 
+-VREF 
+ 
++VREF 
+V 
+Operating Input Range 
+ 
+AUX_INP 
+2.5 -  
+0.5 × VREF 
+ 
+2.5 + 
+0.5 × VREF 
+V 
+AUX_INN 
+2.5 -  
+0.5 × VREF 
+ 
+2.5 + 
+0.5 × VREF 
+Input Capacitance 
+CI 
+During sampling 
+ 
+75 
+ 
+pF 
+During conversion 
+ 
+5 
+ 
+Input Leakage Current 
+IIKG(IN) 
+ 
+ 
+100 
+ 
+nA 
+Differential Nonlinearity 
+DNL 
+ 
+ 
+-0.6/+0.9 
+ 
+LSB 
+Integral Nonlinearity 
+INL 
+ 
+ 
+±1.3 
+ 
+LSB 
+Gain Error 
+EG(AUX) 
+TA = +25℃ 
+ 
+±0.08 
+±0.2 
+% FSR 
+Offset Error 
+EO(AUX) 
+TA = +25℃ 
+ 
+±0.3 
+±2 
+mV 
+Signal-to-Noise Ratio 
+SNR 
+VAUX_INP - VAUX_INN = -0.5dBFS at 1kHz 
+83.2 
+88.1 
+ 
+dB 
+Total Harmonic Distortion (7) 
+THD 
+VAUX_INP - VAUX_INN = -0.5dBFS at 1kHz 
+ 
+-99.1 
+ 
+dB 
+Signal-to-Noise + Distortion 
+SINAD 
+VAUX_INP - VAUX_INN = -0.5dBFS at 1kHz 
+83.0 
+87.8 
+ 
+dB 
+Spurious-Free Dynamic Range 
+SFDR 
+VAUX_INP - VAUX_INN = -0.5dBFS at 1kHz 
+ 
+100.7 
+ 
+dB 
+ 
+ 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+8 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(AVDD = 5V, DVDD = 3V, VREF = 4.096V (internal), and fSAMPLE = 500kSPS, Full = -40℃ to +125℃, typical values are at TA = 
++25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Internal Reference Output 
+Decoupling Capacitor on REFIO 
+COUT_REFIO 
+ 
+ 
+100 
+ 
+nF 
+Initial Reference Voltage 
+VREFCAP 
+TA = +25℃ 
+4.093 
+4.096 
+4.099 
+V 
+Reference Buffer Output 
+Impedance 
+ 
+ 
+ 
+0.5 
+ 
+Ω 
+Reference Buffer Temperature 
+Drift 
+ 
+ 
+ 
+9 
+ 
+ppm/℃ 
+Decoupling Capacitor on REFCAP 
+COUT_REFCAP 
+ 
+ 
+22 
+ 
+μF 
+Turn-On Time 
+ 
+COUT_REFCAP = 22µF, COUT_REFIO = 100nF 
+ 
+25 
+ 
+ms 
+External Reference Input 
+External Reference Voltage on 
+REFIO (10) 
+VREFIO_EXT 
+REFIO pin configured as an input 
+4.046 
+4.096 
+4.146 
+V 
+Power-Supply Requirements 
+Analog Power-Supply Voltage 
+AVDD 
+Analog supply 
+4.75 
+5 
+5.25 
+V 
+Digital Power-Supply Voltage 
+DVDD 
+Digital supply range 
+1.65 
+3.3 
+AVDD 
+V 
+Digital supply range for specified performance 
+2.7 
+3.3 
+AVDD 
+Analog Supply 
+Current 
+Dynamic, AVDD 
+IAVDD_DYN 
+AVDD = 5V, fS = maximum 
+and internal reference 
+SGM51652H8 
+ 
+14.5 
+19.5 
+mA 
+SGM51652H4 
+ 
+11 
+15.5 
+Static 
+IAVDD_STC 
+AVDD = 5V, device not 
+converting and internal 
+reference 
+SGM51652H8 
+ 
+10 
+15 
+mA 
+SGM51652H4 
+ 
+5 
+10.5 
+Standby 
+ISTDBY 
+AVDD = 5V, device in 
+STDBY mode and internal 
+reference 
+SGM51652H8 
+ 
+8.5 
+12.5 
+mA 
+SGM51652H4 
+ 
+4.5 
+8.5 
+Power-Down 
+IPWR_DOWN 
+AVDD = 5V, device in PWR_DOWN mode 
+ 
+4 
+20 
+μA 
+Digital Supply Current 
+IDVDD_DYN 
+DVDD = 3.3V, output = 0000h 
+ 
+0.5 
+ 
+mA 
+Digital Inputs 
+Digital Input Logic Levels  
+VIH 
+DVDD > 2.1V 
+0.7 × 
+DVDD 
+ 
+DVDD 
+V 
+VIL 
+0 
+ 
+0.3 × 
+DVDD 
+Digital Input Logic Levels 
+VIH 
+DVDD ≤ 2.1V 
+0.8 × 
+DVDD 
+ 
+DVDD 
+V 
+VIL 
+0 
+ 
+0.15 × 
+DVDD 
+Input Leakage Current 
+ 
+ 
+ 
+100 
+ 
+nA 
+Input Pin Capacitance 
+ 
+ 
+ 
+5 
+ 
+pF 
+Digital Outputs 
+Digital Output Logic Levels 
+VOH 
+IO = 100μA source 
+0.8 × 
+DVDD 
+ 
+DVDD 
+V 
+VOL 
+IO = 100μA sink 
+0 
+ 
+0.2 × 
+DVDD 
+Floating State Leakage Current 
+ 
+Only for SDO 
+ 
+1 
+ 
+µA 
+Internal Pin Capacitance 
+ 
+ 
+ 
+5 
+ 
+pF 
+NOTES:  
+7. Accumulated the first nine harmonics. 
+8. A full-scale sinusoidal 10kHz signal is applied to a channel which is not selected in conversion sequence, and measures its 
+effect on any selected channel. 
+9. A full-scale sinusoidal 10kHz signal is applied to a channel which is selected in conversion sequence, and measures its effect 
+on the next selected conversion channel. 
+10. Limits set by characterization at room temperature only. 
+ 
+ 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+9 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TIMING REQUIREMENTS: SERIAL INTERFACE 
+(AVDD = 5V, DVDD = 3V, VREF = 4.096V (internal), SDO Load = 20pF, and fSAMPLE = 500kSPS, Full = -40℃ to +125℃, typical 
+values are at TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN  
+TYP 
+MAX 
+UNITS 
+Timing Specifications 
+Sampling Frequency (fCLK = max) 
+fS 
+ 
+ 
+ 
+500 
+kSPS 
+ADC Cycle Time Period (fCLK = max) 
+tS 
+ 
+2 
+ 
+ 
+µs 
+Serial Clock Frequency (fS = max) 
+fSCLK 
+ 
+ 
+ 
+17 
+MHz 
+Serial Clock Time Period (fS = max) 
+tSCLK 
+ 
+1/fSCLK 
+ 
+ 
+ns 
+Conversion Time 
+t1 
+ 
+ 
+ 
+1000 
+ns 
+Delay Time: nCS Falling to Data Enable 
+t9 
+ 
+ 
+ 
+13 
+ns 
+Delay Time: Last SCLK Falling to nCS Rising 
+t8 
+ 
+10 
+ 
+ 
+ns 
+Delay Time: nCS Rising to SDO Going to 3-State 
+t12 
+ 
+15 
+ 
+ 
+ns 
+Timing Requirements 
+Acquisition Time 
+t2 
+ 
+1000 
+ 
+ 
+ns 
+Clock High Time 
+t4 
+ 
+0.4 
+ 
+0.6 
+tSCLK 
+Clock Low Time 
+t5 
+ 
+0.4 
+ 
+0.6 
+tSCLK 
+nCS High Time 
+t7 
+ 
+30 
+ 
+ 
+ns 
+Setup Time: nCS Falling to SCLK Falling 
+t3 
+ 
+30 
+ 
+ 
+ns 
+Hold Time: SCLK Falling to (Previous) Data Valid on 
+SDO 
+t10 
+ 
+5 
+ 
+ 
+ns 
+Setup Time: SDO Data Valid to SCLK Falling 
+t11 
+ 
+5 
+ 
+ 
+ns 
+Setup Time: SDI Data Valid to SCLK Falling 
+t13 
+ 
+5 
+ 
+ 
+ns 
+Hold Time: SCLK Falling to (Previous) Data Valid on 
+SDI 
+t14 
+ 
+5 
+ 
+ 
+ns 
+ 
+ 
+nCS
+SCLK
+SDO
+SDI
+t10
+t13
+t3
+1
+2
+DI1
+DI0
+t7
+15
+16
+31
+32
+DO15
+DO12
+DO0
+XX
+XX
+XX
+17
+18
+t1
+t2
+t4
+t5
+t6
+t9
+t8
+t11
+t12
+t14
+DO1
+Sample N
+Sample 
+N+1
+ts
+DO14
+DI15
+DI14
+XX
+ 
+ 
+Figure 1. Serial Interface Timing Diagram 
+ 
+ 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+10 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+ 
+ 
+     Input I-V Characteristic  
+      I-V Curve for an Input OVP Circuit (AVDD = 5V) 
+ 
+ 
+     Input Current vs. Temperature 
+     Offset Error vs. Temperature across Input Ranges 
+ 
+ 
+   Typical Histogram for Offset Error Drift 
+     Offset Error vs. Temperature across Channels 
+ 
+ 
+ 
+ 
+-12
+-10
+-8
+-6
+-4
+-2
+0
+2
+4
+6
+8
+10
+-10
+-8
+-6
+-4
+-2
+0
+2
+4
+6
+8
+10
+Analog Input Current (μA) 
+Input Voltage (V) 
+Range = ±2.5 × VREF 
+Range = ±1.25 × VREF 
+Range = ±0.625 × VREF 
+Range = 0 to 2.5 × VREF 
+Range = 0 to 1.25 × VREF 
+-25
+-20
+-15
+-10
+-5
+0
+5
+10
+15
+20
+-20
+-15
+-10
+-5
+0
+5
+10
+15
+20
+Analog Input Current (μA) 
+Input Voltage (V) 
+Range = ±2.5 × VREF 
+Range = ±1.25 × VREF 
+Range = ±0.625 × VREF 
+Range = 0 to 2.5 × VREF 
+Range = 0 to 1.25 × VREF 
+-12
+-10
+-8
+-6
+-4
+-2
+0
+2
+4
+6
+8
+10
+-10
+-8
+-6
+-4
+-2
+0
+2
+4
+6
+8
+10
+Analog Input Current (μA) 
+Input Voltage (V) 
+T = -40℃ 
+T = +25℃ 
+T = +125℃ 
+-0.6
+-0.4
+-0.2
+0
+0.2
+0.4
+0.6
+0.8
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Temperature (℃) 
+Offset Error (mV) 
+Range = ±2.5 × VREF 
+Range = ±1.25 × VREF 
+Range = ±0.625 × VREF 
+Range = 0 to 2.5 × VREF 
+Range = 0 to 1.25 × VREF 
+0
+2
+4
+6
+8
+10
+12
+-0.5
+-0.4
+-0.3
+-0.2
+-0.1
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+Number of Occurrences 
+Offset Drift (ppm/℃) 
+Range = ±2.5 × VREF 
+-0.5
+-0.4
+-0.3
+-0.2
+-0.1
+0.0
+0.1
+0.2
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Temperature (℃) 
+Offset  Error (mV) 
+Range = ±2.5 × VREF 
+CH0, CH1, CH2, 
+CH3, CH4, CH5, 
+CH6, CH7 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+11 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+  Gain Error vs. Temperature across Input Ranges  
+ Gain Error vs. Temperature across Channels 
+ 
+ 
+   Typical Histogram for Gain Error Drift 
+ Gain Error vs. External Resistance (REXT) 
+ 
+ 
+   Offset and Gain vs. Temperature (AUX Channel) 
+SNR, SINAD, SFDR and THD vs. Temperature (AUX Channel) 
+ 
+ 
+ 
+ 
+-0.02
+-0.01
+0
+0.01
+0.02
+0.03
+0.04
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Temperature (℃) 
+Gain Error (%FSR) 
+Range = ±1.25 × VREF 
+Range = ±0.625 × VREF 
+Range = 0 to 2.5 × VREF 
+Range = ±2.5 × VREF 
+Range =  to 1.25 × VREF 
+0.000
+0.005
+0.010
+0.015
+0.020
+0.025
+0.030
+0.035
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Temperature (℃) 
+Gain Error (%FSR) 
+Range = ±2.5 × VREF 
+CH0, CH1, CH2, 
+CH3, CH4, CH5, 
+CH6, CH7 
+0
+4
+8
+12
+16
+20
+24
+-3.0
+-2.5
+-2.0
+-1.5
+-1.0
+-0.5
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+Number of Occurrences 
+Gain Drift (ppm/℃) 
+Range = ±2.5 × VREF 
+-2.0
+-1.5
+-1.0
+-0.5
+0.0
+0.5
+0
+4
+8
+12
+16
+20
+Gain Error (%FS) 
+External Resistance (kΩ) 
+Range = ±2.5 × VREF 
+Range = ±1.25 × VREF 
+Range = ±0.625 × VREF 
+Range = 0 to 2.5 × VREF 
+Range = 0 to 1.25 × VREF 
+-0.20
+-0.15
+-0.10
+-0.05
+0.00
+0.05
+-0.080
+-0.075
+-0.070
+-0.065
+-0.060
+-0.055
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Temperature (℃) 
+Gain Error (%FSR) 
+Gain Error  
+Offset Error  
+Offset Error (mV) 
+-106
+-104
+-102
+-100
+-98
+-96
+-94
+84
+88
+92
+96
+100
+104
+108
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Temperature (℃) 
+SNR, SINAD, SFDR (dB) 
+fIN = 1kHz 
+ 
+SNR 
+ 
+SINAD 
+ 
+SFDR 
+ 
+THD 
+ 
+THD (dB) 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+12 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+     SNR vs. Input Frequency 
+     SNR vs. Temperature 
+ 
+ 
+     SINAD vs. Input Frequency 
+     SINAD vs. Temperature 
+ 
+ 
+     SFDR vs. Input Frequency 
+     SFDR vs. Temperature 
+ 
+ 
+ 
+ 
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+0
+2000
+4000
+6000
+8000
+10000
+Signal-to-Noise Ratio (dB) 
+Input Frequency (Hz) 
+Range = ±2.5 × VREF 
+Range = ±1.25 × VREF 
+Range = ±0.625 × VREF 
+Range = 0 to 2.5 × VREF 
+Range = 0 to 1.25 × VREF 
+82
+83
+84
+85
+86
+87
+88
+89
+90
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Temperature (℃) 
+Signal-to-Noise Ratio (dB) 
+fIN = 1kHz 
+ 
+Range = ±2.5 × VREF 
+Range = ±1.25 × VREF 
+Range = ±0.625 × VREF 
+Range = 0 to 2.5 × VREF 
+Range = 0 to 1.25 × VREF 
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+0
+2000
+4000
+6000
+8000
+10000
+Signal-to-Noise + Distortion Ratio (dB) 
+Input Frequency (Hz) 
+Range = ±2.5 × VREF 
+Range = ±1.25 × VREF 
+Range = ±0.625 × VREF 
+Range = 0 to 2.5 × VREF 
+Range = 0 to 1.25 × VREF 
+81
+82
+83
+84
+85
+86
+87
+88
+89
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Temperature (℃) 
+Signal-to-Noise + Distortion  Ratio (dB) 
+fIN = 1kHz 
+ 
+Range = ±2.5 × VREF 
+Range = ±1.25 × VREF 
+Range = ±0.625 × VREF 
+Range = 0 to 2.5 × VREF 
+Range = 0 to 1.25 × VREF 
+0
+20
+40
+60
+80
+100
+120
+0
+2000
+4000
+6000
+8000
+10000
+Spurious-Free Dynamic Range (dB) 
+Input Frequency (Hz) 
+Range = ±2.5 × VREF 
+Range = ±1.25 × VREF 
+Range = ±0.625 × VREF 
+Range = 0 to 2.5 × VREF 
+Range = 0 to 1.25 × VREF 
+90
+92
+94
+96
+98
+100
+102
+104
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Temperature (℃) 
+Spurious-Free Dynamic Range (dB) 
+fIN = 1kHz 
+ 
+Range = ±2.5 × VREF 
+Range = ±1.25 × VREF 
+Range = ±0.625 × VREF 
+Range = 0 to 2.5 × VREF 
+Range = 0 to 1.25 × VREF 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+13 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+     THD vs. Input Frequency  
+     THD vs. Temperature 
+ 
+ 
+    Memory Crosstalk vs. Input Frequency 
+    Memory Crosstalk vs. Input Frequency for Overrange Inputs 
+ 
+ 
+     Isolation Crosstalk vs. Input Frequency 
+   Isolation Crosstalk vs. Input Frequency for Overrange Inputs 
+ 
+ 
+ 
+ 
+-108
+-106
+-104
+-102
+-100
+-98
+-96
+-94
+-92
+-90
+-88
+0
+2000
+4000
+6000
+8000
+10000
+Total Harmonic Distortion (dB) 
+Input Frequency (Hz) 
+Range = ±2.5 × VREF 
+Range = ±1.25 × VREF 
+Range = ±0.625 × VREF 
+Range = 0 to 2.5 × VREF 
+Range = 0 to 1.25 × VREF 
+-102
+-100
+-98
+-96
+-94
+-92
+-90
+-88
+-86
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Temperature (℃) 
+Total Harmonic Distortion (dB) 
+fIN = 1kHz 
+ 
+Range = ±2.5 × VREF 
+Range = ±1.25 × VREF 
+Range = ±0.625 × VREF 
+Range = 0 to 2.5 × VREF 
+Range = 0 to 1.25 × VREF 
+-140
+-130
+-120
+-110
+-100
+-90
+-80
+0.05
+0.5
+5
+50
+500
+5000
+Memory crosstalk (dB) 
+Input Frequency (kHz) 
+Range = ±2.5 × VREF 
+Range = ±1.25 × VREF 
+Range = ±0.625 × VREF 
+Range = 0 to 2.5 × VREF 
+Range = 0 to 1.25 × VREF 
+-140
+-130
+-120
+-110
+-100
+-90
+-80
+0.05
+0.5
+5
+50
+500
+5000
+Memory crosstalk (dB) 
+Input Frequency (kHz) 
+Range = ±2.5 × VREF 
+Range = ±1.25 × VREF 
+Range = ±0.625 × VREF 
+Range = 0 to 2.5 × VREF 
+Range = 0 to 1.25 × VREF 
+Input = 2 × maximum 
+input voltage 
+-140
+-130
+-120
+-110
+-100
+-90
+-80
+0.05
+0.5
+5
+50
+500
+5000
+Isolation crosstalk (dB) 
+Input Frequency (kHz) 
+Range = ±2.5 × VREF 
+Range = ±1.25 × VREF 
+Range = ±0.625 × VREF 
+Range = 0 to 2.5 × VREF 
+Range = 0 to 1.25 × VREF 
+-140
+-130
+-120
+-110
+-100
+-90
+-80
+0.05
+0.5
+5
+50
+500
+5000
+Isolation crosstalk (dB) 
+Input Frequency (kHz) 
+Range = ±2.5 × VREF 
+Range = ±1.25 × VREF 
+Range = ±0.625 × VREF 
+Range = 0 to 2.5 × VREF 
+Range = 0 to 1.25 × VREF 
+Input = 2 × maximum 
+input voltage 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+14 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+     AVDD Current vs. Temperature (fS = 500kSPS)  
+     AVDD Current vs. Temperature (fS = 500kSPS) 
+ 
+ 
+     AVDD Current vs. Temperature (During Sampling) 
+     AVDD Current vs. Temperature (During Sampling) 
+ 
+ 
+     AVDD Current vs. Temperature (Standby Mode) 
+     AVDD Current vs. Temperature (Standby Mode) 
+ 
+ 
+ 
+ 
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Temperature (℃) 
+IAVDD Dynamic (mA) 
+SGM51652H8 
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Temperature (℃) 
+IAVDD Dynamic (mA) 
+SGM51652H4 
+0
+2
+4
+6
+8
+10
+12
+14
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+IAVDD Static (mA) 
+Temperature (℃) 
+SGM51652H8 
+0
+2
+4
+6
+8
+10
+12
+14
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+IAVDD Static (mA) 
+Temperature (℃) 
+SGM51652H4 
+0
+2
+4
+6
+8
+10
+12
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+IAVDD Standby (mA) 
+Temperature (℃) 
+SGM51652H8 
+0
+2
+4
+6
+8
+10
+12
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+IAVDD Standby (mA) 
+Temperature (℃) 
+SGM51652H4 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+15 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+     AVDD Current vs. Temperature (Power-Down Mode)  
+      AVDD Current vs. Temperature (Power-Down Mode) 
+ 
+ 
+    Variation of the Reference Buffer Output (REFCAP)  
+    across Supply and Temperature 
+     
+    Reference Buffer Temperature Drift Histogram 
+ 
+ 
+     DC Histogram for Mid-Scale Inputs (±2.5 × VREF) 
+    DC Histogram for Mid-Scale Inputs (±1.25 × VREF) 
+ 
+ 
+ 
+ 
+0
+5
+10
+15
+20
+25
+30
+35
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+IAVDD PD (μA) 
+Temperature (℃) 
+SGM51652H8 
+0
+5
+10
+15
+20
+25
+30
+35
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+IAVDD PD (μA) 
+Temperature (℃) 
+SGM51652H4 
+4.094
+4.095
+4.096
+4.097
+4.098
+4.099
+4.100
+4.101
+4.102
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Temperature (℃) 
+REFCAP Voltage (V) 
+AVDD = 5.25V 
+AVDD = 5V 
+AVDD = 4.75V 
+ 
+0
+2
+4
+6
+8
+10
+-4
+-2
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+24
+Number of Occurrences 
+REFCAP Drift (ppm/℃) 
+0
+5000
+10000
+15000
+20000
+25000
+32761
+32762
+32763
+32764
+32765
+32766
+32767
+32768
+32769
+32770
+32771
+32772
+Number of Occurrences 
+Output Codes 
+0
+2000
+4000
+6000
+8000
+10000
+12000
+32762
+32763
+32764
+32765
+32766
+32767
+32768
+32769
+32770
+32771
+32772
+32773
+Number of Occurrences 
+Output Codes 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+16 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+     DC Histogram for Mid-Scale Inputs (±0.625 × VREF)  
+    DC Histogram for Mid-Scale Inputs (2.5 × VREF) 
+ 
+ 
+    DC Histogram for Mid-Scale Inputs (1.25 × VREF) 
+    DC Histogram for Mid-Scale Inputs (AUX Channel) 
+ 
+ 
+      Typical FFT Plot (±2.5 × VREF) 
+      Typical FFT Plot (±1.25 × VREF) 
+ 
+ 
+ 
+ 
+0
+2000
+4000
+6000
+8000
+10000
+12000
+14000
+16000
+32764
+32765
+32766
+32767
+32768
+32769
+32770
+32771
+32772
+32773
+Number of Occurrences 
+Output Codes 
+0
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+32761
+32762
+32763
+32764
+32765
+32766
+32767
+32768
+32769
+32770
+32771
+32772
+32773
+32774
+Number of Occurrences 
+Output Codes 
+0
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+32761
+32762
+32763
+32764
+32765
+32766
+32767
+32768
+32769
+32770
+32771
+32772
+32773
+32774
+Number of Occurrences 
+Output Codes 
+0
+5000
+10000
+15000
+20000
+25000
+32764
+32765
+32766
+32767
+32768
+32769
+32770
+32771
+32772
+Number of Occurrences 
+Output Codes 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+17 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+      Typical FFT Plot (±0.625 × VREF) 
+      Typical FFT Plot (2.5 × VREF) 
+ 
+ 
+      Typical FFT Plot (1.25 × VREF) 
+     Typical INL for All Codes (±2.5× VREF) 
+ 
+ 
+     Typical INL for All Codes (±1.25× VREF) 
+     Typical INL for All Codes (±0.625× VREF) 
+ 
+ 
+ 
+ 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+18 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+     Typical INL for All Codes (2.5 × VREF) 
+     Typical INL for All Codes (1.25 × VREF) 
+ 
+ 
+     Typical DNL for All Codes (±2.5× VREF) 
+     Typical DNL for All Codes (±1.25× VREF) 
+ 
+ 
+     Typical DNL for All Codes (±0.625× VREF) 
+     Typical DNL for All Codes (2.5× VREF) 
+ 
+ 
+ 
+ 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+19 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+     Typical DNL for All Codes (1.25 × VREF)  
+    REFCAP Solder Heat Shift Distribution Histogram 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+0
+5
+10
+15
+20
+25
+30
+35
+-3.0
+-2.6
+-2.2
+-1.8
+-1.4
+-1.0
+-0.6
+-0.2
+0.2
+0.6
+1.0
+1.4
+1.8
+2.2
+Number of Occurrences 
+Error Voltage (mV) 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+20 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAM 
+nCS
+Multiplexer
+AIN_0P
+AIN_0N
+AIN_1P
+AIN_1N
+AIN_3P
+AIN_3N
+AUX_INP
+AUX_INN
+Additional Channels in SGM51652H8
+SGM51652H4
+SGM51652H8
+AVDD
+DVDD
+Oscillator
+16-Bit 
+SAR ADC
+Digital Logic 
+& Interface
+4.096V 
+Reference
+SDI
+SCLK
+nREFSEl
+DAISY
+SDO
+nRST/nPD
+REFCAP
+REFIO
+AGND
+DGND
+REFGND
+PGA
+OVP
+OVP
+1MΩ
+1MΩ
+ADC
+Driver
+2nd-Order
+LPF
+VBIAS
+Input Floating 
+Detection
+Input block0
+Input block1
+PGA
+OVP
+OVP
+1MΩ
+1MΩ
+ADC
+Driver
+2nd-Order
+LPF
+VBIAS
+Input Floating 
+Detection
+Input block4
+AIN_2P
+AIN_2N
+AIN_5P
+AIN_5N
+AIN_6P
+AIN_6N
+AIN_7P
+AIN_7N
+AIN_4P
+AIN_4N
+Input block2
+Input block3
+Input block5
+Input block6
+Input block7
+ 
+Figure 2. Block Diagram 
+ 
+ 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+21 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION 
+Overview 
+The SGM51652H4 has 4 channels inputs. The SGM51652H8 
+has 8 channels inputs. They both have a 16-bit 500kSPS 
+SAR ADC core. The interface is SPI-compatible serial 
+interface and supports with daisy-chain (DAISY) features. 
+ 
+Analog Inputs 
+The chip supports bipolar single-ended input, bipolar 
+differential input, and unipolar single-ended input. 
+When it works in bipolar single-ended input, tie the AIN_nN to 
+AGND (system ground), the signal applied to AIN_nP can be 
+bipolar ±2.5 × VREF, ±1.25 × VREF, and ±0.625 × VREF. Another 
+selection is that tie the AIN_nP to AGNG (system ground), the 
+signal applied to AIN_nN can be bipolar ±2.5 × VREF, ±1.25 × 
+VREF, and ±0.625 × VREF. 
+When it works in unipolar single-ended input, tie the AIN_nN 
+to AGND (system ground), the signal applied to AIN_nP can 
+be unipolar 0 to 2.5 × VREF, and 0 to 1.25 × VREF.  
+When it works in bipolar differential input, then AIN_nN and 
+AIN_nP are differential inputs referring to AGND. For each pin, 
+the absolute voltage referring to AGND must be within the 
+limited voltage specified in electrical characteristic table, at 
+the same time, the differential voltage of AIN_nP-AIN_nN 
+must be compatible with the according input ranges. The 
+common mode voltage of AIN_nP and AIN_nN are limited in 
+according 
+input 
+ranges. 
+Please 
+refer 
+to 
+electrical 
+characteristic table. When the chip works in bipolar 
+differential input, the valid input ranges are bipolar ±2.5 × 
+VREF, ±1.25 × VREF, and ±0.625 × VREF. The illustrative input 
+signals are shown in Figure 3, as shown in this example, if 
+input common mode voltage is not 0V, there will be some 
+dynamic range (ADC conversion code) losing accordingly.  
+The input voltage range is configured by software, and it can 
+be bipolar ±2.5 × VREF, ±1.25 × VREF, and ±0.625 × VREF or 
+unipolar 0 to 2.5 × VREF, and 0 to 1.25 × VREF. If there is a 
+reference voltage of 4.096V (internal or external), then the 
+input ranges of the device can be configured to bipolar ranges 
+of ±10.24V, ±5.12V, and ±2.56V, or unipolar ranges of 0V to 
+10.24V and 0V to 5.12V. 
+ 
+Analog Input Impedance 
+The input impedance of each channel is ≥ 1MΩ. 
+ 
+Input Over-Voltage Protection Circuit 
+The chip has input over-voltage protection (OVP) circuit. 
+Table 1 shows these characteristics. 
+ 
+Table 1. Input Over-Voltage Protection Limits when AVDD 
+= 5V (1) 
+ 
+Input Condition 
+(VOVP = ±20V) 
+ADC 
+Output 
+Comments 
+|VIN| < |VRANGE| 
+Valid 
+Work normally. 
+|VRANGE| < |VIN| < |VOVP| 
+Saturated 
+ADC output is saturated, and 
+the internal protection circuits 
+are on. 
+|VIN| > |VOVP| 
+Saturated 
+This may damage the chip. 
+ 
+NOTE: 1. AGND = 0V, |VRANGE| is the maximum input voltage 
+for any selected input range, and |VOVP| is the break-down 
+voltage for the internal OVP circuit. Assume that RS is 
+approximately 0Ω. 
+ 
+In the following condition, the input signal is applied before 
+analog AVDD is powered on or the input signal is applied and 
+keep analog AVDD is floating, the input OVP circuits will be 
+on. And if the input voltage exceeds the |VOVP|, the chip will 
+be damaged. 
+ 
+ 
+VCM = AGND = 0V
+VCM = AGND = 0V
+VIN_P
+VIN_N
+VP-P = -5.12V ~ +5.12V
+VP-P = -5.12V ~ +5.12V
+VP-P = -10.24V ~ +10.24V
+VCM = AGND = 0V
+VCM = 7.5V (MAX)
+VIN_P
+VP-P = -2.74V ~ +2.74V (MAX)
+VP-P = -5.48V ~ +5.48V
+VCM = AGND = 0V
+VIN_P - VIN_N
+AGND = 0V
+VIN_MAX = 10.24V
+VIN_N
+AGND = 0V
+VIN_MAX = 10.24V
+VIN_P - VIN_N
+OR
+VCM = 7.5V (MAX)
+VP-P = -2.74V ~ +2.74V (MAX)
+NOTE: VCM means common mode voltage. VP-P means peak-to-peak voltage. 
+Figure 3. Examples of Bipolar Differential ±10.24V Input 
+ 
+ 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+22 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Input Floating Detection Function 
+The device features an input floating detection function, when 
+this function is enabled by setting INPUT_FLOATING_ 
+DETECTION_EN register corresponding bit (see Table 16). 
+Besides setting the INPUT_FLOATING_DETECTION_EN 
+register, it also needs a pull-down resistor 10MΩ connected 
+to system ground (AGND), please refer to typical connection 
+in Figure 4. After setting INPUT_FLOATING_DETECTION 
+_EN register (see Table 16), the host needs to send the 
+manual mode command to continuously convert the channel 
+that needs floating detection. When the detected input is 
+floating, the corresponding bit in the INPUT_FLOATING_ 
+DETECTION_STATUS register is set to 1 (see Table 17). 
+After the floating detection is completed, the bit in the 
+INPUT_FLOATING_DETECTION_EN register is automatically 
+set to 0 (see Table 16). If the detected input is given an input 
+signal source later, please repeat the above floating detection 
+steps. Then the INPUT_FLOATING_ DETECTION_STATUS 
+register referred bit can be cleared. 
+Note that, to perform a complete input floating detection, 
+there must be a consecutive 256 times conversions, which 
+cannot be interrupted by normal input sampling. At same time, 
+if there is still an input signal at input pin, the input floating 
+detection will report an untrusted result.  
+ 
+Programmable Gain Amplifier (PGA) 
+The chip has a programmable gain amplifier (PGA), and the 
+PGA gain can be adjusted by setting the RANGE_CHn[3:0] (n 
+= 0 to 3 or 0 to 7) bits in the configuration register (see the 
+Channel n Input Range Registers).  
+Table 2. Input Range Selection Bits Details 
+Analog Input Range 
+RANGE_CHn[3:0] 
+Bit 3 
+Bit 2 
+Bit 1 
+Bit 0 
+±2.5 × VREF (default) 
+0 
+0 
+0 
+0 
+±1.25 × VREF 
+0 
+0 
+0 
+1 
+±0.625 × VREF 
+0 
+0 
+1 
+0 
+0 to 2.5 × VREF 
+(1) 
+0 
+1 
+0 
+1 
+0 to 1.25 × VREF 
+(1) 
+0 
+1 
+1 
+0 
+ 
+NOTE: 1. These two unipolar input ranges are only valid for 
+unipolar single-ended input with AIN_nN = AGND. 
+ 
+Multiplexer (MUX) 
+The maximum throughout data rate of scanning all channels 
+is 500kSPS. For the SGM51652H4, it means the maximum 
+data rate per channel is 125kSPS if all 4 channels are 
+enabled. For the SGM51652H8, it means the maximum data 
+rate per channel is 62.5kSPS if all 8 channels are enabled. 
+Please refer to Table 6 for details of auto-scan mode and 
+manual mode settings. 
+ 
+Reference 
+The chip can be operated with an internal reference or an 
+external voltage reference. 
+ 
+ 
+1MΩ
+1MΩ
+AIN_P
+AIN_N
+VB
+ESD
+AVDD
+D1P
+D2P
+AVDD
+D1n
+D2n
+V-
+V+
+VOUT
+RFB
+ESD
+RDC
+AGND
+AVDD
+10MΩ
+Input 
+Source
+ 
+Figure 4. Input Floating Detection Connection 
+ 
+ 
+ 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+23 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Auxiliary Channel 
+The chip has a true differential input channel (AUX_INP and 
+AUX_INN). This AUX channel goes to ADC only through the 
+MUX. There is no PGA, driver or low pass filter in the AUX 
+channel.  
+The absolute input on AUX_INP and AUX_INN must be 0 to 
+VREF. The differential input range of VAUX_INP - VAUX_INN is -VREF 
+to +VREF. 
+ 
+ADC Description 
+The chip output code is in straight-binary format. 
+FFFFh
+8000h
+0001h
+ADC Output Code
+NFS
+1LSB
+FSR/2
+FSR - 1LSB
+PFS
+Analog Input (AIN_nP – AIN_nN)
+ 
+Figure 5. Device Transfer Function (Straight-Binary 
+Format) 
+ 
+Table 3. ADC LSB Values for Different Input Ranges (VREF 
+= 4.096V) 
+ 
+Input Range 
+Positive 
+Full-Scale 
+(V) 
+Negative 
+Full-Scale 
+(V) 
+Full-Scale 
+Range (V) 
+LSB 
+(µV) 
+±2.5 × VREF 
+10.24 
+-10.24 
+20.48 
+312.5 
+±1.25 × VREF 
+5.12 
+-5.12 
+10.24 
+156.25 
+±0.625 × VREF 
+2.56 
+-2.56 
+5.12 
+78.125 
+0 to 2.5 × VREF (1) 
+10.24 
+0 
+10.24 
+156.25 
+0 to 1.25 × VREF (1) 
+5.12 
+0 
+5.12 
+78.125 
+ 
+NOTE: 1. These two unipolar input ranges are only valid for 
+unipolar single-ended input with AIN_nN = AGND. 
+ 
+Device Functional Modes 
+nRST/nPD (Input) 
+nRST/nPD is a dual-function pin. The timing of this pin is 
+shown in Figure 6, and Table 4 explains the usage of this pin. 
+ 
+ 
+ 
+Figure 6. nRST/nPD Pin Timing 
+ 
+ 
+Table 4. nRST/nPD Pin Functionality 
+Condition 
+Device Mode 
+40ns < tPL_RST_PD ≤ 100ns The device goes into RESET mode. 
+100ns < tPL_RST_PD < 400ns 
+The device is in RESET mode and has 
+the possibility to go into PWR_DOWN 
+mode. Note that this setting is not 
+recommended. 
+tPL_RST_PD ≥ 400ns 
+The device goes into PWR_DOWN 
+mode and the program registers are 
+reset to default value. 
+ 
+The chip can be powered down by pulling nRST/nPD pin for 
+at least 400ns. And this operation is asynchronous to chip's 
+operation clock and working status. In power-down mode, the 
+chip has no response to any digital inputs except operating on 
+nRST/nPD pin. 
+When chip goes into RESET mode and PWR_DOWN mode, 
+the program registers are reset to default value. 
+When the nRST/nPD pin is pulled high again, the chip wakes 
+up and goes into a default state. To let the chip work correctly, 
+it must re-configure the program registers accordingly.  
+ 
+ 
+ 
+ 
+nRST/nPD
+tPL_RST_PD
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+24 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Data Acquisition Example 
+This section briefly introduces how the chip works and 
+interfaces with the host controller. Figure 7 shows the timing 
+marks. 
+As shown in Figure 7, there are four events T1 ~ T4. 
+T1: The input signal is sampled at the moment of the nCS 
+falling edge. The ADC conversion is driven by internal 
+oscillator clock. The current ADC result is from the input 
+channel selected by previous data frame. The current SDI 
+data setting is for the next conversion. The SDO goes low 
+because of there is no ADC conversion result during the first 
+16 SCLK cycles. 
+T2: The conversion time is 16 SCLK cycles. Therefore, the 
+maximum SCLK frequency must be compliance with the 
+timing requirement (which is listed in Electrical Characteristics 
+table). Otherwise, if the conversion time is not enough, the 
+ADC conversion result is corrupt. The MSB of ADC result 
+starts to be shifted out on SDO at the 16th falling edge of 
+SCLK. 
+T3: After the 16th falling edge of the SCLK, the chip doesn't 
+read any more data on SDI. The host controller can read the 
+ADC result at every falling edge of the SCLK cycle which is 
+from 17th to 32nd. If there are more SCLK cycles, the SDO is 
+filled with 0 until next conversion is initiated. 
+T4: The host controller stops the data frame by pulling nCS 
+high. The SDO goes into 3-state until the next data frame 
+starts. 
+ 
+Daisy-Chain Topology 
+A typical connection diagram showing multiple devices in 
+daisy-chain mode is shown in Figure 8. The devices can enter 
+daisy-chain mode without any special hardware or software 
+configuration. 
+ 
+ 
+nCS
+SCLK
+SDO
+SDI
+1
+2
+DI1
+DI0
+15
+16
+31
+32
+DO15
+DO12
+DO0
+XX
+XX
+XX
+17
+18
+DO1
+Sample N
+Sample 
+N+1
+DO14
+DI15
+DI14
+XX
+T1
+T2
+T3
+T4
+ 
+ 
+Figure 7. Timing Diagram of Device Operation Using the Serial Interface 
+ 
+ 
+SDI
+SCLK
+nCS
+SDI
+SCLK
+nCS
+SDI
+SCLK
+nCS
+SDO_H
+SCLK_H
+nCS_H
+SDO
+SDO
+SDO
+EOC/nINT
+DAISY
+SDI_H
+SGM51652H4
+SGM51652H8
+#1
+ Host Controller
+SGM51652H4
+SGM51652H8
+#2
+SGM51652H4
+SGM51652H8
+#3
+DAISY
+DAISY
+DGND
+ 
+ 
+Figure 8. Daisy-Chain Connection Schematic 
+ 
+ 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+25 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+A typical timing diagram for three devices connected in 
+daisy-chain mode is shown in Figure 9. 
+As shown in the example, the three chips are connected in 
+daisy-chain mode in Figure 9. Each chip samples its 
+respective signal input on the falling edge of the nCS. At the 
+first 16 SCLK cycles, SDO outputs keep low. At the second 
+16 SCLK cycles, each chip outputs its ADC result to SDO, 
+and receives the data from DAISY pin. On every 
+subsequence SCLK cycle, the DAISY pin data is shifted in 
+and stored in internal register, and the chip shifts out the 
+internal shift register data to its SDO pin. In this example, 16 × 
+3 = 48 SCLK cycles are required to shift all data to the tail 
+chip SDO pin. In total 64 SCLK cycles for all 3 chips to 
+conversion and shift out all data. 
+ 
+Device Modes 
+After power-up, the SGM51652H4 and SGM51652H8 stay in 
+IDLE state and don’t perform any function until a command 
+from the host controller.  
+ 
+Continued Operation in the Selected Mode (NO_OP) 
+If the chip receives a NO_OP command (0x0000), it will follow 
+the same settings which are already in the program registers. 
+The previous selected mode can be STDBY, PWR_DOWN, 
+AUTO_SCAN and MAN_CH_n. 
+If the NO_OP command (0x0000) occurs during any other 
+configure operation to the command register, the chip retains 
+the old settings of the program registers. Then the chip goes 
+back to IDLE state and waits for a new command. 
+ 
+Frame Abort Condition (FRAME_ABORT) 
+As shown in Data Acquisition Example section, a complete 
+command is at least composed of 16 SCLK cycles, and the 
+command is locked in at the falling of the 16th SCLK. If the 
+SCLK is not accumulated to 16, the chip keeps waiting and 
+the nCS must stay low all operation process. If the nCS goes 
+high before the command transmission is completed, the chip 
+goes to an invalid state. It will not skip out the invalid condition 
+until a new proper command is performed. 
+ 
+ 
+ 
+Figure 9. Timing Diagram of Three Devices Connected in Daisy-Chain Mode 
+ 
+ 
+ 
+SCLK#1
+SDO#1
+Conversion N
+nCS#1
+SCLK#2
+SCLK#3
+nCS#2
+nCS#3
+DAISY#2
+SDO#2
+1
+16
+1
+16
+Conversion N
+Conversion N
+From Device #1
+From Device #2
+From Device #1
+SDO#3
+Conversion N
+Conversion N
+From Device #3
+From Device #2
+1
+16
+Conversion N
+From Device #1
+SDI#1
+SDI#2
+SDI#3
+1
+16
+DAISY#3
+Sample 
+N
+Sample 
+N+1
+Config
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+26 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+STANDBY Mode (STDBY) 
+The chip supports a low power consumption standby mode 
+(STDBY). In STDBY mode, only parts of the circuits are 
+powered off, and they will take the chip about 20μs to exit the 
+STDBY mode. After getting out of the STDBY, the chip 
+program registers retain its customer's setting value.  
+As shown in Figure 10, issuing a STDBY command 0x8200, 
+the command will be valid and the chip goes into STDBY 
+mode on the rising edge of nCS. To exit STDBY mode, a valid 
+command AUTO_SCAN or MAN_CH_n must be issued and it 
+will be valid on the rising edge of nCS (see Figure 11). In the 
+STDBY mode, the program registers can be read or written. 
+But the chip doesn't do conversion, thus any conversion data 
+read back is invalid (more details in Program Register 
+Read/Write Operation section). 
+Figure 11 shows the command AUTO_SCAN or MAN_CH_n 
+can call the chip out of the STDBY mode. It is valid at the 
+rising edge of the nCS. It will take the chip about 30μs to fully 
+be ready to sample and do conversion after exiting STDBY 
+mode. It is necessary to hold nCS high at least 30μs before a 
+new data frame starting. On the next nCS falling edge, the 
+chip samples the input channel which is selected by 
+MAN_CH_n or the first channel of the AUTO_SCAN mode 
+sequence (more details refer to Figure 7). 
+ 
+ 
+ 
+ 
+ 
+Figure 10. Timing Diagram for Entering and Remaining in STDBY Mode 
+ 
+ 
+ 
+1
+16
+ AUTO_SCAN or MAN_CH_n
+1
+32
+Do Not Care
+Data of Conversion
+NO_OP
+Exit STDBY Mode
+t7
+New Sample by MAN_CH_n or AUTO_SCAN
+SDI
+nCS
+SDO
+SCLK
+ 
+ 
+Figure 11. Timing Diagram for Exiting STDBY Mode 
+ 
+ 
+SCLK
+SDI
+nCS
+1
+16
+SDO
+17
+32
+ 0x8200
+Do Not Care
+18
+1
+24
+Sample 
+N
+Do Not Care
+Data of Sample N
+Data of Program Register
+If Write or Read Program Register
+Enter STDBY Mode
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+27 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Power-Down Mode (PWR_DOWN) 
+The chip supports both software and hardware power-down 
+mode (PWR_DOWN). The hardware power-down mode is 
+talked in the nRST/nPD section. When the chip is waked up 
+from software power-down, all previous settings of program 
+registers are retained. When the chip is waked up from 
+hardware power-down mode, all the registers are reset to 
+default values. It will take the chip about 15ms to fully power 
+up and ready to work after receiving wake up command 
+(AUTO_SCAN or MAN_CH_n). 
+As shown in Figure 12, issuing a PWR_DOWN command 
+0x8300, the command will be valid and the chip goes into 
+PWR_DOWN mode on the rising edge of nCS. To exit 
+PWR_DOWN mode, a valid command AUTO_SCAN or 
+MAN_CH_n must be issued and it will be valid on the rising 
+edge of nCS (See Figure 13). Being in the PWR_DOWN 
+mode, the program registers can be read or written. But the 
+chip doesn't do conversion, thus any conversion data read 
+back is invalid (more details in Program Register Read/Write 
+Operation section). 
+Figure 13 shows the command AUTO_SCAN or MAN_CH_n 
+can call the chip out of the PWR_DOWN mode. It is valid at 
+the rising edge of the nCS. It will take the chip about 15ms to 
+fully be ready to sample and do conversion after exiting 
+PWR_DOWN mode. It is necessary to hold nCS high at least 
+15ms before a new data frame starting. On the next nCS 
+falling edge, the chip samples the input channel which is 
+selected by MAN_CH_n or the first channel of the 
+AUTO_SCAN mode sequence (more details refer to Figure 
+8). 
+ 
+ 
+ 
+ 
+Figure 12. Timing Diagram for Entering and Remaining in PWR_DOWN Mode  
+ 
+1
+16
+ AUTO_SCAN or MAN_CH_n
+1
+32
+Do not care
+Data of Conversion
+NO_OP
+Exit PWR_DOWN Mode
+New Sample by MAN_CH_n or AUTO_SCAN
+SDI
+nCS
+SDO
+SCLK
+15ms
+ 
+ 
+Figure 13. Timing Diagram for Exiting PWR_DOWN Mode  
+ 
+ 
+SCLK
+SDI
+nCS
+1
+16
+SDO
+17
+32
+ 0x8300
+Do Not Care
+18
+1
+24
+Sample 
+N
+Do Not Care
+Data of Sample N
+Data of Program Register
+If Write or Read Program Register
+Enter PWR_DOWN Mode
+To enter PWR_DOWN mode,
+nCS can go high after 16th SCLK 
+if does not want read data.
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+28 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Auto Channel Enable with Reset (AUTO_SCAN) 
+In Figure 14, if a chip is set to work in AUTO_SCAN (0xA000) 
+mode, it can scan all selected channels automatically. In 
+order to read every selected channel conversion result 
+correctly, each of the data frame must be at least 32 SCLK 
+cycles. 
+The selected channels which the chip goes through in 
+AUTO_SCAN mode is configured by the program register 
+0x01 and register 0x02 (please see the Program Register 
+Map section). In this mode, the chip goes through all selected 
+channels in ascending order from the lowest channel. When it 
+scans all channels, it will repeat the cycle from the lowest 
+channel. The input range of each channel can be configured 
+separately in the Range Select Registers. 
+An example is shown in Figure 15, during the AUTO_SCAN 
+operation sequence, if an AUTO_SCAN command is inserted, 
+the chip re-starts scanning from the lowest selected channel. 
+Figure 14 shows a scan sequence from channel 1 to channel 
+4 and an AUTO_SCAN command is inserted after channel 3 
+conversion.  
+ 
+ 
+ 
+Figure 14. Timing Diagram for Entering AUTO_SCAN Mode  
+ 
+ 
+nCS
+SCLK
+SDO
+SDI
+Sample N
+AUTO_SCAN
+xxxx
+0x0000
+xxxx
+xxxx
+AUTO_SCAN
+xxxx
+xxxx
+Sample N Data 
+Ch 1 Data 
+Ch 2 Data 
+Ch 3 Data 
+Ch 1 Data 
+Channel 1 Sample 
+AUTO_SCAN Mode
+  Channel 1 to Channel 4 are scanned in sequence
+AUTO_SCAN Mode 
+Channel scan sequence re-started 
+1
+16 17
+32
+1
+16 17
+32
+1
+16 17
+32
+1
+16 17
+32
+1
+16 17
+32
+Channel 2 Sample 
+Channel 3 Sample 
+Channel 1 Sample 
+0x0000
+0x0000
+0x0000
+0x0000
+0x0000
+0x0000
+Previous XX Mode 
+Data of Sample N 
+ 
+ 
+Figure 15. Example of Device Operation in AUTO_SCAN Mode 
+ 
+ 
+SCLK
+SDI
+nCS
+1
+16
+SDO
+17
+32
+ 0xA000
+Do Not Care
+18
+Sample 
+N
+Do Not Care
+Data of Sample N
+After AUTO_SCAN command,
+nCS can go high after 16th SCLK 
+if does not want read data.
+1
+16
+17
+32
+ 0x0000
+Do Not Care
+18
+Do Not Care
+Data of 1st Selected Channel
+Enter AUTO_SCAN Mode
+Sample 1st Selected Channel
+In AUTO_SCAN Mode
+Sample 2nd Selected Channel
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+29 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Manual Channel n Select (MAN_CH_n) 
+As shown in Figure 16, the chip can work in manual channel 
+mode (MAN_CH_n) and do conversion in a specified channel 
+by manual mode command. In order to read every selected 
+channel conversion result correctly, each of the data frame 
+must be at least 32 SCLK cycles. Refer to Table 5 for a list of 
+commands of MAN_CH_n mode. 
+An example is shown in Figure 17, if there is no other new 
+valid command, the chip will keep sampling the current 
+channel selected by MAN_CH_n. The input range of each 
+channel can be configured separately in the Range Select 
+Registers. Figure 17 shows an example MAN_CH_3 to 
+MAN_CH_1 in manual select mode. 
+ 
+ 
+ 
+ 
+Figure 16. Timing Diagram for Entering MAN_CH_n Scan Mode 
+ 
+ 
+nCS
+SCLK
+SDO
+SDI
+Sample N
+MAN_CH_3
+xxxx
+0x0000
+xxxx
+xxxx
+MAN_CH_1
+xxxx
+xxxx
+Sample N Data 
+Ch 3 Data 
+Ch 3 Data 
+Ch 3 Data 
+Ch 1 Data 
+Channel 3 Sample 
+MAN_CH_n Mode  
+Channel n is continuously sampled if no new command is input
+MAN_CH_n Mode 
+Channel switched from 3 to 1
+1
+16 17
+32
+1
+16 17
+32
+1
+16 17
+32
+1
+16 17
+32
+1
+16 17
+32
+Channel 3 Sample 
+Channel 3 Sample 
+Channel 1 Sample 
+0x0000
+0x0000
+0x0000
+0x0000
+0x0000
+Previous XX Mode 
+Data of Sample N 
+0x0000
+ 
+Figure 17. Example of Device Operation in MAN_CH_n Mode 
+ 
+ 
+SCLK
+SDI
+nCS
+1
+16
+SDO
+17
+32
+MAN_CH_n Command
+Do Not Care
+18
+Sample 
+N
+Do Not Care
+Data of Sample N
+1
+16
+17
+32
+ 0x0000
+Do Not Care
+18
+Do Not Care
+Data of Selected Channel n
+In MAN_CH_n Mode
+Sample 2nd Selected Channel n
+Enter MAN_CH_n Mode
+Sample  1st Selected Channel n
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+30 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Channel Sequencing Modes 
+The chip supports two kinds of channel sequence modes, 
+auto channel scanning (AUTO_SCAN) and manual channel 
+selection (MAN_CH_n). 
+In AUTO_SCAN mode, the chip goes through all selected 
+channels in ascending order from the lowest channel.  
+In MAN_CH_n mode, the chip samples the same input 
+channel if there is no new command input. If a new input 
+channel is selected by MAN_CH_n command, then the new 
+selected channel is sampled in the next data frame. Figure 18 
+shows an example channel sequence switching from 
+AUTO_SCAN (channel 2, 3, 5 are selected) to MAN_CH_n 
+(MAN_CH_4). 
+Figure 19 shows an example channel sequence switching 
+from MAN_CH_n (MAN_CH_5) to AUTO_SCAN (channel 2, 
+3, 5 are selected). A new command is executed in the next 
+operation frame. 
+ 
+ 
+ 
+ 
+Figure 18. Transitioning from AUTO_SCAN to MAN_CH_n Mode  
+ 
+ 
+nCS
+SCLK
+SDO
+SDI
+Sample N
+MAN_Ch_4
+xxxx
+AUTO_SCAN
+xxxx
+xxxx
+MAN_CH_4
+xxxx
+xxxx
+Sample N Data 
+Ch 4 Data 
+Ch 2 Data 
+Ch 3 Data 
+Ch 5 Data 
+Channel 4 Sample 
+AUTO_SCAN Mode  
+Channel 2, 3, 5 are selected
+MAN_CH_n Mode 
+1
+16 17
+32
+1
+16 17
+32
+1
+16 17
+32
+1
+16 17
+32
+1
+16 17
+32
+Channel 2 Sample 
+Channel 3 Sample 
+Channel 5 Sample 
+0x0000
+0x0000
+0x0000
+0x0000
+0x0000
+Previous XX Mode 
+Data of Sample N 
+0x0000
+ 
+ 
+Figure 19. Transitioning from MAN_CH_n to AUTO_SCAN Mode 
+ 
+ 
+nCS
+SCLK
+SDO
+SDI
+Sample N
+AUTO_SCAN
+xxxx
+0x0000
+xxxx
+xxxx
+MAN_CH_4
+xxxx
+xxxx
+Sample N Data 
+Ch 2 Data 
+Ch 3 Data 
+Ch 5 Data 
+Ch 4 Data 
+Channel 2 Sample 
+AUTO_SCAN Mode  
+Channel2, 3, 5 are selected
+MAN_CH_n Mode 
+1
+16 17
+32
+1
+16 17
+32
+1
+16 17
+32
+1
+16 17
+32
+1
+16 17
+32
+Channel 3 Sample 
+Channel 5 Sample 
+Channel 4 Sample 
+0x0000
+0x0000
+0x0000
+0x0000
+0x0000
+Previous XX Mode 
+Data of sample N 
+0x0000
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+31 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Reset Program Registers (RST) 
+The chip supports both hardware and software reset (RST 
+command 0x8500). In both cases, all program registers are 
+reset to default values. The hardware reset is explained in 
+nRST/nPD section. 
+As shown in Figure 20, a valid RST command can be issued 
+during any data frame. After receiving the RST command, the 
+chip reset all program registers on the rising edge of nCS. In 
+the RESET mode, the program registers can be read or 
+written. But the chip doesn't do conversion, thus any 
+conversion data read back is invalid (more details in Program 
+Register Read/Write Operation section). 
+An AUTO_SCAN command or a MAN_CH_n command can 
+call the chip out of RESET mode. To initiate a conversion on 
+a particular analog channel, a valid AUTO_SCAN or 
+MAN_CH_n command must be executed using the default 
+program register settings. 
+ 
+Input Floating Detection Function Operating 
+Sequences 
+The device provides a function to detect input floating. To 
+perform this function, it is necessary to follow the operations 
+as bellow.  
+Step1: Change to manual mode, and selected target channel 
+n by MAN_CH_n command. 
+Step2: Write 0x80 to INPUT FLOATING_DETECTION_EN 
+Register (address is 0x0D, see Table 16). 
+Step3: Perform consecutive 256 times of conversions. Note 
+that, to perform a complete input floating detection, there 
+must be a consecutive 256 times conversions, it can’t be 
+interrupted by normal input sampling. At same time, if there is 
+still an input signal at input pin, the input floating detection will 
+report an untrusted result. 
+Step4: Read INPUT FLOATING_DETECTION_STATUS 
+Register (address is 0x0E, see Table 17). Note that the alarm 
+bit in INPUT_FLOATING_DETECTION_STATUS register will 
+not be cleared, until an input floating detection operation is 
+performed again and the inputs of ADC are connected with an 
+input signal source. 
+For an example operation sequences of channel 1, please 
+refer to Figure 23. 
+ 
+ 
+SCLK
+SDI
+nCS
+1
+16
+SDO
+17
+32
+ 0x8500
+Do Not Care
+18
+1
+24
+Sample 
+N
+Do Not Care
+Data of Sample N
+Data of Program Register
+If Write or Read Program Register
+Enter RST mode, all program registers 
+are reset to default value.
+To enter RST mode, nCS can go high after 
+16th SCLK if does not want read data.
+ 
+ 
+Figure 20. Timing Diagram of Reset Program Registers (RST)  
+ 
+ 
+ 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+32 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+nCS
+SCLK
+SDO
+SDI
+Enable Floating
+Detection Reg
+MAN_CH_1
+xxxx
+0x1B80
+xxxx
+xxxx
+0x0000
+xxxx
+xxxx
+xxxx
+0x80xx
+1st Data 
+256th Data 
+Ch 1 Status 
+MAN_CH_n
+Command
+1
+16 17
+32
+1
+16 17
+32
+1
+16 17
+32
+1
+16 17
+32
+1
+16 17
+32
+Sample
+1st
+Sample
+256th
+Read
+Floating Status REG
+0x0000
+0x1Cxx
+0x0000
+0x0000
+0x0000
+Enable of 
+INPUT_FLOATING_DETETION_EN
+0x0000
+Data of 
+INPUT_FLOATING_DETETION_
+STATUS
+Channel 1 
+Manual Scan Mode
+ 
+Figure 21. Input Floating Detection Operating Sequences 
+ 
+ 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+33 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAPS 
+The SGM51652H4 and SGM51652H8 have two kinds of 
+internal registers, command registers and program registers. 
+The command registers are listed in Table 5. They are used 
+for 
+working 
+modes 
+setting, 
+including 
+AUTO_SCAN, 
+MAN_CH_n, STDBY, PWR_DOWN and RST. 
+The program registers are listed in Table 8. They are used for 
+working conditions setting, including channels scanning 
+sequence, SDO output format, and input range settings of 
+each individual channels. 
+ 
+Command Register Description 
+The command register is a 16-bit, write-only register which is 
+used 
+for 
+setting 
+SGM51652H4/SGM51652H8 
+working 
+modes. 
+ 
+Table 5. Command Register Maps 
+Register 
+MSB Byte 
+LSB Byte 
+Command 
+(Hex) 
+Operation in Next Frame 
+B15 B14 B13 B12 B11 B10 
+B9 
+B8 
+B[7:0] 
+Continued Operation 
+(NO_OP) 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0000 0000 
+0000h 
+Repeat operation in previous 
+mode 
+Standby (STDBY) 
+1 
+0 
+0 
+0 
+0 
+0 
+1 
+0 
+0000 0000 
+8200h 
+Go to standby mode 
+Power-Down 
+(PWR_DOWN) 
+1 
+0 
+0 
+0 
+0 
+0 
+1 
+1 
+0000 0000 
+8300h 
+Go to power-down mode 
+Reset program registers 
+(RST) 
+1 
+0 
+0 
+0 
+0 
+1 
+0 
+1 
+0000 0000 
+8500h 
+Reset program register 
+Auto Ch. Sequence with 
+Reset (AUTO_SCAN) 
+1 
+0 
+1 
+0 
+0 
+0 
+0 
+0 
+0000 0000 
+A000h 
+Auto mode enabled following a 
+reset 
+Manual Ch 0 Selection 
+(MAN_Ch_0) 
+1 
+1 
+0 
+0 
+0 
+0 
+0 
+0 
+0000 0000 
+C000h 
+Select channel 0  
+Manual Ch 1 Selection 
+(MAN_Ch_1) 
+1 
+1 
+0 
+0 
+0 
+1 
+0 
+0 
+0000 0000 
+C400h 
+Select channel 1 
+Manual Ch 2 Selection 
+(MAN_Ch_2) 
+1 
+1 
+0 
+0 
+1 
+0 
+0 
+0 
+0000 0000 
+C800h 
+Select channel 2 
+Manual Ch 3 Selection 
+(MAN_Ch_3) 
+1 
+1 
+0 
+0 
+1 
+1 
+0 
+0 
+0000 0000 
+CC00h 
+Select channel 3 
+Manual Ch 4 Selection 
+(MAN_Ch_4) (1) 
+1 
+1 
+0 
+1 
+0 
+0 
+0 
+0 
+0000 0000 
+D000h 
+Select channel 4 
+Manual Ch 5 Selection 
+(MAN_Ch_5) (1) 
+1 
+1 
+0 
+1 
+0 
+1 
+0 
+0 
+0000 0000 
+D400h 
+Select channel 5 
+Manual Ch 6 Selection 
+(MAN_Ch_6) (1) 
+1 
+1 
+0 
+1 
+1 
+0 
+0 
+0 
+0000 0000 
+D800h 
+Select channel 6 
+Manual Ch 7 Selection 
+(MAN_Ch_7) (1) 
+1 
+1 
+0 
+1 
+1 
+1 
+0 
+0 
+0000 0000 
+DC00h 
+Select channel 7 
+Manual AUX Selection 
+(MAN_AUX) 
+1 
+1 
+1 
+0 
+0 
+0 
+0 
+0 
+0000 0000 
+E000h 
+Select AUX channel  
+ 
+NOTE: 1. Only for the SGM51652H8. 
+ 
+ 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+34 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAPS (continued) 
+Program Register Description 
+The program registers are 16-bit, write and read available 
+registers 
+which 
+are 
+used 
+for 
+setting 
+SGM51652H4/ 
+SGM51652H8 working condition setting. 
+The program registers are listed in Table 8. They are used for 
+working conditions setting, including channels scanning 
+sequence in AUTO_SCAN mode, set chip ID in daisy chain 
+mode, SDO output format, and input range settings of each 
+individual channels. 
+ 
+Program Register Read/Write Operation 
+The program register is a 16-bit read and write available 
+register. The operation data frame must be at least 24 SCLK 
+cycles. The operation data format is shown in Table 6 and 
+Table 7. The data bit DB[15:9] is register address. The data 
+bit DB[8] is write or read instruction bit. 
+In a writing cycle, data on SDI pin DIN[7:0] is the data to be 
+written to the target register. The data on SDO pin DIN[7:0] is 
+the data readback from the target register. The readback data 
+can be used to verify whether the writing is successful. An 
+example timing diagram of writing cycle is shown in Figure 
+22. 
+In a reading cycle, the SDI data bit DB[8] is read instruction 
+bit. The data on SDO DOUT[7:0] is the readback data from 
+the target address program register. The readback data is 
+MSB first. An example timing diagram of reading cycle is 
+shown in Figure 23. 
+ 
+ 
+Table 6. Write Cycle Command Word 
+Pin 
+Register Address (DB[15:9]) 
+Write/Read 
+(DB[8]) 
+Data (DB[7:0]) 
+SDI 
+ADDR[6:0] 
+1 
+DIN[7:0] 
+ 
+Table 7. Read Cycle Command Word 
+Pin 
+Register Address (DB[15:9]) 
+Write/Read 
+(DB[8]) 
+Data (DB[7:0]) 
+SDI 
+ADDR[6:0] 
+0 
+XXXXX 
+SDO 
+0000 
+000 
+0 
+DOUT[7:0] 
+ 
+ 
+SCLK
+SDI
+nCS
+1
+8
+SDO
+9
+16
+ DB[15:9] = ADDR[6:0]
+DIN[7:0]
+10
+24
+Sample N
+Do Not Care
+Data of Target Program Register
+ DIN[7:0]
+WR
+17
+Do Not Care
+Do Not Care
+ 
+ 
+Figure 22. Timing Diagram of Program Register Write Cycle  
+ 
+ 
+ 
+ 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+35 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAPS (continued) 
+SCLK
+SDI
+nCS
+1
+8
+SDO
+9
+16
+ DB[15:9] = ADDR[6:0]
+10
+24
+Sample N
+Do Not Care
+Data of Target Program Register
+ DOUT[7:0]
+RD
+17
+Do Not Care
+Do Not Care
+Do Not Care
+ 
+ 
+Figure 23. Timing Diagram of Program Register Read Cycle  
+ 
+Program Register Map 
+Table 8. Program Register Map 
+Register 
+Register 
+Address 
+Bits[15:9] 
+Default 
+Value  
+Bit 7 
+Bit 6 
+Bit 5 
+Bit 4 
+Bit 3 
+Bit 2 
+Bit 1 
+Bit 0 
+Auto Scan Sequencing Control 
+AUTO_SEQ_EN 
+01h 
+FFh 
+CH7_EN (1) 
+CH6_EN 
+CH5_EN CH4_EN 
+CH3_EN 
+CH2_EN 
+CH1_EN 
+CH0_EN 
+Channel Power-Down 
+02h 
+00h 
+CH7_PD (1) 
+CH6_PD 
+CH5_PD CH4_PD 
+CH3_PD 
+CH2_PD 
+CH1_PD 
+CH0_PD 
+Device Features Selection Control 
+Feature Select 
+03h 
+00h 
+DEV[1:0] 
+0 
+0 
+0 
+SDO[2:0] 
+Range Select Registers 
+Channel 0 Input Range 
+05h 
+00h 
+0 
+0 
+0 
+0 
+Range Select Channel 0 [3:0] 
+Channel 1 Input Range 
+06h 
+00h 
+0 
+0 
+0 
+0 
+Range Select Channel 1 [3:0] 
+Channel 2 Input Range 
+07h 
+00h 
+0 
+0 
+0 
+0 
+Range Select Channel 2 [3:0] 
+Channel 3 Input Range 
+08h 
+00h 
+0 
+0 
+0 
+0 
+Range Select Channel 3 [3:0] 
+Channel 4 Input 
+Range(1) 
+09h 
+00h 
+0 
+0 
+0 
+0 
+Range Select Channel 4 [3:0] 
+Channel 5 Input 
+Range(1) 
+0Ah 
+00h 
+0 
+0 
+0 
+0 
+Range Select Channel 5 [3:0] 
+Channel 6 Input 
+Range(1) 
+0Bh 
+00h 
+0 
+0 
+0 
+0 
+Range Select Channel 6 [3:0] 
+Channel 7 Input 
+Range(1) 
+0Ch 
+00h 
+0 
+0 
+0 
+0 
+Range Select Channel 7 [3:0] 
+Command Read Back (Read-Only) 
+Command Read Back 
+3Fh 
+00h 
+COMMAND_WORD[7:0] 
+Input Floating Detection and Status 
+INPUT_FLOATING_ 
+DETECTION_EN 
+0Dh 
+00h 
+INPUT_ 
+FLOATING_ 
+DETECTION_
+EN 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+INPUT_FLOATING_ 
+DETECTION_STATUS 
+0Eh 
+00h 
+CH7_FT (1) 
+CH6_FT 
+CH5_FT 
+CH4_FT 
+CH3_FT 
+CH2_FT 
+CH1_FT 
+CH0_FT 
+ 
+NOTE:  
+1. All the operations of channel 7 to channel 4 are not applicable to the 4-channel version chip. A write operation on any of these 
+bits or registers has no effect on chip behavior. A read operation on any of these bits or registers outputs all 1's on the SDO line. 
+ 
+ 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+36 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAPS (continued) 
+Program Register Descriptions 
+Auto-Scan Sequencing Control Registers 
+In AUTO_SCAN mode, the chip scans all the enabled 
+channels in ascending order automatically. Each of all 
+channels can be separately enabled or disabled. All the 
+disabled channels can be powered down in the Power-Down 
+register individually (details see Table 10). 
+ 
+Auto-Scan Sequence Enable Register (Address = 01h) 
+The default value for this register is 0xFF. If no channels are 
+included in the auto sequence (that is, the value for this 
+register is set to 0x00), then channel 0 is selected for 
+conversion by default. 
+Table 9. AUTO_SEQ_EN Register Details 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE (2) 
+DESCRIPTION 
+D[7] 
+CH7_EN (1) 
+1 
+R/W 
+0 = Channel 7 is not enabled in AUTO_SCAN mode 
+1 = Channel 7 is enabled in AUTO_SCAN mode (default) 
+D[6] 
+CH6_EN (1) 
+1 
+R/W 
+0 = Channel 6 is not enabled in AUTO_SCAN mode 
+1 = Channel 6 is enabled in AUTO_SCAN mode (default) 
+D[5] 
+CH5_EN (1) 
+1 
+R/W 
+0 = Channel 5 is not enabled in AUTO_SCAN mode  
+1 = Channel 5 is enabled in AUTO_SCAN mode (default) 
+D[4] 
+CH4_EN (1) 
+1 
+R/W 
+0 = Channel 4 is not enabled in AUTO_SCAN mode  
+1 = Channel 4 is enabled in AUTO_SCAN mode (default) 
+D[3] 
+CH3_EN 
+1 
+R/W 
+0 = Channel 3 is not enabled in AUTO_SCAN mode  
+1 = Channel 3 is enabled in AUTO_SCAN mode (default) 
+D[2] 
+CH2_EN 
+1 
+R/W 
+0 = Channel 2 is not enabled in AUTO_SCAN mode  
+1 = Channel 2 is enabled in AUTO_SCAN mode (default) 
+D[1] 
+CH1_EN 
+1 
+R/W 
+0 = Channel 1 is not enabled in AUTO_SCAN mode  
+1 = Channel 1 is enabled in AUTO_SCAN mode (default) 
+D[0] 
+CH0_EN 
+1 
+R/W 
+0 = Channel 0 is not enabled in AUTO_SCAN mode  
+1 = Channel 0 is enabled in AUTO_SCAN mode (default) 
+ 
+NOTES:  
+1. All the operations of channel 7 to channel 4 are not applicable to the 4-channel version chip. A write operation on any of these 
+bits or registers has no effect on chip behavior. A read operation on any of these bits or registers outputs all '1' on the SDO line. 
+2. R/W = Read/Write. 
+ 
+ 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+37 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAPS (continued) 
+Channel Power-Down Register (Address = 02h) 
+The default value of this register is 0x00. 
+In AUTO_SCAN mode, if all the channels are powered down 
+(the value for this register is set to 0xFF), the output data of 
+the ADC is invalid.  
+In MAN-Ch_n mode, if the selected channel is powered down, 
+the data output of the corresponding ADC channel is invalid, 
+and it can also trigger a false alarm condition. 
+ 
+Table 10. Channel Power-Down Register Details 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+D[7] 
+CH7_PD (1) 
+0 
+R/W 
+0 = Channel 7 is not powered down (2) (default) 
+1 = Channel 7 is powered down 
+D[6] 
+CH6_PD(1) 
+0 
+R/W 
+0 = Channel 6 is not powered down (default) 
+1 = Channel 6 is powered down 
+D[5] 
+CH5_PD(1) 
+0 
+R/W 
+0 = Channel 5 is not powered down (default) 
+1 = Channel 5 is powered down 
+D[4] 
+CH4_PD(1) 
+0 
+R/W 
+0 = Channel 4 is not powered down (default) 
+1 = Channel 4 is powered down 
+D[3] 
+CH3_PD 
+0 
+R/W 
+0 = Channel 3 is not powered down (default) 
+1 = Channel 3 is powered down 
+D[2] 
+CH2_PD 
+0 
+R/W 
+0 = Channel 2 is not powered down (default) 
+1 = Channel 2 is powered down 
+D[1] 
+CH1_PD 
+0 
+R/W 
+0 = Channel 1 is not powered down (default) 
+1 = Channel 1 is powered down 
+D[0] 
+CH0_PD 
+0 
+R/W 
+0 = Channel 0 is not powered down (default) 
+1 = Channel 0 is powered down 
+ 
+NOTES:  
+1. All the operations of channel 7 to channel 4 are not applicable to the 4-channel version chip. A write operation on any of these 
+bits or registers has no effect on chip behavior. A read operation on any of these bits or registers outputs all '1' on the SDO line. 
+2. A channel is not powered down, if this channel is supposed to be scanned in AUTO_SCAN sequence, it is necessary to enable 
+the corresponding bit in AUTO_SEQ_EN Register at same time. 
+ 
+ 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+38 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAPS (continued) 
+Device Features Selection Control Register (Address = 03h) 
+This register is used for the chip ID setting in daisy chain connection and the output data format. 
+ 
+Table 11. Feature Select Register Details 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+D[7:6] 
+DEV[1:0] 
+00 
+R/W 
+Device ID Bits 
+00 = ID for device 0 in daisy-chain mode (default) 
+01 = ID for device 1 in daisy-chain mode 
+10 = ID for device 2 in daisy-chain mode 
+11 = ID for device 3 in daisy-chain mode 
+D[5:3] 
+Reserved 
+000 
+R (1) 
+Must be set to 0. 
+D[2:0] 
+SDO[2:0] 
+000 
+R/W 
+Setting output data format on SDO pin. Refer to Table 12. 
+ 
+NOTE: 1. R = Read only. 
+ 
+Table 12. Program Register Bits Description for SDO Data Format 
+SDO Format  
+SDO[2:0] 
+Beginning of the Output Bit 
+Stream 
+Output Format 
+Bits D[24:9] 
+Bits D[8:5] 
+Bits D[4:3] 
+Bits D[2:0] 
+000 
+16th SCLK falling edge, no latency 
+Conversion 
+result for selected 
+channel (MSB-first) 
+SDO pulled low 
+001 
+16th SCLK falling edge, no latency 
+Conversion 
+result for selected 
+channel (MSB-first) 
+Channel address (1) 
+SDO pulled low 
+010 
+16th SCLK falling edge, no latency 
+Conversion 
+result for selected 
+channel (MSB-first) 
+Channel address (1) 
+Device 
+address (1) 
+SDO pulled 
+low 
+011 
+16th SCLK falling edge, no latency 
+Conversion 
+result for selected 
+channel (MSB-first) 
+Channel address (1) 
+Device 
+address (1) 
+Input range (1) 
+ 
+NOTE: 1. Table 3 lists descriptions for these channel addresses, chip address, and input range. 
+ 
+Table 13. SDO Data Bit Description 
+BITS 
+DESCRIPTION 
+D[24:9] 
+16 bits of conversion result for the channel represented in MSB-first format. 
+D[8:5] 
+Four Bits of Channel Address 
+0000 = Channel 0 
+0001 = Channel 1 
+0010 = Channel 2 
+0011 = Channel 3 
+0100 = Channel 4 (valid only for the SGM51652H8) 
+0101 = Channel 5 (valid only for the SGM51652H8) 
+0110 = Channel 6 (valid only for the SGM51652H8) 
+0111 = Channel 7 (valid only for the SGM51652H8) 
+D[4:3] 
+Two bits of device address (mainly useful in daisy-chain mode). 
+D[2:0] 
+Three LSB bits of input voltage range (refer to the Range Select Registers section). 
+ 
+ 
+ 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+39 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAPS (continued) 
+Range Select Registers (Addresses 05h - 0Ch) 
+Address 05h is range setting for channel 0, address 06h is 
+range setting for channel 1, address 07h is range setting for 
+channel 2, address 08h is range setting for channel 3, 
+address 09h is range setting for channel 4, address 0Ah is 
+range setting for channel 5, address 0Bh is range setting for 
+channel 6, address 0Ch is range setting for channel 7, 
+address 0Ch is range setting for channel 7. 
+Each channel input range can be selected by these registers 
+individually. (n = 0 to 3 for the SGM51652H4 and n = 0 to 7 for 
+the SGM51652H8). The default value of these registers is 
+00h. 
+ 
+Table 14. Channel n Input Range Register Details 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+D[7:4] 
+Reserved 
+0000 
+R 
+Must always be set to 0. 
+D[3:0] 
+RANGE_CHn[3:0] 
+0000 
+R/W 
+Input Range Selection Bits for Channel n 
+(n = 0 to 3 for the SGM51652H4 and n = 0 to 7 for the SGM51652H8) 
+0000 = Input range is set to ±2.5 × VREF (default) 
+0001 = Input range is set to ±1.25 × VREF  
+0010 = Input range is set to ±0.625 × VREF  
+0101 = Input range is set to 0 to 2.5 × VREF  
+0110 = Input range is set to 0 to 1.25 × VREF 
+ 
+Command Read-Back Register (Address = 3Fh) 
+This register reports the chip current working mode. If this 
+register is read, the chip feedback the previous command 
+word executed in previous data frame. The feedback 
+command word on SDO is 8-bit MSB first format plus 8-bit '0' 
+(see Table 15). It starts from the 16th falling edge of SCLK. A 
+32 SCLK cycles operation is not necessary, 24 SCLK cycles 
+are enough. 
+ 
+Table 15. Command Read-Back Register Details 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+D[7:0] COMMAND_WORD[15:8] 
+0000 
+0000 
+R 
+Command Executed in Previous Data Frame 
+ 
+ 
+ 
+
+SGM51652H4 
+16-Bit, 500kSPS, 4- and 8-Channel, Single-Supply, 
+SGM51652H8 
+SAR ADCs with Bipolar Input Ranges 
+ 
+ 
+40 
+DECEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER MAPS (continued) 
+Input Floating Detection and Status (Address = 0Dh - 0Eh) 
+Table 16. INPUT_FLOATING_DETECTION_EN Register Details (Address = 0Dh) 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+D[7] 
+INPUT_FLOATING_DETECTION_EN 
+0 
+R/W 
+Floating Detection Enable 
+0 = Disable FLOATING_DETECTION mode (default) 
+1 = Enable FLOATING_DETECTION mode 
+After the floating detection is completed, this bit is automatically set to 0. 
+D[6:0] 
+Reserved 
+ 
+R 
+Reserved. 
+ 
+Table 17. INPUT_FLOATING_DETECTION_STATUS Register Details (Address = 0Eh) 
+BITS 
+BIT NAME 
+DEFAULT 
+TYPE 
+DESCRIPTION 
+D[7] 
+CH7_FT (1) 
+0 
+R/W 
+Channel 7 FLOATINT_STATUS 
+0 = Channel 7 is not in FLOATING status (default) 
+1 = Channel 7 is in FLOATING status 
+D[6] 
+CH6_FT (1) 
+0 
+R/W 
+Channel 6 FLOATINT_STATUS 
+0 = Channel 6 is not in FLOATING status (default) 
+1 = Channel 6 is in FLOATING status 
+D[5] 
+CH5_FT (1) 
+0 
+R/W 
+Channel 5 FLOATINT_STATUS 
+0 = Channel 5 is not in FLOATING status (default) 
+1 = Channel 5 is in FLOATING status 
+D[4] 
+CH4_FT (1) 
+0 
+R/W 
+Channel 4 FLOATINT_STATUS 
+0 = Channel 4 is not in FLOATING status (default) 
+1 = Channel 4 is in FLOATING status 
+D[3] 
+CH3_FT 
+0 
+R/W 
+Channel 3 FLOATINT_STATUS 
+0 = Channel 3 is not in FLOATING status (default) 
+1 = Channel 3 is in FLOATING status 
+D[2] 
+CH2_FT 
+0 
+R/W 
+Channel 2 FLOATINT_STATUS 
+0 = Channel 2 is not in FLOATING status (default) 
+1 = Channel 2 is in FLOATING status 
+D[1] 
+CH1_FT 
+0 
+R/W 
+Channel 1 FLOATINT_STATUS 
+0 = Channel 1 is not in FLOATING status (default) 
+1 = Channel 1 is in FLOATING status 
+D[0] 
+CH0_FT 
+0 
+R/W 
+Channel 0 FLOATINT_STATUS 
+0 = Channel 0 is not in FLOATING status (default) 
+1 = Channel 0 is in FLOATING status 
+ 
+NOTE: 1. Only for the SGM51652H8. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+Changes from Original (DECEMBER 2022) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00183.001 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TSSOP-38 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+ 
+1.200 
+ 
+0.047 
+A1 
+0.050 
+0.150 
+0.002 
+0.006 
+A2 
+0.800 
+1.000 
+0.031 
+0.039 
+b 
+0.170 
+0.270 
+0.007 
+0.011 
+c 
+0.090 
+0.200 
+0.004 
+0.008 
+D 
+9.600 
+9.800 
+0.378 
+0.386 
+E 
+4.300 
+4.500 
+0.169 
+0.177 
+E1 
+6.250 
+6.550 
+0.246 
+0.258 
+e 
+0.500 BSC 
+0.020 BSC 
+H 
+0.250 TYP 
+0.010 TYP 
+L 
+0.450 
+0.750 
+0.018 
+0.030 
+θ 
+1° 
+7° 
+1° 
+7° 
+ 
+NOTES:  
+1. Body dimensions do not include mode flash or protrusion.  
+2. This drawing is subject to change without notice. 
+ 
+ 
+c
+H
+L
+θ
+E
+E1
+D
+b
+e
+A
+A1
+A2
+5.94
+0.50
+0.30
+1.78
+RECOMMENDED LAND PATTERN (Unit: mm)
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TSSOP-38 
+13″ 
+16.4 
+6.80 
+10.20 
+1.60 
+4.0 
+8.0 
+2.0 
+16.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

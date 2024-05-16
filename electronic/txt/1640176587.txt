@@ -1,0 +1,1114 @@
+ 
+ 
+SGM3785 
+2MHz, 1.5A Flash LED Driver 
+ 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+JANUARY 2019 – REV. A. 4 
+  
+GENERAL DESCRIPTION 
+The SGM3785 is a highly integrated boost DC/DC 
+converter with 2MHz fixed frequency. High switching 
+frequency makes it easy to use tiny components and 
+optimized for portable photo flash. The SGM3785 is 
+ideal for high power flash LEDs which are suited for 
+mobile phone camera modules and digital still cameras. 
+The SGM3785 offers excellent flexibility to enter flash 
+mode and movie/torch mode through the ENF and 
+ENM pins respectively. Flash mode is usually used with 
+660ms timer control to generate a high intensity flash. 
+The maximal flash current and movie/torch current are 
+respectively programmed through external resistors 
+(RSETF and RSETM), which can provide simple control for 
+the flash LED solution. The real LED current in flash 
+mode and movie/torch mode can be programmed by 
+external PWM signal on ENM pin. 
+The D1 and D2 pins can be tied together to drive higher 
+power single flash LEDs, sinking up to 1.5A continuous 
+current. The integrated thermal regulation in flash mode 
+limits the temperature of the device. It can prevent the 
+device from triggering thermal shutdown and provide 
+the maximum LED output current continuously. 
+The SGM3785 provides very low shutdown current. It 
+also includes a comprehensive set of protection 
+features such as over-voltage protection, LED open or 
+short protection and thermal shutdown. 
+The SGM3785 is available in a Green TDFN-3×2-14L 
+package. It operates over an ambient temperature 
+range of -40℃ to +85℃. 
+FEATURES 
+● Input Voltage Range: 3V to 5V 
+● Up to Total 1.5A or Each 0.75A LED Current 
+● Up to 90% Efficiency 
+● Dual Flash LED Outputs 
+● Tiny Inductor: 1.0μH 
+● 2MHz Boost Converter 
+● Separate Flash Mode Enable and Movie/Torch  
+Mode Enable Control Pins 
+● Flash Current and Movie/Torch Current can be 
+Programmed through PWM Signal on ENM Pin 
+● Independent Resistors Set Flash Current and 
+Movie/Torch Current Respectively 
+● Integrated Thermal Regulation Control 
+● 660ms Flash Timer Control 
+● 330kΩ Pull-Down Resistor on ENM and ENF Pins 
+● Protection Features 
+ Output Over-Voltage Protection 
+ LED Open or Short Protection 
+ Cycle-by-Cycle Current Limit 
+● Less than 1μA Shutdown Current 
+● Available in a Green TDFN-3×2-14L Package 
+● Temperature Range: -40℃ to +85℃ 
+ 
+ 
+APPLICATIONS 
+Portable Equipment 
+ 
+ 
+ 
+
+ 
+SGM3785 
+2MHz, 1.5A Flash LED Driver 
+ 
+ 
+2 
+JANUARY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM3785 
+TDFN-3×2-14L 
+-40℃ to +85℃ 
+SGM3785YTDP14G/TR 
+3785DP 
+XXXXX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code and Vendor Code. 
+Date Code - Week
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+VIN, VOUT, D1 and D2 Voltages 
+......................... -0.3V to 6V 
+ENF, ENM, RSETF, RSETM .................... 
+-0.3V to VIN + 0.3V 
+SW Voltage 
+....................................................... -0.3V to 6.5V 
+Package Thermal Resistance 
+TDFN-3×2-14L, θJA 
+.................................................... 75℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ........................ 
+-65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+2000V 
+MM 
+................................................................................. 
+200V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Temperature Range ....................... 
+-40℃ to +85℃ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+
+ 
+SGM3785 
+2MHz, 1.5A Flash LED Driver 
+ 
+ 
+3 
+JANUARY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+SGM3785 (TOP VIEW) 
+14
+12
+13
+11
+10
+9
+8
+1
+3
+2
+4
+5
+6
+7
+AGND
+RSETM
+RSETF
+AGND
+VIN
+SW
+SW
+PGND
+D2
+AGND
+D1
+ENM
+ENF
+VOUT
+VOUT
+ 
+TDFN-3×2-14L 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1 
+RSETM 
+Movie/Torch Mode Current Setting Pin. 
+2 
+RSETF 
+Flash Mode Current Setting Pin. 
+3, 13 
+AGND 
+Analog Ground Pin. 
+4 
+VIN 
+Input Supply Pin. 
+5, 6 
+SW 
+Boost Converter Switching Node. 
+7 
+PGND 
+Power Ground Pin. 
+8, 9 
+VOUT 
+Output Voltage Pin. 
+10 
+ENF 
+Flash Mode Enable Pin. It has an internal 330kΩ pull-down resistor to AGND. Regardless of ENM, 
+only when ENF = “High”, flash mode is in active and the flash current is equal to ISETF × D. D is the duty 
+cycle of PWM signal on ENM pin. The frequency of PWM exceeds 15kHz. 
+11 
+ENM 
+Movie/Torch Mode Enable Pin and Flash Mode PWM Dimming Pin. This pin has an internal 330kΩ 
+pull-down resistor to AGND. In flash mode, the PWM signal at ENM pin is the flash current dimming 
+control. When ENF = “Low” and the time of ENM = “High” is not less than 5ms, Movie/Torch mode is in 
+active. The LED current should be equal to ISETM × D. D is the duty cycle of PWM signal at ENM pin. This 
+PWM signal is sent to ENM pin after the first pulse, high level time of which is more than 5ms. When ENF 
+= “Low” and the time of ENM = “Low” is not less than 5ms, the chip enters shutdown mode. 
+12 
+D1 
+Regulated Current Sink 1. It can sink up to 0.75A current. D1 and D2 pins can be connected together 
+to sink total 1.5A. 
+14 
+D2 
+Regulated Current Sink 2. It can sink up to 0.75A current. D1 and D2 pins can be connected together 
+to sink total 1.5A. 
+Exposed 
+Pad 
+AGND 
+Exposed Pad. Connect to ground for electrical and thermal usage. Exposed pad is internally 
+connected to analog ground pin. 
+ 
+ 
+
+ 
+SGM3785 
+2MHz, 1.5A Flash LED Driver 
+ 
+ 
+4 
+JANUARY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VIN = VEN = 3.6V, TA = +25℃, unless otherwise specified.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+IC Supply 
+Input Voltage Range 
+VIN 
+ 
+3 
+ 
+5 
+V 
+Under-Voltage Lockout Threshold 
+UVLO 
+Rising edge 
+2.18 
+2.4 
+2.62 
+V 
+Under-Voltage Lockout Hysteresis 
+VHYS 
+ 
+ 
+0.2 
+ 
+V 
+Supply Current 
+IQ 
+Not switching 
+ 
+340 
+450 
+μA 
+Supply Current in Shutdown 
+ISHDN 
+ENF = ENM = GND 
+ 
+0.1 
+1 
+μA 
+Boost Converter 
+Peak NMOS Current Limit 
+ILIM 
+ 
+ 
+3.4 
+ 
+A 
+Oscillator Frequency 
+fS 
+ 
+ 
+2 
+ 
+MHz 
+Internal Over-Voltage Threshold of OUT 
+VOVP 
+ 
+ 
+5.3 
+ 
+V 
+Flash Mode Soft-Start Time 
+tS 
+ 
+ 
+1 
+ 
+ms 
+Current Sink 
+Total Output Current, Movie/Torch Mode 
+ID 
+ENM = HIGH, RSETM = 71.5kΩ, D1 + D2, TA = +25℃ 175 
+200 
+225 
+mA 
+Total Output Current, Flash Mode 
+ENF = HIGH, ENM = GND,  
+RSETF = 11.5kΩ, D1 + D2, TA = +25℃ 
+1.32 
+1.5 
+1.68 
+A 
+Output Current Matching (1) 
+100mA each channel, TA = +25℃, Movie/Torch mode 
+ 
+1.5 
+12 
+% 
+750mA each channel, TA = +25℃, Flash mode 
+ 
+0.7 
+10 
+% 
+LED Short Checking Current 
+ISHORT 
+ 
+ 
+2.5 
+ 
+mA 
+Control 
+ENF, ENM Pin Logic Low Threshold 
+VIL 
+ 
+ 
+ 
+0.6 
+V 
+ENF, ENM Pin Logic High Threshold 
+VIH 
+ 
+1.5 
+ 
+ 
+V 
+ENF Internal Pull-Down Resistance 
+RPD(ENF)  
+ 
+330 
+ 
+kΩ 
+ENM Internal Pull-Down Resistance 
+RPD(ENM)  
+ 
+330 
+ 
+kΩ 
+Junction Thermal Shutdown Threshold 
+ 
+ 
+ 
+150 
+ 
+℃ 
+Junction Thermal Shutdown Hysteresis 
+ 
+ 
+28 
+ 
+℃ 
+Delay Time to Shutdown Status in Movie/Torch Mode (for PWM Dimming LED Current) 
+Delay Time 
+tD 
+ 
+5 
+ 
+ 
+ms 
+Flash Timer 
+Hardware Flash Timer 
+tTIME 
+ 
+600 
+ 
+800 
+ms 
+Delay Time of ENM = "High" to Enter Movie/Torch Mode 
+Delay Time 
+(Entering Movie/Torch Mode) 
+tM 
+ 
+5 
+ 
+ 
+ms 
+Minimum Time of Logic "High" of PWM Signal 
+Minimum Time of Logic “High” of PWM Signal 
+tH 
+ 
+5 
+ 
+ 
+μs 
+ 
+NOTE: 
+1. The current matching between channels is defined as |ID1 - ID2|/(ID1 + ID2). 
+ 
+ 
+ 
+
+ 
+SGM3785 
+2MHz, 1.5A Flash LED Driver 
+ 
+ 
+5 
+JANUARY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+ 
+ 
+    Efficiency vs. Input Voltage 
+     Switching Frequency vs. Input Voltage 
+ 
+ 
+    Supply Current vs. Input Voltage 
+     Line Regulation (Movie Mode) 
+ 
+ 
+ 
+1.5A Flash Operation 
+ 
+ 
+ 
+Flash Turn On in Soft-Start 
+ 
+ 
+VENF 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ID1 
+ 
+5V/div   1V/div          500mA/div 
+ 
+ 
+VENF 
+ 
+VOUT 
+ 
+ 
+VD1 
+ 
+ 
+ 
+ 
+ 
+ 
+ID1 
+ 
+ 
+5V/div  2V/div   2V/div  500mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (40ms/div) 
+ 
+ 
+ 
+Time (1ms/div) 
+ 
+ 
+ 
+70
+76
+82
+88
+94
+100
+3
+3.4
+3.8
+4.2
+4.6
+5
+Efficiency (%) 
+Input Voltage (V) 
+— 0.1A VLED = 2.8V   — 0.2A VLED = 3V       
+— 0.4A VLED = 3.3V   — 0.6A VLED = 3.5V   
+— 0.8A VLED = 3.7V   — 1.0A VLED = 4.1V 
+— 1.2A VLED = 4.3V 
+1.7
+1.8
+1.9
+2
+2.1
+2.2
+3
+3.4
+3.8
+4.2
+4.6
+5
+Switching Frequency (MHz) 
+Input Voltage (V) 
+250
+280
+310
+340
+370
+400
+3
+3.4
+3.8
+4.2
+4.6
+5
+Supply Current (μA) 
+Input Voltage (V) 
+Not Switching 
+-1.5
+-1
+-0.5
+0
+0.5
+1
+1.5
+3
+3.4
+3.8
+4.2
+4.6
+5
+Current Accuracy (%) 
+Input Voltage (V) 
+VIN = 3.6V 
+VIN = 3.8V 
+
+ 
+SGM3785 
+2MHz, 1.5A Flash LED Driver 
+ 
+ 
+6 
+JANUARY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+ 
+Movie Mode Turn On or Off 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VENM 
+ 
+VOUT 
+ 
+ 
+ 
+VD1 
+ 
+ 
+ 
+ 
+ID1 
+ 
+ 
+5V/div  2V/div   2V/div  100mA/div 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (4ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN = 3.3V 
+
+ 
+SGM3785 
+2MHz, 1.5A Flash LED Driver 
+ 
+ 
+7 
+JANUARY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+STATE DIAGRAM 
+ 
+ENF = "0"
+ENM = "0"
+ENF = "0"
+ENM = "0"
+Time (tD) ≥ 5ms
+ENF from "1" to "0" 
+or Time Out
+ENM = PWM Signal
+ENF = "0"
+ENM = PWM Signal
+Logic "High" Time of 
+PWM (tM) ≤ 2.5ms
+ENF from "0" to "1"
+ENM = PWM Signal
+ENF = "0"
+ENM = "1"
+Time (tM) ≥ 5ms
+ENF = "0"
+ENM = "0"
+Time (tD) ≥ 5ms
+ENF from "0" to "1"
+ENM = PWM Signal
+ENF = "0"
+ENM = "0"
+Time (tD) ≥ 5ms
+Power On 
+Reset
+Shutdown
+Mode
+Active
+Mode
+Flash
+Mode
+Movie/Torch 
+Mode
+ 
+ 
+ 
+
+ 
+SGM3785 
+2MHz, 1.5A Flash LED Driver 
+ 
+ 
+8 
+JANUARY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL APPLICATION OF FLASH MODE 
+SGM3785
+L
+1.0μH
+SW
+SW
+VIN
+ENF
+ENM
+D1
+D2
+RSETF
+RSETM
+VOUT
+VOUT
+Flash Enable
+PWM Dimming Signal
+Input Voltage
+3V to 5V
+CIN
+2.2μF
+COUT
+4.7μF
+Flash LEDs
+Up to 0.75A Each Channel
+Low
+High
+RSETF
+RSETM
+ AGND  PGND
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TIMING DIAGRAM OF FLASH MODE 
+ 
+ENM
+15kHz ≤ fPWM ≤ 200kHz, PWM signal is sent before ENF changed from "Low" to "High" at any time
+ENF
+660ms Hardware Timer
+Enter Flash mode and LED current = ISETF × D
+ 
+ 
+ 
+
+ 
+SGM3785 
+2MHz, 1.5A Flash LED Driver 
+ 
+ 
+9 
+JANUARY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL APPLICATION OF MOVIE/TORCH MODE 
+SGM3785
+L
+1.0μH
+SW
+SW
+VIN
+ENF
+ENM
+D1
+D2
+RSETF
+RSETM
+VOUT
+VOUT
+Input Voltage
+3V to 5V
+CIN
+2.2μF
+COUT
+4.7μF
+Flash LEDs
+Up to 0.75A Each Channel
+RSETF
+RSETM
+ AGND  PGND
+Movie/Torch Control and PWM Dimming
+ENF = "Low"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TIMING DIAGRAM OF MOVIE/TORCH MODE 
+ 
+ENF
+ENM
+ENF = "Low"
+ Time (tM) ≥ 5ms
+tD ≥ 5ms
+Enter Movie/Torch mode and 
+LED current = ISETM × D
+Enter 
+shutdown
+PWM signal
+ 
+ 
+ 
+ 
+
+ 
+SGM3785 
+2MHz, 1.5A Flash LED Driver 
+ 
+ 
+10 
+JANUARY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+JANUARY 2019 ‒ REV.A.3 to REV.A.4 
+Added Package Thermal Resistance 
+................................................................................................................................................................... 
+2 
+ 
+NOVEMBER 2014 ‒ REV.A.2 to REV.A.3 
+Updated Functional Description section 
+............................................................................................................................................................. 
+11 
+ 
+SEPTEMBER 2014 ‒ REV.A.1 to REV.A.2 
+Updated Electrical Characteristics section ........................................................................................................................................................... 
+4 
+Updated Functional Description section 
+............................................................................................................................................................. 
+11 
+ 
+AUGUST 2014 ‒ REV.A to REV.A.1 
+Updated Functional Description section 
+............................................................................................................................................................. 
+12 
+ 
+Changes from Original (MARCH 2014) to REV.A 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00063.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TDFN-3×2-14L 
+ 
+ 
+ 
+ 
+NOTE: All linear dimensions are in millimeters. 
+ 
+ 
+ 
+ 
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+N1
+N14
+N7
+N8
+2.000± 0.050
+3.000± 0.050
+PIN #1 DOT
+BY MARKING
+0.800± 0.050
+Exp.DAP
+2.500± 0.050
+Exp.DAP
+0.350± 0.050
+2.400 Ref.
+PIN #1 IDENTIFICATION
+CHAMFER C0.35 ×  45°
+0.400 Bsc
+0.203 Ref.
+0.750± 0.050
+0.000-0.050
+2.5
+0.8 1.95
+0.65
+0.20
+0.4
+RECOMMENDED LAND PATTERN 
+0.200± 0.050
+ 
+ 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TDFN-3×2-14L 
+7″ 
+9.0 
+2.30 
+3.30 
+1.10 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 
+ 
+ 

@@ -1,0 +1,1033 @@
+ 
+SGM4871 
+2.4W Stereo Audio Power Amplifier 
+with Shutdown Mode 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+NOVEMBER 2012 –REV. A. 2 
+GENERAL DESCRIPTION 
+The SGM4871 is a mono bridge-connected audio 
+power amplifier which operates from 2.5V to 5.5V 
+supply voltage. It can deliver 2.4W into a 4Ω load from 
+5V supply at THD+N = 10%. It is designed for portable 
+applications. The external gain-setting resistors can 
+configure the unity-gain stable of the device. 
+The SGM4871 has low power consumption shutdown 
+mode and thermal shutdown protection. 
+The SGM4871 is applied to low power portable 
+systems. 
+Output 
+coupling 
+capacitors, 
+bootstrap 
+capacitors or snubber networks are not needed. 
+The SGM4871 is available in Green SOIC-8 and 
+SOIC-8 (Exposed Pad) packages. It operates over an 
+ambient temperature range of -40℃ to +85℃. 
+ 
+FEATURES 
+• Supply Voltage Range: 2.5V to 5.5V 
+• Output Power at THD+N = 10%, 1kHz 
+SGM4871YPS8: 2.4W (TYP) into 4Ω Load 
+SGM4871YS8: 1.5W (TYP) into 8Ω Load 
+• Shutdown Current: 0.07μA (TYP) 
+• No Output Coupling Capacitors 
+• External Gain Configuration Capability 
+• Unity Gain Stable 
+• Thermal Overload Protection Circuitry 
+• -40℃ to +85℃ Operating Temperature Range 
+• Available in Green SOIC-8 (Exposed Pad) and 
+SOIC-8 Packages 
+ 
+ 
+APPLICATIONS 
+Mobile Phones, PDAs 
+Portable Systems 
+Wireless Handsets 
+ 
+ 
+ 
+
+2.4W Stereo Audio Power Amplifier 
+SGM4871 
+with Shutdown Mode 
+ 
+ 
+2 
+NOVEMBER 2012 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM4871 
+SOIC-8  
+(Exposed Pad) 
+-40℃ to +85℃ 
+SGM4871YPS8/TR 
+SGM4871YPS8 
+XXXXX 
+Tape and Reel, 2500 
+SOIC-8 
+-40℃ to +85℃ 
+SGM4871YS8/TR 
+SGM4871YS8 
+XXXXX 
+Tape and Reel, 2500 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code and Vendor Code. 
+Date Code - Week
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Supply Voltage 
+................................................................ 
+5.5V 
+Input Voltage 
+........................................... -0.1V to (V+) + 0.1V 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+2000V 
+MM 
+................................................................................. 
+200V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Supply Voltage Range ........................................ 
+2.5V to 5.5V 
+Operating Temperature Range ....................... 
+-40℃ to +85℃ 
+ 
+ 
+ 
+PIN CONFIGURATION 
+ (TOP VIEW) 
+1
+4
+3
+2
+8
+5
+6
+7
+Bypass
++IN
+SHDN
+-IN
+VO1
+VO2
+V+
+GND
+ 
+ SOIC-8/SOIC-8 (Exposed Pad) 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+
+2.4W Stereo Audio Power Amplifier 
+SGM4871 
+with Shutdown Mode 
+ 
+ 
+3 
+NOVEMBER 2012 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(The following specifications apply for TA = +25℃, V+ = 5V and RL = 8Ω, unless otherwise specified.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Supply Voltage 
+V+ 
+ 
+2.5 
+ 
+5.5 
+V 
+Output Offset Voltage 
+VOS 
+ 
+ 
+5.5 
+65 
+mV 
+Quiescent Power Supply Current 
+IQ 
+VSHDN = GND 
+No Load 
+ 
+5.2 
+9 
+mA 
+RL = 8Ω  
+ 
+5.3 
+ 
+Shutdown Current 
+ISD 
+V+ = 5.0V, VSHDN = 5.0V, IO = 0mA 
+ 
+0.07 
+2 
+μA 
+Shutdown Voltage Input High 
+VSDIH 
+ 
+1.2 
+ 
+ 
+V 
+Shutdown Voltage Input Low 
+VSDIL 
+ 
+ 
+ 
+0.4 
+Output Power (4Ω) 
+PO 
+f = 1kHz, THD+N = 1% 
+ 
+1.9 
+ 
+W 
+f = 1kHz, THD+N = 10% 
+ 
+2.4 
+ 
+W 
+Output Power (8Ω) 
+PO 
+f = 1kHz, THD+N = 1% 
+ 
+1.2 
+ 
+W 
+f = 1kHz, THD+N = 10% 
+ 
+1.5 
+ 
+W 
+Total Harmonic Distortion + Noise 
+THD+N 
+20Hz < f < 20kHz, RL = 8Ω, PO = 1W 
+ 
+0.2 
+ 
+% 
+Power Supply Rejection Ratio 
+PSRR 
+VSHDN = GND, V+ = 4.9V to 5.1V 
+ 
+70 
+ 
+dB 
+ 
+ 
+ 
+
+2.4W Stereo Audio Power Amplifier 
+SGM4871 
+with Shutdown Mode 
+ 
+ 
+4 
+NOVEMBER 2012 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+ 
+THD+N vs. Frequency
+0.01
+0.1
+1
+0.01
+0.1
+1
+10
+100
+Frequency (kHz)
+THD+N (%)
+V+ = +5V
+P
+O = 1.0W
+RL = 8Ω
+AV = 2
+No Filters
+ 
+Output Pow er vs. Supply Voltage
+0
+0.5
+1
+1.5
+2
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Supply Voltage (V)
+Output Power (W)
+f = 1kHz
+BW < 80kHz
+RL = 8Ω
+ 10% THD+N
+1% THD+N
+ 
+THD+N vs. Output Pow er
+0.01
+0.1
+1
+10
+0.01
+0.1
+1
+10
+Output Pow er (W)
+THD+N (%)
+V+ = +5V
+AV = 2
+f = 1kHz
+RL = 8Ω
+BW < 80kHz
+ 
+Supply Current vs. Supply Voltage
+3
+3.5
+4
+4.5
+5
+5.5
+6
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Supply Voltage (V)
+Supply Current (mA)
+VIN = 0V
+No Load
+ 
+PSRR vs. Frequency
+30
+40
+50
+60
+70
+80
+90
+0.01
+0.1
+1
+10
+100
+Frequency (kHz)
+PSRR (dB)
+V+ = +5V
+CB = 1.0μF
+RL = 8Ω
+VRIPPLE = 200mVrms
+ 
+Pow er Dissipation vs. Output Pow er
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0
+0.5
+1
+1.5
+Output Pow er (W)
+Power Dissipation (W)
+V+ = +5V, f = 1kHz, RL = 8Ω
+THD + N ≤ 1%, BW < 80kHz
+ 
+ 
+ 
+
+2.4W Stereo Audio Power Amplifier 
+SGM4871 
+with Shutdown Mode 
+ 
+ 
+5 
+NOVEMBER 2012 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+THD+N vs. Frequency
+0.01
+0.1
+1
+0.01
+0.1
+1
+10
+100
+Frequency (kHz)
+THD+N (%)
+V+ = +5V
+P
+O = 1.0W
+RL = 8Ω
+AV = 2
+No Filters
+ 
+THD+N vs. Frequency
+0.01
+0.1
+1
+0.01
+0.1
+1
+10
+100
+Frequency (kHz)
+THD+N (%)
+V+ = +5V
+P
+O = 1.6W
+RL = 4Ω
+AV = 2
+No Filters
+ 
+THD+N vs. Output Pow er
+0.01
+0.1
+1
+10
+0.01
+0.1
+1
+10
+Output Pow er (W)
+THD+N (%)
+V+ = +5V
+AV = 2
+f = 1kHz
+RL = 8Ω
+BW < 80kHz
+ 
+THD+N vs. Output Pow er
+0.01
+0.1
+1
+10
+0.01
+0.1
+1
+10
+Output Pow er (W)
+THD+N (%)
+V+ = +5V
+AV = 2
+f = 1kHz
+RL = 4Ω
+BW < 80kHz
+ 
+Pow er Dissipation vs. Output Pow er
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0
+0.5
+1
+1.5
+Output Pow er (W)
+Power Dissipation (W)
+V+ = +5V, f = 1kHz, RL = 8Ω
+THD+N ≤ 1%, BW < 80kHz
+ 
+Pow er Dissipation vs. Output Pow er
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+0
+0.5
+1
+1.5
+2
+2.5
+Output Pow er (W)
+Power Dissipation (W)
+V+ = +5V, f = 1kHz, RL = 4Ω
+THD+N ≤ 1%, BW < 80kHz
+ 
+ 
+ 
+
+2.4W Stereo Audio Power Amplifier 
+SGM4871 
+with Shutdown Mode 
+ 
+ 
+6 
+NOVEMBER 2012 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+PSRR vs. Frequency
+30
+40
+50
+60
+70
+80
+90
+0.01
+0.1
+1
+10
+100
+Frequency (kHz)
+PSRR (dB)
+V+ = +5V
+CB = 1.0μF
+RL = 8Ω
+VRIPPLE = 200mVrms
+ 
+Clipping Voltage vs. Supply Voltage
+0
+0.2
+0.4
+0.6
+0.8
+1
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Supply Voltage (V)
+Dropout Voltage (V)
+8Ω Top Side
+8Ω Bottom Side
+ 
+Output Pow er  vs. Load Resistance
+0
+0.5
+1
+1.5
+2
+0
+10
+20
+30
+40
+Load Resistance (Ω)
+Output Power (W)
+V+ = +5V
+f = 1kHz
+BW < 80kHz
+10% THD+N
+1% THD+N
+ 
+Supply Current vs. Supply Voltage
+3
+3.5
+4
+4.5
+5
+5.5
+6
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Supply Voltage (V)
+Supply Current (mA)
+VIN = 0V
+No Load
+ 
+Output Pow er vs. Supply Voltage
+0
+0.5
+1
+1.5
+2
+2.5
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Supply Voltage (V)
+Output Power (W)
+f = 1kHz
+BW < 80kHz
+RL = 8Ω
+10% THD+N
+1% THD+N
+ 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00010.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOIC-8 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+1.350 
+1.750 
+0.053 
+0.069 
+A1 
+0.100 
+0.250 
+0.004 
+0.010 
+A2 
+1.350 
+1.550 
+0.053 
+0.061 
+b 
+0.330 
+0.510 
+0.013 
+0.020 
+c 
+0.170 
+0.250 
+0.006 
+0.010 
+D 
+4.700 
+5.100 
+0.185 
+0.200 
+E 
+3.800 
+4.000 
+0.150 
+0.157 
+E1 
+5.800 
+6.200 
+0.228 
+0.244 
+e 
+1.27 BSC 
+0.050 BSC 
+L 
+0.400 
+1.270 
+0.016 
+0.050 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+D
+E
+E1
+e
+b
+A
+A2
+A1
+c
+L
+θ
+1.27
+0.6
+2.2
+5.2
+RECOMMENDED LAND PATTERN (Unit: mm)
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00013.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOIC-8 (Exposed Pad) 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+ 
+1.700 
+ 
+0.067 
+A1 
+0.000 
+0.100 
+0.000 
+0.004 
+A2 
+1.350 
+1.550 
+0.053 
+0.061 
+b 
+0.330 
+0.510 
+0.013 
+0.020 
+c 
+0.170 
+0.250 
+0.007 
+0.010 
+D 
+4.700 
+5.100 
+0.185 
+0.201 
+D1 
+3.202 
+3.402 
+0.126 
+0.134 
+E 
+3.800 
+4.000 
+0.150 
+0.157 
+E1 
+5.800 
+6.200 
+0.228 
+0.244 
+E2 
+2.313 
+2.513 
+0.091 
+0.099 
+e 
+1.27 BSC 
+0.050 BSC 
+L 
+0.400 
+1.270 
+0.016 
+0.050 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+D
+E
+E1
+e
+b
+A
+A2
+A1
+c
+L
+θ
+E2
+D1
+3.302
+2.413
+0.61
+1.27
+1.91
+5.56
+RECOMMENDED LAND PATTERN (Unit: mm)
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+SOIC-8 
+13″ 
+12.4 
+6.40 
+5.40 
+2.10 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+SOIC-8 
+(Exposed Pad) 
+13″ 
+12.4 
+6.40 
+5.40 
+2.10 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

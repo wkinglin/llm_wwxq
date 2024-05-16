@@ -1,0 +1,630 @@
+ 
+SGM4808 
+Wide Power Supply Range 
+Audio Click-Pop Noise Eliminator 
+ 
+ 
+ 
+MARCH 2018 – REV. A. 1 
+  
+SG Micro Corp 
+www.sg-micro.com 
+GENERAL DESCRIPTION 
+The SGM4808 is an audio click-pop eliminator which 
+can operate from a 2.7V to 12V single power supply. It 
+is designed for HiFi audio system or portable devices. 
+The SGM4806 allows -VCC to +VCC wide range audio 
+signals passing with low distortion. An external 
+processor can eliminate the click-pop noise. 
+The SGM4808 is available in Green TQFN-2.6×1.8-16L 
+and SOIC-16 packages. It operates over an ambient 
+temperature range of -40℃ to +85℃. 
+FEATURES 
+● Supply Voltage Range: 2.7V to 12V 
+● Low On-Resistance: 1.1Ω (TYP) 
+● -VCC to +VCC Rail-to-Rail Low Distortion Audio 
+Signals Passing 
+● Fast Switching Times 
+● High Off-Isolation 
+● Low Crosstalk 
+● 1.8V Logic Control 
+● -40℃ to +85℃ Operating Temperature Range 
+● Available in Green TQFN-2.6×1.8-16L and 
+SOIC-16 Packages 
+ 
+ 
+ 
+APPLICATIONS 
+HiFi Audio System 
+Portable Equipment 
+ 
+ 
+ 
+
+Wide Power Supply Range 
+SGM4808 
+Audio Click-Pop Noise Eliminator 
+ 
+ 
+2 
+MARCH 2018 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM4808 
+TQFN-2.6×1.8-16L 
+-40℃ to +85℃ 
+SGM4808YTQA16G/TR 
+4808 
+XXXXX 
+Tape and Reel, 3000 
+SOIC-16 
+-40℃ to +85℃ 
+SGM4808YS16G/TR 
+SGM4808YS16 
+XXXXX 
+Tape and Reel, 2500 
+ 
+NOTE: XXXXX = Date Code and Vendor Code. 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+VCC to GND 
+.......................................................... 
+0V to 13.2V 
+MUTER , MUTEL , EN to GND 
+.............................. 
+0V to 6V 
+Passing Audio Signals Range (1) 
+ 
+................................................... 
+(-VCC - 0.3V) to (VCC + 0.3V) 
+Continuous Current 
+................................................... ±200mA 
+Peak Current 
+............................................................. ±250mA 
+I/O Clamp Current (VI < 0) ........................................... 
+-30mA 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ........................ 
+-65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+7000V 
+MM 
+................................................................................. 
+300V 
+CDM ............................................................................ 
+1000V 
+ 
+NOTE: 
+1. Signals on RIN, LIN, ROUT, LOUT, exceeding VCC will be 
+clamped by internal diodes. Limit forward diode current to 
+maximum current ratings. 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Supply Voltage Range ......................................... 
+2.7V to 12V 
+Operating Temperature Range ....................... 
+-40℃ to +85℃ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+
+Wide Power Supply Range 
+SGM4808 
+Audio Click-Pop Noise Eliminator 
+ 
+ 
+3 
+MARCH 2018 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+(TOP VIEW) 
+(TOP VIEW) 
+9
+8
+11
+12
+10
+13
+14
+15
+16
+1
+2
+3
+4
+5
+6
+7
+VCC
+GND
+N.C.
+N.C.
+ROUT
+LOUT
+EN
+LIN
+CN
+PVSS
+RIN
+GND
+N.C.
+CP
+MUTER
+MUTEL
+ 
+8
+5
+6
+7
+13
+16
+15
+14
+4
+1
+2
+3
+9
+12
+11
+10
+RIN
+LIN
+N.C.
+VCC
+GND
+MUTEL
+MUTER
+EN
+GND
+PVSS
+CN
+CP
+ROUT LOUT N.C.
+N.C.
+ 
+TQFN-2.6×1.8-16L 
+ 
+SOIC-16 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+TQFN- 
+2.6×1.8-16L 
+SOIC-16 
+1 
+11 
+RIN 
+Right Channel Audio Signals Input. 
+2, 9, 10 
+3, 4, 12 
+N.C. 
+No Connection. 
+3 
+13 
+LIN 
+Left Channel Audio Signals Input. 
+4 
+14 
+PVSS 
+Negative Supply Voltage Output. Connect one 0.1μF ceramic capacitor from PVSS 
+to GND. 
+5 
+15 
+CN 
+Negative Terminal for Charge Pump Flying Capacitor. 
+6 
+16 
+CP 
+Positive Terminal for Charge Pump Flying Capacitor. 
+7 
+1 
+VCC 
+Power Supply. 
+8, 16 
+2, 10 
+GND 
+Ground. 
+11 
+5 
+LOUT 
+Left Channel Audio Signals Output. 
+12 
+6 
+ROUT 
+Right Channel Audio Signals Output. 
+13 
+7 
+EN 
+Enable Control. When EN = “Low”, both RIN to ROUT and LIN to LOUT channels 
+will be disconnected, negative charge pump doesn’t work, the SGM4808 will be in 
+shutdown state. When EN = “High”, negative charge pump will work, the 
+SGM4808 will be in working state, whether the audio signals channel works 
+depends on the logical state of MUTER  or MUTEL . 
+14 
+8 
+MUTER  
+Digital Control Pin to Mute Right Audio Signals Channel. 
+15 
+9 
+MUTEL  
+Digital Control Pin to Mute Left Audio Signals Channel. 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00078.001 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TQFN-2.6×1.8-16L 
+ 
+ 
+ 
+ 
+ 
+NOTE: All linear dimensions are in millimeters. 
+ 
+ 
+ 
+ 
+ 
+ 
+2.600± 0.050
+1.800± 0.050
+0.500± 0.050
+0.200± 0.050
+0.400± 0.050
+0.400 TYP
+BOTTOM VIEW
+TOP VIEW
+SIDE VIEW
+0.750± 0.050
+0.050± 0.050
+0.203 Ref.
+N1
+N2
+N16
+RECOMMENDED LAND PATTERN
+PIN #1 DOT
+BY MARKING
+PIN #1 IDENTIFICATION
+CHAMFER 0.100× 45°
+(× 15)
+1.200 Ref.
+0.8
+0.7
+0.2
+0.4
+3.2
+2.4
+1.8
+1.0
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00012.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOIC-16 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+1.350 
+1.750 
+0.053 
+0.069 
+A1 
+0.100 
+0.250 
+0.004 
+0.010 
+A2 
+1.350 
+1.550 
+0.053 
+0.061 
+b 
+0.330 
+0.510 
+0.013 
+0.020 
+c 
+0.170 
+0.250 
+0.006 
+0.010 
+D 
+9.800 
+10.200 
+0.386 
+0.402 
+E 
+3.800 
+4.000 
+0.150 
+0.157 
+E1 
+5.800 
+6.200 
+0.228 
+0.244 
+e 
+1.27 BSC 
+0.050 BSC 
+L 
+0.400 
+1.270 
+0.016 
+0.050 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+ 
+ 
+ 
+ 
+D
+E
+E1
+e
+b
+A
+A1
+A2
+θ
+L
+c
+RECOMMENDED LAND PATTERN (Unit: mm)
+5.60
+1.75
+1.27
+0.65
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TQFN-2.6×1.8-16L 
+7″ 
+9.0 
+2.01 
+2.81 
+0.93 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+SOIC-16 
+13″ 
+16.4 
+6.50 
+10.30 
+2.10 
+4.0 
+8.0 
+2.0 
+16.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

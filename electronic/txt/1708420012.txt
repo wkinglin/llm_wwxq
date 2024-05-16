@@ -1,0 +1,676 @@
+ 
+ 
+SGM21102A 
+0.7GHz to 6.0GHz SPDT Switch 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+MAY 2023 – REV.A 
+GENERAL DESCRIPTION 
+The SGM21102A is a single-pole/double-throw (SPDT) 
+switch for mode switching in WLAN applications. The 
+device features low insertion loss and high isolation. 
+The SGM21102A uses advanced switching technologies 
+and supports 0.7GHz to 6.0GHz. 
+The SGM21102A has the ability to integrate SPDT RF 
+switch and GPIO controller on an SOI chip. Internal 
+driver and decoder for switch control signals are offered 
+by the GPIO controller, which makes it flexible in RF 
+path band and routing selection. 
+No external DC blocking capacitors required on the RF 
+paths as long as no external DC voltage is applied, 
+which can save PCB area and cost. 
+The SGM21102A is available in a Green ULGA-0.7×1.1 
+-6L package. 
+ 
+APPLICATIONS 
+WLAN 802.11 a/b/g/n/ac/ax Networks 
+Low Power Transmit Receive Systems 
+WLAN Repeaters 
+ 
+FEATURES 
+● Supply Voltage Range: 2.4V to 3.3V 
+● High Switching Speed 
+● Operating Frequency Range: 0.7GHz to 6.0GHz 
+● Low Insertion Loss 
+● High Isolation 
+● Advanced Silicon-On-Insulator (SOI) Process 
+● No External DC Blocking Capacitors Required 
+● Available in a Green ULGA-0.7×1.1-6L Package 
+ 
+BLOCK DIAGRAM 
+Supply and Logic
+RFCOM
+RF1
+RF2
+VDD
+GND
+VCTL
+ 
+ 
+Figure 1. SGM21102A Block Diagram 
+ 
+ 
+ 
+
+ 
+SGM21102A 
+0.7GHz to 6.0GHz SPDT Switch 
+ 
+ 
+2 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM21102A 
+ULGA-0.7×1.1-6L 
+-40℃ to +85℃ 
+SGM21102AYULP6G/TR 
+5H 
+Tape and Reel, 10000 
+ 
+MARKING INFORMATION 
+NOTE: Fixed character for 5H. 
+Serial Number
+YY
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Supply Voltage, VDD 
+........................................................ 
+3.6V 
+Control Voltage, VCTL  .................................................... 
+3.3V 
+RF Input Power, PIN .................................................... 
+32dBm 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -55℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Temperature Range, TA ................ -40℃ to +85℃ 
+Operating Frequency Range, f0 ................ 0.7GHz to 6.0GHz 
+Supply Voltage, VDD 
+............................................ 
+2.4V to 3.3V 
+Control High Voltage, VCTLH .............................. 
+1.35V to 3.3V 
+Control Low Voltage, VCTLL .................................. 
+0V to 0.45V 
+ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+
+ 
+SGM21102A 
+0.7GHz to 6.0GHz SPDT Switch 
+ 
+ 
+3 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+(TOP VIEW) 
+1
+6
+2
+3
+4
+5
+RF2
+GND
+RF1
+VCTL
+RFCOM
+VDD
+ 
+ULGA-0.7×1.1-6L 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1 
+RF2 
+RF I/O Port 2. 
+2 
+GND 
+Ground. 
+3 
+RF1 
+RF I/O Port 2. 
+4 
+VDD 
+DC Supply Voltage. 
+5 
+RFCOM 
+RF Common Port. 
+6 
+VCTL 
+DC Control Voltage. 
+ 
+ 
+TRUTH TABLE 
+VCTL 
+ON PATH 
+Low 
+RFCOM to RF1 
+High 
+RFCOM to RF2 
+ 
+ 
+
+ 
+SGM21102A 
+0.7GHz to 6.0GHz SPDT Switch 
+ 
+ 
+4 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(Typical values are at VDD = 2.8V, PIN = 0dBm, TA = +25℃, 50Ω, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+DC Characteristics 
+Supply Voltage 
+VDD 
+ 
+2.4 
+2.8 
+3.3 
+V 
+Supply Current 
+IDD 
+ 
+ 
+30 
+65 
+μA 
+Control Voltage 
+VCTL_H 
+ 
+1.35 
+ 
+3.3 
+V 
+VCTL_L 
+ 
+0 
+ 
+0.45 
+Control Current 
+ICTL 
+ 
+ 
+2 
+5 
+μA 
+Switching Speed 
+tRISE 
+10% RF to 90% RF 
+ 
+300 
+ 
+ns 
+Switching Time 
+tSW 
+50% VCTL to 90% of RF 
+ 
+810 
+1100 
+ns 
+Turn-On Time 
+tON 
+50% VDD to 90% of RF 
+ 
+5 
+10 
+μs 
+RF Characteristics 
+Insertion Loss 
+IL 
+f0 = 700MHz to 900MHz 
+ 
+0.35 
+0.55 
+dB 
+f0 = 900MHz to 1900MHz 
+ 
+0.38 
+0.60 
+f0 = 1900MHz to 2690MHz 
+ 
+0.39 
+0.65 
+f0 = 2690MHz to 6000MHz 
+ 
+0.65 
+0.85 
+Return Loss 
+RL 
+f0 = 700MHz to 900MHz 
+ 
+25 
+ 
+dB 
+f0 = 900MHz to 1900MHz 
+ 
+23 
+ 
+f0 = 1900MHz to 2690MHz 
+ 
+20 
+ 
+f0 = 2690MHz to 6000MHz 
+ 
+16 
+ 
+Isolation 
+(RFCOM to All RF Ports) 
+ISO 
+f0 = 700MHz to 900MHz 
+34 
+40 
+ 
+dB 
+f0 = 900MHz to 1900MHz 
+27 
+32 
+ 
+f0 = 1900MHz to 2690MHz 
+25 
+28 
+ 
+f0 = 2690MHz to 6000MHz 
+14 
+18 
+ 
+Isolation 
+(RF1 to RF2 Port/ 
+RF2 to RF1 Port) 
+ISO 
+f0 = 700MHz to 900MHz 
+ 
+41 
+ 
+dB 
+f0 = 900MHz to 1900MHz 
+ 
+33 
+ 
+f0 = 1900MHz to 2690MHz 
+ 
+28 
+ 
+f0 = 2690MHz to 6000MHz 
+ 
+18 
+ 
+2nd Harmonics 
+2f0 
+f0 = 824MHz, PIN = 29dBm, CW, 50Ω 
+ 
+-91 
+ 
+dBc 
+3rd Harmonics 
+3f0 
+ 
+-101 
+ 
+dBc 
+Input 0.1dB Compression Point 
+P0.1dB 
+f0 = 0.7GHz to 6.0GHz 
+ 
+30 
+ 
+dBm 
+ 
+NOTE: All electrical characteristics are measured with all RF ports terminated by 50Ω loads. 
+ 
+ 
+ 
+
+ 
+SGM21102A 
+0.7GHz to 6.0GHz SPDT Switch 
+ 
+ 
+5 
+MAY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL APPLICATION CIRCUIT 
+SGM21102A
+1000pF
+DC Supply Voltage
+VDD
+1000pF
+DC Control Voltage
+VCTL
+RF1
+RFCOM
+GND
+RF Common Port
+RF I/O Port 1
+RF I/O Port 2
+RF2
+ 
+ 
+Figure 2. SGM21102A Typical Application Circuit 
+ 
+EVALUATION BOARD LAYOUT 
+ 
+ 
+Figure 3. SGM21102A Evaluation Board Layout 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+Changes from Original (MAY 2023) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00270.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+ULGA-0.7×1.1-6L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.500 
+0.550 
+0.600 
+A1 
+0.140 
+0.170 
+0.200 
+A2 
+0.330 
+0.380 
+0.430 
+D 
+0.650 
+0.700 
+0.750 
+E 
+1.050 
+1.100 
+1.150 
+e 
+0.300 BSC 
+e1 
+0.350 BSC 
+k 
+0.200 REF 
+L 
+0.200 TYP 
+ 
+NOTE: This drawing is subject to change without notice. 
+ 
+ 
+BOTTOM VIEW
+SIDE VIEW
+RECOMMENDED LAND PATTERN (Unit: mm)
+PIN 1#
+N1
+N6
+D
+E
+e
+k
+k
+e1
+L
+L
+A1
+A2
+A
+0.30
+0.35
+0.20
+0.20
+TOP VIEW
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1 
+Quadrant 
+DD0001 
+ 
+ 
+ULGA-0.7×1.1-6L 
+7″ 
+9.5 
+0.82 
+1.22 
+0.66 
+4.0 
+2.0 
+2.0 
+8.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 

@@ -1,0 +1,1803 @@
+ 
+SGM2210 
+300mA, Low Quiescent Current 
+and Low Noise Linear Regulator 
+ 
+ 
+JANUARY 2024 – REV. B. 1 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+GENERAL DESCRIPTION 
+The SGM2210 is a low quiescent current, low noise and 
+low dropout voltage linear regulator. It is capable of 
+supplying 300mA output current with typical dropout 
+voltage of 240mV. The operating input voltage range is 
+from 2.5V to 20V. The fixed output voltage range is 
+from 1.2V to 5.0V and adjustable output voltage range 
+is from 1.2V to 12V. 
+Other features include logic-controlled shutdown mode, 
+short-circuit current limit and thermal shutdown 
+protection. The SGM2210 has automatic discharge 
+function to quickly discharge VOUT in the disabled status. 
+The SGM2210 is available in a Green SOT-23-5 
+package. It operates over an operating temperature 
+range of -40℃ to +125℃. 
+ 
+FEATURES 
+● Operating Input Voltage Range: 2.5V to 20V 
+● Fixed Outputs of 1.2V, 1.8V, 2.5V, 3.0V, 3.3V, 3.6V 
+and 5.0V 
+● Adjustable Output from 1.2V to 12V 
+● 300mA Output Current 
+● Output Voltage Accuracy: ±1% at +25℃ 
+● Quiescent Current: 36μA (TYP) 
+● Low Dropout: 80mV (TYP) at 100mA, VOUT = 3.3V 
+● Low Noise: 48μVRMS (TYP) at VOUT = 3.3V 
+● High PSRR: 100dB (TYP) at 1kHz 
+● Current Limiting and Thermal Protection 
+● With Output Automatic Discharge 
+● Stable with Small Case Size Ceramic Capacitors 
+● Reverse Current Protection when VOUT > VIN 
+● Shutdown Supply Current: 0.5μA (TYP) 
+● -40℃ to +125℃ Operating Temperature Range 
+● Available in a Green SOT-23-5 Package 
+ 
+APPLICATIONS 
+Palmtop Computers 
+Portable Electronics 
+Industrial and Medical Equipment 
+Battery-Powered Equipment 
+ 
+ 
+TYPICAL APPLICATION 
+ 
+Fixed Output Voltage Version
+Adjustable Output Voltage Version
+VOUT = VADJ (1+R1/R2)
+VOUT
+VIN
+IN
+OUT
+GND
+SGM2210-FIX
+EN
+ON
+OFF
+COUT
+2.2μF
+CIN 
+2.2μF
+VOUT
+VIN
+IN
+OUT
+GND
+SGM2210-ADJ
+EN
+ON
+OFF
+COUT
+2.2μF
+CIN 
+2.2μF
+R1
+R2
+ADJ
+ 
+ 
+Figure 1. Typical Application Circuits 
+ 
+ 
+
+300mA, Low Quiescent Current 
+SGM2210 
+and Low Noise Linear Regulator 
+ 
+ 
+2 
+JANUARY 2024 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM2210-1.2 
+SOT-23-5 
+-40℃ to +125℃ 
+SGM2210-1.2XN5G/TR 
+CC0XX 
+Tape and Reel, 3000 
+SGM2210-1.8 
+SOT-23-5 
+-40℃ to +125℃ 
+SGM2210-1.8XN5G/TR 
+CC6XX 
+Tape and Reel, 3000 
+SGM2210-2.5 
+SOT-23-5 
+-40℃ to +125℃ 
+SGM2210-2.5XN5G/TR 
+CCDXX 
+Tape and Reel, 3000 
+SGM2210-3.0 
+SOT-23-5 
+-40℃ to +125℃ 
+SGM2210-3.0XN5G/TR 
+CD2XX 
+Tape and Reel, 3000 
+SGM2210-3.3 
+SOT-23-5 
+-40℃ to +125℃ 
+SGM2210-3.3XN5G/TR 
+MWDXX 
+Tape and Reel, 3000 
+SGM2210-3.6 
+SOT-23-5 
+-40℃ to +125℃ 
+SGM2210-3.6XN5G/TR 
+CD7XX 
+Tape and Reel, 3000 
+SGM2210-5.0 
+SOT-23-5 
+-40℃ to +125℃ 
+SGM2210-5.0XN5G/TR 
+MWEXX 
+Tape and Reel, 3000 
+SGM2210-ADJ 
+SOT-23-5 
+-40℃ to +125℃ 
+SGM2210-ADJXN5G/TR 
+MWFXX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XX = Date Code. 
+Date Code - Year 
+Date Code - Week 
+Serial Number
+YYY X X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+IN, EN to GND ................................................... -0.3V to 22V 
+OUT to GND ........................... -0.3V to MIN(VIN + 5.5V, 22V) 
+ADJ to GND 
+......................................................... -0.3V to 2V 
+Output Current ............................................ Internally Limited 
+Package Thermal Resistance 
+SOT-23-5, θJA .......................................................... 170℃/W 
+SOT-23-5, θJB ............................................................ 38℃/W 
+SOT-23-5, θJC ............................................................ 52℃/W 
+Junction Temperature ................................................. 
++150℃ 
+Storage Temperature Range 
+........................ -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+8000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Input Voltage Range ............................................ 
+2.5V to 20V 
+Enable Input Voltage Range ................................... 
+0V to 20V 
+Input Effective Capacitance, CIN ............................ 1μF (MIN) 
+Output Effective Capacitance, COUT 
+................. 
+1.5μF to 22μF 
+Operating Junction Temperature Range ...... -40℃ to +125℃ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice.
+ 
+ 
+
+300mA, Low Quiescent Current 
+SGM2210 
+and Low Noise Linear Regulator 
+ 
+ 
+3 
+JANUARY 2024 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+SGM2210-FIX 
+(TOP VIEW) 
+SGM2210-ADJ 
+(TOP VIEW) 
+ 
+OUT
+NC
+3
+4
+5
+1
+2
+GND
+EN
+IN
+ 
+ 
+OUT
+ADJ
+3
+4
+5
+1
+2
+GND
+EN
+IN
+ 
+SOT-23-5 
+SOT-23-5 
+ 
+ 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1 
+IN 
+Input Supply Voltage Pin. It is recommended to use a 2.2μF or larger ceramic capacitor from IN 
+pin to ground to get good power supply decoupling. This ceramic capacitor should be placed as 
+close as possible to IN pin. 
+2 
+GND 
+Ground. 
+3 
+EN 
+Enable Pin. Drive EN high to turn on the regulator. Drive EN low to turn off the regulator. 
+4 
+NC 
+No Connection (fixed voltage version only). 
+ADJ 
+Feedback Voltage Input Pin (adjustable voltage version only). Connect this pin to the midpoint 
+of an external resistor divider to adjust the output voltage. Place the resistors as close as 
+possible to this pin. 
+5 
+OUT 
+Regulator Output Pin. It is recommended to use a ceramic capacitor with effective capacitance 
+in the range of 1.5μF to 22μF to ensure stability. This ceramic capacitor should be placed as 
+close as possible to OUT pin. 
+ 
+ 
+ 
+
+300mA, Low Quiescent Current 
+SGM2210 
+and Low Noise Linear Regulator 
+ 
+ 
+4 
+JANUARY 2024 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAMS 
+ 
+R3
+R2
+  SGM2210-FIX
+IN
+GND
+EN
+OUT
+Sub-
+Regulator
+ Reference
+Voltage
+ Current Limit
+& 
+Thermal Protection
+Enable Logic
+C1
+RDIS
+R1
+EN
+1.2V
+ 
+ 
+Figure 2. Fixed Version Block Diagram 
+ 
+ 
+R3
+R2
+  SGM2210-ADJ
+IN
+GND
+EN
+OUT
+Sub-
+Regulator
+ Reference
+Voltage
+ Current Limit
+& 
+Thermal Protection
+Enable Logic
+C1
+RDIS
+R1
+EN
+1.2V
+ADJ
+ 
+ 
+Figure 3. Adjustable Version Block Diagram 
+ 
+ 
+
+300mA, Low Quiescent Current 
+SGM2210 
+and Low Noise Linear Regulator 
+ 
+ 
+5 
+JANUARY 2024 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VIN = VOUT(NOM) + 1V, VEN = VIN, IOUT = 1mA, CIN = 2.2μF, COUT = 2.2μF, TJ = -40℃ to +125℃, typical values are at TJ = +25℃, 
+unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Operating Input Voltage 
+VIN 
+TJ = +25℃ 
+2.5 
+ 
+20 
+V 
+Output Voltage Accuracy 
+VOUT 
+IOUT = 1mA, TJ = +25℃ 
+-1 
+ 
+1 
+% 
+IOUT = 1mA to 300mA, TJ = -40℃ to +125℃ 
+-1.5 
+ 
+1.5 
+Adjustable Voltage 
+VADJ 
+SGM2210-ADJ 
+ 
+1.2 
+ 
+V 
+ADJ Pin Current 
+IADJ 
+TJ = +25℃ 
+ 
+1 
+3 
+nA 
+TJ = -40℃ to +125℃ 
+ 
+ 
+5 
+Line Regulation 
+OUT
+IN
+OUT
+V
+V
+V
+∆
+∆
+×
+ 
+VIN = (VOUT(NOM) + 1V) to 20V, 
+IOUT = 1mA 
+TJ = +25℃ 
+ 
+0.001 
+0.005 
+%/V 
+TJ = -40℃ to +125℃ 
+ 
+ 
+0.01 
+Load Regulation 
+∆
+× ∆
+OUT
+OUT
+OUT
+V
+V
+I
+ 
+IOUT = 1mA to 300mA 
+TJ = +25℃ 
+ 
+0.0005 
+0.001 
+%/mA 
+TJ = -40℃ to +125℃ 
+ 
+ 
+0.003 
+Dropout Voltage (1) 
+VDROP 
+IOUT = 100mA, VOUT = 3.3V 
+TJ = +25℃ 
+ 
+80 
+95 
+mV 
+TJ = -40℃ to +125℃ 
+ 
+ 
+130 
+IOUT = 300mA, VOUT = 3.3V 
+TJ = +25℃ 
+ 
+240 
+280 
+TJ = -40℃ to +125℃ 
+ 
+ 
+380 
+Output Current Limit 
+ILIMIT 
+VOUT = 90%VOUT(NOM), TJ = +25℃ 
+550 
+900 
+ 
+mA 
+Short Circuit Current 
+ISHORT 
+VOUT = 0V 
+ 
+600 
+ 
+mA 
+Quiescent Current 
+IQ 
+VIN = (VOUT(NOM) + 1V) to 20V, 
+IOUT = 0mA 
+TJ = +25℃ 
+ 
+36 
+50 
+µA 
+TJ = -40℃ to +125℃ 
+ 
+ 
+60 
+VIN = (VOUT(NOM) + 1V) to 20V, 
+IOUT = 300mA 
+TJ = +25℃ 
+ 
+620 
+720 
+TJ = -40℃ to +125℃ 
+ 
+ 
+760 
+Shutdown Current 
+ISHDN 
+VEN = GND 
+TJ = +25℃ 
+ 
+0.5 
+1 
+µA 
+TJ = -40℃ to +125℃ 
+ 
+ 
+1.5 
+Enable Input Logic Low 
+VIL 
+VIN = 2.5V to 20V 
+ 
+ 
+0.4 
+V 
+Enable Input Logic High 
+VIH 
+VIN = 2.5V to 20V 
+1.3 
+ 
+ 
+EN Pin Input Current 
+IEN 
+VEN = VIN 
+TJ = +25℃ 
+ 
+300 
+600 
+nA 
+TJ = -40℃ to +125℃ 
+ 
+ 
+1000 
+Input Reverse Current 
+IREV-IN 
+VEN = 5.5V, VIN = 15V, VOUT = 20V 
+ 
+22 
+ 
+µA 
+Output Discharge Resistance 
+RDIS 
+VIN = 2.5V, VEN = 0V 
+ 
+95 
+ 
+Ω 
+Power Supply Rejection Ratio 
+PSRR 
+VIN = VOUT(NOM) + 1V, VOUT = 3.3V, 
+ΔVRIPPLE = 0.2VP-P, IOUT = 10mA 
+f = 1kHz 
+ 
+100 
+ 
+dB 
+f = 10kHz 
+ 
+82 
+ 
+Output Voltage Noise 
+en 
+f = 10Hz to 100kHz, IOUT = 10mA, VOUT = 3.3V 
+ 
+48 
+ 
+µVRMS 
+Thermal Shutdown Temperature 
+TSHDN 
+ 
+ 
+155 
+ 
+℃ 
+Thermal Shutdown Hysteresis 
+ΔTSHDN 
+ 
+ 
+20 
+ 
+℃ 
+ 
+NOTE: 
+1. The dropout voltage is defined as the difference between VIN and VOUT when VOUT falls to 95% × VOUT(NOM). 
+ 
+ 
+
+300mA, Low Quiescent Current 
+SGM2210 
+and Low Noise Linear Regulator 
+ 
+ 
+6 
+JANUARY 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+TJ = +25℃, VIN = VOUT(NOM) + 1V, VEN = VIN, CIN = 2.2μF, COUT = 2.2μF, unless otherwise noted. 
+ 
+ 
+Start-Up with Enable 
+ 
+ 
+ 
+Start-Up with Enable 
+ 
+ 
+ 
+ 
+VEN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+     3V/div      1.5V/div  200mA/div 
+ 
+ 
+ 
+ 
+VEN 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+     2V/div    1V/div    200mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (1ms/div) 
+ 
+ 
+ 
+Time (1ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Turn-On Time 
+ 
+ 
+ 
+Turn-On Time 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+VEN 
+ 
+ 
+ 
+VOUT 
+ 
+3V/div   3V/div      1.5V/div 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+VEN 
+ 
+ 
+ 
+VOUT 
+ 
+3V/div   3V/div     610mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (1ms/div) 
+ 
+ 
+ 
+Time (1ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Line Transient Response 
+ 
+ 
+ 
+Line Transient Response 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+        700mV/div     20mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+      700mV/div     20mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+VIN = 4.3V, VEN = 0V to 2V, VOUT = 3.3V, IOUT = 300mA 
+VIN = 2.5V, VEN = 0V to 2V, VOUT = VADJ, IOUT = 300mA 
+VIN = VEN = 0V to 4.3V, VOUT = 3.3V, IOUT = 300mA 
+VIN = VEN = 0V to 2.5V, VOUT = VADJ, IOUT = 300mA 
+VIN = VEN = 4.3V to 5.3V, VOUT = 3.3V, IOUT = 1mA 
+VIN = VEN = 2.5V to 3.5V, VOUT = VADJ, IOUT = 1mA 
+
+300mA, Low Quiescent Current 
+SGM2210 
+and Low Noise Linear Regulator 
+ 
+ 
+7 
+JANUARY 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, VIN = VOUT(NOM) + 1V, VEN = VIN, CIN = 2.2μF, COUT = 2.2μF, unless otherwise noted. 
+ 
+ 
+Load Transient Response 
+ 
+ 
+ 
+Load Transient Response 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+        500mV/div        100mA/div 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+     500mV/div           100mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     Power Supply Rejection Ratio vs. Frequency 
+     Power Supply Rejection Ratio vs. Frequency 
+ 
+ 
+     Power Supply Rejection Ratio vs. Frequency 
+     Output Noise Spectral Density vs. Frequency 
+ 
+ 
+ 
+ 
+0
+30
+60
+90
+120
+150
+0.01
+0.1
+1
+10
+100
+Power Supply Rejection Ratio (dB) 
+Frequency (kHz) 
+VIN = 3.8V ± 0.1VP-P,  
+VOUT = 3.3V, IOUT = 10mA 
+0
+30
+60
+90
+120
+150
+0.01
+0.1
+1
+10
+100
+Power Supply Rejection Ratio (dB) 
+Frequency (kHz) 
+VIN = 4.3V ± 0.1VP-P,  
+VOUT = 3.3V, IOUT = 10mA 
+0
+30
+60
+90
+120
+150
+0.01
+0.1
+1
+10
+100
+Power Supply Rejection Ratio (dB) 
+Frequency (kHz) 
+VIN = 2.5V ± 0.1VP-P,  
+VOUT = VADJ, IOUT = 10mA 
+0
+0.8
+1.6
+2.4
+3.2
+4
+0.01
+0.1
+1
+10
+100
+Output Noise Spectral Density (μV/√Hz) 
+Frequency (kHz) 
+VIN = 4.3V, VOUT = 3.3V, IOUT = 10mA 
+VIN = VEN = 4.3V, VOUT = 3.3V, IOUT = 1mA to 300mA 
+VIN = VEN = 2.5V, VOUT = VADJ, IOUT = 1mA to 300mA 
+
+300mA, Low Quiescent Current 
+SGM2210 
+and Low Noise Linear Regulator 
+ 
+ 
+8 
+JANUARY 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, VIN = VOUT(NOM) + 1V, VEN = VIN, CIN = 2.2μF, COUT = 2.2μF, unless otherwise noted. 
+ 
+     Dropout Voltage vs. Temperature 
+     Enable Threshold Voltage vs. Temperature 
+ 
+ 
+     Output Voltage vs. Temperature 
+     Output Voltage vs. Temperature 
+ 
+ 
+     Output Voltage vs. Temperature 
+     Output Voltage vs. Temperature 
+ 
+ 
+ 
+ 
+0
+100
+200
+300
+400
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Dropout Voltage (mV) 
+Temperature (℃) 
+VOUT = 3.3V 
+ 
+IOUT = 100mA 
+IOUT = 300mA 
+0.4
+0.6
+0.8
+1
+1.2
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Enable Threshold Voltage (V) 
+Temperature (℃) 
+IOUT = 1mA 
+ 
+VIL 
+VIH 
+3.2
+3.25
+3.3
+3.35
+3.4
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Output Voltage (V) 
+Temperature (℃) 
+VIN = 4.3V, VOUT = 3.3V, IOUT = 1mA 
+3.2
+3.25
+3.3
+3.35
+3.4
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Output Voltage (V) 
+Temperature (℃) 
+VIN = 4.3V, VOUT = 3.3V, IOUT = 300mA 
+1.1
+1.15
+1.2
+1.25
+1.3
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Output Voltage (V) 
+Temperature (℃) 
+VIN = 2.5V, VOUT = VADJ, IOUT = 1mA 
+1.1
+1.15
+1.2
+1.25
+1.3
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Output Voltage (V) 
+Temperature (℃) 
+VIN = 2.5V, VOUT = VADJ, IOUT = 300mA 
+
+300mA, Low Quiescent Current 
+SGM2210 
+and Low Noise Linear Regulator 
+ 
+ 
+9 
+JANUARY 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, VIN = VOUT(NOM) + 1V, VEN = VIN, CIN = 2.2μF, COUT = 2.2μF, unless otherwise noted. 
+ 
+     Quiescent Current vs. Temperature 
+     Quiescent Current vs. Temperature 
+ 
+ 
+     Line Regulation vs. Temperature 
+     Line Regulation vs. Temperature 
+ 
+ 
+     Load Regulation vs. Temperature 
+     Load Regulation vs. Temperature 
+ 
+ 
+ 
+ 
+20
+30
+40
+50
+60
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Quiescent Current (μA) 
+Temperature (℃) 
+IOUT = 0mA 
+VIN = 2.5V 
+VIN = 20V 
+560
+590
+620
+650
+680
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Quiescent Current (μA) 
+Temperature (℃) 
+IOUT = 300mA 
+-0.002
+-0.001
+0
+0.001
+0.002
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Line Regulation (%/V) 
+Temperature (℃) 
+VOUT = 3.3V, IOUT = 1mA 
+-0.0008 
+-0.0004 
+0 
+0.0004 
+0.0008 
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Line Regulation (%/V) 
+Temperature (℃) 
+VOUT = VADJ, IOUT = 1mA 
+-0.002
+-0.001
+0
+0.001
+0.002
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Load Regulation (%/mA) 
+Temperature (℃) 
+VOUT = 3.3V, IOUT = 1mA to 300mA 
+-0.0008 
+-0.0004 
+0 
+0.0004 
+0.0008 
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Load Regulation (%/mA) 
+Temperature (℃) 
+VOUT = VADJ, IOUT = 1mA to 300mA 
+
+300mA, Low Quiescent Current 
+SGM2210 
+and Low Noise Linear Regulator 
+ 
+ 
+10 
+JANUARY 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, VIN = VOUT(NOM) + 1V, VEN = VIN, CIN = 2.2μF, COUT = 2.2μF, unless otherwise noted. 
+ 
+     Shutdown Current vs. Temperature 
+     Shutdown Current vs. Temperature 
+ 
+ 
+     Output Voltage vs. Input Voltage in Dropout 
+     Output Voltage vs. Input Voltage in Dropout 
+ 
+ 
+     Output Voltage vs. Input Voltage 
+ 
+ 
+ 
+ 
+ 
+0
+0.25
+0.5
+0.75
+1
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Shutdown Current (μA) 
+Temperature (℃) 
+VIN = 2.5V, VEN = 0V 
+0
+0.25
+0.5
+0.75
+1
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Shutdown Current (μA) 
+Temperature (℃) 
+VIN = 20V, VEN = 0V 
+2.1
+2.4
+2.7
+3.0
+3.3
+3.6
+3.9
+2.5
+2.7
+2.9
+3.1
+3.3
+3.5
+3.7
+3.9
+4.1
+Output Voltage (V) 
+Input Voltage (V) 
+VOUT = 3.3V 
+IOUT = 5mA 
+IOUT = 100mA 
+IOUT = 300mA 
+2.0
+2.5
+3.0
+3.5
+4.0
+4.5
+5.0
+5.5
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+6
+Output Voltage (V) 
+Input Voltage (V) 
+VOUT = 5.0V 
+IOUT = 5mA 
+IOUT = 100mA 
+IOUT = 300mA 
+0
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+0
+2
+4
+6
+8
+10
+Output Voltage (V) 
+Input Voltage (V) 
+VOUT = 3.3V  
+RL = 3.3kΩ 
+RL = 33Ω 
+
+300mA, Low Quiescent Current 
+SGM2210 
+and Low Noise Linear Regulator 
+ 
+ 
+11 
+JANUARY 2024 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+The SGM2210 is a low quiescent current, low noise 
+and low dropout voltage linear regulator and provides 
+300mA output current. These features make the device 
+a reliable solution to solve many challenging problems 
+in the generation of clean and accurate power supply. 
+The high performance also makes the SGM2210 useful 
+in a variety of applications. The SGM2210 provides 
+protection functions for output overload, output 
+short-circuit condition and overheating. 
+The SGM2210 provides an EN pin as an external chip 
+enable control to enable/disable the device. When the 
+regulator is in shutdown state, the shutdown current 
+consumes as low as 0.5μA (TYP). 
+ 
+Input Capacitor Selection (CIN) 
+The input decoupling capacitor should be placed as 
+close as possible to the IN pin to ensure the device 
+stability. 2.2μF or larger X7R or X5R ceramic capacitor 
+is selected to get good dynamic performance. 
+When VIN is required to provide large current 
+instantaneously, a large effective input capacitor is 
+required. Multiple input capacitors can limit the input 
+tracking inductance. Adding more input capacitors is 
+available to restrict the ringing and to keep it below the 
+device absolute maximum ratings. 
+ 
+Output Capacitor Selection (COUT) 
+The output capacitor should be placed as close as 
+possible to the OUT pin. 2.2μF or larger X7R or X5R 
+ceramic capacitor is selected to get good dynamic 
+performance. The minimum effective capacitance of 
+COUT that SGM2210 can remain stable is 1.5μF. For 
+ceramic capacitor, temperature, DC bias and package 
+size will change the effective capacitance, so enough 
+margin of COUT must be considered in design. 
+Additionally, COUT with larger capacitance and lower 
+ESR will help increase the high frequency PSRR and 
+improve the load transient response. 
+ 
+Adjustable Regulator 
+The output voltage of the SGM2210-ADJ can be 
+adjusted from 1.2V to 12V. The ADJ pin will be 
+connected to two external resistors as shown in Figure 
+4. The output voltage is determined by the following 
+equation: 
+1
+OUT
+ADJ
+2
+R
+V
+V
+1+R
+
+
+=
+×
+
+
+
+             (1) 
+where: 
+VOUT is output voltage and VADJ is the internal voltage 
+reference, VADJ = 1.2V. 
+One parallel capacitor (CFF) with R1 can be used to 
+improve the feedback loop stability and PSRR, 
+increase the transient response and reduce the output 
+noise. Use R2 = 150kΩ to maintain an 8μA minimum 
+load. 
+GND
+IN
+OUT
+CIN
+2.2μF
+COUT
+2.2μF 
+VIN
+VOUT
+SGM2210-ADJ
+ADJ
+R1
+R2
+EN
+ON
+OFF
+CFF
+ 
+Figure 4. Adjustable Output Voltage Application 
+ 
+Enable Operation 
+The EN pin of the SGM2210 is used to enable/disable 
+the device and to deactivate/activate the output 
+automatic discharge function. 
+When the EN pin voltage is lower than 0.4V, the device 
+is in shutdown state. There is no current flowing from IN 
+to OUT pins. In this state, the automatic discharge 
+transistor is active to discharge the output voltage 
+through a 95Ω (TYP) resistor. 
+When the EN pin voltage is higher than 1.3V, the device 
+is in active state. The output voltage is regulated to the 
+expected value and the automatic discharge transistor 
+is turned off. 
+ 
+Reverse Current Protection 
+The SGM2210 integrates reverse current protection 
+between the OUT pin and the IN pin. When the 
+monitoring circuit of the SGM2210 detects the output 
+voltage is higher than the input voltage, it prevents the 
+flowing of current from the OUT pin to the IN pin. In the 
+case of VIN is equal to 15V and VOUT is equal to 20V, 
+this feature reduces leakage current from the VOUT to 
+VIN to 22μA (TYP). In addition, the reverse current 
+protection circuit can work only when VOUT - VIN ≤ 5V. If 
+the voltage between the OUT pin and the IN pin 
+exceeds 5V, the SGM2210 will be damaged. 
+ 
+ 
+
+300mA, Low Quiescent Current 
+SGM2210 
+and Low Noise Linear Regulator 
+ 
+ 
+12 
+JANUARY 2024 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+Output Current Limit and Short-Circuit 
+Protection 
+When overload events happen, the output current is 
+internally limited to 900mA (TYP). When the OUT pin is 
+shorted to ground, the short-circuit protection will limit 
+the output current to 600mA (TYP). 
+ 
+Thermal Shutdown 
+When the die temperature exceeds the threshold value 
+of thermal shutdown, the SGM2210 will be in shutdown 
+state and it will remain in this state until the die 
+temperature decreases to +135℃. 
+ 
+Layout Guidelines 
+To get good PSRR, low output noise and high transient 
+response performance, the input and output bypass 
+capacitors must be placed as close as possible to the 
+IN pin and OUT pin separately. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+JANUARY 2024 ‒ REV.B to REV.B.1 
+Page 
+Updated Typical Performance Characteristics section ....................................................................................................................................... 
+10 
+ 
+DECEMBER 2023 ‒ REV.A.4 to REV.B 
+Page 
+Updated Typical Performance Characteristics section ....................................................................................................................................... 
+10 
+ 
+DECEMBER 2023 ‒ REV.A.3 to REV.A.4 
+Page 
+Updated Absolute Maximum Ratings section 
+....................................................................................................................................................... 
+2 
+ 
+AUGUST 2023 ‒ REV.A.2 to REV.A.3 
+Page 
+Added SGM2210-3.0XN5G/TR to Package/Ordering Information section 
+............................................................................................................ 
+2 
+ 
+MARCH 2023 ‒ REV.A.1 to REV.A.2 
+Page 
+Added SGM2210-3.6XN5G/TR to Package/Ordering Information section 
+............................................................................................................ 
+2 
+Updated Electrical Characteristics section ........................................................................................................................................................... 
+4 
+Updated Application Information section 
+............................................................................................................................................................ 
+11 
+ 
+DECEMBER 2021 ‒ REV.A to REV.A.1 
+Page 
+Updated Electrical Characteristics section ....................................................................................................................................................... 
+4, 5 
+ 
+Changes from Original (DECEMBER 2019) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00033.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOT-23-5 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+1.050 
+1.250 
+0.041 
+0.049 
+A1 
+0.000 
+0.100 
+0.000 
+0.004 
+A2 
+1.050 
+1.150 
+0.041 
+0.045 
+b 
+0.300 
+0.500 
+0.012 
+0.020 
+c 
+0.100 
+0.200 
+0.004 
+0.008 
+D 
+2.820 
+3.020 
+0.111 
+0.119 
+E 
+1.500 
+1.700 
+0.059 
+0.067 
+E1 
+2.650 
+2.950 
+0.104 
+0.116 
+e 
+0.950 BSC 
+0.037 BSC 
+e1 
+1.900 BSC 
+0.075 BSC 
+L 
+0.300 
+0.600 
+0.012 
+0.024 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+E
+E1
+e
+e1
+b
+D
+A1
+A2
+A
+c
+L
+θ
+0.2
+RECOMMENDED LAND PATTERN (Unit: mm)
+1.90
+2.59
+0.99
+0.69
+0.95
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+SOT-23-5 
+7″ 
+9.5 
+3.20 
+3.20 
+1.40 
+4.0 
+4.0 
+2.0 
+8.0 
+Q3 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 

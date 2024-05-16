@@ -1,0 +1,3276 @@
+ 
+SGM2538 
+5V/12V Electronic Fuses (eFuses) with 
+OVP Function and Blocking FET Control  
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+APRIL 2024 – REV. A. 1 
+GENERAL DESCRIPTION 
+The SGM2538 series of eFuses feature comprehensive 
+protection functions, robust operation, accurate limit 
+threshold and compact package which are very suitable 
+for various system applications. 
+The SGM2538 provides fixed over-voltage clamp 
+(OVC), adjustable over-current protection (OCP) and 
+fast short-circuit protection (SCP). The device also 
+provides adjustable soft-start (SS) function to manage 
+inrush current through external resistor. When the 
+device junction temperature exceeds +155 ℃, the 
+thermal shutdown function works and turns off the 
+device. Once in thermal shutdown, the latch-off and 
+auto-retry options are available. 
+Besides the above features, the SGM2538 has 
+additional configurable functions using the BFET pin. 
+The BFET pin can be used to drive an external N-FET 
+connected back to back with the internal pass FET to 
+provide reverse current block (RCB) function. It can 
+also be used as fault event indicator through an 
+external transistor. 
+The SGM2538 is available in a Green TDFN-3×3-10AL 
+package. 
+ 
+ 
+FEATURES 
+● Wide Input Voltage Range from 4.5V to 13.8V 
+with Surge up to 20V 
+● On-Resistance: 27mΩ (TYP) 
+● Programmable Current Limit: 1A to 5A 
+● ±8% ILIMIT Accuracy at 3.7A 
+● Reverse Current Blocking Support 
+● Programmable OUT Slew Rate, UVLO 
+● Built-in Thermal Shutdown 
+● Fixed Over-Voltage Clamp 
+ 6.1V: SGM2538Ax 
+ 15V: SGM2538Bx 
+● Fault Response 
+ Auto-Retry: SGM2538xA 
+ Latch-Off: SGM2538xL 
+● Available in a Green TDFN-3×3-10AL Package 
+ 
+APPLICATIONS 
+PCI-E SSD 
+Severs and Block Supplies 
+Motherboard Power Management 
+ 
+ 
+TYPICAL APPLICATION 
+IN
+EN/UVLO
+ILIM
+OUT
+SS
+Input
+R1
+SGM2538
+GND (PP)
+Output
+R2
+BFET
+CSS
+RILIM
+COUT
+ 
+ 
+Figure 1. Typical Application Circuit 
+ 
+ 
+ 
+ 
+
+5V/12V Electronic Fuses (eFuses) with 
+SGM2538 
+OVP Function and Blocking FET Control 
+ 
+ 
+2 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM2538AA 
+TDFN-3×3-10AL 
+-40℃ to +125℃ 
+SGM2538AAXTGZ10G/TR 
+SGM 
+0NKGZ 
+XXXXX 
+Tape and Reel, 4000  
+SGM2538AL 
+TDFN-3×3-10AL 
+-40℃ to +125℃ 
+SGM2538ALXTGZ10G/TR 
+SGM 
+0NLGZ 
+XXXXX 
+Tape and Reel, 4000 
+SGM2538BA 
+TDFN-3×3-10AL 
+-40℃ to +125℃ 
+SGM2538BAXTGZ10G/TR 
+SGM 
+0NMGZ 
+XXXXX 
+Tape and Reel, 4000 
+SGM2538BL 
+TDFN-3×3-10AL 
+-40℃ to +125℃ 
+SGM2538BLXTGZ10G/TR 
+SGM 
+0D8GZ 
+XXXXX 
+Tape and Reel, 4000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code. 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Supply Voltage 
+IN 
+.................................................................... -0.3V to 20V 
+IN (10ms Transient) ..................................................... 
+22V 
+Output Voltage 
+OUT....................................................... 
+-0.3V to VIN + 0.3V 
+OUT (transient < 1μs)................................................. 
+-1.2V 
+Voltage 
+ILIM .................................................................. -0.3V to 7V 
+EN/UVLO ......................................................... -0.3V to 7V 
+SS .................................................................... -0.3V to 7V 
+BFET 
+.............................................................. -0.3V to 30V 
+Package Thermal Resistance 
+TDFN-3×3-10AL, θJA 
+............................................... 45℃/W 
+TDFN-3×3-10AL, θJB 
+............................................ 16.7℃/W 
+TDFN-3×3-10AL, θJC (TOP)..................................... 43.1℃/W 
+TDFN-3×3-10AL, θJC (BOT) ...................................... 6.9℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+2000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Input Voltage Range 
+IN (SGM2538Ax) 
+............................................. 
+4.5V to 5.5V 
+IN (SGM2538Bx) 
+........................................... 
+4.5V to 13.8V 
+BFET 
+............................................................ 
+0V to VIN + 6V 
+EN/UVLO, SS 
+........................................................ 
+0V to 6V 
+ILIM ....................................................................... 
+0V to 3V 
+Continuous Output Current, IOUT .............................. 0A to 5A 
+Resistance, ILIM 
+............................................. 
+10kΩ to 162kΩ 
+External Capacitance 
+OUT ......................................................... 0.1μF to 1000μF 
+SS 
+........................................................................< 1000nF 
+Operating Junction Temperature Range, TJ 
+........................... 
+ 
+ .................................................................... -40℃ to +125℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+
+5V/12V Electronic Fuses (eFuses) with 
+SGM2538 
+OVP Function and Blocking FET Control 
+ 
+ 
+3 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+   SGM2538 (TOP VIEW) 
+1
+4
+3
+2
+10
+7
+8
+9
+EN/UVLO
+IN
+SS
+OUT
+ILIM
+BFET
+OUT
+5
+6
+IN
+OUT
+IN
+GND
+ 
+  TDFN-3×3-10AL 
+ 
+PIN DESCRIPTION 
+NAME 
+PIN 
+FUNCTION 
+1 
+SS 
+Soft-Start Pin. The capacitor between SS and GND pins sets the slew rate of output voltage. 
+2 
+EN/UVLO 
+Enable Input or Under-Voltage Lockout. As an enable pin, setting EN/UVLO pin high activates the device. As 
+an UVLO pin, the UVLO threshold can be programmed through an external resistor divider. 
+3, 4, 5 
+IN 
+Power Input Pin. Power input and supply voltage of the device. 
+6, 7, 8 
+OUT 
+Power Output Pin. 
+9 
+BFET 
+N-FET Driver. Connect this pin to the gate of a blocking N-FET. This pin can be left floating if it is not used. 
+10 
+ILIM 
+Current Limit Programming Pin. A resistor between ILIM and GND pins sets the overload and short-circuit limit 
+levels. 
+Exposed 
+Pad 
+GND 
+Ground. 
+ 
+ 
+ 
+ 
+ 
+
+5V/12V Electronic Fuses (eFuses) with 
+SGM2538 
+OVP Function and Blocking FET Control 
+ 
+ 
+4 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(TJ = -40℃ to +125℃, VIN = 5V for SGM2538Ax, VIN = 12V for SGM2538Bx, VEN/UVLO = 2V, RILIM = 100kΩ, CSS = open, typical 
+values are at TJ = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Supply Voltage and Under-Voltage Lockout 
+UVLO Threshold 
+VUVR 
+Rising 
+4.15 
+4.3 
+4.45 
+V 
+UVLO Hysteresis 
+VUVR_HYS 
+ 
+ 
+170 
+ 
+mV 
+Supply Current, Enabled 
+IQ_ON 
+VEN/UVLO = 2V 
+150 
+210 
+270 
+μA 
+Supply Current, Disabled 
+IQ_OFF 
+VEN/UVLO = 0V 
+ 
+1.1 
+3.5 
+μA 
+Over-Voltage Clamp 
+VOVC 
+SGM2538Ax 
+VIN > 6.75V, IOUT = 10mA 
+5.7 
+6.1 
+6.6 
+V 
+SGM2538Bx 
+VIN > 16.5V, IOUT = 10mA 
+13.9 
+15 
+16.1 
+Enable and Under-Voltage Lockout (EN/UVLO) 
+EN/UVLO Threshold Voltage 
+VENR 
+Rising 
+1.35 
+1.41 
+1.48 
+V 
+VENF 
+Falling 
+1.29 
+1.35 
+1.41 
+V 
+EN Input Leakage Current 
+IEN 
+0V ≤ VEN/UVLO ≤ 5V 
+-500 
+0 
+500 
+nA 
+Output Ramp Control (SS) 
+SS Charging Current (1) 
+ISS 
+VSS = 0V 
+ 
+200 
+ 
+nA 
+SS Discharging Resistance 
+RSS 
+VEN/UVLO = 0V, ISS = 10mA sinking 
+45 
+75 
+110 
+Ω 
+SS Max Capacitor Voltage (1) 
+VSSMAX 
+ 
+ 
+5 
+ 
+V 
+SS to OUT gain (1) 
+GAINSS 
+ΔVSS 
+ 
+4.88 
+ 
+V/V 
+Current Limit Programming (ILIM) 
+ILIM Bias Current (1) 
+IILIM 
+ 
+ 
+10 
+ 
+μA 
+Overload Current Limit (2) 
+IOL 
+RILIM = 10kΩ, VIN-OUT = 1V 
+ 
+1.2 
+ 
+A 
+RILIM = 45.3kΩ, VIN-OUT = 1V 
+1.99 
+2.2 
+2.42 
+RILIM = 100kΩ, VIN-OUT = 1V 
+3.43 
+3.72 
+4.01 
+RILIM = 150kΩ, VIN-OUT = 1V 
+4.70 
+5.13 
+5.57 
+Shorted or open resistor current limit  
+ 
+0.92 
+ 
+Short-Circuit Current Limit (2) 
+ISC 
+SGM2538Ax 
+RILIM = 10kΩ, VIN-OUT = 5V 
+ 
+0.96 
+ 
+A 
+RILIM = 45.3kΩ, VIN-OUT = 5V 
+1.45 
+1.80 
+2.16 
+RILIM = 100kΩ, VIN-OUT = 5V 
+2.68 
+3.20 
+3.61 
+RILIM = 150kΩ, VIN-OUT = 5V 
+3.72 
+4.40 
+5.06 
+SGM2538Bx 
+RILIM = 10kΩ, VIN-OUT = 12V 
+ 
+0.97 
+ 
+RILIM = 45.3kΩ, VIN-OUT = 12V 
+1.35 
+1.79 
+2.22 
+RILIM = 100kΩ, VIN-OUT = 12V 
+1.18 
+1.84 
+2.51 
+RILIM = 150kΩ, VIN-OUT = 12V 
+1.18 
+1.85 
+2.51 
+Fast-Trip Comparator Level W.R.T. 
+Overload Current Limit (1) 
+RATIOFASTRIP IFASTRIP: IOL 
+ 
+160% 
+ 
+ 
+ILIM Open Resistor Detect Threshold (1) 
+VILIM_OPEN 
+VILIM rising, RILIM = open 
+ 
+3 
+ 
+V 
+ 
+ 
+ 
+
+5V/12V Electronic Fuses (eFuses) with 
+SGM2538 
+OVP Function and Blocking FET Control 
+ 
+ 
+5 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(TJ = -40℃ to +125℃, VIN = 5V for SGM2538Ax, VIN = 12V for SGM2538Bx, VEN/UVLO = 2V, RILIM = 100kΩ, CSS = open, typical 
+values are at TJ = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Pass FET Output (OUT) 
+FET On-Resistance 
+RDSON 
+TJ = +25℃ 
+20 
+27 
+36 
+mΩ 
+TJ = +125℃ 
+ 
+37 
+46 
+Out Bias Current in Off-State 
+IOUT-LKG 
+VEN/UVLO = 0V, VOUT = 0V (sourcing) 
+-3 
+0 
+3 
+μA 
+IOUT-SINK 
+VEN/UVLO = 0V, VOUT = 300mV (sinking) 
+-3 
+0.2 
+20 
+Blocking FET Gate Driver (BFET) 
+BFET Charging Current (1) 
+IBFET 
+VBFET = VOUT 
+ 
+2 
+ 
+μA 
+BFET Clamp Voltage (1) 
+VBFETmax 
+ 
+ 
+VIN + 6.2 
+ 
+V 
+BFET Discharging Resistance to GND 
+RBFETdisch 
+VEN/UVLO = 0V, IBFET = 100mA 
+ 
+30 
+ 
+Ω 
+Thermal Shutdown (TSD) 
+Thermal Shutdown Temperature (1) 
+TSD 
+TJ rising 
+ 
+155 
+ 
+℃ 
+Thermal Shutdown Hysteresis (1) 
+THYS 
+ 
+ 
+20 
+ 
+℃ 
+ 
+ 
+ 
+
+5V/12V Electronic Fuses (eFuses) with 
+SGM2538 
+OVP Function and Blocking FET Control 
+ 
+ 
+6 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TIMING REQUIREMENTS 
+(TJ = -40℃ to +125℃, VIN = 5V for SGM2538Ax, VIN = 12V for SGM2538Bx, VEN/UVLO = 2V, RILIM = 100kΩ, CSS = open, typical 
+values are at TJ = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Turn-On Delay Time (1) 
+tD_ON 
+EN/UVLO↑ to IIN = 100mA,  
+1A resistive load at OUT 
+ 
+120 
+ 
+µs 
+Turn-Off Delay Time (1) 
+tD_OFF 
+EN/UVLO↓ to BFET↓, CBFET = 0 
+ 
+370 
+ 
+ns 
+Output Ramp Control (SS) 
+Output Ramp Time 
+tSS 
+SGM2538Ax 
+EN/UVLO↑ to VOUT = 4.7V,  
+CSS = 0nF 
+0.2 
+0.4 
+0.6 
+ms 
+EN/UVLO↑ to VOUT = 4.7V,  
+CSS = 1nF (1) 
+ 
+5.5 
+ 
+SGM2538Bx 
+EN/UVLO↑ to VOUT = 11.7V,  
+CSS = 0nF 
+0.4 
+0.8 
+1.3 
+EN/UVLO↑ to VOUT = 11.7V,  
+CSS = 1nF (1) 
+ 
+13 
+ 
+Current Limit Programming (ILIM) 
+Fast-Trip Comparator Delay (1) 
+tFAST-TRIP_DLY  IOUT > IFAST-TRIP to switch off 
+ 
+300 
+ 
+ns 
+Blocking FET Gate Driver (BFET) 
+BFET Turn-On Duration (1) 
+tBFET-ON 
+SGM2538Ax 
+EN/UVLO↑ to VBFET = 5V, 
+CBFET = 1nF 
+ 
+1.5 
+ 
+ms 
+EN/UVLO↑ to VBFET = 5V, 
+CBFET = 10nF 
+ 
+14 
+ 
+SGM2538Bx 
+EN/UVLO↑ to VBFET = 12V, 
+CBFET = 1nF 
+ 
+5.5 
+ 
+EN/UVLO↑ to VBFET = 12V, 
+CBFET = 10nF 
+ 
+52 
+ 
+BFET Turn-Off Duration (1) 
+tBFET-OFF 
+SGM2538Ax  
+EN/UVLO↓ to VBFET = 1V, 
+CBFET = 1nF 
+ 
+0.4 
+ 
+µs 
+EN/UVLO↓ to VBFET = 1V, 
+CBFET = 10nF 
+ 
+1.8 
+ 
+SGM2538Bx  
+EN/UVLO↓ to VBFET = 1V, 
+CBFET = 1nF 
+ 
+0.4 
+ 
+EN/UVLO↓ to VBFET = 1V, 
+CBFET = 10nF 
+ 
+1.6 
+ 
+Thermal Shutdown (TSD) 
+Retry Delay after TSD Recovery (1) 
+tTSD_RST 
+SGM2538xA, TJ < TSD - 20℃ 
+ 
+170 
+ 
+ms 
+ 
+NOTES: 
+1. These parameters are for informational purposes only and do not form part of published device specifications for purposes of 
+product warranty. 
+2. The pulse test technique used in this test keeps the junction temperature approximately equal to the ambient temperature. 
+ 
+ 
+ 
+
+5V/12V Electronic Fuses (eFuses) with 
+SGM2538 
+OVP Function and Blocking FET Control 
+ 
+ 
+7 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+TJ = +25℃, VIN = 5V for SGM2538Ax, VIN = 12V for SGM2538Bx, VEN/UVLO = 2V, RILIM = 100kΩ, CIN = 0.1μF, COUT = 1μF, and CSS 
+= open, unless otherwise noted. 
+ 
+ 
+Transient: Over-Voltage Clamp 
+ 
+ 
+ 
+Transient: Over-Voltage Clamp 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+VOUT  
+ 
+ 
+ 
+ 
+2V/div   2V/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+VOUT 
+ 
+5V/div  5V/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (1ms/div) 
+ 
+ 
+ 
+Time (1ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Transient: Output Ramp 
+ 
+ 
+ 
+Transient: Output Ramp 
+ 
+ 
+ 
+VEN/UVLO 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+VOUT  
+ 
+ 
+ 
+ 
+IIN 
+ 
+5V/div 2V/div 2V/div    500mA/div 
+ 
+ 
+ 
+VEN/UVLO 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+VOUT  
+ 
+ 
+ 
+IIN 
+ 
+ 5V/div 5V/div 5V/div    500mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+Time (200μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Transient: Output Ramp 
+ 
+ 
+ 
+Transient: Turn-Off Delay 
+ 
+ 
+VEN/UVLO 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+VOUT  
+ 
+ 
+ 
+IIN 
+ 
+5V/div 5V/div 5V/div    1A/div 
+ 
+ 
+VEN/UVLO 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VOUT  
+ 
+ 
+ 
+IOUT 
+ 
+ 5V/div       5V/div      1A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (5ms/div) 
+ 
+ 
+ 
+Time (50μs/div) 
+ 
+ 
+ 
+SGM2538Bx 
+VIN ramp from 12V to 18V 
+SGM2538Ax 
+VIN ramp from 5V to 8V 
+ 
+VIN = 12V, CSS = 1nF, COUT = 10μF, ROUT = 5.7Ω 
+VIN = 12V, IOUT = 1.5A, EN/UVLO power off 
+VIN = 12V, CSS = open, COUT = 4.7μF,  
+EN/UVLO ramped up to 3.3V 
+SGM2538Bx 
+VIN = 5V, CSS = open, COUT = 4.7μF,  
+EN/UVLO ramped up to 3.3V 
+SGM2538Ax 
+SGM2538Bx 
+SGM2538Bx 
+
+5V/12V Electronic Fuses (eFuses) with 
+SGM2538 
+OVP Function and Blocking FET Control 
+ 
+ 
+8 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, VIN = 5V for SGM2538Ax, VIN = 12V for SGM2538Bx, VEN/UVLO = 2V, RILIM = 100kΩ, CIN = 0.1μF, COUT = 1μF, and CSS 
+= open, unless otherwise noted. 
+ 
+ 
+Transient: Turn-Off Delay to BFET 
+ 
+ 
+ 
+Transient: Turn-Off Delay to BFET 
+ 
+ 
+VEN/UVLO 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VOUT  
+ 
+ 
+ 
+VBFET 
+ 
+ 5V/div       5V/div   5V/div 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+VOUT  
+ 
+ 
+ 
+VBFET 
+ 
+    5V/div  5V/div    5V/div 
+  
+ 
+ 
+  
+ 
+ 
+Time (500ns/div) 
+ 
+ 
+ 
+Time (5ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Transient: Recovery from Short-Circuit/Over-Current 
+ 
+ 
+ 
+Transient: Wake Up to Short-Circuit 
+ 
+ 
+ 
+VEN/UVLO 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+VOUT  
+ 
+ 
+ 
+IIN 
+ 
+ 5V/div 5V/div 5V/div    2A/div 
+ 
+ 
+ 
+VEN/UVLO 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+VOUT  
+ 
+ 
+ 
+IIN 
+ 
+ 5V/div 5V/div 5V/div    2A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (50ms/div) 
+ 
+ 
+ 
+Time (50ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ILOAD Stepped from 50% to 120%, Back to 50% 
+ 
+ 
+ 
+Transient: Output Short-Circuit 
+ 
+  
+ 
+VEN/UVLO 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+VOUT  
+ 
+ 
+ 
+IIN 
+ 
+ 5V/div 5V/div 5V/div    2A/div 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+VOUT  
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+10V/div  10V/div     20A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (20ms/div) 
+ 
+ 
+ 
+Time (50μs/div) 
+ 
+ 
+ 
+VIN = 12V, IOUT = 0A, BFET drives an external 
+N-FET, EN/UVLO power off 
+VIN = 12V, IOUT = 0A, 
+EN/UVLO connected to IN 
+through resistor ladder, 
+BFET drives an external 
+N-FET, VIN power off 
+VIN = 12V, RILIM = 150kΩ 
+VIN = 12V, RILIM = 150kΩ 
+VIN = 12V, RILIM = 100kΩ 
+VIN = 12V,  
+RILIM = 150kΩ,  
+CIN = 470μF,  
+COUT = 1μF 
+SGM2538Bx 
+SGM2538BA 
+SGM2538BA 
+SGM2538Bx 
+SGM2538Bx 
+SGM2538Bx 
+
+5V/12V Electronic Fuses (eFuses) with 
+SGM2538 
+OVP Function and Blocking FET Control 
+ 
+ 
+9 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, VIN = 5V for SGM2538Ax, VIN = 12V for SGM2538Bx, VEN/UVLO = 2V, RILIM = 100kΩ, CIN = 0.1μF, COUT = 1μF, and CSS 
+= open, unless otherwise noted. 
+ 
+ 
+Short-Circuit (Zoom): Fast-Trip Comparator 
+ 
+ 
+ 
+Transient: Thermal Fault Auto-Retry 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+VOUT  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+  
+10V/div  10V/div     20A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+VOUT  
+ 
+ 
+ 
+ 
+ 
+ 
+IIN 
+ 
+   5V/div     10V/div     5A/div 
+  
+ 
+ 
+  
+ 
+ 
+Time (5μs/div) 
+ 
+ 
+ 
+Time (100ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Transient: Thermal Fault Latched 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+VOUT  
+ 
+ 
+ 
+ 
+ 
+ 
+IIN 
+ 
+  5V/div    10V/div        5A/div 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN = 12V,  
+RILIM = 150kΩ,  
+CIN = 470μF, 
+COUT = 1μF 
+VIN = 12V, RILIM = 150kΩ,  
+CIN = 470μF, COUT = 1μF 
+VIN = 12V, RILIM = 150kΩ 
+SGM2538BL 
+SGM2538BA 
+SGM2538Bx 
+
+5V/12V Electronic Fuses (eFuses) with 
+SGM2538 
+OVP Function and Blocking FET Control 
+ 
+ 
+10 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, VIN = 5V for SGM2538Ax, VIN = 12V for SGM2538Bx, VEN/UVLO = 2V, RILIM = 100kΩ, CIN = 0.1μF, COUT = 1μF, and CSS = 
+open, unless otherwise noted. 
+ 
+      UVLO Threshold Voltage vs. Temperature 
+     On-Resistance vs. Temperature 
+ 
+ 
+     Supply Current, Enabled vs. Input Voltage 
+     Supply Current, Enabled vs. Input Voltage 
+ 
+ 
+     Supply Current, Disabled vs. Input Voltage 
+      Supply Current, Disabled vs. Input Voltage 
+ 
+ 
+ 
+ 
+4.0
+4.1
+4.2
+4.3
+4.4
+4.5
+-50
+-25
+0
+25
+50
+75
+100
+125
+UVLO Threshold Voltage (V) 
+Temperature (℃) 
+Falling 
+Rising 
+20
+24
+28
+32
+36
+40
+-50
+-25
+0
+25
+50
+75
+100
+125
+On-Resistance (mΩ) 
+Temperature (℃) 
+0
+60
+120
+180
+240
+300
+0
+3
+6
+9
+12
+15
+18
+21
+Supply Current, Enabled (μA) 
+Input Voltage (V) 
+TJ = -40℃ 
+TJ = +25℃ 
+TJ = +85℃ 
+TJ = +125℃ 
+ 
+SGM2538Ax 
+0
+60
+120
+180
+240
+300
+0
+3
+6
+9
+12
+15
+18
+21
+Supply Current, Enabled (μA) 
+Input Voltage (V) 
+TJ = -40℃ 
+TJ = +25℃ 
+TJ = +85℃ 
+TJ = +125℃ 
+ 
+SGM2538Bx 
+0.0
+0.8
+1.6
+2.4
+3.2
+4.0
+0
+3
+6
+9
+12
+15
+18
+21
+Supply Current, Disabled (μA) 
+Input Voltage (V) 
+TJ = -40℃ 
+TJ = +25℃ 
+TJ = +85℃ 
+TJ = +125℃ 
+ 
+SGM2538Ax 
+0.0
+0.8
+1.6
+2.4
+3.2
+4.0
+0
+3
+6
+9
+12
+15
+18
+21
+Supply Current, Disabled (μA) 
+Input Voltage (V) 
+TJ = -40℃ 
+TJ = +25℃ 
+TJ = +85℃ 
+TJ = +125℃ 
+ 
+SGM2538Bx 
+
+5V/12V Electronic Fuses (eFuses) with 
+SGM2538 
+OVP Function and Blocking FET Control 
+ 
+ 
+11 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, VIN = 5V for SGM2538Ax, VIN = 12V for SGM2538Bx, VEN/UVLO = 2V, RILIM = 100kΩ, CIN = 0.1μF, COUT = 1μF, and CSS = 
+open, unless otherwise noted. 
+ 
+     Over-Voltage Clamp vs. Temperature 
+      Over-Voltage Clamp vs. Temperature 
+ 
+ 
+       Output Ramp Time vs. CSS 
+     EN Input Leakage Current vs. EN/UVLO Voltage 
+ 
+ 
+       EN/UVLO Threshold Voltage vs. Temperature 
+      Turn-On Delay Time vs. Temperature 
+ 
+ 
+ 
+ 
+6.08
+6.10
+6.12
+6.14
+6.16
+6.18
+-50
+-25
+0
+25
+50
+75
+100
+125
+Over-Voltage Clamp (V) 
+Temperature (℃) 
+IOUT = 10mA 
+SGM2538Ax 
+14.4
+14.6
+14.8
+15.0
+15.2
+15.4
+-50
+-25
+0
+25
+50
+75
+100
+125
+Over-Voltage Clamp (V) 
+Temperature (℃) 
+IOUT = 10mA 
+IOUT = 100mA 
+IOUT = 500mA 
+ 
+SGM2538Bx 
+ 
+0
+40
+80
+120
+160
+200
+0
+2
+4
+6
+8
+10
+Output Ramp Time (ms) 
+CSS (nF) 
+TJ = -40℃ 
+TJ = +25℃ 
+TJ = +85℃ 
+TJ = +125℃ 
+ 
+-0.09
+-0.06
+-0.03
+0
+0.03
+0.06
+0.09
+0
+1
+2
+3
+4
+5
+EN Input Leakage Current (nA) 
+EN/UVLO Voltage (V) 
+TJ = -40℃ 
+TJ = +25℃ 
+TJ = +85℃ 
+TJ = +125℃ 
+ 
+1.30
+1.33
+1.36
+1.39
+1.42
+1.45
+-50
+-25
+0
+25
+50
+75
+100
+125
+EN/UVLO Threshold Voltage (V) 
+Temperature (℃) 
+Falling 
+Rising 
+105
+115
+125
+135
+145
+155
+-50
+-25
+0
+25
+50
+75
+100
+125
+Turn-On Delay Time (μs) 
+Temperature (℃) 
+
+5V/12V Electronic Fuses (eFuses) with 
+SGM2538 
+OVP Function and Blocking FET Control 
+ 
+ 
+12 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, VIN = 5V for SGM2538Ax, VIN = 12V for SGM2538Bx, VEN/UVLO = 2V, RILIM = 100kΩ, CIN = 0.1μF, COUT = 1μF, and CSS = 
+open, unless otherwise noted. 
+ 
+      Overload Current Limit vs. Temperature 
+      Overload Current Limit vs. RILIM Resistor 
+ 
+ 
+     Overload Current Limit vs. VIN-OUT 
+      Overload Current Limit vs. VIN-OUT 
+ 
+ 
+       Overload Current Limit vs. VIN-OUT 
+     ILIM Open Resistor Detect Threshold vs. Temperature 
+ 
+ 
+0.80
+0.85
+0.90
+0.95
+1.00
+1.05
+-50
+-25
+0
+25
+50
+75
+100
+125
+Overload Current Limit (A) 
+Temperature (℃) 
+RILIM = 0Ω 
+RILIM = open 
+0
+1
+2
+3
+4
+5
+0
+20
+40
+60
+80
+100
+120
+Overload Current Limit (A) 
+RILIM Resistor (kΩ) 
+1
+2
+3
+4
+5
+6
+0
+0.4
+0.8
+1.2
+1.6
+2
+Overload Current Limit (A) 
+VIN-OUT (V) 
+TJ = -40℃ 
+TJ = +25℃ 
+TJ = +85℃ 
+TJ = +125℃ 
+ 
+RILIM = 150kΩ 
+ 
+0
+1
+2
+3
+4
+5
+0
+0.4
+0.8
+1.2
+1.6
+2
+Overload Current Limit (A) 
+VIN-OUT (V) 
+TJ = -40℃ 
+TJ = +25℃ 
+TJ = +85℃ 
+TJ = +125℃ 
+ 
+RILIM = 100kΩ 
+ 
+TJ = -40℃ 
+TJ = +25℃ 
+TJ = +85℃ 
+TJ = +125℃ 
+ 
+RILIM = 100kΩ 
+ 
+1.0
+1.3
+1.6
+1.9
+2.2
+2.5
+0
+0.4
+0.8
+1.2
+1.6
+2
+Overload Current Limit (A) 
+VIN-OUT (V) 
+TJ = -40℃ 
+TJ = +25℃ 
+TJ = +85℃ 
+TJ = +125℃ 
+ 
+RILIM = 45.3kΩ 
+ 
+3.07
+3.09
+3.11
+3.13
+3.15
+3.17
+-50
+-25
+0
+25
+50
+75
+100
+125
+ILIM Open Detect Threshold (V) 
+Temperature (℃) 
+RILIM = open 
+
+5V/12V Electronic Fuses (eFuses) with 
+SGM2538 
+OVP Function and Blocking FET Control 
+ 
+ 
+13 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, VIN = 5V for SGM2538Ax, VIN = 12V for SGM2538Bx, VEN/UVLO = 2V, RILIM = 100kΩ, CIN = 0.1μF, COUT = 1μF, and CSS = 
+open, unless otherwise noted. 
+ 
+      IOL, ISC vs. Temperature 
+      IOL, ISC vs. Temperature 
+ 
+ 
+      IOL, ISC vs. Temperature 
+     SS Charging Current vs. Temperature  
+ 
+ 
+       Accuracy vs. Overload Current Limit 
+ 
+ 
+ 
+ 
+ 
+-90
+-60
+-30
+0
+30
+60
+-50
+-25
+0
+25
+50
+75
+100
+125
+IOL, ISC (% Normalized) 
+Temperature (℃) 
+RILIM = 150kΩ 
+IOL 
+ISC: SGM2538Bx 
+ISC: SGM2538Ax 
+-90
+-60
+-30
+0
+30
+60
+-50
+-25
+0
+25
+50
+75
+100
+125
+IOL, ISC (% Normalized) 
+Temperature (℃) 
+ISC: SGM2538Bx 
+IOL 
+RILIM = 100kΩ 
+ISC: SGM2538Ax 
+-90
+-60
+-30
+0
+30
+60
+-50
+-25
+0
+25
+50
+75
+100
+125
+IOL, ISC (% Normalized) 
+Temperature (℃) 
+RILIM = 45.3kΩ 
+IOL 
+ISC: SGM2538Bx 
+ISC: SGM2538Ax 
+190
+197
+204
+211
+218
+225
+-50
+-25
+0
+25
+50
+75
+100
+125
+SS Charging Current (nA) 
+Temperature (℃) 
+0
+5
+10
+15
+20
+25
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Accuracy (Process, Voltage, 
+Temperature) (%) 
+Overload Current Limit (A) 
+
+5V/12V Electronic Fuses (eFuses) with 
+SGM2538 
+OVP Function and Blocking FET Control 
+ 
+ 
+14 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAM 
+ 
+ 
+ 
+Charge
+Pump
+Gate
+Control
+Over- 
+Voltage
+Thermal
+Shutdown
+1.6 × IOL
++
+-
++
+-
+IN
+EN/UVLO
+SS
+GND
+ILIM
+BFET
+OUT
+nUVLO
+EN
+TSD
+5V
+200nA
+4.88x
+75Ω
+nSWEN
+Current
+Sense
+27mΩ
+VIN
+5V
+10μA
+IOL
+Fast-Trip
+Comparator
++
+-
++
+-
++
+-
+4.3V
+4.13V
+1.35V
+1.41V
+SWEN
+SGM2538
+nSWEN
+2μA
+30Ω
+ 
+ 
+Figure 2. SGM2538 Block Diagram 
+ 
+ 
+ 
+ 
+
+5V/12V Electronic Fuses (eFuses) with 
+SGM2538 
+OVP Function and Blocking FET Control 
+ 
+ 
+15 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION 
+Overview 
+The SGM2538 is intelligent eFuse with comprehensive 
+built-in protection and regulation functions. The device 
+is enabled and the internal pass FET is turned on when 
+voltages on the both IN (VIN) and EN/UVLO (VEN/UVLO) 
+pins exceed their UVLO thresholds. During the start-up 
+process, the output voltage rises with the slew rate 
+programmed through the external capacitor on the SS 
+pin. The device is disabled and the pass FET is turned 
+off when VIN or VEN/UVLO drops to their UVLO thresholds 
+or other fault events occur. 
+During the steady operation, the SGM2538 is 
+continuously protected from various fault events. The 
+over-voltage clamp (OVC) ensures the input voltage 
+clamped to VOVC once voltage spikes occur. The 
+over-current protection (OCP) function limits the output 
+current to preset level accurately. When the current 
+rises very rapidly under short-circuit condition, the 
+short-circuit protection (SCP) works and turns off the 
+device quickly. The above fault events may bring 
+accumulated heat and cause the device temperature 
+increase. To avoid over-temperature, the SGM2538 is 
+integrated with thermal shutdown function. Once the 
+junction temperature TJ exceeds the maximum level 
+TSD (+155℃), the thermal shutdown is activated and 
+the device is turned off. For SGM2538xL, the device 
+remains turned-off until the power supply or EN/UVLO 
+pin is reset (pulled low and then pulled up). For 
+SGM2538xA, the device is designed with 170ms 
+auto-retry after the TJ drops to TSD - 20 ℃. The 
+auto-retry will repeat until the fault is removed. 
+ 
+GND 
+The GND pin is the common ground of the device. All 
+the voltages are referenced to this pin. 
+ 
+IN 
+The IN pin is the input of the device which should be 
+connected to the power source. It is recommended to 
+place a ceramic bypass capacitor close to the IN pin to 
+reduce bus transient. The maximum input voltage of 
+SGM2538 is 20V. For SGM2538Ax, the recommended 
+input voltage is 4.5V to 5.5V. For SGM2538Bx, the 
+recommended range is 4.5V to 13.8V. If the input 
+voltage 
+exceeds 
+the 
+maximum 
+recommended 
+operating voltage, the over-voltage clamp (OVC) 
+function will work and clamp the output voltage at VOVC. 
+Under this condition, the device may heat up due to 
+more power dissipation, which eventually activates 
+thermal shutdown. 
+ 
+SS 
+The SS pin is designed to regulate the output slew rate 
+during start-up process. Place a capacitor between SS 
+and GND pins will set the ramp-up time according to 
+the application requirements. This pin can be float, and 
+the output obtains the default value (minimum tSS) 
+under this condition. Equation 1 shows the calculation 
+process. 
+ 
+OUT
+SS
+SS
+SS
+dV
+I
+GAIN
+dt
+C
+×
+=
+             (1) 
+ 
+where: 
+ 
+dVOUT/dt = Desired output slew rate 
+ 
+ISS = 200nA (TYP) 
+ 
+GAINSS = 4.88 
+Equation 2 shows how to calculate the total ramp time 
+(tSS) when the output rises from 0V to VIN: 
+ 
+tSS = 1.02 × 106 × VIN × CSS            (2) 
+ 
+When CSS is open, there is a 70pF capacitor (CINT) 
+inside. 
+ 
+BFET 
+The BFET pin features gate driver ability. When this pin 
+is used to drive an external N-FET connected back to 
+back with the internal pass FET, the system provides 
+reverse current block (RCB) function. Both voltages on 
+the IN (VIN) and EN/UVLO (VEN/UVLO) pins control the 
+BFET pin. Table 1 shows the control logic where VUVR 
+and VENR are the UVLO thresholds of VIN and VEN/UVLO 
+respectively. The BFET pin provides 2μA charging 
+current and fast discharging speed (typically < 1μs) 
+through the internal 30Ω resistor. High-impedance 
+probe (> 10MΩ) should be used when measuring this 
+pin. 
+ 
+Table 1. BFET 
+VEN/UVLO > VENR 
+VIN > VUVR 
+BFET MODE 
+H 
+H 
+Charge 
+X 
+L 
+Discharge 
+L 
+X 
+Discharge 
+ 
+ 
+ 
+
+5V/12V Electronic Fuses (eFuses) with 
+SGM2538 
+OVP Function and Blocking FET Control 
+ 
+ 
+16 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+EN/UVLO 
+The EN/UVLO pin has two functions, namely enable 
+and under-voltage lockout. When used as an enable 
+pin, it controls the active and shutdown states of the 
+internal pass FET and external blocking FET. Logic 
+high (exceed VENR) enables the internal pass FET and 
+controls BFET pin to charge the external N-FET. Logic 
+low (below VENF) disables the internal pass FET and 
+controls BFET pin to discharge the external N-MOSFET. 
+The EN/UVLO levels are designed with hysteresis as 
+specified in the electrical characteristic table.  
+When used as a UVLO pin by connecting resistor 
+divider from IN to EN/UVLO to GND, it can program 
+different input voltage UVLO thresholds. 
+The internal EN/UVLO falling edge de-glitch delay is 
+1μs (TYP). If a higher de-glitch delay is desired, it is 
+recommended to add an external bypass capacitor 
+between EN/UVLO and GND pins. 
+ 
+ILIM 
+At all times, the load current is monitored by directly 
+sensing the current flowing through the internal pass 
+FET. The maximum power dissipation of device is 
+restricted to constant 30W. During over-current event, 
+the current is limited to the over-current limit (IOL) 
+programmed by RILIM as shown in Equation 3. 
+ 
+IOL = (0.92 + 2.8 × 10-5 × RILIM)           (3) 
+ 
+Power dissipation of the internal MOSFET is calculated 
+by PD = (VIN - VOUT) × IOUT. If it is set to constant 30W, 
+the continue overload state will cause thermal 
+shutdown. 
+When a transient short-circuit is happened, due to the 
+limited bandwidth of the current limit amplifier, it cannot 
+respond quickly to this event, so the SGM2538 
+contains a fast-trip comparator with a threshold 
+(IFAST-TRIP). If IOUT > IFAST-TRIP, the comparator turns off 
+the power FET and terminates the short-circuit peak 
+current cross the power FET rapidly. The fast-trip 
+threshold is 1.6 times of the overload current limit. The 
+fast-trip comparator can terminate the transient 
+short-circuit peak current, and then the current limit 
+function limits the output current to IOL. 
+ 
+ 
+ 
+Figure 3. Fast-Trip Current 
+ 
+ 
+Transient: Output Short-Circuit 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+VOUT  
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+10V/div  10V/div     20A/div 
+ 
+ 
+ 
+ 
+Time (50μs/div) 
+ 
+ 
+Figure 4. Fast-Trip and Current Limit Amplifier Response for 
+Short-Circuit 
+ 
+Output Discharge 
+The SGM2538 provides an internal two-level output 
+discharge when the device is disabled through 
+EN/UVLO pin. When the initial output voltage is above 
+7.5V, the output capacitor would be quickly discharged 
+to 7.5V, and then slowly discharged to 0V. When the 
+initial output voltage is below 7.5V, it will be slowly 
+discharged to 0V. 
+ 
+ 
+ 
+ 
+IFAST-TRIP
+Current (A)
+IOL
+IFAST-TRIP = 1.6 × IOL
+VIN = 12V, RILIM = 150kΩ 
+
+5V/12V Electronic Fuses (eFuses) with 
+SGM2538 
+OVP Function and Blocking FET Control 
+ 
+ 
+17 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+Simple 3.72A eFuse Protection for Set-Top Boxes 
+ 
+NOTES: 
+1. CIN is optional and 0.1μF is recommended to suppress transients due to the 
+inductance of PCB routing or from input wiring.
+2. Optional and only needed for external UVLO.
+IN
+EN/UVLO
+GND
+ILIM
+OUT
+SS
+COUT
+1μF
+RILIM
+100kΩ
+Input
+Output, IOUT < 3.4A
+4.5V to 18V
+CIN 
+(1)
+0.1μF
+R1
+1MΩ
+R2 
+(2)
+SGM2538
+CSS
+BFET
+ 
+ 
+Figure 5. Simple 3.72A eFuse for Set-Top Boxes 
+ 
+Design Requirements 
+Table 2 lists the typical application circuit requirements 
+of SGM2538. 
+Table 2. Design Parameters 
+Design Parameter 
+Example Value 
+Input Voltage, VIN 
+12V 
+Under-Voltage Lockout Set Point, VUV 
+Default: VUVR = 4.3V 
+Over-Voltage Protection Set Point, VOV 
+Default: VOVC = 15V 
+Load at Start-Up, RL(SU) 
+4Ω 
+Current Limit, IOL = IILIM 
+3.72A 
+Load Capacitance, COUT 
+1µF 
+Maximum Ambient Temperature, TA 
++85℃ 
+ 
+Input Capacitor 
+It is recommended to use a capacitor (0.001μF to 0.1μF) 
+between IN and GND close to the device pins. It can 
+limit the voltage drop on the input supply. 
+Power Supply 
+The power supply range is 4.5V to 13.8V for SGM2538. 
+If the distance between the power supply and the 
+device is more than a few inches, it is recommended to 
+use a higher than 0.1μF input bypass capacitor. 
+ 
+Programmable Current Limit 
+The overload current limit is programmed by the RILIM 
+resistor with Equation 4. 
+OL
+ILIM
+5
+I
+0.92
+R
+2.8 10−
+−
+=
+×
+             (4)
+ 
+Assuming IOL = 3.72A, RILIM is calculated as 100kΩ, 
+select the resistor with 1% closest to the standard 
+value. 
+ 
+ 
+
+5V/12V Electronic Fuses (eFuses) with 
+SGM2538 
+OVP Function and Blocking FET Control 
+ 
+ 
+18 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+Set Point for Under-Voltage Lockout 
+Setting the external voltage divider of R1 and R2 will 
+adjust the under-voltage lockout (UVLO) point of the 
+device. The R1 and R2 resistors are placed among IN, 
+EN/UVLO and GND pins. Equation 5 shows how to 
+calculate these resistor values: 
+1
+2
+UV
+ENR
+2
+R
+R
+V
+V
+R
++
+=
+×
+               (5)
+ 
+When VENR exceeds the threshold (1.41V), the device is 
+turned on. 
+The values of R1 and R2 should be selected properly. If 
+R1 and R2 are too small, it will cause considerable 
+power loss from VIN. If R1 and R2 are too large, it will 
+cause undesirable current leaked into the device pins. 
+In this design, the default UVLO VUVR = 4.3V. Select R1 
+= 1MΩ and R2 = 510kΩ. 
+The falling edge of power supply is set to detect for 
+power failure, and the threshold VPFAIL is usually 4% 
+lower than the VUVR. Equation 6 shows the calculation. 
+VPFAIL = 0.96 × VUVR           (6) 
+where VUVR is 4.3V, power fail threshold is 4.13V. 
+It should be noted that the EN/UVLO pin can only 
+sustain voltage up to 7V. Therefore, if VIN is less than 
+7V, the EN/UVLO can be connected to VIN directly. If VIN 
+is greater than 7V, this pin must be connected to VIN 
+and GND through the resistors divider (R1 and R2). 
+ 
+Setting Output Ramp Time (tSS) 
+The SGM2538 is designed to control the inrush current 
+when the device is enabled or powered-on. The slew 
+rate of the output voltage can be set by an external 
+capacitor between the SS pin and GND defined at 
+power-on. Calculating the CSS requires consideration of 
+the two possible cases. 
+Start-Up without Load: Only Charge the COUT 
+Once the device starts up, the current flows through the 
+device charges the output capacitor. This process 
+causes the inrush current, and it can be calculated by 
+Equation 7. Combining the voltage difference and the 
+load current, the power is dissipated across the internal 
+pass FET. Equation 8 shows how to calculate the 
+average power dissipation during start-up: 
+IN
+INRUSH
+OUT
+SS
+V
+I
+C
+t
+=
+×
+            (7) 
+PD(INRUSH) = 0.5 × VIN × IINRUSH        (8) 
+ 
+Start-Up with Load: COUT and Load Draws Current 
+During start-up, the load (RL(SU)) current ramps up 
+proportionally with the increase of output voltage. The 
+average power dissipation in the internal pass FET 
+during charging time is shown in Equation 9 to Equation 
+12.  
+2
+IN
+D(LOAD)
+L(SU)
+V
+1
+P
+6
+R
+
+
+=
+×
+
+
+
+
+
+
+           (9) 
+PD(START_UP) = PD(INRUSH) + PD(LOAD)      (10) 
+ 
+ISTART_UP = IINRUSH + IL(t)         (11) 
+where: 
+PD(START_UP) is the total power dissipation during 
+start-up. 
+ISTART_UP is the total current during start-up. 
+ 
+At the initial start-up stage, ISTART_UP is less than the 
+overload limit level IOL. With the resistor load drawing 
+more current, ISTART_UP increases continuously. Once 
+ISTART_UP > IOL, the device limits the current to IOL and 
+the total start-up time is determined by: 
+OL
+INRUSH
+SS
+OUT
+L(SU)
+IN
+INRUSH
+OL
+L(SU)
+I
+I
+t
+C
+R
+1 Ln(
+)
+V
+I
+I
+R
+
+
+
+
+
+
+=
+×
+×
+−+
+
+
+−
+
+
+
+
+     (12) 
+ 
+ 
+Figure 6. Thermal Shutdown Limit Plot 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+0.1
+1
+10
+100
+1000
+10000
+0.1
+1
+10
+100
+Thermal Shutdown Time (ms) 
+Power Dissipation (W) 
+TJ = -40℃ 
+TJ = +25℃ 
+TJ = +85℃ 
+TJ = +125℃ 
+ 
+
+5V/12V Electronic Fuses (eFuses) with 
+SGM2538 
+OVP Function and Blocking FET Control 
+ 
+ 
+19 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+For the design example with CSS = open. 
+ 
+tSS = 1.02 × 106 × 12V × 70pF = 857μs  (13) 
+INRUSH
+12
+I
+1 F
+14mA
+857 s
+=
+×
+=
+μ
+μ
+           (14) 
+PD(INRUSH) = 0.5 × 12 × 14mA = 84mW    (15) 
+ 
+For a certain power loss during start-up, the thermal 
+shutdown time must be greater than the ramp-up time 
+tSS. As shown in Figure 6, when TJ = +85℃, the thermal 
+shutdown time is infinite. Therefore, it is safe to use 857μs 
+as start-up time without any load on output. 
+Considering the start-up event with a 4Ω load, the 
+additional power dissipation on the load is calculated 
+using Equation 9. 
+D(LOAD)
+12 12
+P
+6W
+6
+4
+×
+=
+=
+×
+          (16) 
+PD(STARTUP) = 6W + 84mW = 6.08W      (17) 
+Form Figure 6, the thermal shutdown time for power 
+loss of 6.08W when TJ = +85℃ is 10ms which is much 
+more than tSS. Therefore, it is still safe to use 857μs as 
+start-up time with a 4Ω load.
+Application Curves 
+ 
+Output Ramp without Load on Output 
+ 
+ 
+ 
+Output Ramp with 4Ω Load at Start-Up 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+VOUT 
+ 
+VEN/UVLO  
+ 
+ 
+ 
+IIN 
+ 
+ 5V/div 5V/div 5V/div    100mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+VOUT 
+ 
+VEN/UVLO  
+ 
+ 
+ 
+IIN 
+ 
+5V/div 5V/div 5V/div     2A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (200μs/div) 
+ 
+ 
+ 
+Time (200μs/div) 
+ 
+ 
+Figure 7. Output Ramp without Load on Output              Figure 8. Output Ramp with 4Ω Load at Start-Up 
+ 
+Inrush and RCP for Hold-Up Capacitor Application (SSD) 
+ 
+NOTE: 
+1. CIN is optional and 0.1μF is recommended to suppress transients due to the 
+inductance of PCB routing or from input wiring.
+IN
+EN/UVLO
+GND
+ILIM
+OUT
+SS
+CHOLD-UP
+4700μF
+RILIM
+74.3kΩ
+Input
+Output, IOUT < 2.7A
+CIN 
+(1)
+0.1μF
+R1
+1MΩ
+R2
+150kΩ
+SGM2538
+CSS
+22nF
+BFET
+Blocking FET
+CSD16411
+FLTB
+ZXM61P03F
+ 
+ 
+Figure 9. Inrush and RCP for Hold-Up Capacitor Application (SSD) 
+ 
+ 
+ 
+VIN = 12V 
+VIN = 12V 
+
+5V/12V Electronic Fuses (eFuses) with 
+SGM2538 
+OVP Function and Blocking FET Control 
+ 
+ 
+20 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued)
+Design Requirements 
+Table 2 lists the typical application circuit requirements 
+of SGM2538. 
+Table 3. Design Parameters 
+Design Parameter 
+Example Value 
+Input Voltage, VIN 
+12V 
+Under-Voltage Lockout Set Point, VUV 
+10.8V 
+Over-Voltage Protection Set Point, VOV 
+Default: VOVC = 15V 
+Load at Start-Up, RL(SU) 
+1000Ω 
+Current Limit, IOL = IILIM 
+3A 
+Load Capacitance, COUT 
+4700µF 
+Maximum Ambient Temperature, TA 
++85℃ 
+ 
+Programmable Current Limit 
+Assuming IOL = 3A, RILIM is calculated as 74.3kΩ from 
+Equation 4. Select the resistor with 1% closest to the 
+standard value. 
+ 
+Set Point for Under-Voltage Lockout 
+The resistor divider R1 and R2 can be calculated by 
+Equation 6. In this example, the UVLO set point is 
+10.8V. Therefore, R1 = 1MΩ and R2 = 150kΩ can be 
+selected, and the rising threshold VUV is 10.81V. 
+The power failure threshold is detected on the falling 
+edge of supply. This threshold voltage is 4% lower than 
+VUV. For VUV = 10.81V, the power fail threshold VPFAIL is 
+10.38V. 
+ 
+Setting Output Ramp Time (tSS) 
+For the design example, CSS is designed to be 22nF, 
+and the parameters are calculated as follows: 
+ 
+tSS = 1.02 × 106 × 12V × (22nF + 70pF) = 270ms
+ (18) 
+INRUSH
+12
+I
+4700 F
+209mA
+270ms
+=
+×
+=
+μ
+       (19) 
+PD(INRUSH) = 0.5 × 12 × 209mA = 1254mW   (20) 
+ 
+Considering the start-up event with a 1000Ω load, the 
+additional power dissipation on the load is calculated 
+using Equation 9. 
+D(LOAD)
+12 12
+P
+24mW
+6 1000
+×
+=
+=
+×
+        (21) 
+PD(STARTUP) = 1254mW + 24mW = 1278mW   (22) 
+ 
+Form Figure 6, the thermal shutdown time for power 
+loss of 1.3W when TJ = +85℃ is infinite. Therefore, it is 
+safe to start the device. 
+ 
+ 
+Application Curves 
+ 
+Output Ramp-Up 
+ 
+ 
+ 
+Hold-up Power when VIN Fails 
+ 
+ 
+ 
+VEN/UVLO 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+VOUT  
+ 
+IIN 
+ 
+ 5V/div 5V/div 5V/div    500mA/div 
+ 
+ 
+ 
+VEN/UVLO 
+ 
+ 
+ 
+VFLTB 
+ 
+ 
+ 
+VOUT  
+ 
+ 
+ 
+IOUT 
+ 
+ 2V/div 10V/div 10V/div    1A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (50ms/div) 
+ 
+ 
+ 
+Time (10ms/div) 
+ 
+ 
+Figure 10. Output Ramp-Up                            Figure 11. Hold-up Power when VIN Fails 
+ 
+ 
+VIN = 12V, COUT = CHOLD_UP = 4700μF, CSS = 22nF 
+VIN = 12V, COUT = CHOLD_UP = 4700μF, VPFAIL = 10.35V 
+RLOAD = 12Ω 
+
+5V/12V Electronic Fuses (eFuses) with 
+SGM2538 
+OVP Function and Blocking FET Control 
+ 
+ 
+21 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued)  
+Controlled Power-Down Using SGM2538 
+ 
+NOTE: 
+1. CIN is optional and 0.1μF is recommended to suppress transients due to the 
+inductance of PCB routing or from input wiring.
+IN
+EN/UVLO
+GND
+ILIM
+OUT
+SS
+COUT
+RILIM
+Input
+Output
+CIN 
+(1)
+R1
+R2
+SGM2538
+CSS
+BFET
+Q1 ZXM61P03F
+RDCHG
+ 
+ 
+Figure 12. Circuit Implementation with Quick Output Discharge Function 
+For some applications, it is necessary to power down 
+the load to a defined state to avoid undesirable events. 
+The BFET pin of SGM2538 can be used to drive an 
+external P-MOSFET to achieve quick output discharge 
+function (see Figure 12). When the device is disabled, 
+the BFET pin is pulled low, which turns on the Q1 to 
+discharge the output voltage. The output discharge rate 
+is determined by the product of the output capacitor 
+and discharge resistance, namely COUT and RDCHG. 
+ 
+Power Supply Recommendations 
+The power supply range is 4.5V to 13.8V for 
+SGM2538Bx. If the distance between the power supply 
+and the device is more than a few inches, it is 
+recommended to use a higher than 0.1μF input bypass 
+capacitor. 
+ 
+Transient Protection 
+In case of turning off the internal MOSFET, such as 
+VOUT hard short, thermal shutdown, etc., the current 
+flow path is cut off. The energy stored in parasitic 
+inductance 
+generates 
+voltage 
+spike. 
+The 
+input 
+inductance produces a positive voltage spike on the 
+input, while the output inductance produces a negative 
+voltage spike on the output. The voltage spike can 
+exceed the absolute maximum ratings of the device if 
+the following steps are not taken: 
+ 
+Minimizing lead length and inductance into and 
+OUT of the device, including GND connection. 
+ 
+Schottky diode across the output to absorb 
+negative spikes. 
+ 
+A low value ceramic capacitor (CIN = 0.001μF to 
+0.1μF) to absorb the energy. The approximate 
+value of CIN can be calculated with Equation 23. 
+ 
+IN
+SPIKE(A bsolute)
+IN
+LOAD
+IN
+L
+V
+V
+I
+C
+=
++
+×
+       (23) 
+where: 
+ 
+VIN is the supply voltage. 
+ 
+ILOAD is the load current. 
+ 
+LIN equals the effective inductance seen looking 
+into the source. 
+ 
+CIN is the input capacitance.  
+ 
+ 
+ 
+ 
+ 
+
+5V/12V Electronic Fuses (eFuses) with 
+SGM2538 
+OVP Function and Blocking FET Control 
+ 
+ 
+22 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+NOTES: 
+1. CIN is optional and 0.1μF is recommended to suppress transients due to the 
+inductance of PCB routing or from input wiring.
+2. Optional components for transient suppression.
+IN
+EN/UVLO
+GND
+ILIM
+OUT
+SS
+COUT
+RILIM
+Input
+Output
+CIN 
+(1)
+R1
+R2
+SGM2538
+CSS
+BFET
+(2)
+(2)
+ 
+ 
+Figure 13. Circuit Implementation with Optional Protection Components 
+ 
+Some applications may require the addition of a 
+transient voltage suppressor (TVS) across the IN pin 
+and GND to prevent transients from exceeding the 
+absolute maximum ratings of the device. 
+Ceramic capacitors, TVS and Schottky diodes are 
+optional protection components. Optional components 
+can be used to suppress transients as shown in Figure 
+13. 
+ 
+Layout Guidelines 
+ 
+It is recommended to use a 0.01μF or larger 
+ceramic decoupling capacitor between IN and 
+GND pins. When the input power path inductance 
+is too low to ignore in hot plug applications, the 
+capacitor can be minimized. 
+ 
+The path of high current carrying power should be 
+as short as possible, which must size to withstand 
+twice the load current. 
+ 
+The GND pin must be connected to the PCB 
+ground as short as possible. 
+ 
+Connect the terminal of the RILIM, CSS and resistors 
+for EN/UVLO to the GND pin with the shortest 
+trace. These paths and switching signals should 
+not have any coupling. 
+ 
+The ceramic capacitors, TVS and Schottky diodes 
+must be placed as close to the device as possible. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+APRIL 2024 ‒ REV.A to REV.A.1 
+Page 
+Added SGM2538AA, SGM2538AL and SGM2538BL Models ............................................................................................................................ 
+All 
+ 
+Changes from Original (DECEMBER 2023) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00364.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TDFN-3×3-10AL 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.700 
+- 
+0.800 
+A1 
+0.000 
+- 
+0.050 
+A2 
+0.203 REF 
+b 
+0.180 
+- 
+0.300 
+b1 
+0.250 REF 
+D 
+2.900 
+- 
+3.100 
+E 
+2.900 
+- 
+3.100 
+D1 
+2.300 
+- 
+2.500 
+E1 
+1.550 
+- 
+1.750 
+e 
+0.500 BSC 
+L 
+0.300 
+- 
+0.500 
+eee 
+0.080 
+ 
+NOTE: This drawing is subject to change without notice.
+ 
+ 
+RECOMMENDED LAND PATTERN (Unit: mm)
+N10
+N1
+D1
+E1
+BOTTOM VIEW
+TOP VIEW
+b
+D
+E
+PIN 1#
+e
+SIDE VIEW
+A
+C
+SEATING PLANE
+A1
+A2
+eee C
+ALTERNATE A-1
+DETAIL A
+ALTERNATE TERMINAL
+CONSTRUCTION
+ALTERNATE A-2
+L
+DETAIL A
+2.80
+2.40
+1.65
+3.40
+0.50
+0.25
+0.24
+0.60
+0.50
+b1
+e
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TDFN-3×3-10AL 
+13" 
+12.4 
+3.30 
+3.30 
+1.10 
+4.0 
+8.0 
+2.0 
+12.0 
+Q2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

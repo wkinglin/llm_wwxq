@@ -1,0 +1,1037 @@
+ 
+ 
+SGM3736 
+PWM Dimming, 38V Boost LED Driver 
+ 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+SEPTEMBER 2021 – REV. A. 4 
+  
+GENERAL DESCRIPTION 
+The SGM3736 is a high efficiency constant current LED 
+driver with a 1.1MHz PWM boost converter. An internal 
+low-side N-channel MOSFET and a high switching 
+frequency make the SGM3736 easy to use small 
+components and optimized for compact solutions. 
+The SGM3736 is capable of driving either up to 10 
+LEDs in series for 38V output or total 260mA current 
+with 3 LEDs in series per string while achieving high 
+conversion efficiency. The LED current can be 
+programmed by digital PWM dimming interface. The 
+PWM frequency is in the range from 2kHz to 60kHz. 
+The SGM3736 provides very low shutdown current. It 
+also includes a comprehensive set of protection 
+features such as over-voltage protection, cycle-by- 
+cycle input current limit and thermal shutdown. 
+The SGM3736 is available in a Green TDFN-2×2-8L 
+package. It operates over an ambient temperature 
+range of -40℃ to +85℃. 
+ 
+FEATURES 
+● Input Voltage Range: 2.7V to 5.5V 
+● Support up to 10 LEDs in Series 
+● Integrated 40V/1.35A Switch 
+● High Efficiency PWM Boost Converter 
+● Switching Frequency: 1.1MHz 
+● Low Feedback Voltage: 200mV 
+● PWM Dimming Frequency: 2kHz to 60kHz 
+● 38V LED Open Protection 
+● 500kΩ Pull-Down Resistor on EN/PWM Pin 
+● Automatic Soft-Start for Reducing Inrush Current 
+● Less than 1µA Shutdown Current 
+● Available in a Green TDFN-2×2-8L Package 
+● -40℃ to +85℃ Operating Temperature Range 
+ 
+ 
+ 
+APPLICATIONS 
+LED Backlighting 
+Mobile Phones and Digital Photo Frames 
+Portable Devices 
+Automotive Navigation 
+ 
+ 
+ 
+ 
+ 
+
+ 
+SGM3736 
+PWM Dimming, 38V Boost LED Driver 
+ 
+ 
+2 
+SEPTEMBER 2021 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM3736 
+TDFN-2×2-8L 
+-40℃ to +85℃ 
+SGM3736YTDE8G/TR 
+3736 
+XXXX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XXXX = Date Code. 
+Date Code - Week
+Date Code - Year
+X
+X
+X
+X
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Input Voltage, VIN 
+................................................. -0.3V to 6V 
+High Voltage Nodes, SW, VOUT ....................... -0.3V to 40V 
+Other Pins, FB, EN/PWM.......................... 
+-0.3V to VIN + 0.3V 
+Package Thermal Resistance 
+TDFN-2×2-8L, θJA 
+...................................................... 75℃/W 
+Junction Temperature 
+................................................... 
+150℃ 
+Storage Temperature Range ........................ 
+-65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) .............................. 
+260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+3000V 
+MM 
+................................................................................. 
+200V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Input Voltage Range ........................................... 
+2.7V to 5.5V 
+Operating Temperature Range ....................... 
+-40℃ to +85℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+
+ 
+SGM3736 
+PWM Dimming, 38V Boost LED Driver 
+ 
+ 
+3 
+SEPTEMBER 2021 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+   (TOP VIEW) 
+PGND
+SW
+VOUT
+FB
+RSET
+EN/PWM
+GND
+VIN
+8
+7
+6
+5
+1
+2
+3
+4
+GND
+ 
+  TDFN-2×2-8L 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1 
+PGND 
+Power Ground Pin. 
+2 
+VIN 
+Input Supply Pin. 
+3 
+EN/PWM 
+Enable Control and PWM Dimming Input. It is used for enable and PWM dimming control. 
+4 
+GND 
+Ground Pin. 
+5 
+RSET 
+Current Setting Pin. Connect an external resistor from RSET pin to ground to program the maximum 
+white LED current. 
+6 
+FB 
+Feedback Input for Current. It is regulated at 200mV. 
+7 
+VOUT 
+Output Voltage Pin. 
+8 
+SW 
+Boost Converter Switching Node. 
+Exposed 
+Pad 
+GND 
+Exposed Pad. It should be soldered to PCB board and connected to GND. 
+ 
+TYPICAL APPLICATION 
+VIN
+EN/PWM
+FB
+VOUT
+D1
+COUT
+Input Range
+2.7V ~ 5.5V
+CIN
+SGM3736
+L
+SW
+Up to 10 in series
+or up to 10S4P
+Up to 38V Output
+8
+2
+7
+6
+3
+1kΩ
+RSET
+RSET
+5
+RSET
+PGND
+1
+GND
+4
+PWM Dimming
+ 
+ 
+Figure 1. Typical Application Circuit 
+
+ 
+SGM3736 
+PWM Dimming, 38V Boost LED Driver 
+ 
+ 
+4 
+SEPTEMBER 2021 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (1) 
+(VIN = 3.6V, L = 10μH, CIN = 10μF, COUT = 0.47μF, Full = -40℃ to +85℃, typical values are at TA = +25℃, unless otherwise 
+noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN 
+TYP 
+MAX 
+UNITS 
+IC Supply 
+Input Voltage Range 
+VIN 
+ 
+Full 
+2.7 
+ 
+5.5 
+V 
+Input Under-Voltage Lockout 
+UVLO 
+Rising edge 
++25℃ 
+ 
+2.5 
+2.6 
+V 
+UVLO Hysteresis 
+VHYS 
+ 
++25℃ 
+ 
+0.15 
+ 
+V 
+Quiescent Current (Non Switching) 
+IQ 
+VFB = 0.4V 
++25℃ 
+ 
+0.20 
+0.35 
+mA 
+Operating Current (Switching) 
+VFB = 0V 
++25℃ 
+ 
+0.72 
+1.5 
+mA 
+VIN Pin Shutdown Current 
+ISHDN 
+VEN = 0V 
++25℃ 
+ 
+0.1 
+1 
+μA 
+Step-Up Converter 
+Voltage Feedback Regulation Voltage 
+VREF 
+ 
+Full 
+192 
+200 
+212.5 
+mV 
+Voltage Feedback Regulation Voltage Under 
+Brightness Control 
+VREF_PWM 
+fPWM = 10kHz, duty cycle = 3% 
++25℃ 
+3.5 
+6 
+8.5 
+mV 
+VREF Filter 3dB Frequency 
+fREF(3dB) 
+ 
++25℃ 
+ 
+600 
+ 
+Hz 
+SW Pin Leakage Current 
+ISW 
+ 
++25℃ 
+ 
+0.01 
+1 
+μA 
+Peak NMOS Current Limit 
+ILIM 
+ 
++25℃ 
+ 
+1.35 
+ 
+A 
+Oscillator Frequency 
+fS 
+ 
+Full 
+0.90 
+1.10 
+1.4 
+MHz 
+Over-Voltage Threshold 
+VOVP 
+Measured at VOUT pin 
+Full 
+35.5 
+38.0 
+40.5 
+V 
+Start-Up Time 
+tS 
+ 
++25℃ 
+ 
+800 
+ 
+μs 
+Control 
+Logic Low Threshold 
+VIL 
+ 
+Full 
+ 
+ 
+0.35 
+V 
+Logic High Threshold 
+VIH 
+ 
+Full 
+1.5 
+ 
+ 
+V 
+PWM Dimming Frequency Range 
+DFR 
+ 
++25℃ 
+2 
+ 
+60 
+kHz 
+Minimum Shutdown Pulse Width Timing 
+tOFF 
+ 
++25℃ 
+3 
+ 
+ 
+ms 
+Junction Thermal Shutdown Threshold 
+ 
+ 
+ 
+ 
+150 
+ 
+℃ 
+Junction Thermal Shutdown Hysteresis 
+ 
+ 
+ 
+ 
+15 
+ 
+℃ 
+ 
+NOTE: 
+1. The SGM3736 is guaranteed to meet performance specifications over the -40℃ to +85℃ operating temperature range by 
+design, characterization and correlation with statistical process controls. 
+ 
+ 
+ 
+ 
+
+ 
+SGM3736 
+PWM Dimming, 38V Boost LED Driver 
+ 
+ 
+5 
+SEPTEMBER 2021 
+SG Micro Corp 
+www.sg-micro.com 
+RECOMMENDED COMPONENTS OF TEST CIRCUITS 
+ 
+Component 
+ 
+Component 
+Inductor 
+22μH/CD75NP-220KC 
+Capacitor 
+10μF/C2012X7R1H106KT 
+10μH/CD75NP-100KC 
+0.47μF/C2012X7R1H474KT 
+Diode 
+MBR0540 
+ 
+ 
+ 
+ 
+ 
+ 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+TA = +25℃, L = 10μH, CIN = 10μF, COUT = 0.47μF, unless otherwise noted. 
+ 
+ 
+Switching Waveform 
+ 
+ 
+ 
+Open LED Protection 
+ 
+ 
+ 
+ 
+VSW 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+IL 
+ 
+ 
+ 
+ 
+   20V/div   200mV/div  200mA/div 
+ 
+ 
+VFB 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+IL 
+ 
+ 
+ 
+ 
+ 
+  200mV/div  10V/div    500mA/div 
+ 
+Time (1μs/div) 
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Start-Up 
+ 
+ 
+ 
+Output Ripple at PWM Dimming 
+ 
+ 
+ 
+ 
+ 
+ 
+VEN 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+IL 
+ 
+ 
+ 
+  2V/div   10V/div      200mA/div 
+ 
+ 
+ 
+ 
+ 
+PWM 
+ 
+ 
+VOUT 
+ 
+ 
+ILED 
+ 
+ 
+ 
+ 
+     2V/div  200mV/div  10mA/div 
+ 
+Time (1ms/div) 
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+ 
+VIN = 3.6V, ILED = 20mA, L=10μH, 8 LEDs 
+VIN = 3.6V, ILED = 20mA, L = 10μH, 8 LEDs 
+AC Coupled 
+VIN = 3.6V, ILED = 20mA, fPWM = 10kHz, 8 LEDs 
+AC Coupled 
+VIN = 3.6V, ILED = 20mA, L = 10μH, 8 LEDs 
+
+ 
+SGM3736 
+PWM Dimming, 38V Boost LED Driver 
+ 
+ 
+6 
+SEPTEMBER 2021 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, L = 10μH, CIN = 10μF, COUT = 0.47μF, unless otherwise noted. 
+ 
+  Feedback Voltage vs. Temperature 
+         Feedback Voltage vs. Input Voltage 
+185
+190
+195
+200
+205
+210
+215
+-50
+-25
+0
+25
+50
+75
+100
+Temperature (℃)
+Feedback Voltage (mV)
+ VIN =3.6V, DPWM = 100%
+ 
+185
+190
+195
+200
+205
+210
+215
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Input Voltage (V)
+Feedback Voltage (mV)
+DPWM = 100%
+ 
+Efficiency vs. Input Voltage 
+         Efficiency vs. Input Voltage 
+70
+74
+78
+82
+86
+90
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Input Voltage (V)
+Efficiency (%)
+10 LEDs (32V)
+I
+LED = 20mA, L = 10μH
+ 
+70
+74
+78
+82
+86
+90
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Input Voltage (V)
+Efficiency (%)
+10 LEDs (32V)
+I
+LED = 20mA, L = 22μH
+ 
+Efficiency vs. Output Current 
+LED Current vs. PWM Duty Cycle 
+60
+65
+70
+75
+80
+85
+90
+0
+5
+10
+15
+20
+25
+30
+Output Current (mA)
+Efficiency (%)
+10 LEDs (32V)
+ VIN = 3.6V, L = 10μH
+ 
+0
+3
+6
+9
+12
+15
+18
+21
+24
+0
+20
+40
+60
+80
+100
+PWM Duty Cycle (%)
+LED Current (mA)
+fPWM = 2kHz
+VIN = 3.6V,  I
+LED = 20mA, L = 10μH, 6 LEDs
+fPWM = 20kHz
+ 
+ 
+ 
+
+ 
+SGM3736 
+PWM Dimming, 38V Boost LED Driver 
+ 
+ 
+7 
+SEPTEMBER 2021 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+SEPTEMBER 2021 ‒ REV.A.3 to REV.A.4 
+Page 
+Changed Ordering Information section ................................................................................................................................................................ 
+2 
+Changed Package Outline Dimensions section ................................................................................................................................................. 10 
+ 
+JUNE 2015 ‒ REV.A.2 to REV.A.3 
+Page 
+Changed Ordering Number.................................................................................................................................................................................. 
+2 
+ 
+FEBRUARY 2015 ‒ REV.A.1 to REV.A.2 
+Page 
+New version....................................................................................................................................................................................................... 
+All 
+ 
+JULY 2014 ‒ REV.A to REV.A.1 
+Page 
+Changed General Description section.................................................................................................................................................................. 
+1 
+Changed LED Maximum Current Setting ............................................................................................................................................................. 
+9 
+Changed Capacitor Selection section .................................................................................................................................................................. 
+9 
+Changed Figure 1 
+................................................................................................................................................................................................ 
+9 
+ 
+Changes from Original (APRIL 2014) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00056.001 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TDFN-2×2-8L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.700 
+0.750 
+0.800 
+A1 
+0.000 
+- 
+0.050 
+A2 
+0.203 REF 
+D 
+1.900 
+2.000 
+2.100 
+E 
+1.900 
+2.000 
+2.100 
+D1 
+1.100 
+1.200 
+1.300 
+E1 
+0.500 
+0.600 
+0.700 
+b 
+0.180 
+- 
+0.300 
+e 
+0.500 TYP 
+k 
+0.200 MIN 
+L 
+0.250 
+0.350 
+0.450 
+ 
+NOTE: This drawing is subject to change without notice. 
+ 
+ 
+RECOMMENDED LAND PATTERN (Unit: mm)
+0.50
+0.24
+1.20
+0.60
+L
+A1
+A2
+A
+N8
+N1
+k
+e
+D1
+E1
+b
+E
+D
+SIDE VIEW
+BOTTOM VIEW
+TOP VIEW
+1.95
+0.65
+PIN 1#
+PIN 1#
+DETAIL A
+ALTERNATE A-1
+ALTERNATE A-2
+DETAIL A
+ALTERNATE PIN 1
+CONSTRUCTION
+DETAIL B
+ALTERNATE B-1
+DETAIL B
+ALTERNATE TERMINAL
+CONSTRUCTION
+ALTERNATE B-2
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TDFN-2×2-8L 
+7″ 
+9.5 
+2.30 
+2.30 
+1.10 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 

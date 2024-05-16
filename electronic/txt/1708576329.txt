@@ -1,0 +1,1559 @@
+ 
+SGM66025 
+0.8V Start-Up Input Voltage, 1.8A ISW Synchronous 
+Boost Converter with Load Disconnect 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DECEMBER2023–REV.A 
+GENERAL DESCRIPTION 
+The SGM66025 is a synchronous Boost converter with 
+integrated load disconnect function. The device is 
+capable to start up from 0.8V (TYP) input, and the input 
+voltage can operate down to 0.6V after start-up. Output 
+voltage ranges from 1.8V to 4V. The device integrates a 
+1.8A power switch with a fixed 1MHz switching 
+frequency. Bypass mode is also supported when VIN is 
+higher than VOUT. 
+The P channel synchronous rectifier provides short- 
+circuit protection and load disconnect feature to 
+minimize leakage current drawn from the input source. 
+The device also implements soft-start feature to 
+minimize inrush current during start-up. 
+The SGM66025 implements various protection features 
+such as short-circuit protection and thermal shutdown 
+to improve device robustness. 
+The SGM66025 is available in a Green TSOT-23-8 
+package and operates over an ambient temperature 
+range of -40℃ to +85℃. 
+FEATURES 
+● 1V Start-Up Input Voltage 
+● 0.6V Operation Input Voltage after Start-Up 
+● 1.8V to 4V Output Voltage Range 
+● Up to 96% Efficiency 
+● 1MHz Switching Frequency 
+● 30μA (TYP) Quiescent Current 
+● 0.4μA (TYP) Shutdown Current 
+● Current-Mode Control with Internal 
+Compensation 
+● True Output Disconnection from Input 
+● VIN > VOUT Bypass Mode & Down Mode 
+● High Efficiency under Light-Load Conditions 
+● Internal Soft-Start 
+● Load Disconnect 
+● Short-Circuit Protection 
+● Over-Current Protection 
+● -40℃ to +85℃ Operating Temperature Range 
+● Available in a Green TSOT-23-8 Package 
+ 
+APPLICATIONS 
+Alkaline Battery 
+System 3.3V Bias 
+Medical Equipment 
+Wireless System Bias 
+VR 
+ 
+TYPICAL APPLICATION 
+VOUT
+SW
+PGND
+CIN
+COUT
+EN
+VIN
+SGM66025
+VIN 
+0.6V to 4V
+VOUT
+1.8V to 4V
+ON
+OFF
+R1
+R2
+FB
+AGND
+L
+ 
+Figure 1. Typical Application Circuit 
+ 
+
+0.8V Start-Up Input Voltage, 1.8A ISW Synchronous 
+SGM66025 
+Boost Converter with Load Disconnect 
+ 
+ 
+2 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM66025 
+TSOT-23-8 
+-40℃ to +85℃ 
+SGM66025YTN8G/TR 
+0J3XX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XX = Date Code.  
+Date Code - Year 
+Date Code - Week 
+Serial Number
+YYY X X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Voltage Range (with Respect to GND) 
+SW, VOUT………….…………………………………-0.3V to 6V 
+VIN, EN, FB………………………………..…………-0.3V to 6V 
+Package Thermal Resistance 
+TSOT-23-8, θJA ........................................................ 132℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Input Voltage Range, VIN........................................ 
+0.6V to 4V 
+Input Voltage Range, VOUT 
+..................................... 
+1.8V to 4V 
+Operating Junction Temperature Range ....... 
+-40℃ to +125℃ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+
+0.8V Start-Up Input Voltage, 1.8A ISW Synchronous 
+SGM66025 
+Boost Converter with Load Disconnect 
+ 
+ 
+3 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+(TOP VIEW) 
+1
+2
+3
+4
+VIN
+VOUT
+SW
+PGND
+7
+6
+5
+EN
+FB
+AGND
+NC
+8
+ 
+TSOT-23-8 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1 
+VIN 
+Input Voltage Pin. 
+2 
+VOUT 
+Output Voltage Pin. 
+3 
+SW 
+Switch Node Pin. 
+4 
+PGND 
+Power Ground Pin. 
+5 
+NC 
+No Connect Pin. 
+6 
+AGND 
+Analog Ground Pin. 
+7 
+FB 
+Feedback Pin. Connect a voltage divider from VOUT to this node. 
+8 
+EN 
+Enable Pin. Logic high turns the converter on. Logic low turns the converter off. 
+ 
+ 
+ 
+
+0.8V Start-Up Input Voltage, 1.8A ISW Synchronous 
+SGM66025 
+Boost Converter with Load Disconnect 
+ 
+ 
+4 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VIN = VEN = 1.8V, VOUT = 3.3V, TA = -40℃ to +85℃, typical values are at TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Input Voltage 
+VIN 
+TA = +25℃ 
+0.6 
+ 
+4 
+V 
+Input Voltage UVLO 
+VIN_UVLO 
+VIN Rising 
+0.4 
+0.65 
+1.0 
+V 
+Output Voltage Range 
+VOUT 
+TA = +25℃ 
+1.8 
+ 
+4 
+V 
+Quiescent Current 
+IQ 
+ 
+ 
+30 
+70 
+μA 
+Shutdown Current 
+ISD 
+ 
+ 
+0.4 
+2.0 
+μA 
+Switching Frequency 
+fSW 
+ 
+0.7 
+1.0 
+1.3 
+MHz 
+Feedback Voltage 
+VFB 
+ 
+1.156 
+1.20 
+1.236 
+V 
+Feedback Leakage Current 
+IFB_LKG 
+ 
+ 
+4 
+100 
+nA 
+Low-side FET On-Resistance 
+RDSON 
+ 
+ 
+95 
+ 
+mΩ 
+High-side FET On-Resistance 
+ 
+ 
+90 
+ 
+mΩ 
+Maximum Duty Cycle 
+DMAX 
+ 
+85 
+97 
+ 
+% 
+Start-Up Current Limit 
+IST_LIMIT 
+ 
+ 
+0.72 
+ 
+A 
+Low-side FET Current Limit 
+ISW 
+ 
+1.4 
+1.8 
+ 
+A 
+EN Input High Level 
+VEN_H 
+ 
+0.8 × VIN 
+ 
+ 
+V 
+EN Input Low Level 
+VEN_L 
+ 
+ 
+ 
+0.2 × VIN 
+V 
+PMOS Leakage Current 
+IPLK 
+VSW = 4V, VOUT = 0V 
+ 
+1 
+500 
+nA 
+NMOS Leakage Current 
+INLK 
+VSW = 4V 
+ 
+20 
+500 
+nA 
+Thermal Shutdown 
+ 
+ 
+ 
+140 
+ 
+℃ 
+Thermal Shutdown Hysteresis 
+ 
+ 
+ 
+15 
+ 
+℃ 
+ 
+ 
+
+0.8V Start-Up Input Voltage, 1.8A ISW Synchronous 
+SGM66025 
+Boost Converter with Load Disconnect 
+ 
+ 
+5 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAM 
+VIN
+EN
+Gate 
+Drive
+VIN
+VOUT
+VREF
+Soft- 
+Start
+Peak 
+Current 
+Sense
+Logic, Thermal,  
+Short-Circuit 
+Protection
+VOUT
+PGND
+SW
+VOUT
+FB
+PWM 
+Control
+ON
+OFF
+L
+CIN
+COUT
+RFBT
+RFBB
+Oscillator
+AGND
+Slope Comp
+ 
+Figure 2. Block Diagram 
+ 
+ 
+
+0.8V Start-Up Input Voltage, 1.8A ISW Synchronous 
+SGM66025 
+Boost Converter with Load Disconnect 
+ 
+ 
+6 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+At TA = +25℃, VIN = 1.8V, VOUT = 3.3V and L = 3.3µH, unless otherwise noted. 
+ 
+     Efficiency vs. Output Current 
+ 
+     Load Regulation 
+ 
+ 
+     Efficiency vs. Input Voltage 
+ 
+     Line Regulation 
+ 
+ 
+     EN threshold vs. Input Voltage 
+     Maximum Output Current vs. Input Voltage 
+ 
+ 
+ 
+ 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+0.1
+1
+10
+100
+1000
+Efficiency (%) 
+Output Current (mA) 
+VOUT = 3.3V 
+VIN = 1.2V 
+VIN = 1.8V 
+VIN = 2.4V 
+3.298
+3.300
+3.302
+3.304
+3.306
+3.308
+3.310
+3.312
+0.1
+1
+10
+100
+1000
+Output Voltage (V) 
+Output Current (mA) 
+VOUT = 3.3V 
+VIN = 1.2V 
+VIN = 1.8V 
+VIN = 2.4V 
+50
+60
+70
+80
+90
+100
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+4.0
+Efficiency (%) 
+Input Voltage (V) 
+VOUT = 3.3V 
+IOUT = 10mA 
+IOUT = 100mA 
+IOUT = 400mA 
+3.298
+3.300
+3.302
+3.304
+3.306
+3.308
+3.310
+3.312
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+4.0
+Output Voltage (V) 
+Input Voltage (V) 
+VOUT = 3.3V 
+IOUT = 10mA 
+IOUT = 100mA 
+IOUT = 400mA 
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+4.0
+Output Voltage (V) 
+Input Voltage (V) 
+VOUT = 3.3V 
+Rising 
+Falling 
+0
+400
+800
+1200
+1600
+2000
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+4.0
+Maximum Output Current (mA) 
+Input Voltage (V) 
+VOUT = 3.3V 
+VOUT = 1.8V 
+
+0.8V Start-Up Input Voltage, 1.8A ISW Synchronous 
+SGM66025 
+Boost Converter with Load Disconnect 
+ 
+ 
+7 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TA = +25℃, VIN = 1.8V, VOUT = 3.3V and L = 3.3µH, unless otherwise noted. 
+ 
+ 
+Output Voltage Ripple 
+ 
+ 
+ 
+Output Voltage Ripple 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+VSW 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+  10mV/div     2V/div   100mA/div 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+VSW 
+ 
+IL 
+ 
+ 20mV/div  2V/div  500mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (20µs/div) 
+ 
+ 
+ 
+Time (1µs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN Power-On 
+ 
+ 
+ 
+VIN Power-On 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+VIN 
+ 
+ 
+ 
+VSW 
+ 
+ 
+ 
+IL 
+ 
+ 2V/div  2V/div  2V/div   500mA/div 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+VIN 
+ 
+ 
+ 
+VSW 
+ 
+ 
+ 
+IL 
+  
+ 2V/div  2V/div  2V/div     1A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (4ms/div) 
+ 
+ 
+ 
+Time (4ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+EN Power-On 
+ 
+ 
+ 
+EN Power-On 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+VEN 
+ 
+VSW 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+ 2V/div  5V/div  2V/div   500mA/div 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+VEN 
+ 
+VSW 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+ 2V/div  5V/div  2V/div   500mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (40µs/div) 
+ 
+ 
+ 
+Time (4ms/div) 
+ 
+ 
+ 
+VIN = 1.8V, VOUT = 3.3V, IOUT = 20mA 
+AC Coupled 
+VIN = 1.8V, VOUT = 3.3V, IOUT = 500mA 
+AC Coupled 
+VIN = 1.8V, VOUT = 3.3V, IOUT = 20mA 
+VIN = 1.8V, VOUT = 3.3V, IOUT = 400mA 
+VIN = 1.8V, VOUT = 3.3V, IOUT = 20mA 
+VIN = 1.8V, VOUT = 3.3V, IOUT = 400mA 
+
+0.8V Start-Up Input Voltage, 1.8A ISW Synchronous 
+SGM66025 
+Boost Converter with Load Disconnect 
+ 
+ 
+8 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TA = +25℃, VIN = 1.8V, VOUT = 3.3V and L = 3.3µH, unless otherwise noted. 
+ 
+ 
+Load Transient 
+ 
+ 
+ 
+Load Transient 
+ 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+     50mV/div     100mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+     100mV/div     200mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Line Transient 
+ 
+ 
+ 
+Line Transient 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+VIN 
+ 
+        50mV/div   1V/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+VIN 
+ 
+        100mV/div   1V/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN = 1.8V, VOUT = 3.3V, IOUT = 100mA to 200mA 
+AC Coupled 
+VIN = 1.8V, VOUT = 3.3V, IOUT = 200mA to 500mA 
+AC Coupled 
+VIN = 1.8V to 2.4V, VOUT = 3.3V, IOUT = 100mA 
+AC Coupled 
+VIN = 1.8V to 2.4V, VOUT = 3.3V, IOUT = 500mA 
+AC Coupled 
+
+0.8V Start-Up Input Voltage, 1.8A ISW Synchronous 
+SGM66025 
+Boost Converter with Load Disconnect 
+ 
+ 
+9 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION
+Overview 
+The SGM66025 is a Boost converter in a TSOT-23-8 
+package operates with a fixed 1MHz frequency. It 
+integrates the function of true output disconnect and is 
+able to start up with 0.8V (TYP) input. The fixed 
+frequency peak current control mode is adopted as the 
+control architecture. The built-in soft-start feature and 
+loop compensation simplify the design and minimize 
+the number of external components. The internal low 
+RDSON power MOSFETs ensure high efficiency under 
+heavy current load and power-save mode operation 
+enables high efficiency under light current load. 
+Synchronous Rectifier 
+The synchronous rectification function is realized by an 
+internal N-channel MOSFET and a P-channel MOSFET. 
+Compared with the traditional Schottky diode, the 
+PMOS can improve the operating efficiency. 
+True disconnection function is realized by controlling 
+the body diode of the rectifier PMOS. This feature 
+ensures that there is no leakage current path between 
+input and output even the device is disabled. 
+Start-Up 
+The SGM66025 starts up with a 720mA precharge 
+current to charge the output voltage to VIN - 270mV by 
+turning on the PMOS. The current limiting function 
+ensures the safety of the device under short-circuit 
+conditions. 
+The SGM66025 starts switching after precharge phase. 
+The device operates in free-running mode when VOUT is 
+below 1.77V. The switching frequency is fixed at 
+500kHz in this mode and the duty cycle is fixed to 
+around 70%. The switching current is limited to about 
+800mA. 
+The internal soft-start follows the FB voltage during the 
+precharge and free running period. Once the output 
+voltage 
+exceeds 
+1.77V, 
+the 
+device 
+will 
+enter 
+closed-loop control, the output voltage will be controlled 
+by soft-start and the current limit threshold goes to 1.5A. 
+When the soft-start is complete, the current limit 
+threshold is set to 1.8A. It then works in Boost mode or 
+Down mode depending on the voltage value of VIN and 
+VOUT. If VIN is 270mV higher than the preset voltage of 
+VOUT at start-up, the chip will continue to work in 
+Bypass mode. Please refer to Table 1 for more details 
+about operating modes. 
+Table 1. Operation Mode during Start-Up Sequence 
+VOUT < VIN - 270mV 
+Bypass Mode 
+VOUT ≥ VIN - 270mV & VOUT < 1.77V 
+Free Running 
+VIN - 270mV < VOUT < VIN + 250mV & 
+VOUT ≥ 1.7V 
+Down Mode 
+VOUT >VIN + 250mV & VOUT ≥ 1.77V 
+Boost Mode 
+When VOUT is greater than VIN, the SGM66025 is 
+powered by VOUT instead of VIN in normal mode. The 
+device is able to operate down to 0.6V, thus only the 
+energy of battery will limit the application. 
+Device Enable 
+The device is enabled when EN is pulled higher than 
+0.8VIN. It will be shut down when EN is grounded. In 
+shutdown mode, the device turns off all power 
+MOSFETs and logic circuits, and the body diode of the 
+rectifier PMOS is reversed to achieve complete 
+isolation of input and output. 
+Power-Save Mode 
+When the load is lightened, the device enters 
+power-save mode (PSM). When the VOUT drops below 
+the programmed threshold, several successive pulses 
+are performed in PWM mode logic to restore the VOUT. 
+Once VOUT returns to the programmed value, the 
+power-save mode will resume. Power-save mode 
+consumes 
+less 
+circuit 
+resources, 
+and 
+power 
+consumption is significantly reduced. The control mode 
+of the device is the peak current control mode through 
+sampling the voltage of FB. 
+Typically, output voltage ripple can be reduced to less 
+than 1% of the peak-to-peak output value by adding 
+output capacitor. Whether the device operates in PSM 
+or PWM depends on load current, output capacitance, 
+input voltage, output voltage, and inductor value. 
+ 
+ 
+
+0.8V Start-Up Input Voltage, 1.8A ISW Synchronous 
+SGM66025 
+Boost Converter with Load Disconnect 
+ 
+ 
+10 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Under-Voltage Lockout 
+Under-voltage lockout protection will be triggered when 
+the voltage of VIN pin falls below 0.5V (TYP) and the 
+device will stop switching. 
+Error Amplifier 
+The voltage of FB pin and the internal 1.20V reference 
+will be used as input signals of the error amplifier. The 
+error signal generated during this process is compared 
+with the sampled inductor peak current to adjust the 
+switching duty cycle to regulate the output voltage.  
+Current Sensing 
+The current flowing through the NMOS is sampled as a 
+voltage signal that will be summed with a slope 
+compensation signal used for PWM duty cycle 
+generation. The leading edge blanking time of 60ns 
+enhances the noise suppression during current 
+sampling. The peak current is limited to around 1.8A. 
+Thermal Protection 
+To protect the device from damage due to overheating, 
+a thermal shutdown feature is implemented to disable 
+the device when the die temperature exceeds +140℃
+(TYP). The chip is automatically enabled when the 
+temperature falls below +125 ℃ (15 ℃ hysteresis, 
+TYP). 
+Output Disconnect and Inrush Limiting 
+The SGM66025 integrates the function of true output 
+disconnection by switching the internal PMOS body 
+diode direction. The true disconnect function ensures 
+that the VOUT pin cannot maintain any voltage or sink 
+any current. Inrush and surge currents from the input 
+supply are limited by precharge circuit. 
+When the external Schottky diode between SW and 
+VOUT is connected, the true disconnect function is 
+disabled. 
+To reduce the spike voltage on the SW pin, please keep 
+the output capacitor close to the VOUT pin and GND 
+pin. Using low ESR/ESL ceramic capacitors will 
+achieve better filtering. 
+Short-Circuit Protection 
+The 
+SGM66025 
+implements 
+output 
+short-circuit 
+protection by turning off the NMOS when the output 
+voltage drops below 1V. Then the device enters in 
+Bypass mode as power-on period. The thermal 
+regulation loop will also control the current flows 
+through PMOS when the die temperature exceeds the 
+over-temperature threshold. 
+Down Mode (VIN - 270mV < VOUT < VIN + 
+250mV) Operation 
+The SGM66025 will continue to regulate the output 
+voltage when the input voltage operates in a range that 
+is very close to the output voltage. The VGS of the 
+PMOS is dynamically adjusted to provide a down slope 
+to the inductor current, thus higher efficiency can be 
+achieved than in the conventional Down mode. When 
+VIN gradually approaches VOUT, the system will 
+dynamically adjust the frequency since VIN > VOUT + 
+0.7V, from 1MHz in normal operation to a minimum of 
+300kHz. In this mode, the peak current is limited to 
+around 600mA.  
+Bypass (VOUT + 270mV < VIN) Operation 
+When the input voltage is larger than VOUT + 270mV, 
+the SGM66025 works in Bypass mode, which includes 
+linear charging of output capacitance during start-up 
+and bypass operation in steady state. In this mode, the 
+rectifier MOSFET is always on, and the load current 
+flows only through the rectifier PMOS, the current 
+limiting threshold is around 720mA in bypass mode. 
+ 
+ 
+
+0.8V Start-Up Input Voltage, 1.8A ISW Synchronous 
+SGM66025 
+Boost Converter with Load Disconnect 
+ 
+ 
+11 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+Output Voltage Adjustment 
+By connecting the FB pin to the center tap of the 
+external resistive divider, the device’s output voltage 
+can be adjusted from 1.8V to 4V. Please refer to 
+Equation 1 to calculate the desired output voltage: 
+1
+OUT
+2
+R
+V
+1.20V
+1 R
+
+
+=
+×
++
+
+
+
+           (1) 
+Larger divider resistance can lower the quiescent 
+current. Setting R1 larger than 300kΩ is recommended 
+for better stability. 
+Input Capacitor Selection 
+For better filtering, the low ESR ceramic capacitors are 
+recommended to be used as input capacitor. Placing 
+the input capacitors as close to the device as possible 
+to reduce noise from power supply. Add a 10µF 
+ceramic capacitor in parallel with a 100nF ceramic 
+capacitor is recommended. 
+Output Capacitor Selection 
+To ensure the loop stability, please use a minimum 
+capacitor of 22µF as the output capacitor and low ESR 
+ceramic capacitors are recommended. The larger 
+output capacitance will improve the transient response 
+while reduce the output ripple. Please refer to the 
+Equation 
+2 
+below 
+to 
+calculate 
+the 
+theoretical 
+capacitance value. 
+
+-
+O
+OUT_MAX
+IN_MIN
+O
+S
+OUT_MAX
+I
+(V
+V
+)
+C
+f
+V
+ΔV
+×
+≥
+×
+×
+         (2) 
+where 
+VOUT_MAX = Maximum output voltage 
+VIN_MIN = Minimum input voltage 
+IO = Output current 
+fS = Switching frequency 
+ΔV = Acceptable output ripple 
+Increasing the capacitance can reduce ripple in Down 
+mode where VIN ≈ VOUT and ensure stability in PWM 
+mode with heavy load conditions. 
+Inductor Selection 
+The SGM66025 operates at a fixed switching frequency 
+of 1MHz in most situations, a 3.3µH inductor is 
+recommended for majority of applications. Large 
+inductors can slightly reduce the PSM operating 
+threshold and increase the load current capability by 
+reducing the ripple current. Please refer to the Equation 
+3 below to calculate 
+the minimum theoretical 
+inductance. 
+-
+IN_MIN
+OUT_MAX
+IN_MIN
+OUT_MAX
+L
+S
+V
+(V
+V
+)
+L
+2 V
+ΔI
+f
+×
+≥
+×
+×
+×
+         (3) 
+It is recommended to select the inductor ripple current 
+to 30%~40% of the maximum input current. In general, 
+high frequency ferrite-core inductors help reduce 
+frequency-dependent power losses. Try to use low 
+DCR inductance, when the DCR is much lower than 
+RDSON, the efficiency will be significantly improved. Also, 
+make sure that the saturation current of the inductor is 
+higher than the current limit. 
+PCB Layout Considerations 
+In order to avoid poor performance, EMI problems, and 
+resistance losses, please refer to the following 
+recommendations to optimize the PCB layout. 
+1. Add an about 100nF decoupling capacitor as close 
+as possible to the VOUT and GND pins. Adding vias on 
+VOUT net near the output capacitance will increase the 
+parasitic inductance, which is not beneficial to reduce 
+the spike voltage of the SW pin. 
+2. Using short and wide path to connect the power 
+devices (Such as input capacitor, output capacitor, and 
+inductor). 
+3. Feedback divider resistors should be close to AGND. 
+4. Use a larger copper area to increase heat 
+dissipation. 
+ 
+Figure 3. Layout Example 
+ 
+ 
+
+0.8V Start-Up Input Voltage, 1.8A ISW Synchronous 
+SGM66025 
+Boost Converter with Load Disconnect 
+ 
+ 
+12 
+DECEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+Changes from Original (DECEMBER 2023) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00039.002 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TSOT-23-8 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+- 
+- 
+1.100 
+A1 
+0.000 
+- 
+0.100 
+A2 
+0.700 
+ 
+1.000 
+b 
+0.220 
+- 
+0.380 
+c 
+0.080 
+ 
+0.200 
+D 
+2.750 
+- 
+3.050 
+E 
+1.450 
+- 
+1.750 
+E1 
+2.550 
+- 
+3.050 
+e 
+0.650 BSC 
+e1 
+1.950 BSC 
+L 
+0.300 
+- 
+0.600 
+θ 
+0° 
+- 
+8° 
+ccc 
+0.100 
+ 
+NOTES: 
+1. This drawing is subject to change without notice. 
+2. The dimensions do not include mold flashes, protrusions or gate burrs. 
+3. Reference JEDEC MO-193. 
+E
+E1
+b
+D
+e1
+2.59
+0.99
+0.40
+0.65
+RECOMMENDED LAND PATTERN (Unit: mm)
+e
+c
+θ
+L
+0.25
+A
+A2
+A1
+SEATING PLANE
+ccc C
+C
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TSOT-23-8 
+7" 
+9.5 
+3.20 
+3.10 
+1.10 
+4.0 
+4.0 
+2.0 
+8.0 
+Q3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 

@@ -2,11 +2,11 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 device = "cuda" # the device to load the model onto
 
 model = AutoModelForCausalLM.from_pretrained(
-    "/mnt/jinweilin/Qwen1.5-7B-Chat",
+    "/mnt/resource/public_models/Qwen_Qwen1.5-14B-Chat",
     torch_dtype="auto",
     device_map="auto"
 )
-tokenizer = AutoTokenizer.from_pretrained("/mnt/jinweilin/Qwen1.5-7B-Chat")
+tokenizer = AutoTokenizer.from_pretrained("/mnt/resource/public_models/Qwen_Qwen1.5-14B-Chat")
 
 prompt = "给我百度的营销文案"
 messages = [

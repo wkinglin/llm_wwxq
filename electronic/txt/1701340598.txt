@@ -1,0 +1,1243 @@
+ 
+74HC374 
+Octal D-Type Positive Edge-Triggered 
+Flip-Flop with 3-State Outputs 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+NOVEMBER 2023 – REV. A 
+ 
+GENERAL DESCRIPTION 
+The 74HC374 is an 8-bit D-type positive edge-triggered 
+flip-flop with 3-state outputs that is designed for 2.0V to 
+5.5V VCC operation. 
+The device is provided with a clock (CP) input and an 
+output enable (OE
+ത
+ത
+ത
+ത
+ത) input. When data at the Dn input 
+suffices for setup and hold time purposes, data can be 
+moved to the Qn output on the low-to-high clock 
+transition. When OE
+ത
+ത
+ത
+ത
+ത is high, all outputs are in 
+high-impedance state. OE
+ത
+ത
+ത
+ത
+ത has no influence on the state 
+of the flip-flops.  
+The clamp diodes of inputs allow the use of current 
+limiting resistors to connect inputs to the voltage 
+exceeding supply voltage. 
+The 74HC374 is available in Green SOIC-20 and 
+TSSOP-20 packages. It operates over an ambient 
+temperature range of -40℃ to +125℃. 
+ 
+ 
+LOGIC DIAGRAM 
+Q0
+D
+D0
+CP Q
+Q7
+D
+CP Q
+D7
+CP
+OE
+D
+CP Q
+D1
+Q1
+…
+D2 to D6
+Q2 to Q6
+ 
+ 
+FEATURES 
+● Wide Operating Voltage Range: 2.0V to 5.5V 
+● +7.8mA/-7.8mA Output Current 
+● CMOS Low Power Consumption 
+● Support Octal Bus Interface 
+● 3-State Non-Inverting Outputs  
+● 8-Bit Positive Edge-Triggered Register 
+● 3-State Buffer and Independent Register 
+● -40℃ to +125℃ Operating Temperature Range 
+● Available in Green SOIC-20 and TSSOP-20 
+Packages 
+ 
+ 
+ 
+FUNCTION TABLE 
+INPUT 
+INTERNAL 
+FLIP-FLOPS 
+OUTPUT 
+OE
+ത
+ത
+ത
+ത
+ത 
+CP 
+Dn 
+Qn 
+L 
+↑ 
+I 
+L 
+L 
+L 
+↑ 
+h 
+H 
+H 
+H 
+↑ 
+I 
+L 
+Z 
+H 
+↑ 
+h 
+H 
+Z 
+H = High voltage level. 
+h = High voltage level one setup time before clock rising edge ↑. 
+L = Low voltage level. 
+I = Low voltage level one setup time before clock rising edge ↑. 
+Z = High-impedance state. 
+↑ = Low-to-high clock transition. 
+ 
+ 
+ 
+ 
+
+Octal D-Type Positive Edge-Triggered 
+74HC374 
+Flip-Flop with 3-State Outputs 
+ 
+ 
+2 
+NOVEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+74HC374 
+SOIC-20 
+-40℃ to +125℃ 
+74HC374XS20G/TR 
+74HC374XS20 
+XXXXX 
+Tape and Reel, 1500 
+TSSOP-20 
+-40℃ to +125℃ 
+74HC374XTS20G/TR 
+0MEXTS20 
+XXXXX 
+Tape and Reel, 4000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code. 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS (1) 
+Supply Voltage Range, VCC .............................. -0.5V to 7.0V 
+Input Voltage Range, VI (2) .... -0.5V to MIN(7.0V, VCC + 0.5V) 
+Output Voltage Range, VO 
+(2) -0.5V to MIN(7.0V, VCC + 0.5V) 
+Input Clamp Current, IIK (VI < 0V or VI > VCC) 
+................ ±20mA 
+Output Clamp Current, IOK (VO < 0V or VO > VCC) ......... ±20mA 
+Continuous Output Current, IO (VO = 0V to VCC) ................. ±35mA 
+Continuous Current through VCC or GND 
+.................... ±70mA 
+Junction Temperature (3) ............................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+6000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Supply Voltage Range, VCC ................................ 
+2.0V to 5.5V 
+Input Voltage Range, VI .......................................... 0V to VCC 
+Output Voltage Range, VO ...................................... 0V to VCC 
+Output Current, IO ...................................................... ±7.8mA 
+Input Transition Rise or Fall Rate, Δt/ΔV 
+VCC = 2.0V 
+.................................................... 625ns/V (MAX) 
+VCC = 4.5V 
+.................................................... 139ns/V (MAX) 
+VCC = 5.5V 
+...................................................... 83ns/V (MAX) 
+Operating Temperature Range ..................... 
+-40℃ to +125℃ 
+OVERSTRESS CAUTION 
+1. Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods may 
+affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+2. The input and output voltage ratings may be exceeded if the 
+input and output clamp current ratings are observed. 
+3. The performance capability of a high-performance integrated 
+circuit in conjunction with its thermal environment can create 
+junction temperatures which are detrimental to reliability. 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+
+Octal D-Type Positive Edge-Triggered 
+74HC374 
+Flip-Flop with 3-State Outputs 
+ 
+ 
+3 
+NOVEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+ (TOP VIEW) 
+1
+2
+3
+4
+5
+OE
+Q0
+D0
+D6
+Q7
+D7
+6
+7
+Q1
+D1
+Q5
+Q2
+D5
+VCC
+8
+9
+10
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+D2
+D3
+Q3
+GND
+Q6
+Q4
+CP
+D4
+ 
+ SOIC-20/TSSOP-20 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1 
+OE
+ത
+ത
+ത
+ത
+ത 
+Output Enable Input (Active-Low). 
+2, 5, 6, 9, 12, 15, 16, 19 
+Q0, Q1, Q2, Q3, Q4, Q5, Q6, Q7 
+Outputs. 
+3, 4, 7, 8, 13, 14, 17, 18 
+D0, D1, D2, D3, D4, D5, D6, D7 
+Data Inputs. 
+10 
+GND 
+Ground. 
+11 
+CP 
+Clock Input (Low-to-High Clock Transition, Edge-Triggered).  
+20 
+VCC 
+Power Supply. 
+ 
+ 
+ 
+
+Octal D-Type Positive Edge-Triggered 
+74HC374 
+Flip-Flop with 3-State Outputs 
+ 
+ 
+4 
+NOVEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(Full = -40℃ to +125℃, all typical values are measured at TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN 
+TYP 
+MAX 
+UNITS 
+High-Level Input Voltage 
+VIH 
+VCC = 2.0V 
+Full 
+1.50 
+ 
+ 
+V 
+VCC = 4.5V 
+Full 
+3.15 
+ 
+ 
+VCC = 5.5V 
+Full 
+3.85 
+ 
+ 
+Low-Level Input Voltage 
+VIL 
+VCC = 2.0V 
+Full 
+ 
+ 
+0.50 
+V 
+VCC = 4.5V 
+Full 
+ 
+ 
+1.35 
+VCC = 5.5V 
+Full 
+ 
+ 
+1.65 
+High-Level Output Voltage 
+VOH 
+VCC = 2.0V, IO = -20μA 
+Full 
+1.95 
+1.995 
+ 
+V 
+VCC = 4.5V, IO = -20μA 
+Full 
+4.45 
+4.495 
+ 
+VCC = 5.5V, IO = -20μA 
+Full 
+5.45 
+5.495 
+ 
+VCC = 4.5V, IO = -6mA 
+Full 
+3.85 
+4.300 
+ 
+VCC = 5.5V, IO = -7.8mA 
+Full 
+4.80 
+5.270 
+ 
+Low-Level Output Voltage 
+VOL 
+VCC = 2.0V, IO = 20μA 
+Full 
+ 
+0.005 
+0.05 
+V 
+VCC = 4.5V, IO = 20μA 
+Full 
+ 
+0.005 
+0.05 
+VCC = 5.5V, IO = 20μA 
+Full 
+ 
+0.005 
+0.05 
+VCC = 4.5V, IO = 6mA 
+Full 
+ 
+0.170 
+0.40 
+VCC = 5.5V, IO = 7.8mA 
+Full 
+ 
+0.210 
+0.40 
+Input Leakage Current 
+II 
+VCC = 5.5V, VI = VCC or GND 
+Full 
+ 
+±0.1 
+±1 
+μA 
+Off-State Output Current 
+IOZ 
+VCC = 5.5V, VI = VIH or VIL, VO = VCC or GND 
+Full 
+ 
+±0.1 
+±5 
+μA 
+Supply Current 
+ICC 
+VCC = 5.5V, VI = VCC or GND, IO = 0A 
+Full 
+ 
+0.1 
+5 
+μA 
+Input Capacitance 
+CI 
+ 
++25℃ 
+ 
+3.5 
+ 
+pF 
+ 
+ 
+ 
+
+Octal D-Type Positive Edge-Triggered 
+74HC374 
+Flip-Flop with 3-State Outputs 
+ 
+ 
+5 
+NOVEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DYNAMIC CHARACTERISTICS 
+(See Figure 1 for test circuit. Full = -40℃ to +125℃, CL = 50pF, all typical values are measured at TA = +25℃, unless otherwise 
+noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN (1) 
+TYP 
+MAX (1)  
+UNITS 
+Propagation Delay (2) 
+tPD 
+CP to Qn, 
+see Figure 2 
+VCC = 2.0V 
+Full 
+1 
+40 
+110 
+ns 
+VCC = 4.5V 
+Full 
+1 
+12 
+35 
+VCC = 5.5V 
+Full 
+1 
+9 
+30 
+Enable Time (2) 
+tEN 
+OE
+ത
+ത
+ത
+ത
+ത to Qn, 
+see Figure 3 
+VCC = 2.0V 
+Full 
+1 
+31 
+100 
+ns 
+VCC = 4.5V 
+Full 
+1 
+9 
+35 
+VCC = 5.5V 
+Full 
+1 
+7 
+30 
+Disable Time (2) 
+tDIS 
+OE
+ത
+തത
+ത to Qn, 
+see Figure 3 
+VCC = 2.0V 
+Full 
+1 
+15 
+30 
+ns 
+VCC = 4.5V 
+Full 
+1 
+8 
+25 
+VCC = 5.5V 
+Full 
+1 
+8 
+25 
+Transition Time (2) 
+tT 
+Qn, see Figure 2 
+VCC = 2.0V 
+Full 
+1 
+25 
+80 
+ns 
+VCC = 4.5V 
+Full 
+1 
+7 
+18 
+VCC = 5.5V 
+Full 
+1 
+6 
+15 
+Pulse Width 
+tw 
+CP high or low, 
+see Figure 2 
+VCC = 2.0V 
+Full 
+80 
+ 
+ 
+ns 
+VCC = 4.5V 
+Full 
+16 
+ 
+ 
+VCC = 5.5V 
+Full 
+14 
+ 
+ 
+Setup Time 
+tSU 
+Dn to CP, 
+see Figure 2 
+VCC = 2.0V 
+Full 
+40 
+ 
+ 
+ns 
+VCC = 4.5V 
+Full 
+18 
+ 
+ 
+VCC = 5.5V 
+Full 
+15 
+ 
+ 
+Hold Time 
+tH 
+Dn to CP, 
+see Figure 2 
+VCC = 2.0V 
+Full 
+5 
+ 
+ 
+ns 
+VCC = 4.5V 
+Full 
+5 
+ 
+ 
+VCC = 5.5V 
+Full 
+5 
+ 
+ 
+Maximum Frequency 
+fMAX 
+CP, see Figure 2 
+VCC = 2.0V 
+Full 
+4 
+ 
+ 
+MHz 
+VCC = 4.5V 
+Full 
+20 
+ 
+ 
+VCC = 5.5V 
+Full 
+24 
+ 
+ 
+Power Dissipation 
+Capacitance (3) 
+CPD 
+Per flip-flop, VI = GND to VCC 
++25℃ 
+ 
+8.5 
+ 
+pF 
+NOTES: 
+1. Specified by design and characterization, not production tested. 
+2. tPD is the same as tPLH and tPHL. tDIS is the same as tPLZ and tPHZ. tEN is the same as tPZL and tPZH. tT is the same as tTHL and tTLH. 
+3. CPD is used to determine the dynamic power dissipation (PD in μW). 
+PD = CPD × VCC
+2 × fi × N + Σ(CL × VCC
+2 × fo) 
+where: 
+fi = Input frequency in MHz. 
+fo = Output frequency in MHz. 
+CL = Output load capacitance in pF. 
+VCC = Supply voltage in Volts. 
+N = Number of inputs switching. 
+Σ(CL × VCC
+2 × fo) = Sum of the outputs. 
+ 
+ 
+ 
+ 
+
+Octal D-Type Positive Edge-Triggered 
+74HC374 
+Flip-Flop with 3-State Outputs 
+ 
+ 
+6 
+NOVEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+TEST CIRCUIT 
+GND
+GND
+VI
+90%
+VM
+10%
+tF
+tR
+tW
+VI
+10%
+90%
+VM
+tF
+tR
+tW
+VM
+VM
+RL
+VO
+74HC374
+CL
+VCC
+RT
+VI
+Open
+S1
+VCC
+ 
+ 
+Test conditions are given in Table 1. 
+Definitions for test circuit: 
+RL: Load resistance. 
+CL: Load capacitance (includes jig and probe). 
+RT: Termination resistance (equals to output impedance ZO of the pulse generator). 
+S1: Test selection switch. 
+ 
+Figure 1. Test Circuit for Measuring Switching Times 
+ 
+Table 1. Test Conditions 
+SUPPLY VOLTAGE 
+INPUT 
+LOAD 
+S1 POSITION 
+VCC 
+VI 
+tR, tF 
+CL 
+RL 
+tPLH, tPHL 
+tPLZ, tPZL 
+tPHZ, tPZH 
+2.0V to 5.5V 
+VCC 
+≤ 6.0ns 
+50pF 
+1kΩ 
+Open 
+VCC 
+GND 
+ 
+ 
+ 
+
+Octal D-Type Positive Edge-Triggered 
+74HC374 
+Flip-Flop with 3-State Outputs 
+ 
+ 
+7 
+NOVEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+WAVEFORMS 
+Qn Output
+tSU
+tH
+tH
+tSU
+VM
+VI
+GND
+CP Input
+Dn Input
+GND
+VI
+VM
+tPHL
+tPLH
+tTHL
+VM
+tW
+1/fMAX
+VOH
+VOL
+90%
+10%
+tTLH  
+ 
+Test conditions are given in Table 1. 
+Measurement points are given in Table 2. 
+Logic levels: VOL and VOH are typical output voltage levels that occur with the output load. 
+The shaded areas refer to when the input is allowed to change for predictable output performance. 
+ 
+Figure 2. The Clock Input to Output Propagation Delays, Clock Pulse Width, the Dn to CP Setup, the CP to Dn Hold 
+Times, Transition Times and the Maximum Frequency 
+ 
+Output
+Low-to-Off
+Off-to-Low
+GND
+VOL
+VOH
+tPLZ
+VM
+VM
+VY
+VX
+GND
+VM
+tPHZ
+tPZL
+tPZH
+VCC
+Output
+High-to-Off
+Off-to-High
+VI
+OE Input
+ 
+ 
+Test conditions are given in Table 1. 
+Measurement points are given in Table 2. 
+Logic levels: VOL and VOH are typical output voltage levels that occur with the output load. 
+ 
+Figure 3. Enable and Disable Times 
+ 
+Table 2. Measurement Points 
+SUPPLY VOLTAGE 
+INPUT 
+OUTPUT 
+VCC 
+VI 
+VM 
+(1) 
+VM 
+VX 
+VY 
+2.0V to 5.5V 
+VCC 
+0.5 × VCC 
+0.5 × VCC 
+0.1 × VCC 
+0.9 × VCC 
+NOTE: 
+1. The measurement points should be VIH or VIL when the input rising or falling time exceeds 6.0ns. 
+ 
+ 
+
+Octal D-Type Positive Edge-Triggered 
+74HC374 
+Flip-Flop with 3-State Outputs 
+ 
+ 
+8 
+NOVEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+Changes from Original (NOVEMBER 2023) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00181.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOIC-20 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+2.350 
+2.650 
+0.093 
+0.104 
+A1 
+0.100 
+0.300 
+0.004 
+0.012 
+A2 
+2.100 
+2.500 
+0.083 
+0.098 
+b 
+0.330 
+0.510 
+0.013 
+0.020 
+c 
+0.204 
+0.330 
+0.008 
+0.013 
+D 
+12.520 
+13.000 
+0.493 
+0.512 
+E 
+7.400 
+7.600 
+0.291 
+0.299 
+E1 
+10.210 
+10.610 
+0.402 
+0.418 
+e 
+1.27 BSC 
+0.050 BSC 
+L 
+0.400 
+1.270 
+0.016 
+0.050 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+e
+D
+E
+E1
+A2
+A1
+A
+b
+c
+L
+θ
+2.20
+1.27
+0.60
+9.61
+RECOMMENDED LAND PATTERN (Unit: mm)
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00021.002 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TSSOP-20 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+- 
+- 
+1.200 
+A1 
+0.050 
+- 
+0.150 
+A2 
+0.800 
+- 
+1.050 
+b 
+0.190 
+- 
+0.300 
+c 
+0.090 
+- 
+0.200 
+D 
+6.400 
+- 
+6.600 
+E 
+4.300 
+- 
+4.500 
+E1 
+6.200 
+- 
+6.600 
+e 
+0.650 BSC 
+L 
+0.450 
+- 
+0.750 
+H 
+0.250 TYP 
+θ 
+0° 
+- 
+8° 
+ccc 
+0.100 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+3. Reference JEDEC MO-153. 
+ 
+ 
+E1
+E
+e
+b
+A
+A1
+A2
+θ
+L
+H
+c
+D
+1.78
+0.65
+0.42
+RECOMMENDED LAND PATTERN (Unit: mm)
+5.94
+ccc C
+SEATING PLANE
+C
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+SOIC-20 
+13″ 
+24.4 
+10.90 
+13.30 
+3.00 
+4.0 
+12.0 
+2.0 
+24.0 
+Q1 
+TSSOP-20 
+13″ 
+16.4 
+6.80 
+6.90 
+1.50 
+4.0 
+8.0 
+2.0 
+16.0 
+Q1 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+ 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

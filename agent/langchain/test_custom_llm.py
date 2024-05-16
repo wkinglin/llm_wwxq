@@ -34,4 +34,4 @@ agent = initialize_agent(tools, local_llm, agent=AgentType.ZERO_SHOT_REACT_DESCR
 country = "英国"
 # print(llm_chain.run(country)) 
 
-print(agent.run("今天是2024年4月8日，请查询搜索引擎回答历史上的今天发生了哪些大事"))
+print(agent.run("今天是2024年4月12日，请查询搜索引擎回答历史上的今天发生了哪些大事"))

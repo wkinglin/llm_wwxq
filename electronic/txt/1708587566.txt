@@ -1,0 +1,4163 @@
+ 
+SGM90509 
+8-Channel, 12-Bit, Configurable ADC/DAC 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+NOVEMBER 2023–REV.A 
+ 
+GENERAL DESCRIPTION 
+The SGM90509 features 8 input/output (I/O) pins, 
+which can be independently configured as voltage 
+digital-to-analog converter (DAC) outputs, analog-to- 
+digital converter (ADC) inputs, digital outputs, or digital 
+inputs. When an I/O pin is configured as a DAC output, 
+it is from a 12-bit DAC output. The output range of the 
+DAC can be configured to 0V to VREF or 0V to 2 × VREF 
+by software. When an I/O pin is configured as an ADC 
+input, its input goes to a 12-bit ADC through the 
+multiplexer. The ADC input range can be configured to 
+VREF or 2 × VREF by software. The I/O pins can also be 
+configured as digital general-purpose input or output 
+(GPIO) pins. 
+The SGM90509 is operated by a serial peripheral 
+interface (SPI). 
+The SGM90509 contains an integrated 2.5V, 10ppm/℃
+(TYP) reference, and an on-chip temperature sensor, 
+which gives an estimation of the die temperature.  
+The SGM90509 is available in Green TSSOP-16, 
+TQFN-3×3-16BL and WLCSP-2.05×2.05-16B packages. 
+It operates over an ambient temperature range of -40℃ 
+to +125℃. 
+ 
+FEATURES 
+● Configurable 8 I/O Pins 
+ 8 Channels, 12-Bit DAC 
+ 8 Channels, 12-Bit ADC 
+ 8 Channels, GPIO 
+● On-Chip Temperature Sensor 
+● Supply Monitor 
+● SPI Interface 
+● Available in Green TSSOP-16, TQFN-3×3-16BL 
+and WLCSP-2.05×2.05-16B Packages 
+ 
+ 
+APPLICATIONS 
+Optical Module 
+Industrial Automation 
+General-Purpose Analog and Digital I/O 
+ 
+ 
+ 
+ 
+
+8-Channel, 12-Bit, Configurable ADC/DAC 
+SGM90509 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+2 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM90509 
+TSSOP-16 
+-40℃ to +125℃ 
+SGM90509XTS16G/TR 
+SGM90509 
+XTS16 
+XXXXX 
+Tape and Reel, 4000 
+TQFN-3×3-16BL 
+-40℃ to +125℃ 
+SGM90509XTSK16G/TR 
+00WSK 
+XXXXX 
+Tape and Reel, 4000 
+WLCSP-2.05×2.05-16B 
+-40℃ to +125℃ 
+SGM90509XG/TR 
+90509 
+XXXXX 
+XX#XX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code. XX#XX = Coordinate Information and Wafer ID Number. 
+TSSOP-16/TQFN-3×3-16BL 
+WLCSP-2.05×2.05-16B 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+Wafer ID Number ("A" = 01, "B" = 02, … "Y" = 25)
+Coordinate Information
+Coordinate Information
+XX
+XX
+Trace Code
+Vendor Code 
+Date Code - Year
+X
+X X
+X X
+＃
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Voltage Range (with Respect to GND) 
+VDD (1) ................................................................. -0.3V to 6V 
+VLOGIC (1) ............................................................. -0.3V to 6V 
+Analog Input Voltage 
+..............................-0.3V to VDD + 0.3V 
+Digital Input Voltage 
+........................... 
+-0.3V to VLOGIC + 0.3V 
+Digital Output Voltage ........................ 
+-0.3V to VLOGIC + 0.3V 
+VREF 
+........................................................-0.3V to VDD + 0.3V 
+Package Thermal Resistance 
+TSSOP-16, θJA 
+......................................................... 88℃/W 
+TQFN-3×3-16BL, θJA 
+................................................ 91℃/W 
+WLCSP-2.05×2.05-16B, θJA 
+..................................... 97℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+1500V 
+CDM .............................................................................. 
+500V 
+ 
+NOTE: 
+1. VDD is powered up first, and the VDD voltage must be higher 
+than or equal to the VLOGIC voltage. 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Temperature Range .................... -40℃ to +125℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+
+8-Channel, 12-Bit, Configurable ADC/DAC 
+SGM90509 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+3 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+  (TOP VIEW) 
+(TOP VIEW) 
+VLOGIC
+SDI
+GND
+I/O7
+I/O6
+I/O4
+nSYNC
+VREF
+I/O1
+I/O0
+VDD
+I/O3
+SCLK
+12
+13
+14
+15
+16
+1
+2
+3
+4
+5
+6
+7
+8
+11
+10
+9
+SDO
+I/O2
+I/O5
+ 
+I/O2
+I/O0
+I/O6
+I/O1
+VDD
+2
+3
+4
+I/O7
+GND
+I/O5
+9
+11
+12
+10
+I/O3
+VREF
+SDO
+I/O4
+5
+6
+7
+8
+SCLK
+SDI
+13
+14
+16
+15
+VLOGIC
+nSYNC
+1
+ 
+  TSSOP-16 
+TQFN-3×3-16BL 
+ 
+    (TOP VIEW) 
+SDI
+SCLK
+VLOGIC
+nSYNC
+GND
+I/O7
+I/O0
+VDD
+I/O6
+I/O3
+I/O2
+I/O1
+I/O4
+SDO
+VREF
+I/O5
+A
+B
+C
+D
+1
+2
+3
+4
+ 
+   WLCSP-2.05×2.05-16B 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+TSSOP-16 
+TQFN- 
+3×3-16BL 
+WLCSP- 
+2.05×2.05-16B 
+1 
+15 
+A3 
+VLOGIC 
+Interface Power Supply Pin. The voltage range is from 1.7V to 5.5V. 
+2 
+16 
+A4 
+nSYNC 
+Frame Synchronization Input Pin. Active low. When this pin goes low, 
+the data frame is shifted on the falling edges of the next 16 clocks. 
+3 
+1 
+B4 
+VDD 
+Power Supply Pin. It can be operated from 2.7V to 5.5V. It needs a 
+0.1μF decoupled capacitor to GND. 
+4, 5, 6, 7, 10, 
+11, 12, 13  
+2, 3, 4, 5, 
+8, 9, 10, 11 
+B3, C4, C3, C2, 
+D1, D4, C1, B2 I/O0 to I/O7  Input0/Output0 through Input7/Output7. These pins can be 
+independently configured as DACs, ADCs, or GPIOs. 
+8 
+6 
+D3 
+VREF 
+Reference Input/Output Pin.  
+9 
+7 
+D2 
+SDO 
+Data Output Pin. Logic output.  
+14 
+12 
+B1 
+GND 
+Ground. 
+15 
+13 
+A1 
+SDI 
+Data Input Pin. Logic input. 
+16 
+14 
+A2 
+SCLK 
+Serial Clock Input Pin.  
+ 
+ 
+
+8-Channel, 12-Bit, Configurable ADC/DAC 
+SGM90509 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+4 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VDD = 2.7V to 5.5V, VREF = 2.5V (internal), RL = 2kΩ to GND, CL = 200pF to GND, TA = -40℃ to +125℃, unless otherwise 
+noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+ADC Performance (fIN = 1kHz Sine Wave) 
+Resolution 
+ 
+ 
+ 
+12 
+ 
+Bits 
+Input Range 
+ 
+When using the internal ADC buffer, there is a 
+dead band of 0mV to 5mV 
+0 
+ 
+VREF 
+V 
+ 
+0 
+ 
+2 × VREF 
+Integral Nonlinearity 
+INL 
+ 
+-1.74 
+ 
+1.97 
+LSB 
+Differential Nonlinearity 
+DNL 
+ 
+-1 
+ 
+1 
+LSB 
+Offset Error 
+EO 
+ 
+-14 
+ 
+14 
+mV 
+Gain Error 
+EG 
+ 
+-0.26 
+ 
+0.38 
+% FSR 
+Throughput Rate (1) 
+ 
+ 
+ 
+ 
+250 
+kSPS 
+Track Time (1) 
+tTRACK 
+ 
+500 
+ 
+ 
+ns 
+Conversion Time (1) 
+tCONV 
+ 
+ 
+ 
+2 
+µs 
+Signal-to-Noise Ratio 
+SNR 
+VDD = 2.7V, input range = 0V to VREF 
+ 
+69 
+ 
+dB 
+VDD = 3.3V, input range = 0V to VREF 
+ 
+67 
+ 
+VDD = 5.5V, input range = 0V to 2 × VREF 
+ 
+66 
+ 
+Signal-to-Noise + Distortion 
+SINAD 
+VDD = 2.7V, input range = 0V to VREF 
+ 
+69 
+ 
+dB 
+VDD = 3.3V, input range = 0V to VREF 
+ 
+67 
+ 
+VDD = 5.5V, input range = 0V to 2 × VREF 
+ 
+66 
+ 
+Total Harmonic Distortion 
+THD 
+VDD = 2.7V, input range = 0V to VREF 
+ 
+-93 
+ 
+dB 
+VDD = 3.3V, input range = 0V to VREF 
+ 
+-93 
+ 
+VDD = 5.5V, input range = 0V to 2 × VREF 
+ 
+-76 
+ 
+Spurious Free Dynamic Range 
+SFDR 
+VDD = 2.7V, input range = 0V to VREF 
+ 
+93 
+ 
+dB 
+VDD = 3.3V, input range = 0V to VREF 
+ 
+93 
+ 
+VDD = 5.5V, input range = 0V to 2 × VREF 
+ 
+76 
+ 
+Channel-to-Channel Isolation 
+ 
+fIN = 1kHz 
+ 
+-95 
+ 
+dB 
+Input Capacitance (2) 
+ 
+ 
+ 
+25 
+ 
+pF 
+Full Power Bandwidth 
+ 
+At -3dB 
+ 
+22 
+ 
+MHz 
+At -0.1dB 
+ 
+3 
+ 
+DAC Performance (3) 
+Resolution 
+ 
+ 
+ 
+12 
+ 
+Bits 
+Output Range 
+ 
+ 
+0 
+ 
+VREF 
+V 
+ 
+0 
+ 
+2 × VREF 
+Integral Nonlinearity 
+INL 
+ 
+-4.5 
+ 
+3.5 
+LSB 
+Differential Nonlinearity 
+DNL 
+ 
+-0.99 
+ 
+1 
+LSB 
+Offset Error 
+EO 
+ 
+-21 
+ 
+22 
+mV 
+Offset Error Drift (1) 
+ 
+ 
+ 
+9 
+ 
+µV/℃ 
+Gain Error 
+EG 
+Output range = 0V to VREF 
+-0.7 
+ 
+0.92 
+% FSR 
+Output range = 0V to 2 × VREF 
+-0.87 
+ 
+0.6 
+ 
+ 
+
+8-Channel, 12-Bit, Configurable ADC/DAC 
+SGM90509 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+5 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(VDD = 2.7V to 5.5V, VREF = 2.5V (internal), RL = 2kΩ to GND, CL = 200pF to GND, TA = -40℃ to +125℃, unless otherwise 
+noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Zero-Code Error 
+ 
+ 
+ 
+1.4 
+12 
+mV 
+Total Unadjusted Error 
+TUE 
+Output range = 0V to VREF 
+ 
+±0.05 
+±1.14 
+% FSR 
+Output range = 0V to 2 × VREF 
+ 
+±0.18 
+±1 
+Capacitive Load Stability (1) 
+ 
+RLOAD = ∞ 
+ 
+ 
+2 
+nF 
+RLOAD = 1kΩ 
+ 
+ 
+10 
+Resistive Load (2) 
+ 
+ 
+1 
+ 
+ 
+kΩ 
+Short-Circuit Current 
+ 
+ 
+ 
+25 
+ 
+mA 
+DC Crosstalk (1) 
+ 
+Due to single channel, full-scale output 
+change 
+-4 
+ 
+4 
+µV 
+DC Output Impedance 
+ 
+ 
+ 
+0.2 
+ 
+Ω 
+DC Power Supply Rejection Ratio (1) 
+PSRR 
+DAC code = mid-scale,  
+VDD = 3V ± 10% or 5V ± 10% 
+ 
+0.02 
+ 
+mV/V 
+Load Impedance at Rails (4) 
+ 
+ 
+ 
+57 
+ 
+Ω 
+Load Regulation 
+ 
+VDD = 5V ± 10%, DAC code = mid-scale, 
+-10mA ≤ IOUT ≤ 10mA 
+ 
+180 
+ 
+µV/mA 
+VDD = 3V ± 10%, DAC code = mid-scale, 
+-10mA ≤ IOUT ≤ 10mA 
+ 
+150 
+ 
+Power-Up Time 
+ 
+Exiting power-down mode, VDD = 5V 
+ 
+5 
+ 
+µs 
+AC Specifications 
+Slew Rate 
+ 
+Measured from 10% to 90% of full-scale 
+ 
+0.5 
+ 
+V/µs 
+Settling Time 
+ 
+¼ scale to ¾ scale settling to 1LSB 
+ 
+3.6 
+ 
+µs 
+DAC Glitch Impulse 
+ 
+ 
+ 
+4 
+ 
+nV-sec 
+DAC to DAC Crosstalk 
+ 
+ 
+ 
+1.3 
+ 
+nV-sec 
+Digital Crosstalk 
+ 
+ 
+ 
+0.1 
+ 
+nV-sec 
+Analog Crosstalk 
+ 
+ 
+ 
+1 
+ 
+nV-sec 
+Digital Feedthrough 
+ 
+ 
+ 
+0.1 
+ 
+nV-sec 
+Multiplying Bandwidth 
+ 
+DAC code = full-scale,  
+output range = 0V to VREF 
+ 
+240 
+ 
+kHz 
+Output Voltage Noise Spectral 
+Density 
+ 
+DAC code = mid-scale,  
+output range = 0V to 2 × VREF,  
+measured at 10kHz 
+ 
+210 
+ 
+nV/√Hz 
+Signal-to-Noise Ratio 
+SNR 
+ 
+ 
+79 
+ 
+dB 
+Spurious Free Dynamic Range 
+SFDR 
+ 
+ 
+81 
+ 
+dB 
+Signal-to-Noise + Distortion 
+SINAD 
+ 
+ 
+75 
+ 
+dB 
+Total Harmonic Distortion  
+THD 
+ 
+ 
+-77 
+ 
+dB 
+Reference Input 
+VREF Input Voltage 
+ 
+ 
+2 
+ 
+VDD 
+V 
+Reference Input Impedance 
+ 
+DAC output range = 0V to 2 × VREF 
+ 
+15 
+ 
+kΩ 
+DAC output range = 0V to VREF 
+ 
+20 
+ 
+Reference Output 
+VREF Output Voltage 
+ 
+At ambient 
+2.484 
+2.5 
+2.516 
+V 
+Factory precision 
+2.498 
+2.5 
+2.502 
+VREF Temperature Coefficient 
+ 
+ 
+ 
+10 
+ 
+ppm/℃ 
+ 
+ 
+
+8-Channel, 12-Bit, Configurable ADC/DAC 
+SGM90509 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+6 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(VDD = 2.7V to 5.5V, VREF = 2.5V (internal), RL = 2kΩ to GND, CL = 200pF to GND, TA = -40℃ to +125℃, unless otherwise 
+noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Reference Output 
+Capacitive Load Stability 
+ 
+RL = 2kΩ 
+ 
+5 
+ 
+μF 
+Output Impedance (1) 
+ 
+VDD = 2.7V 
+ 
+0.15 
+ 
+Ω 
+VDD = 5V 
+ 
+0.25 
+ 
+Output Voltage Noise 
+ 
+0.1Hz to 10Hz 
+ 
+25 
+ 
+µVp-p 
+Output Voltage Noise Density 
+ 
+At ambient, f = 1kHz, CL = 1µF 
+ 
+210 
+ 
+nV/√Hz 
+Output Current Load Capability 
+ 
+VDD ≥ 3V 
+ 
+±5 
+ 
+mA 
+GPIO Input 
+High Input Voltage 
+VIH 
+ 
+0.7 × VDD 
+ 
+ 
+V 
+Low Input Voltage 
+VIL 
+ 
+ 
+ 
+0.3 × VDD 
+V 
+Input Capacitance (1) 
+ 
+ 
+ 
+20 
+ 
+pF 
+Hysteresis 
+ 
+ 
+ 
+0.5 
+ 
+V 
+Input Current 
+ 
+ 
+ 
+±1 
+ 
+µA 
+GPIO Output 
+High Output Voltage 
+VOH 
+ISOURCE = 1mA 
+VDD = 2.7V 
+2.3 
+ 
+ 
+V 
+VDD = 5.5V 
+5.2 
+ 
+ 
+Low Output Voltage 
+VOL 
+ISINK = 1mA 
+VDD = 2.7V 
+ 
+ 
+0.4 
+V 
+VDD = 5.5V 
+ 
+ 
+0.4 
+Logic Input 
+High Input Voltage  
+VINH 
+ 
+0.7 × VLOGIC 
+ 
+ 
+V 
+Low Input Voltage 
+VINL 
+ 
+ 
+ 
+0.3 × VLOGIC 
+V 
+Input Current 
+IIN 
+ 
+ 
+±1 
+ 
+µA 
+Input Capacitance (1) 
+CIN 
+ 
+ 
+10 
+ 
+pF 
+Logic Output (SDO) 
+High Output Voltage 
+VOH 
+ISOURCE = 200µA 
+VDD = 2.7V, VLOGIC = 1.7V 
+1.5 
+ 
+ 
+V 
+VDD = 5.5V, VLOGIC = 5.5V 
+5.3 
+ 
+ 
+Low Output Voltage 
+VOL 
+ISINK = 200µA 
+VDD = 2.7V, VLOGIC = 1.7V 
+ 
+ 
+0.4 
+V 
+VDD = 5.5V, VLOGIC = 5.5V 
+ 
+ 
+0.4 
+Floating-State Output 
+Capacitance (1) 
+ 
+ 
+ 
+10 
+ 
+pF 
+Temperature Sensor (1) 
+Resolution 
+ 
+ 
+ 
+12 
+ 
+Bits 
+Operating Temperature Range  
+ 
+ 
+-40 
+ 
+125 
+℃ 
+Accuracy 
+ 
+ 
+ 
+±3 
+ 
+℃ 
+Track Time (1) 
+tTRACK 
+ADC buffer enabled 
+ 
+2 
+ 
+µs 
+ADC buffer disabled 
+ 
+2 
+ 
+Supply Monitor Accuracy 
+ 
+ 
+ 
+0.5 
+ 
+% 
+ 
+ 
+
+8-Channel, 12-Bit, Configurable ADC/DAC 
+SGM90509 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+7 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(VDD = 2.7V to 5.5V, VREF = 2.5V (internal), RL = 2kΩ to GND, CL = 200pF to GND, TA = -40℃ to +125℃, unless otherwise 
+noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Power Requirements 
+Analog Supply Voltage 
+VDD 
+ 
+2.7 
+ 
+5.5 
+V 
+Analog Supply Current 
+IDD 
+Digital inputs = 0V or VDD,  
+I/O0 to I/O7 configured as DACs and ADCs,  
+internal reference on, ADC buffer on, DAC code = 0xFFF, 
+range is 0V to 2 × VREF for DACs and ADCs 
+ 
+ 
+5 
+mA 
+Power-down mode 
+ 
+ 
+350 
+µA 
+Normal mode,  
+VDD = 5V 
+I/O0 to I/O7 are DACs, internal reference,  
+gain = 2 
+ 
+1.15 
+ 
+mA 
+I/O0 to I/O7 are DACs, external reference, 
+gain = 2 
+ 
+0.9 
+ 
+I/O0 to I/O7 are DACs and sampled by the 
+ADC, internal reference, gain = 2 
+ 
+2.4 
+ 
+I/O0 to I/O7 are DACs and sampled by the 
+ADC, external reference, gain = 2 
+ 
+2.17 
+ 
+I/O0 to I/O7 are ADCs, internal reference,  
+gain = 2 
+ 
+1.94 
+ 
+I/O0 to I/O7 are ADCs, external reference, 
+gain = 2 
+ 
+1.7 
+ 
+I/O0 to I/O7 are general-purpose outputs 
+ 
+0.66 
+ 
+I/O0 to I/O7 are general-purpose inputs 
+ 
+0.66 
+ 
+I/O0 to I/O3 are general-purpose outputs,  
+I/O4 to I/O7 are general-purpose inputs 
+ 
+0.66 
+ 
+Normal mode,  
+VDD = 3V 
+I/O0 to I/O7 are DACs, internal reference,  
+gain = 1 
+ 
+0.92 
+ 
+mA 
+I/O0 to I/O7 are DACs, external reference, 
+gain = 1 
+ 
+0.73 
+ 
+I/O0 to I/O7 are DACs and sampled by the 
+ADC, internal reference, gain = 1 
+ 
+2.15 
+ 
+I/O0 to I/O7 are DACs and sampled by the 
+ADC, external reference, gain = 1 
+ 
+1.96 
+ 
+I/O0 to I/O7 are ADCs, internal reference,  
+gain = 1 
+ 
+1.75 
+ 
+I/O0 to I/O7 are ADCs, external reference,  
+gain = 1 
+ 
+1.56 
+ 
+I/O0 to I/O7 are general-purpose outputs 
+ 
+0.5 
+ 
+I/O0 to I/O7 are general-purpose inputs 
+ 
+0.5 
+ 
+Digital I/O Supply Voltage 
+VLOGIC 
+ 
+1.7 
+ 
+VDD 
+V 
+Digital I/O Supply Current 
+ILOGIC 
+ 
+ 
+ 
+15 
+µA 
+ 
+NOTES:  
+1. Guaranteed by design and characterization. Not production tested. 
+2. All specifications are tested with an input signal at 0.5dB below full-scale, unless otherwise noted. All available input ranges 
+are described in full-scale input range (FSR), but not performance guaranteed. 
+3. DC specifications are tested when the output is floating, unless otherwise noted. The linearity is calculated with the code range 
+of 64 to 4032. 
+4. When drawing a load current at either power rail, there will be a voltage dropping respect to the power rail as there is a 57Ω 
+typical output impedance of the chip output channel. For example, when sourcing 1mA, the minimum output voltage dropping = 
+57Ω × 1mA = 57mV. 
+ 
+ 
+
+8-Channel, 12-Bit, Configurable ADC/DAC 
+SGM90509 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+8 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TIMING CHARACTERISTICS 
+(All input signals are specified with tR = tF = 5ns (10% to 90% of VDD) and timed from a voltage level of (VIL + VIH)/2, TA = -40℃ to 
++125℃, unless otherwise noted.) (1) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+SCLK Cycle Time 
+t1 
+Write operation 
+1.7V ≤ VLOGIC < 3V 
+33 
+ 
+ 
+ns 
+3V ≤ VLOGIC ≤ 5.5V 
+20 
+ 
+ 
+Read operation 
+1.7V ≤ VLOGIC < 3V 
+65 
+ 
+ 
+3V ≤ VLOGIC ≤ 5.5V 
+50 
+ 
+ 
+SCLK High Time 
+t2 
+1.7V ≤ VLOGIC < 3V 
+16 
+ 
+ 
+ns 
+3V ≤ VLOGIC ≤ 5.5V 
+10 
+ 
+ 
+SCLK Low Time 
+t3 
+1.7V ≤ VLOGIC < 3V 
+16 
+ 
+ 
+ns 
+3V ≤ VLOGIC ≤ 5.5V 
+10 
+ 
+ 
+nSYNC Falling Edge to SCLK Falling Edge 
+Setup Time (2) 
+t4 
+1.7V ≤ VLOGIC < 3V 
+1.7 
+ 
+ 
+µs 
+3V ≤ VLOGIC ≤ 5.5V 
+1.7 
+ 
+ 
+Data Setup Time 
+t5 
+1.7V ≤ VLOGIC < 3V 
+7 
+ 
+ 
+ns 
+3V ≤ VLOGIC ≤ 5.5V 
+7 
+ 
+ 
+Data Hold Time 
+t6 
+1.7V ≤ VLOGIC < 3V 
+5 
+ 
+ 
+ns 
+3V ≤ VLOGIC ≤ 5.5V 
+5 
+ 
+ 
+SCLK Falling Edge to nSYNC Rising Edge 
+t7 
+1.7V ≤ VLOGIC < 3V 
+15 
+ 
+ 
+ns 
+3V ≤ VLOGIC ≤ 5.5V 
+10 
+ 
+ 
+Minimum nSYNC High Time for Register Write 
+Operation 
+t8 
+1.7V ≤ VLOGIC < 3V 
+30 
+ 
+ 
+ns 
+3V ≤ VLOGIC ≤ 5.5V 
+30 
+ 
+ 
+Minimum nSYNC High Time for Register Read 
+Operation 
+1.7V ≤ VLOGIC < 3V 
+60 
+ 
+ 
+ns 
+3V ≤ VLOGIC ≤ 5.5V 
+60 
+ 
+ 
+SCLK Rising Edge to SDO Valid 
+t9 
+1.7V ≤ VLOGIC < 3V 
+ 
+ 
+56 
+ns 
+3V ≤ VLOGIC ≤ 5.5V 
+ 
+ 
+25 
+ 
+NOTES: 
+1. Guaranteed by design and characterization. Not production tested.  
+2. For high-speed applications, the SGM90509 supports the minimum t4 value of 30ns. In this case, the ADC maximum 
+throughput rate can be up to 400kSPS, and the typical SNR is 60dB. The 400kSPS throughput rate and 60dB SNR are 
+guaranteed only by the characteristic test results with limited samples. For the best ADC performance, t4 > 1.7µs and t8 > 500ns 
+are required. Otherwise, t4 > 30ns and t8 > 500ns are required for reading ADC, t4 > 30ns and t8 > 60ns are required for reading 
+registers, and t4 > 30ns and t8 > 30ns are required for writing registers. 
+ 
+TIMING DIAGRAM 
+nSYNC
+SCLK
+SDI
+SDO
+Single Frame 
+t7
+t3
+t4
+DI15
+t6
+1
+4
+2
+15
+DI0
+16
+5
+DO14
+DO1
+DO15
+DI14
+DO0
+t2
+t5
+t8
+t1
+DI1
+t9
+ 
+ 
+Figure 1. Timing Diagram 
+ 
+
+8-Channel, 12-Bit, Configurable ADC/DAC 
+SGM90509 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+9 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+ 
+ 
+     ADC INL (VDD = 2.7V)  
+    ADC INL (VDD = 5.5V) 
+ 
+ 
+     ADC DNL (VDD = 2.7V) 
+    ADC DNL (VDD = 5.5V) 
+ 
+ 
+    Histogram of ADC Codes (VDD = 2.7V) 
+    Histogram of ADC Codes (VDD = 5.5V) 
+ 
+ 
+ 
+ 
+-1.0
+-0.8
+-0.6
+-0.4
+-0.2
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+0
+1000
+2000
+3000
+4000
+INL (LSB) 
+Codes 
+VDD =  2.7V, EXT REF = 2.5V 
+-1.0
+-0.8
+-0.6
+-0.4
+-0.2
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+0
+1000
+2000
+3000
+4000
+INL (LSB) 
+Codes 
+VDD =  5.5V, EXT REF = 2.5V 
+-1.0
+-0.8
+-0.6
+-0.4
+-0.2
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+0
+1000
+2000
+3000
+4000
+DNL (LSB) 
+Codes 
+VDD =  2.7V, EXT REF = 2.5V 
+-1.0
+-0.8
+-0.6
+-0.4
+-0.2
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+0
+1000
+2000
+3000
+4000
+DNL (LSB) 
+Codes 
+VDD =  5.5V, EXT REF = 2.5V 
+0
+10000
+20000
+30000
+40000
+50000
+60000
+2455
+2456
+2457
+2458
+2459
+Number of Occurrence 
+ADC Code 
+VDD =  2.7V 
+EXT REF = 2.5V 
+Samples = 60000 
+VIN = 1.5V 
+Gain = 1 
+0
+5000
+10000
+15000
+20000
+25000
+30000
+35000
+2460 2461 2462 2463 2464 2465 2466 2467
+Number of Occurrence 
+ADC Code 
+VDD =  5.5V 
+EXT REF = 2.5V 
+Samples = 60000 
+VIN = 1.5V 
+Gain = 1 
+
+8-Channel, 12-Bit, Configurable ADC/DAC 
+SGM90509 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+10 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+    DAC INL (VDD = 2.7V) 
+    DAC INL (VDD = 5.5V) 
+ 
+ 
+     DAC DNL (VDD = 2.7V) 
+     DAC DNL (VDD = 5.5V) 
+ 
+ 
+    DAC Digital-to-Analog Glitch (Rising) 
+    DAC Digital-to-Analog Glitch (Falling) 
+ 
+ 
+ 
+ 
+-1.0
+-0.8
+-0.6
+-0.4
+-0.2
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+0
+1024
+2048
+3072
+4096
+INL (LSB) 
+Codes 
+VDD =  2.7V, EXT REF = 2.5V 
+-1.0
+-0.8
+-0.6
+-0.4
+-0.2
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+0
+1024
+2048
+3072
+4096
+INL (LSB) 
+Codes 
+VDD =  5.5V, EXT REF = 2.5V 
+-1.0
+-0.8
+-0.6
+-0.4
+-0.2
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+0
+1024
+2048
+3072
+4096
+DNL (LSB) 
+Codes 
+VDD =  2.7V, EXT REF = 2.5V 
+-1.0
+-0.8
+-0.6
+-0.4
+-0.2
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+0
+1000
+2000
+3000
+4000
+DNL (LSB) 
+Codes 
+VDD =  5.5V, EXT REF = 2.5V 
+2.570
+2.572
+2.574
+2.576
+2.578
+2.580
+2.582
+2.584
+2.586
+2.588
+2.590
+0
+5
+10
+15
+20
+VOUT (V) 
+Time (μs) 
+2.570
+2.572
+2.574
+2.576
+2.578
+2.580
+2.582
+2.584
+2.586
+2.588
+2.590
+0
+5
+10
+15
+20
+VOUT (V) 
+Time (μs) 
+
+8-Channel, 12-Bit, Configurable ADC/DAC 
+SGM90509 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+11 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+     DAC Settling Time (100 Code Change Rising Edge)  
+     DAC Settling Time (100 Code Change Falling Edge) 
+ 
+ 
+     DAC Settling Time (Output Range = 0V to VREF) 
+     DAC Settling Time (Output Range = 0V to 2 × VREF) 
+ 
+ 
+     DAC Settling Time vs. Capacitive Load 
+     Internal Reference 1/f Noise 
+ 
+ 
+ 
+ 
+2.30
+2.35
+2.40
+2.45
+2.50
+2.55
+0
+5
+10
+15
+20
+VOUT (V) 
+Time (μs) 
+2.30
+2.35
+2.40
+2.45
+2.50
+2.55
+0
+5
+10
+15
+20
+VOUT (V) 
+Time (μs) 
+0.50
+0.75
+1.00
+1.25
+1.50
+1.75
+2.00
+0
+1
+2
+3
+4
+5
+VOUT (V) 
+Time (μs) 
+RL =  2kΩ,  
+CL = 2000pF 
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+4.0
+0
+1
+2
+3
+4
+5
+VOUT (V) 
+Time (μs) 
+RL =  2kΩ,  
+CL = 2000pF 
+0
+1
+2
+3
+4
+5
+0
+5
+10
+15
+20
+VOUT (V) 
+Time (μs) 
+0nF Load 
+10nF Load 
+-50
+-40
+-30
+-20
+-10
+0
+10
+20
+30
+40
+50
+0
+2
+4
+6
+8
+10
+VOUT (μVP-P) 
+Time (s) 
+
+8-Channel, 12-Bit, Configurable ADC/DAC 
+SGM90509 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+12 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+     DAC 1/f Noise with External Reference 
+     DAC 1/f Noise with Internal Reference 
+ 
+ 
+     DAC Output Sink and Source Capability 
+     DAC Output Sink and Source Capability 
+ 
+ 
+      Reference Line Regulation 
+     ADC Full Power Bandwidth vs. Frequency 
+ 
+ 
+ 
+ 
+-20
+-15
+-10
+-5
+0
+5
+10
+15
+20
+0
+2
+4
+6
+8
+10
+VOUT (μVP-P) 
+Time (s) 
+-20
+-15
+-10
+-5
+0
+5
+10
+15
+20
+0
+2
+4
+6
+8
+10
+VOUT (μVP-P) 
+Time (s) 
+-1
+0
+1
+2
+3
+4
+5
+6
+-0.03
+-0.02
+-0.01
+0
+0.01
+0.02
+0.03
+VOUT (V) 
+Current (A) 
+Zero-Scale 
+1/4 Scale 
+Mid-Scale 
+3/4 Scale 
+Full-Scale 
+VDD = 5V, INT REF = 2.5V, 0V to VREF 
+-1
+0
+1
+2
+3
+4
+5
+6
+-0.03
+-0.02
+-0.01
+0
+0.01
+0.02
+0.03
+VOUT (V) 
+Current (A) 
+Zero-Scale 
+1/4 Scale 
+Mid-Scale 
+3/4 Scale 
+Full-Scale 
+VDD = 5V, INT REF = 2.5V, 0V to 2 × VREF 
+2.4976
+2.4978
+2.4980
+2.4982
+2.4984
+2.4986
+2.7
+3.1
+3.5
+3.9
+4.3
+4.7
+5.1
+5.5
+VREF (V) 
+VDD (V) 
+-6
+-5
+-4
+-3
+-2
+-1
+0
+1
+ADC Full Power Bandwidth (dB) 
+Frequency (Hz) 
+VDD = 3V, 5V 
+ 
+1k          10k          100k         1M           10M       100M 
+
+8-Channel, 12-Bit, Configurable ADC/DAC 
+SGM90509 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+13 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+     ADC Input Current vs. Voltage 
+     ADC Input Current vs. Voltage 
+ 
+ 
+     ADC Input Current vs. Voltage 
+     ADC Input Current vs. Voltage 
+ 
+ 
+     DAC Sine Wave Output 
+     DAC Sine Wave Output 
+ 
+ 
+ 
+ 
+-400
+-200
+0
+200
+400
+600
+800
+1000
+1200
+0.1
+0.5
+0.9
+1.3
+1.7
+2.1
+2.5
+ADC Input Current (nA) 
+Voltage (V) 
+VDD =  3.3V 
+fSAMPLE = 200kSPS 
+Auxiliary Buffer Disabled 
+CH0 
+CH1 
+CH2 
+CH3 
+CH4 
+CH5 
+CH6 
+CH7 
+-100
+-50
+0
+50
+100
+150
+200
+250
+0.1
+0.5
+0.9
+1.3
+1.7
+2.1
+2.5
+ADC Input Current (nA) 
+Voltage (V) 
+VDD =  3.3V 
+fSAMPLE = 200kSPS 
+Auxiliary Buffer Enabled 
+CH0 
+CH1 
+CH2 
+CH3 
+CH4 
+CH5 
+CH6 
+CH7 
+-500
+0
+500
+1000
+1500
+2000
+2500
+3000
+0.1
+1.1
+2.1
+3.1
+4.1
+5.1
+ADC Input Current (nA) 
+Voltage (V) 
+VDD =  5V 
+fSAMPLE = 200kSPS 
+Auxiliary Buffer Disabled 
+CH0 
+CH1 
+CH2 
+CH3 
+CH4 
+CH5 
+CH6 
+CH7 
+-200
+-100
+0
+100
+200
+300
+400
+500
+0.1
+1.1
+2.1
+3.1
+4.1
+5.1
+ADC Input Current (nA) 
+Voltage (V) 
+VDD =  5V 
+fSAMPLE = 200kSPS 
+Auxiliary Buffer Enabled 
+CH0 
+CH1 
+CH2 
+CH3 
+CH4 
+CH5 
+CH6 
+CH7 
+-140
+-120
+-100
+-80
+-60
+-40
+-20
+0
+0
+5000
+10000
+15000
+20000
+Amplitude (dBFs) 
+Frequency (Hz) 
+Output Range = 0V to VREF 
+Bandwidth = 0Hz to 20kHz 
+fS = 250kHz 
+fOUT = 999.87Hz 
+SNR = 76dB 
+THD = -70dB 
+SFDR = 70dB 
+SINAD = 69dB 
+-140
+-120
+-100
+-80
+-60
+-40
+-20
+0
+0
+5000
+10000
+15000
+20000
+Amplitude (dBFs) 
+Frequency (Hz) 
+Output Range = 0V to 2 × VREF 
+Bandwidth = 0Hz to 20kHz 
+fS = 250kHz 
+fOUT = 999.87Hz 
+SNR = 79dB 
+THD = -77dB 
+SFDR = 81dB 
+SINAD = 75dB 
+
+8-Channel, 12-Bit, Configurable ADC/DAC 
+SGM90509 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+14 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+     DAC Output Noise Spectral Density (NSD)  
+     Reference Noise Spectral Density (NSD) 
+ 
+ 
+     Reference Output Voltage vs. Temperature 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+0
+200
+400
+600
+800
+1000
+1200
+1400
+10
+100
+1000
+10000
+100000
+NSD (nV/√Hz) 
+Frequency (Hz) 
+Full-Scale 
+3/4 Scale 
+Mid-Scale 
+1/4 Scale 
+Zero-Scale 
+ 
+0
+100
+200
+300
+400
+500
+600
+700
+800
+900
+1000
+10
+100
+1000
+10000
+100000
+NSD (nV/√Hz) 
+Frequency (Hz) 
+2.4985
+2.4990
+2.4995
+2.5000
+2.5005
+2.5010
+2.5015
+2.5020
+2.5025
+2.5030
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Reference Ouput Voltage (V) 
+Temperature (℃) 
+
+8-Channel, 12-Bit, Configurable ADC/DAC 
+SGM90509 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+15 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAM 
+SPI Interface
+Logic
+Power-On
+Reset
+nSYNC
+SCLK
+SDI
+SDO
+VDD
+VREF
+Input Register
+DAC Register
+DAC 0
+I/O0
+GPIO0
+Input Register
+DAC Register
+DAC 7
+I/O7
+GPIO7
+MUX
+2.5V 
+Reference
+12-Bit 
+Successive 
+Approximation 
+ADC
+T/H
+GND
+SGM90509
+Sequencer
+Temperature Sensor
+VLOGIC
+ 
+Figure 2. Block Diagram 
+ 
+ 
+ 
+
+8-Channel, 12-Bit, Configurable ADC/DAC 
+SGM90509 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+16 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION 
+DAC Section 
+The SGM90509 has eight 12-bit DACs. The DAC output 
+range can be set to 0V to VREF or 0V to 2 × VREF. And the 
+output range configuration is shared by all channels. The 
+input code to the DAC is straight binary, so the ideal output 
+voltage can be calculated based on the following equation: 
+ 
+
+
+×
+×
+
+
+
+IN
+OUT
+REF
+N
+D
+V
+ = G
+V
+2
+ 
+(1) 
+Where: 
+G = 1 for an output range of 0V to VREF or G = 2 for an output 
+range of 0V to 2 × VREF. 
+VREF = Voltage on the VREF pin. 
+DIN = Decimal equivalent of the binary code, which is loaded 
+to the DAC register. It can range from 0 to 4095. 
+N = 12.  
+ 
+ADC Section 
+The ADC is a fast, 12-bit, single-supply ADC. Each 
+conversion takes 2μs. The ADC input range can be 
+configured as 0V to VREF or 0V to 2 × VREF. All ADC channels 
+share the same input range. The ADC output code is straight 
+binary format. It is possible to set an I/Ox pin as both a DAC 
+and an ADC. In this case, the I/O is a DAC output, and at the 
+same time, the DAC voltage can be read back by an ADC 
+conversion and read sequence. The ADC conversion result is 
+in 16-bit format, please refer to Table 1. 
+ 
+GPIO Section 
+Each I/Ox pins can be used as a GPIO pin. An output can be 
+set by write data register. An input can be read by 
+configuration register. When an I/Ox pin is set as an output, it 
+is possible to read its status by also setting it as an input pin 
+at the same time. 
+ 
+Internal Reference 
+The SGM90509 has an on-chip 2.5V reference. The internal 
+reference is powered off by default. To enable the internal 
+reference, the bit D9 is set in the power-down and reference 
+control register (refer to Table 18). 
+ 
+Temperature Sensor 
+The SGM90509 has an integrated temperature sensor that 
+can be used to estimate the temperature of die. The 
+temperature conversion time is 3μs, whether the ADC buffer 
+is enabled or not. To enable the temperature sampling, set 
+the bit D8 in the ADC sequence register (refer to Table 10). 
+Calculation of the temperature is shown below:  
+When ADC gain = 1: 
+ 
+×
+×
+REF
+REF
+(ADC Code - (0.56/V
+) 
+ 4095)
+Temperature(
+) = 25 + 
+(3.015 
+ (2.5/V
+℃
+))
+(2)
+ 
+When ADC gain = 2: 
+×
+×
+×
+REF
+REF
+(ADC Code - (0.56/(2 
+ V
+)) 
+ 4095)
+Temperature(
+) = 25 + 
+(1.508 
+ (2.5/V
+℃
+))
+(3)
+ 
+The codes range returned by the ADC is approximately 721 to 
+1219, and its temperature range is from -40℃ to +125℃.  
+ 
+Serial Interface 
+The SGM90509 has an SPI-compatible interface. Please 
+refer to Table 2 for the input shift register in 16-bit format. The 
+control register maps are shown in Table 3. 
+ 
+ 
+Table 1. ADC Conversion Format 
+MSB 
+ 
+ 
+ 
+LSB 
+D15 
+D14 
+D13 
+D12 
+D11 
+D10 
+D9 
+D8 
+D7 
+D6 
+D5 
+D4 
+D3 
+D2 
+D1 
+D0 
+0 
+ADC Address 
+12-Bit ADC Data 
+ 
+ 
+Table 2. Input Shift Register Format 
+MSB 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+LSB 
+D15 
+D14 
+D13 
+D12 
+D11 
+D10 
+D9 
+D8 
+D7 
+D6 
+D5 
+D4 
+D3 
+D2 
+D1 
+D0 
+0 
+Control Register Address 
+0 
+0 
+Control Register Data 
+1 
+DAC Address 
+12-Bit DAC Data 
+ 
+ 
+
+8-Channel, 12-Bit, Configurable ADC/DAC 
+SGM90509 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+17 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Table 3. Control Register Maps 
+● 
+ 
+MSB 
+(D15) 
+Address 
+(D[14:11]) 
+Register Name 
+Description 
+Default Value 
+0 
+0000 
+NOP 
+No operation 
+0x000 
+0 
+0001 
+DAC Readback 
+Select and enable DAC readback 
+0x000 
+0 
+0010 
+ADC Sequence Register 
+Select ADC channels for conversion 
+0x000 
+0 
+0011 
+General-Purpose Control Register 
+DAC and ADC control register 
+0x000 
+0 
+0100 
+ADC Pin Configuration Register 
+Configure pins working as ADC inputs 
+0x000 
+0 
+0101 
+DAC Pin Configuration Register 
+Configure pins working as DAC outputs 
+0x000 
+0 
+0110 
+Pull-Down Configuration Register 
+Configure pins with a 85kΩ pull-down resistor to GND 
+0x0FF 
+0 
+0111 
+Readback and LDAC Mode Register 
+Configure the operation of the load DAC (LDAC) function 
+and/or which configuration register is read back 
+0x000 
+0 
+1000 
+GPIO Write Configuration Register (1) 
+Configure pins working as general-purpose outputs 
+0x000 
+0 
+1001 
+GPIO Write Data Register 
+Write data to the general-purpose outputs 
+0x000 
+0 
+1010 
+GPIO Read Configuration Register 
+Configure pins working as general-purpose inputs 
+0x000 
+0 
+1011 
+Power-Down and Reference Control 
+Register 
+Power down selected DAC channels and the internal 
+reference 
+0x000 
+0 
+1100 
+GPIO Open-Drain Configuration 
+Register 
+Configure open-drain or push/pull for general-purpose 
+outputs 
+0x000 
+0 
+1101 
+Three-State Configuration 
+Configure which I/O pins are three-state 
+0x000 
+0 
+1110 
+Reserved 
+Reserved 
+ 
+0 
+1111 
+Software Reset Register 
+Reset the SGM90509 
+0x000 
+1 
+XXXX (2) 
+DAC Write 
+Write to addressed DAC register 
+0x000 
+ 
+NOTES: 
+1. This register is also used to set I/O7 as an nBUSY output. 
+2. D[14:12] is the DAC register address (see Table 2). 
+ 
+ 
+Power-Up Time 
+When the system is power-on or there is a reset operation, it 
+will take SGM90509 250μs to power up, it is not suggested to 
+do any operation during this time. 
+ 
+Write Mode 
+Figure 1 shows the read and write timing for the SGM90509. 
+A falling edge of nSYNC starts a write frame. Data is locked 
+on the falling edge of SCLK. After 16 falling edges of SCLK, 
+all 16-bit data is shifted in. Then nSYNC can be pulled high. 
+Read Mode 
+The SGM90509 supports data readback from the ADCs and 
+control registers. ADC conversion result will be shifted out 
+automatically when there is an operation on the chip. To read 
+out a register, it is necessary to issue a write to the Readback 
+and LDAC Mode register firstly to select which register to 
+read back. Then the selected register content will be read out 
+on the next nSYNC frame with 16 clocks falling edge. 
+ 
+ 
+ 
+ 
+
+8-Channel, 12-Bit, Configurable ADC/DAC 
+SGM90509 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+18 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Configuring the SGM90509 
+In order for the SGM90509 to work in the target state, a series 
+of configuration registers need to be set. After power-up, the 
+SGM90509 I/O pins are configured as 85kΩ resistors 
+connected to GND by default. The I/O pins can be software 
+re-configured as DAC outputs, ADC inputs, digital outputs, 
+digital inputs, three-state, or connected to GND with 85kΩ 
+pull-down resistors. The configuration operating can be 
+issued at any time, when there is no any ADC conversion is 
+on-going or a register is being read back. The lock 
+configuration bit must also be 0 before a configuration is 
+issued. 
+ 
+Table 4. I/Ox Pin Configuration Register Details 
+BITS 
+BIT NAME 
+DESCRIPTION 
+DEFAULT 
+VALUE  
+D[15] 
+MSB 
+Set this bit to 0. 
+0 
+D[14:11] 
+Register Address[3:0] 
+Selects which pin configuration register is addressed. 
+0100 = ADC pin configuration 
+0101 = DAC pin configuration 
+0110 = Pull-down configuration (default condition at power-up) 
+1000 = GPIO write configuration 
+1010 = GPIO read configuration 
+1100 = GPIO open-drain configuration 
+1101 = Three-state configuration 
+0110 
+D[10:8] 
+Reserved 
+Reserved. Set these bits to 0. 
+000 
+D[7:0] 
+IO[7:0] 
+Enable register function on selected I/Ox pin. 
+0 = No function selected (default) 
+1 = Set the selected I/Ox pin to the register function 
+0000 0000 
+ 
+ 
+nSYNC
+SCLK
+SDO
+SDI
+0x20C0
+Invalid Data
+1
+16
+1
+16
+0x2830
+Invalid Data
+0x2008
+Invalid Data
+1
+16
+0x3404
+1
+16
+Invalid Data
+0x6803
+1
+16
+Invalid Data
+nSYNC
+SCLK
+SDO
+SDI
+Configure I/O6 and I/O7 as ADCs
+Configure I/O4 and I/O5 as DACs
+Configure I/O3 as GPO
+Configure I/O2 as GPI
+Configure I/O0 and I/O1 as Three-State Pins 
+ 
+ 
+Figure 3. Typical Configuration Example 
+ 
+ 
+
+8-Channel, 12-Bit, Configurable ADC/DAC 
+SGM90509 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+19 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+General-Purpose Control Register 
+Table 5. General-Purpose Control Register Details 
+BITS 
+BIT NAME 
+DESCRIPTION 
+DEFAULT 
+VALUE  
+D[15] 
+MSB 
+Must be set to 0. 
+0 
+D[14:11] 
+Register Address[3:0] Set these bits to 0011. 
+0011 
+D[10] 
+Reserved 
+Reserved. Must be set to 0. 
+0 
+D[9] 
+ADC Auxiliary Buffer 
+Configuration 
+0 = ADC auxiliary buffer disabled (default) 
+1 = ADC auxiliary buffer enabled 
+0 
+D[8] 
+Reserved 
+Reserved. Must be set to 0. 
+0 
+D[7] 
+Lock 
+Lock Configuration 
+0 = The contents of the I/Ox pin configuration registers can be changed (default) 
+1 = The contents of the I/Ox pin configuration registers are locked 
+0 
+D[6] 
+Write All DACs 
+Writing All DACs Enable 
+0 = For the coming DAC writes, the DAC address bits determine which DAC channel is 
+written to (default) 
+1 = For the coming DAC writes, the DAC address bits are ignored and all DAC channels 
+configured as DACs are updated with the same data 
+0 
+D[5] 
+ADC Range 
+ADC Input Range Setting 
+0 = Set the ADC range 0V to VREF (default) 
+1 = Set the ADC range 0V to 2 × VREF 
+0 
+D[4] 
+DAC Range 
+DAC Output Range Setting 
+0 = Set the DAC range 0V to VREF (default) 
+1 = Set the DAC range 0V to 2 × VREF 
+0 
+D[3:0] 
+Reserved 
+Reserved. Must set these bits to 0. 
+0000 
+ 
+ 
+DAC Write Operation 
+The data is written to a DAC when the pointer byte is 0b0101 
+(see Table 6). Bits D[7:0] determine which DAC is addressed.  
+LDAC Mode Operation 
+LDAC function details please see Table 20. 
+ 
+Table 6. DAC Pin Configuration Register Details 
+BITS 
+BIT NAME 
+DESCRIPTION 
+DEFAULT 
+VALUE  
+D[15] 
+MSB 
+Set this bit to 0. 
+0 
+D[14:11] 
+Register Address[3:0] Set these bits to 0101. 
+0101 
+D[10:8] 
+Reserved 
+Reserved. Set these bits to 0. 
+000 
+D[7:0] 
+DAC[7:0] 
+Select I/Ox Pins as DAC Outputs 
+0 = I/Ox function is determined by the pin configuration registers (default) 
+1 = I/Ox is a DAC output 
+0000 0000 
+ 
+Table 7. DAC Write Register Details 
+BITS 
+BIT NAME 
+DESCRIPTION 
+DEFAULT 
+VALUE  
+D[15] 
+MSB 
+Set this bit to 1. 
+1 
+D[14:12] 
+DAC Address[2:0] 
+Bits D[14:12] select the DAC register to which the data in D[11:0] bits is loaded. 
+000 = DAC0 
+001 = DAC1 
+010 = DAC2 
+011 = DAC3 
+100 = DAC4 
+101 = DAC5 
+110 = DAC6 
+111 = DAC7 
+000 
+D[11:0] 
+12-Bit DAC Data[11:0] 12-Bit DAC Data. 
+0000 0000 0000 
+ 
+ 
+
+8-Channel, 12-Bit, Configurable ADC/DAC 
+SGM90509 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+20 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+DAC Readback 
+The input register of each DAC can be read back via the SPI interface. The data can be read back from a DAC only when there is 
+not an ADC conversion sequence taking place. 
+ 
+Table 8. DAC Readback Register Details 
+BITS 
+BIT NAME 
+DESCRIPTION 
+DEFAULT 
+VALUE  
+D[15] 
+MSB 
+Set this bit to 0. 
+0 
+D[14:11] 
+Register Address[3:0] Set these bits to 0001. 
+0001 
+D[10:5] 
+Reserved 
+Reserved. Set these bits to 0. 
+00 0000 
+D[4:3] 
+Enable DAC 
+Readback[1:0] 
+Enable Readback of the DAC Input Register 
+00 = Readback disabled (default) 
+11 = Readback enabled 
+00 
+D[2:0] 
+DAC Channel[2:0] 
+Select DAC Channel 
+000 = DAC0 (default) 
+001 = DAC1 
+010 = DAC2 
+011 = DAC3 
+100 = DAC4 
+101 = DAC5 
+110 = DAC6 
+111 = DAC7 
+000 
+ 
+ 
+Set I/O2 (DAC) to Mid-Scale
+nSYNC
+SCLK
+SDO
+SDI
+0xA800
+Invalid Data
+1
+16
+1
+16
+0x081D
+Invalid Data
+0x0000
+1
+16
+Set I/O2 (DAC) to Readback
+I/O2 (DAC) Data (1)
+NOP
+NOTE:
+1. D15 = 1, D[14:12] = DAC Address, D[11:0] = DAC Data.
+ 
+Figure 4. DAC Readback Operation 
+ 
+ 
+ 
+
+8-Channel, 12-Bit, Configurable ADC/DAC 
+SGM90509 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+21 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+ADC Operation 
+The SGM90509 is operated as same as usual multiplexer 
+plus one core ADC architecture chip, where the current data 
+reading selects the next channel for conversion. 
+Figure 5 to Figure 9 show how to configure the SGM90509 for 
+ADC conversions. 
+ 
+Table 9. ADC Pin Configuration Register Details 
+BITS 
+BIT NAME 
+DESCRIPTION 
+DEFAULT 
+VALUE  
+D[15] 
+MSB 
+Set this bit to 0. 
+0 
+D[14:11] 
+Register Address[3:0] Set these bits to 0100. 
+0100 
+D[10:8] 
+Reserved 
+Reserved. Set these bits to 0. 
+000 
+D[7:0] 
+ADC[7:0] 
+Select I/Ox Pins as ADC Inputs 
+0 = I/Ox function is determined by the pin configuration registers (default) 
+1 = I/Ox is an ADC input 
+0000 0000 
+ 
+Table 10. ADC Sequence Register Details 
+BITS 
+BIT NAME 
+DESCRIPTION 
+DEFAULT 
+VALUE  
+D[15] 
+MSB 
+Set this bit to 0. 
+0 
+D[14:11] 
+Register Address[3:0] Set these bits to 0010. 
+0010 
+D[10] 
+VDD Monitor Enable 
+VDD Monitor Enable 
+0 = VDD monitor disable (default) 
+1 = VDD monitor enable, VDD/4 will be converted by ADC, the result can be read by ADC 
+data register, more details refer to Table 11. 
+0 
+D[9] 
+REP 
+ADC Sequence Repetition 
+0 = Sequence repetition disabled (default) 
+1 = Sequence repetition enabled 
+0 
+D[8] 
+TEMP 
+Include Temperature Sensor Sampling in ADC Sequence 
+0 = Disable temperature sensor readback (default) 
+1 = Enable temperature sensor readback 
+0 
+D[7:0] 
+ADC[7:0] 
+Select Corresponding ADC Channels in Conversion Sequence 
+0 = The selected ADC channel is not enabled in the conversion sequence (default) 
+1 = The selected ADC channel is enabled in the conversion sequence 
+0000 0000 
+ 
+Table 11. ADC Data Register Format 
+MSB 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+LSB 
+D15 
+D14 
+D13 
+D12 
+D11 
+D10 
+D9 
+D8 
+D7 
+D6 
+D5 
+D4 
+D3 
+D2 
+D1 
+D0 
+0 
+ADC Address (1) 
+12-Bit ADC Data 
+1 
+000 (2) 
+12-Bit Temperature Sensor Channel Data 
+1 
+001 (3) 
+12-Bit VDD/4 Channel Data 
+ 
+NOTES:  
+1. When D[15] = 0, the ADC addresses are as follows: 000 = ADC0, …, 111 = ADC7. 
+2. When D[15:12] = 1000, ADC result is internal temperature sensor sampling data. 
+3. When D[15:12] = 1001, ADC result is VDD/4 sampling data. 
+ 
+ 
+
+8-Channel, 12-Bit, Configurable ADC/DAC 
+SGM90509 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+22 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Conversion Start of 
+Channel 1
+nSYNC
+SCLK
+SDO
+SDI
+Set ADC Sequence Register and 
+Select Channel 1
+Invalid Data
+1
+16
+1
+16
+NOP or Control Register Set
+Invalid Data
+NOP or Control Register Set
+ADC Result of Channel 1
+1
+16
+NOP or Control Register Set
+1
+16
+ 
+ 
+ 
+Figure 5. Single-Channel, No Repeat, ADC Conversion Sequence 
+ 
+ 
+ 
+ 
+nSYNC
+SCLK
+SDO
+SDI
+Set ADC Sequence Register and 
+Select Channel 1
+ 1st Conversion Start of 
+Channel 1
+Invalid Data
+1
+16
+1
+16
+NOP or Control Register Set
+Invalid Data
+NOP or Control Register Set
+ 1st ADC Result of Channel 1
+1
+16
+NOP or Control Register Set
+1
+16
+2nd Conversion Start of 
+Channel 1
+3rd Conversion Start of 
+Channel 1
+ 2nd ADC Result of Channel 1
+ 
+ 
+ 
+Figure 6. Single-Channel, Repeating, ADC Conversion Sequence 
+ 
+ 
+ 
+
+8-Channel, 12-Bit, Configurable ADC/DAC 
+SGM90509 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+23 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+nSYNC
+SCLK
+SDO
+SDI
+Set ADC Sequence Register and 
+Select Channel 1 and Channel 2
+  Conversion Start of 
+Channel 1
+Invalid Data
+1
+16
+1
+16
+NOP or Control Register Set
+Invalid Data
+NOP or Control Register Set
+ ADC Result of Channel 1
+1
+16
+NOP or Control Register Set
+1
+16
+ Conversion Start of 
+Channel 2
+ ADC Result of Channel 2
+NOP or Control Register Set
+1
+16
+Invalid Data
+nSYNC
+SCLK
+SDO
+SDI
+ 
+ 
+Figure 7. Multi-Channel, No Repeat, ADC Conversion Sequence 
+ 
+ 
+nSYNC
+SCLK
+SDO
+SDI
+Set ADC Sequence Register and 
+Select Channel 1 and Channel 2
+  1st Conversion Start of 
+Channel 1
+Invalid Data
+1
+16
+1
+16
+NOP or Control Register Set
+Invalid Data
+NOP or Control Register Set
+   1st ADC Result of Channel 1
+1
+16
+NOP or Control Register Set
+1
+16
+1st Conversion Start of 
+Channel 2
+1st ADC Result of Channel 2
+NOP or Control Register Set
+1
+16
+2nd ADC Result of Channel 1
+nSYNC
+SCLK
+SDO
+SDI
+  2nd Conversion Start of 
+Channel 1
+2nd  Conversion Start of 
+Channel 2
+1
+16
+NOP or Control Register Set
+2nd  ADC Result of Channel 2
+3rd Conversion Start of 
+Channel 1
+ 
+ 
+Figure 8. Multi-Channel, Repeating, ADC Conversion Sequence 
+ 
+ 
+ 
+
+8-Channel, 12-Bit, Configurable ADC/DAC 
+SGM90509 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+24 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+nSYNC
+SCLK
+SDO
+SDI
+Set ADC Sequence Register and 
+Select Channel 1 and Channel 2
+  1st Conversion Start of 
+Channel 1
+Invalid Data
+1
+16
+1
+16
+NOP or Control Register Set
+Invalid Data
+NOP or Control Register Set
+   1st ADC Result of Channel 1
+1
+16
+NOP or Control Register Set
+1
+16
+1st Conversion Start of 
+Channel 2
+1st ADC Result of Channel 2
+NOP or Control Register Set
+1
+16
+2nd ADC Result of Channel 1
+nSYNC
+SCLK
+SDO
+SDI
+  2nd Conversion Start of 
+Channel 1
+2nd  Conversion Start of 
+Channel 2
+1
+16
+Set ADC Sequence Register to End 
+ADC Sequence
+2nd  ADC Result of Channel 2
+3rd Conversion Start of 
+Channel 1
+1
+16
+Set ADC Sequence Register and 
+Select Channel 4 and Channel 5
+Invalid Data
+1
+16
+NOP or Control Register Set
+Invalid Data
+NOP or Control Register Set
+1
+16
+ 1st ADC Result of Channel 4
+SCLK
+SDO
+SDI
+1st   Conversion Start of 
+Channel 5
+1
+16
+Set ADC Sequence Register to End 
+ADC Sequence
+1st ADC Result of Channel 5
+2nd Conversion Start of 
+Channel 4
+1
+16
+Set ADC Sequence Register and 
+Select Channel 4 and Channel 5
+2nd  ADC Result of Channel 4
+1
+16
+NOP or Control Register Set
+2nd  ADC Result of Channel 5
+nSYNC
+1st Conversion Start of 
+Channel 4
+2nd Conversion Start of 
+Channel 5
+3rd Conversion Start of 
+Channel 4
+ 
+ 
+Figure 9. Changing a Multi-Channel, Repeating, ADC Conversion Sequence 
+ 
+ 
+Set I/O0 and I/O3 as Inputs
+nSYNC
+SCLK
+SDO
+SDI
+0x500F
+Invalid Data
+1
+16
+1
+16
+0x540F
+Invalid Data
+0x5430
+I/O0 and I/O3 Input States
+1
+16
+0xB800
+1
+16
+Select the GPIO Input Registers 
+for Readback
+Select the GPIO Input Registers 
+for Readback
+Set DAC Output I/O3 to Mid-Scale
+I/O4 and I/O5 Input States
+ 
+ 
+Figure 10. Configuring and Reading General-Purpose Input Pins 
+ 
+ 
+ 
+
+8-Channel, 12-Bit, Configurable ADC/DAC 
+SGM90509 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+25 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+GPIO Operation 
+Each of I/Ox pins of the SGM90509 can be configured as a general-purpose digital input or output pin.  
+ 
+Setting Pins as Outputs 
+Table 12. GPIO Write Configuration Register Details 
+BITS 
+BIT NAME 
+DESCRIPTION 
+DEFAULT 
+VALUE  
+D[15] 
+MSB 
+Set this bit to 0. 
+0 
+D[14:11] 
+Register Address[3:0] Set these bits to 1000. 
+1000 
+D[10:9] 
+Reserved 
+Reserved. Set these bits to 0. 
+00 
+D[8] 
+Enable nBUSY 
+Enable the I/O7 Pin as nBUSY 
+0 = Pin I/O7 is not configured as nBUSY 
+1 = Pin I/O7 is configured as nBUSY. D7 must also be set to 1 to enable the I/O7 pin as 
+an output 
+0 
+D[7:0] 
+GPIO7 to GPIO0 
+Select I/Ox Pins as GPIO Outputs 
+0 = I/Ox function depends on the pin configuration registers (default) 
+1 = I/Ox is a general-purpose output pin 
+0000 0000 
+ 
+Table 13. GPIO Open-Drain Control Register Details 
+BITS 
+BIT NAME 
+DESCRIPTION 
+DEFAULT 
+VALUE  
+D[15] 
+MSB 
+Set this bit to 0. 
+0 
+D[14:11] 
+Register Address[3:0] Set these bits to 1100. 
+1100 
+D[10:8] 
+Reserved 
+Reserved. Set these bits to 0. 
+000 
+D[7:0] 
+Open-Drain 7 to 
+Open-Drain 0 
+Set Output Pins as Open-Drain 
+The pins must also be set as digital output pins. See Table 12. 
+0 = I/Ox is a push/pull output pin (default) 
+1 = I/Ox is an open-drain output pin 
+0000 0000 
+ 
+Table 14. GPIO Write Data Register Details 
+BITS 
+BIT NAME 
+DESCRIPTION 
+DEFAULT 
+VALUE  
+D[15] 
+MSB 
+Set this bit to 0. 
+0 
+D[14:11] 
+Register Address[3:0] Set these bits to 1001. 
+1001 
+D[10:8] 
+Reserved 
+Reserved. Set these bits to 0. 
+000 
+D[7:0] 
+GPIO7 to GPIO0 
+Set the State of Output Pins 
+0 = I/Ox is a logic 0 (default) 
+1 = I/Ox is a logic 1 
+0000 0000 
+ 
+Setting Pins as Inputs  
+To set an I/Ox pin as a general-purpose input, set the according bit in the GPIO read configuration register to 1. 
+Table 15. GPIO Read Configuration Register Details 
+BITS 
+BIT NAME 
+DESCRIPTION 
+DEFAULT 
+VALUE  
+D[15] 
+MSB 
+Set this bit to 0. 
+0 
+D[14:11] 
+Register Address[3:0] Set these bits to 1010. 
+1010 
+D[10] 
+Enable Readback 
+Enable GPIO Readback 
+0 = Bit D7 to Bit D0 determine which pins are set as general-purpose inputs (default) 
+1 = The next SPI operation clocks out the state of the GPIO pins 
+0 
+D[9:8] 
+Reserved 
+Reserved. Set these bits to 0. 
+00 
+D[7:0] 
+GPIO7 to GPIO0 
+Set I/Ox Pins as GPIO Inputs 
+0 = I/Ox function depends on the pin configuration registers (default) 
+1 = I/Ox is a general-purpose input pin 
+0000 0000 
+ 
+ 
+
+8-Channel, 12-Bit, Configurable ADC/DAC 
+SGM90509 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+26 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Three-State Pins 
+The I/Ox pins can be set to three-state by writing to the three-state configuration register, as shown in Table 16. 
+ 
+Table 16. Three-State Configuration Register Details 
+BITS 
+BIT NAME 
+DESCRIPTION 
+DEFAULT 
+VALUE  
+D[15] 
+MSB 
+Set this bit to 0. 
+0 
+D[14:11] 
+Register Address[3:0] Set these bits to 1101. 
+1101 
+D[10:8] 
+Reserved 
+Reserved. These bits must be set to 0. 
+000 
+D[7:0] 
+TSO[7:0] 
+Set Pins as Three-State Outputs 
+0 = I/Ox function depends on the pin configuration registers (default) 
+1 = I/Ox is a three-state output pin 
+0000 0000 
+ 
+85kΩ Pull-Down Resistor Pins 
+Table 17. Pull-Down Configuration Register Details 
+BITS 
+BIT NAME 
+DESCRIPTION 
+DEFAULT 
+VALUE  
+D[15] 
+MSB 
+Set this bit to 0. 
+0 
+D[14:11] 
+Register Address[3:0] Set these bits to 0110. 
+0110 
+D[10:8] 
+Reserved 
+Reserved. These bits must be set to 0. 
+000 
+D[7:0] 
+Pull_Down[7:0] 
+Set Pins as Weak Pull-Down Outputs 
+0 = I/Ox function depends on the pin configuration registers 
+1 = I/Ox is connected to GND through an 85kΩ pull-down resistor (default) 
+1111 1111 
+ 
+Power-Down and Reference Control 
+The SGM90509 has a power-down and reference control register, and it can power down the internal reference and DACs (see 
+Table 18). There is no dedicated power-down function for the ADC, but the ADC is automatically powered down if there is no an 
+ADC operation. 
+Table 18. Power-Down and Reference Control Register Details 
+BITS 
+BIT NAME 
+DESCRIPTION 
+DEFAULT 
+VALUE  
+D[15] 
+MSB 
+Set this bit to 0. 
+0 
+D[14:11] 
+Register Address[3:0] Set these bits to 1011. 
+1011 
+D[10] 
+PD_ALL 
+Power-Down DACs and Internal Reference 
+0 = The reference and DACs power-down states depend on D9 and D[7:0] bits (default) 
+1 = The reference, DACs and ADC are powered down 
+0 
+D[9] 
+EN_REF 
+Enable Internal Reference 
+0 = The reference and its buffer are powered down. Set this bit if an external reference is 
+used (default) 
+1 = The reference and its buffer are powered up. The reference is available on the VREF 
+pin 
+0 
+D[8] 
+Reserved 
+Reserved. Must be set to 0. 
+0 
+D[7:0] 
+PD[7:0] 
+Power-Down DACs 
+0 = The channel is in normal operating mode (default) 
+1 = The channel is powered down if it is configured as a DAC 
+0000 0000 
+ 
+ 
+ 
+
+8-Channel, 12-Bit, Configurable ADC/DAC 
+SGM90509 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+27 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Reset Function 
+The SGM90509 can be reset by setting the reset register (pointer byte = 0b00001111). This operation resets all registers to their 
+default values. 
+ 
+Table 19. Software Reset Register 
+MSB 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+LSB 
+D15 
+D14 
+D13 
+D12 
+D11 
+D10 
+D9 
+D8 
+D7 
+D6 
+D5 
+D4 
+D3 
+D2 
+D1 
+D0 
+0 
+1 
+1 
+1 
+1 
+1 
+0 
+1 
+1 
+0 
+1 
+0 
+1 
+1 
+0 
+0 
+Control Register 
+Write 
+Write to Reset Register 
+Reset the SGM90509 
+ 
+Readback and LDAC Mode Register 
+The input register of each DAC can be read back via the SPI interface. The data can be read back from a DAC only when there is 
+no ADC conversion sequence. 
+Table 20. Readback and LDAC Mode Register Details 
+BITS 
+BIT NAME 
+DESCRIPTION 
+DEFAULT 
+VALUE  
+D[15] 
+MSB 
+Set this bit to 0. 
+0 
+D[14:11] 
+Register Address[3:0] 
+Set these bits to 0111. 
+0111 
+D[10:7] 
+Reserved 
+Reserved. Set these bits to 0. 
+0000 
+D[6] 
+EN 
+Enable Readback 
+Note that the LDAC mode bits are always used regardless of the EN bit. 
+0 = No readback is initiated (default) 
+1 = Bits D[5:2] select which register is read back. Bit D6 automatically clears when the 
+read is completed 
+0 
+D[5:2] 
+REG_READBACK[3:0] 
+If bit D6 is 1, the bits D[5:2] determine which register is to be read back. 
+0000 = NOP (default) 
+0001 = DAC readback 
+0010 = ADC sequence 
+0011 = General-purpose configuration 
+0100 = ADC pin configuration 
+0101 = DAC pin configuration 
+0110 = Pull-down configuration 
+0111 = LDAC configuration 
+1000 = GPIO write configuration 
+1001 = GPIO write data 
+1010 = GPIO read configuration 
+1011 = Power-down and reference control 
+1100 = Open-drain configuration 
+1101 = Three-state pin configuration 
+1110 = Reserved 
+1111 = Software reset 
+0000 
+D[1:0] 
+LDAC Mode[1:0] 
+Determines how data written to an input register of a DAC is handled. 
+00 = Data written to an input register is immediately copied to a DAC register, and the 
+DAC output updates (default) 
+01 = Data written to an input register is not copied to a DAC register. The DAC output is 
+not updated 
+10 = Data in the input registers is copied to the corresponding DAC registers. When the 
+data has been transferred, the DAC outputs are updated simultaneously 
+11 = Reserved 
+00 
+ 
+ 
+ 
+
+8-Channel, 12-Bit, Configurable ADC/DAC 
+SGM90509 
+with On-Chip Reference, SPI Interface 
+ 
+ 
+28 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+Changes from Original (NOVEMBER 2023) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+TX00020.002 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TSSOP-16 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+- 
+- 
+1.200 
+A1 
+0.050 
+- 
+0.150 
+A2 
+0.800 
+- 
+1.050 
+b 
+0.190 
+- 
+0.300 
+c 
+0.090 
+- 
+0.200 
+D 
+4.860 
+- 
+5.100 
+E 
+4.300 
+- 
+4.500 
+E1 
+6.200 
+- 
+6.600 
+e 
+0.650 BSC 
+L 
+0.450 
+- 
+0.750 
+H 
+0.250 TYP 
+θ 
+0° 
+- 
+8° 
+ccc 
+0.100 
+ 
+NOTES: 
+1. This drawing is subject to change without notice. 
+2. The dimensions do not include mold flashes, protrusions or gate burrs. 
+3. Reference JEDEC MO-153. 
+ 
+ 
+E1
+E
+b
+e
+A2
+A1
+c
+θ
+L
+H
+D
+1.78
+0.42
+0.65
+5.94
+RECOMMENDED LAND PATTERN (Unit: mm)
+A
+ccc C
+SEATING PLANE
+C
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00307.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TQFN-3×3-16BL 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.700 
+- 
+0.800 
+A1 
+-0.004 
+- 
+0.050 
+A2 
+0.110 REF 
+b 
+0.200 
+- 
+0.300 
+D 
+2.900 
+- 
+3.100 
+E 
+2.900 
+- 
+3.100 
+e 
+0.500 BSC 
+L 
+0.300 
+- 
+0.500 
+eee 
+0.080 
+ 
+NOTE: This drawing is subject to change without notice.
+ 
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+A
+D
+E
+N1
+N16
+RECOMMENDED LAND PATTERN (Unit: mm)
+C
+SEATING PLANE
+eee C
+A1
+A2
+PIN 1#
+ALTERNATE A-1
+DETAIL A
+ALTERNATE TERMINAL
+CONSTRUCTION
+ALTERNATE A-2
+DETAIL A
+e
+b
+L
+0.60
+0.25
+0.50
+2.80
+2.80
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00308.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+WLCSP-2.05×2.05-16B 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+- 
+- 
+0.633 
+A1 
+0.216 
+- 
+0.256 
+D 
+2.020 
+- 
+2.080 
+E 
+2.020 
+- 
+2.080 
+d 
+0.289 
+- 
+0.349 
+e 
+0.500 BSC 
+ccc 
+0.050 
+ 
+NOTE: This drawing is subject to change without notice. 
+ 
+ 
+A1 CORNER
+TOP VIEW
+0.27
+0.25
+16 × Φ
+RECOMMENDED LAND PATTERN (Unit: mm)
+SIDE VIEW
+1
+2
+3
+A
+B
+C
+D
+4
+16 × Φd
+BOTTOM VIEW
+D
+E
+ccc C
+C
+SEATING PLANE
+A1
+A
+e
+e
+0.50
+0.50
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TSSOP-16 
+13″ 
+12.4 
+6.80 
+5.40 
+1.50 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+TQFN-3×3-16BL 
+13″ 
+12.4 
+3.35 
+3.35 
+1.13 
+4.0 
+8.0 
+2.0 
+12.0 
+Q2 
+WLCSP-2.05×2.05-16B 
+7″ 
+9.5 
+2.24 
+2.24 
+0.75 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

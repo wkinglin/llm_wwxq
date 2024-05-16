@@ -1,0 +1,1640 @@
+ 
+SGM2052 
+1.5A, Ultra-High PSRR, Fast Load Transient, 
+Bias Rail CMOS Voltage Regulator 
+ 
+ 
+FEBRUARY 2022 – REV.A 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+GENERAL DESCRIPTION 
+The SGM2052 is an ultra-high PSRR, fast transient 
+response, low noise and low dropout voltage linear 
+regulator which is designed using CMOS technology. It 
+provides 1.5A output current capability. The operating 
+input voltage range is from 0.5V to 5.5V and bias 
+supply voltage range is from 2.5V to 5.5V. The 
+adjustable output voltage range is from 0.5V to 3.3V. 
+Other features include logic-controlled shutdown mode, 
+short-circuit current limit and thermal shutdown 
+protection. The SGM2052 has automatic discharge 
+function to quickly discharge VOUT in the disabled status. 
+The SGM2052 is available in a Green WLCSP-0.8×1.2-6B-A 
+package. It operates over an operating temperature 
+range of -40℃ to +125℃. 
+ 
+FEATURES 
+● Input Supply Voltage Range: 0.5V to 5.5V 
+● Bias Supply Voltage Range: 2.5V to 5.5V 
+● Adjustable Output Voltage Range: 0.5V to 3.3V 
+● Output Voltage Accuracy: ±0.8% at +25℃ 
+● High PSRR: 70dB (TYP) at 1kHz 
+● Low Dropout Voltage: 75mV (TYP) at 1.5A 
+● Low Bias Input Current: 96μA (TYP) 
+● Very Low Bias Input Current in Shutdown: < 1μA 
+● Low Noise: 29μVRMS (TYP) 
+● Fast Load Transient Response 
+● Output Current Limit 
+● Stable with Small Case Size Ceramic Capacitors 
+● Thermal Shutdown Protection 
+● Logic Level Enable Input for ON/OFF Control 
+● -40℃ to +125℃ Operating Temperature Range 
+● Available in a Green WLCSP-0.8×1.2-6B-A Package 
+ 
+APPLICATIONS 
+Portable Equipment 
+Smartphone 
+Industrial and medical Equipment 
+ 
+ 
+ 
+ 
+TYPICAL APPLICATION 
+ 
+GND
+EN
+VOUT
+COUT
+10μF
+VIN
+VOUT
+SGM2052
+BIAS
+VIN
+VBIAS
+SNS
+ON
+OFF
+CIN
+10μF
+CBIAS
+2.2μF
+ 
+GND
+EN
+VOUT
+COUT
+10μF
+VIN
+VOUT
+SGM2052-ADJ
+BIAS
+VIN
+VBIAS
+ON
+OFF
+CIN
+10μF
+CBIAS
+2.2μF
+ADJ
+R1
+R2
+CFF
+10nF
+ 
+Fixed Voltage Typical Application Circuit 
+Adjustable Voltage Typical Application Circuit 
+ 
+Figure 1. Typical Application Circuits 
+ 
+ 
+
+1.5A, Ultra-High PSRR, Fast Load Transient, 
+SGM2052 
+Bias Rail CMOS Voltage Regulator 
+ 
+ 
+2 
+FEBRUARY 2022 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM2052-0.75 
+WLCSP-0.8×1.2-6B-A 
+-40℃ to +125℃ 
+SGM2052-0.75XG/TR 
+XXX 
+R02 
+Tape and Reel, 3000 
+SGM2052-0.8 
+WLCSP-0.8×1.2-6B-A 
+-40℃ to +125℃ 
+SGM2052-0.8XG/TR 
+XXX 
+R03 
+Tape and Reel, 3000 
+SGM2052-0.85 
+WLCSP-0.8×1.2-6B-A 
+-40℃ to +125℃ 
+SGM2052-0.85XG/TR 
+XXX 
+R05 
+Tape and Reel, 3000 
+SGM2052-1.0 
+WLCSP-0.8×1.2-6B-A 
+-40℃ to +125℃ 
+SGM2052-1.0XG/TR 
+XXX 
+R06 
+Tape and Reel, 3000 
+SGM2052-1.05 
+WLCSP-0.8×1.2-6B-A 
+-40℃ to +125℃ 
+SGM2052-1.05XG/TR 
+XXX 
+R07 
+Tape and Reel, 3000 
+SGM2052-1.1 
+WLCSP-0.8×1.2-6B-A 
+-40℃ to +125℃ 
+SGM2052-1.1XG/TR 
+XXX 
+R08 
+Tape and Reel, 3000 
+SGM2052-1.15 
+WLCSP-0.8×1.2-6B-A 
+-40℃ to +125℃ 
+SGM2052-1.15XG/TR 
+XXX 
+G6B 
+Tape and Reel, 3000 
+SGM2052-1.2 
+WLCSP-0.8×1.2-6B-A 
+-40℃ to +125℃ 
+SGM2052-1.2XG/TR 
+XXX 
+R09 
+Tape and Reel, 3000 
+SGM2052-1.8 
+WLCSP-0.8×1.2-6B-A 
+-40℃ to +125℃ 
+SGM2052-1.8XG/TR 
+XXX 
+R0B 
+Tape and Reel, 3000 
+SGM2052-2.8 
+WLCSP-0.8×1.2-6B-A 
+-40℃ to +125℃ 
+SGM2052-2.8XG/TR 
+XXX 
+R0C 
+Tape and Reel, 3000 
+SGM2052-3.0 
+WLCSP-0.8×1.2-6B-A 
+-40℃ to +125℃ 
+SGM2052-3.0XG/TR 
+XXX 
+R0D 
+Tape and Reel, 3000 
+SGM2052-3.3 
+WLCSP-0.8×1.2-6B-A 
+-40℃ to +125℃ 
+SGM2052-3.3XG/TR 
+XXX 
+R0E 
+Tape and Reel, 3000 
+SGM2052-ADJ 
+WLCSP-0.8×1.2-6B-A 
+-40℃ to +125℃ 
+SGM2052-ADJXG/TR 
+XXX 
+R0F 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XXX = Date Code and Trace Code. 
+Trace Code 
+Date Code - Year
+X
+X
+X
+Y Y Y
+Serial Number
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ 
+ 
+
+1.5A, Ultra-High PSRR, Fast Load Transient, 
+SGM2052 
+Bias Rail CMOS Voltage Regulator 
+ 
+ 
+3 
+FEBRUARY 2022 
+SG Micro Corp 
+www.sg-micro.com 
+ABSOLUTE MAXIMUM RATINGS 
+IN, BIAS, EN to GND ........................................... -0.3V to 6V 
+OUT, SNS, ADJ to GND ............ -0.3V to Min(VIN + 0.3V, 6V) 
+Package Thermal Resistance 
+WLCSP-0.8×1.2-6B-A, θJA 
+....................................... 177℃/W 
+WLCSP-0.8×1.2-6B-A, θJB 
+......................................... 32℃/W 
+WLCSP-0.8×1.2-6B-A, θJC 
+......................................... 48℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... 
+-65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+5000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Input Supply Voltage Range, VIN ....................... 0.5V to 5.5V 
+Bias Supply Voltage Range, VBIAS ...................... 
+2.5V to 5.5V 
+Bias Effective Capacitance, CBIAS ....................... 0.1μF (MIN) 
+Input Effective Capacitance, CIN ......................... 2.2μF (MIN) 
+Output Effective Capacitance, COUT 
+................. 
+4.7μF to 22μF 
+Operating Junction Temperature Range 
+...... 
+-40℃ to +125℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+
+1.5A, Ultra-High PSRR, Fast Load Transient, 
+SGM2052 
+Bias Rail CMOS Voltage Regulator 
+ 
+ 
+4 
+FEBRUARY 2022 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+ 
+  SGM2052-Fixed Output 
+  (TOP VIEW) 
+  SGM2052-ADJ 
+  (TOP VIEW) 
+ 
+ 
+  WLCSP-0.8×1.2-6B-A 
+  WLCSP-0.8×1.2-6B-A 
+ 
+ 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+A1 
+VOUT 
+Regulator Output Pin. It is recommended to use an output capacitor with effective capacitance 
+in the range of 4.7μF to 22μF. 
+A2 
+VIN 
+Input Voltage Supply Pin. 
+B1 
+SNS 
+Output Voltage Sense Input Pin (fixed voltage version only). Connect this pin to the load side of 
+the output trace only in the fixed voltage version. 
+ADJ 
+Feedback Input Pin (adjustable voltage version only). Connect this pin to the external resistor 
+divider to adjust the output voltage. Place the resistors as close as possible to this pin. 
+B2 
+EN 
+Enable Pin. Drive EN high to turn on the regulator. Drive EN low to turn off the regulator. The 
+EN pin has an internal 0.26μA pull-down current source which ensures that the device is turned 
+off when the EN pin is floated. 
+C1 
+GND 
+Ground. 
+C2 
+BIAS 
+Bias Supply Voltage Pin for Internal Control Circuits. This pin is monitored by internal 
+under-voltage lockout circuit. 
+ 
+ 
+VIN
+GND
+EN
+VOUT
+1
+2
+A
+B
+C
+SNS
+BIAS
+VIN
+GND
+EN
+VOUT
+1
+2
+A
+B
+C
+ADJ
+BIAS
+
+1.5A, Ultra-High PSRR, Fast Load Transient, 
+SGM2052 
+Bias Rail CMOS Voltage Regulator 
+ 
+ 
+5 
+FEBRUARY 2022 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VIN = VOUT(NOM) + 0.3V, VBIAS = 2.5V or (VOUT(NOM) + 1.6V) (whichever is greater), VEN = 1V, IOUT = 1mA, CIN = COUT = 10μF and 
+CBIAS = 2.2μF, TJ = -40℃ to +125℃, typical values are at TJ = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Input Supply Voltage Range 
+VIN 
+ 
+VOUT(NOM) 
++ VDROP_VIN 
+ 
+5.5 
+V 
+Bias Supply Voltage Range 
+VBIAS 
+ 
+(VOUT(NOM) + 
+1.6) ≥ 2.5 
+ 
+5.5 
+V 
+Under-Voltage Lockout 
+VUVLO 
+VBIAS rising 
+ 
+1.65 
+2 
+V 
+Hysteresis 
+ 
+0.3 
+ 
+V 
+Feedback Voltage 
+VFB 
+SGM2052-ADJ, TJ = +25℃ 
+0.496 
+0.5 
+0.504 
+V 
+SGM2052-ADJ 
+0.492 
+ 
+0.508 
+Output Voltage Accuracy 
+VOUT 
+VIN = (VOUT(NOM) + 0.3V) to 
+5.5V, VBIAS = 2.5V or 
+(VOUT(NOM) + 1.6V) to 5.5V, 
+IOUT = 1mA to 1.5A 
+TJ = +25℃ 
+-0.8 
+ 
+0.8 
+% 
+TJ = -40℃ to +125℃ 
+-1.6 
+ 
+1.6 
+VIN Line Regulation 
+∆
+∆
+×
+OUT
+IN
+OUT
+V
+V
+V
+ 
+VIN = (VOUT(NOM) + 0.3V) to 5.5V, 0.5V ≤ VOUT(NOM) ≤ 1.8V 
+ 
+0.001 
+0.03 
+%/V 
+VIN = (VOUT(NOM) + 0.3V) to 5.5V, 1.8V < VOUT(NOM) ≤ 3.3V 
+ 
+0.004 
+0.05 
+VBIAS Line Regulation 
+∆
+∆
+×
+OUT
+BIAS
+OUT
+V
+V
+V
+ 
+VBIAS = 2.5V or (VOUT(NOM) + 1.6V) to 5.5V,  
+0.5V ≤ VOUT(NOM) ≤ 1.8V 
+ 
+0.02 
+0.1 
+%/V 
+VBIAS = (VOUT(NOM) + 1.6V) to 5.5V,  
+1.8V < VOUT(NOM) ≤ 3.3V 
+ 
+0.07 
+0.28 
+Load Regulation 
+ΔVOUT 
+IOUT = 1mA to 1.5A 
+ 
+1 
+6 
+mV 
+VIN Dropout Voltage 
+(1) 
+VDROP_VIN 
+IOUT = 1.5A 
+ 
+75 
+130 
+mV 
+VBIAS Dropout Voltage
+ (2) (3) 
+VDROP_BIAS 
+IOUT = 1.5A, VIN = VBIAS 
+ 
+1.15 
+1.4 
+V 
+Output Current Limit 
+ILIMIT 
+VOUT = 90% × VOUT(NOM) 
+TJ = -40℃ to +125℃ 
+1.35 
+2.2 
+ 
+A 
+TJ = -40℃ to +85℃ 
+1.53 
+Short Current Limit 
+ISHORT 
+VOUT = 0V 
+ 
+1.1 
+ 
+A 
+ADJ Pin Operating Current 
+IADJ 
+ 
+-10 
+ 
+10 
+nA 
+BIAS Pin Quiescent Current 
+IBIAS 
+VBIAS = 5.5V 
+ 
+96 
+135 
+μA 
+VIN Pin Quiescent Current 
+IIN 
+VIN = 5.5V, IOUT = 0mA 
+ 
+35 
+100 
+μA 
+BIAS Pin Shutdown Current 
+IBIAS(DIS) 
+VEN = 0V 
+ 
+ 
+1 
+μA 
+VIN Pin Shutdown Current 
+IVIN(DIS) 
+VEN = 0V, TJ = +25℃ 
+ 
+ 
+0.5 
+μA 
+VEN = 0V 
+ 
+ 
+8 
+EN Input Voltage 
+VIH 
+Logic high 
+1 
+ 
+ 
+V 
+VIL 
+Logic low 
+ 
+ 
+0.4 
+V 
+EN Pull-Down Current 
+IEN 
+VEN = 5.5V, VBIAS = 5.5V 
+ 
+0.26 
+1 
+μA 
+Turn-On Time 
+tON 
+VOUT(NOM) = 1.1V,  
+from assertion of VEN to VOUT = 98% × VOUT (NOM) 
+ 
+150 
+ 
+μs 
+VIN Power Supply Rejection Ratio 
+PSRR 
+VIN to VOUT, f = 1kHz, VOUT(NOM) = 1.1V, 
+IOUT = 150mA, VIN ≥ 1.6V 
+ 
+70 
+ 
+dB 
+VBIAS Power Supply Rejection Ratio 
+VBIAS to VOUT, f = 1kHz, VOUT(NOM) = 1.1V,  
+IOUT = 150mA, VIN ≥ 1.6V 
+ 
+80 
+ 
+dB 
+Output Voltage Noise 
+en 
+VOUT(NOM) = 1.1V, VIN = 1.6V, f = 10Hz to 100kHz 
+ 
+29 
+ 
+μVRMS 
+Output Discharge Resistance 
+RDIS 
+VEN = 0V, VOUT = 0.5V 
+50 
+80 
+120 
+Ω 
+Thermal Shutdown Temperature 
+TSHDN 
+ 
+ 
+160 
+ 
+℃ 
+Thermal Shutdown Hysteresis 
+ΔTSHDN 
+ 
+ 
+20 
+ 
+℃ 
+ 
+NOTES: 
+1. VIN dropout voltage is defined as the difference between VIN and VOUT when VOUT falls to 95% × VOUT(NOM). 
+2. VBIAS dropout voltage refers to VBIAS - VOUT when the VIN and BIAS pins are connected together and VOUT falls to 95% × VOUT(NOM). 
+3. For output voltages lower than 1.6V, VBIAS dropout voltage is not applicable because the minimum bias supply voltage is 2.5V. 
+ 
+ 
+
+1.5A, Ultra-High PSRR, Fast Load Transient, 
+SGM2052 
+Bias Rail CMOS Voltage Regulator 
+ 
+ 
+6 
+FEBRUARY 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+TJ = +25℃, VIN = 1.4V, VEN = VBIAS = 2.7V, VOUT(NOM) = 1.1V, CIN = COUT = 10μF, CBIAS = 2.2μF, unless otherwise noted. 
+ 
+ 
+Turn-On Speed with EN Pin 
+ 
+ 
+ 
+Turn-Off Speed with EN Pin 
+ 
+ 
+ 
+ 
+ 
+ 
+VEN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+   1V/div    500mV/div 
+ 
+ 
+ 
+VEN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+          1V/div      500mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+Time (500μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN Line Transient Response 
+ 
+ 
+ 
+VBIAS Line Transient Response 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+500mV/div     10mV/div 
+ 
+ 
+ 
+ 
+VBIAS 
+ 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+1V/div           10mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (200μs/div) 
+ 
+ 
+ 
+Time (200μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Load Transient Response 
+ 
+ 
+ 
+Load Transient Response 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+ 
+ 
+VOUT 
+ 
+            200mA/div  20mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+ 
+ 
+VOUT 
+ 
+500mA/div  50mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (50μs/div) 
+ 
+ 
+ 
+Time (50μs/div) 
+ 
+ 
+ 
+IOUT = 0mA 
+IOUT = 0mA 
+VIN = 1.45V to 2.45V, IOUT = 1A 
+IOUT = 1mA to 500mA 
+VBIAS = 2.75V to 3.75V, IOUT = 1A 
+IOUT = 10mA to 1500mA 
+
+1.5A, Ultra-High PSRR, Fast Load Transient, 
+SGM2052 
+Bias Rail CMOS Voltage Regulator 
+ 
+ 
+7 
+FEBRUARY 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, VIN = 1.4V, VEN = VBIAS = 2.7V, VOUT(NOM) = 1.1V, CIN = COUT = 10μF, CBIAS = 2.2μF, unless otherwise noted. 
+ 
+ 
+VBIAS Power-Up/Power-Down Output Waveform 
+ 
+ 
+  VBIAS Power Ramp-Up/Ramp-Down Output Waveform 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VBIAS 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+             1V/div      500mV/div 
+ 
+ 
+ 
+ 
+ 
+VBIAS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+       1V/div           500mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     VIN Power Supply Rejection Ratio vs. Frequency 
+     VBIAS Power Supply Rejection Ratio vs. Frequency 
+ 
+ 
+     Output Noise Density vs. Frequency 
+     VIN Dropout Voltage vs. Temperature 
+ 
+ 
+ 
+ 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+0.01
+0.1
+1
+10
+100
+1000
+10000
+VIN Power Supply Rejection Ratio (dB) 
+Frequency (kHz) 
+COUT = 10μF 
+COUT = 4.7μF 
+VIN = 1.6V, IOUT = 150mA 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+0.01
+0.1
+1
+10
+100
+1000
+10000
+VBIAS Power Supply Rejection Ratio (dB) 
+Frequency (kHz) 
+COUT = 10μF 
+COUT = 4.7μF 
+VIN = 1.6V, IOUT = 150mA 
+0.001
+0.01
+0.1
+1
+10
+0.01
+0.1
+1
+10
+100
+Output Noise Density (μV/√Hz) 
+Frequency (kHz) 
+VIN = 1.6V, IOUT = 1mA 
+50
+60
+70
+80
+90
+100
+110
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+VIN Dropout Voltage (mV) 
+Temperature (℃) 
+IOUT = 1.5A 
+IOUT = 150mA 
+IOUT = 150mA 
+
+1.5A, Ultra-High PSRR, Fast Load Transient, 
+SGM2052 
+Bias Rail CMOS Voltage Regulator 
+ 
+ 
+8 
+FEBRUARY 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, VIN = 1.4V, VEN = VBIAS = 2.7V, VOUT(NOM) = 1.1V, CIN = COUT = 10μF, CBIAS = 2.2μF, unless otherwise noted. 
+ 
+     Output Voltage vs. Temperature 
+     Output Voltage vs. Temperature 
+ 
+ 
+     VIN Dropout Voltage vs. Output Current 
+     VBIAS Dropout Voltage vs. Output Current 
+ 
+ 
+     BIAS Pin Operating Current vs. Output Current 
+     BIAS Pin Operating Current vs. BIAS Voltage 
+ 
+ 
+ 
+ 
+0.4994
+0.4996
+0.4998
+0.5
+0.5002
+0.5004
+0.5006
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Output Voltage (V) 
+Temperature (℃) 
+VOUT(NOM) = 0.5V, IOUT = 1mA 
+3.292
+3.294
+3.296
+3.298
+3.3
+3.302
+3.304
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Output Voltage (V) 
+Temperature (℃) 
+VOUT(NOM) = 3.3V, IOUT = 1mA 
+0
+20
+40
+60
+80
+100
+120
+0
+300
+600
+900
+1200
+1500
+VIN Dropout Voltage (mV) 
+Output Current (mA) 
+TJ = -40℃ 
+TJ = +25℃ 
+TJ = +85℃ 
+TJ = +125℃ 
+ 
+400
+600
+800
+1000
+1200
+1400
+1600
+0
+300
+600
+900
+1200
+1500
+VBIAS Dropout Voltage (mV) 
+Output Current (mA) 
+TJ = -40℃ 
+TJ = +25℃ 
+TJ = +85℃ 
+TJ = +125℃ 
+ 
+0
+100
+200
+300
+400
+500
+600
+0
+300
+600
+900
+1200
+1500
+BIAS Pin Operating Current (μA) 
+Output Current (mA) 
+90.0
+90.5
+91.0
+91.5
+92.0
+92.5
+93.0
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+6
+BIAS Pin Operating Current (μA) 
+BIAS Voltage (V) 
+IOUT = 1mA 
+
+1.5A, Ultra-High PSRR, Fast Load Transient, 
+SGM2052 
+Bias Rail CMOS Voltage Regulator 
+ 
+ 
+9 
+FEBRUARY 2022 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAMS 
+Current 
+Limit
+Control 
+Logic
+UVLO
+Voltage
+Reference
+Thermal
+Shutdown
+80Ω
++
+-
+SGM2052-Fixed Output 
+VIN
+EN
+BIAS
+GND
+VOUT
+SNS
+IEN
+ 
+ 
+Figure 2. Fixed Output Voltage Internal Block Diagram 
+ 
+ 
+ 
+ 
+Current 
+Limit
+Control 
+Logic
+UVLO
+Voltage
+Reference
+Thermal
+Shutdown
+80Ω
++
+-
+SGM2052-ADJ
+VIN
+EN
+BIAS
+GND
+VOUT
+ADJ
+0.5V
+IEN
+ 
+ 
+Figure 3. Adjustable Output Voltage Internal Block Diagram 
+ 
+ 
+
+1.5A, Ultra-High PSRR, Fast Load Transient, 
+SGM2052 
+Bias Rail CMOS Voltage Regulator 
+ 
+ 
+10 
+FEBRUARY 2022 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+The SGM2052 is a low noise, fast transient response 
+high performance LDO, it consumes only 96μA (TYP) 
+quiescent current and provides 1.5A output current. 
+The SGM2052 provides the protection function for 
+output overload, output short-circuit condition and 
+overheating. 
+The SGM2052 is suitable for application which has 
+noise sensitive circuit such as battery-powered 
+equipment and smartphones. 
+ 
+Input Capacitor Selection (CIN) 
+The input decoupling capacitor is necessary to be 
+connected as close as possible to the VIN pin for 
+ensuring the device stability. 4.7μF or greater X7R or 
+X5R ceramic capacitor is selected to get good dynamic 
+performance. 
+When VIN is required to provide large current 
+instantaneously, a large effective input capacitor is 
+required. Multiple input capacitors can limit the input 
+tracking inductance. Adding more input capacitors is 
+available to restrict the ringing and to keep it below the 
+device absolute maximum ratings. 
+ 
+Output Capacitor Selection (COUT) 
+The output decoupling capacitor should be located as 
+close as possible to the VOUT pin. A 10μF or greater 
+X7R or X5R ceramic capacitor is selected to get good 
+dynamic performance. The minimum effective capacitance 
+of COUT that SGM2052 can remain stable is 4.7μF. For 
+ceramic capacitor, temperature, DC bias and package 
+size will change the effective capacitance, so enough 
+margin of COUT must be considered in design. Larger 
+capacitance and lower ESR COUT will help improve the 
+load transient response and increase the high 
+frequency PSRR. 
+ 
+Enable Operation 
+The SGM2052 uses the EN pin to enable/disable the 
+device and to deactivate/activate the output automatic 
+discharge function. 
+When the EN pin voltage is lower than 0.4V, the device 
+is in shutdown state, there is no current flowing from VIN 
+to VOUT pins. In this state, the automatic discharge 
+transistor is active to discharge the output voltage 
+through an 80Ω (TYP) resistor. 
+When the EN pin voltage is higher than 1V, the device 
+is in active state, the input voltage is regulated to the 
+output voltage and the automatic discharge transistor is 
+turned off. 
+The EN pin is pulled down by internal 0.26μA (TYP) 
+current source when the EN pin is floated. This current 
+source will ensure the SGM2052 in shutdown state and 
+reduce the power dissipation in system. 
+ 
+Adjustable Regulator 
+The output voltage of the SGM2052 can be adjusted 
+from 0.5V to 3.3V. The ADJ pin will be connected with 
+two external resistors as shown in Figure 4, the output 
+voltage is determined by the following equation: 
+
+
+=
+×
+
+
+
+1
+FB
+OUT
+2
+R
+V
+V
+1+R
+             (1) 
+where: 
+VOUT is output voltage and VFB is the internal voltage 
+reference, VFB = 0.5V. 
+One parallel capacitor (CFF) with R1 can be used to 
+improve the feedback loop stability and PSRR, 
+increase the transient response and reduce the output 
+noise. Use R2 ≤ 10kΩ with CFF in the range of 1nF to 
+100nF (effective capacitance), or choose R2 ≤ 1.5kΩ 
+and the value of CFF is unlimited. 
+SGM2052-
+ADJ
+GND
+EN
+VOUT
+VIN
+VOUT
+ADJ
+R2
+R1
+BIAS
+VIN
+A1
+VBIAS
+COUT
+10μF
+CBIAS
+2.2μF
+R
+C
+CIN
+10μF
+Enable
+B1
+C1
+C2
+B2
+A2
+CFF
+10nF
+ 
+ 
+Figure 4. Adjustable Output Voltage Application 
+ 
+ 
+ 
+ 
+
+1.5A, Ultra-High PSRR, Fast Load Transient, 
+SGM2052 
+Bias Rail CMOS Voltage Regulator 
+ 
+ 
+11 
+FEBRUARY 2022 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+Dropout Voltage 
+The SGM2052 specifies two dropout voltages because 
+there are two power supplies VIN and VBIAS and one 
+VOUT regulator output. VIN dropout voltage is defined as 
+the difference between VIN and VOUT when VOUT falls 5% 
+below VOUT(NOM). When the output voltage is lower than 
+1.6V, VBIAS dropout voltage is not applicable because 
+the minimum bias supply voltage is 2.5V. 
+When VOUT begins to decrease and VBIAS is high 
+enough, the VIN dropout voltage equals to VIN - VOUT. 
+VBIAS dropout voltage refers to VBIAS - VOUT when the 
+VIN and BIAS pins are connected together and VOUT 
+begins to decrease. 
+ 
+Output Current Limit and Short-Circuit 
+Protection 
+When overload events happen, the output current is 
+internally limited to 2.2A (TYP). When the VOUT pin is 
+shorted to ground, the short-circuit protection will limit 
+the output current to 1.1A (TYP). 
+ 
+Thermal Shutdown Protection 
+The SGM2052 can detect the temperature of die. When 
+the die temperature exceeds the threshold value of 
+thermal shutdown, the SGM2052 will be in shutdown 
+state and it will remain in this state until the die 
+temperature decreases to +140℃. 
+ 
+Power Dissipation (PD) 
+Thermal protection limits power dissipation in the 
+SGM2052. When power dissipation on pass element 
+(PD = (VIN - VOUT) × IOUT) is too much that raise the 
+operation junction temperature exceeds +160℃, the 
+OTP circuit starts the thermal shutdown function and 
+turns the pass element off. The power dissipation must 
+be less than 6W for the device protection. For example, 
+when output is short to GND, the short current is about 
+2A and the input voltage must be less than 3V, 
+otherwise the SGM2052 may be damaged. 
+Therefore, thermal analysis for the chosen application 
+is important to guarantee reliable performance over all 
+conditions. To guarantee reliable operation, the junction 
+temperature of the SGM2052 must not exceed 125℃. 
+In order to calculate the maximum power that the 
+device can dissipate, the following formula is used: 
+PD(MAX) = (125℃ - TA) / θJA        (2) 
+where TA is the ambient temperature, and θJA is the 
+junction-to-ambient thermal resistance. 
+ 
+Negatively Biased Output 
+When the output is negative voltage, the chip may not 
+start-up due to parasitic effects. Ensure that the output 
+is greater than -0.3V under all conditions. The load is 
+too high can make VOUT < -0.3V, a Schottky diode can 
+be added between the VOUT pin and GND pin. 
+ 
+Reverse Current Protection 
+The NMOS power transistor has an inherent body 
+diode, this body diode will be forward biased when 
+VOUT > VIN. When VOUT > VIN, the reverse current 
+flowing from the VOUT pin to the VIN pin will damage 
+the SGM2052. If VOUT > (VIN + 0.3V) is expected in the 
+application, one external Schottky diode will be added 
+between the VOUT pin and VIN pin to protect the 
+SGM2052. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+Changes from Original (FEBRUARY 2022) to REV.A 
+Page 
+Changed from product preview to production data .................................................................................................................................................All 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00169.000 
+SG Micro Corp 
+www.sg-micro.com 
+ 
+ 
+ 
+ 
+ 
+PACKAGE OUTLINE DIMENSIONS 
+WLCSP-0.8×1.2-6B-A 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTES: 
+1. All linear dimensions are in millimeters. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+A1 CORNER
+RECOMMENDED LAND PATTERN
+A
+B
+C
+1
+0.4
+0.4
+0.22
+0.20
+6 ×
+ Φ
+0.325± 0.025
+0.550± 0.050
+2
+0.025± 0.005
+0.800± 0.015
+1.200± 0.015
+0.4
+0.4
+6 ×
+ Φ0.260± 0.020
+0.200± 0.020
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+WLCSP-0.8×1.2-6B-A 
+7″ 
+9.0 
+0.90 
+1.32 
+0.68 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 

@@ -1,0 +1,1087 @@
+ 
+SGM8750 
+300ns, Single-Supply, Dual Channels, 
+Low Power, Rail-to-Rail Input Comparator 
+ 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+MARCH 2023 – REV. B. 1 
+GENERAL DESCRIPTION 
+The SGM8750 is a dual, high speed, low power 
+comparator, which features a fast 300ns propagation 
+delay. The device is optimized for low voltage operation 
+on 3V or 5V supply, and consumes only 46μA supply 
+current. 
+The SGM8750 supports rail-to-rail input operation. The 
+input common mode voltage range is from -0.1V to VCC 
++ 0.1V. The device has an open-drain output structure 
+that needs external pull-up resistor. Any input or output 
+pin has a continuous short-circuit protection to both 
+power supply rails. 
+The SGM8750 is available in Green SOIC-8 and 
+MSOP-8 packages. It is rated over the -40℃ to +125℃ 
+temperature range. 
+ 
+ 
+FEATURES 
+● Low Propagation Delay: 300ns (Overdrive = 10mV) 
+● Low Supply Current: 46μA (TYP) at VCC = 3V 
+● Low Offset Voltage: 5.5mV (MAX) 
+● Rail-to-Rail Input 
+● Supply Voltage Range: 2.7V to 5.5V 
+● Open-Drain Output 
+● Output Swing with 4mA Output Current: 200mV 
+(TYP) 
+● Supports CMOS or TTL Logic 
+● -40℃ to +125℃ Operating Temperature Range 
+● Available in Green SOIC-8 and MSOP-8 Packages 
+ 
+APPLICATIONS 
+3V or 5V Applications 
+Portable/Battery-Powered Equipment 
+Mobile Phones 
+Zero-Crossing Detectors 
+Threshold Detectors 
+Line Receiver Units 
+ 
+ 
+ 
+ 
+ 
+
+300ns, Single-Supply, Dual Channels, 
+SGM8750 
+Low Power, Rail-to-Rail Input Comparator 
+ 
+ 
+2 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM8750 
+SOIC-8 
+-40℃ to +125℃ 
+SGM8750XS8G/TR 
+SGM 
+8750XS8 
+XXXXX 
+Tape and Reel, 2500 
+MSOP-8 
+-40℃ to +125℃ 
+SGM8750XMS8G/TR 
+SGM8750 
+XMS8 
+XXXXX 
+Tape and Reel, 4000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code and Vendor Code. 
+Date Code - Week
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Supply Voltage, VCC to GND 
+.............................................. 
+6V 
+Differential Input Voltage, VID 
+............................ ±(VCC - GND) 
+Voltage at Input/Output Pins 
+................. -0.3V to (VCC + 0.3V) 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+2000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Temperature Range .................... -40℃ to +125℃ 
+Operating Supply Voltage Range ....................... 
+2.7V to 5.5V 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+PIN CONFIGURATIONS 
+(TOP VIEW) 
+OUTA
+OUTB
++INB
+VCC
+-INA
++INA
+GND
+-INB
++
+_
++
+_
+8
+7
+6
+5
+1
+2
+3
+4
+ 
+SOIC-8/MSOP-8 
+ 
+ 
+ 
+
+300ns, Single-Supply, Dual Channels, 
+SGM8750 
+Low Power, Rail-to-Rail Input Comparator 
+ 
+ 
+3 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VCC = 5V, VCM = 0V, CL = 15pF, Full = -40℃ to +125℃, typical values are at TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN 
+TYP 
+MAX 
+UNITS 
+Operating Supply Voltage Range 
+VCC 
+ 
+Full 
+2.7 
+ 
+5.5 
+V 
+Input Common Mode Voltage Range 
+VCM 
+ 
+Full 
+-0.1 
+ 
+VCC + 0.1 
+V 
+Input Offset Voltage 
+VOS 
+VCC = 5V, VCM = -0.1V 
++25℃ 
+ 
+0.9 
+5.5 
+mV 
+Full 
+ 
+ 
+6 
+VCC = 5V, VCM = 5.1V 
++25℃ 
+ 
+0.9 
+6 
+Full 
+ 
+ 
+6.5 
+Output Short-Circuit Current 
+ISINK 
+VCC = 5V, VOUT = VCC/2 
++25℃ 
+27 
+30 
+ 
+mA 
+Full 
+19 
+ 
+ 
+Common Mode Rejection Ratio 
+CMRR 
+VCC = 5V, VCM = -0.1V to 5.1V 
++25℃ 
+63 
+80 
+ 
+dB 
+Full 
+60 
+ 
+ 
+Power Supply Rejection Ratio 
+PSRR 
+VCC = 2.7V to 5.5V 
++25℃ 
+76 
+80 
+ 
+dB 
+Full 
+68 
+ 
+ 
+Output Voltage Swing from Rail 
+VOL 
+VCC = 5V, IOUT = -4mA 
++25℃ 
+ 
+200 
+220 
+mV 
+Full 
+ 
+ 
+310 
+Supply Current 
+IS 
+VCC = 3V, VOUT = L, IOUT = 0mA 
++25℃ 
+ 
+46 
+65 
+μA 
+Full 
+ 
+ 
+90 
+VCC = 5V, VOUT = L, IOUT = 0mA 
++25℃ 
+ 
+50 
+72 
+Full 
+ 
+ 
+120 
+ 
+ 
+SWITCHING CHARACTERISTICS 
+(VCC = 5V, VCM = 0V, CL = 15pF, typical values are at TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN 
+TYP 
+MAX 
+UNITS 
+Propagation Delay (High to Low) 
+tPHL 
+Overdrive = 10mV 
++25℃ 
+ 
+300 
+ 
+ns 
+Overdrive = 100mV 
++25℃ 
+ 
+110 
+ 
+Fall Time 
+tFALL 
+Overdrive = 10mV 
++25℃ 
+ 
+14 
+ 
+ns 
+Overdrive = 100mV 
++25℃ 
+ 
+8 
+ 
+Turn-On Time 
+ 
+VCC = 3V 
++25℃ 
+ 
+30 
+ 
+μs 
+ 
+ 
+ 
+ 
+ 
+
+300ns, Single-Supply, Dual Channels, 
+SGM8750 
+Low Power, Rail-to-Rail Input Comparator 
+ 
+ 
+4 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+ 
+ 
+     Supply Current vs. Temperature  
+     Output Low Voltage vs. Temperature 
+ 
+ 
+     Propagation Delay vs. Input Overdrive 
+     Propagation Delay vs. Capacitive Load 
+ 
+ 
+     Propagation Delay (H-L) 
+     Propagation Delay (H-L) 
+ 
+ 
+ 
+ 
+30
+40
+50
+60
+70
+80
+-50
+-25
+0
+25
+50
+75
+100
+125
+Supply Current (μA) 
+Temperature (℃) 
+VCC = 5V 
+VCC = 3V 
+VOUT = L 
+ 
+ 
+ 
+100
+150
+200
+250
+300
+350
+-50
+-25
+0
+25
+50
+75
+100
+125
+Output Low Voltage (mV) 
+Temperature (℃) 
+VCC = 3V 
+VCC = 5V 
+ISINK = 4mA 
+50
+100
+150
+200
+250
+300
+0
+50
+100
+150
+200
+250
+300
+350
+400
+Propagation Delay (ns) 
+Input Overdrive (mV) 
+VCC = 3V, VCM = 0V, RL = 10kΩ, CL = 18pF 
+H-L 
+100
+104
+108
+112
+116
+120
+0
+30
+60
+90
+120
+150
+180
+Propagation Delay (ns) 
+Capacitive Load (pF) 
+VCC = 3V, VCM = 0V, RL = 10kΩ, VOD = 100mV 
+H-L 
+Time (100ns/div) 
+0V 
+0V 
+1V/div 
+10mV/div 
+VIN 
+VOUT 
+VCC = 3V, VOD = 10mV, VCM = 0V 
+Time (50ns/div) 
+0V 
+0V 
+1V/div 
+100mV/div 
+VIN 
+VOUT 
+VCC = 3V, VOD = 100mV, VCM = 0V 
+
+300ns, Single-Supply, Dual Channels, 
+SGM8750 
+Low Power, Rail-to-Rail Input Comparator 
+ 
+ 
+5 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+     Output Short-Circuit (Sink) Current vs. Temperature  
+     Input Offset Voltage Production Distribution 
+ 
+ 
+     Input Offset Voltage Production Distribution 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+-50
+-40
+-30
+-20
+-10
+0
+-50
+-25
+0
+25
+50
+75
+100
+125
+Temperature (℃) 
+VCC = 3V 
+VCC = 5V 
+Output Short-Circuit (Sink) Current (mA) 
+0
+4
+8
+12
+16
+20
+-2.4
+-2.1
+-1.8
+-1.5
+-1.2
+-0.9
+-0.6
+-0.3
+0.0
+0.3
+0.6
+0.9
+1.2
+1.5
+1.8
+2.1
+2.4
+2.7
+3.0
+Percentage of Comparators (%) 
+Input Offset Voltage (mV) 
+3330 Samples  
+1 Production Lot 
+VCC = 5V 
+VCM = 0V 
+ 
+0
+4
+8
+12
+16
+20
+-2.7
+-2.4
+-2.1
+-1.8
+-1.5
+-1.2
+-0.9
+-0.6
+-0.3
+0.0
+0.3
+0.6
+0.9
+1.2
+1.5
+1.8
+2.1
+2.4
+2.7
+3.0
+3.3
+Percentage of Comparators (%) 
+Input Offset Voltage (mV) 
+3330 Samples  
+1 Production Lot 
+VCC = 5V 
+VCM = 5V 
+ 
+
+300ns, Single-Supply, Dual Channels, 
+SGM8750 
+Low Power, Rail-to-Rail Input Comparator 
+ 
+ 
+6 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION 
+The SGM8750 is a single, high speed, low power 
+comparator optimized for low voltage operation from 
+2.7V to 5.5V single supply. The device supports 
+rail-to-rail input operation. It is suitable for portable 
+equipment. Open-drain structure needs external pull-up 
+resistor. The SGM8750 can be compatible with CMOS 
+and TTL logics. 
+ 
+Output Structure 
+In Figure 1, the SGM8750 has an open-drain output 
+stage. When output is changed from logic high to low, 
+the changed sink current pulls output pin to logic low. 
+Beginning this transition, larger sink current is used to 
+create a high slew rate transit from high to low. Once 
+the output voltage reaches VOL, it will reduce the sink 
+current to a just right value to maintain the VOL static 
+condition. This current-driven open-drain output stage will 
+significantly reduce the power consumption in application 
+system. 
+If low slew rate transition is needed in system design, 
+adjusting the load capacitance will change the slew rate. 
+The heavier capacitive load will slow down the output 
+voltage transition. This feature will be used to reduce 
+the interference generated by fast edge of transition 
+between 1 and 0 in noise-sensitive system. 
+ 
+GND
+ISINK
+Output
+4.7kΩ
+VCC
+ 
+ 
+Figure 1. Open-Drain Output Structure 
+ 
+ 
+APPLICATION INFORMATION 
+Application Circuits 
+VDD = 3.3V
+Analog 
+Input
+VDD
+VREF
+SDI
+8-Bit DAC
+DACOUT
+VSS
+GND
+Serial 
+Digital 
+Input
+½
+SGM8750
++
+_
+4.7kΩ
+ 
+Figure 2. A Threshold Detector Controlled by 8-Bit DAC 
+ 
+½
+SGM8750
++
+_
+VCC = 3V
+20kΩ
+20kΩ
+Coax Line
+Clean 
+Digital 
+Signal
+10kΩ
+VCC = 3V
+3V
+0
+4.7kΩ
+ 
+ 
+Figure 3. The Application of Line Receiver 
+Layout and Bypassing 
+Good power supply decoupling, layout and grounding 
+are very important for SGM8750 to realize the full 
+high-speed capabilities in system, following skills will be 
+used: 
+ A 0.1µF to 4.7µF range ceramic capacitor is used to 
+provide good power supply decoupling. This ceramic 
+capacitor must be placed as close to VCC pin as 
+possible. 
+ For grounding, unbroken and low-inductance ground 
+plane is a good choice. 
+ For Layout, use short PCB trace to avoid unwanted 
+parasitic feedback around the comparator. SGM8750 
+must be soldered directly to the PCB and the socket is 
+not recommended. 
+ 
+ 
+
+300ns, Single-Supply, Dual Channels, 
+SGM8750 
+Low Power, Rail-to-Rail Input Comparator 
+ 
+ 
+7 
+MARCH 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+MARCH 2023 ‒ REV.B to REV.B.1 
+Page 
+Updated Typical Performance Characteristics section 
+..................................................................................................................................... 4, 5 
+ 
+Changes from Original (AUGUST 2021) to REV.B 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00010.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOIC-8 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+1.350 
+1.750 
+0.053 
+0.069 
+A1 
+0.100 
+0.250 
+0.004 
+0.010 
+A2 
+1.350 
+1.550 
+0.053 
+0.061 
+b 
+0.330 
+0.510 
+0.013 
+0.020 
+c 
+0.170 
+0.250 
+0.006 
+0.010 
+D 
+4.700 
+5.100 
+0.185 
+0.200 
+E 
+3.800 
+4.000 
+0.150 
+0.157 
+E1 
+5.800 
+6.200 
+0.228 
+0.244 
+e 
+1.27 BSC 
+0.050 BSC 
+L 
+0.400 
+1.270 
+0.016 
+0.050 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+D
+E
+E1
+e
+b
+A
+A2
+A1
+c
+L
+θ
+1.27
+0.6
+2.2
+5.2
+RECOMMENDED LAND PATTERN (Unit: mm)
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00014.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+MSOP-8 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.820 
+1.100 
+0.032 
+0.043 
+A1 
+0.020 
+0.150 
+0.001 
+0.006 
+A2 
+0.750 
+0.950 
+0.030 
+0.037 
+b 
+0.250 
+0.380 
+0.010 
+0.015 
+c 
+0.090 
+0.230 
+0.004 
+0.009 
+D 
+2.900 
+3.100 
+0.114 
+0.122 
+E 
+2.900 
+3.100 
+0.114 
+0.122 
+E1 
+4.750 
+5.050 
+0.187 
+0.199 
+e 
+0.650 BSC 
+0.026 BSC 
+L 
+0.400 
+0.800 
+0.016 
+0.031 
+θ 
+0° 
+6° 
+0° 
+6° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+E1
+E
+e
+D
+A1
+L
+c
+A
+A2
+θ
+b
+RECOMMENDED LAND PATTERN (Unit: mm)
+1.02
+0.41
+0.65
+4.8
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+SOIC-8 
+13″ 
+12.4 
+6.40 
+5.40 
+2.10 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+MSOP-8 
+13″ 
+12.4 
+5.20 
+3.30 
+1.50 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

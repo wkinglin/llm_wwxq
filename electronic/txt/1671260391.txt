@@ -1,0 +1,769 @@
+ 
+ 
+SGM72108 
+SP8T LTE Switch with MIPI RFFE Interface 
+ 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DECEMBER 2022 – REV.A.1 
+ 
+GENERAL DESCRIPTION 
+The SGM72108 is a single-pole/eight-throw (SP8T) 
+antenna switch, which supports from 0.1GHz to 3.0GHz. 
+The device features low insertion loss and high 
+isolation, which make it suitable for high linearity 
+receiving applications. It also has the advantage of high 
+linearity performance. The SGM72108 is not subject to 
+cellular interference and is applied to multi-mode and 
+multi-band LTE mobile phones. 
+The SGM72108 has the ability to integrate SP8T RF 
+switch and MIPI controller on silicon-on-insulator (SOI) 
+process. Internal driver and decoder for switch control 
+signals are offered by the controller, which makes it 
+flexible in RF path band and routing selection. 
+No external DC blocking capacitors are required on the 
+RF paths as long as no external DC voltage is applied, 
+which can save PCB area and cost. 
+The SGM72108 is available in a Green UTQFN-2×
+2-14AL package. 
+ 
+APPLICATIONS 
+3G/4G Applications 
+ 
+FEATURES 
+● Supply Voltage Range: 2.4V to 4.8V 
+● Advanced Silicon-On-Insulator (SOI) Process 
+● Frequency Range: 0.1GHz to 3.0GHz 
+● Low Insertion Loss: 0.65dB (TYP) at 2.7GHz 
+● MIPI RFFE Interface Compatible  
+● No External DC Blocking Capacitors Required 
+● Available in a Green UTQFN-2×2-14AL Package 
+ 
+BLOCK DIAGRAM 
+MIPI RFFE Interface
+RF8
+RF7
+RF6
+RF3
+RF5
+RF4
+RF2
+RF1
+VDD
+SDA VIO
+SCL
+RFCOM
+ 
+ 
+Figure 1. SGM72108 Block Diagram 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+SGM72108 
+SP8T LTE Switch with MIPI RFFE Interface 
+ 
+ 
+2 
+DECEMBER 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM72108 
+UTQFN-2×2-14AL 
+-40℃ to +85℃ 
+SGM72108YURP14G/TR 
+RD6 
+XXXX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XXXX = Date Code and Trace Code. 
+Date Code - Year
+Trace Code 
+Serial Number
+Y Y Y
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Supply Voltage, VDD 
+........................................................... 
+5V 
+Supply Voltage for MIPI, VIO .............................................. 
+2V 
+SDA, SCL Control Voltage, VCTL 
+........................................ 
+2V  
+RF Input Power, PIN .................................................... 
+27dBm 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -55℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility  
+HBM 
+............................................................................. 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Temperature Range ...................... -40℃ to +85℃ 
+Operating Frequency Range 
+..................... 0.1GHz to 3.0GHz 
+Supply Voltage, VDD 
+............................................ 
+2.4V to 4.8V 
+Supply Voltage for MIPI, VIO ........................... 
+1.65V to 1.95V 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure 
+to 
+observe 
+proper 
+handling 
+and 
+installation 
+procedures can cause damage. ESD damage can range from 
+subtle performance degradation to complete device failure. 
+Precision integrated circuits may be more susceptible to 
+damage because even small parametric changes could 
+cause the device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+
+ 
+SGM72108 
+SP8T LTE Switch with MIPI RFFE Interface 
+ 
+ 
+3 
+DECEMBER 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+(TOP VIEW) 
+   
+VDD
+RF4
+RF3
+RF2
+5
+6
+13
+12
+GND
+RF8
+RF7
+RF6
+3
+2
+1
+8
+9
+10
+RF5
+RFCOM
+RF1
+VIO
+GND
+SDA
+SCL
+14
+11
+4
+7
+ 
+ UTQFN-2×2-14AL 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1 
+VIO 
+Supply Voltage for MIPI. 
+2 
+SDA 
+RFFE Data Signal. 
+3 
+SCL 
+RFFE Clock Signal. 
+4 
+GND 
+Ground. 
+5 
+RF8 
+RF Port 8. 
+6 
+RF7 
+RF Port 7. 
+7 
+RF6 
+RF Port 6. 
+8 
+RF5 
+RF Port 5. 
+9 
+RFCOM 
+RF Common Port. 
+10 
+RF1 
+RF Port 1. 
+11 
+RF2 
+RF Port 2. 
+12 
+RF3 
+RF Port 3. 
+13 
+RF4 
+RF Port 4. 
+14 
+VDD 
+DC Power Supply. 
+Exposed Pad 
+GND 
+Ground. 
+ 
+ 
+
+ 
+SGM72108 
+SP8T LTE Switch with MIPI RFFE Interface 
+ 
+ 
+4 
+DECEMBER 2022 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+Register_0 TRUTH TABLE 
+Table 1. Register_0 Truth Table 
+State 
+Mode 
+Register_0 Bits 
+D7 
+D6 
+D5 
+D4 
+D3 
+D2 
+D1 
+D0 
+1 
+Isolation 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+2 
+RF1 
+0 
+0 
+0 
+0 
+0 
+0 
+1 
+0 
+3 
+RF2 
+0 
+0 
+0 
+0 
+1 
+0 
+1 
+0 
+4 
+RF3 
+0 
+0 
+0 
+0 
+1 
+1 
+1 
+0 
+5 
+RF4 
+0 
+0 
+0 
+0 
+1 
+0 
+1 
+1 
+6 
+RF5 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+1 
+7 
+RF6 
+0 
+0 
+0 
+0 
+1 
+0 
+0 
+1 
+8 
+RF7 
+0 
+0 
+0 
+0 
+0 
+1 
+1 
+0 
+9 
+RF8 
+0 
+0 
+0 
+0 
+0 
+1 
+0 
+0 
+ 
+ELECTRICAL CHARACTERISTICS 
+(TA = +25℃, VDD = 2.4V to 4.8V, PIN = 0dBm, 50Ω, typical values are at VDD = 2.8V, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+DC Characteristics 
+Supply Voltage 
+VDD 
+ 
+2.4 
+2.8 
+4.8 
+V 
+Supply Current 
+IVDD 
+ 
+ 
+32 
+60 
+μA 
+Supply Voltage for MIPI 
+VIO 
+ 
+1.65 
+1.8 
+1.95 
+V 
+Supply Current for MIPI 
+IVIO 
+ 
+ 
+4.8 
+10 
+μA 
+Control Voltage 
+VCTL_H 
+High 
+0.8 × VIO 
+VIO 
+1.95 
+V 
+VCTL_L 
+Low 
+0 
+ 
+0.45 
+Switching Time 
+tSW 
+50% of control voltage to 90% of RF power 
+ 
+1 
+2 
+μs 
+Turn-On Time 
+tON 
+Time from VDD = 0V to part on and RF at 90% 
+ 
+5 
+10 
+μs 
+RF Characteristics 
+Insertion Loss 
+(RFCOM to All RF Ports) 
+IL 
+f0 = 0.1GHz to 1.0GHz 
+ 
+0.42 
+0.60 
+dB 
+f0 = 1.0GHz to 2.0GHz 
+ 
+0.55 
+0.70 
+f0 = 2.0GHz to 2.7GHz 
+ 
+0.65 
+0.90 
+Isolation 
+(RFCOM to All RF Ports) 
+ISO 
+f0 = 0.1GHz to 1.0GHz 
+25 
+42 
+ 
+dB 
+f0 = 1.0GHz to 2.0GHz 
+22 
+34 
+ 
+f0 = 2.0GHz to 2.7GHz 
+18 
+30 
+ 
+Input Return Loss 
+(RFCOM to All RF Ports) 
+RL 
+f0 = 0.1GHz to 1.0GHz 
+ 
+20 
+ 
+dB 
+f0 = 1.0GHz to 2.0GHz 
+ 
+13 
+ 
+f0 = 2.0GHz to 2.7GHz 
+ 
+16 
+ 
+0.1dB Compression Point 
+(RFCOM to All RF Ports) 
+P0.1dB 
+f0 = 0.1GHz to 3.0GHz 
+ 
+27 
+ 
+dBm 
+ 
+ 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00215.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+UTQFN-2×2-14AL 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.500 
+0.550 
+0.600 
+A1 
+0.000 
+0.020 
+0.050 
+A2 
+0.150 REF 
+D 
+1.950 
+2.000 
+2.050 
+E 
+1.950 
+2.000 
+2.050 
+D1 
+0.880 
+0.980 
+1.080 
+E1 
+0.880 
+0.980 
+1.080 
+b 
+0.130 
+0.180 
+0.230 
+e 
+0.400 BSC 
+k 
+0.150 
+- 
+- 
+L 
+0.160 
+0.210 
+0.260 
+L1 
+0.120 REF 
+ 
+NOTE: This drawing is subject to change without notice. 
+ 
+ 
+E
+D
+A
+A1
+A2
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+RECOMMENDED LAND PATTERN (Unit: mm)
+N1
+PIN #1
+E1
+L
+N14
+0.18
+0.41
+0.98
+0.98
+2.40
+D1
+L1
+b
+k
+1.58
+0.40
+e
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1 
+Quadrant 
+DD0001 
+ 
+ 
+UTQFN-2×2-14AL 
+7″ 
+9.5 
+2.25 
+2.25 
+0.75 
+4.0 
+4.0 
+2.0 
+8.0 
+Q2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 

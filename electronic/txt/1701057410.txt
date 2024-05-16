@@ -1,0 +1,1464 @@
+ 
+ 
+SGM2217Q 
+1.5A, Low Dropout Positive Regulator 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+NOVEMBER 2023 – REV. A 
+GENERAL DESCRIPTION 
+The SGM2217Q is a low noise, high current and low 
+dropout voltage linear regulator. It is capable of 
+supplying 1.5A output current with typical dropout 
+voltage of 1.32V. The operating input voltage range is 
+from 2.8V to 30V. The adjustable output voltage range 
+is from 1.25V to 26V. 
+Other features include short-circuit current limit and 
+thermal shutdown protection.  
+This device is AEC-Q100 qualified (Automotive 
+Electronics Council (AEC) standard Q100 Grade 1) and 
+it is suitable for automotive applications. 
+The SGM2217Q is available in a Green SOIC-8 
+(Exposed Pad) package. It operates over an operating 
+temperature range of -40℃ to +125℃. 
+FEATURES 
+● AEC-Q100 Qualified for Automotive Applications  
+Device Temperature Grade 1 
+TA = -40℃ to +125℃ 
+● Wide Input Voltage Range: 2.8V to 30V 
+● Adjustable Output from 1.25V to 26V 
+● 1.5A Output Current 
+● Low Dropout Voltage: 1.32V (TYP) at 1.5A 
+● Line Regulation: 0.05% (TYP) 
+● Load Regulation: 0.01% (TYP) 
+● Current Limiting and Thermal Protection 
+● Excellent Load and Line Transient Responses 
+● Stable with Small Case Size Ceramic Capacitors 
+● -40℃ to +125℃ Operating Temperature Range 
+● Available in a Green SOIC-8 (Exposed Pad) 
+Package 
+ 
+APPLICATIONS 
+Automotive Application 
+Battery Chargers 
+Automotive Inverter 
+ 
+ 
+ 
+ 
+TYPICAL APPLICATION 
+VOUT = 1.25V × (1 + R2/R1)
+IN
+OUT
+ADJ
+SGM2217Q
+R1
+124Ω
+COUT
+10μF
+VOUT 
+CIN
+10μF
+VIN
+ 
+R2
+2.5kΩ
+ 
+ 
+Figure 1. Typical Application Circuit 
+ 
+
+ 
+SGM2217Q 
+1.5A, Low Dropout Positive Regulator 
+ 
+ 
+2 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM2217Q 
+SOIC-8  
+(Exposed Pad) 
+-40℃ to +125℃ 
+SGM2217QPS8G/TR 
+0FCPS8 
+XXXXX 
+Tape and Reel, 4000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code. 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Input to Output Voltage 
+.................................................... 
+31V 
+Package Thermal Resistance 
+SOIC-8 (Exposed Pad), θJA 
+........................................ 38℃/W 
+SOIC-8 (Exposed Pad), θJB 
+........................................ 15℃/W 
+SOIC-8 (Exposed Pad), θJC(TOP) ................................. 52℃/W 
+SOIC-8 (Exposed Pad), θJC(BOT) ................................ 4.4℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+3000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Input Voltage Range ............................................ 
+2.8V to 30V 
+Input Effective Capacitance, CIN ......................... 2.3μF (MIN) 
+Output Effective Capacitance, COUT 
+............... 
+2.3μF to 100μF 
+Capacitor Effective Series Resistance, ESR......... 
+1mΩ to 8Ω 
+Operating Junction Temperature Range 
+...... -40℃ to +125℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+
+ 
+SGM2217Q 
+1.5A, Low Dropout Positive Regulator 
+ 
+ 
+3 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+ 
+ SGM2217Q (TOP VIEW) 
+1
+4
+3
+2
+8
+5
+6
+7
+ADJ
+OUT
+OUT
+OUT
+IN
+NC
+NC
+IN
+EP
+ 
+SOIC-8 (Exposed Pad) 
+ 
+ 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1, 2, 4 
+OUT 
+Regulator Output Pin. Pin 4 must be tied to the other OUT pins directly. It is recommended 
+to use output capacitor with effective capacitance in the range of 2.3μF to 100μF with an 
+ESR of 8Ω or less. 
+3 
+ADJ 
+Feedback Voltage Input Pin. Connect this pin to the midpoint of an external resistor divider 
+to adjust the output voltage. Place the resistors as close as possible to this pin. 
+5, 6 
+NC 
+No Connection. 
+7, 8 
+IN 
+Input Supply Voltage Pin. It is recommended to use a 4.7μF or larger ceramic capacitor 
+from IN pin to ground. This ceramic capacitor should be placed as close as possible to IN 
+pin. 
+Exposed Pad 
+EP 
+Exposed Pad. Connect it to OUT internally. Connect it to a large ground plane to maximize 
+thermal performance. This pad is not an electrical connection point. 
+ 
+ 
+ 
+
+ 
+SGM2217Q 
+1.5A, Low Dropout Positive Regulator 
+ 
+ 
+4 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAM 
+ 
+SGM2217Q
+IN
+OUT
+ADJ
+Current Limit 
+and 
+Thermal Protection
+Reference
+Voltage
+1.25V
++
+-
+ 
+ 
+Figure 2. Internal Block Diagram 
+ 
+ 
+
+ 
+SGM2217Q 
+1.5A, Low Dropout Positive Regulator 
+ 
+ 
+5 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VOUT = 1.25V, CIN = 10μF and COUT = 10μF (ceramic capacitor), TJ = -40℃ to +125℃, typical values are at TJ = +25℃, unless 
+otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Reference Voltage 
+VADJ 
+IOUT = 10mA, (VIN - VOUT) = 3V, TJ = +25℃ 
+1.238 
+1.25 
+1.262 
+V 
+IOUT = 10mA to 1.5A 
+(1), VIN = (1.6V + VOUT) to 30V 
+1.225 
+ 
+1.275 
+ADJ Pin Current 
+IADJ 
+IOUT = 10mA, (VIN - VOUT) = 3V 
+ 
+8 
+20 
+µA 
+ADJ Pin Current Change 
+ΔIADJ 
+IOUT = 10mA to 1.5A (1), (VIN - VOUT) = 1.6V to 15V 
+ 
+0.05 
+2 
+µA 
+Line Regulation 
+∆
+OUT
+OUT
+V
+V
+ 
+IOUT = 10mA, VIN = (1.6V + VOUT) to 30V 
+ 
+0.05 
+0.2 
+% 
+Load Regulation 
+∆
+OUT
+OUT
+V
+V
+ 
+IOUT = 10mA to 1.5A, (VIN - VOUT) = 3V 
+ 
+0.01 
+0.2 
+% 
+Dropout Voltage 
+VDROP 
+IOUT = 1.5A, ΔVOUT = 1% 
+ 
+1.32 
+1.6 
+V 
+Output Current Limit 
+ILIMIT 
+(VIN - VOUT) = 5V, ΔVOUT = 5% 
+1.52 
+2.9 
+ 
+A 
+(VIN - VOUT) = 25V, VOUT = 0V 
+0.04 
+0.26 
+ 
+Minimum Load Current (2) 
+IOUT_MIN 
+VIN = 30V 
+ 
+3 
+10 
+mA 
+Turn-On Time 
+tON 
+IOUT = 10mA, (VIN - VOUT) = 3V,  
+from assertion of VIN to VOUT = 95% × VOUT(NOM) 
+ 
+0.42 
+1 
+ms 
+Temperature Stability 
+ 
+ 
+ 
+0.5 
+ 
+% 
+Power Supply Ripple Rejection 
+PSRR 
+IOUT = 1.5A, (VIN - VOUT) = 3V, ΔVRIPPLE = 2VP-P,  
+fRIPPLE = 120Hz, COUT = 20μF 
+ 
+72 
+ 
+dB 
+Output Voltage Noise 
+en 
+IOUT = 0.5A, (VIN - VOUT) = 3V, f = 10Hz to 10kHz 
+ 
+0.004 
+ 
+% 
+Thermal Regulation 
+ 
+30ms Pulse, TJ = +25℃ 
+ 
+0.01 
+0.05 
+%/W 
+Thermal Shutdown Temperature 
+TSHDN 
+ 
+ 
+180 
+ 
+℃ 
+Thermal Shutdown Hysteresis 
+ΔTSHDN 
+ 
+ 
+20 
+ 
+℃ 
+ 
+NOTES: 
+1. Output current limit is a function of input-to-output voltage. See short circuit current curve for available output current at the 
+input-to-output differential. 
+2. The minimum output current required to maintain regulation. 
+ 
+ 
+
+ 
+SGM2217Q 
+1.5A, Low Dropout Positive Regulator 
+ 
+ 
+6 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+TJ = +25℃, (VIN - VOUT) = 3V, CIN = COUT = 10μF (ceramic capacitor), unless otherwise noted. 
+ 
+ 
+VIN Power-Up Output Waveform 
+ 
+ 
+ 
+VIN Power-Up Output Waveform 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+VOUT 
+ 
+IIN 
+ 
+ 
+ 
+ 
+2V/div      1V/div    100mA/div  
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+VOUT 
+ 
+IIN 
+ 
+ 
+ 
+ 
+ 
+2V/div     1V/div  200mA/div  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (200μs/div) 
+ 
+ 
+ 
+Time (200μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Line Transient Response 
+ 
+ 
+ 
+Line Transient Response 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+1V/div      50mV/div 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+     1V/div      20mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Line Transient Response 
+ 
+ 
+ 
+Line Transient Response 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+1V/div      50mV/div 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+      1V/div      20mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+VOUT = 1.25V, IOUT = 3mA, CIN = 0μF 
+VOUT = 1.25V, IOUT = 200mA, CIN = 0μF 
+VOUT = 10V, VIN = 12V to 13V, IOUT = 200mA,  
+CADJ = 0μF, tRISE = tFALL = 3.5μs 
+VOUT = 10V, VIN = 12V to 13V, IOUT = 200mA,  
+CADJ = 1μF, tRISE = tFALL = 3.5μs 
+VOUT = 10V, VIN = 12V to 13V, IOUT = 200mA,  
+CADJ = 0μF, tRISE = tFALL = 10μs 
+VOUT = 10V, VIN = 12V to 13V, IOUT = 200mA,  
+CADJ = 1μF, tRISE = tFALL = 10μs 
+
+ 
+SGM2217Q 
+1.5A, Low Dropout Positive Regulator 
+ 
+ 
+7 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, (VIN - VOUT) = 3V, CIN = COUT = 10μF (ceramic capacitor), unless otherwise noted. 
+ 
+ 
+Load Transient Response 
+ 
+ 
+ 
+Load Transient Response 
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+   1A/div   500mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+ 
+ 
+VOUT 
+ 
+        1A/div   100mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+Time (50μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Load Transient Response 
+ 
+ 
+ 
+Load Transient Response 
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+ 
+VOUT 
+ 
+1A/div   500mV/div 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+ 
+ 
+VOUT 
+ 
+1A/div   100mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (200μs/div) 
+ 
+ 
+ 
+Time (50μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Thermal Protection 
+ 
+ 
+ 
+Thermal Protection 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+         1A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+       200mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (500μs/div) 
+ 
+ 
+ 
+Time (200μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VOUT = 10V, VIN = 13V, IOUT = 100mA to 1.5A, CADJ = 0μF 
+VOUT = 10V, VIN = 13V, IOUT = 100mA to 1.5A, CADJ = 1μF 
+VOUT = 10V, VIN = 13V, IOUT = 10mA to 1.5A, CADJ = 0μF 
+VOUT = 10V, VIN = 13V, IOUT = 10mA to 1.5A, CADJ = 1μF 
+OUT pin short to ADJ pin, VIN = 7V 
+OUT pin short to ADJ pin, VIN = 30V 
+
+ 
+SGM2217Q 
+1.5A, Low Dropout Positive Regulator 
+ 
+ 
+8 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, (VIN - VOUT) = 3V, CIN = COUT = 10μF (ceramic capacitor), unless otherwise noted. 
+ 
+     Output Voltage vs. Output Current 
+     ADJ Pin Current vs. Output Current 
+ 
+ 
+     Output Voltage vs. Input Voltage 
+     ADJ Pin Current vs. Input Voltage 
+ 
+ 
+     Output Voltage vs. Temperature 
+     ADJ Pin Current vs. Temperature 
+ 
+ 
+ 
+ 
+1.248
+1.249
+1.250
+1.251
+1.252
+1.253
+0
+0.3
+0.6
+0.9
+1.2
+1.5
+Output Voltage (V) 
+Output Current (A) 
+VOUT = 1.25V 
+7.92
+7.96
+8.00
+8.04
+8.08
+8.12
+0
+0.3
+0.6
+0.9
+1.2
+1.5
+ADJ Pin Current (μA) 
+Output Current (A) 
+VOUT = 1.25V 
+1.248
+1.249
+1.250
+1.251
+1.252
+1.253
+3
+6
+9
+12
+15
+18
+21
+24
+27
+30
+Output Voltage (V) 
+Input Voltage (V) 
+VOUT = 1.25V, IOUT = 3mA 
+7.86
+7.88
+7.90
+7.92
+7.94
+7.96
+3
+6
+9
+12
+15
+18
+21
+24
+27
+30
+ADJ Pin Current (μA) 
+Input Voltage (V) 
+VOUT = 1.25V, IOUT = 3mA 
+1.2500  
+1.2505  
+1.2510  
+1.2515  
+1.2520  
+1.2525  
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Output Voltage (V) 
+Temperature (℃) 
+VOUT = 1.25V, IOUT = 3mA 
+0
+3
+6
+9
+12
+15
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+ADJ Pin Current (μA) 
+Temperature (℃) 
+VOUT = 1.25V, IOUT = 3mA 
+
+ 
+SGM2217Q 
+1.5A, Low Dropout Positive Regulator 
+ 
+ 
+9 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, (VIN - VOUT) = 3V, CIN = COUT = 10μF (ceramic capacitor), unless otherwise noted. 
+ 
+     Dropout Voltage vs. Temperature 
+     Dropout Voltage vs. Temperature 
+ 
+ 
+     Dropout Voltage vs. Output Current 
+     Short-Circuit Current vs. Input-to-Output Differential 
+ 
+ 
+     Power Supply Rejection Ratio vs. Frequency 
+     Power Supply Rejection Ratio vs. Output Current 
+ 
+ 
+ 
+ 
+1.28
+1.30
+1.32
+1.34
+1.36
+1.38
+1.40
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Dropout Voltage (V) 
+Temperature (℃) 
+IOUT = 1.5A 
+1.14
+1.16
+1.18
+1.20
+1.22
+1.24
+1.26
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Dropout Voltage (V) 
+Temperature (℃) 
+IOUT = 0.2A 
+1.0
+1.1
+1.2
+1.3
+1.4
+1.5
+0
+0.3
+0.6
+0.9
+1.2
+1.5
+Dropout Voltage (V) 
+Output Current (A) 
+TJ = -40℃ 
+TJ = +25℃ 
+TJ = +125℃ 
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+0
+5
+10
+15
+20
+25
+30
+Short-Circuit Current (A) 
+Input-to-Output Differential (V) 
+TJ = -40℃ 
+TJ = +25℃ 
+TJ = +125℃ 
+VOUT = 0V 
+0
+20
+40
+60
+80
+100
+0.01
+0.1
+1
+10
+100
+1000
+Power Supply Rejection Ratio (dB) 
+Frequency (kHz) 
+VOUT = 1.25V, IOUT = 1.5A, 
+ΔVRIPPLE = 2VP-P, COUT = 20μF 
+60
+65
+70
+75
+80
+85
+90
+95
+0
+0.3
+0.6
+0.9
+1.2
+1.5
+Power Supply Rejection Ratio (dB) 
+Output Current (A) 
+VOUT = 1.25V, fRIPPLE = 120Hz, 
+ΔVRIPPLE = 2VP-P, COUT = 20μF 
+
+ 
+SGM2217Q 
+1.5A, Low Dropout Positive Regulator 
+ 
+ 
+10 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+The SGM2217Q is a low noise, high current and low 
+dropout LDO and provides 1.5A output current. These 
+features make the device a reliable solution to solve 
+many challenging problems in the generation of clean 
+and accurate power supply. The high performance also 
+makes the SGM2217Q useful in a variety of 
+applications. The SGM2217Q provides protection 
+functions for output overload, output short-circuit 
+condition and overheating. 
+ 
+Input Capacitor Selection (CIN) 
+The input decoupling capacitor should be placed as 
+close as possible to the IN pin for ensuring the device 
+stability. 10μF or larger X7R or X5R ceramic capacitor 
+is selected to get good dynamic performance. 
+When VIN is required to provide large current 
+instantaneously, a large effective input capacitor is 
+required. Multiple input capacitors can limit the input 
+tracking inductance. Adding more input capacitors is 
+available to restrict the ringing and to keep it below the 
+device absolute maximum ratings. 
+ 
+Output Capacitor Selection (COUT) 
+The output decoupling capacitor should be placed as 
+close as possible to the OUT pin. It is recommended to 
+use output capacitor with effective capacitance in the 
+range of 2.3μF to 100μF with an ESR of 8Ω or less. For 
+ceramic capacitor, temperature, DC bias and package 
+size will change the effective capacitance, so enough 
+margin of COUT must be considered in design. 
+Additionally, COUT with larger capacitance and lower 
+ESR will help increase the high frequency PSRR and 
+improve the load transient response. 
+ 
+Output Current Limit and Short-Circuit 
+Protection 
+The current limiting circuit reduces the output current 
+as the input-to-output differential increases after 2ms of 
+power-on. The current limit is reduced from 2.9A to 0.26A 
+when the VIN - VOUT voltage is greater than about 20V. 
+ 
+Adjustable Regulator 
+The output voltage of the SGM2217Q can be adjusted 
+from 1.25V to 26V. The ADJ pin will be connected to two 
+external resistors as shown in Figure 3. 
+The PSRR and noise of adjustable LDO circuit can be 
+modified slightly to levels close to that of the unity-gain 
+LDO. The adjustment terminal can be bypassed to 
+ground with a capacitor (CADJ). The impedance of the 
+CADJ should be equal to or less than R2 at the desired 
+frequency. 
+IN
+OUT
+ADJ
+SGM2217Q
+R1
+124Ω
+COUT
+10μF
+VOUT 
+CIN
+10μF
+VIN
+ 
+R2
+2.5kΩ
+CADJ
+10μF
+VOUT = VADJ × (1 + R2/R1) + IADJ × R2, I1 = VADJ/R1
+But IADJ is far less than I1, so VOUT = VADJ × (1 + R2/R1).
+Where VOUT is output voltage and VADJ = 1.25V.
+IADJ
+VADJ
+I1
+ 
+ 
+Figure 3. Adjustable Output Voltage Application 
+ 
+Reverse Current Protection 
+The SGM2217Q doesn't incorporates reverse current 
+protection circuit, must add protection diodes prevents 
+current flow backwards through the pass element when 
+the output voltage is greater than the input voltage. 
+IN
+OUT
+ADJ
+SGM2217Q
+R1
+124Ω
+COUT
+10μF
+VOUT 
+CIN
+10μF
+VIN
+ 
+R2
+2.5kΩ
+CADJ
+10μF
+ 
+ 
+Figure 4. Protection Diodes Application 
+ 
+Thermal Shutdown 
+When the die temperature exceeds the threshold value 
+of thermal shutdown, the SGM2217Q will be in 
+shutdown state and it will remain in this state until the 
+die temperature decreases to +160℃. 
+ 
+Power Dissipation (PD) 
+Power dissipation (PD) of the SGM2217Q can be 
+calculated by the equation PD = (VIN - VOUT) × IOUT. The 
+maximum allowable power dissipation (PD(MAX)) of the 
+SGM2217Q is affected by many factors, including the 
+difference between junction temperature and ambient 
+temperature (TJ(MAX) - TA), package thermal resistance 
+from the junction to the ambient environment (θJA), the 
+rate of ambient airflow and PCB layout. PD(MAX) can be 
+approximated by the following equation:  
+PD(MAX) = (TJ(MAX) - TA)/θJA               (1) 
+
+ 
+SGM2217Q 
+1.5A, Low Dropout Positive Regulator 
+ 
+ 
+11 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+Changes from Original (NOVEMBER 2023) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00013.003 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOIC-8 (Exposed Pad) 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+ 
+ 
+1.700 
+A1 
+0.000 
+- 
+0.150 
+A2 
+1.250 
+- 
+1.650 
+b 
+0.330 
+- 
+0.510 
+c 
+0.170 
+- 
+0.250 
+D 
+4.700 
+- 
+5.100 
+D1 
+3.020 
+- 
+3.420 
+E 
+3.800 
+- 
+4.000 
+E1 
+5.800 
+- 
+6.200 
+E2 
+2.130 
+- 
+2.530 
+e 
+1.27 BSC 
+L 
+0.400 
+- 
+1.270 
+θ 
+0° 
+- 
+8° 
+ccc 
+0.100 
+ 
+NOTES: 
+1. This drawing is subject to change without notice. 
+2. The dimensions do not include mold flashes, protrusions or gate burrs. 
+3. Reference JEDEC MS-012. 
+ 
+ 
+D
+E
+E1
+e
+b
+A2
+A1
+c
+L
+θ
+E2
+D1
+3.22
+2.33
+0.61
+1.27
+1.91
+5.56
+RECOMMENDED LAND PATTERN (Unit: mm)
+ccc C
+SEATING PLANE
+C
+A
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+SOIC-8  
+(Exposed Pad) 
+13" 
+12.4 
+6.40 
+5.40 
+2.10 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

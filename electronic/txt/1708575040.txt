@@ -1,0 +1,1907 @@
+ 
+ 
+SGM8429C-4 
+Quad Operational Amplifier 
+ 
+ 
+AUGUST 2020 – REV. A
+SG Micro Corp 
+www.sg-micro.com 
+GENERAL DESCRIPTION 
+The SGM8429C-4 is a quad operational amplifier with 
+internal frequency compensation. It is optimized for high 
+voltage operation from 3V to 32V single supply or ±1.5V 
+to ±16V dual supplies, and consumes only 860μA 
+quiescent current. 
+The SGM8429C-4 features low power, low offset voltage 
+and low bias current. The device can offer high 
+open-loop voltage gain. It is well suited for various 
+applications. 
+The SGM8429C-4 is available in a Green TQFN-3×3-16L 
+package. It is specified over the -40℃ to +125℃ 
+temperature range. 
+ 
+ 
+APPLICATIONS 
+Wearable Products 
+Temperature Measurements 
+Battery-Powered Systems 
+Sensors 
+Audio 
+Active Filters 
+Communications 
+Test Equipment 
+FEATURES 
+• Support Single or Dual Power Supplies: 
+3V to 32V or ±1.5V to ±16V 
+• Low Quiescent Current: 860μA (TYP) 
+• Low Input Offset Voltage: 6mV (MAX) 
+• Low Input Offset Current: 10pA (TYP) 
+• Low Input Bias Current: 10pA (TYP) 
+• Minimum Input Common Mode Voltage: (-VS) - 0.1V 
+• Maximum Differential Input Voltage: +32V/-32V 
+• Open-Loop Differential Voltage Gain: 111dB (TYP) 
+• Gain-Bandwidth Product: 1.1MHz 
+• Frequency-Compensated Amplifier 
+• -40℃ to +125℃ Operating Temperature Range 
+• Available in a Green TQFN-3×3-16L Package 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+SGM8429C-4 
+Quad Operational Amplifier 
+ 
+ 
+2 
+AUGUST 2020 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM8429C-4 
+TQFN-3×3-16L 
+-40℃ to +125℃ 
+SGM8429C-4XTQ16G/TR 
+CIFTQ 
+XXXXX 
+Tape and Reel, 4000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code. 
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Supply Voltage Range, VS 
+(1) 
+.............................. -0.3V to 32V 
+Differential Input Voltage Range, VID
+ (2) 
+............... -32V to 32V 
+Input Voltage Range (Either Input) 
+..................... -0.3V to 32V 
+Junction Temperature.................................................. 
++150℃ 
+Storage Temperature Range
+ ........................ -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s)
+ ............................. 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+6000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Input Common Mode Voltage Range 
+..... 
+-0.1V to (+VS) - 1.5V 
+Operating Temperature Range
+ 
+..................... -40℃ to +125℃ 
+ 
+NOTES: 
+1. The network GND is the reference point for all voltage values, 
+except for differential voltages and VS when measuring ISC. 
+2. Differential voltage is between +IN and -IN. 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+PIN CONFIGURATION 
+(TOP VIEW) 
+ 
+TQFN-3×3-16L 
+NOTE: Exposed pad can be connected to -VS or left floating. 
+ 
+ 
+ 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+NC
+-INC
+-IND
+OUTC
+5
+6
+7
+8
+2
+3
+4
+1
+9
++VS
++INA
+OUTD
+-INA
+-VS
++INC
+NC
++INB
+OUTB
+-INB
+OUTA
++IND
+-VS
+16
+15
+14
+13
+12
+11
+10
+
+ 
+SGM8429C-4 
+Quad Operational Amplifier 
+ 
+ 
+3 
+AUGUST 2020 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VS = 3V to 32V, -0.1V < VCM < (+VS) - 1.5V, RL = 10kΩ connected to VS/2, Full = -40℃ to +125℃, typical values are at TA = 
++25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN 
+TYP 
+MAX 
+UNITS 
+Input Characteristics 
+Input Offset Voltage 
+VOS 
+ 
++25℃ 
+ 
+1.2 
+6 
+mV 
+Full 
+ 
+ 
+7 
+Input Bias Current 
+IB 
+VCM = VS/2 
++25℃ 
+ 
+10 
+200 
+pA 
+Input Offset Current 
+IOS 
+VCM = VS/2 
++25℃ 
+ 
+10 
+200 
+pA 
+Input Common Mode Voltage Range 
+VCM 
+ 
+Full 
+-0.1 
+ 
+(+VS) - 1.5 
+V 
+Common Mode Rejection Ratio 
+CMRR 
+-0.1V < VCM < (+VS) - 1.5V 
++25℃ 
+82 
+100 
+ 
+dB 
+Full 
+72 
+ 
+ 
+Open-Loop Voltage Gain 
+AOL 
+RL = 10kΩ to VS/2 
++25℃ 
+92 
+111 
+ 
+dB 
+Full 
+83 
+ 
+ 
+Output Characteristics 
+Output Voltage Swing from Rail 
+VOH 
+RL = 10kΩ 
++25℃ 
+ 
+42 
+60 
+mV 
+Full 
+ 
+ 
+80 
+VOL 
+RL = 10kΩ 
++25℃ 
+ 
+110 
+190 
+Full 
+ 
+ 
+240 
+Output Short-Circuit Current 
+ISC 
+ 
++25℃ 
+12 
+18 
+ 
+mA 
+Power Supply 
+Operating Voltage Range 
+VS 
+ 
+Full 
+3 
+ 
+32 
+V 
+Quiescent Current 
+IQ 
+IOUT = 0A 
++25℃ 
+ 
+860 
+1250 
+μA 
+Full 
+ 
+ 
+1900 
+Power Supply Rejection Ratio 
+PSRR 
+ 
++25℃ 
+102 
+122 
+ 
+dB 
+Full 
+98 
+ 
+ 
+Dynamic Performance (CL = 100pF) 
+Gain-Bandwidth Product 
+GBP 
+ 
++25℃ 
+ 
+1.1 
+ 
+MHz 
+Phase Margin 
+φO 
+ 
++25℃ 
+ 
+60 
+ 
+° 
+Slew Rate 
+SR 
+G = +1 
++25℃ 
+ 
+0.35 
+ 
+V/μs 
+Overload Recovery Time 
+ORT 
+VIN × G > VS 
++25℃ 
+ 
+2.3 
+ 
+μs 
+Turn-On Time 
+ 
+G = +1 
++25℃ 
+ 
+42 
+ 
+μs 
+NOISE 
+Input Voltage Noise 
+ 
+f = 0.1Hz to 10Hz 
++25℃ 
+ 
+9 
+ 
+μVP-P 
+Input Voltage Noise Density 
+en 
+f = 1kHz 
++25℃ 
+ 
+36 
+ 
+nV/√Hz 
+ 
+ 
+ 
+
+ 
+SGM8429C-4 
+Quad Operational Amplifier 
+ 
+ 
+4 
+AUGUST 2020 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+At TA = +25℃, VCM = VS/2, unless otherwise noted. 
+ 
+     Positive Output Voltage Swing vs. Load Current 
+    Negative Output Voltage Swing vs. Load Current 
+ 
+ 
+     Positive Output Swing vs. Load Current 
+    Negative Output Swing vs. Load Current 
+ 
+ 
+     Input Bias Current vs. Input Common Mode Voltage 
+     Input Offset Voltage vs. Input Common Mode Voltage 
+ 
+ 
+ 
+ 
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+0
+10
+20
+30
+40
+50
+60
+Positive Output Voltage Swing (V) 
+ISOURCE (mA) 
+TA = -40℃ 
+TA = +125℃ 
+VS = 3V 
+TA = +25℃ 
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+0
+10
+20
+30
+40
+50
+60
+Negative Output Voltage Swing (V) 
+ISINK (mA) 
+VS = 3V 
+TA = -40℃ 
+TA = +25℃ 
+TA = +125℃ 
+0
+1
+2
+3
+4
+5
+6
+0
+10
+20
+30
+40
+50
+60
+Positive Output Voltage Swing (V) 
+ISOURCE (mA) 
+TA = -40℃ 
+TA = +125℃ 
+VS = 32V 
+TA = +25℃ 
+0
+1
+2
+3
+4
+5
+6
+0
+10
+20
+30
+40
+50
+60
+Negative Output Voltage Swing (V) 
+ISINK (mA) 
+TA = -40℃ 
+TA = +125℃ 
+VS = 32V 
+TA = +25℃ 
+0
+2
+4
+6
+8
+10
+-5
+0
+5
+10
+15
+20
+25
+30
+35
+Input Bias Current (pA) 
+Input Common Mode Voltage (V) 
+-0.45
+-0.40
+-0.35
+-0.30
+-0.25
+-0.20
+-5
+0
+5
+10
+15
+20
+25
+30
+35
+Input Offset Voltage (mV) 
+Input Common Mode Voltage (V) 
+
+ 
+SGM8429C-4 
+Quad Operational Amplifier 
+ 
+ 
+5 
+AUGUST 2020 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TA = +25℃, VCM = VS/2, unless otherwise noted. 
+ 
+      Quiescent Current vs. Supply Voltage  
+     Quiescent Current vs. Temperature 
+ 
+ 
+     Input Offset Current vs. Temperature 
+     Input Bias Current vs. Temperature 
+ 
+ 
+     CMRR vs. Temperature 
+     PSRR vs. Temperature  
+ 
+ 
+ 
+ 
+750
+780
+810
+840
+870
+900
+3
+8
+13
+18
+23
+28
+33
+Quiescent Current (μA) 
+Supply Voltage (V) 
+0
+300
+600
+900
+1200
+1500
+-50
+-25
+0
+25
+50
+75
+100
+125
+Quiescent Current (μA) 
+Temperature (℃) 
+VS = 5V 
+VS = 32V 
+VS = 3V 
+-400
+-300
+-200
+-100
+0
+100
+-50
+-25
+0
+25
+50
+75
+100
+125
+Input Offset Current (pA) 
+Temperature (℃) 
+VS = 32V 
+VS = 5V 
+VS = 3V 
+-800
+-600
+-400
+-200
+0
+200
+-50
+-25
+0
+25
+50
+75
+100
+125
+Input Bias Current (pA) 
+Temperature (℃) 
+VS = 32V 
+VS = 5V 
+VS = 3V 
+0
+30
+60
+90
+120
+150
+-50
+-25
+0
+25
+50
+75
+100
+125
+Common Mode Rejection Ratio (dB) 
+Temperature (℃) 
+VS = 32V 
+VS = 5V 
+VS = 3V 
+0
+30
+60
+90
+120
+150
+180
+-50
+-25
+0
+25
+50
+75
+100
+125
+Power Supply Rejection Ratio (dB) 
+Temperature (℃) 
+
+ 
+SGM8429C-4 
+Quad Operational Amplifier 
+ 
+ 
+6 
+AUGUST 2020 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TA = +25℃, VCM = VS/2, unless otherwise noted. 
+ 
+     Output Short-Circuit Current (ISOURCE) vs. Temperature  
+    Output Short-Circuit Current (ISINK) vs. Temperature 
+ 
+ 
+     Gain-Bandwidth Product vs. Temperature 
+     Gain-Bandwidth Product vs. Temperature 
+ 
+ 
+      CMRR vs. Frequency 
+    PSRR vs. Frequency 
+ 
+ 
+ 
+ 
+0
+10
+20
+30
+40
+50
+60
+-50
+-25
+0
+25
+50
+75
+100
+125
+ISOURCE (mA) 
+Temperature (℃) 
+VS = 5V 
+VS = 32V 
+VS = 3V 
+-60
+-50
+-40
+-30
+-20
+-10
+0
+-50
+-25
+0
+25
+50
+75
+100
+125
+ISINK (mA) 
+Temperature (℃) 
+VS = 32V 
+VS = 3V 
+VS = 5V 
+0.8
+0.9
+1.0
+1.1
+1.2
+1.3
+1.4
+-50
+-25
+0
+25
+50
+75
+100
+125
+Gain-Bandwidth Product (MHz) 
+Temperature (℃) 
+VS = 3V 
+1.1
+1.2
+1.3
+1.4
+1.5
+1.6
+1.7
+-50
+-25
+0
+25
+50
+75
+100
+125
+Gain-Bandwidth Product (MHz) 
+Temperature (℃) 
+VS = 32V 
+-150
+-120
+-90
+-60
+-30
+0
+0.1
+1
+10
+100
+1000
+10000 100000
+Common Mode Rejection Ratio (dB) 
+Frequency (kHz) 
+VS = 3V 
+VS = 32V 
+VS = 5V 
+-150
+-120
+-90
+-60
+-30
+0
+0.01
+0.1
+1
+10
+100
+1000 10000100000
+Power Supply Rejection Ratio (dB) 
+Frequency (kHz) 
+— VS = 3V, +PSRR 
+— VS = 3V, -PSRR 
+— VS = 5V, +PSRR 
+— VS = 5V, -PSRR 
+— VS = 32V, +PSRR 
+— VS = 32V, -PSRR 
+
+ 
+SGM8429C-4 
+Quad Operational Amplifier 
+ 
+ 
+7 
+AUGUST 2020 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TA = +25℃, VCM = VS/2, unless otherwise noted. 
+ 
+     Channel Separation vs. Frequency  
+     Channel Separation vs. Frequency 
+ 
+ 
+ 
+     THD+N vs. Frequency 
+      THD+N vs. Frequency 
+ 
+ 
+ 
+      EMIRR IN+ vs. Frequency 
+      EMIRR IN+ vs. Frequency 
+ 
+ 
+ 
+ 
+-120
+-110
+-100
+-90
+-80
+-70
+-60
+0.1
+1
+10
+100
+1000
+10000
+Channel Separation (dB) 
+Frequency (kHz) 
+Channel B to A  
+Channel A to B 
+VS = 3V 
+-120
+-110
+-100
+-90
+-80
+-70
+-60
+0.1
+1
+10
+100
+1000
+10000
+Channel Separation (dB) 
+Frequency (kHz) 
+VS = 32V 
+Channel A to B 
+Channel B to A  
+0.000
+0.002
+0.004
+0.006
+0.008
+0.010
+10
+100
+1000
+10000
+100000
+Total Harmonic Distortion + Noise (%) 
+Frequency (Hz) 
+VS = 3V, G = +1, VOUT = 1VP-P, RL = 2kΩ 
+VS = 3V, G = +1, VOUT = 1VP-P, RL = 2kΩ 
+0.0004
+0.0008
+0.0012
+0.0016
+0.0020
+0.0024
+10
+100
+1000
+10000
+100000
+Total Harmonic Distortion + Noise (%) 
+Frequency (Hz) 
+VS = 3V, G = +1, VOUT = 1VP-P, RL = 2kΩ 
+VS = 32V, G = +1, VOUT = 1VP-P, RL = 2kΩ 
+0
+20
+40
+60
+80
+100
+10
+100
+1000
+10000
+EMIRR IN+ (dB) 
+Frequency (MHz) 
+VS = 3V, PRF = -10dBm 
+0
+20
+40
+60
+80
+100
+120
+10
+100
+1000
+10000
+EMIRR IN+ (dB) 
+Frequency (MHz) 
+VS = 32V, PRF = -10dBm 
+
+ 
+SGM8429C-4 
+Quad Operational Amplifier 
+ 
+ 
+8 
+AUGUST 2020 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TA = +25℃, VCM = VS/2, unless otherwise noted. 
+ 
+       Input Voltage Noise Density vs. Frequency 
+   Input Voltage Noise Density vs. Frequency 
+ 
+ 
+ 
+      Input Voltage Noise Density vs. Frequency 
+   Open-Loop Gain and Phase vs. Frequency 
+ 
+ 
+      Slew Rate (up) 
+   Slew Rate (down) 
+ 
+ 
+ 
+ 
+ 
+1
+10
+100
+1000
+10
+100
+1000
+10000
+Input Voltage Noise Density (nV/√Hz) 
+Frequency (Hz) 
+VS = 3V 
+1
+10
+100
+1000
+10
+100
+1000
+10000
+Input Voltage Noise Density (nV/√Hz) 
+Frequency (Hz) 
+VS = 5V 
+1
+10
+100
+1000
+10
+100
+1000
+10000
+Input Voltage Noise Density (nV/√Hz) 
+Frequency (Hz) 
+VS = 32V 
+-180
+-150
+-120
+-90
+-60
+-30
+0
+-20
+0
+20
+40
+60
+80
+100
+0.01
+0.1
+1
+10
+100
+1000 10000100000
+Phase (degree) 
+Open-Loop Gain (dB) 
+Frequency (kHz) 
+Open-Loop Gain 
+Phase  
+VS = 32V 
+ 
+0.7
+0.9
+1.1
+1.3
+1.5
+1.7
+1.9
+2.1
+2.3
+Voltage (V) 
+Time (2µs/div) 
+VS = 3V, VOUT = 1VP-P, f = 1kHz, G = +1 
+0.7
+0.9
+1.1
+1.3
+1.5
+1.7
+1.9
+2.1
+2.3
+Voltage (V) 
+Time (2µs/div) 
+VS = 3V, VOUT = 1VP-P, f = 1kHz, G = +1 
+
+ 
+SGM8429C-4 
+Quad Operational Amplifier 
+ 
+ 
+9 
+AUGUST 2020 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TA = +25℃, VCM = VS/2, unless otherwise noted. 
+ 
+      Slew Rate (up) 
+     Slew Rate (down) 
+ 
+ 
+      Slew Rate (up) 
+     Slew Rate (down) 
+ 
+ 
+     Positive Overload Recovery Time 
+     Negative Overload Recovery Time 
+ 
+ 
+ 
+ 
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+4.0
+Voltage (V) 
+Time (5µs/div) 
+VS = 5V, VOUT = 2VP-P, f = 1kHz, G = +1 
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+4.0
+Voltage (V) 
+Time (5µs/div) 
+VS = 5V, VOUT = 2VP-P, f = 1kHz, G = +1 
+14.5
+15.0
+15.5
+16.0
+16.5
+17.0
+17.5
+Voltage (V) 
+Time (5µs/div) 
+VS = 32V, VOUT = 2VP-P, f = 1kHz, G = +1 
+14.5
+15.0
+15.5
+16.0
+16.5
+17.0
+17.5
+Voltage (V) 
+Time (5µs/div) 
+VS = 32V, VOUT = 2VP-P, f = 1kHz, G = +1 
+Time (5μs/div) 
+VS= 3V, G = -10, f = 1kHz 
+0V 
+1.5V 
+VIN 
+VOUT 
+200mV/div 
+500mV/div 
+Time (5μs/div) 
+VS = 3V, G = -10, f = 1kHz 
+0V 
+0V 
+VIN 
+VOUT 
+200mV/div 
+500mV/div 
+
+ 
+SGM8429C-4 
+Quad Operational Amplifier 
+ 
+ 
+10 
+AUGUST 2020 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TA = +25℃, VCM = VS/2, unless otherwise noted. 
+ 
+     Positive Overload Recovery Time 
+     Negative Overload Recovery Time 
+ 
+ 
+     Positive Overload Recovery Time 
+     Negative Overload Recovery Time 
+ 
+ 
+     Large-Signal Step Response 
+     Small-Signal Step Response 
+ 
+ 
+ 
+ 
+Time (5μs/div) 
+VS = 5V, G = -10, f = 1kHz 
+0V 
+2.5V 
+VIN 
+VOUT 
+200mV/div 
+1V/div 
+Time (5μs/div) 
+VS = 5V, G = -10, f = 1kHz 
+0V 
+0V 
+VIN 
+VOUT 
+200mV/div 
+1V/div 
+Time (10μs/div) 
+VS = 32V, G = -10, f = 1kHz 
+0V 
+16V 
+VIN 
+VOUT 
+2V/div 
+5V/div 
+Time (10μs/div) 
+VS = 32V, G = -10, f = 1kHz 
+0V 
+0V 
+VIN 
+VOUT 
+2V/div 
+5V/div 
+Output Voltage (250mV/div) 
+Time (5μs/div) 
+VS = 3V, G = +1, 
+ f = 20kHz, VOUT = 1VP-P,  
+RL = 10kΩ, CL = 100pF 
+Output Voltage (50mV/div) 
+Time (5μs/div) 
+VS = 3V, G = +1,  
+f = 20kHz, VOUT = 0.1VP-P, 
+RL = 10kΩ, CL = 100pF 
+
+ 
+SGM8429C-4 
+Quad Operational Amplifier 
+ 
+ 
+11 
+AUGUST 2020 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TA = +25℃, VCM = VS/2, unless otherwise noted. 
+ 
+     Large-Signal Step Response 
+    Small-Signal Step Response 
+ 
+ 
+     Large-Signal Step Response 
+    Small-Signal Step Response 
+ 
+ 
+     Turn-On Time 
+     Turn-On Time 
+ 
+ 
+ 
+ 
+ 
+Output Voltage (500mV/div) 
+Time (5μs/div) 
+VS = 5V, G = +1,  
+f = 20kHz, VOUT = 2VP-P,  
+RL = 10kΩ, CL = 100pF 
+Output Voltage (50mV/div) 
+Time (5μs/div) 
+VS = 5V, G = +1,  
+f = 20kHz, VOUT = 0.1VP-P, 
+RL = 10kΩ, CL = 100pF 
+Output Voltage (500mV/div) 
+Time (5μs/div) 
+VS = 32V, G = +1, 
+f = 20kHz, VOUT = 2VP-P,  
+RL = 10kΩ, CL = 100pF 
+Output Voltage (50mV/div) 
+Time (5μs/div) 
+VS = 32V, G = +1,  
+f = 20kHz, VOUT = 0.1VP-P,  
+RL = 10kΩ, CL = 100pF 
+Time (20μs/div) 
+VS = 3V, VIN = 0.1V,  
+G = +1, RL =10kΩ, 
+CL = 100pF 
+0V 
+0V 
+VS 
+VOUT 
+1V/div 
+200mV/div 
+Time (20μs/div) 
+VS = 5V, VIN = 0.1V,   
+G = +1, RL =10kΩ, 
+CL = 100pF 
+0V 
+0V 
+VS 
+VOUT 
+2V/div 
+500mV/div 
+
+ 
+SGM8429C-4 
+Quad Operational Amplifier 
+ 
+ 
+12 
+AUGUST 2020 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TA = +25℃, VCM = VS/2, unless otherwise noted. 
+ 
+     Turn-On Time 
+      0.1Hz to 10Hz Input Voltage Noise 
+ 
+ 
+      0.1Hz to 10Hz Input Voltage Noise 
+      0.1Hz to 10Hz Input Voltage Noise 
+ 
+ 
+     Input Offset Voltage Production Distribution 
+     Input Offset Voltage Production Distribution 
+ 
+ 
+ 
+ 
+Time (20μs/div) 
+VS = 32V, VIN = 0.1V,   
+G = +1, RL =10kΩ, 
+CL = 100pF 
+0V 
+0V 
+VS 
+VOUT 
+10V/div 
+1V/div 
+Noise (2μV/div) 
+Time (2s/div) 
+VS = 3V 
+Noise (2μV/div) 
+Time (2s/div) 
+VS = 5V 
+Noise (2μV/div) 
+Time (2s/div) 
+VS = 32V 
+0
+5
+10
+15
+20
+-3.0
+-2.7
+-2.4
+-2.1
+-1.8
+-1.5
+-1.2
+-0.9
+-0.6
+-0.3
+0.0
+0.3
+0.6
+0.9
+1.2
+1.5
+1.8
+2.1
+2.4
+2.7
+3.0
+Percentage of Amplifiers (%) 
+Input Offset Voltage (mV) 
+14000 Samples  
+1 Production Lot 
+ 
+VS = 3V 
+0
+5
+10
+15
+20
+-3.0
+-2.7
+-2.4
+-2.1
+-1.8
+-1.5
+-1.2
+-0.9
+-0.6
+-0.3
+0.0
+0.3
+0.6
+0.9
+1.2
+1.5
+1.8
+2.1
+2.4
+2.7
+3.0
+Percentage of Amplifiers (%) 
+Input Offset Voltage (mV) 
+14000 Samples  
+1 Production Lot 
+ 
+VS = 5V 
+
+ 
+SGM8429C-4 
+Quad Operational Amplifier 
+ 
+ 
+13 
+AUGUST 2020 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TA = +25℃, VCM = VS/2, unless otherwise noted. 
+ 
+     Input Offset Voltage Production Distribution 
+     Input Offset Voltage Drift Distribution 
+ 
+ 
+     Input Offset Voltage Drift Distribution 
+     Input Offset Voltage Drift Distribution  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+0
+5
+10
+15
+20
+-3.0
+-2.7
+-2.4
+-2.1
+-1.8
+-1.5
+-1.2
+-0.9
+-0.6
+-0.3
+0.0
+0.3
+0.6
+0.9
+1.2
+1.5
+1.8
+2.1
+2.4
+2.7
+3.0
+Percentage of Amplifiers (%) 
+Input Offset Voltage (mV) 
+14000 Samples  
+1 Production Lot 
+ 
+VS = 32V 
+0
+6
+12
+18
+24
+30
+-6 -5 -4 -3 -2 -1 0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Percentage of Amplifiers (%) 
+Input Offset Voltage Drift (μV/℃) 
+VS = 3V, 
+-40℃ ≤ TA ≤ +125℃ 
+ 
+0
+6
+12
+18
+24
+30
+-6 -5 -4 -3 -2 -1 0
+1
+2
+3
+4
+5
+6
+7
+8
+Percentage of Amplifiers (%) 
+Input Offset Voltage Drift (μV/℃) 
+VS = 5V, 
+-40℃ ≤ TA ≤ +125℃ 
+ 
+0
+6
+12
+18
+24
+30
+-6 -5 -4 -3 -2 -1 0
+1
+2
+3
+4
+5
+6
+7
+8
+Percentage of Amplifiers (%) 
+Input Offset Voltage Drift (μV/℃) 
+VS = 32V, 
+-40℃ ≤ TA ≤ +125℃ 
+ 
+
+ 
+SGM8429C-4 
+Quad Operational Amplifier 
+ 
+ 
+14 
+AUGUST 2020 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION 
+The SGM8429C-4 is a quad, high open-loop gain 
+operational amplifier with internal frequency compensation. 
+It is optimized for high voltage operation from 3V to 32V 
+single supply or ±1.5V to ±16V dual supplies. The input 
+common mode voltage range is from -0.1V to (+VS) - 
+1.5V. 
+This SGM8429C-4 makes it easier to implement all 
+conventional 
+operational 
+amplifier 
+circuits 
+in 
+a 
+single-supply system, such as DC amplifier modules and 
+transducer amplifiers. For instance, the device does not 
+need extra ±5V supplies to work with the interface 
+electronics, as it can be easily operated on the 5V 
+source that is common for digital systems.  
+ 
+Unity-Gain Bandwidth 
+The unity-gain bandwidth is the maximum supported 
+frequency which can be amplified by an amplifier without 
+distortion. The unity-gain bandwidth of SGM8429C-4 is 
+1.1MHz. 
+Slew Rate 
+The slew rate is the time period for the output change 
+when input signal is changed. The slew rate of 
+SGM8429C-4 is 0.35V/μs. 
+ 
+Input Common Mode Voltage Range 
+The input common mode voltage range is from the 
+device ground to (+VS) - 1.5V. Also, the voltage level at 
+the inputs can reach VS without damaging the device. If 
+the users desire the correct phase at the output of the 
+operational amplifier, they need to make sure that at 
+least one of the inputs is within the input common mode 
+voltage range. If both of them are outside the input 
+common mode voltage range, the state of the output 
+will be undefined. However, if either input is below -0.3V, 
+the input current should be limited and the output state 
+will also be undefined. 
+ 
+Device Functional Modes 
+The SGM8429C-4 can be operated as it is powered by 
+a DC power supply. The amplifier can be operated in 
+single-supply or dual-supply mode. 
+ 
+ 
+APPLICATION INFORMATION 
+The SGM8429C-4 can be widely used for various 
+signal processing purposes. The inputs have the option 
+to get power before VS, which allows for more versatility 
+in circuits with multiple supplies. 
+ 
+Typical Application 
+The following circuit is an application of an inverting 
+amplifier. To explain, the input is positive while the output 
+is negative. However, if the input signal is negative, the 
+output will be positive as well. 
+ 
+ 
+ 
+Figure 1. Application Schematic 
+The supply voltage range should always be larger than 
+the input and the output range. The following example 
+scales a signal with ±0.5V to ±1.8V, which means that 
+the ±12V of the supply voltage is sufficient. 
+The following equations determine the voltage gain of 
+the inverting amplifier circuit. 
+OUT
+IN
+V
+G = V
+                    
+(1)
+ 
+1.8
+G = 
+ = -3.6
+-0.5
+                 
+(2)
+ 
+After setting the voltage gain, the value of the gain and 
+feedback resistors should be determined as well. Since 
+the operating current inside the circuit is in the mA 
+range, the RI and RF should be at the level of kΩ. In this 
+example, the RI is 10kΩ and the RF is 36kΩ. 
+F
+I
+R
+G = - R                    
+(3) 
+ 
+ 
+ 
+VOUT
++
+_
+VIN
++VS
+RF
+RI
+-VS
+
+ 
+SGM8429C-4 
+Quad Operational Amplifier 
+ 
+ 
+15 
+AUGUST 2020 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+Changes from Original (AUGUST 2020) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+ 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00081.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TQFN-3×3-16L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.700 
+0.800 
+0.028 
+0.031 
+A1 
+0.000 
+0.050 
+0.000 
+0.002 
+A2 
+0.203 REF 
+0.008 REF 
+D 
+2.900 
+3.100 
+0.114 
+0.122 
+D1 
+1.600 
+1.800 
+0.063 
+0.071 
+E 
+2.900 
+3.100 
+0.114 
+0.122 
+E1 
+1.600 
+1.800 
+0.063 
+0.071 
+k 
+0.200 MIN 
+0.008 MIN 
+b 
+0.180 
+0.300 
+0.007 
+0.012 
+e 
+0.500 TYP 
+0.020 TYP 
+L 
+0.300 
+0.500 
+0.012 
+0.020 
+ 
+ 
+ 
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+A
+A2
+A1
+e
+E1
+b
+L
+k
+D1
+D
+E
+N1
+N5
+N16
+1.7
+1.7
+0.7
+2.2
+3.6
+0.5
+0.24
+RECOMMENDED LAND PATTERN (Unit: mm)
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TQFN-3×3-16L 
+13″ 
+12.4 
+3.35 
+3.35 
+1.13 
+4.0 
+8.0 
+2.0 
+12.0 
+Q2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

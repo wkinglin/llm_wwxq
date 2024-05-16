@@ -1,0 +1,2497 @@
+ 
+SGM62180 
+4.5V to 16V, 6A Two-Phase 
+Synchronous Buck Converter 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+NOVEMBER2022–REV.A.1 
+GENERAL DESCRIPTION 
+The SGM62180 is a two-phase, synchronous Buck 
+DC/DC converter with integrated power MOSFETs 
+using two identical current balanced phases with peak 
+current mode control. The SGM62180 is a perfect low 
+profile solution for height restricted applications. 
+The Buck converter operates with phase delay to 
+minimize the required input capacitance and reduce the 
+EMI generation. 
+With a wide 4.5V to 16V input voltage range and a very 
+low quiescent current (30μA), the SGM62180 is well 
+suitable for systems powered by multi-cell Li-Ion 
+batteries, particularly for 12V applications. It can deliver 
+6A continuous current which is equally shared between 
+the phases. Dividing current between two phases 
+allows the use of thinner inductors required for low 
+profile designs. 
+The efficiency is automatically maximized in the full 
+duty cycle range by adjusting the switching frequency 
+to the optimal value depending on VIN and VOUT. The 
+loss is also minimized at very light loads by the 
+automatic activation of the power-save mode (PSM). 
+Other features include tracking, adjustable soft-start 
+time, and power-good output signal. The SGM62180 
+can operate with 100% duty cycle for very low dropout. 
+It is also capable to work at high step-down ratios 
+without duty cycle limitation. 
+This device is available in a tiny 24-bump Green 
+WLCSP package with 0.5mm pin pitch. 
+FEATURES 
+● Two-Phase with Phase Shift Operation 
+● Peak Current Controlled Constant Off-Time Mode 
+● Balanced Current Sharing 
+● Wide 4.5V to 16V Operating Input Voltage Range 
+● 0.9V to 6V Adjustable Output Voltage Range 
+● 6A Maximum Continuous Output Current 
+● 30μA (TYP) Low Quiescent Current 
+● Power-Save Mode (PSM) Operation in Light Loads 
+● Adjustable Soft-Start 
+● Voltage Tracking Capability 
+● Monotonic Start with Pre-biased Output 
+● Power-Good Output 
+● Hiccup Mode Over-Current Protection 
+● Over-Temperature Protection with Auto Recovery 
+● Available in a Green WLCSP-3.1×2.1-24B Package 
+ 
+APPLICATIONS 
+Low Profile POL Supply 
+Narrow Voltage DC (NVDC) Powered Systems 
+Battery Powered Systems with Dual/Triple Li-Ion Cells  
+Ultra-Portable and Embedded Tablet PC 
+Computing Network Solutions 
+Micro Servers, SSD 
+ 
+TYPICAL APPLICATION 
+SGM62180
+VIN1
+VIN2
+EN
+SS/TR
+GND
+FB
+PG
+VO
+SW2
+SW1
+4.5V to 16V
+100kΩ
+3.3V/6A
+470kΩ
+150kΩ
+22μF
+22μF
+3.3nF
+1μH
+1μH
+2×
+47μF
+ 
+Figure 1. Typical Application Circuit 
+ 
+ 
+ 
+
+4.5V to 16V, 6A Two-Phase 
+SGM62180 
+Synchronous Buck Converter 
+ 
+ 
+2 
+NOVEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM62180 
+WLCSP-3.1×2.1-24B 
+-40℃ to +125℃ 
+SGM62180XG/TR 
+SGM 
+62180XG 
+XXXXX 
+XX#XX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code, XX = Coordinate Information, # = Wafer ID Number. 
+Wafer ID Number ("A" = 01, "B" = 02, … "Y" = 25)
+Coordinate Information
+Coordinate Information
+XX
+XX
+Trace Code
+Vendor Code 
+Date Code - Year
+X
+X X
+X X
+＃
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+VIN1, VIN2 Voltage 
+............................................ -0.3V to 17V 
+EN Voltage 
+................................................ 
+-0.3V to VIN + 0.3V 
+PG Voltage ........................................................ -0.3V to 12V 
+SW1, SW2 (DC) Voltage........................... 
+-0.3V to VIN + 0.3V 
+SW1, SW2 (AC, Less than 10ns) Voltage.......... -2V to 24.5V 
+SS/TR Voltage .......................... -0.3V to VIN + 0.3V, but ≤ 7V 
+FB, VO Voltage 
+.................................................... -0.3V to 7V 
+Power-Good Sink Current 
+............................................. 
+10mA 
+Package Thermal Resistance 
+WLCSP-3.1×2.1-24B, θJA .......................................... 70℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+2000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Input Voltage Range ............................................ 
+4.5V to 16V 
+Output Voltage Range ........................................... 
+0.9V to 6V 
+Maximum Output Current, IOUT_MAX 
+0.9V ≤ VOUT ≤ 3.3V 
+................................................... 6A (MIN) 
+3.3V < VOUT 
+.............................................................. 
+6A (TYP) 
+Operating Junction Temperature Range 
+...... -40℃ to +125℃ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+
+4.5V to 16V, 6A Two-Phase 
+SGM62180 
+Synchronous Buck Converter 
+ 
+ 
+3 
+NOVEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+(TOP VIEW) 
+1
+2
+3
+4
+A
+B
+C
+D
+E
+F
+VIN1
+SW1
+PGND
+VO
+VIN1
+SW1
+PGND
+FB
+VIN1
+SW1
+PGND
+AGND
+VIN2
+SW2
+PGND
+VIN2
+SW2
+PGND
+EN
+VIN2
+SW2
+PGND
+PG
+SS/TR
+ 
+WLCSP-3.1×2.1-24B 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+TYPE 
+FUNCTION 
+A1, B1, C1 
+VIN1 
+I 
+Supply Voltage for Phase 1 (Master) Converter. 
+A2, B2, C2 
+SW1 
+O 
+Switch Node for Phase 1 (Master). Connect L1 between SW1 and the output capacitor. 
+A3, B3, C3, 
+D3, E3, F3 
+PGND 
+G 
+Power Ground Pins. 
+A4 
+VO 
+O 
+Output Voltage Connection. Connect this pin to the converter output (near output 
+capacitor). 
+B4 
+FB 
+I 
+Output Voltage Sense (Feedback) Pin. Connect the center node of the resistor divider 
+between VO pin and AGND. Keep connecting traces short and away from high dv/dt 
+signals. 
+D1, E1, F1 
+VIN2 
+I 
+Supply Voltage for Phase 2 (Slave/Follower). 
+D2, E2, F2 
+SW2 
+O 
+Switch Node for Phase 2 (Slave/Follower). Connect L2 between SW2 and the output 
+capacitor. 
+C4 
+AGND 
+G 
+Analog Ground. Connect it directly to PGND under the chip on the PCB. The AGND 
+trace should not carry high current. The input, output and switching currents must 
+travel through the PGND traces/planes. 
+D4 
+SS/TR 
+I/O 
+Soft-Start and Tracking Input. Use an external capacitor (> 220pF) between this pin 
+and AGND to adjust the rise time of the output voltage ramp (soft-start time). VOUT will 
+follow and track the voltage applied to this pin if it is between 20mV and 1.2V (VFB = 
+0.64 × VSS/TR).  
+E4 
+EN 
+I 
+Enable Input Pin (High = Enabled, Low = Disabled). EN can also be used to adjust the 
+input UVLO. 
+F4 
+PG 
+O 
+Open-Drain Power-Good Output. PG = High means that VOUT is in regulation and 
+ready for the load system, and PG = Low means that VOUT is below regulation. A 
+pull-up resistor is needed if this feature is used. 
+NOTE: I: input, O: output, G = ground. 
+ 
+ 
+ 
+
+4.5V to 16V, 6A Two-Phase 
+SGM62180 
+Synchronous Buck Converter 
+ 
+ 
+4 
+NOVEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VIN = 4.5V to 16V, TJ = -40℃ to +125℃, typical values are tested at VIN = 12V and TJ = +25℃, unless otherwise noted). 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Supply 
+Input Voltage Range 
+VIN 
+ 
+4.5 
+ 
+16 
+V 
+Operating Quiescent Current 
+IQ 
+EN = High, IOUT = 0mA, no switching, TJ = -40℃ to +85℃ 
+ 
+30 
+45 
+µA 
+Shutdown Current 
+ISD 
+EN = Low (≤ 0.3V), TJ = -40℃ to +85℃ 
+ 
+1.6 
+3 
+µA 
+Under-Voltage Lockout Threshold (1) 
+VUVLO 
+Falling input voltage 
+3.44 
+3.7 
+3.95 
+V 
+Hysteresis 
+ 
+270 
+ 
+mV 
+UVLO Rising Delay 
+ 
+ 
+ 
+1 
+ 
+ms 
+Thermal Shutdown 
+TSD 
+Rising temperature 
+ 
+155 
+ 
+℃ 
+Hysteresis 
+ 
+20 
+ 
+Control (EN, SS/TR, PG) 
+Rising Threshold Voltage (EN) 
+VH_EN 
+ 
+0.96 
+1.03 
+1.10 
+V 
+Falling Threshold Voltage (EN) 
+VL_EN 
+ 
+0.86 
+0.93 
+1.00 
+V 
+Input Leakage Current (EN) 
+ILKG_EN 
+EN = VIN = 15V 
+ 
+11 
+20 
+µA 
+SS/TR Pin Source Current 
+ISS/TR 
+ 
+4.4 
+5 
+5.6 
+µA 
+Power-Good Threshold Voltage 
+VTH_PG 
+Rising (%VFB) 
+93 
+96 
+99.5 
+% 
+Falling (%VFB) 
+89 
+92 
+95.5 
+Power-Good Output Low Voltage 
+VOL_PG 
+IPG = -2mA 
+ 
+0.1 
+0.2 
+V 
+Input Leakage Current (PG) 
+ILKG_PG 
+ 
+ 
+0.01 
+0.3 
+µA 
+Power Switch 
+High-side MOSFET On-Resistance 
+RDSON 
+VIN = 7.5V 
+Phase 1 
+ 
+24 
+58 
+mΩ 
+Phase 2 
+Low-side MOSFET On-Resistance 
+Phase 1 
+ 
+13 
+27 
+mΩ 
+Phase 2 
+High-side MOSFET Current Limit 
+ILIM 
+Each phase, VIN = 7.5V 
+4.3 
+5.2 
+6.1 
+A 
+Phase Shift Delay Time 
+tPSD 
+Phase 2 after Phase 1, PWM mode 
+ 
+280 
+ 
+ns 
+Minimum On Time 
+ 
+ 
+ 
+100 
+ 
+ns 
+Maximum Duty Cycle 
+ 
+ 
+ 
+100 
+ 
+% 
+Output 
+Internal Reference Voltage 
+VREF 
+ 
+0.790 
+0.800 
+0.811 
+V 
+Input Leakage Current (FB) 
+ILKG_FB 
+VFB = 1V 
+ 
+0.01 
+0.2 
+µA 
+Output Discharge Resistance 
+RDISCHARGE EN = Low 
+ 
+60 
+ 
+Ω 
+Output Voltage Range 
+ 
+VIN ≥ VOUT 
+0.9 
+ 
+6 
+V 
+Hiccup On-Time 
+tH_ON 
+ 
+ 
+1 
+ 
+ms 
+Hiccup Off-Time 
+tH_OFF 
+ 
+ 
+5 
+ 
+ms 
+ 
+NOTE: 
+1. The minimum VIN value (4.5V) is not affected by UVLO threshold or hysteresis tolerances. 
+ 
+ 
+
+4.5V to 16V, 6A Two-Phase 
+SGM62180 
+Synchronous Buck Converter 
+ 
+ 
+5 
+NOVEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+VIN = 12V, VOUT = 3.3V and TA = +25℃, unless otherwise noted. 
+ 
+ 
+Startup through VIN 
+ 
+ 
+ 
+Startup through VIN 
+ 
+ 
+ 
+ 
+VOUT 
+PG 
+ 
+ 
+ 
+IL1 
+ 
+ 
+IL2 
+ 
+ 
+2V/div   5V/div     1A/div    1A/div 
+ 
+ 
+ 
+ 
+VOUT 
+PG 
+ 
+ 
+ 
+IL1 
+ 
+ 
+IL2 
+ 
+ 
+2V/div  5V/div 2A/div   2A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (500μs/div) 
+ 
+ 
+ 
+Time (500μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Startup through EN 
+ 
+ 
+ 
+Startup through EN 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+EN 
+ 
+IL1 
+ 
+ 
+IL2 
+ 
+ 
+2V/div     5V/div   1A/div    1A/div 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+EN 
+ 
+IL1 
+ 
+ 
+IL2 
+ 
+ 
+2V/div   5V/div 2A/div  2A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (1ms/div) 
+ 
+ 
+ 
+Time (500μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Pre-biased Startup through EN 
+ 
+ 
+ 
+Output Ripple 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+EN 
+ 
+ 
+IL1 
+ 
+ 
+IL2 
+ 
+ 
+2V/div   5V/div     1A/div   1A/div 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+IL1 
+ 
+ 
+ 
+ 
+IL2 
+ 
+ 
+100mV/div      1A/div       1A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (500μs/div) 
+ 
+ 
+ 
+Time (20ms/div) 
+ 
+ 
+ 
+ 
+IOUT = 0A 
+RLOAD = 0.55Ω 
+IOUT = 0A 
+RLOAD = 0.55Ω 
+IOUT = 0A 
+IOUT = 0A 
+AC Coupled 
+
+4.5V to 16V, 6A Two-Phase 
+SGM62180 
+Synchronous Buck Converter 
+ 
+ 
+6 
+NOVEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+VIN = 12V, VOUT = 3.3V and TA = +25℃, unless otherwise noted. 
+ 
+ 
+Output Ripple in PSM 
+ 
+ 
+ 
+Output Ripple in PWM 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+IL1 
+ 
+ 
+ 
+ 
+IL2 
+ 
+ 
+50mV/div    1A/div       1A/div 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+IL1 
+ 
+IL2 
+ 
+ 
+ 
+ 
+10mV/div 1A/div 1A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (2μs/div) 
+ 
+ 
+ 
+Time (500ns/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Shutdown through EN 
+ 
+ 
+ 
+Shutdown through EN 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+EN 
+ 
+ 
+ 
+ 
+IL1 
+ 
+IL2 
+ 
+ 
+2V/div    5V/div  2A/div 2A/div 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+EN 
+ 
+IL1 
+ 
+IL2 
+ 
+ 
+ 
+ 
+ 
+2V/div   5V/div   2A/div 2A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (5ms/div) 
+ 
+ 
+ 
+Time (50μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Shutdown through VIN 
+ 
+ 
+ 
+Shutdown through VIN 
+ 
+VOUT 
+ 
+ 
+PG 
+ 
+ 
+ 
+ 
+IL1 
+ 
+ 
+IL2 
+ 
+ 
+2V/div  5V/div   1A/div   1A/div 
+ 
+VOUT 
+ 
+ 
+PG 
+ 
+IL1 
+ 
+ 
+ 
+IL2 
+ 
+ 
+ 
+ 
+2V/div  5V/div   2A/div   2A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (5ms/div) 
+ 
+ 
+ 
+Time (50μs/div) 
+ 
+ 
+ 
+ 
+IOUT = 6A 
+IOUT = 0A 
+RLOAD = 0.55Ω 
+IOUT = 0A 
+RLOAD = 0.55Ω 
+AC Coupled 
+AC Coupled 
+IOUT = 200mA 
+
+4.5V to 16V, 6A Two-Phase 
+SGM62180 
+Synchronous Buck Converter 
+ 
+ 
+7 
+NOVEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+VIN = 12V, VOUT = 3.3V and TA = +25℃, unless otherwise noted. 
+ 
+ 
+Short-Circuit Entry 
+ 
+ 
+ 
+Short-Circuit Entry 
+ 
+VOUT 
+ 
+ 
+PG 
+ 
+ 
+ 
+ 
+IL1 
+ 
+ 
+IL2 
+ 
+ 
+2V/div 5V/div  5A/div   5A/div 
+ 
+VOUT 
+ 
+ 
+PG 
+ 
+ 
+ 
+IL1 
+ 
+ 
+ 
+IL2 
+ 
+ 
+2V/div 5V/div 5A/div   5A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (5ms/div) 
+ 
+ 
+ 
+Time (5ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Short-Circuit Recovery 
+ 
+ 
+ 
+Short-Circuit Recovery 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+PG 
+ 
+ 
+IL1 
+ 
+ 
+ 
+IL2 
+ 
+2V/div  5V/div       5A/div   5A/div 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+PG 
+IL1 
+ 
+ 
+IL2 
+ 
+ 
+ 
+2V/div  5V/div       5A/div   5A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (5ms/div) 
+ 
+ 
+ 
+Time (5ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Load Transient Response 
+ 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+IL1 
+ 
+ 
+IL2 
+ 
+ 
+100mV/div      2A/div   2A/div 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT = 0A 
+RLOAD = 0.55Ω 
+IOUT = 0A 
+RLOAD = 0.55Ω 
+AC Coupled 
+IOUT =1A-6A-1A, SR = 2.5A/μs 
+
+4.5V to 16V, 6A Two-Phase 
+SGM62180 
+Synchronous Buck Converter 
+ 
+ 
+8 
+NOVEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAM 
+Control
+Logic
+Hiccup
+PG Control
+EN
+SS/TR
+VO
+PG
+GND
+VIN
+nEN
+60Ω
+UVLO
+-
++
+Thermal
+Shutdown
+ZCD
+Enable 
+Threshold
+Off-Timer 
+Controller
+Power-Save
+Mode
+VIN1
+Power State & 
+Dead Time 
+Control Logic
+Gate
+Drive
+SW1
+SW2
+Delay 
+Time
+tFOLLOWER
+tMASTER
+VIN
+VO
++
+-
++
+-
+VIN2
++
+-
++
+Reference 
+Voltage
+0.8V
+FB
+5μA
+Error 
+Amplifier
+Soft-Start
+&
+Tracking
+ 
+ 
+Figure 2. SGM62180 Functional Block Diagram 
+ 
+ 
+
+4.5V to 16V, 6A Two-Phase 
+SGM62180 
+Synchronous Buck Converter 
+ 
+ 
+9 
+NOVEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION 
+Overview 
+The SGM62180 is an efficient two-phase synchronous 
+Buck converter with peak current mode control. It is a 
+perfect choice for low-profile and minimal solution size 
+designs which are typically needed in applications 
+converting multi-cell Li-Ion sources to 0.9V to 6V 
+outputs. The regulator is internally compensated. The 
+inner current loop of each phase controls the peak 
+inductor current in each cycle independently. The 
+switching frequency is automatically adapted by an 
+off-time controller to achieve efficiency maximization 
+over the full load and duty cycle range, and also to 
+change the operating mode into the PSM in light loads. 
+In the steady state condition, the switching frequency is 
+unchanged and is set depending on VIN and VOUT. 
+The load current is equally shared between the two 
+phases of the SGM62180. The two phases are built 
+identically and the control loop of the follower phase is 
+connected with a fixed delay to the control loop of the 
+master phase. Both phases have the same regulation 
+thresholds and peak current set points to ensure a 
+phase-shifted current-balanced operation. Due to this 
+dual phase topology, the SGM62180 can provide 
+continuous 6A output current in a very small solution 
+size with high conversion performance. 
+ 
+Under-Voltage Lockout (UVLO) 
+The under-voltage lockout (UVLO) is a necessary feature 
+to avoid malfunctioning of the internal circuits due to 
+insufficient supply. If the input voltage falls below the 
+UVLO threshold, the device will be shut down. The 
+UVLO falling threshold is 3.7V (TYP). It has a 270mV 
+hysteresis band (TYP) for turning on. There is a 1ms 
+delay for enabling the device after VIN exceeds the 
+UVLO rising threshold. The power supply UVLO 
+threshold can be adjusted above the 3.7V device 
+threshold using the EN pin. See the Application 
+Information section for details. 
+ 
+Enable/Shutdown (EN) 
+Conversion is started when a proper input voltage is 
+present on VIN and the enable input (EN) is set to high. 
+The rising (1.03V) and falling (0.93V) thresholds are 
+very convenient for precise on/off control, UVLO 
+adjustment and power sequencing. It is also suitable for 
+slow rising EN signals. The EN voltage can be pulled 
+down by a 350kΩ internal resistor to keep the device in 
+off state if the EN pin is left open. 
+By pulling the EN voltage below 0.93V, the device is 
+disabled, and a 60Ω discharge resistor is connected 
+between the output (VO) pin and ground. 
+To keep the device enabled, the EN pin can be 
+connected to VIN pin. In this case, a 1ms turn-on delay 
+is inserted after VIN exceeds VUVLO and before soft-start 
+(switching) ensures safe operation. 
+ 
+Power-Good (PG) 
+The power-good (PG) is an open-drain output that is 
+provided to signal the status of the output voltage to the 
+downstream system. The PG goes high when the VOUT 
+reaches to a narrow margin just below the programmed 
+regulated output voltage. It will be pulled down 
+immediately if the output goes out of regulation due to 
+an overload or other reasons such as UVLO, thermal 
+shutdown or disabling by EN pin. The PG pin can sink 
+to around 2mA and must be pulled up by a resistor 
+unless PG function is not used. 
+ 
+Table 1. Power-Good Pin Logic Table 
+Device Condition 
+PG State 
+UVLO 
+0.7V < VIN < VUVLO 
+Low 
+Enable (EN = High) 
+VFB ≥ VTH_PG 
+High-Z 
+VFB ≤ VTH_PG 
+Low 
+Shutdown (EN = Low) 
+ 
+Low 
+Thermal Shutdown 
+TJ > TSD 
+Low 
+Power Supply Removal 
+VIN < 0.7V 
+High-Z 
+ 
+Soft-Start/Tracking (SS/TR) 
+To avoid large inrush currents, this device is used for 
+monotonic output ramp even in the presence of a 
+pre-bias on the output. Limiting VOUT slope also helps 
+unwanted voltage drops if the input supply impedance 
+is high. Every time the EN input goes high, the device 
+switching is initiated and VOUT starts to rise with a 
+controlled slope. The rate is selected by an external 
+capacitor (CSS) connected between the SS/TR pin and 
+AGND. The CSS is charged by an internal 5µA current 
+source. There is no limit for startup-time and large 
+values can be selected. Do not float the SS/TR pin as it 
+may cause overshoots on the output. 
+ 
+ 
+ 
+ 
+
+4.5V to 16V, 6A Two-Phase 
+SGM62180 
+Synchronous Buck Converter 
+ 
+ 
+10 
+NOVEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+Equation 1 can be used to select the CSS capacitor for a 
+soft-start time of tSS. 
+=
+×
+SS
+SS
+5μA
+C
+t
+1.25V              (1) 
+The SGM62180 has the capability to track an external 
+voltage connected to the SS/TR pin. See the Tracking 
+section for details. 
+ 
+Thermal Shutdown 
+To avoid damage from overheating, the junction 
+temperature is continuously monitored. And if the 
+temperature exceeds the shutdown level (TSD = +155℃, 
+TYP), all power switches are turned off immediately 
+and the discharge resistor is connected to the output. 
+The PG is also pulled low. When the device is cooled 
+off for 20℃ (typical hysteresis), the device automatically 
+resumes normal operation after a soft-start. 
+ 
+Operating Modes 
+The SGM62180 output is regulated using a predictive 
+off-time peak current mode control. With heavy loads, it 
+works with PWM in the continuous conduction mode 
+(CCM). But for light load, the converter starts to operate 
+in discontinuous conduction mode (DCM) and the 
+operation mode is switched to the PSM to minimize 
+losses. The transition between PWM and PSM is 
+automatically managed by the device. 
+ 
+Pulse Width Modulation Mode 
+In the PWM mode, the efficiency is maximized over the 
+whole VIN and VOUT ranges by automatic adjustment of 
+the off-time (tOFF), based on the VIN and VOUT values. 
+The predicted value is calculated by Equation 2: 
+
+
+=
+×
++
+
+
+×
+
+
+IN
+OFF
+OUT
+V
+t
+500ns
+50ns
+5
+V
+        (2) 
+While tOFF is predicted from Equation 2, the on-time (tON) 
+is determined by the required duty cycle: 
+×
+=
+OFF
+OUT
+ON
+IN
+OUT
+t
+V
+t
+V - V
+                (3) 
+So, for any specific VIN and VOUT, the switching 
+frequency is fixed and is determined by Equation 4: 
+
+
+=
+=
+×
+
+
+
+OUT
+S
+OFF
+OFF
+IN
+V
+1-D
+1
+f
+1-
+t
+t
+V
+           (4) 
+For example, when VIN = 12V and VOUT = 3.3V, the 
+switching frequency is fs = 1.75MHz. And for VOUT = 1V, 
+it is 733kHz. 
+The master and follower phases have separate current 
+control loops but use the same peak current set point 
+for cycle by cycle peak current control and regulate 
+their outputs to the same VOUT level. Using the same 
+current set points, the current peaks of the two phases 
+are very well balanced and are not dependent on the 
+inductor’s DCR that may have large tolerances. The 
+follower phase switches with a fixed delay after the 
+master to get the phase shift advantages such as 
+reduced input current ripple. 
+ 
+Power-Save Mode (PSM) 
+As the load is reduced, the internal error amplifier (EA) 
+output is decreased. When it reaches to a preset fixed 
+threshold, the light load condition is detected and the 
+converter operation mode is changed from PWM to the 
+PSM. In PSM, the converter frequency is reduced to 
+minimize losses and the quiescent current. In this mode, 
+the device employs a fixed peak current mode control 
+technique, in which the peak current (IPEAK) is 
+determined by VIN, VOUT and L. In this technique, the 
+HS switch is turned off when the inductor current 
+reaches to the fixed peak threshold. And then the LS 
+switch is turned on to conduct the inductor current. The 
+HS switch will not turn on again until VOUT falls to an 
+internally preset low level (VOUT_LOW). At very light loads, 
+only one phase, either master or follower, may operate 
+and remain active. 
+In PSM, the switching frequency can be calculated by 
+Equation 5: 
+OUT
+OUT
+IN
+OUT
+PSM
+2
+PEAK
+IN
+2 I
+V
+(V - V
+)
+f
+ = 
+L I
+V
+×
+×
+×
+×
+×
+        (5) 
+It is clear that the switching frequency has a linear 
+relationship with the output current in PSM. 
+ 
+ 
+ 
+
+4.5V to 16V, 6A Two-Phase 
+SGM62180 
+Synchronous Buck Converter 
+ 
+ 
+11 
+NOVEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+100% Duty Cycle Mode 
+The maximum on-time is not limited in the SGM62180. 
+If VIN ≈ VOUT, the device switches into the 100% duty 
+cycle operation mode in which the HS switch is 
+continuously kept on and the LS switch is kept off as 
+long as VOUT stays below its programmed value. The 
+lowest VIN value to keep the output regulation can be 
+calculated from Equation 6: 
+ 
+ (6) 
+The 100% duty cycle mode provides output regulation 
+even with very small room that is specifically useful 
+when the battery is depleted in the battery powered 
+applications. 
+ 
+Automatic Efficiency Maximization (AEM) 
+The SGM62180 automatically adjusts the switching 
+frequency to maximize its efficiency over the full input 
+and output voltage range using the off-time predictive 
+algorithm given in the Equation 2. Normally, the power 
+losses of a switching converter are increased when the 
+VOUT is decreased and/or VIN is increased. To reduce 
+the losses (increase the efficiency), the switching 
+frequency can be reduced when VIN is high or VOUT is 
+low. 
+The efficiency enhancement is achieved over all duty 
+cycles range. The efficiency improvement is especially 
+noticeable at lower VOUT values where the efficiency of 
+a conventional fixed frequency converter drops 
+significantly. 
+Moreover, by reducing the frequency at high VIN/VOUT 
+ratios (small duty cycle), the on-time will remain above 
+the marginal limits and the operating control range of 
+the converter is extended. The minimum on-time for the 
+high-side switches is about 100ns. Therefore, with the 
+SGM62180 automatic efficiency maximization feature, 
+operating at higher voltage ratios are possible 
+compared with a similar fixed frequency converter. 
+ 
+Phase Shifting 
+There is an almost 280ns (TYP) fixed delay between 
+the two phases in the PWM mode. Having a shift 
+between converter phases reduces the RMS of the 
+switching pulse currents at the input of the converter 
+that is supplied by the input capacitors. Because the 
+input 
+RMS 
+current 
+is 
+reduced, 
+smaller 
+input 
+capacitance is needed and the high frequency noise is 
+reduced. In PSM, the phase shift is about 130ns when 
+both phases are operating. 
+ 
+Current Protections 
+This device features current limiting, current balancing 
+and short circuit protections. Peak current in each 
+phase is limited independently but with equal levels. If 
+the peak current limit is reached due to an overload or 
+short circuit, the maximum current is provided for about 
+1ms and FB voltage decreases to 50% of the reference 
+voltage. If the overload condition is not removed, the 
+output starts hiccup and is turned off for about 5ms. 
+After the 5ms off period, the device is restarted with a 
+soft-start cycle. If the overload or short circuit condition 
+is still present, the same hiccup cycle will repeat until 
+the fault is removed. 
+ 
+Tracking 
+The SGM62180 has voltage tracking capability in which 
+VOUT can track the voltage applied at the SS/TR pin. 
+The tracking input voltage of the SS/TR pin ranges from 
+50mV to 1.2V. The output is set such that the VFB 
+voltage is 0.64 times VSS/TR or: 
+≈
+×
+FB
+SS/TR
+V
+0.64
+V
+             (7) 
+The maximum VSS/TR that can be tracked is 1.25V. 
+When the VSS/TR reaches near 1.2V, the SS/TR voltage 
+will be internally clamped to 1/0.64 times of the 
+reference voltage. And the output goes to the normal 
+regulation. If the VSS/TR is reduced, the tracking will be 
+started again, however, since the output does not sink 
+current, VOUT may slowly follow VSS/TR, especially at 
+light loads due to the output capacitor charges. The 
+maximum voltage of SS/TR pin should never exceed its 
+maximum rating of VIN + 0.3V. 
+Note that if the VFB < 0.8V, the output voltage tolerance 
+can be lower than the specified accuracy. 
+ 
+ 
+ 
+ 
+
+
++
+×
++
+
+
+
+
+DSON_HS
+IN_MIN
+OUT_MIN
+OUT
+L1
+L2
+R
+V
+ = V
+I
+DCR
+DCR
+2
+
+4.5V to 16V, 6A Two-Phase 
+SGM62180 
+Synchronous Buck Converter 
+ 
+ 
+12 
+NOVEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+Typical Applications 
+The SGM62180 is a two phase synchronous Buck 
+converter with 6A output current capability, 4.5V to 16V 
+input voltage range and 0.9V to 6V programmable 
+output voltage range. This device needs minimum 
+number of external components as shown in Figure 3. 
+The external components are: output filter L and C, 
+input capacitors, a small soft-start capacitor, output 
+voltage programming resistor divider and an optional 
+pull-up resistor for PG. The two-phase design allows 
+using of two thin inductors rather than one large 
+inductor and makes this device an excellent choice for 
+low-profile applications. 
+ 
+ 
+SGM62180
+VIN1
+VIN2
+EN
+SS/TR
+GND
+FB
+PG
+VO
+SW2
+SW1
+4.5V to 16V
+100kΩ
+3.3V/6A
+470kΩ
+150kΩ
+22μF
+22μF
+3.3nF
+1μH
+1μH
+2×
+47μF
+ 
+ 
+Figure 3. SGM62180 Typical 6A Converter with 4.5V to 16V Input 
+ 
+ 
+Design Requirements 
+Some design with SGM62180 for an overall solution size of < 99mm2 and maximum height of 2.1mm is discussed. 
+The selected components are listed in the following table. 
+ 
+Table 2. Components Used for High Efficiency Application Example 
+Reference Name 
+Description/Value 
+Manufacturer 
+C1, C2 
+Ceramic capacitor GRM21BR61E226ME44, 2 × 22µF, 25V, X5R, 0805 
+muRata 
+C3, C4 
+Ceramic capacitor GRM21BR1A476ME15L, 2 × 47µF, 10V, X5R, 0805 
+muRata 
+C5 
+Ceramic capacitor, 3.3nF, 10V, X5R, 0603 
+Standard 
+L1, L2 
+Inductor XFL4020-102ME, 1µH ± 20%, 4 × 4 × 2.1mm 
+Coilcraft 
+R1 
+Chip resistor, value depending on VOUT 
+Standard 
+R2 
+Chip resistor, value depending on VOUT 
+Standard 
+R3 
+Chip resistor, 100kΩ, 0603, 5% 
+Standard 
+U1 
+SGM62180, 2 phase Buck converter, 3.1 × 2.1mm WLCSP 
+SGMICRO 
+ 
+ 
+ 
+
+4.5V to 16V, 6A Two-Phase 
+SGM62180 
+Synchronous Buck Converter 
+ 
+ 
+13 
+NOVEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+Detailed Design Procedure 
+Programming the Output Voltage 
+The center point of a resistor divider between VOUT and 
+AGND is connected to the FB pin to program the output 
+voltage. The reference voltage is VREF = 0.8V and the 
+VFB which is calculated by R2 × VOUT/(R1+R2) is normally 
+regulated to be equal to VREF. The VOUT output can be 
+set between 0.9V to 6V. The R1 and R2 can be selected 
+based on Equation 8: 
+=
+OUT
+1
+2
+FB
+V
+R
+-1
+R
+V
+             (8) 
+Larger resistors are preferred to improve light load 
+efficiency, but using too large values reduces the noise 
+immunity of the FB input. The bias currents may also 
+affect the output accuracy. Set the divider current to 
+5µA for a good compromise, Equation 9 can be used to 
+calculate R2:
+  
+ 
+=
+=
+=
+FB
+2
+FB
+V
+0.8V
+R
+160kΩ
+I
+5μA
+             (9) 
+And R1 can be calculated from Equation 10: 
+
+
+=
+×
+
+
+
+OUT
+1
+2
+FB
+V
+R
+R
+-1
+V
+             (10) 
+For VOUT = 3.3V, Equation 10 gives R1 = 500kΩ. The 
+nearest standard resistor values are R1 = 470kΩ and R2 
+= 150kΩ that result in VOUT = 3.307V which is accurate 
+enough. For more accurate output voltage, 0.1% 
+resistors can be used. 
+If the FB pin is open or mistakenly programmed for 
+large values, the internal clamp will limit the output 
+voltage to about 7V. 
+ 
+Input Capacitor Selection 
+The input capacitor is needed for Buck converters to 
+circulate the pulsating (AC) input current that is 
+produced by the switching. Low ESR decoupling 
+capacitors placed close to the VINx pins are critical for 
+avoiding large voltage transients on the switches. They 
+should have sufficient RMS current rating and be able 
+to provide the peak currents. It is enough for most 
+application with 2 × 22µF (22µF on VIN1 and another 
+one on VIN2 input) capacitors. They must be placed 
+between VINx and nearby PGND pins and as close as 
+possible to the device. Additional bulk capacitance may 
+be added if required for the application. The worst-case 
+effective capacitance must always remain above 2 × 
+2µF (close to IC) + 10µF (bulk) on VIN pins to assure 
+proper operation of the device. Low ESR multilayer 
+ceramic capacitors are recommended for better 
+filtering. 
+ 
+Output Filter Selection 
+The SGM62180 is internally compensated and is 
+optimized for a range of LC values as provided in Table 
+3. The checked cells show the LC combinations that 
+are proven for stability by lab tests and simulation. 
+Other LC combinations must be tested if needed for 
+specific applications. The given L and C values are 
+nominal. The actual capacitance may have a +20% to 
+-60% tolerance. 
+ 
+Table 3. Recommended LC Filter Nominal Values 
+VOUT Value 
+Nominal L Value 
+Nominal C Value 
+VOUT ≥ 1.8V 
+1.0µH 
+2 × 47µF 
+4 × 47µF 
+6 × 47µF 
+8 × 47µF 
+VOUT < 1.8V 
+1.0µH 
+4 × 47µF 
+6 × 47µF 
+ 
+Choose X5R or better grade ceramic dielectric types for 
+input and output capacitors. Consider at least 25% 
+room for voltage ratings. The 10V capacitors can be 
+chosen for output capacitors to get lower thickness if 
+capacitance reducing since the DC bias effect is 
+acceptable for the application. 
+ 
+ 
+ 
+
+4.5V to 16V, 6A Two-Phase 
+SGM62180 
+Synchronous Buck Converter 
+ 
+ 
+14 
+NOVEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+Inductor Selection 
+Two 1µH inductors are normally chosen for the 
+SGM62180. The DCR, saturation current and inductor 
+height are the main parameters to choose depending 
+on the required load current, efficiency and height 
+restrictions. The ripple, RMS and peak inductors 
+current calculations are summarized in Equations 11, 
+12 and 13 respectively. 
+−
+∆
+×
+×
+IN_MAX
+OUT
+OUT
+L
+IN_MAX
+SW
+V
+V
+V
+I  = 
+L
+V
+f
+       (11) 
+∆
++
+2
+2
+L
+L_RMS
+OUT
+I
+I
+ = I
+12
+             (12) 
+∆
++
+L
+L_PEAK
+OUT
+I
+I
+ = I
+2
+             (13) 
+The current flowing through the inductor is the inductor 
+ripple current plus the output current. During power-up, 
+faults or transient load conditions, the inductor current 
+can increase above the calculated peak inductor 
+current level calculated above. In transient conditions, 
+the inductor current can increase up to the switch 
+current limit of the device. For this reason, the most 
+conservative approach is to specify an inductor with a 
+saturation current rating equal to or greater than the 
+switch current limit rather than the peak inductor 
+current. 
+For low profile applications, a tradeoff between the 
+physical inductor size and its losses are necessary. 
+Normally, a smaller solution size is less efficient due to 
+the higher DCR and/or core losses of the smaller 
+inductors. 
+ 
+ 
+Output Capacitor Selection 
+Proper output capacitor selection is critical for the 
+SGM62180 stability. COUT also determines transient 
+response behavior and the magnitude of output ripple. 
+In Table 4, the recommended output capacitor 
+arrangements are provided for a range of output 
+transient deviations in response to a 2A-6A-2A load 
+step using 1µH inductors. 
+Low ESR ceramic capacitors with X5R or X7R 
+(preferred) are recommended for the SGM62180 to get 
+low output voltage ripple and temperature stable 
+capacitance. Selecting higher output capacitance can 
+provide tighter transient response and lower output 
+voltage ripple. Larger COUT also improves the PSM 
+output voltage accuracy. However, selecting a too large 
+output capacitance may cause stability issues. 
+ 
+Table 4. Recommended Output Capacitor for SGM62180 
+VOUT Value 
+Load Step  Nominal C 
+Value (1) 
+Typical Transient 
+Response Accuracy 
+0.9V (2) 
+2A-6A-2A (3) 
+4 × 47µF 
+±100mV 
+±11% 
+1.8V (2) 
+2A-6A-2A (3) 
+2 × 47µF 
+±125mV 
+±7% 
+3.3V (2) 
+2A-6A-2A (3) 
+2 × 47µF 
+±165mV 
+±5% 
+NOTES: 
+1. Due to the DC bias effect, the effective capacitance of the 
+ceramic capacitors can drop significantly when the operating 
+capacitor voltage is near the rated voltage depending on the 
+selected package size, voltage rating and dielectric material. 
+2. Use a 10pF feedforward capacitor, parallel to R1, to 
+improve stability and reduce output overshoots/undershoots 
+caused by heavy load steps. 
+3. The transient load step is tested with 1A/µs rising and 
+falling slopes. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+4.5V to 16V, 6A Two-Phase 
+SGM62180 
+Synchronous Buck Converter 
+ 
+ 
+15 
+NOVEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+Soft-Start Capacitor Selection 
+The soft-start time is set by a small external capacitor 
+(CSS) connected to the SS/TR pin. An internal 5µA 
+current source charges the CSS. The rising rate of the 
+CSS voltage determines the soft-start time as given by 
+Equation 14: 
+=
+×
+SS
+SS
+5μA
+C
+t
+1.25V              (14) 
+Where tSS is the soft-start ramp time in milli-seconds. 
+For example, if tSS = 750μs is needed, the calculated 
+CSS will be 3nF and a standard 3.3nF capacitor can be 
+used for CSS. A minimum 220pF capacitor must be used 
+for CSS. 
+Do not leave SS/TR pin open to avoid output transients. 
+The SS/TR pin may also be used as voltage input for 
+output tracking as explained in the Tracking section. 
+ 
+Adjusting the UVLO Using Accurate EN Threshold 
+The accurate EN threshold voltage of the SGM62180 
+can be used to adjust the turn-on input voltage of the 
+device using a resistive divider as shown in Figure 4. 
+REN1
+REN2
+VIN
+VIN
+EN
+ 
+Figure 4. Adjusting UVLO by a Divider 
+ 
+The REN1 and REN2 are selected such that the EN = High 
+level occurs at the desired VUVLO level of the VIN input. 
+Use Equation 15 to calculate the divider resistors: 
++
+=
+×
+EN1
+EN2
+UVLO
+H_EN
+EN2
+R
+R
+|| 350kΩ
+V
+V
+R
+|| 350kΩ
+         (15) 
+Where VH_EN (1.03V, TYP) is the rising threshold 
+voltage of the EN pin. Consider a small current (e.g. 
+10µA) in the divider at the nominal input voltage. For 
+example, for an 8V input rail, choose REN1 + 
+REN2||350kΩ = 800kΩ. If the desired turn-on level is 
+5.5V, the standard resistor values, derived from 
+Equation 15, are REN1 = 634kΩ and REN2 = 249kΩ. The 
+device turns on when VIN rises above 5.5V and turns off 
+when input drops below 5.0V (VL_EN = 0.93V, TYP). 
+ 
+Output Voltage Setting Design Examples 
+Some schematics for four common output voltage 
+values (0.9V, 1.8V, 3.3V and 5.0V) are provided in 
+Figure 5 to Figure 8. 
+ 
+SGM62180
+VIN1
+VIN2
+EN
+SS/TR
+GND
+FB
+PG
+VO
+SW2
+SW1
+VIN
+100kΩ
+0.9V/6A
+20kΩ
+160kΩ
+22μF
+22μF
+3.3nF
+1μH
+1μH
+4×
+47μF
+10pF
+ 
+Figure 5. 0.9V/6A Power Supply 
+ 
+SGM62180
+VIN1
+VIN2
+EN
+SS/TR
+GND
+FB
+PG
+VO
+SW2
+SW1
+100kΩ
+1.8V/6A
+200kΩ
+160kΩ
+22μF
+22μF
+3.3nF
+1μH
+1μH
+2×
+47μF
+10pF
+VIN
+ 
+Figure 6. 1.8V/6A Power Supply 
+ 
+SGM62180
+VIN1
+VIN2
+EN
+SS/TR
+GND
+FB
+PG
+VO
+SW2
+SW1
+100kΩ
+3.3V/6A
+470kΩ
+150kΩ
+22μF
+22μF
+3.3nF
+1μH
+1μH
+2×
+47μF
+10pF
+VIN
+ 
+Figure 7. 3.3V/6A Power Supply 
+ 
+SGM62180
+VIN1
+VIN2
+EN
+SS/TR
+GND
+FB
+PG
+VO
+SW2
+SW1
+100kΩ
+5V/6A
+430kΩ
+82kΩ
+22μF
+22μF
+3.3nF
+1μH
+1μH
+4×
+47μF
+10pF
+VIN
+ 
+Figure 8. 5V/6A Power Supply 
+
+4.5V to 16V, 6A Two-Phase 
+SGM62180 
+Synchronous Buck Converter 
+ 
+ 
+16 
+NOVEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+LAYOUT CONSIDERATIONS 
+Guidelines 
+To get a high performance power supply with the 
+SGM62180, the PCB layout must be designed carefully 
+with low noise and thermal relief considerations. 
+Improper layout may result in poor performance in 
+output regulation, stability, output accuracy, noise 
+sensitivity and radiated EMI. Because the SGM62180 
+provides very high power density, the thermal design of 
+the PCB for proper heat dissipation is critical for good 
+thermal performance. 
+ 
+Layout 
+Figure 9 and Figure 10 show a recommended PCB 
+layout for the SGM62180. This layout is designed 
+based on the following important considerations to 
+provide 
+a 
+very 
+good 
+electrical 
+and 
+thermal 
+performance: 
+(1) The input capacitors are placed as close as 
+possible to the VINx and PGND pins to provide low 
+resistive and inductive paths for the high di/dt input 
+current. The input capacitance is split equally 
+between VIN1 and VIN2 to avoid interference 
+between the input lines. 
+(2) The SW1 and SW2 connections from the device to 
+the inductors are kept as short as possible with 
+enough width to carry the output current. 
+(3) The VOUT regulation loop (FB) is routed close to the 
+COUT and its ground connection. If the returns are 
+through a ground plane in another layer, direct via 
+connections are recommended, otherwise use the 
+shortest path for COUT GND connection to avoid 
+poor load regulation. 
+(4) The FB node is sensitive to high dv/dt interference 
+signals. Place the resistor divider as close as 
+possible to the FB pin and avoid long traces in the 
+divider network. 
+GND
+R4
+R5
+C6
+VIN
+VOUT
+C1
+C2
+C14 C13
+C5
+R2
+R1
+C15
+VOUT
+VOUT
+SW2
+SW1
+L2
+L1
+C4
+C8
+C10
+C3
+C7
+C9
+C12 C11
+R3
+ 
+ 
+Figure 9. PCB Layout (Top View) 
+ 
+EN
+PG
+VOUT
+ 
+ 
+Figure 10. PCB Layout (Bottom View) 
+ 
+ 
+ 
+ 
+ 
+
+4.5V to 16V, 6A Two-Phase 
+SGM62180 
+Synchronous Buck Converter 
+ 
+ 
+17 
+NOVEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+NOVEMBER 2022 ‒ REV.A to REV.A.1 
+Page 
+Updated Application Information section 
+............................................................................................................................................................ 
+14 
+ 
+Changes from Original (SEPTEMBER 2022) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00273.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+WLCSP-3.1×2.1-24B 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.525 
+0.575 
+0.625 
+A1 
+0.215 
+0.245 
+0.275 
+D 
+2.070 
+2.100 
+2.130 
+E 
+3.070 
+3.100 
+3.130 
+d 
+0.280 
+0.315 
+0.350 
+e 
+0.500 BSC 
+ccc 
+- 
+0.050 
+- 
+ 
+NOTE: This drawing is subject to change without notice. 
+ 
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+RECOMMENDED LAND PATTERN  (Unit: mm)
+1
+2
+3
+4
+A
+B
+C
+D
+E
+F
+A1 CORNER
+24 × Φd
+0.27
+0.25
+24 × Φ
+ccc C
+C
+SEATING PLANE
+A1
+A
+D
+E
+e
+e
+0.50
+0.50
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+WLCSP-3.1×2.1-24B 
+13″ 
+12.4 
+2.28 
+3.34 
+0.81 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

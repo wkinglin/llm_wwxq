@@ -1,0 +1,563 @@
+ 
+SGM4547 
+High Speed Piezo-Sounder and 
+Ultra-Sound Transducer Driver 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+FEBRUARY2023–REV.A.1 
+GENERAL DESCRIPTION 
+The SGM4547 is matched dual-channel high speed 
+piezo-sounder and ultra-sound transducer driver which 
+is integrated boost DC/DC to achieve high driven 
+voltage. The unique circuit design provides excellent 
+performance for delivering 2A peak current to highly 
+capacitive loads.  
+To reduce problems with time and clock skew, 
+SGM4547 is a good choice, with matching delays and 
+maintaining integrity of input to output pulse-widths. 
+Matching rise/fall delay times improve the drive 
+capability and speed. Non-overlapping drive technology 
+is used to minimize the dynamic switching loss. 
+In order to get higher volume sound from piezo- 
+sounder and ultra-sound transducer, boost DC/DC is 
+integrated to provide high driven voltage. The tiny 
+package makes the device very suitable for space 
+limited applications. 
+The SGM4547 is available in a Green TDFN-3×3-14L 
+package. It operates over an ambient temperature 
+range of -40℃ to +85℃. 
+ 
+FEATURES 
+● Integrated Boost DC/DC to Achieve 26V (MAX) 
+Driven Voltage 
+● 2A Peak Driven Current to Drive Capacitive Loads 
+● Wide Operating Voltage Range 
+● High Speed Driver 
+● Very Short Rise Time and Fall Time 
+● Improved Response Times 
+● Matched Rise Time and Fall Time 
+● Independent Enable Control for Each Channel 
+● Reduced Clock Skew between Dual Channels 
+● Output is at Low under UVLO Protection, 
+Enable Pin Floating or Disable Status 
+● High Noise Immunity 
+● Improved Clocking Rate 
+● Low Supply Current and Output Impedance 
+● -40℃ to +85℃ Operating Temperature Range 
+● Available in a Green TDFN-3×3-14L Package 
+ 
+ 
+APPLICATIONS 
+Ultra-Sound Transducer Driver 
+Piezo-Sounder Driver 
+ 
+ 
+ 
+ 
+ 
+
+High Speed Piezo-Sounder and 
+SGM4547 
+Ultra-Sound Transducer Driver 
+ 
+ 
+ 
+2 
+FEBRUARY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM4547 
+TDFN-3×3-14L 
+-40℃ to +85℃ 
+SGM4547YTDK14G/TR 
+SGM 
+4547DK 
+XXXXX 
+Tape and Reel, 4000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code and Vendor Code. 
+Date Code - Week
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen 
+substances. If you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+VIN to GND (Boost DC/DC) 
+............................... -0.3V to 22V 
+Voltage on SW (Driver) 
+...................................... -0.3V to 40V 
+Voltage on FB and COMP ................................... -0.3V to 3V 
+VCC to GND ...................................................... -0.3V to 28V 
+ENA, ENB, CTRL to GND 
+.................................... -0.3V to 6V 
+INA, INB to GND 
+......................................-0.3V to VCC + 0.3V 
+Combined Peak Output Current 
+......................................... 
+4A 
+Package Thermal Resistance 
+TDFN-3×3-14L, θJA .............................................. 200℃/W 
+Junction Temperature 
+................................................... 
+150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) .............................. 
+260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+MM 
+................................................................................. 
+250V 
+CDM ............................................................................ 
+1000V 
+ 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Temperature Range ...................... -40℃ to +85℃ 
+Operating Junction Temperature Range 
+...... -40℃ to +125℃ 
+Input Voltage Range ............................................ 
+2.5V to 20V 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+High Speed Piezo-Sounder and 
+SGM4547 
+Ultra-Sound Transducer Driver 
+ 
+ 
+ 
+3 
+FEBRUARY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+(TOP VIEW) 
+GND
+1
+7
+6
+5
+4
+3
+2
+14
+8
+9
+10
+11
+12
+13
+ENA
+INA
+GND
+INB
+GND
+CTRL
+SW
+ENB
+OUTA
+VCC
+OUTB
+COMP
+FB
+VIN
+ 
+TDFN-3×3-14L 
+ 
+ 
+ 
+ 
+ 
+LOGIC SYMBOL 
+ENB
+INA
+ENA
+INB
+OUTB
+OUTA
+ 
+ 
+FUNCTION TABLE 
+ENA 
+ENB 
+INA 
+INB 
+OUTA  
+OUTB 
+H 
+H 
+L 
+L 
+H 
+L 
+H 
+H 
+L 
+H 
+H 
+H 
+H 
+H 
+H 
+L 
+L 
+L 
+H 
+H 
+H 
+H 
+L 
+H 
+H 
+H 
+Floating 
+Floating 
+L 
+L 
+L 
+L 
+— 
+— 
+L 
+L 
+Floating 
+Floating 
+— 
+— 
+L 
+L 
+ 
+ 
+ 
+ 
+ 
+
+High Speed Piezo-Sounder and 
+SGM4547 
+Ultra-Sound Transducer Driver 
+ 
+ 
+ 
+4 
+FEBRUARY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1 
+ENA 
+Enable Input for Channel A. A high signal on this pin will enable the channel A output. 
+Logic low or floating will disable channel A output, regardless of the INA logic is high or low.  
+2 
+INA 
+Input for Channel A. Inverting channel input. If INA is unbiased or floating, OUTA  will 
+remain low. 
+3, 5 
+GND 
+Ground.  
+4 
+INB 
+Input for Channel B. Non-inverting channel input. If INB is unbiased or floating, OUTB will 
+remain low. 
+6 
+CTRL 
+Enable Control Pin of the Boost Regulator. Pulling this pin logic high enables the regulator 
+and pulling it logic low disables the regulator.  
+7 
+SW 
+Switching Node of the Boost Regulator. Drain connection of low-side power MOSFET.  
+8 
+VIN 
+The Input Supply Pin for the Boost Regulator.  
+9 
+FB 
+Feedback Pin of Boost Regulator’s Output Voltage. An external resistor divider programs 
+the output voltage. 
+10 
+COMP 
+Control Loop Compensation Pin.  
+11 
+OUTB 
+Output of Channel B. 
+12 
+VCC 
+Supply Input of Driver. 
+13 
+OUTA  
+Output of Channel A. 
+14 
+ENB 
+Enable Input for Channel B. A high signal on this pin will enable the channel B output. 
+Logic low or floating will disable channel B output, regardless of the INB logic is high or 
+low. 
+Exposed 
+Pad 
+GND 
+Ground. 
+ 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00064.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TDFN-3×3-14L 
+ 
+ 
+ 
+ 
+ 
+NOTES: 
+1. All linear dimensions are in millimeters. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+ 
+RECOMMENDED LAND PATTERN 
+0.400 Bsc
+N8
+N7
+N14
+0.180± 0.050
+0.425± 0.050
+1.650± 0.050
+Exp.DAP
+2.500± 0.050
+Exp.DAP
+N1
+SIDE VIEW
+BOTTOM VIEW
+TOP VIEW
+0.203 Ref
+0.750± 0.050
+3.000± 0.050
+3.000± 0.050
+0.40
+0.18
+0.725
+2.5
+1.65
+2.875
+PIN #1 DOT
+BY MARKING
+PIN #1 IDENTIFICATION
+C 0.30
+0.000-0.050
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TDFN-3×3-14L 
+13″ 
+12.4 
+3.35 
+3.35 
+1.13 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

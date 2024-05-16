@@ -1,0 +1,2380 @@
+ 
+SGM458 
+Low Power, Low Supply Voltage, 
+CSP Package, Digital Temperature Sensor 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DECEMBER 2023 – REV. B 
+ 
+GENERAL DESCRIPTION 
+The SGM458 is a low power, low supply voltage, CSP 
+package, serial control interface and digital output 
+temperature sensor with an accuracy of ±1℃ (TYP) in 
+the temperature range of -55℃ to +125℃. The serial 
+two-wire interface supports traditional I2C bus or 
+SMBus interface. Multiple device access instruction is 
+used in this serial bus, so multiple SGM458 devices (up 
+to three) can share one serial bus. The micro-controller 
+will communicate with these devices on the bus without 
+sending separate instructions which increases the 
+efficiency of software. In multiple hot points monitoring 
+systems such as computing platform, the design can be 
+realized by connecting one serial bus with multiple 
+temperature sensors. The SGM458 has a power supply 
+voltage range of 1.6V to 5.5V, so the 1.8V I/O of the 
+micro-controller can be used as the power supply of 
+SGM458. 
+The SGM458 is available in a Green WLCSP-0.85× 
+0.85-4B package and specified over a temperature 
+range of -55℃ to +125℃. 
+ 
+TYPICAL APPLICATION 
+SGM458A
+MCU
+SDA
+SCL
+SCL
+SDA
+VPULL-HIGH = 1.8V, 2.8V, 3.3V and 5.0V
+5.1kΩ
+5.1kΩ
+SGM458B
+SDA
+SCL
+SGM458C
+SDA
+SCL
+ 
+ 
+Figure 1. Typical Application Circuit 
+FEATURES 
+● 1.6V to 5.5V Supply Voltage Range 
+● Two-Wire Interface Supports 1.8V, 2.8V, 3.3V and 
+5.0V Logic 
+● Temperature Accuracy: 
+-55℃ to +125℃: ±1℃ (TYP) 
+● Resolution: 12 Bits or 8 Bits 
+● Support Multiple Devices in One Serial Bus 
+● Serial Control Bus is Compatible with I2C and 
+SMBus Interface 
+● Low Quiescent Current (IQ): 2.9μA at 0.25Hz 
+● Shutdown Mode Current: 0.7μA (TYP) 
+● Available in a Green WLCSP-0.85×0.85-4B 
+Package 
+ 
+APPLICATIONS 
+Smart Phone 
+Temperature Monitor in Computing Platform 
+Industrial Control 
+Temperature Monitor in Power System 
+ 
+ 
+ 
+
+Low Power, Low Supply Voltage, 
+SGM458 
+CSP Package, Digital Temperature Sensor 
+ 
+ 
+2 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM458A 
+WLCSP-0.85×0.85-4B 
+-55℃ to +125℃ 
+SGM458ATG/TR 
+3J 
+ X 
+Tape and Reel, 3000 
+SGM458B 
+WLCSP-0.85×0.85-4B 
+-55℃ to +125℃ 
+SGM458BTG/TR 
+5T 
+ X 
+Tape and Reel, 3000 
+SGM458C 
+WLCSP-0.85×0.85-4B 
+-55℃ to +125℃ 
+SGM458CTG/TR 
+5U 
+ X 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: X = Date Code. 
+Date Code - Quarter 
+X
+YY
+Serial Number
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ABSOLUTE MAXIMUM RATINGS 
+Supply Voltage, VCC 
+........................................................ 
+6.5V 
+Voltage at SCL and SDA .... 
+-0.3V to (VCC + 0.3V) and ≤ 6.5V 
+Package Thermal Resistance 
+WLCSP-0.85×0.85-4B, θJA ...................................... 270℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Supply Voltage Range ........................................ 
+1.6V to 5.5V 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+
+Low Power, Low Supply Voltage, 
+SGM458 
+CSP Package, Digital Temperature Sensor 
+ 
+ 
+3 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+  (TOP VIEW) 
+A
+B
+1
+2
+SDA
+SCL
+VCC
+GND
+ 
+  WLCSP-0.85×0.85-4B 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+I/O 
+FUNCTION 
+A1 
+VCC 
+I 
+Power Supply Pin. 
+A2 
+GND 
+— 
+Ground Pin. 
+B1 
+SDA 
+I/O 
+Data Input/Output Pin. 
+B2 
+SCL 
+I 
+Clock Input Pin. 
+ 
+NOTE: I: Input; O: Output. 
+ 
+ 
+FUNCTIONAL BLOCK DIAGRAM 
+SCL
+GND
+SDA
+VCC
+Temperature 
+Sensor
+12-Bit
+ADC
+Logic Control and Serial Interface
+Registers
+SGM458
+ 
+ 
+Figure 2. Block Diagram 
+ 
+ 
+ 
+
+Low Power, Low Supply Voltage, 
+SGM458 
+CSP Package, Digital Temperature Sensor 
+ 
+ 
+4 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VCC = 1.6V to 5.5V, TA = -55℃ to +125℃, typical values are at TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Temperature Input 
+Range 
+ 
+ 
+-55 
+ 
++125 
+℃ 
+Accuracy 
+(Temperature Error) 
+ 
+VCC = 1.8V 
+-1.5 
+±1 
+1.5 
+℃ 
+ 
+vs. Supply 
+ 
+0.5 
+ 
+℃/V 
+Resolution 
+ 
+ 
+ 
+0.0625 
+ 
+℃ 
+SCL and SDA Digital Input/Output 
+High-Level Input Voltage 
+VIH 
+VCC is external open-drain pull-high power supply 
+0.7 × VCC 
+ 
+ 
+V 
+Low-Level Input Voltage 
+VIL 
+VCC is external open-drain pull-high power supply 
+ 
+ 
+0.3 × VCC 
+Input Current 
+IIN 
+0V < VIN < VCC + 0.3V 
+ 
+10 
+100 
+nA 
+Output Logic Levels 
+VOL 
+SDA, VCC > 2V, IOL = 2mA 
+0 
+0.06 
+0.15 
+V 
+Resolution 
+ 
+ 
+ 
+12 
+ 
+Bits 
+Conversion Time 
+ 
+ 
+ 
+13 
+17 
+ms 
+Conversion Modes 
+ 
+CR1 = 0, CR0 = 0 (default) 
+ 
+0.25 
+ 
+Conv/s 
+ 
+CR1 = 0, CR0 = 1 
+ 
+1 
+ 
+ 
+CR1 = 1, CR0 = 0 
+ 
+4 
+ 
+ 
+CR1 = 1, CR0 = 1 
+ 
+8 
+ 
+Timeout Time 
+ 
+ 
+ 
+30 
+38 
+ms 
+Power Supply 
+Operating Supply Range 
+ 
+ 
+1.6 
+ 
+5.5 
+V 
+Quiescent Current 
+IQ 
+Serial bus inactive, CR1 = 0, CR0 = 0 (default), VCC = 1.8V 
+ 
+2.9 
+3.9 
+μA 
+Shutdown Current 
+ISD 
+Serial bus inactive, VCC = 1.8V 
+ 
+0.7 
+2.5 
+μA 
+Temperature 
+Specified Range 
+ 
+ 
+-55 
+ 
++125 
+℃ 
+ 
+ 
+ 
+
+Low Power, Low Supply Voltage, 
+SGM458 
+CSP Package, Digital Temperature Sensor 
+ 
+ 
+5 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+TIMING REQUIREMENTS 
+PARAMETER 
+SYMBOL 
+FAST MODE 
+HIGH-SPEED MODE 
+UNITS 
+MIN 
+MAX 
+MIN 
+MAX 
+SCL Operating Frequency, VCC > 1.8V 
+fSCL 
+0.001 
+0.4 
+0.001 
+3.4 
+MHz 
+SCL Operating Frequency, VCC < 1.8V 
+0.001 
+0.4 
+0.001 
+2.75 
+Bus Free Time between STOP and START Condition 
+tBUF 
+600 
+ 
+160 
+ 
+ns 
+Hold Time after Repeated START Condition 
+After This Period, The First Clock is Generated. 
+tHDSTA 
+100 
+ 
+100 
+ 
+ns 
+Repeated START Condition Setup Time 
+tSUSTA 
+100 
+ 
+100 
+ 
+ns 
+STOP Condition Setup Time 
+tSUSTO 
+100 
+ 
+100 
+ 
+ns 
+Data Hold Time 
+tHDDAT 
+20 
+400 
+10 
+125 
+ns 
+Data Setup Time 
+tSUDAT 
+100 
+ 
+10 
+ 
+ns 
+SCL Clock Low Period, VCC > 1.8V 
+tLOW 
+1300 
+ 
+160 
+ 
+ns 
+SCL Clock Low Period, VCC < 1.8V 
+tLOW 
+1300 
+ 
+200 
+ 
+ns 
+SCL Clock High Period 
+tHIGH 
+600 
+ 
+60 
+ 
+ns 
+Clock/Data Fall Time 
+tF 
+ 
+300 
+ 
+ 
+ns 
+Clock/Data Rise Time 
+tR 
+ 
+300 
+ 
+160 
+ns 
+Clock/Data Rise Time, SCLK ≤ 100kHz 
+tR 
+ 
+1000 
+ 
+ 
+ns 
+NOTE: 
+1. The above values are measured with one time, which means that the maximum and minimum of the results are not provided. 
+SCL
+SDA
+P
+S
+S
+P
+tBUF
+tLOW
+tR
+tHDSTA
+tF
+tHDDAT
+tHIGH
+tSUDAT
+tSUSTA
+tHDSTA
+tSUSTO
+tR
+ 
+Figure 3. I2C Timing Diagram 
+Figure 3 to Figure 7 illustrate how the I2C works for the digital output of SGM458. The bus definition of Figure 3 is shown as 
+below: 
+Bus Idle: SDA and SCL are in high position in this mode. 
+Start Data Transfer: When SCL remains in high position and SDA changes from high to low, a START condition occurs. The 
+transmission should always be launched with a START condition. 
+Stop Data Transfer: When SCL remains in high position and SDA changes from low to high, a STOP condition occurs. The 
+transmission should always be finished with a STOP condition. 
+Data Transfer: The data bytes transferred between START and STOP condition are determined by the master device. 
+Acknowledge: The acknowledge signal should be generated to guarantee that the receiving device is addressed. The SDA 
+should be pulled low for the entire clock pulse of SCL during the acknowledge time. Both the data hold time and data setup time 
+should also be considered. If the master is a receiving in this case, the receiver can also send a not-acknowledge pulse on the 
+last byte. 
+ 
+ 
+
+Low Power, Low Supply Voltage, 
+SGM458 
+CSP Package, Digital Temperature Sensor 
+ 
+ 
+6 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+SERIAL INTERFACE 
+Table 1. The First Byte after START (Address of Slave Device) 
+MSB 
+ 
+LSB 
+Bit7 
+Bit6 
+Bit5 
+Bit4 
+Bit3 
+Bit2 
+Bit1 
+Bit0 
+1 
+1 
+1 
+0 
+A2 
+A1 
+A0 
+R/W 
+ 
+NOTES: 
+1. R: read, W: write; ACK: acknowledge, NCK: not acknowledge. 
+2. All of SGM458 should acknowledge the transmission byte. 
+3. The acknowledge signal should be pulled low to issue a successful receiving for each read action. 
+4. The SGM458 version determines the values of A0, A1, and A2. 
+ 
+1
+9
+1
+1
+1
+1
+0
+A2
+A1
+A0
+W
+0
+0
+0
+0
+0
+P1
+P0
+9
+P2
+SCL
+SDA
+1
+9
+D7
+D6
+D5
+D4
+D3
+D1
+D0
+D2
+SCL
+(Continued)
+SDA
+(Continued)
+START by 
+Master
+ACK by 
+Device
+ACK by 
+Device
+Frame 1 
+Frame 2
+Byte#1  I2C Slave Address Byte
+Byte#2  I2C Pointer Register Address
+Frame 3 
+ACK by 
+Device
+STOP by 
+Master
+Byte#3 Data Byte 1 to SGM458 
+Register  
+ 
+ 
+Figure 4. Register Write Byte Format 
+ 
+ 
+
+Low Power, Low Supply Voltage, 
+SGM458 
+CSP Package, Digital Temperature Sensor 
+ 
+ 
+7 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+SERIAL INTERFACE (continued) 
+ 
+1
+9
+1
+1
+1
+1
+0
+A2
+A1
+A0
+W
+0
+0
+0
+0
+0
+P1
+P0
+9
+P2
+SCL
+SDA
+1
+9
+D7
+D6
+D5
+D4
+D3
+D1
+D0
+D2
+SCL
+(Continued)
+SDA
+(Continued)
+START by 
+Master
+ACK by 
+Device
+ACK by 
+Device
+Frame 1 
+Frame 2
+Byte#1  I2C Slave Address Byte
+Byte#2  I2C Pointer Register Address
+Frame 4 
+NCK by 
+Master
+STOP by 
+Master
+Byte#4 Data Byte from Device 
+1
+9
+1
+1
+1
+0
+A2
+A1
+A0
+R
+START by 
+Master
+ACK by 
+Device
+Frame 3 
+Byte#3  I2C Slave Address Byte
+STOP by 
+Master
+ 
+ 
+Figure 5. Register Read Byte Format 
+ 
+ 
+1
+9
+1
+0
+0
+0
+0
+0
+0
+0
+W
+0
+0
+0
+0
+0
+P1
+P0
+9
+P2
+SCL
+SDA
+1
+9
+D7
+D6
+D5
+D4
+D3
+D1
+D0
+D2
+SCL
+(Continued)
+SDA
+(Continued)
+START by 
+Master
+ACK by 
+Device
+ACK by 
+Device
+Frame 1 
+Frame 2
+Byte#1  Multi-Write Address Byte
+Byte#2  I2C Pointer Register Address
+Frame 3 
+ACK by 
+Device
+STOP by 
+Master
+Byte#3 Data Byte 1 to SGM458 
+Register  
+ 
+Figure 6. Register Multi-Write Format 
+ 
+ 
+
+Low Power, Low Supply Voltage, 
+SGM458 
+CSP Package, Digital Temperature Sensor 
+ 
+ 
+8 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+SERIAL INTERFACE (continued) 
+ 
+1
+9
+1
+0
+0
+0
+0
+0
+0
+0
+W
+0
+0
+0
+0
+0
+P1
+P0
+9
+P2
+SCL
+SDA
+1
+D7
+D6
+D5
+D4
+D3
+D1
+D0
+D2
+SCL
+(Continued)
+SDA
+(Continued)
+START by 
+Master
+ACK by 
+Device
+ACK by 
+Device
+Frame 1 
+Frame 2
+Byte#1  Multi-Write Address Byte
+Byte#2  I2C Pointer Register Address
+Frame 4
+Byte#4 Data Byte 1 from SGM458A 
+1
+9
+0
+0
+0
+0
+0
+0
+0
+R
+START by 
+Master
+ACK by 
+Device
+Frame 3
+Byte#3  Multi-Read Address Byte
+1
+9
+D7
+D6
+D5
+D4
+D3
+D1
+D0
+D2
+Frame 6
+NCK by 
+Master
+STOP by 
+Master
+Byte#6 Data Byte n from SGM458C 
+9
+ACK by 
+Master
+1
+9
+D7
+D6
+D5
+D4
+D3
+D1
+D0
+D2
+Frame 5
+ACK by 
+Master
+Byte#5 Data Byte 1 from SGM458B 
+SCL
+(Continued)
+SDA
+(Continued)
+ 
+Figure 7. Register Multi-Read Format Using in Typical Application 
+ 
+ 
+ 
+
+Low Power, Low Supply Voltage, 
+SGM458 
+CSP Package, Digital Temperature Sensor 
+ 
+ 
+9 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+VCC = 1.8V and TA = +25℃, unless otherwise noted. 
+ 
+     Quiescent Current vs. Temperature 
+     Shutdown Current vs. Temperature 
+ 
+ 
+     Conversion Time vs. Temperature 
+     Quiescent Current vs. Bus Frequency 
+ 
+ 
+     Temperature Error vs. Temperature 
+ 
+ 
+ 
+ 
+ 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+-55
+-35
+-15
+5
+25
+45
+65
+85
+105 125
+Quiescent Current (µA) 
+Temperature (℃) 
+        VCC = 1.6V 
+        VCC = 1.8V 
+        VCC = 3.3V 
+        VCC = 5.5V 
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+-55
+-35
+-15
+5
+25
+45
+65
+85
+105 125
+Quiescent Current (µA) 
+Temperature (℃) 
+        VCC = 3.3V 
+        VCC = 5.5V 
+13.55
+13.60
+13.65
+13.70
+13.75
+13.80
+13.85
+13.90
+-55
+-35
+-15
+5
+25
+45
+65
+85
+105 125
+Conversion Time(ms) 
+Temperature (℃) 
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+1
+10
+100
+1000
+Quiescent Current (µA) 
+Frequency (kHz) 
+        TA = -55℃ 
+        TA = +25℃ 
+        TA = +125℃ 
+2000 
+-2
+-1.5
+-1
+-0.5
+0
+0.5
+1
+1.5
+2
+-55
+-35
+-15
+5
+25
+45
+65
+85
+105 125
+Accuracy (℃) 
+Temperature (℃) 
+        Average 
+        Average + 3σ  
+        Average - 3σ  
+
+Low Power, Low Supply Voltage, 
+SGM458 
+CSP Package, Digital Temperature Sensor 
+ 
+ 
+10 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION 
+Overview 
+For the management of thermal profiling and 
+management, the SGM458 has a better performance 
+with the digital output and WLCSP package. The digital 
+output can also be used for I2C interface and SMBus 
+interface. In addition, it supports up to three SGM458 
+connections, sharing one I2C interface to connect to the 
+master device. The commands of MDA can decrease 
+the communication time and the power dissipation 
+which is caused by the multiple connection of SGM458. 
+For normal operation, the temperature range of the 
+SGM458 is from -55℃ to +125℃. 
+The I2C interface supports a maximum of three 
+SGM458 connections. There are three different 
+addresses for SGM458, which indicates different 
+address for the salve device. Also, the internal register 
+can write or read a byte with the I2C interface. The 
+function of MDA allows all connected slave devices to 
+communicate without sending the corresponding 
+address to each SGM458. 
+For Figure 8, the pull-up resistors are required for the 
+communication of I2C interface, and a 0.01µF bypass 
+capacitor is also required to reduce the interface from 
+power supply noise. 
+ 
+SGM458
+VCC
+0.01μF
+VCC
+SCL
+SDA
+5.1kΩ 
+5.1kΩ 
+To Controller
+VPULL-HIGH = 1.8V, 2.8V, 3.3V, 5.0V
+GND
+ 
+Figure 8. Typical Connections 
+The thermal paths of SGM458 are provided by the 
+bumping of the internal thermal resistance. The 
+accuracy of the measurement for surface or air 
+environment would be enhanced by isolating the 
+SGM458 from the ambient temperature. 
+ 
+Feature Description 
+The resolution of the SGM458 is just 0.0625℃ and the 
+two-wire digital structure can support MDA and I2C 
+interfaces. 
+The mechanism of multiple device access (MDA) 
+allows the slave to communicate at the same time, 
+rather than sending the address for each slave device. 
+Up to three SGM458 devices can be connected in 
+parallel for easy reading, which means that the master 
+device can simply read them with the I2C interface. 
+For power-sensitive and space-constrained applications, 
+the SGM458 is a good choice and can be monitored by 
+the master. 
+ 
+Programming 
+Temperature Watchdog Function 
+There is a watchdog function inside the SGM458 to 
+check if the measured temperature is higher than the 
+upper threshold or lower threshold of the device 
+through THIGH and TLOW registers. The flag-high bit (FH) 
+is set to high if the measured temperature is higher 
+than THIGH, and the flag-low bit (FL) is set to high if the 
+measured temperature is lower than TLOW. For the 
+normal measurement case, if both FH and FL bit are 
+set to low state, it means that the measured 
+temperature is lower than THIGH and higher than TLOW. 
+The above three different cases are shown in Figure 9. 
+ 
+Measured 
+Temperature
+FH Bit
+(Transparent Mode)
+FL Bit
+(Transparent Mode)
+FH Bit
+(Latch Mode)
+FL Bit
+(Latch Mode)
+THIGH
+TLOW
+Read
+Read
+Read
+ 
+Figure 9. Temperature Flag Functional Diagram 
+ 
+ 
+ 
+
+Low Power, Low Supply Voltage, 
+SGM458 
+CSP Package, Digital Temperature Sensor 
+ 
+ 
+11 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+The function of latch bit (LC) is used to pull the 
+corresponding FH and FL bit high in latching mode and 
+generate a pulse if the temperature is higher or lower 
+than the limitation until the master completes read and 
+sends a read command to the slave. If a read 
+command is already received by SGM458 after a LC 
+pulse or the measured temperature is within the 
+limitations, the LC function will be low. For the default 
+values when power-on, the LC, FH and FL are all in low 
+state. 
+ 
+Conversion Rate 
+Users can set the value of CR1 and CR0 that are 
+located in the corresponding register to adjust the 
+conversion rates. Typically, the conversion time for 
+SGM458 is 13ms. If the users desire to set a different 
+conversion rate, the single conversion will be achieved 
+first, and then the device will be powered down to wait 
+the appropriate CR1 and CR0. The corresponding 
+value of CR1 and CR0 is shown in Table 2. 
+Table 2. Conversion Rate Settings 
+CR1 
+CR0 
+Conversion Rate 
+0 
+0 
+0.25Hz (default) 
+0 
+1 
+1Hz 
+1 
+0 
+4Hz 
+1 
+1 
+8Hz 
+ 
+The startup conversion is taken placed immediately as 
+the power-up or general-call reset. For the first result of 
+the conversion, it should be after 13ms. For the active 
+mode, the quiescent current for the conversion is 77µA 
+(typical at +25℃, VCC = 1.8V). For the delay mode, the 
+quiescent current in this period is just 2.5µA (typical at 
++25℃, VCC = 1.8V). 
+ 
+Delay Time
+Startup
+Start of Conversion
+13ms
+13ms
+ 
+NOTE: 1. The delay time is set by CR1 and CR0. 
+Figure 10. Conversion Start 
+ 
+Shutdown Mode (M1 = 0, M0 = 0) 
+When the shutdown mode operates, all of the circuitry 
+inside SGM458 will be shutdown with the quiescent 
+current of 0.7µA (TYP). If the values of M1 and M0 are 
+equal to 0, the device will enter to shutdown mode after 
+the conversion is completed. 
+ 
+One-Shot (M1 = 0, M0 = 1) 
+The one-shot mode can be supported by SGM458. For 
+single conversion of the temperature measurement, 
+simply writing 01 to M1 and M0 respectively when the 
+device is in shutdown mode. The values of M1 and M0 
+are 01 in the conversion period. After finishing the 
+conversion, the SGM458 will return to shutdown mode 
+immediately and the values of M1 and M0 will convert 
+to 00. For the applications that do not need to measure 
+the temperature continuously, this feature can reduce 
+the power consumption of the circuit. 
+The higher conversion rate can be achieved by 
+SGM458 as well. A read command can be taken place 
+in less than 20µs while a single conversion will take 
+13ms. When M1 and M0 are equal to 01 respectively 
+(one-shot mode), the conversions can be greater than 
+or equal to 30 times per second. 
+ 
+Continuous Conversion Mode (M1 = 1) 
+If the device is operated at continuous mode with M1 = 
+1, the conversion rate is determined by the bits of CR1 
+and CR0. For the process of the continuous conversion, 
+it starts with a single conversion and then operates in 
+shutdown mode until the master sends the values to 
+CR1 and CR0 bits. 
+ 
+Bus Overview 
+The device which can send the command to the target 
+register is called master and the device which can be 
+controlled by the master is called slave. The master 
+device can generate the clock signal to the slave in 
+order to control it with SCL and SDA lines. 
+Send a specific address to start the slave, the SDA 
+signal will be pulled from high to low while SCL is still in 
+high state. For the slaves connected to the bus, at the 
+CLK rising edge, the slaves start to be addressed by 
+the master, and followed by a READ or WRITE bit. For 
+the ninth bit of the transmission signal, if SDA is pulled 
+low, the slave acknowledges the transmission, in which 
+case the slave is being addressed.
+ 
+ 
+
+Low Power, Low Supply Voltage, 
+SGM458 
+CSP Package, Digital Temperature Sensor 
+ 
+ 
+12 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+In one word, for the data transfer process, the initial 
+signal will indicate a start state, and then followed by 
+eight clock pulsed and an acknowledge signal. 
+However, the stability of SDA signal should be 
+guaranteed when SCL is high, otherwise it will be 
+mistaken for START or STOP mode. After the 
+transmission completes, the signal of SDA will change 
+from low to high when SCL is high. 
+ 
+Serial Interface 
+On the two-wire bus or SMBus, the SGM458 can be 
+operated as a slave device, which is controlled by the 
+master. When connecting to the bus, both SDA and 
+SCL pins are connected through the topology of 
+open-drain. In addition, in order to improve the 
+performance of slave devices under the condition of 
+input peak value and noise bus, filter and Schmitt 
+flip-flop are adopted. There are two modes of 
+transmission protocol: fast mode (1kHz to 400kHz) and 
+high-speed mode (1kHz to 3.4MHz). MSB is the first bit 
+to be transferred when transmitting a byte. 
+ 
+Serial Bus Address 
+For the definition of I2C communication, before sending 
+data, the master device should address the specified 
+slave device. There are seven bits for the address of 
+the slave device and another one bit is for the 
+command of reading or writing. 
+The SGM458 has three different slave addresses as 
+shown in Table 3. For the function of the address, it can 
+use to indicate the location or designator of 
+temperature for three different connected slave 
+SGM458s. 
+Table 3. Different Slave Addresses of SGM458 
+Product 
+Slave Address 
+ 
+A2 
+A1 
+A0 
+SGM458A 
+1 
+1 
+1 
+0 
+0 
+0 
+0 
+SGM458B 
+1 
+1 
+1 
+0 
+0 
+0 
+1 
+SGM458C 
+1 
+1 
+1 
+0 
+0 
+1 
+0 
+ 
+Writing and Reading Operation 
+In order to access the specified pointer register of 
+SGM458, it is necessary to send the values of the 
+desired pointer register after addressing the slave 
+device. As already illustrates in Figure 3, the values of 
+pointer register are required after each write command. 
+If the master device desires to read the information of 
+the specified register, a write command must be send 
+by the master at first to indicate which pointer register is 
+needed. First, the slave address should be sent with 
+the low state of R/W
+ഥ, followed by the address of the 
+pointer address. Second, the START command should 
+be sent by the master, the slave address of the 
+specified SGM458, and then followed with the high 
+state of R/W
+ഥ to indicate a read command (Figure 4). 
+For the condition of repeated reading, it is not required 
+for sending the bytes of pointer register again, unless 
+the device is reset or the address of pointer register is 
+altered by the write command. 
+ 
+Slave Receiver Mode and Slave Transmitter Mode 
+The SGM458 can also transmit or receive the 
+information under read or write condition. The device 
+cannot drive the SCL signal when used as a slave 
+device. 
+When the slave is desired to receive the data, the 
+master will firstly send a slave address to the slave, 
+followed by R/W
+ഥ is low. After transmitting the slave 
+address, the slave (SGM458) will pull SDA low to 
+indicate an acknowledgement. Then, the address of 
+pointer register is sent by the master and an 
+acknowledgement signal is also required for the slave 
+device. In addition, the data is written to the addressing 
+pointer register, followed by the acknowledgement 
+signal from the slave device. If the master wants to stop 
+the transmission, a START or STOP command is 
+required. 
+The R/W
+ഥ is pulled high after the slave address is 
+transmitted by the master device, followed by an 
+acknowledgement of the slave. Then, the data is 
+transmitted by the specified pointer register of the slave 
+device, followed by the acknowledgement of the master. 
+In addition, if the master wants to stop the transmission, 
+it can generate a not-acknowledge command or 
+generate a START or STOP command to terminate the 
+transmission. 
+ 
+ 
+
+Low Power, Low Supply Voltage, 
+SGM458 
+CSP Package, Digital Temperature Sensor 
+ 
+ 
+13 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+General Call 
+The SGM458 also supports a general call address 
+(0000000) when the eighth bit is low. After receiving an 
+acknowledgement signal from the slave device, the 
+master prepares to send a second byte to the device. In 
+this case, if the second byte is 00000110, the slave 
+device (SGM458) will go into power-up mode and reset 
+all registers. However, the SGM458 cannot acquire an 
+address for general call from the master device. 
+ 
+High-Speed (Hs) Mode 
+If the transmission frequency is greater than 400kHz, in 
+order for SGM458 to work in high-speed mode, the byte 
+that is 00001xxx must be transmitted after the START 
+condition by the master. 00001xxx command can be 
+sent up to 1MHz (see Table 4 below) even when the 
+SGM458 is in default mode (which is fast mode). 
+Table 4. Master Timing Requirements for Switching to I2C 
+Hs-Mode 
+Symbol 
+Min 
+Max 
+Recommend Values 
+Unit 
+fSCL 
+0 
+1000 
+ 
+kHz 
+tLOW 
+500 
+ 
+ 
+ns 
+tHIGH 
+260 
+ 
+ 
+ns 
+tHDSTA 
+260 
+ 
+ 
+ns 
+tSUSTA 
+260 
+ 
+ 
+ns 
+tHDDAT 
+0 
+ 
+ 
+ns 
+tSUDAT 
+75 
+ 
+250 
+ns 
+tBUF 
+500 
+ 
+ 
+ns 
+tSUSTA 
+260 
+ 
+ 
+ns 
+tR/tF 
+ 
+120 
+40 
+ns 
+However, the SGM458 does not need to generate an 
+acknowledge byte, but the input and output filters can 
+be adjusted accordingly (up to 3.4MHz) to make 
+SGM458 operate in high-speed mode. After the 
+high-speed byte is transmitted, the master will transmit 
+a START command, followed by the slave address to 
+the SGM458. In addition, the high-speed mode will stop 
+once the STOP command is transmitted from the 
+master, and the input and output filters of SGM458 will 
+be switched to the default mode. 
+ 
+Timeout Function 
+If the SCL line is pulled low by 30ms, it means that the 
+SGM458 will perform reset mode. Under this condition, 
+the bus is released by SGM458 and then another 
+START function is required for operation. To prevent 
+the device goes into the timeout function, the operation 
+frequency of the SCL should be greater than or equal to 
+1kHz. 
+ 
+Multiple Device Access (MDA) 
+The function of MDA can allow the master to 
+communicate with up to three SGM458 devices on the 
+same bus. There are two commands included in the 
+MDA command, they are the address of MDA read 
+(00000001) and MDA write (00000000). In addition, the 
+SGM458 will send an acknowledge signal to the master 
+after receiving a MDA command. If the users desire to 
+use MDA function, the slave address of the SGM458 
+must be different. 
+ 
+Multiple Device Access Write: 
+At first, the MDA write command should be sent by the 
+master device, and followed by the address of the 
+specified pointer register (Table 6). After that, the slave 
+devices connected to the same bus waits to be 
+communicated by the master. After transmitting the 
+data byte to the SGM458 devices, the information will 
+be saved 
+inside the 
+pointer register and 
+an 
+acknowledge signal will be sent. In addition, the same 
+information will be saved by the connected devices of 
+SGM458 within only one transaction (Figure 6). 
+Multiple Device Access Read: 
+As mentioned before, if the master reads the 
+information from the connected slave devices in MDA 
+mode, it must first send a write command to the pointer 
+register. Then, a read command can be transmitted to 
+the pointer register of the slave devices. For instance, 
+there are two slave devices (SGM458A and SGM458B) 
+connected on the same bus. After the master device 
+sends the MDA read command, the two bytes from 
+SGM458A and SGM458B should be sent and followed 
+by two acknowledge signals respectively from the 
+master device. For each bytes from the slave devices, 
+the master must send an acknowledge signal 
+respectively to ensure that it already reads the data 
+bytes from the slaves (Figure 7). However, if there is no 
+acknowledge signal sent from the master device for 
+each byte, the slave device will stop transmitting data to 
+the master for reading. 
+ 
+ 
+
+Low Power, Low Supply Voltage, 
+SGM458 
+CSP Package, Digital Temperature Sensor 
+ 
+ 
+14 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+The maximum slave devices that can be connected to 
+the same bus is three, see Table 3. However, if the 
+sequence of connected SGM458 devices is incomplete, 
+the master should send the bytes to the dummy one as 
+well to ensure that the system can operate normally. 
+For instance, if SGM458A, SGM458B and SGM458D 
+are connected on the same bus, after the MDA 
+command is being transmitted, the four bytes and four 
+ACKs must be followed in order to finish the MDA 
+transaction. 
+ 
+Noise 
+Because of the low power property of SGM458, the 
+level of noise generated by the SGM458 is low. 
+However, in order to further reduce the noise problem 
+of SGM458 and ensure that it does not affect other 
+devices connected on the same power supply, an RC 
+filter can be taken in account. The resistance value 
+should be lower than 5kΩ and the capacitance value 
+should be greater than 10nF. 
+SGM458
+SDA
+SCL
+VCC
+GND
+CF ≥ 10nF
+VCC
+RF ≤ 5kΩ
+ 
+Figure 11. Noise Reduction 
+ 
+ 
+ 
+ 
+
+Low Power, Low Supply Voltage, 
+SGM458 
+CSP Package, Digital Temperature Sensor 
+ 
+ 
+15 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER DESCRIPTION 
+SCL
+Temperature Register
+Configuration Register
+TLOW Register
+THIGH Register
+I/O Interface
+SDA
+Pointer Register
+ 
+Figure 12. Internal Register Structure 
+ 
+Pointer Register 
+The registers of the SGM458 is shown in Figure 12. 
+There is a pointer register followed by the I/O pins, 
+which can give address for the following four registers. 
+The three LSBs of the pointer register indicate which 
+register the master wants to communicate with. The 
+byte detail information is shown in Table 6. If the master 
+wants to send a write command to the pointer register, 
+P[7:3] must be set to 0. Table 7 indicates the address of 
+the internal registers. If P[2:0] is 000, it also means that 
+the device will be in the power-on reset mode, which 
+means that SGM458 can also read the temperature 
+when it is on power-up. 
+ 
+Temperature Register 
+The resolution of SGM458 is 12 bits, and the device 
+can only support the function of reading. However, for 
+the READ command, the two bytes should be 
+transmitted by SGM458. That is, the MSB is for byte 1 
+and LSB is for byte 2. For the code of temperature, the 
+first 12 bits represent the temperature converted by the 
+internal ADC. If the customer application does not 
+require information about TD[3:0], this part of the least 
+significant bit is useless. 
+Negative numbers are represented in binary twos 
+complement format. Following power-up or reset, the 
+Temperature Register reads 0 until the first conversion 
+completes. 
+The following equations illustrate how to transfer digital 
+format to analog format or how to transfer analog 
+format to digital format. 
+For converting the positive temperature to the 
+corresponding digital signal: 
+1. The result of the temperature should be divided by 
+the LSB of the temperature. 
+2. After calculation, convert the decimal value to binary 
+value and then the digital signal is obtained. 
+Example: (50 ℃)/(0.0625 ℃/LSB) = 800 = 320h = 
+001100100000 
+For converting the digital signal to the corresponding 
+temperature: 
+1. Firstly, convert the 12-bit digital signal to the 
+corresponding decimal value, and MSB = 0 means that 
+the corresponding temperature is a positive value. 
+2. The result of decimal value should be multiplied by 
+the LSB to get the corresponding temperature. 
+Example: 001100100000 = 320h = 800 × (0.0625℃
+/LSB) = 50℃ 
+For converting the positive temperature to the 
+corresponding digital signal: 
+1. The result of the absolute temperature should be 
+divided by the LSB of the temperature. 
+2. The value of two’s complement format can be 
+obtained by obtaining the complementary of the result 
+digital signal and adding 1. 
+Example: (|-25℃|)/(0.0625℃/LSB) = 400 = 190h = 
+000110010000 
+Two's complement format: 111001101111 + 1 = 
+111001110000 
+ 
+Table 5. 12-Bit Temperature Data Format 
+The resolution for the temp ADC in internal temperature 
+mode is 0.0625℃/count. 
+Temperature (℃) 
+Digital Output (Binary) 
+Hex 
++128 
+011111111111 
+7FF 
++127.9375 
+011111111111 
+7FF 
++100 
+011001000000 
+640 
++80 
+010100000000 
+500 
++75 
+010010110000 
+4B0 
++50 
+001100100000 
+320 
++25 
+000110010000 
+190 
+0.25 
+000000000100 
+004 
+0 
+000000000000 
+000 
+-0.25 
+111111111100 
+FFC 
+-25 
+111001110000 
+E70 
+-55 
+110010010000 
+C90 
+ 
+ 
+
+Low Power, Low Supply Voltage, 
+SGM458 
+CSP Package, Digital Temperature Sensor 
+ 
+ 
+16 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER DESCRIPTION (continued) 
+Configuration Register 
+Configuration Register 
+The operation mode is defined in the configuration 
+register. MSB code indicates the state of read (R) or 
+write (W
+ഥ). Table 10 illustrates the structure of the 
+configuration register. All registers will be updated at 
+the end of the bytes. 
+ 
+Temperature Limit Registers 
+The thresholds that are THIGH and TLOW indicate the two 
+temperature limits for the function of watchdog. After 
+measuring the temperature, the device will compare the 
+result value with two thresholds to check if it exceeds 
+the limitation. FH bit will be set to high state if the 
+measured temperature is greater than THIGH. FL bit will 
+be set to high state if the measured temperature is 
+greater than TLOW (Figure 12). 
+Table 13 and Table 14 illustrate the corresponding byte 
+to set the THIGH and TLOW thresholds. At the instant of 
+power-on reset, the default values of THIGH and TLOW 
+are +60℃ and -10℃ respectively. 
+ 
+REGISTER MAPS 
+Table 6. Pointer Register 
+MSB 
+ 
+LSB 
+Bit7 
+Bit6 
+Bit5 
+Bit4 
+Bit3 
+Bit2 
+Bit1 
+Bit0 
+0 
+0 
+0 
+0 
+0 
+P2 
+P1 
+P0 
+ 
+Pointer Select Bits 
+ 
+Table 7. Register Pointers Selection: 
+POINTER VALUE 
+P2 
+P1 
+P0 
+DESCRIPTION 
+TYPE 
+0x00 
+0 
+0 
+0 
+MSB Temperature Register (Byte-1) 
+R 
+0x01 
+0 
+0 
+1 
+Configuration Register 
+R/W 
+0x02 
+0 
+1 
+0 
+TLOW Register (Low-Side Threshold of Temperature limit) 
+R/W 
+0x03 
+0 
+1 
+1 
+THIGH Register (High-Side Threshold of Temperature limit) 
+R/W 
+0x04 
+1 
+0 
+0 
+LSB Temperature Register (Byte-2) 
+R 
+ 
+Table 8. MSB Temperature Register (Byte-1) 
+MSB 
+Temperature MSB 
+Bit7 
+Bit6 
+Bit5 
+Bit4 
+Bit3 
+Bit2 
+Bit1 
+Bit0 
+TD11 
+(Sign) 
+TD10 
+(TMSB) 
+TD9 
+TD7 
+TD7 
+TD6 
+TD5 
+TD4 
+ 
+Table 9. LSB Temperature Register (Byte-2) 
+Temperature LSB 
+LSB 
+Bit7 
+Bit6 
+Bit5 
+Bit4 
+Bit3 
+Bit2 
+Bit1 
+Bit0 
+TD3 
+TD2 
+TD1 
+TD0 
+(TLSB) 
+0 
+0 
+0 
+0 
+Table 10. Configuration Register 
+MSB 
+ 
+LSB 
+ID 
+Conversion Rate 
+Flag of Temperature comparing 
+Working Mode 
+Bit7 
+Bit6 
+Bit5 
+Bit4 
+Bit3 
+Bit2 
+Bit1 
+Bit0 
+ID 
+CR1 
+CR0 
+FH 
+FL 
+LC 
+M1 
+M0 
+0 (Default) 
+0(Default) 
+0(Default) 
+0(Default) 
+0(Default) 
+0(Default) 
+1(Default) 
+0(Default) 
+ 
+ 
+
+Low Power, Low Supply Voltage, 
+SGM458 
+CSP Package, Digital Temperature Sensor 
+ 
+ 
+17 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+REGISTER DESCRIPTION (continued) 
+Table 11. Conversion Rate Setting: 
+CR1 
+CR0 
+Conversion Rate (Hz) 
+0 
+0 
+0.25 
+0 
+1 
+1 
+1 
+0 
+4 
+1 
+1 
+8 
+Table 12. Working Mode setting: 
+M1 
+M0 
+Mode 
+0 
+0 
+Shutdown 
+0 
+1 
+One-Shot Conversion 
+1 
+X 
+Continuous Conversion 
+ 
+Working Mode Setting: 
+(1) Shutdown Mode: Except the serial interface is 
+active, other circuit is in shutdown status in this 
+mode. 
+(2) One-shot Conversion: In shutdown mode, when 
+receiving M1 = 0, M0 = 1, SGM458 will execute 
+one 
+time 
+conversion. 
+After 
+finishing 
+the 
+conversion, SGM458 will enter into shutdown 
+mode again. 
+(3) Continuous Conversion Mode: SGM458 will 
+execute conversion continuously according to the 
+conversion rate setting in configuration register. 
+The Flag of Temperature Comparing: 
+The Default value after power-on is FH = 0, FL = 0, 
+LC = 0; 
+(1) When the conversion result in MSB Temperature 
+Register (Byte-1) > THIGH, then FH = 1; 
+(2) When the conversion result in MSB Temperature 
+Register (Byte-1) < TLOW, then FL = 1; 
+(3) When the conversion result in MSB Temperature 
+Register (Byte-1) is between THIGH and THIGH, then 
+FH = 0, FL = 0; 
+(4) LC = 0, FH and FL are in Transparent mode, FH 
+and FL will change according to the conversion 
+result in MSB Temperature Register (Byte-1). LC 
+= 1, FH and FL are in Latch mode, FH and FL will 
+latch its flag until the host finishes a read 
+command to configuration register. After a read 
+command, both FH and FL change to 0. 
+ 
+THIGH Register 
+Table 13. THIGH Register 
+SMB 
+ 
+LSB 
+Bit7 
+Bit6 
+Bit5 
+Bit4 
+Bit3 
+Bit2 
+Bit1 
+Bit0 
+TD7 
+TD6 
+TD5 
+TD4 
+TD3 
+TD2 
+TD1 
+TD0 
+ 
+TLOW Registers 
+Table 14. TLOW Register 
+SMB 
+ 
+LSB 
+Bit7 
+Bit6 
+Bit5 
+Bit4 
+Bit3 
+Bit2 
+Bit1 
+Bit0 
+TD7 
+TD6 
+TD5 
+TD4 
+TD3 
+TD2 
+TD1 
+TD0 
+ 
+ 
+ 
+ 
+
+Low Power, Low Supply Voltage, 
+SGM458 
+CSP Package, Digital Temperature Sensor 
+ 
+ 
+18 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+Typical Application Circuit 
+SGM458A
+MCU
+SDA
+SCL
+SCL
+SDA
+VPULL-HIGH = 1.8V, 2.8V, 3.3V and 5.0V
+5.1kΩ
+5.1kΩ
+SGM458B
+SDA
+SCL
+SGM458C
+SDA
+SCL
+ 
+Figure 13. Typical Application Circuit 
+ 
+Design Requirements 
+The pull-up resistors on the SCL and SDA pins of 
+SGM458 are necessary. The selection of the pull-up 
+resistors is important because it will affect the sinking 
+capability of the I/O pins of the SGM458. Also, the 
+0.01µF bypass capacitor needs to be placed as close 
+to the power supply pin of the device as possible. 
+ 
+Detailed Design Procedure 
+When measuring the heat source, the SGM458 must 
+be placed as close to the measured source as 
+possible, and a good layout is also required for the 
+coupling of heat. Furthermore, this kind of placement 
+can make sure that changes in the measured 
+temperature can be detected as quickly as possible. 
+In addition, the accuracy of the measurement for 
+surface or air environment will be enhanced by 
+isolating the SGM458 from the ambient temperature. 
+Due to the low power consumption characteristics of 
+SGM458, the noise level generated by the SGM458 is 
+low. To further reduce the noise issue from SGM458 
+and ensure that it does not affect other devices 
+connected to the same power supply, an RC filter can 
+be taken into account, and the value of resistor should 
+be lower than 5kΩ and the value of capacitor should 
+be greater than 10nF. 
+ 
+Power Supply Recommendations 
+The supported power supply range of the SGM458 is 
+from 1.6V to 5.5V. For the optimized power supplies 
+of the SGM458, they are 1.8V, 2.8V, 3.3V and 5.0V 
+respectively. However, the measured accuracy can 
+be guaranteed by the whole power supply range. 
+ 
+Layout Guidelines 
+A 0.01µF bypass capacitor should be placed as close 
+to the power supply pin as possible. And for the noisy 
+power supply case, another capacitor should be 
+added to reject the noise of the power supply. Two 
+5kΩ resistors are also required for SDA and SCL pins 
+for their open-drain topology. 
+ 
+ 
+ 
+ 
+ 
+
+Low Power, Low Supply Voltage, 
+SGM458 
+CSP Package, Digital Temperature Sensor 
+ 
+ 
+19 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+DECEMBER 2023 ‒ REV.A.4 to REV.B 
+Page 
+Changed Detailed Description section ............................................................................................................................................................... 
+13 
+ 
+NOVEMBER 2023 ‒ REV.A.3 to REV.A.4 
+Page 
+Changed Electrical Characteristics section .......................................................................................................................................................... 
+4 
+ 
+OCTOBER 2023 ‒ REV.A.2 to REV.A.3 
+Page 
+Changed Electrical Characteristics section .......................................................................................................................................................... 
+4 
+ 
+MARCH 2023 ‒ REV.A.1 to REV.A.2 
+Page 
+Update Package/Ordering Information section 
+..................................................................................................................................................... 
+2 
+ 
+AUGUST 2022 ‒ REV.A to REV.A.1 
+Page 
+Update Package/Ordering Information section 
+..................................................................................................................................................... 
+2 
+Update Tape and Reel Information section ........................................................................................................................................................ 
+20 
+ 
+Changes from Original (JUNE 2022) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00265.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+WLCSP-0.85×0.85-4B 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.587 
+0.625 
+0.663 
+A1 
+0.178 
+0.198 
+0.218 
+D 
+0.825 
+0.855 
+0.885 
+E 
+0.825 
+0.855 
+0.885 
+d 
+0.235 
+0.265 
+0.295 
+e 
+0.400 BSC 
+ccc 
+- 
+0.050 
+- 
+ 
+NOTE: This drawing is subject to change without notice. 
+ 
+ 
+ 
+TOP VIEW
+RECOMMENDED LAND PATTERN (Unit: mm)
+SIDE VIEW
+1
+2
+A
+B
+BOTTOM VIEW
+C
+ccc C
+SEATING PLANE
+E
+D
+0.40
+0.40
+e
+e
+A1
+A
+A1 CORNER
+4 × Φ0.23
+0.21
+4 × Φd
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+WLCSP-0.85×0.85-4B 
+7” 
+9.5 
+0.94 
+0.94 
+0.71 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 

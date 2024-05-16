@@ -1,0 +1,1901 @@
+ 
+SGM2212 
+800mA, Low Noise, Low Quiescent Current, 
+High PSRR, Low Dropout Linear Regulator 
+ 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+JULY 2023 - REV. A. 2 
+GENERAL DESCRIPTION 
+The SGM2212 is a low noise, low quiescent current, 
+high PSRR, fast transient response and low dropout 
+voltage linear regulator which is designed using CMOS 
+technology. It provides 800mA output current capability. 
+The operating input voltage range is from 2.7V to 20V. 
+The fixed output voltages are 1.2V, 1.8V, 2.5V, 2.8V, 
+3.3V, 5V and adjustable output voltage range is from 
+1.25V to 15V. 
+Other features include short-circuit current limit and 
+thermal shutdown protection. 
+The SGM2212 is available in Green TO-252-2, 
+TO-263-3, SOT-223-3 and TDFN-3×3-8L packages. It 
+operates over an operating temperature range of -40℃ 
+to +125℃. 
+ 
+FEATURES 
+● Input Voltage Range: 2.7V to 20V 
+● Output Current: 800mA 
+● Fixed Outputs of 1.2V, 1.8V, 2.5V, 2.8V, 3.3V, 5V 
+● Adjustable Output Voltage Range: 1.25V to 15V 
+● Output Voltage Accuracy: ±1% at +25℃ 
+● Line Regulation: 0.012% (MAX) 
+● Load Regulation: 0.4% (MAX) 
+● Stable with Small Case Size Ceramic Capacitors 
+● Output Current Limit 
+● Thermal Shutdown Protection 
+● -40℃ to +125℃ Operating Temperature Range 
+● Available in Green TO-252-2, TO-263-3, 
+SOT-223-3 and TDFN-3×3-8L Packages 
+ 
+APPLICATIONS 
+Portable Electronic Device 
+Battery-Powered Equipment 
+Industrial and medical Equipment 
+Post Regulator for Switching DC/DC Converters 
+ 
+ 
+ 
+ 
+ 
+TYPICAL APPLICATION 
+ 
+GND
+VOUT
+COUT
+2.2μF
+VIN
+VOUT
+SGM2212-FIX
+VIN
+CIN
+2.2μF
+ 
+GND
+VOUT
+COUT
+2.2μF
+VIN
+VOUT
+SGM2212-ADJ
+VIN
+CIN
+2.2μF
+ADJ
+R1
+R2
+ 
+Fixed Voltage Typical Application Circuit 
+Adjustable Voltage Typical Application Circuit 
+ 
+Figure 1. Typical Application Circuits 
+ 
+ 
+ 
+
+800mA, Low Noise, Low Quiescent Current, 
+SGM2212 
+High PSRR, Low Dropout Linear Regulator 
+ 
+ 
+2 
+JULY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM2212-1.8 
+TO-252-2 
+-40℃ to +125℃ 
+SGM2212-1.8XOB2G/TR 
+SGMCFB 
+XOB2 
+XXXXX 
+Tape and Reel, 2500 
+SGM2212-2.5 
+TO-252-2 
+-40℃ to +125℃ 
+SGM2212-2.5XOB2G/TR 
+SGMCFC 
+XOB2 
+XXXXX 
+Tape and Reel, 2500 
+SGM2212-2.8 
+TO-252-2 
+-40℃ to +125℃ 
+SGM2212-2.8XOB2G/TR 
+SGMCFD 
+XOB2 
+XXXXX 
+Tape and Reel, 2500 
+SGM2212-3.3 
+TO-252-2 
+-40℃ to +125℃ 
+SGM2212-3.3XOB2G/TR 
+SGMCFE 
+XOB2 
+XXXXX 
+Tape and Reel, 2500 
+SGM2212-5.0 
+TO-252-2 
+-40℃ to +125℃ 
+SGM2212-5.0XOB2G/TR 
+SGMCFF 
+XOB2 
+XXXXX 
+Tape and Reel, 2500 
+SGM2212-1.8 
+TO-263-3 
+-40℃ to +125℃ 
+SGM2212-1.8XOA3G/TR 
+SGMCF6 
+XOA3 
+XXXXX 
+Tape and Reel, 800 
+SGM2212-2.5 
+TO-263-3 
+-40℃ to +125℃ 
+SGM2212-2.5XOA3G/TR 
+SGMCF7 
+XOA3 
+XXXXX 
+Tape and Reel, 800 
+SGM2212-2.8 
+TO-263-3 
+-40℃ to +125℃ 
+SGM2212-2.8XOA3G/TR 
+SGMCF8 
+XOA3 
+XXXXX 
+Tape and Reel, 800 
+SGM2212-3.3 
+TO-263-3 
+-40℃ to +125℃ 
+SGM2212-3.3XOA3G/TR 
+SGMCF9 
+XOA3 
+XXXXX 
+Tape and Reel, 800 
+SGM2212-5.0 
+TO-263-3 
+-40℃ to +125℃ 
+SGM2212-5.0XOA3G/TR 
+SGMCFA 
+XOA3 
+XXXXX 
+Tape and Reel, 800 
+SGM2212-1.2 
+SOT-223-3 
+-40℃ to +125℃ 
+SGM2212-1.2XKC3G/TR 
+0CI 
+XXXXX 
+Tape and Reel, 2500 
+SGM2212-1.8 
+SOT-223-3 
+-40℃ to +125℃ 
+SGM2212-1.8XKC3G/TR 
+CAD 
+XXXXX 
+Tape and Reel, 2500 
+SGM2212-2.5 
+SOT-223-3 
+-40℃ to +125℃ 
+SGM2212-2.5XKC3G/TR 
+CAE 
+XXXXX 
+Tape and Reel, 2500 
+SGM2212-2.8 
+SOT-223-3 
+-40℃ to +125℃ 
+SGM2212-2.8XKC3G/TR 
+CAF 
+XXXXX 
+Tape and Reel, 2500 
+SGM2212-3.3 
+SOT-223-3 
+-40℃ to +125℃ 
+SGM2212-3.3XKC3G/TR 
+MN4 
+XXXXX 
+Tape and Reel, 2500 
+SGM2212-5.0 
+SOT-223-3 
+-40℃ to +125℃ 
+SGM2212-5.0XKC3G/TR 
+MN5 
+XXXXX 
+Tape and Reel, 2500 
+SGM2212-ADJ 
+TDFN-3×3-8L 
+-40℃ to +125℃ 
+SGM2212-ADJXTDB8G/TR 
+SGM 
+MN6DB 
+XXXXX 
+Tape and Reel, 4000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code. 
+TO-252-2/TO-263-3/SOT-223-3/TDFN-3×3-8L 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If you 
+have additional comments or questions, please contact your SGMICRO representative directly. 
+
+800mA, Low Noise, Low Quiescent Current, 
+SGM2212 
+High PSRR, Low Dropout Linear Regulator 
+ 
+ 
+3 
+JULY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ABSOLUTE MAXIMUM RATINGS 
+VIN to GND 
+...................................................................... 
+22V 
+Package Thermal Resistance 
+TO-252-2, θJA 
+............................................................. 
+56℃/W 
+TO-252-2, θJB 
+............................................................. 
+30℃/W 
+TO-252-2, θJC ............................................................ 
+63℃/W 
+TO-263-3, θJA 
+............................................................. 
+51℃/W 
+TO-263-3, θJB 
+............................................................. 
+28℃/W 
+TO-263-3, θJC ............................................................ 
+53℃/W 
+SOT-223-3, θJA ........................................................ 
+117℃/W 
+SOT-223-3, θJB .......................................................... 
+29℃/W 
+SOT-223-3, θJC .......................................................... 
+62℃/W 
+TDFN-3×3-8L, θJA 
+...................................................... 
+82℃/W 
+TDFN-3×3-8L, θJB 
+...................................................... 
+42℃/W 
+TDFN-3×3-8L, θJC 
+...................................................... 
+54℃/W 
+Junction Temperature ................................................. 
++150℃ 
+Storage Temperature Range 
+........................ -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+7000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Input Voltage Range ............................................ 
+2.7V to 20V 
+Input Effective Capacitance, CIN ............................ 1μF (MIN) 
+Output Effective Capacitance, COUT 
+.................... 
+1μF to 10μF 
+Operating Junction Temperature Range ...... -40℃ to +125℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods may 
+affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+
+800mA, Low Noise, Low Quiescent Current, 
+SGM2212 
+High PSRR, Low Dropout Linear Regulator 
+ 
+ 
+4 
+JULY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+(TOP VIEW) 
+(TOP VIEW) 
+  
+VIN
+VOUT
+GND
+TAB IS 
+VOUT
+3
+1
+2
+ 
+     
+VIN
+VOUT
+GND
+TAB IS 
+VOUT
+3
+2
+1
+ 
+TO-252-2 
+TO-263-3 
+ 
+ 
+(TOP VIEW) 
+(TOP VIEW) 
+VIN
+GND
+VOUT
+1
+2
+3
+TAB IS 
+VOUT
+ 
+ 
+GND
+ADJ
+VOUT
+VOUT
+VOUT
+VIN
+VIN
+VIN
+1
+2
+3
+4
+8
+7
+6
+5
+VOUT
+ 
+SOT-223-3 
+TDFN-3×3-8L 
+ 
+ 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+TO-252-2 
+TO-263-3 SOT-223-3 
+TDFN- 
+3×3-8L 
+1 
+1 
+1 
+1 
+GND 
+Ground. 
+2 
+2 
+2 
+5, 6, 7 
+VOUT 
+Regulator Output Pin. It is recommended to use a ceramic 
+capacitor with effective capacitance in the range of 1μF to 10μF to 
+ensure stability. Pins 5, 6 and 7 must be connected together for 
+TDFN-3×3-8L package. 
+3 
+3 
+3 
+2, 3, 4 
+VIN 
+Input Voltage Supply Pin. Pins 2, 3 and 4 must be connected 
+together for TDFN-3×3-8L package. 
+‒ 
+‒ 
+‒ 
+8 
+ADJ 
+Feedback Input Pin (adjustable voltage version only). Connect this 
+pin to the midpoint of an external resistor divider to adjust the 
+output voltage. Place the resistors as close as possible to this pin. 
+TAB 
+TAB 
+TAB 
+Exposed 
+Pad 
+VOUT 
+Exposed Pad. Connected to VOUT pin. 
+ 
+ 
+ 
+
+800mA, Low Noise, Low Quiescent Current, 
+SGM2212 
+High PSRR, Low Dropout Linear Regulator 
+ 
+ 
+5 
+JULY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VIN = VOUT(NOM) + 1V, CIN = COUT = 2.2μF, TJ = -40℃ to +125℃, typical values are at TJ = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Input Voltage 
+VIN 
+ 
+2.7 
+ 
+20 
+V 
+Reference Voltage 
+VADJ 
+SGM2212-ADJ 
+IOUT = 10mA, TJ = +25℃ 
+1.238 
+1.25 
+1.262 
+V 
+IOUT = 0 to 800mA 
+1.232 
+ 
+1.268 
+Output Voltage 
+VOUT 
+SGM2212-1.2 
+IOUT = 10mA, TJ = +25℃ 
+1.188 
+1.2 
+1.212 
+V 
+IOUT = 0 to 800mA 
+1.182 
+ 
+1.218 
+SGM2212-1.8 
+IOUT = 10mA, TJ = +25℃ 
+1.782 
+1.8 
+1.818 
+IOUT = 0 to 800mA 
+1.773 
+ 
+1.827 
+SGM2212-2.5 
+IOUT = 10mA, TJ = +25℃ 
+2.475 
+2.5 
+2.525 
+IOUT = 0 to 800mA 
+2.463 
+ 
+2.537 
+SGM2212-2.8 
+IOUT = 10mA, TJ = +25℃ 
+2.772 
+2.8 
+2.828 
+IOUT = 0 to 800mA 
+2.758 
+ 
+2.842 
+SGM2212-3.3 
+IOUT = 10mA, TJ = +25℃ 
+3.267 
+3.3 
+3.333 
+IOUT = 0 to 800mA 
+3.251 
+ 
+3.349 
+SGM2212-5.0 
+IOUT = 10mA, TJ = +25℃ 
+4.950 
+5.0 
+5.050 
+IOUT = 0 to 800mA 
+4.925 
+ 
+5.075 
+Line Regulation 
+OUT
+IN
+OUT
+V
+V
+V
+∆
+∆
+×
+ 
+IOUT = 10mA 
+SGM2212-ADJ, TJ = +25℃ 
+ 
+0.001 
+0.007 
+%/V 
+SGM2212-ADJ 
+ 
+ 
+0.012 
+ΔVOUT 
+IOUT = 0mA 
+SGM2212-1.8, TJ = +25℃ 
+ 
+0.2 
+1.5 
+mV 
+SGM2212-1.8 
+ 
+ 
+2.5 
+SGM2212-2.5, TJ = +25℃ 
+ 
+0.2 
+1.5 
+SGM2212-2.5 
+ 
+ 
+2.5 
+SGM2212-2.8, TJ = +25℃ 
+ 
+0.2 
+1.5 
+SGM2212-2.8 
+ 
+ 
+2.5 
+SGM2212-3.3, TJ = +25℃ 
+ 
+0.2 
+1.5 
+SGM2212-3.3 
+ 
+ 
+2.5 
+SGM2212-5.0, TJ = +25℃ 
+ 
+0.2 
+1.5 
+SGM2212-5.0 
+ 
+ 
+2.5 
+Load Regulation 
+∆
+OUT
+OUT
+V
+V
+ 
+IOUT = 0mA to 800mA 
+SGM2212-ADJ, TJ = +25℃ 
+ 
+0.08 
+0.32 
+% 
+SGM2212-ADJ 
+ 
+ 
+0.4 
+ΔVOUT 
+IOUT = 0mA to 800mA 
+SGM2212-1.8, TJ = +25℃ 
+ 
+1 
+4 
+mV 
+SGM2212-1.8 
+ 
+ 
+5 
+SGM2212-2.5, TJ = +25℃ 
+ 
+1.2 
+6 
+SGM2212-2.5 
+ 
+ 
+7 
+SGM2212-2.8, TJ = +25℃ 
+ 
+1.5 
+6 
+SGM2212-2.8 
+ 
+ 
+8 
+SGM2212-3.3, TJ = +25℃ 
+ 
+2 
+8 
+SGM2212-3.3 
+ 
+ 
+10 
+SGM2212-5.0, TJ = +25℃ 
+ 
+2 
+8 
+SGM2212-5.0 
+ 
+ 
+10 
+ 
+ 
+ 
+
+800mA, Low Noise, Low Quiescent Current, 
+SGM2212 
+High PSRR, Low Dropout Linear Regulator 
+ 
+ 
+6 
+JULY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(VIN = VOUT(NOM) + 1V, CIN = COUT = 2.2μF, TJ = -40℃ to +125℃, typical values are at TJ = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Dropout Voltage (1) 
+(ADJ, VOUT = 3.3V) 
+VDROP 
+IOUT = 100mA, TJ = +25℃ 
+ 
+35 
+45 
+mV 
+IOUT = 100mA 
+ 
+ 
+55 
+IOUT = 500mA, TJ = +25℃ 
+ 
+170 
+210 
+mV 
+IOUT = 500mA 
+ 
+ 
+275 
+IOUT = 800mA, TJ = +25℃ 
+ 
+280 
+350 
+mV 
+IOUT = 800mA 
+ 
+ 
+450 
+Dropout Voltage (1) 
+(VOUT = 3.3V) 
+VDROP 
+IOUT = 100mA, TJ = +25℃ 
+ 
+50 
+60 
+mV 
+IOUT = 100mA 
+ 
+ 
+80 
+IOUT = 500mA, TJ = +25℃ 
+ 
+240 
+280 
+mV 
+IOUT = 500mA 
+ 
+ 
+380 
+IOUT = 800mA, TJ = +25℃ 
+ 
+390 
+450 
+mV 
+IOUT = 800mA 
+ 
+ 
+610 
+Output Current Limit 
+ILIMIT 
+VOUT = 80% × VOUT(NOM) (2) 
+810 
+1100 
+ 
+mA 
+Short Current Limit 
+ISHORT 
+VIN = 3V, VOUT = 0V 
+ 
+360 
+ 
+mA 
+Ground Pin Current 
+IGND 
+IOUT = 0mA, TJ = +25℃ 
+ 
+80 
+110 
+μA 
+IOUT = 0mA 
+ 
+ 
+116 
+IOUT = 100mA, TJ = +25℃ 
+ 
+290 
+360 
+μA 
+IOUT = 100mA 
+ 
+ 
+370 
+IOUT = 800mA, TJ = +25℃ 
+ 
+1350 
+1560 
+μA 
+IOUT = 800mA 
+ 
+ 
+1610 
+Power Supply Rejection Ratio 
+PSRR 
+fRIPPLE = 120Hz, VRIPPLE = Δ0.2VP-P 
+ 
+80 
+ 
+dB 
+ADJ Pin Current 
+IADJ 
+TJ = +25℃ 
+ 
+1 
+5 
+nA 
+ 
+ 
+ 
+10 
+Long Term Stability 
+ 
+1000Hrs, TJ = +125℃ 
+ 
+0.1 
+ 
+% 
+RMS Output Noise 
+ 
+(% of VOUT), f = 10Hz to 100kHz, IOUT = 50mA 
+ 
+0.002 
+ 
+% 
+Thermal Shutdown Temperature 
+TSHDN 
+ 
+ 
+165 
+ 
+℃ 
+Thermal Shutdown Hysteresis 
+ΔTSHDN 
+ 
+ 
+25 
+ 
+℃ 
+ 
+NOTES: 
+1. The dropout voltage is defined as the difference between VIN and VOUT when VOUT falls to 95% × VOUT(NOM). 
+2. VOUT = 80% × VOUT(NOM) when VOUT ≤ 2.8V, VIN = VOUT + 1.3V. 
+ 
+ 
+ 
+
+800mA, Low Noise, Low Quiescent Current, 
+SGM2212 
+High PSRR, Low Dropout Linear Regulator 
+ 
+ 
+7 
+JULY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+TJ = +25℃, CIN = COUT = 2.2μF, unless otherwise noted. 
+ 
+     Load Transient Response 
+     Line Transient Response 
+ 
+ 
+     Load Regulation 
+     Power Supply Rejection Ratio vs. Frequency 
+ 
+ 
+     Dropout Voltage vs. Output Current 
+     Power Supply Rejection Ratio vs. Output Current 
+ 
+ 
+ 
+ 
+-0.5
+0
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+-0.5
+-0.4
+-0.3
+-0.2
+-0.1
+0
+0.1
+0.2
+0.3
+Time (200μs/div) 
+VIN = 6V, VOUT = 5V, CIN = 10μF, COUT = 10μF  
+VOUT  
+IOUT  
+100mV/div 
+500mA/div 
+-40
+-20
+0
+20
+40
+60
+80
+2
+3
+4
+5
+6
+7
+8
+Time (200μs/div) 
+IOUT = 0.1A, CIN = 10μF, COUT = 10μF  
+VOUT  
+VIN  
+1V/div 
+20mV/div 
+0
+0.05
+0.1
+0.15
+0.2
+0.25
+-50
+-25
+0
+25
+50
+75
+100
+125
+Output Voltage Deviation (%) 
+Temperature (℃) 
+VOUT = 3.3V, 
+ΔIOUT = 800mA 
+0
+20
+40
+60
+80
+100
+0.01
+0.1
+1
+10
+100
+Power Supply Rejection Ratio (dB) 
+Frequency (kHz) 
+VIN = 2.7V, VOUT = VADJ, 
+IOUT = 50mA, COUT = 1μF  
+0
+100
+200
+300
+400
+500
+600
+0
+200
+400
+600
+800
+ Dropout Voltage (mV) 
+Output Current (mA) 
+SGM2212-3.3XKC3G 
+TJ = +125℃ 
+TJ = +25℃ 
+0
+20
+40
+60
+80
+100
+0
+200
+400
+600
+800
+Power Supply Rejection Ratio (dB) 
+Output Current (mA) 
+VIN = 2.7V, VOUT = VADJ,  
+COUT = 1μF, VRIPPLE = 0.2VP-P 
+fRIPPLE = 1kHz 
+fRIPPLE = 20kHz 
+
+800mA, Low Noise, Low Quiescent Current, 
+SGM2212 
+High PSRR, Low Dropout Linear Regulator 
+ 
+ 
+8 
+JULY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, CIN = COUT = 2.2μF, unless otherwise noted. 
+ 
+     Temperature Stability 
+     Temperature Stability 
+ 
+ 
+     ADJ Pin Current vs. Temperature 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+-1
+-0.5
+0
+0.5
+1
+-50
+-25
+0
+25
+50
+75
+100
+125
+Output Voltage Change (%) 
+Temperature (℃) 
+VIN = VOUT + 1V, 
+VOUT = 3.3V 
+-1
+-0.5
+0
+0.5
+1
+-50
+-25
+0
+25
+50
+75
+100
+125
+Output Voltage Change (%) 
+Temperature (℃) 
+VIN = 20V, 
+VOUT = 3.3V 
+0
+1
+2
+3
+4
+5
+-50
+-25
+0
+25
+50
+75
+100
+125
+ADJ Pin Current (nA) 
+Temperature (℃) 
+
+800mA, Low Noise, Low Quiescent Current, 
+SGM2212 
+High PSRR, Low Dropout Linear Regulator 
+ 
+ 
+9 
+JULY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAMS 
+ 
+VIN
+GND
+VOUT
+Sub-
+Regulator
+ Reference
+Voltage
+ Current Limit
+& 
+Thermal Protection
+C1
+R1
+R2
+R3
+ 
+ 
+Figure 2. Fixed Output Regulator Block Diagram 
+ 
+ 
+VIN
+GND
+VOUT
+Sub-
+Regulator
+ Reference
+Voltage
+ Current Limit
+& 
+Thermal Protection
+C1
+R1
+1.25V
+ADJ
+ 
+ 
+Figure 3. Adjustable Output Regulator Block Diagram 
+ 
+ 
+ 
+
+800mA, Low Noise, Low Quiescent Current, 
+SGM2212 
+High PSRR, Low Dropout Linear Regulator 
+ 
+ 
+10 
+JULY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+The SGM2212 is a low noise, low quiescent current, 
+high PSRR, fast transient response and low dropout 
+voltage linear regulator. It consumes only 80μA (TYP) 
+quiescent current and provides 800mA output current. 
+The SGM2212 provides the protection functions for 
+output overload, output short-circuit condition and 
+overheating. 
+ 
+Input Capacitor Selection (CIN) 
+The input decoupling capacitor should be placed as 
+close as possible to the VIN pin for ensuring the device 
+stability. 2.2μF or greater X7R or X5R ceramic capacitor 
+is selected to get good dynamic performance. 
+When VIN is required to provide large current 
+instantaneously, a large effective input capacitor is 
+required. Multiple input capacitors can limit the input 
+tracking inductance. Adding more input capacitors is 
+available to restrict the ringing and to keep it below the 
+device absolute maximum ratings. 
+ 
+Output Capacitor Selection (COUT) 
+The output capacitor should be placed as close as 
+possible to the VOUT pin. 2.2μF or larger X7R or X5R 
+ceramic capacitor is selected to get good dynamic 
+performance. The minimum effective capacitance of 
+COUT that SGM2212 can remain stable is 1μF. For 
+ceramic capacitor, temperature, DC bias and package 
+size will change the effective capacitance, so enough 
+margin of COUT must be considered in design. 
+Additionally, COUT with larger capacitance and lower 
+ESR will help increase the high frequency PSRR and 
+improve the load transient response. 
+ 
+Adjustable Regulator 
+The output voltage of the SGM2212-ADJ can be 
+adjusted from 1.25V to 15V. The ADJ pin will be 
+connected to two external resistors as shown in Figure 4. 
+The output voltage is determined by the following 
+equation: 
+1
+OUT
+ADJ
+2
+R
+V
+V
+1+R
+
+
+=
+×
+
+
+
+             (1) 
+where: 
+VOUT is output voltage and VADJ is the internal voltage 
+reference, VADJ = 1.25V. 
+R1 and R2 can be calculated for any output voltage 
+range using equation 1. Choose R2 = 10kΩ to maintain 
+a 125μA minimum load. 
+GND
+VOUT
+COUT
+2.2μF
+VIN
+VOUT
+SGM2212-ADJ
+VIN
+CIN
+2.2μF
+ADJ
+R1
+R2
+ 
+ 
+Figure 4. Adjustable Output Voltage Application 
+ 
+Input Power Supply 
+The input power supply range is from 2.7V to 20V. VIN 
+must be larger than (VOUT + VDROP) in application. The 
+input ceramic capacitor must be placed as close as 
+possible to the IN pin, this CIN can help improve the 
+output noise performance of LDO. 
+ 
+Output Current Limit and Short-Circuit 
+Protection 
+When overload events happen, the output current is 
+internally limited to 1100mA (TYP). When the OUT pin 
+is shorted to ground, the short-circuit protection will limit 
+the output current to 360mA (TYP). 
+ 
+Thermal Shutdown 
+The SGM2212 can detect the temperature of die. When 
+the die temperature exceeds the threshold value of 
+thermal shutdown, the SGM2212 will be in shutdown 
+state and remain in this state until the die temperature 
+decreases to +140℃. 
+ 
+Power Dissipation (PD) 
+Power dissipation (PD) of the SGM2212 can be 
+calculated by the equation PD = (VIN - VOUT) × IOUT. The 
+maximum allowable power dissipation (PD(MAX)) of the 
+SGM2212 is affected by many factors, including the 
+difference between junction temperature and ambient 
+temperature (TJ(MAX) - TA), package thermal resistance 
+from the junction to the ambient environment (θJA), the 
+rate of ambient airflow and PCB layout. PD(MAX) can be 
+approximated by the following equation:  
+PD(MAX) = (TJ(MAX) - TA)/θJA               (2) 
+ 
+Layout Guidelines 
+To get good PSRR, low output noise and high transient 
+response performance, the input and output bypass 
+capacitors must be placed as close as possible to the 
+VIN pin and VOUT pin separately. 
+ 
+ 
+
+800mA, Low Noise, Low Quiescent Current, 
+SGM2212 
+High PSRR, Low Dropout Linear Regulator 
+ 
+ 
+11 
+JULY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+JULY 2023 ‒ REV.A.1 to REV.A.2 
+Page 
+Added SGM2212-1.2XKC3G/TR to Package/Ordering Information section.......................................................................................................... 2 
+Updated Electrical Characteristics section ........................................................................................................................................................... 
+5 
+ 
+FEBRUARY 2022 ‒ REV.A to REV.A.1 
+Page 
+Updated Electrical Characteristics section ........................................................................................................................................................... 
+6 
+ 
+Changes from Original (DECEMBER 2019) to REV.A 
+................................................................................................................................ 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00172.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TO-252-2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+2.200 
+2.400 
+0.087 
+0.094 
+A1 
+0.000 
+0.127 
+0.000 
+0.005 
+b 
+0.660 
+0.860 
+0.026 
+0.034 
+c 
+0.460 
+0.580 
+0.018 
+0.023 
+D 
+6.500 
+6.700 
+0.256 
+0.264 
+D1 
+5.100 
+5.460 
+0.201 
+0.215 
+D2 
+4.830 REF 
+0.190 REF 
+E 
+6.000 
+6.200 
+0.236 
+0.244 
+e 
+2.186 
+2.386 
+0.086 
+0.094 
+L 
+9.800 
+10.400 
+0.386 
+0.409 
+L1 
+2.900 REF 
+0.114 REF 
+L2 
+1.400 
+1.700 
+0.055 
+0.067 
+L3 
+1.600 REF 
+0.063 REF 
+L4 
+0.600 
+1.000 
+0.024 
+0.039 
+θ 
+0° 
+8° 
+0° 
+8° 
+V 
+5.350 REF 
+0.211 REF 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+D
+D1
+L3
+E
+b
+e
+L4
+c
+L
+A1
+L2
+θ
+V
+L1
+D2
+A
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00171.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TO-263-3 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+4.470 
+4.670 
+0.176 
+0.184 
+A1 
+0.000 
+0.150 
+0.000 
+0.006 
+B 
+1.120 
+1.420 
+0.044 
+0.056 
+b 
+0.710 
+0.910 
+0.028 
+0.036 
+b1 
+1.170 
+1.370 
+0.046 
+0.054 
+c 
+0.310 
+0.530 
+0.012 
+0.021 
+c1 
+1.170 
+1.370 
+0.046 
+0.054 
+D 
+10.010 
+10.310 
+0.394 
+0.406 
+E 
+8.500 
+8.900 
+0.335 
+0.350 
+e 
+2.540 TYP 
+0.100 TYP 
+e1 
+4.980 
+5.180 
+0.196 
+0.204 
+L 
+14.940 
+15.500 
+0.588 
+0.610 
+L1 
+4.950 
+5.450 
+0.195 
+0.215 
+L2 
+2.340 
+2.740 
+0.092 
+0.108 
+θ 
+0° 
+8° 
+0° 
+8° 
+D1 
+7.510 
+8.510 
+0.296 
+0.335 
+V 
+4.800 
+5.800 
+0.189 
+0.228 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+D
+B
+E
+b
+e1
+L1
+b1
+e
+L
+c
+A1
+L2
+c1
+A
+θ
+D1
+V
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00048.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOT-223-3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+ 
+1.800 
+ 
+0.071 
+A1 
+0.020 
+0.100 
+0.001 
+0.004 
+A2 
+1.500 
+1.700 
+0.059 
+0.067 
+b 
+0.660 
+0.840 
+0.026 
+0.033 
+b1 
+2.900 
+3.100 
+0.114 
+0.122 
+c 
+0.230 
+0.350 
+0.009 
+0.014 
+D 
+6.300 
+6.700 
+0.248 
+0.264 
+E 
+3.300 
+3.700 
+0.130 
+0.146 
+E1 
+6.700 
+7.300 
+0.264 
+0.287 
+e 
+2.300 BSC 
+0.091 BSC 
+L 
+0.750 
+ 
+0.030 
+ 
+θ 
+0° 
+10° 
+0° 
+10° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+E1
+D
+b1
+E
+e
+b
+A
+A1
+A2
+c
+θ
+L
+0.25
+2.3
+1
+1.5
+1.5
+3.3
+6.3
+RECOMMENDED LAND PATTERN (Unit: mm)
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00058.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TDFN-3×3-8L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.700 
+0.800 
+0.028 
+0.031 
+A1 
+0.000 
+0.050 
+0.000 
+0.002 
+A2 
+0.203 REF 
+0.008 REF 
+D 
+2.900 
+3.100 
+0.114 
+0.122 
+D1 
+2.200 
+2.400 
+0.087 
+0.094 
+E 
+2.900 
+3.100 
+0.114 
+0.122 
+E1 
+1.400 
+1.600 
+0.055 
+0.063 
+k 
+0.200 MIN 
+0.008 MIN 
+b 
+0.180 
+0.300 
+0.007 
+0.012 
+e 
+0.650 TYP 
+0.026 TYP 
+L 
+0.375 
+0.575 
+0.015 
+0.023 
+ 
+NOTE: This drawing is subject to change without notice. 
+ 
+ 
+E
+D
+e
+L
+b
+k
+A
+A2
+A1
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+E1
+D1
+N1
+N4
+N8
+0.65
+2.725
+0.24
+0.675
+1.5
+2.3
+RECOMMENDED LAND PATTERN (Unit: mm)
+
+PACKAGE INFORMATION 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1 
+Quadrant 
+DD0001
+TO-252-2 
+13″ 
+16.4 
+6.90 
+10.50 
+2.70 
+4.0 
+8.0 
+2.0 
+16.0 
+TO-263-3 
+13″ 
+24.4 
+10.80 
+16.13 
+5.21 
+4.0 
+16.0 
+2.0 
+24.0 
+SOT-223-3 
+13″ 
+12.4 
+6.55 
+7.25 
+1.90 
+4.0 
+8.0 
+2.0 
+12.0 
+Q3 
+TDFN-3×3-8L 
+13″ 
+12.4 
+3.35 
+3.35 
+1.13 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

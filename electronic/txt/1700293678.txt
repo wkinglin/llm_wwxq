@@ -1,0 +1,539 @@
+ 
+SGM48522 
+Dual 5V, 7A/6A 
+Low-side GaN and MOSFET Driver 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+NOVEMBER2023–REV.A. 1  
+GENERAL DESCRIPTION 
+The 
+high-speed, 
+dual-channel 
+low-side 
+driver 
+SGM48522 is designed to drive GaN FETs and logic 
+level MOSFETs. The application areas include LiDAR, 
+time of flight, facial recognition, and power converters 
+using low-side drivers. The SGM48522 provides 7A 
+source and 6A sink output current capability. Split 
+output configuration allows individual turn-on and 
+turn-off time optimization depending on FET. The 
+Flip-Chip TQFN package and pinout minimize parasitic 
+inductances to reduce the rise and fall time and limit the 
+ringing. Additionally, the 2ns propagation delay with 
+minimized tolerances and variations allows efficient 
+operation at high frequencies. 
+The driver has internal under-voltage lockout and 
+over-temperature protection against overload and fault 
+events. 
+The SGM48522 is available in a Green TQFN-2×2-10BL 
+package. 
+FEATURES 
+● 5V Supply Voltage 
+● 7A Peak Source and 6A Peak Sink Currents 
+● Ultra-Fast, Low-side Gate Driver for GaN and Si 
+FETs 
+● Minimum Input Pulse Width: 1ns 
+● Up to 60MHz Operation 
+● Propagation Delay: 2ns (TYP) 
+● Rise Time: 750ps (TYP) 
+● Fall Time: 560ps (TYP) 
+● Protection Features: 
+ Under-Voltage Lockout (UVLO) 
+ Over-Temperature Protection (OTP) 
+● Available in a Green TQFN-2×2-10BL Package 
+ 
+APPLICATIONS 
+Laser Distance Measuring System (LiDAR) 
+5G RF Communication System  
+Wireless Charging System 
+GaN DC/DC Conversion System 
+ 
+ 
+ 
+TYPICAL APPLICATION 
+OUTH1
+OUTL1
+SGM48522
+IN1
+VDD2
+VDD1
+IN2
+OUTH2
+OUTL2
+GND1
+GND2
+VBST
+VBST
+1
+2
+3
+4
+8
+5
+10
+9
+7
+6
+ 
+ 
+Figure 1. Typical Application Circuit 
+ 
+ 
+
+Dual 5V, 7A/6A 
+SGM48522 
+Low-Side GaN and MOSFET Driver 
+ 
+ 
+2 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM48522 
+TQFN-2×2-10BL 
+-40℃ to +125℃ 
+SGM48522XTSW10G/TR 
+061 
+XXXX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XXXX = Date Code, Trace Code and Vendor Code. 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+Y Y Y  
+Serial Number
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Supply Voltage, VDD1, VDD2 .................................. -0.3V to 6V 
+IN1, IN2 Pin Voltage, VINx .................................... -0.3V to 6V 
+OUTH1, OUTH2 Pin Voltage, VOUTHx .......-0.3V to VDD + 0.3V 
+OUTL1, OUTL2 Pin Voltage, VOUTLx 
+DC 
+.................................................................... -0.3V to 6V 
+Repetitive Pulse < 5ns ........................................ -2V to 7V 
+Package Thermal Resistance 
+TQFN-2×2-10BL, θJA 
+............................................ 81.8℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+CDM ............................................................................ 
+1500V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Supply Voltage, VDD1, VDD2 ................................. 
+4.5V to 5.5V 
+IN1, IN2 Pin Voltage, VINx ...................................... 
+0V to 5.5V 
+Operating Ambient Temperature Range 
+...... -40℃ to +125℃ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+
+Dual 5V, 7A/6A 
+SGM48522 
+Low-Side GaN and MOSFET Driver 
+ 
+ 
+3 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+(TOP VIEW) 
+GND1
+OUTL2
+IN2
+VDD1
+VDD2
+IN1
+OUTL1
+OUTH2
+GND2
+OUTH1
+4
+3
+2
+5
+10
+9
+8
+7
+6
+1
+ 
+TQFN-2×2-10BL 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+I/O 
+FUNCTION 
+1 
+IN1 
+I 
+Channel 1 Control Logic Input (Non-Inverting). 
+2 
+IN2 
+I 
+Channel 2 Control Logic Input (Non-Inverting). 
+3 
+VDD1 
+I 
+Channel 1 Input Voltage Supply. Bypass to GND with a low inductance ceramic capacitor. 
+4 
+VDD2 
+I 
+Channel 2 Input Voltage Supply. Bypass to GND with a low inductance ceramic capacitor. 
+5 
+GND2 
+— 
+Channel 2 Ground. Internally connected to GND1 by anti-parallel diodes. 
+6 
+OUTL2 
+O 
+Channel 2 Pull-Down Gate Drive Output. Connect it to the gate of the target transistor with an 
+optional resistor. 
+7 
+OUTH2 
+O 
+Channel 2 Pull-Up Gate Drive Output. Connect it to the gate of the target transistor with an 
+optional resistor. Internally connected to GND2 by anti-parallel diodes. 
+8 
+GND1 
+— 
+Channel 1 Ground. 
+9 
+OUTL1 
+O 
+Channel 1 Pull-Down Gate Drive Output. Connect it to the gate of the target transistor with an 
+optional resistor. 
+10 
+OUTH1 
+O 
+Channel 1 Pull-Up Gate Drive Output. Connect it to the gate of the target transistor with an 
+optional resistor. 
+ 
+NOTE: I = input, O = output. 
+ 
+ 
+FUNCTION TABLE 
+INx Pin 
+OUTHx Pin 
+OUTLx Pin 
+L 
+Open 
+L 
+H 
+H 
+Open 
+ 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00368.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TQFN-2×2-10BL 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.700 
+- 
+0.800 
+A1 
+0.000 
+- 
+0.050 
+A2 
+0.203 REF 
+b 
+0.150 
+- 
+0.250 
+D 
+1.900 
+- 
+2.100 
+E 
+1.900 
+- 
+2.100 
+e 
+0.500 BSC 
+L 
+0.470 
+- 
+0.670 
+L1 
+0.270 
+- 
+0.470 
+eee 
+0.080 
+ 
+NOTE: This drawing is subject to change without notice.
+ 
+RECOMMENDED LAND PATTERN (Unit: mm)
+E
+D
+SIDE VIEW
+BOTTOM VIEW
+TOP VIEW
+ALTERNATE A-1
+DETAIL A
+ALTERNATE TERMINAL
+CONSTRUCTION
+ALTERNATE A-2
+C
+SEATING PLANE
+eee C
+A1
+A2
+A
+PIN 1#
+N1
+N10
+DETAIL A
+e
+b
+1.63
+0.77
+0.50
+0.20
+1.83
+2 × 0.57
+2 × L1
+L
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TQFN-2×2-10BL 
+7" 
+9.5 
+2.30 
+2.30 
+1.10 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 

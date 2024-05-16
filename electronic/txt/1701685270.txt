@@ -1,0 +1,1904 @@
+ 
+SGM8306-1/SGM8306-2 
+High Speed, High Voltage, 
+Rail-to-Rail Output Amplifiers 
+ 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+NOVEMBER 2023 – REV. A 
+GENERAL DESCRIPTION 
+The SGM8306-1 (single) and SGM8306-2 (dual) are 
+high speed and high voltage amplifiers. These devices 
+are well suited for video or communication applications, 
+where inputs or outputs are exposed externally. 
+The SGM8306-1/2 are optimized for high voltage 
+operation from 4.5V to 16V single supply or ±2.25V to 
+±8V dual power supplies. These devices provide wide 
+input common mode voltage range and rail-to-rail 
+output swing. They consume low quiescent current of 
+7.8mA per amplifier. 
+The SGM8306-1/2 are designed for high speed 
+applications. They offer a -3dB bandwidth of 100MHz, a 
+small-signal bandwidth of 5.5MHz for -0.1dB gain 
+flatness, and a high slew rate of 190V/µs. 
+The SGM8306-1 is available in Green SOT-23-5, 
+SOIC-8 and MSOP-8 packages. The SGM8306-2 is 
+available in Green SOIC-8 and MSOP-8 packages. 
+They are specified over the extended -40℃ to +125℃ 
+temperature range. 
+ 
+FEATURES 
+● High Speed: 
+ -3dB Bandwidth: 100MHz 
+ -0.1dB Gain Flatness: 5.5MHz 
+ Slew Rate: 190V/µs 
+● Stable when Gain ≥ 2 
+● Low Offset Voltage: 8mV (MAX) 
+● Low Differential Gain/Phase: 0.03%/0.1° at VS = ±8V 
+● High Output Drive: ±100mA (TYP) 
+● Rail-to-Rail Output 
+● Support Single or Dual Power Supplies: 
+4.5V to 16V or ±2.25V to ±8V 
+● -40℃ to +125℃ Operating Temperature Range 
+● Small Packaging: 
+SGM8306-1 Available in Green SOT-23-5, SOIC-8  
+and MSOP-8 Packages 
+SGM8306-2 Available in Green SOIC-8 and  
+MSOP-8 Packages 
+ 
+ 
+APPLICATIONS 
+Video Processing 
+Video Drivers 
+Digital Cameras 
+CCD Imaging Systems 
+ADC Interfaces 
+ 
+ 
+ 
+ 
+ 
+ 
+
+SGM8306-1 
+High Speed, High Voltage, 
+SGM8306-2 
+Rail-to-Rail Output Amplifiers 
+ 
+ 
+2 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM8306-1 
+SOT-23-5 
+-40℃ to +125℃ 
+SGM8306-1XN5G/TR 
+0AEXX 
+Tape and Reel, 3000 
+SOIC-8 
+-40℃ to +125℃ 
+SGM8306-1XS8G/TR 
+SGM 
+83061XS8 
+XXXXX 
+Tape and Reel, 4000 
+MSOP-8 
+-40℃ to +125℃ 
+SGM8306-1XMS8G/TR 
+SGM0AF 
+XMS8 
+XXXXX 
+Tape and Reel, 4000 
+SGM8306-2 
+SOIC-8 
+-40℃ to +125℃ 
+SGM8306-2XS8G/TR 
+SGM 
+83062XS8 
+XXXXX 
+Tape and Reel, 4000 
+MSOP-8 
+-40℃ to +125℃ 
+SGM8306-2XMS8G/TR 
+SGM0AG 
+XMS8 
+XXXXX 
+Tape and Reel, 4000 
+ 
+MARKING INFORMATION 
+NOTE: XX = Date Code. XXXXX = Date Code, Trace Code and Vendor Code. 
+SOT-23-5 
+SOIC-8/MSOP-8 
+Date Code - Year 
+Date Code - Week 
+Serial Number
+YYY X X
+ 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Supply Voltage, +VS to -VS ................................ -0.3V to 18V 
+Input Common Mode Voltage Range 
+ 
+.................................................... (-VS) - 0.3V to (+VS) + 0.3V 
+Differentia Input Voltage ............................................... ±2.5V 
+Package Thermal Resistance 
+SOT-23-5, θJA .......................................................... 186℃/W 
+SOIC-8, θJA 
+.............................................................. 143℃/W 
+MSOP-8, θJA ............................................................ 158℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+8000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Voltage Range .................................... 
+4.5V to 16V 
+Operating Temperature Range .................... -40℃ to +125℃ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+
+SGM8306-1 
+High Speed, High Voltage, 
+SGM8306-2 
+Rail-to-Rail Output Amplifiers 
+ 
+ 
+3 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+SGM8306-1 (TOP VIEW) 
++VS
+-IN
+-VS
++IN
+OUT
+5
+4
+3
+1
+2
++
+_
+ 
+SOT-23-5 
+ 
+SGM8306-1 (TOP VIEW) 
+SGM8306-2 (TOP VIEW) 
+NC
+OUT
+NC
+1
+2
+3
+4
+-IN
++IN
+-VS
++VS
+NC = NO CONNECT
+5
+6
+7
+8
++
+_
+NC
+ 
+OUTA
+OUTB
++INB
++VS
+-INA
++INA
+-VS
+-INB
++
+_
++
+_
+8
+7
+6
+5
+1
+2
+3
+4
+ 
+SOIC-8/MSOP-8 
+SOIC-8/MSOP-8 
+ 
+ 
+ 
+
+SGM8306-1 
+High Speed, High Voltage, 
+SGM8306-2 
+Rail-to-Rail Output Amplifiers 
+ 
+ 
+4 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VS = ±2.5V, VCM = VS/2, VOUT = VS/2, RL = 150Ω to VS/2, CL = 10pF, Full = -40℃ to +125℃, typical values are at TA = +25℃, 
+unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN 
+TYP 
+MAX 
+UNITS 
+Input Characteristics 
+Input Offset Voltage 
+VOS 
+ 
++25℃ 
+ 
+0.3 
+8 
+mV 
+Full 
+ 
+ 
+16 
+Input Offset Voltage Drift 
+ΔVOS/ΔT  
+Full 
+ 
+8.3 
+ 
+μV/℃ 
+Input Bias Current 
+IB 
+ 
++25℃ 
+ 
+50 
+500 
+pA 
+Input Offset Current 
+IOS 
+ 
++25℃ 
+ 
+50 
+500 
+pA 
+Input Common Mode Voltage Range 
+VCM 
+ 
+Full 
+(-VS) - 0.1 
+ 
+(+VS) - 1.5 
+V 
+Common Mode Rejection Ratio 
+CMRR 
+VCM = (-VS) - 0.1V to (+VS) - 1.5V 
++25℃ 
+58 
+68 
+ 
+dB 
+Full 
+55 
+ 
+ 
+VS Under-Voltage Lockout Threshold 
+VUVLO 
+VS rising 
+Full 
+ 
+3.59 
+3.83 
+V 
+VS falling 
+Full 
+3.14 
+3.46 
+ 
+Open-Loop Voltage Gain 
+AOL 
+(-VS) + 1V ≤ VOUT ≤ (+VS) - 1V,  
+RL = 75Ω 
++25℃ 
+58 
+61 
+ 
+dB 
+Full 
+46 
+ 
+ 
+(-VS) + 0.6V ≤ VOUT ≤ (+VS) - 0.6V,  
+RL = 150Ω 
++25℃ 
+61 
+64 
+ 
+Full 
+50 
+ 
+ 
+(-VS) + 0.4V ≤ VOUT ≤ (+VS) - 0.4V, 
+RL = 2kΩ 
++25℃ 
+74 
+78 
+ 
+Full 
+63 
+ 
+ 
+Output Characteristics 
+Output Voltage Swing from Rail 
+VOH 
+RL = 2kΩ 
++25℃ 
+ 
+(+VS) - 0.04 (+VS) - 0.07 
+V 
+Full 
+ 
+ 
+(+VS) - 0.08 
+RL = 150Ω 
++25℃ 
+ 
+(+VS) - 0.42 (+VS) - 0.5 
+Full 
+ 
+ 
+(+VS) - 0.65 
+RL = 75Ω 
++25℃ 
+ 
+(+VS) - 0.73 (+VS) - 0.85 
+Full 
+ 
+ 
+(+VS) - 1.1 
+VOL 
+RL = 2kΩ 
++25℃ 
+ 
+0.03 
+0.05 
+Full 
+ 
+ 
+0.06 
+RL = 150Ω 
++25℃ 
+ 
+0.32 
+0.38 
+Full 
+ 
+ 
+0.50 
+RL = 75Ω 
++25℃ 
+ 
+0.57 
+0.65 
+Full 
+ 
+ 
+0.80 
+Output Short-Circuit Current 
+ISC 
+RL = 10Ω 
++25℃ 
+±40 
+±56 
+ 
+mA 
+Power Supply 
+Quiescent Current/Amplifier 
+IQ 
+IOUT = 0mA 
+Full 
+ 
+7.8 
+10 
+mA 
+Power Supply Rejection Ratio 
+PSRR 
+VS = 4.5V to 16V 
++25℃ 
+86 
+95 
+ 
+dB 
+Full 
+81 
+ 
+ 
+ 
+ 
+ 
+
+SGM8306-1 
+High Speed, High Voltage, 
+SGM8306-2 
+Rail-to-Rail Output Amplifiers 
+ 
+ 
+5 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(VS = ±2.5V, VCM = VS/2, VOUT = VS/2, RL = 150Ω to VS/2, CL = 10pF, Full = -40℃ to +125℃, typical values are at TA = +25℃, 
+unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN 
+TYP 
+MAX 
+UNITS 
+Dynamic Performance 
+Small-Signal -3dB Bandwidth 
+BWSS 
+G = +1 
++25℃ 
+ 
+100 
+ 
+MHz 
+G = +2 
++25℃ 
+ 
+35 
+ 
+Large-Signal -3dB Bandwidth 
+BWLS 
+G = +1 
++25℃ 
+ 
+45 
+ 
+MHz 
+G = +2 
++25℃ 
+ 
+35 
+ 
+Small-Signal Bandwidth  
+for -0.1dB Gain Flatness 
+BW0.1dBSS 
+G = +1 
++25℃ 
+ 
+5.5 
+ 
+MHz 
+G = +2 
++25℃ 
+ 
+6.5 
+ 
+Large-Signal Bandwidth  
+for -0.1dB Gain Flatness 
+BW0.1dBLS 
+G = +1 
++25℃ 
+ 
+5.5 
+ 
+MHz 
+G = +2 
++25℃ 
+ 
+8 
+ 
+Gain-Bandwidth Product 
+GBP 
+ 
++25℃ 
+ 
+48 
+ 
+MHz 
+Phase Margin 
+φO 
+G = +2 
++25℃ 
+ 
+70 
+ 
+° 
+Slew Rate 
+SR 
+G = +1, f = 1kHz, 2VP-P output 
++25℃ 
+ 
+190 
+ 
+V/μs 
+Settling Time to 0.1% 
+tS 
+f = 1kHz, 2VP-P output 
++25℃ 
+ 
+320 
+ 
+ns 
+Differential Gain Error 
+DG 
+NTSC 
++25℃ 
+ 
+0.3 
+ 
+% 
+Differential Phase Error 
+DP 
+NTSC 
++25℃ 
+ 
+0.4 
+ 
+° 
+Channel-to-Channel Crosstalk 
+Crosstalk f = 1kHz, VIN = 200mVP-P 
++25℃ 
+ 
+72 
+ 
+dB 
+Overload Recovery Time 
+ORT 
+f = 1kHz 
++25℃ 
+ 
+25 
+ 
+ns 
+Noise 
+Input Voltage Noise Density 
+en 
+f = 1kHz 
++25℃ 
+ 
+105 
+ 
+nV/√Hz 
+f = 10kHz 
++25℃ 
+ 
+54 
+ 
+ 
+ 
+ 
+ 
+
+SGM8306-1 
+High Speed, High Voltage, 
+SGM8306-2 
+Rail-to-Rail Output Amplifiers 
+ 
+ 
+6 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(VS = ±8V, VCM = VS/2, VOUT = VS/2, RL = 150Ω to VS/2, CL = 10pF, Full = -40℃ to +125℃, typical values are at TA = +25℃, 
+unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN 
+TYP 
+MAX 
+UNITS 
+Input Characteristics 
+Input Offset Voltage 
+VOS 
+ 
++25℃ 
+ 
+0.3 
+8 
+mV 
+Full 
+ 
+ 
+16 
+Input Offset Voltage Drift 
+ΔVOS/ΔT  
+Full 
+ 
+8.3 
+ 
+μV/℃ 
+Input Bias Current 
+IB 
+ 
++25℃ 
+ 
+50 
+500 
+pA 
+Input Offset Current 
+IOS 
+ 
++25℃ 
+ 
+50 
+500 
+pA 
+Input Common Mode Voltage Range 
+VCM 
+ 
+Full 
+(-VS) - 0.1 
+ 
+(+VS) - 1.5 
+V 
+Common Mode Rejection Ratio 
+CMRR 
+VCM = (-VS) - 0.1V to (+VS) - 1.5V 
++25℃ 
+70 
+80 
+ 
+dB 
+Full 
+68 
+ 
+ 
+Open-Loop Voltage Gain 
+AOL 
+(-VS) + 5V ≤ VOUT ≤ (+VS) - 5V,  
+RL = 75Ω 
++25℃ 
+61 
+64 
+ 
+dB 
+Full 
+50 
+ 
+ 
+(-VS) + 1.5V ≤ VOUT ≤ (+VS) - 1.5V,  
+RL = 150Ω 
++25℃ 
+68 
+70 
+ 
+Full 
+51 
+ 
+ 
+(-VS) + 0.4V ≤ VOUT ≤ (+VS) - 0.4V,  
+RL = 2kΩ 
++25℃ 
+78 
+81 
+ 
+Full 
+66 
+ 
+ 
+Output Characteristics 
+Output Voltage Swing from Rail 
+VOH 
+RL = 2kΩ 
++25℃ 
+ 
+(+VS) - 0.14 (+VS) - 0.2 
+V 
+Full 
+ 
+ 
+(+VS) - 0.25 
+RL = 150Ω 
++25℃ 
+ 
+(+VS) - 1.37 (+VS) - 1.7 
+Full 
+ 
+ 
+(+VS) - 2.3 
+VOL 
+RL = 2kΩ 
++25℃ 
+ 
+0.12 
+0.15 
+Full 
+ 
+ 
+0.20 
+RL = 150Ω 
++25℃ 
+ 
+1.07 
+1.30 
+Full 
+ 
+ 
+1.70 
+Output Short-Circuit Current 
+ISC 
+RL = 10Ω 
++25℃ 
+±65 
+±100 
+ 
+mA 
+Power Supply 
+Quiescent Current/Amplifier 
+IQ 
+IOUT = 0mA 
+Full 
+ 
+7.8 
+10 
+mA 
+ 
+ 
+ 
+
+SGM8306-1 
+High Speed, High Voltage, 
+SGM8306-2 
+Rail-to-Rail Output Amplifiers 
+ 
+ 
+7 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(VS = ±8V, VCM = VS/2, VOUT = VS/2, RL = 150Ω to VS/2, CL = 10pF, Full = -40℃ to +125℃, typical values are at TA = +25℃, 
+unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN 
+TYP 
+MAX 
+UNITS 
+Dynamic Performance 
+Small-Signal -3dB Bandwidth 
+BWSS 
+G = +1 
++25℃ 
+ 
+100 
+ 
+MHz 
+G = +2 
++25℃ 
+ 
+32 
+ 
+Large-Signal -3dB Bandwidth 
+BWLS 
+G = +1 
++25℃ 
+ 
+45 
+ 
+MHz 
+G = +2 
++25℃ 
+ 
+35 
+ 
+Small-Signal Bandwidth  
+for -0.1dB Gain Flatness 
+BW0.1dBSS 
+G = +1 
++25℃ 
+ 
+5.5 
+ 
+MHz 
+G = +2 
++25℃ 
+ 
+4.5 
+ 
+Large-Signal Bandwidth  
+for -0.1dB Gain Flatness 
+BW0.1dBLS 
+G = +1 
++25℃ 
+ 
+5.7 
+ 
+MHz 
+G = +2 
++25℃ 
+ 
+4.5 
+ 
+Gain-Bandwidth Product 
+GBP 
+ 
++25℃ 
+ 
+48 
+ 
+MHz 
+Phase Margin 
+φO 
+G = +2 
++25℃ 
+ 
+70 
+ 
+° 
+Slew Rate 
+SR 
+G = +1, f = 1kHz, 2VP-P output 
++25℃ 
+ 
+190 
+ 
+V/μs 
+Settling Time to 0.1% 
+tS 
+f = 1kHz, 2VP-P output 
++25℃ 
+ 
+320 
+ 
+ns 
+Differential Gain Error 
+DG 
+NTSC 
++25℃ 
+ 
+0.03 
+ 
+% 
+Differential Phase Error 
+DP 
+NTSC 
++25℃ 
+ 
+0.1 
+ 
+° 
+Channel-to-Channel Crosstalk 
+Crosstalk f = 1kHz, VIN = 200mVP-P 
++25℃ 
+ 
+72 
+ 
+dB 
+Overload Recovery Time 
+ORT 
+f = 1kHz 
++25℃ 
+ 
+20 
+ 
+ns 
+Noise 
+Input Voltage Noise Density 
+en 
+f = 1kHz 
++25℃ 
+ 
+105 
+ 
+nV/√Hz 
+f = 10kHz 
++25℃ 
+ 
+54 
+ 
+ 
+ 
+
+SGM8306-1 
+High Speed, High Voltage, 
+SGM8306-2 
+Rail-to-Rail Output Amplifiers 
+ 
+ 
+8 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+At TA = +25℃, VS = ±8V, VCM = 0V and RL = 150Ω to GND, unless otherwise noted. 
+ 
+     Small-Signal Gain Flatness vs. Frequency  
+   Small-Signal Gain Flatness vs. Frequency  
+ 
+ 
+     Large-Signal Gain Flatness vs. Frequency 
+   Large-Signal Gain Flatness vs. Frequency 
+ 
+ 
+     Input Voltage Noise Density vs. Frequency 
+   Open-Loop Gain and Phase vs. Frequency 
+ 
+ 
+ 
+ 
+-30
+-24
+-18
+-12
+-6
+0
+6
+0.1
+1
+10
+100
+1000
+Small-Signal Gain Flatness (dB) 
+Frequency (MHz) 
+G = +1, VOUT = 100mVP-P 
+-24
+-18
+-12
+-6
+0
+6
+12
+0.1
+1
+10
+100
+1000
+Small-Signal Gain Flatness (dB) 
+Frequency (MHz) 
+G = +2, RF = 1kΩ, VOUT = 100mVP-P 
+-30
+-24
+-18
+-12
+-6
+0
+6
+0.1
+1
+10
+100
+1000
+Large-Signal Gain Flatness (dB) 
+Frequency (MHz) 
+G = +1, VOUT = 2VP-P 
+-24
+-18
+-12
+-6
+0
+6
+12
+0.1
+1
+10
+100
+1000
+Large-Signal Gain Flatness (dB) 
+Frequency (MHz) 
+G = +2, RF = 1kΩ, VOUT = 2VP-P 
+1
+10
+100
+1000
+10000
+10
+100
+1000
+10000
+100000
+Input Voltage Noise Density (nV/√Hz) 
+Frequency (Hz) 
+-180
+-150
+-120
+-90
+-60
+-30
+0
+-40
+-20
+0
+20
+40
+60
+80
+0.1
+1
+10
+100
+Phase (degree) 
+Open-Loop Gain (dB) 
+Frequency (MHz) 
+— Open-Loop Gain 
+— Phase 
+
+SGM8306-1 
+High Speed, High Voltage, 
+SGM8306-2 
+Rail-to-Rail Output Amplifiers 
+ 
+ 
+9 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TA = +25℃, VS = ±8V, VCM = 0V and RL = 150Ω to GND, unless otherwise noted. 
+ 
+     PSRR vs. Frequency 
+     CMRR vs. Frequency 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+-100
+-80
+-60
+-40
+-20
+0
+0.001
+0.01
+0.1
+1
+10
+100
+Power Supply Rejection Ratio (dB) 
+Frequency (MHz) 
+— PSRR+ 
+— PSRR- 
+ 
+-100
+-80
+-60
+-40
+-20
+0
+0.001
+0.01
+0.1
+1
+10
+100
+Common Mode Rejection Ratio (dB) 
+Frequency (MHz) 
+
+SGM8306-1 
+High Speed, High Voltage, 
+SGM8306-2 
+Rail-to-Rail Output Amplifiers 
+ 
+ 
+10 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TA = +25℃, VS = ±8V, VCM = 0V and RL = 150Ω to GND, unless otherwise noted. 
+ 
+ 
+Small-Signal Pulse Response 
+ 
+ 
+ 
+Large-Signal Pulse Response 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+     50mV/div     50mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+     500mV/div   500mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (25ns/div) 
+ 
+ 
+ 
+Time (25ns/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Small-Signal Pulse Response 
+ 
+ 
+ 
+Large-Signal Pulse Response 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+     25mV/div     50mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+     250mV/div   500mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (25ns/div) 
+ 
+ 
+ 
+Time (25ns/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Small-Signal Pulse Response 
+ 
+ 
+ 
+Large-Signal Pulse Response 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+     10mV/div         50mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+     100mV/div   500mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (25ns/div) 
+ 
+ 
+ 
+Time (25ns/div) 
+ 
+ 
+ 
+ 
+G = +1, VOUT = 100mVP-P, f = 5MHz 
+G = +1, VOUT = 1VP-P, f = 5MHz 
+G = +2, VOUT = 100mVP-P, f = 5MHz 
+G = +2, VOUT = 1VP-P, f = 5MHz 
+G = +5, VOUT = 100mVP-P, f = 5MHz 
+G = +5, VOUT = 1VP-P, f = 5MHz 
+
+SGM8306-1 
+High Speed, High Voltage, 
+SGM8306-2 
+Rail-to-Rail Output Amplifiers 
+ 
+ 
+11 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+Typical Application Circuit 
+ 
+12V
++
+_
+10kΩ 
+C1
+4.7μF
+RF
+VIN+
+CF
+iIN
+VOUT = VIN+ + RF × iIN
+1kΩ 
+ 
+ 
+Figure 1. Transimpedance Amplifier for I to V Conversion 
+ 
+Layout and Power Supply Bypassing 
+The SGM8306-1/2 can operate on a wide supply range 
+from 4.5V to 16V or ±2.25V to ±8V. A good PCB layout 
+is important for the performance of the devices. The 
+bypass capacitor of 0.1µF should be closed enough to 
+both supply pins. It is recommended to use micro-strip 
+and strip line techniques to achieve full bandwidth. The 
+PC board is designed with a frequency higher than 
+1GHz to prevent amplifier performance from being 
+affected. The inputs and outputs should be designed 
+carefully to reduce the parasitic capacitor. Whether the 
+constant impedance board is used or not, the following 
+layout suggestions should be considered: 
+ Wire-wrap boards are too inductive, so they are not 
+recommended. 
+ In order to reduce parasitic capacitance and inductance, 
+IC socket is not recommended. 
+ Surface-mount can achieve better high-frequency 
+performance. It should be considered instead of 
+through-hole components. 
+ The PC board should have two layers at least and as 
+few voids as possible. 
+ Signal traces should be kept as short and straight as 
+possible at all corners, without turning 90°. 
+ 
+ 
+ 
+ 
+
+SGM8306-1 
+High Speed, High Voltage, 
+SGM8306-2 
+Rail-to-Rail Output Amplifiers 
+ 
+ 
+12 
+NOVEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+Changes from Original (NOVEMBER 2023) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+TX00033.001 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOT-23-5 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+- 
+- 
+1.450 
+A1 
+0.000 
+- 
+0.150 
+A2 
+0.900 
+- 
+1.300 
+b 
+0.300 
+- 
+0.500 
+c 
+0.080 
+- 
+0.220 
+D 
+2.750 
+- 
+3.050 
+E 
+1.450 
+- 
+1.750 
+E1 
+2.600 
+- 
+3.000 
+e 
+0.950 BSC 
+e1 
+1.900 BSC 
+L 
+0.300 
+- 
+0.600 
+θ 
+0° 
+- 
+8° 
+ccc 
+0.100 
+ 
+NOTES: 
+1. This drawing is subject to change without notice. 
+2. The dimensions do not include mold flashes, protrusions or gate burrs. 
+3. Reference JEDEC MO-178.
+ 
+ 
+E
+E1
+e
+e1
+b
+D
+A1
+A2
+c
+L
+θ
+0.25
+RECOMMENDED LAND PATTERN (Unit: mm)
+1.90
+2.59
+0.99
+0.69
+0.95
+A
+ccc C
+SEATING PLANE
+C
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00010.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOIC-8 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+1.350 
+1.750 
+0.053 
+0.069 
+A1 
+0.100 
+0.250 
+0.004 
+0.010 
+A2 
+1.350 
+1.550 
+0.053 
+0.061 
+b 
+0.330 
+0.510 
+0.013 
+0.020 
+c 
+0.170 
+0.250 
+0.006 
+0.010 
+D 
+4.700 
+5.100 
+0.185 
+0.200 
+E 
+3.800 
+4.000 
+0.150 
+0.157 
+E1 
+5.800 
+6.200 
+0.228 
+0.244 
+e 
+1.27 BSC 
+0.050 BSC 
+L 
+0.400 
+1.270 
+0.016 
+0.050 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+D
+E
+E1
+e
+b
+A
+A2
+A1
+c
+L
+θ
+1.27
+0.6
+2.2
+5.2
+RECOMMENDED LAND PATTERN (Unit: mm)
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00014.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+MSOP-8 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.820 
+1.100 
+0.032 
+0.043 
+A1 
+0.020 
+0.150 
+0.001 
+0.006 
+A2 
+0.750 
+0.950 
+0.030 
+0.037 
+b 
+0.250 
+0.380 
+0.010 
+0.015 
+c 
+0.090 
+0.230 
+0.004 
+0.009 
+D 
+2.900 
+3.100 
+0.114 
+0.122 
+E 
+2.900 
+3.100 
+0.114 
+0.122 
+E1 
+4.750 
+5.050 
+0.187 
+0.199 
+e 
+0.650 BSC 
+0.026 BSC 
+L 
+0.400 
+0.800 
+0.016 
+0.031 
+θ 
+0° 
+6° 
+0° 
+6° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+E1
+E
+e
+D
+A1
+L
+c
+A
+A2
+θ
+b
+RECOMMENDED LAND PATTERN (Unit: mm)
+1.02
+0.41
+0.65
+4.8
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+SOT-23-5 
+7″ 
+9.5 
+3.20 
+3.20 
+1.40 
+4.0 
+4.0 
+2.0 
+8.0 
+Q3 
+SOIC-8 
+13″ 
+12.4 
+6.40 
+5.40 
+2.10 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+MSOP-8 
+13″ 
+12.4 
+5.20 
+3.30 
+1.50 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

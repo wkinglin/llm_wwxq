@@ -1,0 +1,880 @@
+ 
+SGM804 
+Low-Power µP Reset Circuit with 
+Capacitor-Adjustable Reset Timeout Delay 
+ 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+JANUARY 2013 – REV. A. 1 
+GENERAL DESCRIPTION 
+The SGM804 can monitor system voltages from 1.6V to 
+5V. When VCC voltage drops below the reset threshold, 
+the device will send a reset signal. When VCC voltage 
+rises to the reset threshold, the reset output remains 
+low within a user-adjustable reset timeout period set by 
+an external capacitor. The SGM804 also features an 
+excellent transient immunity to ignore fast VCC 
+transients. 
+The SGM804 is available in a Green SOT-23-5 
+package. It operates over an ambient temperature 
+range of -40℃ to +85℃. 
+ 
+FEATURES 
+● Detection Voltages Range: 1.6V to 5V 
+● Low Quiescent Current: 3µA (TYP) 
+● Adjustable Reset Timeout Period: 3ms to 5.75ms 
+● Guaranteed RESET
+തതതതതതതതതത Valid to VCC = 1V 
+● Push-Pull RESET
+തതതതതതതതതത Output 
+● -40℃ to +85℃ Operating Temperature Range 
+● Available in a Green SOT-23-5 Package 
+ 
+ 
+APPLICATIONS 
+Computers 
+Battery-Powered Applications 
+Portable Equipment 
+Controllers 
+Intelligent Instruments 
+Critical µP Power Monitoring 
+ 
+ 
+ 
+TYPICAL APPLICATION 
+ 
+Microprocessor
+GND
+SGM804
+RESET
+RESET
+GND
+VCC
+VCC
+SRT
+CSRT
+VCC
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Low-Power µP Reset Circuit with 
+SGM804 
+Capacitor-Adjustable Reset Timeout Delay 
+ 
+ 
+2 
+JANUARY 2013 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+RESET 
+THRESHOLD (V) 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM804 
+SOT-23-5 
+1.63 
+SGM804-1.63YN5G/TR 
+S82XX 
+Tape and Reel, 3000 
+2.32 
+SGM804-2.32YN5G/TR 
+S83XX 
+Tape and Reel, 3000 
+2.63 
+SGM804-2.63YN5G/TR 
+S84XX 
+Tape and Reel, 3000 
+2.93 
+SGM804-2.93YN5G/TR 
+S85XX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XX = Date Code. 
+Date Code - Year 
+Date Code - Month 
+Serial Number
+YYY X X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+All Voltages Referenced to GND 
+VCC 
+....................................................................... -0.3V to 6V 
+SRT, RESET (Push-Pull) 
+.................... -0.3V to (VCC + 0.3V) 
+Input Current (All Pins) ................................................. 
+20mA 
+Output Current (RESET) 
+............................................... 
+20mA 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+3000V 
+MM 
+................................................................................. 
+300V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Temperature Range ....................... 
+-40℃ to +85℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+
+Low-Power µP Reset Circuit with 
+SGM804 
+Capacitor-Adjustable Reset Timeout Delay 
+ 
+ 
+3 
+JANUARY 2013 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+SGM804 (TOP VIEW) 
+3
+4
+5
+1
+2
+SRT
+GND
+NC
+VCC
+RESET
+ 
+SOT-23-5 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1 
+RESET
+തതതതതതതതതത 
+Active-Low Reset Output. If VCC is lower than the reset threshold, the RESET
+തതതതതതതതതത goes low. If 
+VCC voltage is higher than the reset threshold, the reset output remains low within the timeout 
+period (tRP). 
+2 
+VCC 
+Supply Voltage Pin. 
+3 
+GND 
+Ground Pin. 
+4 
+NC 
+Not Connected. 
+5 
+SRT 
+Set Reset Timeout Input Pin. Set a capacitor between SRT and GND to adjust tRP. It is 
+determined by: 
+tRP (μs) = 2.6 × 106 × CSRT (μF) + 340μs 
+ 
+ 
+ 
+ 
+
+Low-Power µP Reset Circuit with 
+SGM804 
+Capacitor-Adjustable Reset Timeout Delay 
+ 
+ 
+4 
+JANUARY 2013 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VCC = 1V to 5.5V, TA = -40℃ to +85℃, typical values are at VCC = 5V and TA = +25℃, unless otherwise specified.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Supply Voltage Range 
+VCC 
+ 
+1.0 
+ 
+5.5 
+V 
+Supply Current 
+ICC 
+VCC ≤ 5.0V 
+ 
+3.9 
+7.0 
+μA 
+VCC ≤ 3.3V 
+ 
+3.4 
+5.5 
+VCC ≤ 2.0V 
+ 
+3.0 
+4.8 
+VCC Reset Threshold Accuracy 
+VTH 
+TA = +25℃ 
+VTH - 2.5% 
+ 
+VTH + 2.5% 
+V 
+TA = -40℃ to +85℃ 
+VTH - 3.5% 
+ 
+VTH + 3.5% 
+Hysteresis 
+VHYST 
+ 
+ 
+4 × VTH 
+ 
+mV 
+VCC to Reset Delay 
+tRD 
+VCC falling at 1mV/µs 
+ 
+80 
+ 
+µs 
+Reset Timeout Period 
+tRP 
+CSRT = 1500pF 
+3.00 
+4.25 
+5.75 
+ms 
+CSRT = 0 
+ 
+0.34 
+ 
+VSRT Ramp Current 
+IRAMP 
+VSRT = 0V to 0.65V, VCC = 1.6V to 5V 
+ 
+210 
+ 
+nA 
+VSRT Ramp Threshold 
+VTH-RAMP 
+VCC = 1.6V to 5V (VRAMP rising) 
+ 
+0.6 
+ 
+V 
+RESET Output Voltage Low 
+VOL 
+VCC ≥ 1.0V, ISINK = 50µA 
+ 
+ 
+0.3 
+V 
+VCC ≥ 2.7V, ISINK = 1.2mA 
+ 
+ 
+0.3 
+VCC ≥ 4.5V, ISINK = 3.2mA 
+ 
+ 
+0.4 
+RESET Output Voltage High, 
+Push-Pull 
+VOH 
+VCC ≥ 1.8V, ISOURCE = 200µA 
+0.8 × VCC 
+ 
+ 
+V 
+VCC ≥ 2.25V, ISOURCE = 500µA 
+0.8 × VCC 
+ 
+ 
+VCC ≥ 4.5V, ISOURCE = 800µA 
+0.8 × VCC 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Low-Power µP Reset Circuit with 
+SGM804 
+Capacitor-Adjustable Reset Timeout Delay 
+ 
+ 
+5 
+JANUARY 2013 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+VCC = 5V, CSRT = 1500pF, TA = +25℃, unless otherwise noted. 
+ 
+ 
+Supply Current vs. Supply Voltage
+0
+1
+2
+3
+4
+5
+0
+1
+2
+3
+4
+5
+6
+Supply Voltage (V)
+Supply Current (μA)
+-40℃
++25℃
++85℃
+VTH = 1.63V
+ 
+Reset Timeout Period vs. CSRT
+0.1
+1
+10
+100
+1000
+10000
+0.01
+0.1
+1
+10
+100
+1000
+CSRT (nF)
+Reset Timeout Period (ms)
+ 
+ 
+ 
+ 
+Reset Timeout Period vs. Temperature
+300
+340
+380
+420
+460
+500
+-50
+-25
+0
+25
+50
+75
+100
+ Temperature (℃)
+Reset Timeout Period (μs)
+CSRT = 0
+ 
+ 
+ 
+ 
+ 
+ 
+Normalized Reset Threshold  vs. Temperature
+0.994
+0.996
+0.998
+1.000
+1.002
+1.004
+1.006
+-50
+-25
+0
+25
+50
+75
+100
+Temperature (℃)
+Normalized Reset Threshold
+ 
+ 
+Maximum Transient Duration  vs. Reset Threshold
+Overdrive
+0
+10
+20
+30
+40
+50
+0
+200
+400
+600
+800
+1000
+Reset Threshold Overdrive (mV)
+Transient Duration (µs)
+VTH = 2.93V
+ 
+ 
+ 
+Reset Timeout Period vs. Temperature
+4.1
+4.2
+4.3
+4.4
+4.5
+4.6
+-50
+-25
+0
+25
+50
+75
+100
+ Temperature (℃)
+Reset Timeout Period (ms)
+CSRT = 1500pF
+
+Low-Power µP Reset Circuit with 
+SGM804 
+Capacitor-Adjustable Reset Timeout Delay 
+ 
+ 
+6 
+JANUARY 2013 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+VCC = 5V, CSRT = 1500pF, TA = +25℃, unless otherwise noted. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Low-Power µP Reset Circuit with 
+SGM804 
+Capacitor-Adjustable Reset Timeout Delay 
+ 
+ 
+7 
+JANUARY 2013 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+JANUARY 2013 ‒ REV.A to REV.A.1 
+Added Tape and Reel Information section ................................................................................................................................................... 10, 11 
+ 
+Changes from Original (MARCH 2012) to REV.A 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00033.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOT-23-5 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+1.050 
+1.250 
+0.041 
+0.049 
+A1 
+0.000 
+0.100 
+0.000 
+0.004 
+A2 
+1.050 
+1.150 
+0.041 
+0.045 
+b 
+0.300 
+0.500 
+0.012 
+0.020 
+c 
+0.100 
+0.200 
+0.004 
+0.008 
+D 
+2.820 
+3.020 
+0.111 
+0.119 
+E 
+1.500 
+1.700 
+0.059 
+0.067 
+E1 
+2.650 
+2.950 
+0.104 
+0.116 
+e 
+0.950 BSC 
+0.037 BSC 
+e1 
+1.900 BSC 
+0.075 BSC 
+L 
+0.300 
+0.600 
+0.012 
+0.024 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+ 
+ 
+ 
+ 
+E
+E1
+e
+e1
+b
+D
+A1
+A2
+A
+c
+L
+θ
+0.2
+RECOMMENDED LAND PATTERN (Unit: mm)
+1.90
+2.59
+0.99
+0.69
+0.95
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+SOT-23-5 
+7″ 
+9.5 
+3.20 
+3.20 
+1.40 
+4.0 
+4.0 
+2.0 
+8.0 
+Q3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 

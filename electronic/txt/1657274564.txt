@@ -1,0 +1,1966 @@
+ 
+ 
+SGM6033 
+4.6MHz, 1A Synchronous Buck Regulator 
+ 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+JUNE2022–REV.A.2 
+ 
+GENERAL DESCRIPTION 
+The SGM6033 is a high-efficient Buck switching 
+voltage regulator, supporting up to 1A output current 
+and adjustable output voltage. This device is 
+capable for an input voltage supply range of 2.5V to 
+5.5V. The 4.6MHz PWM mode frequency operation 
+allows the use of a 470nH output inductor and a 
+4.7μF output capacitor. 
+The SGM6033 operates in power-save mode under 
+moderate and light load conditions through pulse 
+frequency modulation (PFM). The 26μA typical 
+quiescent current and the power-save mode can 
+further improve the system efficiency which can 
+reach a maximum of 90%. The SGM6033 has 
+excellent load transient response capability. The 
+SGM6033 
+also 
+includes 
+features 
+of 
+internal 
+soft-start, input under-voltage lockout, thermal 
+shutdown and overload protection. 
+The SGM6033 is available in Green TDFN-2×2-6L and 
+WLCSP-1.21×0.81-6B packages. It operates over an 
+ambient temperature range of -40℃ to +125℃. 
+ 
+ 
+ 
+FEATURES 
+● 2.5V to 5.5V Input Voltage Range 
+● 1A Output Current Capability 
+● 26μA Typical Quiescent Current 
+● 4.6MHz Fixed Frequency Operation 
+● Excellent Efficiency and Load Transient Response 
+● 0.8V Reference Voltage 
+● Low Ripple Light-Load PFM Mode 
+● Internal Soft-Start 
+● Input Under-Voltage Lockout (UVLO) 
+● Thermal Shutdown  
+● Overload Protection 
+● Output Discharge 
+● Available in Green TDFN-2×2-6L and  
+WLCSP-1.21×0.81-6B Packages 
+● -40℃ to +125℃ Operating Temperature Range 
+ 
+ 
+APPLICATIONS 
+Digital Cameras 
+4G, WiFi, WiMAsX, and WiBro Data Cards 
+Tablet Computers 
+Netbooks, Ultra-Mobile PCs 
+ 
+ 
+ 
+TYPICAL APPLICATION 
+SW
+VOUT
+VIN
+EN
+GND
+CIN
+2.2μF
+COUT
+2 × 4.7μF
+L
+470nH
+SGM6033
+VIH
+VIL
+FB
+R1
+R2
+C1
+ 
+ 
+Figure 1. Typical Application Circuit 
+ 
+ 
+
+ 
+SGM6033 
+4.6MHz, 1A Synchronous Buck Regulator 
+ 
+ 
+2 
+JUNE 2022 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM6033-ADJ 
+TDFN-2×2-6L 
+-40℃ to +125℃ 
+SGM6033-ADJXTDI6G/TR 
+MX1 
+XXXX 
+Tape and Reel, 3000 
+WLCSP-1.21×0.81-6B 
+-40℃ to +125℃ 
+SGM6033-ADJXG/TR 
+X2XX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XXXX = Date Code. XX = Date Code. 
+TDFN-2×2-6L 
+WLCSP-1.21×0.81-6B 
+Date Code - Year
+Date Code - Week
+Serial Number
+Y Y Y
+X X X X
+ 
+Date Code - Year 
+Date Code - Month 
+Serial Number
+YY X X
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Input Voltage 
+..................................................... -0.3V to 6.5V 
+Voltage on SW and EN 
+......................... -0.3V to VIN + 0.3V (1) 
+Package Thermal Resistance 
+TDFN-2×2-6L, θJA 
+.................................................... 120℃/W 
+WLCSP-1.21×0.81-6B, θJA ...................................... 150℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ........................ 
+-65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+MM 
+................................................................................. 
+400V 
+CDM ............................................................................ 
+1000V 
+ 
+NOTE: 1. Lesser of 6.5V or VIN + 0.3V. 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Inductor, L 
+.................................................................... 
+470nH 
+Input Capacitor, CIN ...................................................... 2.2μF 
+Output Capacitor, COUT ......................................... 2 × 4.7μF 
+Supply Voltage Range ........................................ 
+2.5V to 5.5V 
+Operating Temperature Range ..................... 
+-40℃ to +125℃ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+
+ 
+SGM6033 
+4.6MHz, 1A Synchronous Buck Regulator 
+ 
+ 
+3 
+JUNE 2022 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+(TOP VIEW) 
+  (TOP VIEW) 
+FB
+SW
+VOUT
+VIN
+EN
+GND
+4
+6
+5
+3
+1
+2
+GND
+ 
+VIN
+EN
+GND
+VOUT
+SW
+1
+2
+A
+B
+C
+FB
+ 
+TDFN-2×2-6L 
+  WLCSP-1.21×0.81-6B 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+TDFN- 
+2×2-6L 
+WLCSP- 
+1.21×0.81-6B 
+1 
+A2 
+VIN 
+Input Voltage. Connect to input power source. 
+2 
+B2 
+EN 
+Forcing this pin above 1.5V enables the part. Forcing this pin below 0.3V shuts 
+down the device. In shutdown, all functions are disabled, drawing less than 1μA 
+supply current. Do not leave EN floating. 
+3 
+C2 
+GND 
+Ground. Power and IC ground. All signals are referenced to this pin. 
+4 
+C1 
+VOUT 
+VOUT. Connect to output voltage. 
+5 
+B1 
+SW 
+Switching Node. Connect to output inductor. 
+6 
+A1 
+FB 
+Buck Regulator Output Feedback Pin. 
+Exposed 
+Pad 
+‒ 
+GND 
+Connect to GND. 
+ 
+ 
+
+ 
+SGM6033 
+4.6MHz, 1A Synchronous Buck Regulator 
+ 
+ 
+4 
+JUNE 2022 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(Minimum and maximum values are at VIN = VEN = 2.5V to 5.5V, Full = -40℃ to +125℃; typical values are at VIN = VEN = 3.6V, TA 
+= +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN 
+TYP 
+MAX 
+UNITS 
+Power Supplies 
+Input Voltage Range 
+VIN 
+ 
+Full 
+2.5 
+ 
+5.5 
+V 
+Feedback Input Bias Current 
+IFB 
+VFB = 0.8V 
++25℃ 
+ 
+ 
+0.1 
+μA 
+Quiescent Current 
+IQ 
+No Load, Not Switching 
+Full 
+ 
+26 
+40 
+μA 
+Shutdown Supply Current 
+ISD 
+EN = GND 
++25℃ 
+ 
+0.47 
+1 
+μA 
+Under-Voltage Lockout Threshold 
+VUVLO 
+Rising VIN 
++25℃ 
+ 
+2.15 
+2.42 
+V 
+Under-Voltage Lockout Hysteresis 
+VUVHYST 
+ 
++25℃ 
+ 
+170 
+ 
+mV 
+EN Logic Input 
+Enable High-Level Input Voltage 
+VIH 
+ 
+Full 
+1.5 
+ 
+ 
+V 
+Enable Low-Level Input Voltage 
+VIL 
+ 
+Full 
+ 
+ 
+0.3 
+V 
+Switching 
+Switching Frequency 
+fSW 
+VIN = 3.6V 
++25℃ 
+4 
+4.6 
+5.2 
+MHz 
+Output 
+Regulated Feedback Voltage 
+VFB 
+ 
+Full 
+0.777 
+0.8 
+0.826 
+V 
+Soft-Start 
+tSS 
+From EN Rising Edge 
++25℃ 
+ 
+200 
+ 
+μs 
+Output Driver 
+PMOS On-Resistance 
+RDS(ON) 
+VIN = VGS = 3.6V 
++25℃ 
+ 
+350 
+ 
+mΩ 
+NMOS On-Resistance 
+VIN = VGS = 3.6V 
++25℃ 
+ 
+250 
+ 
+mΩ 
+PMOS Peak Current Limit 
+ILIM(OL) 
+ 
++25℃ 
+1610 
+1900 
+2290 
+mA 
+Output Discharge Resistance 
+RDIS 
+EN = GND 
++25℃ 
+ 
+230 
+ 
+Ω 
+Thermal Shutdown 
+TTSD 
+ 
+ 
+160 
+ 
+℃ 
+Thermal Shutdown Hysteresis 
+THYS 
+ 
+ 
+15 
+ 
+℃ 
+ 
+ 
+
+ 
+SGM6033 
+4.6MHz, 1A Synchronous Buck Regulator 
+ 
+ 
+5 
+JUNE 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+TA = +25℃, VIN = VEN = 3.6V, unless otherwise noted. 
+ 
+ 
+Load Transient 
+ 
+ 
+ 
+Load Transient 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+ 
+ 
+IOUT 
+ 
+  50mV/div    500mA/div  200mA/div 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+ 
+ 
+IOUT 
+ 
+  50mV/div    500mA/div  500mA/div 
+ 
+Time (20μs/div) 
+ 
+ 
+ 
+Time (20μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Line Transient 
+ 
+ 
+ 
+Line Transient 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+2V/div   50mV/div    500mA/div 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+ 2V/div   50mV/div   500mA/div 
+ 
+Time (20μs/div) 
+ 
+ 
+ 
+Time (20μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Combined Line/Load Transient 
+ 
+ 
+ 
+Combined Line/Load Transient 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+    1V/div   50mV/div   500mA/div 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+IL 
+ 
+  1V/div    50mV/div    500mA/div 
+ 
+Time (10μs/div) 
+ 
+ 
+ 
+Time (10μs/div) 
+ 
+ 
+ 
+VIN = VEN = 3.6V, IOUT = 10-200-10mA 
+VIN = VEN = 3.6V, IOUT = 200-1000-200mA 
+VIN = 3.3-3.9-3.3V, VEN = 3.6V, IOUT = 36mA 
+VIN = 3.9-3.3V, VEN = 3.6V, IOUT = 36-400mA 
+VIN = 3.3-3.9V, VEN = 3.6V, IOUT = 400-36mA 
+VIN = 3.3-3.9-3.3V, VEN = 3.6V, IOUT = 1000mA 
+VOUT = 1.2V 
+VOUT = 1.2V 
+VOUT = 1.2V 
+VOUT = 1.2V 
+VOUT = 1.2V 
+VOUT = 1.2V 
+AC Coupled 
+AC Coupled 
+AC Coupled 
+AC Coupled 
+AC Coupled 
+AC Coupled 
+
+ 
+SGM6033 
+4.6MHz, 1A Synchronous Buck Regulator 
+ 
+ 
+6 
+JUNE 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, VIN = VEN = 3.6V, unless otherwise noted. 
+ 
+ 
+Over-Current, Load Increasing Past Current Limit 
+ 
+ 
+ 
+250mΩ Fault, Rapid Fault 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+         500mV/div        1A/div 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+         500mV/div        1A/div 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Startup 
+ 
+ 
+ 
+Startup 
+ 
+ 
+ 
+ 
+VEN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+IL 
+ 
+5V/div  500mV/div  500mA/div 
+ 
+ 
+VEN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+5V/div  1V/div     500mA/div 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Startup 
+ 
+ 
+ 
+Startup 
+ 
+ 
+VEN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+5V/div  1V/div      500mA/div 
+ 
+ 
+ 
+VEN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+5V/div  1V/div          500mA/div 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+VOUT = 1.2V 
+VOUT = 1.2V 
+VOUT = 1.2V, RLOAD = 1.2Ω 
+VOUT = 1.8V, RLOAD = 1.8Ω 
+VOUT = 1.8V, RLOAD = 50Ω 
+VOUT = 1.8V, RLOAD = 3Ω 
+
+ 
+SGM6033 
+4.6MHz, 1A Synchronous Buck Regulator 
+ 
+ 
+7 
+JUNE 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, VIN = VEN = 3.6V, unless otherwise noted. 
+ 
+ 
+Load Transient 
+ 
+ 
+ 
+Load Transient 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+ 
+    50mV/div           500mA/div 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+ 
+     50mV/div         500mA/div 
+ 
+Time (20μs/div) 
+ 
+ 
+ 
+Time (20μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Line Transient 
+ 
+ 
+ 
+Line Transient 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+500mV/div  50mV/div  500mA/div 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+IL 
+ 
+ 1V/div   100mV/div   500mA/div 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+Time (20μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Shutdown 
+ 
+ 
+ 
+Shutdown 
+ 
+ 
+VEN 
+ 
+ 
+VOUT 
+ 
+  
+5V/div          500mV/div 
+ 
+ 
+VEN 
+ 
+ 
+VOUT 
+ 
+  
+5V/div           500mV/div 
+ 
+Time (1ms/div) 
+ 
+ 
+ 
+Time (500μs/div) 
+ 
+ 
+ 
+VIN = VEN = 3.6V, IOUT = 10-200-10mA 
+VIN = VEN = 3.6V, IOUT = 200-1000-200mA 
+VIN = 3.3-3.9-3.3V, VEN = 3.6V, IOUT = 36mA 
+VIN = 3.3-3.9-3.3V, VEN = 3.6V, IOUT = 1000mA 
+VOUT = 1.8V 
+VOUT = 1.8V 
+VOUT = 1.8V 
+VOUT = 1.8V 
+AC Coupled 
+AC Coupled 
+AC Coupled 
+AC Coupled 
+VOUT = 1.8V, RLOAD = 10kΩ 
+VOUT = 1.8V, No Load 
+
+ 
+SGM6033 
+4.6MHz, 1A Synchronous Buck Regulator 
+ 
+ 
+8 
+JUNE 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, VIN = VEN = 3.6V, unless otherwise noted. 
+ 
+ 
+Over-Current, Load Increasing Past Current Limit 
+ 
+ 
+ 
+250mΩ Fault, Rapid Fault 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+             1V/div        1A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IL 
+ 
+             1V/div        1A/div 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     ΔVOUT (%) vs. Load Current 
+     ΔVOUT (%) vs. Load Current 
+ 
+ 
+   Efficiency vs. Load Current 
+  Efficiency vs. Load Current 
+ 
+ 
+ 
+ 
+-2
+-1
+0
+1
+2
+3
+0
+100 200 300 400 500 600 700 800 900 1000
+Output Regulation (%) 
+Load Current (mA) 
+VIN = 2.7V 
+VIN = 3.6V 
+VIN = 4.2V 
+VIN = 5V 
+ 
+ 
+VOUT  = 1.2V, 
+Nomallized to VIN = 3.6V,  
+IOUT = 500mA 
+ 
+-2
+-1
+0
+1
+2
+3
+0
+100 200 300 400 500 600 700 800 900 1000
+Output Regulation (%) 
+Load Current (mA) 
+VIN = 2.7V 
+VIN = 3.6V 
+VIN = 4.2V 
+VIN = 5V 
+ 
+ 
+VOUT  = 1.8V, 
+Nomallized to VIN = 3.6V,  
+IOUT = 500mA 
+ 
+50
+55
+60
+65
+70
+75
+80
+85
+90
+0
+100 200 300 400 500 600 700 800 900 1000
+Efficiency (%) 
+Load Current (mA) 
+VIN = 2.7V 
+VIN = 3.6V 
+VIN = 4.2V 
+VIN = 5V 
+ 
+ 
+VOUT = 1.2V 
+ 
+50
+55
+60
+65
+70
+75
+80
+85
+90
+0
+100 200 300 400 500 600 700 800 900 1000
+Efficiency (%) 
+Load Current (mA) 
+VIN = 2.7V 
+VIN = 3.6V 
+VIN = 4.2V 
+VIN = 5V 
+ 
+ 
+VOUT = 1.8V 
+ 
+VOUT = 1.8V 
+VOUT = 1.8V 
+
+ 
+SGM6033 
+4.6MHz, 1A Synchronous Buck Regulator 
+ 
+ 
+9 
+JUNE 2022 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, VIN = VEN = 3.6V, unless otherwise noted. 
+ 
+     Switching Frequency vs. Load Current 
+Efficiency vs. Load Current 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+0.0
+1.2
+2.3
+3.5
+4.6
+5.8
+6.9
+0
+100 200 300 400 500 600 700 800 900 1000
+Switching Frequency (MHz) 
+Load Current (mA) 
+VIN = 2.7V 
+VIN = 3.6V 
+VIN = 4.2V 
+VIN = 5V 
+ 
+ 
+VOUT = 1.8V 
+ 
+50
+55
+60
+65
+70
+75
+80
+85
+90
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+Efficiency (%) 
+Load Current (A) 
+VIN = 2.7V 
+VIN = 3.6V 
+VIN = 4.2V 
+VIN = 5V 
+VOUT = 0.8V 
+
+ 
+SGM6033 
+4.6MHz, 1A Synchronous Buck Regulator 
+ 
+ 
+10 
+JUNE 2022 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION 
+The SGM6033 is a synchronous Buck converter 
+capable of delivering 1A load to the output from an 
+input supply range from 2.5V to 5.5V. The SGM6033 
+integrates a synchronous rectifier to improve the 
+conversion efficiency up to 90% peak, while PFM mode 
+light load efficiency reaches over 80% at 1mA load.  
+The device operates with 4.6MHz switching frequency 
+at PWM mode which significantly reduces the external 
+components size. The device only needs a 470nH 
+inductor and 2 × 4.7μF as the output capacitors. 
+Control Scheme 
+The SGM6033 adopts the COT architecture to regulate 
+the output voltage while maintaining excellent load 
+transient response. The device’s internal frequency 
+loop keeps the switching frequency constant at 4.6MHz 
+throughout the input voltage range and load current. 
+The device allows the use of low ESR ceramic 
+capacitor to maintain output voltage regulation.  
+At light load, the SGM6033 automatically operates in 
+PFM mode to achieve high light load efficiency. The 
+device can seamlessly transit to PFM, DCM or CCM 
+based on the load current.  
+ 
+Soft-Start 
+Toggling the EN pin above the 1.5V rising threshold, 
+the device starts switching with an internal soft-start 
+time. During start-up, the internal reference voltage is 
+slowly ramped up to the 0.8V reference voltage to 
+prevent any output voltage overshoot and reduce the 
+inrush current drawn from the input.  
+The current limit protection is active during soft-start, 
+the device might not start up properly if heavy load is 
+applied during start-up. 
+ 
+Current Limit, Fault Shutdown and Restart 
+Output short-to-ground or output over-current will 
+cause the peak inductor current flowing through the 
+high-side switch to reach the current limit. If the current 
+limit is triggered, the device stops switching, turning off 
+the high-side FET to prevent the inductor current from 
+continuing to rise. During the over-current event, the 
+regulator shuts down for about 1.3ms, and the soft-start 
+circuit attempts to restart for 200μs. If the over-current 
+event remains, this pattern repeats, and the device 
+automatically 
+resumes 
+operation 
+if 
+over-current 
+condition is removed. 
+Under-Voltage Lockout (UVLO) 
+The SGM6033 implements input voltage UVLO to stop 
+device operation when the input voltage drops below 
+the UVLO threshold. The device cannot restart again 
+until the input voltage raises higher than the additional 
+170mV (TYP) hysteresis.  
+Thermal Shutdown (TSD) 
+A thermal shutdown function is implemented to prevent 
+damage caused by excessive heat and power dissipation. 
+Once a temperature of typically +160°C is exceeded, 
+the device is shut down. The device is released from 
+shutdown automatically when the junction temperature 
+decreases by 15℃. 
+ 
+ 
+
+ 
+SGM6033 
+4.6MHz, 1A Synchronous Buck Regulator 
+ 
+ 
+11 
+JUNE 2022 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+Setting the Output Voltage 
+The output voltage is programmed using a resistive 
+voltage divider from the output voltage to FB pin. The 
+voltage divider divides the output voltage down to the 
+feedback voltage by the ratio: 
+2
+FB
+OUT
+1
+2
+R
+V
+V
+R
+R
+=
++
+ 
+where VFB is the feedback voltage and VOUT is the 
+output voltage. Thus the output voltage is: 
++
+=
+×
+1
+2
+OUT
+2
+R
+R
+V
+0.8
+R
+ 
+The recommended value for R2 is between 200kΩ to 
+500kΩ. 
+ 
+Selecting the Inductor 
+The selected inductor should have enough saturation 
+current rating to meet the maximum load current. In 
+addition, the selected inductor value affects the peak 
+current, PWM to PFM transition point and efficiency. 
+Use Equation below to calculate the inductor ripple 
+current: 
+−
+∆≈
+⋅
+⋅
+OUT
+IN
+OUT
+IN
+SW
+V
+V
+V
+I  
+(
+)
+V
+L f
+            (1) 
+The maximum load current, IMAX(LOAD) can be calculated 
+using Equation below: 
+∆
+=
+−
+MAX(LOA∆)
+LIM(PK)
+I
+I
+ I
+(
+)
+2
+           (2) 
+When the inductor’s valley current crosses zero, the 
+device transits from PFM to PWM operation. Use 
+Equation below to calculate the DC current when the 
+inductor current reaches zero:  
+∆
+=
+∆CM
+I
+I
+ 2
+                 (3) 
+470nH 
+is 
+recommended 
+for 
+SGM6033. 
+For 
+application’s duty cycle higher than 60%, 1μH inductor 
+is recommended. In addition, the recommended 
+maximum operation duty cycle for SGM6033 is 75%. 
+The selected inductor should have at least 80% of the 
+inductance at ILIM(PK). 
+Inductor’s DCR and inductance affect the conversion 
+efficiency. Inductor with lower inductance generally has 
+lower DCR which improves the efficiency, however, the 
+RMS current is increased due to increased peak to 
+peak ripple current ΔI. Higher ΔI increases the inductor 
+core loss which reduces the efficiency. Use Equation 
+below to calculate the inductor RMS current: 
+∆
+=
++
+2
+2
+RMS
+OUT(∆C)
+I
+I
+ I
+12
+          (4) 
+Higher inductance results in lower RMS current, 
+however, transient response is degraded. For the same 
+family of inductors, higher inductance parts result in 
+higher DCR and lower saturation current.  
+Table 1 summarizes the performance effects of 
+inductance higher or lower than the recommended 
+0.47μH inductor. 
+Table 1. Effects of Changes in Inductor Value (from 
+470nH Recommended Value) 
+INDUCTOR 
+VALUE 
+IMAX(LOAD) 
+ΔVOUT 
+TRANSIENT 
+RESPONSE 
+Increase 
+Increase 
+Decrease 
+Degraded 
+Decrease 
+Decrease 
+Increase 
+Improved 
+ 
+Input Capacitor 
+A 2.2μF ceramic input capacitor is recommended to 
+place as close as possible between the VIN pin and 
+GND to minimize the parasitic inductance. For the 
+applications where the SGM6033 is located far away 
+from the input source, a 47µF or higher capacitance 
+capacitor is recommended to damp the wiring 
+harness’s inductance.  
+ 
+Output Capacitor 
+A 
+4.7μF 
+0402 
+ceramic 
+output 
+capacitor 
+is 
+recommended for SGM6033. Larger size as 0603 
+results in higher effective capacitance under the same 
+DC de-rating, which improves transient response and 
+output ripple. 
+Use Equation below to calculate the output voltage 
+ripple: 
+
+
+⋅
+⋅
+∆
+= ∆
++
+
+
+⋅
+⋅
+−
+⋅
+⋅
+
+
+2
+SW
+OUT
+OUT
+L
+SW
+OUT
+f
+C
+ESR
+1
+V
+ I
+2 ∆(1 ∆)
+8 f
+C
+   (5) 
+ 
+ 
+ 
+ 
+
+ 
+SGM6033 
+4.6MHz, 1A Synchronous Buck Regulator 
+ 
+ 
+12 
+JUNE 2022 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+Table 2. Recommended Passive Components and their Variation Due to DC Bias 
+COMPONENT 
+DESCRIPTION 
+VENDOR 
+MIN 
+TYP 
+MAX 
+L 
+470nH, 2012, 
+90mΩ, 1.1A 
+Murata LQM21PNR47MC0 Murata LQM21PNR54MG0 
+Hitachi Metals HLSI 201210R47 
+ 
+470nH 
+ 
+L 
+1μH, 2012, 
+0.1Ω, 1.5A 
+Murata LQM21PN1R0MGH 
+ 
+1μH 
+ 
+L 
+1μH, 2012, 
+0.067Ω, 3.4A 
+Sunlord WPG201210UF1R0MT 
+ 
+1μH 
+ 
+L 
+0.47μH, 2012, 
+0.033Ω, 5.15A 
+Sunlord WPG201210UFR47MT 
+ 
+0.47μH 
+ 
+CIN 
+2.2μF,  
+6.3V, X5R, 0402 
+Murata or Equivalent GRM155R60J225ME15 
+GRM188R60J225KE19D 
+1.0μF 
+2.2μF 
+ 
+COUT 
+4.7μF, X5R, 0402 
+Murata or Equivalent GRM155R60G475M 
+GRM155R60E475ME760 
+4.7μF 
+2 × 4.7μF 
+ 
+COUT (when VOUT is 
+lower than 1V) 
+10μF, X5R, 0402 
+Murata 
+10μF 
+22μF 
+ 
+R2 
+ 
+ 
+200kΩ 
+ 
+500kΩ 
+C1 
+22pF 
+ 
+15pF 
+22pF 
+30pF 
+ 
+PCB Layout Guidelines 
+In addition to component selection, layout is a critical 
+step to ensure the performance of any switch mode 
+power supplies. Poor layout could result in system 
+instability, EMI failure, and device damage. Thus, place 
+the inductor, input and output capacitors as close to the 
+IC as possible, and use wide and short traces for 
+current carrying traces to minimize PCB inductance. 
+For Buck converter, the input capacitor’s current loop 
+from VIN pin back to the GND pin of the device should 
+be as small as possible.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+JUNE 2022 ‒ REV.A.1 to REV.A.2 
+Page 
+Added Efficiency vs. Load Current Performance 
+.................................................................................................................................................. 
+9 
+Updated the Detailed Description and Application Information sections ................................................................................................. 10, 11, 12 
+ 
+JULY 2020 ‒ REV.A to REV.A.1 
+Page 
+Updated the Operating Temperature Range 
+................................................................................................................................................ 1, 2, 4 
+ 
+Changes from Original (JANUARY 2019) to REV.A 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00055.001 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TDFN-2×2-6L 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.700 
+0.800 
+0.028 
+0.031 
+A1 
+0.000 
+0.050 
+0.000 
+0.002 
+A2 
+0.203 REF 
+0.008 REF 
+D 
+1.900 
+2.100 
+0.075 
+0.083 
+D1 
+1.100 
+1.450 
+0.043 
+0.057 
+E 
+1.900 
+2.100 
+0.075 
+0.083 
+E1 
+0.600 
+0.850 
+0.024 
+0.034 
+k 
+0.200 MIN 
+0.008 MIN 
+b 
+0.180 
+0.300 
+0.007 
+0.012 
+e 
+0.650 TYP 
+0.026 TYP 
+L 
+0.250 
+0.450 
+0.010 
+0.018 
+ 
+ 
+ 
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+D
+E
+b
+E1
+D1
+e
+k
+N3
+N1
+N6
+A
+A2
+A1
+L
+0.24
+0.65
+0.80
+1.40
+0.65
+RECOMMENDED LAND PATTERN (Unit: mm)
+2.60
+N1
+N2
+N1
+N2
+SEE DETAIL A
+DETAIL A
+Pin #1 ID and Tie Bar Mark Options
+NOTE: The configuration of the Pin #1 identifier is optional,
+but must be located within the zone indicated.
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00133.000 
+SG Micro Corp 
+www.sg-micro.com 
+ 
+PACKAGE OUTLINE DIMENSIONS 
+WLCSP-1.21×0.81-6B 
+ 
+ 
+ 
+ 
+NOTE: All linear dimensions are in millimeters. 
+ 
+ 
+ 
+ 
+ 
+ 
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+A1 CORNER
+RECOMMENDED LAND PATTERN
+A
+B
+C
+1
+2
+0.810± 0.025
+1.210± 0.025
+0.4
+0.4
+6 ×
+ Φ0.270± 0.020
+0.4
+0.4
+0.23
+0.21
+6 ×
+ Φ
+0.195± 0.020
+0.040± 0.005
+0.365± 0.013
+0.600± 0.038
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TDFN-2×2-6L 
+7″ 
+9.5 
+2.30 
+2.30 
+1.10 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+WLCSP-1.21×0.81-6B 
+7″ 
+9.2 
+0.90 
+1.32 
+0.68 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 

@@ -1,0 +1,969 @@
+ 
+ 
+SGM7SZ245S 
+Octal Bus Transceiver with 3-State Outputs 
+ 
+ 
+JULY 2023 – REV. A 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+GENERAL DESCRIPTION 
+The SGM7SZ245S is an octal bus transceiver with 
+3-state outputs, which can accept supply voltage range 
+from 1.8V to 5.5V. The device is mainly used for 
+asynchronous communication between data buses. 
+The control function can minimize external timing 
+requirements to the greatest extent possible. 
+The An and Bn are 8-bit data input-output ports. DIR is 
+the direction control input and OE
+ത
+ത
+ത
+ത
+ത is the output enable 
+input. When DIR is set high, it allows transmission from 
+An to Bn. When DIR is set low, it allows transmission 
+from Bn to An. OE
+ത
+ത
+ത
+ത
+ത can be used to make the outputs 
+disabled so that the buses are effectively isolated. 
+The SGM7SZ245S is available in Green TSSOP-20, 
+TQFN-3×3-20L and TQFN-5.5×3.5-24L packages. It 
+operates over an ambient temperature range of -40℃ 
+to +125℃. 
+ 
+ 
+FUNCTION TABLE 
+CONTROL INPUT 
+INPUT/OUTPUT 
+OE
+ത
+ത
+ത
+ത
+ത 
+DIR 
+An 
+Bn 
+L 
+L 
+An = Bn 
+Inputs 
+L 
+H 
+Inputs 
+Bn = An 
+H 
+X 
+Z 
+Z 
+H = High Voltage Level 
+L = Low Voltage Level 
+Z = High-Impedance State 
+X = Don’t Care 
+FEATURES 
+● Wide Supply Voltage Range:1.8V to 5.5V 
+● Input and Output Interface Capability to 5.5V 
+System Environment 
+● +7.8mA/-7.8mA Output Current at VCC = 5.0V 
+● 3-State Outputs Drive Bus Lines Directly 
+● -40℃ to +125℃ Operating Temperature Range 
+● Available in Green TSSOP-20, TQFN-3×3-20L and 
+TQFN-5.5×3.5-24L Packages 
+ 
+ 
+ 
+ 
+ 
+LOGIC DIAGRAM 
+ 
+ 
+ 
+ 
+ 
+A1
+DIR
+B1
+A8
+B8
+A2
+B2
+OE
+
+ 
+SGM7SZ245S 
+Octal Bus Transceiver with 3-State Outputs 
+ 
+ 
+2 
+JULY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM7SZ245S 
+TSSOP-20 
+-40℃ to +125℃ 
+SGM7SZ245SXTS20G/TR 
+SGM06NXTS20 
+XXXXX 
+Tape and Reel, 4000 
+TQFN-3×3-20L 
+-40℃ to +125℃ 
+SGM7SZ245SXTQG20G/TR 
+SGM 
+06OQG 
+XXXXX 
+Tape and Reel, 4000 
+TQFN-5.5×3.5-24L -40℃ to +125℃ 
+SGM7SZ245SXTQQ24G/TR 
+SGM7SZ245S 
+XTQQ 
+XXXXX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code. 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS (1) 
+Supply Voltage Range, VCC .............................. -0.3V to 6.0V 
+Input Voltage, VI 
+(2) 
+............................................ -0.3V to 6.0V 
+Output Voltage, VO
+ (2) 
+High-State or Low-State 
+...... -0.3V to MIN(6.0V, VCC + 0.3V) 
+3-State Mode .................................................. -0.3V to 6.0V 
+Input Clamp Current, IIK (VI < 0V) ................................ 
+-20mA 
+Output Clamp Current, IOK (VO < 0V) ........................... 
+-20mA 
+Continuous Output Current, IO (VO = 0V to VCC) ......... ±40mA 
+Continuous Current through VCC or GND 
+.................... ±70mA 
+Junction Temperature (3) ............................................. 
++150℃ 
+Storage Temperature Range ........................ 
+-65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+2000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Supply Voltage Range, VCC ................................ 
+1.8V to 5.5V 
+Input Voltage Range, VI ......................................... 
+0V to 5.5V 
+Output Voltage, VO 
+High-State or Low-State 
+........................................ 0V to VCC 
+3-State Mode ....................................................... 
+0V to 5.5V 
+Operating Temperature Range ..................... 
+-40℃ to +125℃ 
+ 
+OVERSTRESS CAUTION 
+1. Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods may 
+affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+2. The input and output negative voltage ratings may be 
+exceeded if the input and output clamp current ratings are 
+observed. 
+3. The performance capability of a high-performance integrated 
+circuit in conjunction with its thermal environment can create 
+junction temperatures which are detrimental to reliability. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+
+ 
+SGM7SZ245S 
+Octal Bus Transceiver with 3-State Outputs 
+ 
+ 
+3 
+JULY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+ (TOP VIEW) 
+(TOP VIEW) 
+A7
+4
+5
+6
+7
+8
+A3
+A5
+A6
+B3
+B4
+9
+10
+11
+12
+13
+14
+15
+16
+17
+A8
+B7
+GND
+B8
+B2
+1
+2
+3
+20
+19
+18
+A1
+A2
+A4
+B6
+B5
+B1
+VCC
+OE
+DIR
+ 
+2
+3
+4
+5
+6
+1
+24
+7
+8
+9
+10
+11
+12
+13
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+NC
+NC
+NC
+NC
+A7
+A3
+A5
+A6
+A8
+GND
+A1
+A2
+A4
+DIR
+GND
+B3
+B4
+B7
+B8
+B2
+B6
+B5
+B1
+VCC
+OE
+ 
+TSSOP-20 
+TQFN-5.5×3.5-24L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(TOP VIEW) 
+A8
+GND
+B3
+B4
+B7
+B8
+B2
+B6
+B5
+B1
+ 
+ 
+ 
+ 
+ 
+5
+4
+3
+2
+1
+6
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+7
+8
+9
+GND
+A1
+A2
+DIR
+VCC
+OE
+A7
+A3
+A5
+A6
+A4
+ 
+TQFN-3×3-20L 
+
+ 
+SGM7SZ245S 
+Octal Bus Transceiver with 3-State Outputs 
+ 
+ 
+4 
+JULY 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+TSSOP-20 
+TQFN-3×3-20L 
+TQFN-5.5×3.5-24L 
+1 
+18 
+2 
+DIR 
+Direction Control Input. 
+2, 3, 4, 5 
+19, 20, 1, 2 
+3, 4, 5, 6 
+A1, A2, A3, A4 
+Data Inputs/Outputs. 
+6, 7, 8, 9 
+3, 4, 5, 6 
+7, 8, 9, 10 
+A5, A6, A7, A8 
+Data Inputs/Outputs. 
+10 
+7 
+11 
+GND 
+Ground. 
+11, 12, 13, 14 
+8, 9, 10, 11 
+14, 15, 16, 17 
+B8, B7, B6, B5 
+Data Inputs/Outputs. 
+15, 16, 17, 18 
+12, 13, 14, 15 
+18, 19, 20, 21 
+B4, B3, B2, B1 
+Data Inputs/Outputs. 
+19 
+16 
+22 
+OE
+ത
+ത
+ത
+ത
+ത 
+Output Enable Input (Active Low). 
+20 
+17 
+23 
+VCC 
+Supply Voltage. 1.8V ≤ VCC ≤ 5.5V 
+– 
+– 
+1, 12, 13, 24 
+NC 
+No Connection. 
+– 
+Exposed Pad 
+Exposed Pad 
+GND 
+Connect it to GND internally. This 
+pad is not an electrical connection 
+point. 
+ 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00021.002 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TSSOP-20 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+- 
+- 
+1.200 
+A1 
+0.050 
+- 
+0.150 
+A2 
+0.800 
+- 
+1.050 
+b 
+0.190 
+- 
+0.300 
+c 
+0.090 
+- 
+0.200 
+D 
+6.400 
+- 
+6.600 
+E 
+4.300 
+- 
+4.500 
+E1 
+6.200 
+- 
+6.600 
+e 
+0.650 BSC 
+L 
+0.450 
+- 
+0.750 
+H 
+0.250 TYP 
+θ 
+0° 
+- 
+8° 
+ccc 
+0.100 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+3. Reference JEDEC MO-153. 
+ 
+ 
+E1
+E
+e
+b
+A
+A1
+A2
+θ
+L
+H
+c
+D
+1.78
+0.65
+0.42
+RECOMMENDED LAND PATTERN (Unit: mm)
+5.94
+ccc C
+SEATING PLANE
+C
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00082.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TQFN-3×3-20L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.700 
+0.800 
+0.028 
+0.031 
+A1 
+0.000 
+0.050 
+0.000 
+0.002 
+A2 
+0.203 REF 
+0.008 REF 
+D 
+2.924 
+3.076 
+0.115 
+0.121 
+D1 
+1.400 
+1.600 
+0.055 
+0.063 
+E 
+2.924 
+3.076 
+0.115 
+0.121 
+E1 
+1.400 
+1.600 
+0.055 
+0.063 
+k 
+0.200 MIN 
+0.008 MIN 
+b 
+0.150 
+0.250 
+0.006 
+0.010 
+e 
+0.400 TYP 
+0.016 TYP 
+L 
+0.324 
+0.476 
+0.013 
+0.019 
+ 
+ 
+ 
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+A
+A2
+A1
+e
+E1
+b
+L
+k
+D
+E
+N1
+D1
+N20
+3.5
+2.1
+1.5
+1.5
+0.7
+0.4
+RECOMMENDED LAND PATTERN (Unit: mm)
+0.2
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00122.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TQFN-5.5×3.5-24L 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.700 
+0.800 
+0.028 
+0.031 
+A1 
+0.000 
+0.050 
+0.000 
+0.002 
+A2 
+0.203 REF 
+0.008 REF 
+D 
+3.400 
+3.600 
+0.134 
+0.142 
+D1 
+1.950 
+2.150 
+0.077 
+0.085 
+E 
+5.400 
+5.600 
+0.213 
+0.220 
+E1 
+3.950 
+4.150 
+0.156 
+0.163 
+k 
+0.325 REF 
+0.013 REF 
+b 
+0.200 
+0.300 
+0.008 
+0.012 
+b1 
+0.150 
+0.250 
+0.006 
+0.010 
+L 
+0.300 
+0.500 
+0.012 
+0.020 
+e 
+0.500 BSC 
+0.020 BSC 
+e1 
+1.500 BSC 
+0.059 BSC 
+ 
+ 
+ 
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+D
+E
+N1
+D1
+E1
+A1
+A2
+A
+N24
+N2
+b1
+b
+e
+N13
+N23
+e1
+k
+RECOMMENDED LAND PATTERN (Unit: mm)
+4.05
+4.7
+6.1
+2.05
+0.70
+0.25
+0.20
+0.5
+2.7
+4.1
+1.5
+N12
+L
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TSSOP-20 
+13″ 
+16.4 
+6.80 
+6.90 
+1.50 
+4.0 
+8.0 
+2.0 
+16..0 
+Q1 
+TQFN-3×3-20L 
+13″ 
+12.4 
+3.30 
+3.30 
+1.10 
+4.0 
+8.0 
+2.0 
+12.0 
+Q2 
+TQFN-5.5×3.5-24L 
+13″ 
+12.4 
+3.80 
+5.80 
+1.00 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

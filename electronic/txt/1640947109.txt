@@ -1,0 +1,1277 @@
+ 
+SGM8139 
+Low Power, Low Voltage 
+PIR and Vibration Sensor AFE 
+ 
+ 
+JANUARY 2018 - REV. A. 2
+SG Micro Corp 
+www.sg-micro.com 
+GENERAL DESCRIPTION 
+The SGM8139 is a low voltage low power analog front 
+end designed for PIR and vibration sensors. This part 
+integrates two high input impedance operational 
+amplifiers, window comparator, state control logic, a 
+delay timer, a latch timer, a voltage reference and high 
+current output stages. It can be used in various sensors, 
+delay controllers as well as wake-up circuit in low 
+power consumption systems. 
+Many industrial and building automation systems use 
+motion detectors to control different functions based on 
+human presence. Using SGM8139 with proper PIR 
+sensor, it is easy to build a compact passive infrared 
+detection system. The output stage of SGM8139 can 
+easily drive different types of lights, buzzers, automatic 
+doors, fans and white goods with programmable timers. 
+It is especially suitable for office buildings, hotels, 
+shopping malls or automatic lighting and alarm systems, 
+as well as intrusion detection. SGM8139 can be used 
+for motion detection and room monitors in a smart 
+home system as an ultra-low power wake-up block. 
+SGM8139 can be used to condition the vibration sensor, 
+providing a trigger signal to system. 
+SGM8139 is specifically designed to operate over a 
+wide range of supply voltage from 1.4V to 5.5V. 
+SGM8139 draws only 6μA supply current. It is ideal for 
+applications powered by single cell or dual cell alkaline 
+battery. 
+With two operational amplifiers, window comparators, 
+and delay/lockout timers adjustable through external 
+RCs, SGM8139 can both process the PIR output signal 
+effectively and provide good anti-interference performance. 
+The SGM8139 is specified for the -40℃ to +85℃ 
+industrial temperature range. The SGM8139 is 
+available in Green SOIC-16 and TQFN-2.5×2.5-16L 
+packages. The TQFN package makes it ideal for 
+portable electronic products with area constrained PC 
+boards. 
+ 
+FEATURES 
+● Operating Voltage Range: 1.4V to 5.5V 
+● Average Quiescent Current: 6.5μA (TYP) 
+● Two Integrated High Input Impedance Operational 
+Amplifiers 
+● Integrated Bi-directional Amplitude Discriminator 
+● Adjustable Delay/Lockout Timers With External 
+R and C 
+● Integrated Voltage Reference 
+● Available in Green SOIC-16 and TQFN-2.5×2.5-16L 
+Packages 
+ 
+ 
+ 
+ 
+
+Low Power, Low Voltage 
+SGM8139 
+PIR and Vibration Sensor AFE 
+ 
+ 
+2 
+JANUARY 2018 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM8139 
+SOIC-16 
+-40℃ to +85℃ 
+SGM8139YS16G/TR 
+SGM8139YS16 
+XXXXX 
+Tape and Reel, 2500 
+TQFN-2.5×2.5-16L 
+-40℃ to +85℃ 
+SGM8139YTQB16G/TR 
+8139 
+XXXXX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code and Vendor Code. 
+Date Code - Week
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Supply Voltage Range (VSS = 0V) 
+.......................... 
+1.4V to 6V 
+Signal Input Terminals, Voltage (VDD = 6V, VSS = 0V) 
+ 
+.......................................................................... -0.3V to 5.5V 
+Signal Input Terminals, Current (VDD = 5V, VSS = 0V) 
+ 
+.................................................................................... ±10mA 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+MM 
+................................................................................. 
+400V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Temperature Range ...................... -40℃ to +85℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+
+Low Power, Low Voltage 
+SGM8139 
+PIR and Vibration Sensor AFE 
+ 
+ 
+3 
+JANUARY 2018 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+ SGM8139 (TOP VIEW) 
+SGM8139 (TOP VIEW) 
+VO
+RR1
+RC1
+A
+1OUT
+13
+14
+15
+16
+1
+2
+3
+4
+1IN-
+2IN-
+1IN+
+RR2
+VSS
+RC2
+2OUT
+9
+10
+11
+12
+5
+6
+7
+8
+VDD
+VC
+NC
+RESET
+ 
+2OUT
+VDD
+1IN+
+1OUT
+2IN-
+A
+VSS
+RR2
+RC2
+RC1
+VC
+NC
+1IN-
+VO
+1
+2
+3
+4
+9
+12
+11
+10
+13
+14
+15
+16
+RR1
+8
+7
+6
+5
+RESET
+ 
+SOIC-16 
+TQFN-2.5×2.5-16L 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+SOIC-16 
+TQFN-2.5×2.5-16L 
+1 
+15 
+A 
+Repeatable Trigger Mode and Non-Repeatable Trigger Mode. When A = “1”, 
+repeatable trigger mode is active; when A = “0”, non-repeatable trigger mode is 
+active. 
+2 
+16 
+VO 
+Output Terminal. Triggered by VS rising edge, and kept low in tX and ti period. 
+3 
+1 
+RR1 
+Set up the output delay time tx. tx ≈ 28672R1C1. The recommended resistor 
+value is more than 3kΩ for RR1. 
+4 
+2 
+RC1 
+Set up the output delay time tx. tx ≈ 28672R1C1. 
+5 
+3 
+RC2 
+Set up the trigger latch time ti. ti ≈ 28R2C2. 
+6 
+4 
+RR2 
+Set up the trigger latch time ti. ti ≈ 28R2C2. The recommended resistor value is 
+more than 3kΩ for RR2. 
+7 
+5 
+VSS 
+Negative Power Supply. It is normally connected to ground. 
+8 
+6 
+RESET 
+Chip Reset Input. It is normally connected to VDD. Active low. 
+9 
+7 
+VC 
+Trigger Inactive Terminal. When VC < VR, Trigger inactive; when VC > VR, 
+Trigger active. VR ≈ 0.2VDD. 
+10 
+8 
+NC 
+No Connection. 
+11 
+9 
+VDD 
+Positive Power Supply. 
+12 
+10 
+2OUT 
+The Output of OP2. 
+13 
+11 
+2IN- 
+The Inverting Input of OP2. 
+14 
+12 
+1IN+ 
+The Non-inverting Input of OP1. 
+15 
+13 
+1IN- 
+The Inverting Input of OP1. 
+16 
+14 
+1OUT 
+The Output of OP1. 
+— 
+Exposed Pad 
+— 
+It should be connected to VSS or left floating. 
+ 
+ 
+
+Low Power, Low Voltage 
+SGM8139 
+PIR and Vibration Sensor AFE 
+ 
+ 
+4 
+JANUARY 2018 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VSS = 0V, VDD = 5V, TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Operating Voltage Range 
+VDD 
+ 
+1.4 
+ 
+5.5 
+V 
+Output Current 
+IOUT 
+VDD = 5V 
+ 
+50 
+ 
+mA 
+VC (High Level) 
+VRH 
+VDD = 3.3V 
+0.76 
+ 
+ 
+V 
+VC (Low Level) 
+VRL 
+VDD = 3.3V 
+ 
+ 
+0.56 
+V 
+A (High Level) 
+VAH 
+VDD = 3.3V 
+2.57 
+ 
+ 
+V 
+A (Low Level) 
+VAL 
+VDD = 3.3V 
+ 
+ 
+0.99 
+V 
+VO (High Level) 
+VOH 
+VDD = 5V, IO = 50mA 
+ 
+0.9 
+1.2 
+V 
+VO (Low Level) 
+VOL 
+VDD = 5V, IO = 50mA 
+ 
+0.38 
+0.46 
+V 
+Window Comparator Threshold VH 
+VH 
+ 
+ 
+0.7VDD 
+ 
+ 
+Window Comparator Threshold VL 
+VL 
+ 
+ 
+0.25VDD 
+ 
+ 
+OPA Bias Reference VM 
+VM 
+ 
+ 
+0.5VDD 
+ 
+ 
+VC Input Reference VR 
+VR 
+ 
+ 
+0.2VDD 
+ 
+ 
+ 
+ 
+Operational Amplifiers 
+(VDD = 1.4V, VSS = 0V, TA = +25℃, VCM = VDD/2, VOUT ≈ VDD/2, RL = 1MΩ connected to VDD/2, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+DC Performance 
+Input Offset Voltage 
+VOS 
+VCM = VDD/2 
+ 
+0.3 
+1.7 
+mV 
+-40℃ ≤ TA ≤ +85℃ 
+ 
+ 
+2.2 
+Input Common Mode Voltage Range 
+VCMR 
+ 
+VSS - 0.1 
+ 
+VDD + 0.1 
+V 
+Large-Signal Voltage Gain 
+AVO 
+VCM = VDD/2, RL = 10kΩ 
+72 
+77 
+ 
+dB 
+-40℃ ≤ TA ≤ +85℃ 
+63 
+ 
+ 
+Output Voltage Swing From Rail 
+VOH 
+VCM = VDD/2, RL = 10kΩ to VDD/2 
+ 
+5 
+12 
+mV 
+-40℃ ≤ TA ≤ +85℃ 
+ 
+ 
+14 
+VOL 
+VCM = VDD/2, RL = 10kΩ to VDD/2 
+ 
+5 
+12 
+mV 
+-40℃ ≤ TA ≤ +85℃ 
+ 
+ 
+14 
+Power Supply Rejection Ratio 
+PSRR 
+VDD = 1.4V to 5.5V 
+75 
+84 
+ 
+dB 
+-40℃ ≤ TA ≤ +85℃ 
+69 
+ 
+ 
+Operating Voltage Range 
+ 
+ 
+1.4 
+ 
+5.5 
+V 
+Quiescent Current 
+IQ 
+VCM = VDD/2, IO = 0 
+ 
+4.8 
+8.8 
+µA 
+-40℃ ≤ TA ≤ +85℃ 
+ 
+ 
+11.0 
+AC Performance 
+Slew Rate 
+UP 
+SR 
+f = 100Hz, VOUT = 1VPP Step, AV = 1 
+ 
+5 
+ 
+V/ms 
+DOWN 
+ 
+2.8 
+ 
+Gain-Bandwidth Product 
+GBP 
+RF = 100kΩ, RG = 10kΩ, RL = 1MΩ, AV = 10 
+ 
+8 
+ 
+kHz 
+Phase Margin 
+ 
+RF = 100kΩ, RG = 10kΩ, RL = 1MΩ, AV = 10 
+ 
+70 
+ 
+° 
+Input Voltage Noise 
+ 
+f = 0.1Hz to 10Hz 
+ 
+4.8 
+ 
+µVPP 
+Input Voltage Noise Density 
+en 
+f = 1kHz, VCM = VDD/2 
+ 
+240 
+ 
+nV/
+HZ  
+ 
+ 
+
+Low Power, Low Voltage 
+SGM8139 
+PIR and Vibration Sensor AFE 
+ 
+ 
+5 
+JANUARY 2018 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(VDD = 3.3V, VSS = 0V, TA = +25℃, VCM = VDD/2, VOUT ≈ VDD/2, RL = 1MΩ connected to VDD/2, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+DC Performance 
+Input Offset Voltage 
+VOS 
+VCM = VDD/2 
+ 
+0.3 
+1.6 
+mV 
+-40℃ ≤ TA ≤ +85℃ 
+ 
+ 
+1.7 
+Input Common Mode Voltage Range 
+VCMR 
+ 
+VSS - 0.1 
+ 
+VDD + 0.1 
+V 
+Common Mode Rejection Ratio 
+CMRR 
+VCM = -0.1V to VDD - 1.5V 
+62 
+76 
+ 
+dB 
+-40℃ ≤ TA ≤ +85℃ 
+61 
+ 
+ 
+Large-Signal Voltage Gain 
+AVO 
+VCM = VDD/2, RL = 10kΩ 
+84 
+89 
+ 
+dB 
+-40℃ ≤ TA ≤ +85℃ 
+77 
+ 
+ 
+Output Voltage Swing From Rail 
+VOH 
+VCM = VDD/2, RL = 10kΩ to VDD/2 
+ 
+4 
+12 
+mV 
+-40℃ ≤ TA ≤ +85℃ 
+ 
+ 
+14 
+VOL 
+VCM = VDD/2, RL = 10kΩ to VDD/2 
+ 
+4 
+12 
+mV 
+-40℃ ≤ TA ≤ +85℃ 
+ 
+ 
+14 
+Output Short Circuit Current 
+ISOURCE 
+VCM = VDD/2, RL = 10Ω to VDD/2 
+9 
+11 
+ 
+mA 
+ISINK 
+VCM = VDD/2, RL = 10Ω to VDD/2 
+9 
+11 
+ 
+mA 
+Power Supply Rejection Ratio 
+PSRR 
+VDD = 1.4V to 5.5V 
+75 
+84 
+ 
+dB 
+-40℃ ≤ TA ≤ +85℃ 
+69 
+ 
+ 
+Operating Voltage Range 
+ 
+ 
+1.4 
+ 
+5.5 
+V 
+Quiescent Current 
+IQ 
+VCM = VDD/2, IO = 0 
+ 
+5.8 
+10.5 
+µA 
+-40℃ ≤ TA ≤ +85℃ 
+ 
+ 
+12.5 
+AC Performance (VDD = 3V) 
+Slew Rate 
+UP 
+SR 
+f = 100Hz, VOUT = 1VPP Step, AV = 1 
+ 
+5 
+ 
+V/ms 
+DOWN 
+ 
+3 
+ 
+Gain-Bandwidth Product 
+GBP 
+RF = 100kΩ, RG = 10kΩ, RL = 1MΩ, AV = 10 
+ 
+11 
+ 
+kHz 
+Phase Margin 
+ 
+RF = 100kΩ, RG = 10kΩ, RL = 1MΩ, AV = 10 
+ 
+70 
+ 
+° 
+Input Voltage Noise 
+ 
+f = 0.1Hz to 10Hz 
+ 
+4.8 
+ 
+µVPP 
+Input Voltage Noise Density 
+en 
+f = 1kHz, VCM = VDD/2 
+ 
+260 
+ 
+nV/
+HZ  
+ 
+ 
+ 
+
+Low Power, Low Voltage 
+SGM8139 
+PIR and Vibration Sensor AFE 
+ 
+ 
+6 
+JANUARY 2018 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(VDD = 5V, VSS = 0V, TA = +25℃, VCM = VDD/2, VOUT ≈ VDD/2, RL = 1MΩ connected to VDD/2, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+DC Performance 
+Input Offset Voltage 
+VOS 
+VCM = VDD/2 
+ 
+0.3 
+1.6 
+mV 
+-40℃ ≤ TA ≤ +85℃ 
+ 
+ 
+1.7 
+Input Common Mode Voltage Range 
+VCMR 
+ 
+VSS - 0.1 
+ 
+VDD + 0.1 
+V 
+Common Mode Rejection Ratio 
+CMRR 
+VCM = -0.1V to VDD - 1.5V 
+65 
+78 
+ 
+dB 
+-40℃ ≤ TA ≤ +85℃ 
+63 
+ 
+ 
+Large-Signal Voltage Gain 
+AVO 
+VCM = VDD/2, RL = 10kΩ 
+87 
+92 
+ 
+dB 
+-40℃ ≤ TA ≤ +85℃ 
+80 
+ 
+ 
+Output Voltage Swing From Rail 
+VOH 
+VCM = VDD/2, RL = 10kΩ to VDD/2 
+ 
+4 
+12 
+mV 
+-40℃ ≤ TA ≤ +85℃ 
+ 
+ 
+14 
+VOL 
+VCM = VDD/2, RL = 10kΩ to VDD/2 
+ 
+4 
+12 
+mV 
+-40℃ ≤ TA ≤ +85℃ 
+ 
+ 
+14 
+Output Short Circuit Current 
+ISOURCE 
+VCM = VDD/2, RL = 10Ω to VDD/2 
+19 
+24 
+ 
+mA 
+-40℃ ≤ TA ≤ +85℃ 
+15 
+ 
+ 
+ISINK 
+VCM = VDD/2, RL = 10Ω to VDD/2 
+19 
+24 
+ 
+mA 
+-40℃ ≤ TA ≤ +85℃ 
+14 
+ 
+ 
+Power Supply Rejection Ratio 
+PSRR 
+VDD = 1.4V to 5.5V 
+75 
+84 
+ 
+dB 
+-40℃ ≤ TA ≤ +85℃ 
+69 
+ 
+ 
+Operating Voltage Range 
+ 
+ 
+1.4 
+ 
+5.5 
+V 
+Quiescent Current 
+IQ 
+VCM = VDD/2, IO = 0 
+ 
+6.5 
+12.5 
+µA 
+-40℃ ≤ TA ≤ +85℃ 
+ 
+ 
+14.5 
+AC Performance 
+Slew Rate 
+UP 
+SR 
+f = 100Hz, VOUT = 1VPP Step, AV = 1 
+ 
+5.8 
+ 
+V/ms 
+DOWN 
+ 
+3 
+ 
+Gain-Bandwidth Product 
+GBP 
+RF = 100kΩ, RG = 10kΩ, RL = 1MΩ, AV = 10 
+ 
+11 
+ 
+kHz 
+Phase Margin 
+ 
+RF = 100kΩ, RG = 10kΩ, RL = 1MΩ, AV = 10 
+ 
+68 
+ 
+° 
+Input Voltage Noise 
+ 
+f = 0.1Hz to 10Hz 
+ 
+4.8 
+ 
+µVPP 
+Input Voltage Noise Density 
+en 
+f = 1kHz, VCM = VDD/2 
+ 
+200 
+ 
+nV/
+HZ  
+ 
+ 
+ 
+ 
+
+Low Power, Low Voltage 
+SGM8139 
+PIR and Vibration Sensor AFE 
+ 
+ 
+7 
+JANUARY 2018 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+JANUARY 2018 ‒ REV.A.1 to REV.A.2  
+Page 
+Added notes to Figure 4 ....................................................................................................................................................................................... 
+8 
+ 
+MARCH 2017 ‒ REV.A to REV.A.1  
+Page 
+Changed Pin Description section 
+.......................................................................................................................................................................... 
+3 
+Changed Application Circuit section ..................................................................................................................................................................... 
+8 
+ 
+Changes from Original (DECEMBER 2016) to REV.A  
+Page 
+Changed from product preview to production data 
+.............................................................................................................................................. 
+All 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00077.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TQFN-2.5×2.5-16L 
+ 
+ 
+ 
+ 
+NOTE: All linear dimensions are in millimeters. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+2.500± 0.050
+2.500± 0.050
+1.400± 0.050
+1.400± 0.050
+0.750± 0.050
+0.000~0.050
+0.203 Ref.
+N1
+N16
+RECOMMENDED LAND PATTERN 
+PIN #1 DOT
+BY MARKING
+PIN #1 
+IDENTIFICATION
+0.200± 0.050
+0.350± 0.050
+0.65
+0.40
+3.10
+1.40
+1.40
+0.20
+1.80
+0.400 Bsc.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00012.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOIC-16 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+1.350 
+1.750 
+0.053 
+0.069 
+A1 
+0.100 
+0.250 
+0.004 
+0.010 
+A2 
+1.350 
+1.550 
+0.053 
+0.061 
+b 
+0.330 
+0.510 
+0.013 
+0.020 
+c 
+0.170 
+0.250 
+0.006 
+0.010 
+D 
+9.800 
+10.200 
+0.386 
+0.402 
+E 
+3.800 
+4.000 
+0.150 
+0.157 
+E1 
+5.800 
+6.200 
+0.228 
+0.244 
+e 
+1.27 BSC 
+0.050 BSC 
+L 
+0.400 
+1.270 
+0.016 
+0.050 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+ 
+ 
+ 
+ 
+D
+E
+E1
+e
+b
+A
+A1
+A2
+θ
+L
+c
+RECOMMENDED LAND PATTERN (Unit: mm)
+5.60
+1.75
+1.27
+0.65
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TQFN-2.5×2.5-16L 
+7″ 
+13.0 
+2.80 
+2.80 
+1.10 
+4.0 
+4.0 
+2.0 
+12.0 
+Q1 
+SOIC-16 
+13″ 
+16.4 
+6.50 
+10.30 
+2.10 
+4.0 
+8.0 
+2.0 
+16.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

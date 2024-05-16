@@ -1,0 +1,820 @@
+ 
+SGM41570 
+SMBus NVDC Buck-Boost Charge Controller 
+for 1- to 4-Cell Battery 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+APRIL 2024 – REV. A. 2 
+FEATURES 
+● 1- to 4-Cell Charging from a Variety of Input Types 
+ 3.58V to 24V Input Operating Voltage Range 
+ USB 2.0/3.0/3.1 (Type-C)/USB PD Input Current 
+Support 
+ Seamless Buck ↔ Buck-Boost ↔ Boost 
+Transitions 
+ Input Overload Protection (IDPM and VDPM 
+Regulation) 
+● CPU Throttling, Power and Current Monitoring 
+ Full nPROCHOT Profile 
+ Input Current Monitoring 
+ Battery Charge/Discharge Current Monitoring 
+ System Power Monitoring 
+● Narrow Voltage DC (NVDC) Power Path Management 
+ Instant-On with Depleted or No Battery 
+ Battery Supplementation if Adapter is Fully Loaded 
+ BATFET Ideal Diode Emulation in Supplement 
+Mode 
+● Power-Up USB Port from Battery (USB OTG) 
+ 3V to 20.56V Adjustable OTG Voltage with 8mV 
+Resolution 
+ Up to 6.35A Output Current Limit with 50mA 
+Resolution 
+● Pass Through Mode (PTM) to Improve Efficiency 
+● VMIN Active Protection (VAP) Mode 
+● VAP Supplements Battery from Input Caps for System 
+Power Spikes (Battery-Only Conditions) 
+● Input Current Optimizer Maximizes Power Extraction 
+● 800kHz or 1.2MHz Selectable Switching Frequency 
+● SMBus Interface for Flexible System Configuration 
+● Input Current Limit Setting Pin (without SMBus) 
+● Integrated ADC for Voltage/Current/Power Monitoring 
+● Low Battery Quiescent Current 
+● High Accuracy 
+ ±0.4% for Charge Voltage Regulation 
+ ±2% for Input/Charge Current Regulation 
+ ±2% for Input/Charge Current Monitor 
+ ±5.8% for Power Monitor 
+● Safety 
+ Thermal Shutdown 
+ Input/System/Battery Over-Voltage Protection 
+ Input/MOSFET/Inductor Over-Current Protection 
+● Available in a Green TQFN-4×4-32AL Package 
+ 
+ 
+APPLICATIONS 
+Bluetooth Speakers, Drones, IP Cameras, Detachable Power 
+Supply 
+Portable Internet Devices and Accessory 
+Industrial and Medical Equipment 
+ 
+ 
+TYPICAL APPLICATION 
+ 
+ 
+Figure 1. Typical Application Circuit 
+ 
+ 
+Q1
+Q2
+Q3
+Q4
+VBUS
+Adapter
+3.58V to 24V
+SGM41570
+ACN
+ACP
+LODRV2 HIDRV2
+VSYS
+nBATDRV
+SW1
+HIDRV1 LODRV1
+SW2
+SRP
+SRN
+VSYS
+BAT
+(1-Cell to 4-Cell)
+Host Control
+Host
+SMBus
+
+SMBus NVDC Buck-Boost Charge Controller 
+SGM41570 
+for 1- to 4-Cell Battery 
+ 
+ 
+2 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+GENERAL DESCRIPTION 
+The SGM41570 is a synchronous Buck-Boost battery charge 
+controller with NVDC power path management. It can provide 
+high efficiency and low component count solution for 1-cell to 
+4-cell batteries charging applications. 
+The system is regulated slightly to be higher than the battery 
+voltage, but not lower than the programmable system 
+minimum voltage. Therefore, the system power is maintained 
+even if the battery is completely depleted or removed. 
+Dynamic power management (DPM) feature is also included 
+that automatically reduces the charge current if the input 
+current or voltage limit is reached. If the system load 
+continues to increase after reduction of charge current down 
+to zero, the battery enters the supplement mode and both 
+adapter and battery power the system. 
+A wide range of input sources are supported for SGM41570, 
+including traditional adapters, USB adapter and high voltage 
+USB PD sources. The converter is configured as Buck, Boost 
+or Buck-Boost during power-up, depending on the input 
+source and battery conditions. The charger automatically 
+switches among Buck, Boost and Buck-Boost without host 
+control. 
+When the input source is absent, the SGM41570 can work in 
+USB On-The-Go (OTG) mode to supply VBUS from battery. 
+The OTG output voltage can be programmed from 3V to 
+20.56V with 8mV resolution. The slew rate of the output 
+voltage transitions in OTG can be configured (by OTG current 
+setting) to comply with the USB PD 3.0 PPS specifications. 
+If there is no external load on the USB OTG port and the 
+system is powered by battery-only, the VMIN Active Protection 
+(VAP) feature is supported. In VAP, the VBUS voltage is 
+charged up by the battery and the energy is stored in the 
+input decoupling capacitors. When the system requires peak 
+power spike, the charge stored on the input capacitor 
+discharges to maintain the system voltage at minimum 
+system voltage. 
+Adapter current, battery current and system power are 
+monitored in SGM41570. When the system power is too high 
+and exceeds available power from adapter and battery 
+together, a flexibly programmed nPROCHOT pulse is 
+asserted to inform CPU for throttle back. 
+ 
+ 
+ 
+ 
+
+SMBus NVDC Buck-Boost Charge Controller 
+SGM41570 
+for 1- to 4-Cell Battery 
+ 
+ 
+3 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION  
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM41570 
+TQFN-4×4-32AL 
+-40℃ to +125℃ 
+SGM41570XTSE32G/TR 
+SGM41570 
+XTSE32 
+XXXXX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code. 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Voltage Range (with Respect to GND) 
+SRN, SRP, ACN, ACP, VBUS, VSYS 
+.............. -0.3V to 30V 
+SW1, SW2 .......................................................... -2V to 30V 
+BTST1, BTST2, HIDRV1, HIDRV2, nBATDRV 
+ 
+......................................................................... -0.3V to 36V 
+LODRV1, LODRV2 (25ns) .................................... -4V to 7V 
+HIDRV1, HIDRV2 (25ns)..................................... -4V to 36V 
+SW1, SW2 (25ns) ............................................... -4V to 30V 
+SDA, SCL, REGN, CHRG_OK, OTG/VAP, ILIM_HIZ, VDDA, 
+CELL_BATPRESZ, LODRV1, LODRV2, nPROCHOT, CMPIN, 
+CMPOUT ........................................................... -0.3V to 7V 
+COMP1, COMP2 ............................................ -0.3V to 5.5V 
+IADPT, IBAT, PSYS 
+........................................ -0.3V to 3.6V 
+Differential Voltage Range 
+BTST1-SW1, BTST2-SW2, HIDRV1-SW1, HIDRV2-SW2 
+ 
+........................................................................... -0.3V to 7V 
+SRP-SRN, ACP-ACN 
+...................................... -0.5V to 0.5V 
+Package Thermal Resistance 
+TQFN-4×4-32AL, θJA 
+................................................ 36℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+........................................................................... ±5000V 
+CDM .......................................................................... ±1000V 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+RECOMMENDED OPERATING CONDITIONS 
+Voltage Range (with Respect to GND) 
+ACN, ACP, VBUS 
+................................................. 0V to 24V 
+SRN, SRP, VSYS .............................................. 0V to 19.2V 
+SW1, SW2 
+........................................................... 
+-2V to 24V 
+BTST1, BTST2, HIDRV1, HIDRV2, nBATDRV 
+ ............................................................................. 0V to 30V 
+SDA, 
+SCL, 
+CHRG_OK, 
+COMP1, 
+COMP2, 
+CMPIN, 
+CMPOUT, nPROCHOT 
+ ............................................................................ 0V to 5.3V 
+CELL_BATPRESZ, ILIM_HIZ, LODRV1, LODRV2, VDDA, 
+REGN ..................................................................... 0V to 6V 
+IADPT, IBAT, PSYS ............................................ 0V to 3.3V 
+Differential Voltage Range 
+BTST1-SW1, BTST2-SW2, HIDRV1-SW1, HIDRV2-SW2 
+ ............................................................................... 0V to 6V 
+SRP-SRN, ACP-ACN ...................................... 
+-0.5V to 0.5V 
+Operating Junction Temperature Range 
+...... -40℃ to +125℃ 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+
+SMBus NVDC Buck-Boost Charge Controller 
+SGM41570 
+for 1- to 4-Cell Battery 
+ 
+ 
+4 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+(TOP VIEW) 
+1
+VBUS
+2
+3
+4
+5
+6
+24
+23
+22
+21
+20
+19
+32
+31
+30
+29
+28
+27
+9
+10
+11
+12
+13
+14
+SGM41570
+ACN
+CHRG_OK
+OTG/VAP
+ILIM_HIZ
+HIDRV2
+SW2
+VSYS
+nBATDRV
+SRP
+SRN
+SW1
+HIDRV1
+BTST1
+LODRV1
+REGN
+PGND
+IBAT
+PSYS
+SDA
+SCL
+nPROCHOT
+CMPIN
+ACP
+7
+8
+VDDA
+IADPT
+15
+16
+CMPOUT
+COMP1
+18
+17
+CELL_BATPRESZ
+COMP2
+26
+25
+LODRV2
+BTST2
+EP
+ 
+TQFN-4×4-32AL 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+TYPE (1) 
+FUNCTION 
+1 
+VBUS 
+P 
+Charger Input. Place an RC low pass filter on this pin (R = 1Ω and C ≥ 0.47µF). 
+2 
+ACN 
+P 
+Negative Terminal of the Input Current Sense Resistor. Place an RC low pass filter between this pin and 
+the sense resistor.  
+3 
+ACP 
+P 
+Positive Terminal of the Input Current Sense Resistor. Place an RC low pass filter between this pin and the 
+sense resistor.  
+4 
+CHRG_OK 
+O 
+Active High Open-Drain Good Power Source Status Output. Place a 10kΩ resistor between this pin and 
+pull-up rail. CHRG_OK goes high with no fault (SYS short latch off, SYSOVP, BATOC, ACOC, force latch 
+off, and thermal shutdown) when VBUS voltage rises above VVBUS_CONVEN or falls below VACOV. CHRG_OK 
+goes low when VBUS falls below VVBUS_CONVEN or rises above VACOV or when above fault occurs. 
+5 
+OTG/VAP 
+I 
+OTG or VAP Modes Enable Input (Active High). 
+OTG mode enable: OTG_VAP_MODE bit = 1, EN_OTG bit = 1 and pull this pin to high. 
+VAP mode enable: OTG_VAP_MODE bit = 0, and pull this pin to high. 
+6 
+ILIM_HIZ 
+I 
+Input Current Limit Setting Input. Connect this pin to a resistor divider between supply and ground to set the 
+target input current limit IDPM using the following equation: 
+VILIM_HIZ = 1V + 40 × IDPM × RAC 
+The actual input current limit is the lower setting of ILIM_HIZ pin and IIN_HOST register. The device enters 
+HIZ mode when VILIM_HIZ < 0.6V, and exits HIZ mode when VILIM_HIZ > 0.83V. 
+7 
+VDDA 
+P 
+Internal Reference Bias. Place a 10Ω resistor from REGN to this pin, and place a 1μF ceramic capacitor 
+from this pin to ground. 
+8 
+IADPT 
+O 
+Adapter Current Monitoring Output. VIADPT = 20 or 40 × (VACP - VACN) and 20V/V or 40V/V can be selected in 
+the IADPT_GAIN bit. Place a resistor from this pin to ground according to Inductance Detection through 
+IADPT Pin section. The resistor is 137kΩ when L = 2.2μH. Connect a 100pF or less ceramic decoupling 
+capacitor from this pin to ground. IADPT output voltage is clamped below 3.2V. 
+9 
+IBAT 
+O 
+Battery Current Monitoring Output. The charge current is monitored as VIBAT = 8 or 16 × (VSRP - VSRN), and 
+the discharge current is monitored as VIBAT = 8 or 16 × (VSRN - VSRP). 8V/V or 16V/V can be selected in the 
+IBAT_GAIN bit. Connect a 100pF or less ceramic decoupling capacitor from this pin to ground. IBAT pin 
+can be left floating if not in use and its output voltage is clamped below 3.3V. 
+ 
+ 
+
+SMBus NVDC Buck-Boost Charge Controller 
+SGM41570 
+for 1- to 4-Cell Battery 
+ 
+ 
+5 
+APRIL 2024 
+SG Micro Corp 
+www.sg-micro.com 
+PIN DESCRIPTION (continued) 
+PIN 
+NAME 
+TYPE (1) 
+FUNCTION 
+10 
+PSYS 
+O 
+System Power Monitoring Output (Current Mode). The output current of this pin is proportional to 
+the total power from the adapter and the battery refers to High-Accuracy Power Sense Amplifier 
+(PSYS) section. The gain can be selected by SMBus. Connect a resistor between this pin and 
+ground to generate output voltage. PSYS pin can be left floating if not in use. And its output voltage 
+is clamped below 3.3V.  
+11 
+nPROCHOT 
+O 
+Active Low Open-Drain Processor Hot Indicator Output. The adapter input current, battery 
+discharge current and system voltage are monitored, and a pulse is asserted if any event in the 
+nPROCHOT profile is triggered. The minimum pulse width is adjustable in PROCHOT_WIDTH[1:0] 
+bits. 
+12 
+SDA 
+I/O 
+SMBus Data Signal. Use a 10kΩ pull-up to the logic high rail. 
+13 
+SCL 
+I 
+SMBus Clock Signal. Use a 10kΩ pull-up to the logic high rail. 
+14 
+CMPIN 
+I 
+Independent Comparator Input. The voltage sensed on this pin is compared with internal reference 
+by the independent comparator, and the output of comparator is on CMPOUT pin. The internal 
+reference, output polarity and deglitch time are all selectable in the SMBus host. When CMP_POL 
+bit = 1, the internal hysteresis is determined by the resistor between CMPIN and CMPOUT. When 
+CMP_POL bit = 0, the internal hysteresis is 110mV. Connect this pin to ground if the independent 
+comparator is not in use. 
+15 
+CMPOUT 
+O 
+Open-Drain Independent Comparator Output. Place a resistor between this pin and pull-up supply 
+rail.  
+16 
+COMP1 
+I 
+Buck-Boost Compensation Pin 1. Refer to Figure 2 for the compensation network. 
+17 
+COMP2 
+I 
+Buck-Boost Compensation Pin 2. Refer to Figure 2 for the compensation network. 
+18 
+CELL_BATPRESZ 
+I 
+Battery Cell Selection Input. This pin is biased from VDDA, and sets the SYSOVP thresholds (5V 
+for 1-cell, 12V for 2-cell, and 19.4V for 3-cell/4-cell). When the voltage on this pin is pulled below 
+VCELL_BATPRESZ_FALL, it indicates battery removal. The device exits LEARN mode, the charge current 
+goes back to 0. And the MaxChargeVoltage/MinSystemVoltage register goes to default. 
+19 
+SRN 
+P 
+Negative Input of the Charge Current Sense Resistor. This pin also senses the battery voltage. 
+Place an optional 0.1μF ceramic capacitor from this pin to GND for common-mode noise filtering. 
+Place a 0.1μF ceramic capacitor from SRP to SRN for differential mode noise filtering.  
+20 
+SRP 
+P 
+Positive Input of the Charge Current Sense Resistor. Place an optional 0.1μF ceramic capacitor 
+from this pin to GND for common-mode noise filtering. Place a 0.1μF ceramic capacitor from SRP 
+to SRN for differential mode noise filtering. 
+21 
+nBATDRV 
+O 
+P-Channel BATFET Gate Driver Output. It is shorted to VSYS for turning off the BATFET and goes 
+11V below VSYS for fully on.  
+22 
+VSYS 
+P 
+System Voltage Sensing.  
+23 
+SW2 
+P 
+Boost Mode Switching Node. Connect it to the source of the Boost mode high-side N-channel 
+MOSFET (Q4). 
+24 
+HIDRV2 
+O 
+Boost Mode High-side N-Channel MOSFET (Q4) Driver. Connect it to the gate of Q4. 
+25 
+BTST2 
+P 
+Boost Mode High-side N-Channel MOSFET (Q4) Driver Power Supply. Place a 47nF capacitor 
+between SW2 and BTST2. It is internally connected to the boost-strap diode cathode. 
+26 
+LODRV2 
+O 
+Boost Mode Low-side N-Channel MOSFET (Q3) Driver. Connect it to the gate of Q3. 
+27 
+PGND 
+GND 
+Power Ground. 
+28 
+REGN 
+P 
+5.6V LDO Output. It is supplied from VBUS or VSYS and the LDO is active when VBUS voltage is 
+above VVBUS_CONVEN. A 2.2μF or 3.3μF ceramic capacitor is recommended between this pin and 
+PGND.  
+29 
+LODRV1 
+O 
+Buck Mode Low-side N-Channel MOSFET (Q2) Driver. Connect it to the gate of Q2. 
+30 
+BTST1 
+P 
+Buck Mode High-side N-Channel MOSFET (Q1) Driver Power Supply. Place a 47nF capacitor 
+between SW1 and BTST1. It is internally connected to the boost-strap diode cathode. 
+31 
+HIDRV1 
+O 
+Buck Mode High-side N-Channel MOSFET (Q1) Driver. Connect it to the gate of Q1. 
+32 
+SW1 
+P 
+Buck Mode Switching Node. Connect it to the source of the Buck mode high-side N-channel 
+MOSFET (Q1). 
+Exposed 
+Pad 
+EP 
+‒ 
+Thermal Pad. It is the thermal pad to conduct heat from the device. Tie it externally to the PCB 
+power ground plane. Thermal vias under the pad are needed to conduct the heat to the PCB power 
+ground planes. 
+ 
+NOTE:  
+1. I = Input, O = Output, I/O = Input or Output, P = Power. 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00200.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TQFN-4×4-32AL 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.700 
+0.750 
+0.800 
+A1 
+0.000 
+- 
+0.050 
+A2 
+0.200 REF 
+D 
+3.900 
+4.000 
+4.100 
+E 
+3.900 
+4.000 
+4.100 
+D1 
+2.700 
+2.800 
+2.900 
+E1 
+2.700 
+2.800 
+2.900 
+b 
+0.150 
+0.200 
+0.250 
+e 
+0.400 BSC 
+L 
+0.250 
+0.300 
+0.350 
+ 
+NOTE: This drawing is subject to change without notice. 
+ 
+ 
+ 
+RECOMMENDED LAND PATTERN (Unit: mm)
+0.4
+0.2
+2.8
+2.8
+L
+E1
+D1
+e
+N1
+N32
+A
+A2
+A1
+E
+D
+SIDE VIEW
+BOTTOM VIEW
+TOP VIEW
+ALTERNATE A-2
+ALTERNATE TERMINAL
+CONSTRUCTION
+DETAIL A
+ALTERNATE A-1
+PIN 1#
+DETAIL A
+b
+4.6
+3.4
+0.6
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TQFN-4×4-32AL 
+13″ 
+12.4 
+4.30 
+4.30 
+1.10 
+4.0 
+8.0 
+2.0 
+12.0 
+Q2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

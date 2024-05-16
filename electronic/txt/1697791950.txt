@@ -1,0 +1,1670 @@
+ 
+SGM4553YXET 
+2-Bit Bidirectional Voltage-Level Translator 
+for Open-Drain and Push-Pull Applications 
+ 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+OCTOBER 2023 – REV. A 
+ 
+GENERAL DESCRIPTION 
+The 
+SGM4553YXET 
+is 
+a 
+2-bit, 
+non-inverting, 
+bidirectional voltage-level translator which features two 
+independent configurable power-supply lines. The A 
+and B ports track the VCCA supply and VCCB supply 
+respectively. The supply voltage range is 1.65V to 5.5V 
+for A ports and 2.3V to 5.5V for B ports. The device 
+provides a bidirectional translation function among the 
+different voltage nodes (including 1.8V, 2.5V, 3.3V and 
+5V). 
+The SGM4553YXET has an output enable (OE) 
+function, which controls the inputs and outputs states. 
+When 
+OE 
+goes 
+low, 
+all 
+I/Os 
+enter 
+into 
+the 
+high-impedance state. It is beneficial for reducing 
+quiescent current consumption. When VCCA is powered, 
+OE has an internal pull-down current source. 
+The 
+SGM4553YXET 
+is 
+available 
+in 
+a 
+Green 
+XTDFN-1.35×1-8L package. It operates over an 
+ambient temperature range of -40℃ to +85℃. 
+FEATURES 
+● Power Supply Voltage Ranges (VCCA ≤ VCCB) 
+ A Ports: 1.65V to 5.5V 
+ B Ports: 2.3V to 5.5V 
+● Direction-Control Signal is Not Required 
+● Data Rates 
+ Push-Pull: 24Mbps 
+ Open-Drain: 2Mbps 
+● Support VCCA or VCCB Isolation 
+ When VCCA or VCCB is Low, Device Enters 
+Power-Down Mode 
+● No Specific Power Sequences Required for VCCA 
+and VCCB 
+● Support Power-Down Mode 
+● -40℃ to +85℃ Operating Temperature Range 
+● Available in a Green XTDFN-1.35×1-8L Package 
+ 
+APPLICATIONS 
+Universal Asynchronous Receiver/Transmitter 
+I2C/SMBus Interfaces 
+General Purpose I/O (GPIO) 
+ 
+ 
+TYPICAL APPLICATION 
+SGM4553YXET
+1.8V
+Controller
+I/O
+GND
+GND
+GND
+A1
+B1
+I/O
+3.3V
+Controller
+1.8V
+3.3V
+VCCA
+VCCB
+OE
+A2
+B2
+0.1μF
+0.1μF
+1μF
+1μF
+ 
+Figure 1. Typical Application Circuit 
+ 
+ 
+
+2-Bit Bidirectional Voltage-Level Translator 
+SGM4553YXET 
+for Open-Drain and Push-Pull Applications 
+ 
+ 
+2 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM4553YXET 
+XTDFN-1.35×1-8L 
+-40℃ to +85℃ 
+SGM4553YXET8G/TR 
+2TX 
+Tape and Reel, 5000 
+ 
+MARKING INFORMATION 
+NOTE: X = Date Code.  
+Date Code - Quarter 
+Serial Number
+YY X
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Supply Voltage Range 
+VCCA ................................................................... -0.3V to 6V 
+VCCB ................................................................... -0.3V to 6V 
+Input Voltage Range, VI (1) 
+A Ports, B Ports, OE ............................................ -0.3V to 6V 
+Output Voltage Range for the High-Impedance or Power-Off 
+State, VO (1) 
+A Ports ............................................................... -0.3V to 6V 
+B Ports ............................................................... -0.3V to 6V 
+Output Voltage Range for the High or Low State, VO 
+(1) (2) 
+A Ports ................................................. 
+-0.3V to VCCA + 0.3V 
+B Ports ................................................. 
+-0.3V to VCCB + 0.3V 
+Input Clamp Current, IIK (VI < 0) 
+................................... 
+-50mA 
+Output Clamp Current, IOK (VO < 0) 
+.............................. 
+-50mA 
+Continuous Output Current, IO .................................... ±50mA 
+Continuous Current through VCCA, VCCB, or GND 
+...... ±100mA 
+Package Thermal Resistance 
+XTDFN-1.35×1-8L, θJA 
+........................................... 276℃/W 
+Junction Temperature ................................................. 
++150℃ 
+Storage Temperature Range 
+........................ -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................ 
+.4000V 
+MM 
+................................................................................. 
+300V 
+CDM ............................................................................ 
+1000V 
+ 
+NOTES: 
+1. When the input and output current ratings are observed, 
+the input and I/O negative voltage ratings may be exceeded. 
+2. VCCA and VCCB values are shown in the recommended 
+operating conditions in Electrical Characteristics section. 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Temperature Range ....................... 
+-40℃ to +85℃ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+
+2-Bit Bidirectional Voltage-Level Translator 
+SGM4553YXET 
+for Open-Drain and Push-Pull Applications 
+ 
+ 
+3 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+ 
+(TOP VIEW) 
+VCCA
+A1
+A2
+GND
+OE
+B2
+B1
+VCCB
+4
+3
+2
+8
+5
+6
+7
+1
+ 
+XTDFN-1.35×1-8L 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1 
+VCCA 
+Supply Voltage on A Port. It can be operated from 1.65V to 5.5V, and VCCA is always ≤ VCCB. 
+2 
+A1 
+Channel 1 Input/Output A. It tracks the VCCA supply. 
+3 
+A2 
+Channel 2 Input/Output A. It tracks the VCCA supply. 
+4 
+GND 
+Ground. 
+5 
+OE 
+Output Enable Control Pin. Active high. When OE goes low, all outputs enter into the 
+high-impedance state. It tracks the VCCA supply. 
+6 
+B2 
+Channel 2 Input/Output B. It tracks the VCCB supply. 
+7 
+B1 
+Channel 1 Input/Output B. It tracks the VCCB supply. 
+8 
+VCCB 
+Supply Voltage on B Port. It can be operated from 2.3V to 5.5V. 
+ 
+ 
+ 
+
+2-Bit Bidirectional Voltage-Level Translator 
+SGM4553YXET 
+for Open-Drain and Push-Pull Applications 
+ 
+ 
+4 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VCCA = 1.65V to 5.5V, VCCB = 2.3V to 5.5V, TA = -40℃ to +85℃, typical values are at TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Recommended Operating Conditions (1) (2) 
+Supply Voltage (3) 
+VCCA 
+ 
+1.65 
+ 
+5.5 
+V 
+VCCB 
+ 
+2.3 
+ 
+5.5 
+High-Level Input 
+Voltage 
+A Port I/Os 
+VIH 
+VCCA = 1.65V to 1.95V, VCCB = 2.3V to 5.5V 
+VCCI - 0.2 
+ 
+VCCI 
+V 
+VCCA = 2.3V to 5.5V, VCCB = 2.3V to 5.5V 
+VCCI - 0.4 
+ 
+VCCI 
+B Port I/Os 
+ 
+VCCI - 0.4 
+ 
+VCCI 
+OE Input 
+ 
+VCCA × 0.8 
+ 
+5.5 
+Low-Level Input 
+Voltage 
+A Port I/Os 
+VIL 
+ 
+0 
+ 
+0.15 
+V 
+B Port I/Os 
+ 
+0 
+ 
+0.15 
+OE Input 
+ 
+0 
+ 
+VCCA × 0.25 
+Input Transition Rise or Fall Rate 
+Δt/ΔV 
+A port I/Os push-pull driving 
+ 
+ 
+10 
+ns/V 
+B port I/Os push-pull driving 
+ 
+ 
+10 
+Control input 
+ 
+ 
+10 
+Electrical Characteristics 
+A Ports High Level Output Voltage 
+VOHA 
+IOH = -20µA, VIB ≥ VCCB - 0.4V 
+VCCA × 0.7 
+ 
+ 
+V 
+A Ports Low Level Output Voltage 
+VOLA 
+IOL = 1mA, VIB ≤ 0.15V 
+ 
+ 
+0.4 
+B Ports High Level Output Voltage 
+VOHB 
+IOH = -20µA, VIA ≥ VCCA - 0.4V 
+VCCB × 0.7 
+ 
+ 
+B Ports Low Level Output Voltage 
+VOLB 
+IOL = 1mA, VIA ≤ 0.15V 
+ 
+ 
+0.4 
+Input Leakage 
+Current 
+OE 
+II 
+TA = +25℃ 
+ 
+ 
+±1 
+μA 
+TA = -40℃ to +85℃ 
+ 
+ 
+±1.5 
+Power-Off Leakage 
+Current 
+A Ports 
+IOFF 
+VCCA = 0V,  
+VCCB = 0V to 5.5V 
+TA = +25℃ 
+ 
+ 
+±0.5 
+μA 
+TA = -40℃ to +85℃ 
+ 
+ 
+±1 
+B Ports 
+VCCA = 0V to 5.5V, 
+VCCB = 0V 
+TA = +25℃ 
+ 
+ 
+±0.5 
+TA = -40℃ to +85℃ 
+ 
+ 
+±1 
+3-State Output 
+Leakage 
+A or B Ports 
+IOZ 
+OE = 0V 
+TA = +25℃ 
+ 
+ 
+±0.6 
+μA 
+TA = -40℃ to +85℃ 
+ 
+ 
+±1 
+NOTES: 
+1. VCCI is the supply voltage associated with the input ports. 
+2. VCCO is the supply voltage associated with the output ports. 
+3. Ensure that VCCA ≤ VCCB and VCCA must not exceed 5.5V. 
+ 
+ 
+
+2-Bit Bidirectional Voltage-Level Translator 
+SGM4553YXET 
+for Open-Drain and Push-Pull Applications 
+ 
+ 
+5 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(VCCA = 1.65V to 5.5V, VCCB = 2.3V to 5.5V, TA = -40℃ to +85℃, typical values are at TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Quiescent Supply Current 
+ICCA 
+VI = VO = OPEN, 
+IO = 0A 
+VCCA = 1.65V to VCCB, 
+VCCB = 2.3V to 5.5V 
+ 
+ 
+5.5 
+μA 
+VCCA = 5.5V, VCCB = 0V 
+ 
+ 
+5.5 
+VCCA = 0V, VCCB = 5.5V 
+ 
+ 
+-1 
+ICCB 
+VI = VO = OPEN, 
+IO = 0A 
+VCCA = 1.65V to VCCB, 
+VCCB = 2.3V to 5.5V 
+ 
+ 
+15 
+μA 
+VCCA = 5.5V, VCCB = 0V 
+ 
+ 
+-1 
+VCCA = 0V, VCCB = 5.5V 
+ 
+ 
+6 
+ICCA + ICCB 
+VI = VO = OPEN, 
+IO = 0A 
+VCCA = 1.65V to VCCB, 
+VCCB = 2.3V to 5.5V 
+ 
+ 
+20 
+μA 
+ICCZA 
+VI = VCCI or 0V,  
+IO = 0A, OE = 0V 
+VCCA = 1.65V to VCCB, 
+VCCB = 2.3V to 5.5V 
+ 
+ 
+5.5 
+μA 
+ICCZB 
+VI = VCCI or 0V,  
+IO = 0A, OE = 0V 
+VCCA = 1.65V to VCCB, 
+VCCB = 2.3V to 5.5V 
+ 
+ 
+5.5 
+μA 
+OE Input Capacitance 
+CI 
+VCCA = 3.3V, VCCB = 3.3V 
+ 
+4 
+ 
+pF 
+Input/Output 
+Capacitance 
+A Ports 
+CIO 
+VCCA = 3.3V, VCCB = 3.3V 
+ 
+5 
+ 
+pF 
+B Ports 
+ 
+5 
+ 
+ 
+ 
+
+2-Bit Bidirectional Voltage-Level Translator 
+SGM4553YXET 
+for Open-Drain and Push-Pull Applications 
+ 
+ 
+6 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TIMING REQUIREMENTS 
+(TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+VCCB = 2.5V 
+VCCB = 3.3V 
+VCCB = 5V 
+UNITS 
+TYP 
+TYP 
+TYP 
+(VCCA = 1.8V) 
+Data Rate 
+ 
+Push-pull driving 
+21 
+22 
+24 
+Mbps 
+Open-drain driving 
+2 
+2 
+2 
+Pulse Duration 
+(Data Inputs) 
+tW 
+Push-pull driving 
+47 
+45 
+41 
+ns 
+Open-drain driving 
+500 
+500 
+500 
+(VCCA = 2.5V) 
+Data Rate 
+ 
+Push-pull driving 
+20 
+22 
+24 
+Mbps 
+Open-drain driving 
+2 
+2 
+2 
+Pulse Duration 
+(Data Inputs) 
+tW 
+Push-pull driving 
+50 
+45 
+41 
+ns 
+Open-drain driving 
+500 
+500 
+500 
+(VCCA = 3.3V) 
+Data Rate 
+ 
+Push-pull driving 
+ 
+23 
+24 
+Mbps 
+Open-drain driving 
+ 
+2 
+2 
+Pulse Duration 
+(Data Inputs) 
+tW 
+Push-pull driving 
+ 
+43 
+41 
+ns 
+Open-drain driving 
+ 
+500 
+500 
+(VCCA = 5V) 
+Data Rate 
+ 
+Push-pull driving 
+ 
+ 
+24 
+Mbps 
+Open-drain driving 
+ 
+ 
+2 
+Pulse Duration 
+(Data Inputs) 
+tW 
+Push-pull driving 
+ 
+ 
+41 
+ns 
+Open-drain driving 
+ 
+ 
+500 
+ 
+ 
+ 
+
+2-Bit Bidirectional Voltage-Level Translator 
+SGM4553YXET 
+for Open-Drain and Push-Pull Applications 
+ 
+ 
+7 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+SWITCHING CHARACTERISTICS 
+(VCCA = 1.8V, TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+VCCB = 2.5V 
+VCCB = 3.3V 
+VCCB = 5V 
+UNITS 
+TYP 
+TYP 
+TYP 
+Propagation Delay 
+tPHL 
+A to B 
+Push-pull driving 
+2.4 
+3.0 
+4.3 
+ns 
+Open-drain driving 
+26.0 
+26.3 
+26.7 
+tPLH 
+Push-pull driving 
+4.0 
+3.6 
+3.5 
+Open-drain driving 
+175 
+145 
+110 
+tPHL 
+B to A 
+Push-pull driving 
+2.0 
+1.9 
+2.1 
+ns 
+Open-drain driving 
+26.0 
+26.1 
+26.2 
+tPLH 
+Push-pull driving 
+1.7 
+1.5 
+1.4 
+Open-drain driving 
+133 
+69 
+51 
+Enable Time 
+tEN (tPZH & tPZL) OE to A or B 
+24 
+20 
+18 
+ns 
+Disable Time 
+tDIS (tPHZ & tPLZ) OE to A or B 
+1200 
+1200 
+1200 
+ns 
+Rise Time 
+trA 
+A Ports 
+Push-pull driving 
+6.6 
+5.8 
+5.4 
+ns 
+Open-drain driving 
+89 
+31 
+10 
+trB 
+B Ports 
+Push-pull driving 
+5.6 
+4.6 
+3.9 
+ns 
+Open-drain driving 
+128 
+98 
+58 
+Fall Time 
+tfA 
+A Ports 
+Push-pull driving 
+2.9 
+2.7 
+2.6 
+ns 
+Open-drain driving 
+1.9 
+1.7 
+1.6 
+tfB 
+B Ports 
+Push-pull driving 
+4.6 
+5.9 
+8.0 
+ns 
+Open-drain driving 
+2.2 
+2.3 
+2.9 
+Channel-to-Channel 
+Skew 
+tSKO 
+ 
+0.5 
+0.5 
+0.5 
+ns 
+Data Rate 
+ 
+Push-pull driving 
+21 
+22 
+24 
+Mbps 
+Open-drain driving 
+2 
+2 
+2 
+ 
+ 
+ 
+
+2-Bit Bidirectional Voltage-Level Translator 
+SGM4553YXET 
+for Open-Drain and Push-Pull Applications 
+ 
+ 
+8 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+SWITCHING CHARACTERISTICS (continued) 
+(VCCA = 2.5V, TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+VCCB = 2.5V 
+VCCB = 3.3V 
+VCCB = 5V 
+UNITS 
+TYP 
+TYP 
+TYP 
+Propagation Delay 
+tPHL 
+A to B 
+Push-pull driving 
+2.7 
+3.3 
+4.8 
+ns 
+Open-drain driving 
+26.2 
+26.4 
+26.7 
+tPLH 
+Push-pull driving 
+2.6 
+2.4 
+2.3 
+Open-drain driving 
+169 
+144 
+110 
+tPHL 
+B to A 
+Push-pull driving 
+2.4 
+2.3 
+2.4 
+ns 
+Open-drain driving 
+26.3 
+26.4 
+26.5 
+tPLH 
+Push-pull driving 
+2.0 
+1.9 
+1.8 
+Open-drain driving 
+165 
+118 
+55 
+Enable Time 
+tEN (tPZH & tPZL) OE to A or B 
+23 
+19 
+16 
+ns 
+Disable Time 
+tDIS (tPHZ & tPLZ) OE to A or B 
+1200 
+1200 
+1200 
+ns 
+Rise Time 
+trA 
+A Ports 
+Push-pull driving 
+3.2 
+2.8 
+2.6 
+ns 
+Open-drain driving 
+120 
+70 
+10 
+trB 
+B Ports 
+Push-pull driving 
+4.5 
+3.4 
+2.6 
+ns 
+Open-drain driving 
+122 
+96 
+62 
+Fall Time 
+tfA 
+A Ports 
+Push-pull driving 
+4.9 
+5.0 
+4.8 
+ns 
+Open-drain driving 
+2.0 
+1.9 
+1.7 
+tfB 
+B Ports  
+Push-pull driving 
+4.8 
+6.1 
+8.3 
+ns 
+Open-drain driving 
+1.9 
+2.1 
+2.7 
+Channel-to-Channel 
+Skew 
+tSKO 
+ 
+0.5 
+0.5 
+0.5 
+ns 
+Data Rate 
+ 
+Push-pull driving 
+20 
+22 
+24 
+Mbps 
+Open-drain driving 
+2 
+2 
+2 
+ 
+ 
+
+2-Bit Bidirectional Voltage-Level Translator 
+SGM4553YXET 
+for Open-Drain and Push-Pull Applications 
+ 
+ 
+9 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+SWITCHING CHARACTERISTICS (continued) 
+(VCCA = 3.3V, TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+VCCB = 3.3V 
+VCCB = 5V 
+UNITS 
+TYP 
+TYP 
+Propagation Delay 
+tPHL 
+A to B 
+Push-pull driving 
+3.5 
+4.9 
+ns 
+Open-drain driving 
+26.3 
+26.7 
+tPLH 
+Push-pull driving 
+2.2 
+2.0 
+Open-drain driving 
+133 
+104 
+tPHL 
+B to A 
+Push-pull driving 
+3.0 
+3.2 
+ns 
+Open-drain driving 
+26.6 
+26.8 
+tPLH 
+Push-pull driving 
+1.8 
+1.7 
+Open-drain driving 
+132 
+83 
+Enable Time 
+tEN (tPZH & tPZL) OE to A or B 
+18 
+15 
+ns 
+Disable Time 
+tDIS (tPHZ & tPLZ) OE to A or B 
+1200 
+1200 
+ns 
+Rise Time 
+trA 
+A Ports 
+Push-pull driving 
+2.2 
+2.0 
+ns 
+Open-drain driving 
+87 
+36 
+trB 
+B Ports 
+Push-pull driving 
+2.9 
+2.3 
+ns 
+Open-drain driving 
+87 
+56 
+Fall Time 
+tfA 
+A Ports 
+Push-pull driving 
+6.2 
+5.8 
+ns 
+Open-drain driving 
+2.3 
+2.0 
+tfB 
+B Ports 
+Push-pull driving 
+6.5 
+8.2 
+ns 
+Open-drain driving 
+2.0 
+2.5 
+Channel-to-Channel 
+Skew 
+tSKO 
+ 
+0.5 
+0.5 
+ns 
+Data Rate 
+ 
+Push-pull driving 
+23 
+24 
+Mbps 
+Open-drain driving 
+2 
+2 
+ 
+ 
+
+2-Bit Bidirectional Voltage-Level Translator 
+SGM4553YXET 
+for Open-Drain and Push-Pull Applications 
+ 
+ 
+10 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+SWITCHING CHARACTERISTICS (continued) 
+(VCCA = 5V, TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+VCCB = 5V 
+UNITS 
+TYP 
+Propagation Delay 
+tPHL 
+A to B 
+Push-pull driving 
+5.4 
+ns 
+Open-drain driving 
+26.7 
+tPLH 
+Push-pull driving 
+1.9 
+Open-drain driving 
+120 
+tPHL 
+B to A 
+Push-pull driving 
+5.6 
+ns 
+Open-drain driving 
+27.3 
+tPLH 
+Push-pull driving 
+1.7 
+Open-drain driving 
+126 
+Enable Time 
+tEN (tPZH & tPZL) OE to A or B 
+16 
+ns 
+Disable Time 
+tDIS (tPHZ & tPLZ) OE to A or B 
+1200 
+ns 
+Rise Time 
+trA 
+A Ports  
+Push-pull driving 
+1.8 
+ns 
+Open-drain driving 
+79 
+trB 
+B Ports 
+Push-pull driving 
+2.2 
+ns 
+Open-drain driving 
+73 
+Fall Time 
+tfA 
+A Ports  
+Push-pull driving 
+8.7 
+ns 
+Open-drain driving 
+2.7 
+tfB 
+B Ports  
+Push-pull driving 
+8.6 
+ns 
+Open-drain driving 
+2.4 
+Channel-to-Channel 
+Skew 
+tSKO 
+ 
+0.5 
+ns 
+Data Rate 
+ 
+Push-pull driving 
+24 
+Mbps 
+Open-drain driving 
+2 
+ 
+ 
+
+2-Bit Bidirectional Voltage-Level Translator 
+SGM4553YXET 
+for Open-Drain and Push-Pull Applications 
+ 
+ 
+11 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+WAVEFORMS 
+Input
+50% VCCO
+50% VCCI
+tPLH
+Output
+tPHL
+ 
+ 
+Figure 2. Propagation Delay 
+ 
+ 
+ 
+ 
+ 
+tW
+VCCI
+0V
+Input
+VCCI/2
+VCCI/2
+ 
+ 
+ 
+ 
+Figure 3. Pulse Duration 
+ 
+ 
+ 
+ 
+ 
+ 
+Output
+10% VCCO
+90% VCCO
+tR
+tF
+ 
+ 
+ 
+Figure 4. Rise Time and Fall Time of Data Output 
+ 
+tPZL
+0.1 × VCCO
+tPZH
+VCCA/2
+VCCA
+VCCA/2
+tPLZ
+tPHZ
+VCCO
+0V
+VOL
+VOH
+0V
+OE Control
+Output Waveform A (1)
+VEXT at 2 × VCCO
+Output Waveform B (1)
+VEXT Open
+VCCO/2
+0.9 × VCCO
+VOH/2
+ 
+ 
+NOTE: 
+1. Waveform A indicates an output that is high except for OE 
+is high. Waveform B indicates an output that is low except for 
+OE is high. 
+Figure 5. Enable and Disable Times 
+ 
+ 
+ 
+
+2-Bit Bidirectional Voltage-Level Translator 
+SGM4553YXET 
+for Open-Drain and Push-Pull Applications 
+ 
+ 
+12 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+TEST CIRCUIT 
+SGM4553YXET
+VI
+VO
+CL
+RL
+VCCO
+VCCI
+RL
+VEXT
+ 
+ 
+Definitions for test circuit:  
+RL = Load resistance.  
+CL = Load capacitance includes jig and probe capacitance.  
+VEXT = External voltage for measuring switching times. 
+VCCI = Supply voltage associated with the input. 
+VCCO = Supply voltage associated with the output. 
+ 
+Figure 6. Test Circuit for Measuring Switching Times 
+ 
+ 
+
+2-Bit Bidirectional Voltage-Level Translator 
+SGM4553YXET 
+for Open-Drain and Push-Pull Applications 
+ 
+ 
+13 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+Applications 
+The SGM4553YXET is a bridge between two digital systems 
+with different power supplies as it can transmit the signal 
+transparently. For the application of the SGM4553YXET, the 
+output driver is open-drain or push-pull to drive the I2C or 
+one-wire bus. In addition, if a device with push-pull driver is 
+connected to the I/O pin of the SGM4553YXET, it will operate as 
+normal. 
+ 
+Architecture 
+The SGM4553YXET can switch the direction of the 
+transmission for port A and port B automatically without any 
+external control. 
+There is no need to add an external direction control for the 
+application of the SGM4553YXET. Also, each I/O pin can be 
+an input or output of the voltage translator. 
+ 
+One-Shot
+One-Shot
+Gate Bias
+VCCA
+VCCB
+T1
+T2
+R1
+10kΩ
+A
+B
+NMOS
+R2
+10kΩ
+ 
+Figure 7. Architecture of an SGM4553YXET Cell 
+ 
+The explanation of two main parts of the internal circuit for the 
+SGM4553YXET is shown as below: 
+ There is an NMOS between port A and port B to switch on 
+or off the transmission. 
+ The one-shot accelerator can be used to accelerate the 
+rising edges of the signal for port A and port B 
+automatically. 
+ 
+Input Driver Requirements 
+The falling time of port A and port B and tPHL depend on the 
+output impedance of the connected device. The values of 
+parameters which are tfA, tfB, tPHL and data rates are specified 
+when the resistance of external driver is less than 50Ω. 
+Power-Up 
+For the application of the SGM4553YXET, the VCCA should be 
+less than VCCB. However, it does not matter if the power 
+supply voltage is ramping, and the sequence of power-up for 
+both VCCA and VCCB is not defined.  
+ 
+Output Load Considerations 
+To decrease the extend of capacitive loading and ensure the 
+proper triggering of O.S., the trace in PCB should be as short 
+as possible. Also, to ensure that the round-trip reflection delay 
+is smaller than the time period of one-shot, the users should 
+also decrease the length of trace, which means that the signal 
+integrity is guaranteed because of the low impedance for the 
+reflection. The period of on-state for the O.S. part is 30ns. In 
+addition, for the one-shot circuit, it can support lumped 
+capacitive load. In addition, the one-shot circuit has the 
+time-out function, which aims to handle the extremely heavy 
+capacitive load. For the function of O.S. part of the 
+SGM4553YXET, it can optimize the trade-off between the 
+capability of load driving, maximum bit-rate and dynamic 
+supply current. The length of PCB trace and output 
+connectors will be considered as the capacitive load of the 
+device, which may result in the retriggering of O.S., 
+contention of bus and the oscillations of the output. 
+ 
+Enable and Disable 
+The function of OE is used to disable SGM4553YXET by 
+setting the transmitting I/O pins to high-impedance mode. The 
+pull-down current source is integrated inside OE once it is 
+powered by VCCA. The definition of disable time (tDIS) is the 
+time period between OE goes low and when all of the I/O pins 
+are in high-impedance mode. The enable time (tEN) is defined 
+as the time period between OE goes to high position and 
+one-shot part starts to operate. 
+ 
+Pull-Up or Pull-Down Resistors on I/O Lines 
+For the I/O pin of A and B side, there is a 10kΩ pull-up resistor 
+to provide a high position for each I/O pin. However, if a 
+smaller pull-up resistor is required, the users can add an 
+external resistor which is parallel with the 10kΩ resistor. Also, 
+the value of VOL can be affected by the added external 
+resistor. In addition, if the user wants to disable the device, 
+the OE pin can be simply set to low position. 
+ 
+ 
+ 
+ 
+
+2-Bit Bidirectional Voltage-Level Translator 
+SGM4553YXET 
+for Open-Drain and Push-Pull Applications 
+ 
+ 
+14 
+OCTOBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+Changes from Original (OCTOBER 2023) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00224.001 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+XTDFN-1.35×1-8L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+- 
+0.310 
+0.330 
+A1 
+0.000 
+- 
+0.050 
+A2 
+0.100 REF 
+D 
+1.250 
+1.350 
+1.450 
+E 
+0.900 
+1.000 
+1.100 
+b 
+0.110 
+0.160 
+0.210 
+e 
+0.350 BSC 
+L 
+0.250 
+0.300 
+0.350 
+L1 
+0.300 
+0.350 
+0.400 
+L2 
+0.075 REF 
+eee 
+- 
+0.050 
+- 
+ 
+NOTE: This drawing is subject to change without notice.
+ 
+ 
+TOP VIEW
+BOTTOM VIEW
+RECOMMENDED LAND PATTERN (Unit: mm)
+A
+SIDE VIEW
+A2
+A1
+PIN 1 #
+e
+E
+N1
+N8
+b
+D
+0.30
+0.35
+0.35
+0.16
+L
+L1
+L2
+0.85
+C
+SEATING PLANE
+eee C
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+XTDFN-1.35×1-8L 
+7″ 
+9.5 
+1.21 
+1.51 
+0.39 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 

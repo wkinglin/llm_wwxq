@@ -1,0 +1,878 @@
+ 
+SGM9135 
+4-Channel, 6th-Order Video 
+Filter Driver for SD/HD (1080p) 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+MARCH 2015 –REV. A. 3 
+GENERAL DESCRIPTION 
+The SGM9135 is a 4-channel, 6th-order output 
+reconstruction filter which can operate from 3.1V to 
+5.5V single power supply. It is designed to replace 
+passive LC filters and drivers with an integrated device. 
+One channel is Standard Definition (SD) filter while the 
+rest three channels are Definition (HDp) filters. 
+The device allows DC- or AC-coupled output. 
+SGM9135 can be DC-coupled or AC-coupled with input 
+video signal to eliminate out-of-band noise, such as the 
+output stage of DAC. Internal clamp circuitry may be 
+used if AC-coupled inputs are required. 
+The SGM9135 is available in a Green MSOP-10 
+(Exposed Pad) package. It operates over an ambient 
+temperature range of -40℃ to +85℃. 
+ 
+FEATURES 
+● Supply Voltage Range: 3.1V to 5.5V 
+● Three 6th-Order 1080p High Definition Filters 
+● One 6th-Order Standard Definition Filter 
+● Clamp Mode Active with AC-Coupled Inputs 
+● Clamp Mode Inactive with DC-Coupled Inputs 
+● AC- or DC-Coupled Outputs 
+● DC-Coupled Outputs Eliminate AC-Coupled  
+Capacitors 
+● -40℃ to +85℃ Operating Temperature Range 
+● Available in a Green MSOP-10 (Exposed Pad) 
+Package 
+ 
+APPLICATIONS 
+Video Recorders 
+Video on Demand (VOD) 
+Cable and Satellite Set-Top Boxes 
+Portable and Handheld Products 
+Communication Devices 
+TVs 
+BLOCK DIAGRAM 
+Clamp
+SD IN1
+SD OUT1
+6dB
+Clamp
+HD IN2
+HD OUT2
+6dB
+Clamp
+HD IN3
+HD OUT3
+6dB
+Clamp
+HD IN4
+HD OUT4
+6dB
+SD, 6th-Order
+1080p, 6th-Order
+ 
+ 
+ 
+
+4-Channel, 6th-Order Video 
+SGM9135 
+Filter Driver for SD/HD (1080p) 
+ 
+ 
+2 
+MARCH 2015 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM9135 
+MSOP-10 
+(Exposed Pad) 
+-40℃ to +85℃ 
+SGM9135YPMS10G/TR 
+SGM9135 
+YPMS10 
+XXXXX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code and Vendor Code. 
+Date Code - Week
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+Input Voltage 
+................................. GND - 0.3V to VCC + 0.3V 
+Supply Voltage, VCC 
+....................................................... 6.0V 
+Junction Temperature .................................................. 150℃ 
+Storage Temperature Range 
+........................ -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................. 260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................ 8000V 
+MM 
+................................................................................ 400V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Voltage Range................................... 3.1V to 5.5V 
+Operating Temperature Range ...................... -40℃ to +85℃ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+
+4-Channel, 6th-Order Video 
+SGM9135 
+Filter Driver for SD/HD (1080p) 
+ 
+ 
+3 
+MARCH 2015 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+(TOP VIEW) 
+   
+6
+7
+4
+5
+HD IN2
+HD OUT3
+HD OUT2
+1
+2
+3
+10
+9
+8
+SD IN
+VCC
+HD IN1
+HD IN3
+HD OUT1
+SD OUT
+GND
+Exposed
+Pad
+ 
+MSOP-10 (Exposed Pad) 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1 
+SD IN 
+SD Video Input. 
+2 
+VCC 
+Power Supply. 
+3 
+HD IN1 
+HD Video Input for Channel 1. 
+4 
+HD IN2 
+HD Video Input for Channel 2. 
+5 
+HD IN3 
+HD Video Input for Channel 3. 
+6 
+HD OUT3 
+Filtered HD Video Output for Channel 3. 
+7 
+HD OUT2 
+Filtered HD Video Output for Channel 2. 
+8 
+HD OUT1 
+Filtered HD Video Output for Channel 1. 
+9 
+GND 
+Ground. 
+10 
+SD OUT 
+Filtered SD Video Output. 
+Exposed Pad 
+— 
+Exposed Pad. Can only be connected to GND or left floating. 
+ 
+ 
+
+4-Channel, 6th-Order Video 
+SGM9135 
+Filter Driver for SD/HD (1080p) 
+ 
+ 
+4 
+MARCH 2015 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(TA = +25℃, VIN = 1VPP, VCC = 5V, RSOURCE = 37.5Ω; all inputs are AC-coupled with 0.1µF; all outputs are AC-coupled with 220µF 
+into 150Ω, referenced to 400kHz, unless otherwise noted.) 
+PARAMETER 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+DC Electrical Characteristics 
+Operating Voltage Range (VCC) 
+ 
+3.1 
+5 
+5.5 
+V 
+Quiescent Current (IQ) 
+VCC = 5.0V, No load 
+ 
+75 
+96 
+mA 
+Output Level Shift Voltage (VOLS) 
+VIN = 0V, No load 
+SD channel 
+ 
+420 
+550 
+mV 
+1080p channel 
+ 
+550 
+700 
+Voltage Gain (AV) 
+RL = 150Ω 
+5.8 
+6.1 
+6.35 
+dB 
+Output Voltage High Swing 
+VIN = 3V, RL = 150Ω to GND 
+ 
+4.8 
+ 
+V 
+Video Input Voltage Range 
+Referenced to GND if DC-coupled 
+ 
+1.4 
+ 
+VPP 
+Power Supply Rejection Ratio (PSRR) 
+DC (All channels) 
+ 
+50 
+ 
+dB 
+Standard Definition Mode Electrical Characteristics 
+-0.1dB Bandwidth 
+SD channel 
+ 
+6.4 
+ 
+MHz 
+-1dB Bandwidth 
+SD channel 
+ 
+7.6 
+ 
+MHz 
+-3dB Bandwidth 
+SD channel 
+ 
+8.5 
+ 
+MHz 
+Filter Response (Normalized Gain) 
+SD channel, fIN = 400kHz to 27MHz 
+ 
+50 
+ 
+dB 
+Slew Rate 
+2V Output step, 80% to 20% 
+ 
+34 
+ 
+V/μs 
+Differential Gain (DG) 
+AC-AC coupled, PAL 
+ 
+0.5 
+ 
+% 
+AC-DC coupled, PAL 
+ 
+0.4 
+ 
+Differential Phase (DP) 
+AC-AC coupled, PAL 
+ 
+1.0 
+ 
+deg 
+AC-DC coupled, PAL 
+ 
+1.0 
+ 
+Group Delay Variation (D/DT) 
+Difference between 400kHz and 6.5MHz 
+ 
+35 
+ 
+ns 
+Crosstalk (channel-to-channel) 
+VOUT = 1.4VPP, f = 1MHz 
+ 
+-63 
+ 
+dB 
+Signal-to-Noise Ratio (SNR) 
+100kHz to 5MHz 
+ 
+-66 
+ 
+dB 
+Fall Time 
+2V Output step, 80% to 20% 
+ 
+34 
+ 
+ns 
+Rise Time 
+2V Output step, 80% to 20% 
+ 
+36 
+ 
+ns 
+Chroma Luma Gain (CLGSD) 
+f = 3.58MHz (Referenced to SDIN at 400kHz) 
+ 
+102 
+ 
+% 
+Chroma Luma Delay (CLDSD) 
+f = 3.58MHz (Referenced to SDIN at 400kHz) 
+ 
+8 
+ 
+ns 
+1080p High Definition Mode Electrical Characteristics 
+-0.1dB Bandwidth 
+RL = 150Ω 
+ 
+78 
+ 
+MHz 
+-1dB Bandwidth 
+RL = 150Ω 
+ 
+86 
+ 
+MHz 
+-3dB Bandwidth 
+RL = 150Ω 
+ 
+98 
+ 
+MHz 
+Filter Response (Normalized Gain) 
+fIN = 400kHz to 148MHz 
+ 
+21 
+ 
+dB 
+Slew Rate 
+2V Output step, 80% to 20% 
+ 
+340 
+ 
+V/μs 
+Group Delay Variation (D/DT) 
+Difference between 400kHz and 70MHz 
+ 
+5.3 
+ 
+ns 
+Crosstalk (channel-to-channel) 
+VOUT = 1.4VPP, f = 1MHz 
+ 
+-64 
+ 
+dB 
+Fall Time 
+2V Output step, 80% to 20% 
+ 
+3.3 
+ 
+ns 
+Rise Time 
+2V Output step, 80% to 20% 
+ 
+3.6 
+ 
+ns 
+ 
+ 
+
+4-Channel, 6th-Order Video 
+SGM9135 
+Filter Driver for SD/HD (1080p) 
+ 
+ 
+5 
+MARCH 2015 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+TA = +25℃, VIN = 1VPP, VCC = 5V, RSOURCE = 37.5Ω; all inputs are AC-coupled with 0.1µF; all outputs are AC-coupled with 220µF 
+into 150Ω, referenced to 400kHz, unless otherwise noted. 
+ 
+ 
+ SD Gain vs. Frequency
+-15
+-12
+-9
+-6
+-3
+0
+3
+0.1
+1
+10
+100
+Frequency (MHz)
+Normalized Gain (dB)
+ 
+1080p Gain vs. Frequency
+-15
+-12
+-9
+-6
+-3
+0
+3
+0.1
+1
+10
+100
+1000
+Frequency (MHz)
+Normalized Gain (dB)
+ 
+ 
+ 
+SD Group Delay vs. Frequency
+-40
+0
+40
+80
+120
+160
+0.1
+1
+10
+100
+Frequency (MHz)
+Group Delay (ns)
+ 
+1080p Group Delay vs. Frequency
+-5
+3
+11
+19
+27
+35
+0.1
+1
+10
+100
+1000
+Frequency (MHz)
+Group Delay (ns)
+ 
+SD Large Signal Step Response
+-1.50
+-1.00
+-0.50
+0.00
+0.50
+1.00
+1.50
+-0.35
+-0.15
+0.05
+0.25
+0.45
+0.65
+0.85
+Time (µs)
+Output Voltage (V)
+ 
+1080p Large Signal Step Response
+-1.50
+-1.00
+-0.50
+0.00
+0.50
+1.00
+1.50
+-0.35
+-0.15
+0.05
+0.25
+0.45
+0.65
+0.85
+Time (µs)
+Output Voltage (V)
+ 
+ 
+ 
+
+4-Channel, 6th-Order Video 
+SGM9135 
+Filter Driver for SD/HD (1080p) 
+ 
+ 
+6 
+MARCH 2015 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+TA = +25℃, VIN = 1VPP, VCC = 5V, RSOURCE = 37.5Ω; all inputs are AC-coupled with 0.1µF; all outputs are AC-coupled with 220µF 
+into 150Ω, referenced to 400kHz, unless otherwise noted. 
+ 
+ 
+SD Small Signal Step Response
+-0.15
+-0.10
+-0.05
+0.00
+0.05
+0.10
+0.15
+-0.35
+-0.15
+0.05
+0.25
+0.45
+0.65
+0.85
+Time (μs)
+Output Voltage (V)
+VIN = 0.1VPP
+ 
+1080p Small Signal Step Response
+-0.15
+-0.10
+-0.05
+0.00
+0.05
+0.10
+0.15
+-0.35
+-0.15
+0.05
+0.25
+0.45
+0.65
+0.85
+Time (μs)
+Output Voltage (V)
+VIN = 0.1VPP
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00017.001 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+MSOP-10 (Exposed Pad) 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.820 
+- 
+1.100 
+A1 
+0.020 
+- 
+0.150 
+A2 
+0.750 
+- 
+0.950 
+b 
+0.170 
+- 
+0.280 
+c 
+0.080 
+- 
+0.230 
+D 
+2.900 
+- 
+3.100 
+D1 
+1.700 
+- 
+2.416 
+E 
+2.900 
+- 
+3.100 
+E1 
+4.750 
+- 
+5.050 
+E2 
+1.450 
+- 
+1.730 
+e 
+0.500 BSC 
+L 
+0.400 
+- 
+0.800 
+θ 
+0° 
+- 
+8° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+b
+E1
+E
+e
+D
+A1
+L
+c
+A
+A2
+θ
+4.8
+0.5
+0.3
+1.02
+RECOMMENDED LAND PATTERN (Unit: mm)
+D1
+E2
+2.06
+1.59
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+MSOP-10 
+(Exposed Pad) 
+13″ 
+12.4 
+5.20 
+3.30 
+1.20 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

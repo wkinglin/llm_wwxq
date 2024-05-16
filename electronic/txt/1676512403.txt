@@ -1,0 +1,2134 @@
+SGM2039 
+Fast Transient Response, 
+1A, Low Noise, Low Voltage, 
+Low Dropout Linear Regulator 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+FEBRUARY 2023 – REV. A. 1 
+ 
+GENERAL DESCRIPTION 
+The SGM2039 is a low noise, low voltage, fast transient 
+response and low dropout voltage linear regulator 
+which is based on CMOS technology and it provides 1A 
+output current capability. The operating input voltage 
+range is from 1.8V to 5.5V. The fixed output voltage 
+range is from 0.8V to 4.2V and adjustable output 
+voltage range is from 0.8V to 5.0V. 
+Other features include logic-controlled shutdown mode, 
+short-circuit current limit and thermal shutdown 
+protection. The SGM2039A has automatic discharge 
+function to quickly discharge VOUT in the disabled status. 
+The SGM2039 is suitable for various applications which 
+need low noise and fast transient response power 
+supply, such as power supply of camera module in 
+smart phones. Fixed or adjustable output voltage 
+versions are provided. 
+The SGM2039 is available in a Green XTDFN-1.6×1.2-8L 
+package. It operates over an operating temperature 
+range of -40℃ to +125℃. 
+ 
+ 
+FEATURES 
+● Operating Input Voltage Range: 1.8V to 5.5V 
+● Fixed Outputs of 0.8V, 0.9V, 1.0V, 1.05V, 1.1V, 1.2V, 
+1.8V, 2.5V, 2.8V, 3.0V, 3.3V and 4.2V 
+● Adjustable Output from 0.8V to 5.0V 
+● Quiescent Current: 55μA (TYP) 
+● Low Dropout Voltage: 
+88mV (TYP) at 1A, VOUT = 3.3V 
+● EN Pull-Down Current: 120nA (TYP) 
+● Current Limiting and Thermal Protection 
+● Excellent Load and Line Transient Responses 
+● Stable with Small Case Size Ceramic Capacitors 
+● SGM2039A: With Output Automatic Discharge 
+● SGM2039B: Without Output Automatic Discharge 
+● -40℃ to +125℃ Operating Temperature Range 
+● Available in a Green XTDFN-1.6×1.2-8L Package 
+ 
+APPLICATIONS 
+Battery Powered Equipment 
+Smart Phone 
+ 
+ 
+ 
+TYPICAL APPLICATION 
+ 
+COUT
+2.2μF 
+GND
+IN
+OUT
+CIN
+2.2μF
+COUT
+2.2μF 
+VIN
+VOUT
+SGM2039-
+FIX
+FB
+EN
+ON
+OFF
+Fixed Output Voltage Version
+Adjustable Output Voltage Version
+GND
+IN
+OUT
+CIN
+2.2μF
+VIN
+VOUT
+SGM2039-
+ADJ
+ADJ
+R1
+R2
+EN
+ON
+OFF
+CFF
+*
+*Option
+ 
+Figure 1. Typical Application Circuits 
+ 
+ 
+
+Fast Transient Response, 1A, Low Noise, 
+SGM2039 
+Low Voltage, Low Dropout Linear Regulator 
+ 
+ 
+2 
+FEBRUARY 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM2039A-0.8 
+XTDFN-1.6×1.2-8L 
+-40℃ to +125℃ 
+SGM2039A-0.8XXEV8G/TR 
+S008 
+XXXX 
+Tape and Reel, 5000 
+SGM2039A-0.9 
+XTDFN-1.6×1.2-8L 
+-40℃ to +125℃ 
+SGM2039A-0.9XXEV8G/TR 
+S009 
+XXXX 
+Tape and Reel, 5000 
+SGM2039A-1.0 
+XTDFN-1.6×1.2-8L 
+-40℃ to +125℃ 
+SGM2039A-1.0XXEV8G/TR 
+S00A 
+XXXX 
+Tape and Reel, 5000 
+SGM2039A-1.05 
+XTDFN-1.6×1.2-8L 
+-40℃ to +125℃ 
+SGM2039A-1.05XXEV8G/TR 
+S00B 
+XXXX 
+Tape and Reel, 5000 
+SGM2039A-1.1 
+XTDFN-1.6×1.2-8L 
+-40℃ to +125℃ 
+SGM2039A-1.1XXEV8G/TR 
+S00C 
+XXXX 
+Tape and Reel, 5000 
+SGM2039A-1.2 
+XTDFN-1.6×1.2-8L 
+-40℃ to +125℃ 
+SGM2039A-1.2XXEV8G/TR 
+S00D 
+XXXX 
+Tape and Reel, 5000 
+SGM2039A-1.8 
+XTDFN-1.6×1.2-8L 
+-40℃ to +125℃ 
+SGM2039A-1.8XXEV8G/TR 
+S00E 
+XXXX 
+Tape and Reel, 5000 
+SGM2039A-2.5 
+XTDFN-1.6×1.2-8L 
+-40℃ to +125℃ 
+SGM2039A-2.5XXEV8G/TR 
+S00F 
+XXXX 
+Tape and Reel, 5000 
+SGM2039A-2.8 
+XTDFN-1.6×1.2-8L 
+-40℃ to +125℃ 
+SGM2039A-2.8XXEV8G/TR 
+S00G 
+XXXX 
+Tape and Reel, 5000 
+SGM2039A-3.0 
+XTDFN-1.6×1.2-8L 
+-40℃ to +125℃ 
+SGM2039A-3.0XXEV8G/TR 
+S00H 
+XXXX 
+Tape and Reel, 5000 
+SGM2039A-3.3 
+XTDFN-1.6×1.2-8L 
+-40℃ to +125℃ 
+SGM2039A-3.3XXEV8G/TR 
+S00I 
+XXXX 
+Tape and Reel, 5000 
+SGM2039A-4.2 
+XTDFN-1.6×1.2-8L 
+-40℃ to +125℃ 
+SGM2039A-4.2XXEV8G/TR 
+S00J 
+XXXX 
+Tape and Reel, 5000 
+SGM2039A-ADJ 
+XTDFN-1.6×1.2-8L 
+-40℃ to +125℃ 
+SGM2039A-ADJXXEV8G/TR 
+S00K 
+XXXX 
+Tape and Reel, 5000 
+SGM2039B-0.8 
+XTDFN-1.6×1.2-8L 
+-40℃ to +125℃ 
+SGM2039B-0.8XXEV8G/TR 
+S011 
+XXXX 
+Tape and Reel, 5000 
+SGM2039B-0.9 
+XTDFN-1.6×1.2-8L 
+-40℃ to +125℃ 
+SGM2039B-0.9XXEV8G/TR 
+S012 
+XXXX 
+Tape and Reel, 5000 
+SGM2039B-1.0 
+XTDFN-1.6×1.2-8L 
+-40℃ to +125℃ 
+SGM2039B-1.0XXEV8G/TR 
+S013 
+XXXX 
+Tape and Reel, 5000 
+SGM2039B-1.05 
+XTDFN-1.6×1.2-8L 
+-40℃ to +125℃ 
+SGM2039B-1.05XXEV8G/TR 
+S014 
+XXXX 
+Tape and Reel, 5000 
+SGM2039B-1.1 
+XTDFN-1.6×1.2-8L 
+-40℃ to +125℃ 
+SGM2039B-1.1XXEV8G/TR 
+S015 
+XXXX 
+Tape and Reel, 5000 
+SGM2039B-1.2 
+XTDFN-1.6×1.2-8L 
+-40℃ to +125℃ 
+SGM2039B-1.2XXEV8G/TR 
+S016 
+XXXX 
+Tape and Reel, 5000 
+SGM2039B-1.8 
+XTDFN-1.6×1.2-8L 
+-40℃ to +125℃ 
+SGM2039B-1.8XXEV8G/TR 
+S017 
+XXXX 
+Tape and Reel, 5000 
+SGM2039B-2.5 
+XTDFN-1.6×1.2-8L 
+-40℃ to +125℃ 
+SGM2039B-2.5XXEV8G/TR 
+S018 
+XXXX 
+Tape and Reel, 5000 
+SGM2039B-2.8 
+XTDFN-1.6×1.2-8L 
+-40℃ to +125℃ 
+SGM2039B-2.8XXEV8G/TR 
+S019 
+XXXX 
+Tape and Reel, 5000 
+ 
+ 
+ 
+
+Fast Transient Response, 1A, Low Noise, 
+SGM2039 
+Low Voltage, Low Dropout Linear Regulator 
+ 
+ 
+3 
+FEBRUARY 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION (continued) 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM2039B-3.0 
+XTDFN-1.6×1.2-8L 
+-40℃ to +125℃ 
+SGM2039B-3.0XXEV8G/TR 
+S020 
+XXXX 
+Tape and Reel, 5000 
+SGM2039B-3.3 
+XTDFN-1.6×1.2-8L 
+-40℃ to +125℃ 
+SGM2039B-3.3XXEV8G/TR 
+S00L 
+XXXX 
+Tape and Reel, 5000 
+SGM2039B-4.2 
+XTDFN-1.6×1.2-8L 
+-40℃ to +125℃ 
+SGM2039B-4.2XXEV8G/TR 
+S021 
+XXXX 
+Tape and Reel, 5000 
+SGM2039B-ADJ 
+XTDFN-1.6×1.2-8L 
+-40℃ to +125℃ 
+SGM2039B-ADJXXEV8G/TR 
+S022 
+XXXX 
+Tape and Reel, 5000 
+ 
+MARKING INFORMATION 
+NOTE: XXXX = Date Code, Trace Code and Vendor Code. 
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+IN to GND ............................................................ -0.3V to 6V 
+OUT to GND .......................................... -0.3V to (VIN + 0.3V) 
+EN to GND 
+........................................................... -0.3V to 6V 
+Package Thermal Resistance 
+XTDFN-1.6×1.2-8L, θJA 
+............................................. 127℃/W 
+XTDFN-1.6×1.2-8L, θJB 
+............................................... 59℃/W 
+XTDFN-1.6×1.2-8L, θJC(TOP) ........................................ 69℃/W 
+XTDFN-1.6×1.2-8L, θJC(BOT) ........................................ 40℃/W 
+Junction Temperature ................................................. 
++150℃ 
+Storage Temperature Range 
+........................ -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+6000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Input Voltage Range ........................................... 
+1.8V to 5.5V 
+Enable Input Voltage Range .................................. 
+0V to 5.5V 
+Input Effective Capacitance, CIN ......................... 0.5μF (MIN) 
+Output Effective Capacitance, COUT 
+................. 
+1.5μF to 10μF 
+Operating Junction Temperature Range 
+....... 
+-40℃ to +125℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+
+Fast Transient Response, 1A, Low Noise, 
+SGM2039 
+Low Voltage, Low Dropout Linear Regulator 
+ 
+ 
+4 
+FEBRUARY 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+SGM2039-Fixed Output 
+(TOP VIEW) 
+SGM2039-ADJ 
+(TOP VIEW) 
+IN
+FB
+1
+OUT
+NC
+GND
+2
+3
+4
+8
+7
+6
+5
+OUT
+IN
+EN
+ 
+IN
+ADJ
+1
+OUT
+NC
+GND
+2
+3
+4
+8
+7
+6
+5
+OUT
+IN
+EN
+ 
+XTDFN-1.6×1.2-8L 
+XTDFN-1.6×1.2-8L 
+ 
+ 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1, 2 
+OUT 
+Regulator Output Pin. It is recommended to use a ceramic capacitor with effective capacitance 
+in the range of 1.5μF to 10μF to ensure stability. This ceramic capacitor should be placed as 
+close as possible to OUT pin. 
+3 
+NC 
+No Connection. 
+4 
+FB 
+Feedback Input Pin (fixed voltage version only). Connect this pin directly to the OUT pin. 
+ADJ 
+Adjustable Input Pin (adjustable voltage version only). Connect this pin to the midpoint of an 
+external resistor divider to adjust the output voltage. Place the resistors as close as possible to 
+this pin. 
+5 
+GND 
+Ground Pin. 
+6 
+EN 
+Enable Pin. Drive EN high to turn on the regulator. Drive EN low to turn off the regulator. 
+7, 8 
+IN 
+Input Supply Voltage Pin. It is recommended to use a 2.2μF or larger ceramic capacitor from IN 
+pin to ground to get good power supply decoupling. This ceramic capacitor should be placed as 
+close as possible to IN pin. 
+Exposed Pad 
+― 
+Exposed Pad. Connect it to a large ground plane to maximize thermal performance. This pad is 
+not an electrical connection point. 
+ 
+ 
+ 
+
+Fast Transient Response, 1A, Low Noise, 
+SGM2039 
+Low Voltage, Low Dropout Linear Regulator 
+ 
+ 
+5 
+FEBRUARY 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAMS 
+ 
+ADJ
+   SGM2039A-ADJ
+IN
+GND
+EN
+OUT
+Sub-Regulator
+Voltage 
+Reference
+0.8V
+Short-Circuit & 
+Thermal Protection
+Shutdown
+C1
+RDIS
+R1
+120nA
+UVLO
+ 
+ 
+Figure 2. Block Diagram (SGM2039A Adjustable Version) 
+ 
+ 
+FB
+   SGM2039A-Fixed Output
+IN
+GND
+EN
+OUT
+Sub-Regulator
+Voltage 
+Reference
+0.8V
+Short-Circuit & 
+Thermal Protection
+Shutdown
+C1
+RDIS
+R1
+R2
+R3
+120nA
+UVLO
+ 
+ 
+Figure 3. Block Diagram (SGM2039A Fixed Version) 
+ 
+ 
+ 
+
+Fast Transient Response, 1A, Low Noise, 
+SGM2039 
+Low Voltage, Low Dropout Linear Regulator 
+ 
+ 
+6 
+FEBRUARY 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAMS (continued) 
+ 
+ADJ
+   SGM2039B-ADJ
+IN
+GND
+EN
+OUT
+Sub-Regulator
+Voltage 
+Reference
+0.8V
+Short-Circuit & 
+Thermal Protection
+Shutdown
+C1
+R1
+120nA
+UVLO
+ 
+ 
+Figure 4. Block Diagram (SGM2039B Adjustable Version) 
+ 
+ 
+FB
+   SGM2039B-Fixed Output
+IN
+GND
+EN
+OUT
+Sub-Regulator
+Voltage 
+Reference
+0.8V
+Short-Circuit & 
+Thermal Protection
+Shutdown
+C1
+R1
+R2
+R3
+120nA
+UVLO
+ 
+ 
+Figure 5. Block Diagram (SGM2039B Fixed Version) 
+ 
+ 
+ 
+
+Fast Transient Response, 1A, Low Noise, 
+SGM2039 
+Low Voltage, Low Dropout Linear Regulator 
+ 
+ 
+7 
+FEBRUARY 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VIN = (VOUT(NOM) + 0.5V) or 1.8V (whichever is greater), IOUT = 1mA, CIN = 2.2μF, COUT = 2.2μF, VEN = VIN, TJ = -40℃ to +125℃, 
+typical values are at TJ = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Operating Input Voltage 
+VIN 
+ 
+1.8 
+ 
+5.5 
+V 
+Output Voltage Accuracy 
+VOUT 
+VIN = (VOUT(NOM) + 0.5V) to 5.5V, VIN ≥ 1.8V,  
+IOUT = 1mA to 1A 
+-1 
+ 
+1 
+% 
+Adjustable Reference Voltage 
+VADJ 
+SGM2039-ADJ 
+0.792 
+0.8 
+0.808 
+V 
+ADJ Pin Input Current 
+IADJ 
+VIN = VEN = 5.5V, VADJ = 0.85V 
+ 
+±10 
+±20 
+nA 
+Under-Voltage Lockout 
+VUVLO 
+VIN rising 
+ 
+1.36 
+1.65 
+V 
+Line Regulation 
+OUT
+IN
+OUT
+V
+V
+V
+∆
+∆
+×
+ 
+VIN = (VOUT(NOM) + 0.5V) to 5.5V, VIN ≥ 1.8V, 
+IOUT = 1mA 
+ 
+0.006 
+0.1 
+%/V 
+Load Regulation 
+ΔVOUT 
+IOUT = 1mA to 1A 
+ 
+1 
+8 
+mV 
+Dropout Voltage 
+VDROP 
+IOUT = 1A, when VOUT falls to 
+(VOUT(NOM) - 100mV) 
+VOUT(NOM) = 1.2V 
+ 
+320 
+450 
+mV 
+VOUT(NOM) = 1.8V 
+ 
+160 
+240 
+VOUT(NOM) = 2.5V 
+ 
+110 
+180 
+VOUT(NOM) = 2.8V 
+ 
+97 
+170 
+VOUT(NOM) = 3.0V 
+ 
+92 
+160 
+VOUT(NOM) = 3.3V 
+ 
+88 
+150 
+VOUT(NOM) = 4.2V 
+ 
+76 
+130 
+Output Current Limit 
+ILIMIT 
+VOUT = 90% × VOUT(NOM) 
+1.0 
+1.45 
+ 
+A 
+Output Short-Circuit Current 
+ISHORT 
+VOUT = 0V 
+ 
+1.45 
+ 
+A 
+Quiescent Current 
+IQ 
+IOUT = 0mA 
+ 
+55 
+120 
+µA 
+Shutdown Current 
+ISHDN 
+VIN = 5.5V, VEN = 0V 
+TJ = +25℃ 
+ 
+0.15 
+1 
+µA 
+TJ = -40℃ to +125℃ 
+ 
+ 
+6 
+Enable Threshold Voltage 
+VIH 
+EN input voltage high 
+1.0 
+ 
+ 
+V 
+VIL 
+EN input voltage low 
+ 
+ 
+0.4 
+EN Pull-Down Current 
+IEN 
+ 
+ 
+120 
+500 
+nA 
+Output Discharge Resistance 
+(SGM2039A option only) 
+RDIS 
+VIN = 5.5V, VEN = 0V, VOUT = 1.8V 
+ 
+38 
+ 
+Ω 
+Power Supply Rejection Ratio 
+PSRR 
+ΔVRIPPLE = 0.2VP−P, IOUT = 30mA 
+f = 1kHz 
+ 
+88 
+ 
+dB 
+f = 1MHz 
+ 
+40 
+ 
+Output Voltage Noise 
+en 
+f = 10Hz to 100kHz, IOUT = 30mA 
+ 
+11 
+ 
+µVRMS 
+Thermal Shutdown Temperature 
+TSHDN 
+ 
+ 
+165 
+ 
+℃ 
+Thermal Shutdown Hysteresis 
+ΔTSHDN 
+ 
+ 
+20 
+ 
+℃ 
+ 
+ 
+
+Fast Transient Response, 1A, Low Noise, 
+SGM2039 
+Low Voltage, Low Dropout Linear Regulator 
+ 
+ 
+8 
+FEBRUARY 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+TJ = +25℃, VIN = VEN = (VOUT(NOM) + 0.5V) or 1.8V (whichever is greater), IOUT = 1mA, CIN = COUT = 2.2μF, unless otherwise noted. 
+ 
+ 
+Line Transient Response 
+ 
+ 
+ 
+Line Transient Response 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+VOUT 
+ 
+500mV/div  2mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+VOUT 
+ 
+500mV/div  2mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (10μs/div) 
+ 
+ 
+ 
+Time (10μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Load Transient Response 
+ 
+ 
+ 
+Load Transient Response 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+IIN 
+ 
+ 
+VOUT 
+ 
+  
+1V/div    500mA/div  50mV/div 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+IIN 
+ 
+VOUT 
+ 
+ 
+ 
+1V/div    500mA/div  50mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (20μs/div) 
+ 
+ 
+ 
+Time (20μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Turn-On/Off - VIN (Slow) 
+ 
+ 
+ 
+Turn-On/Off - VIN (Slow) 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     100mA/div         1V/div 1V/div 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+100mA/div        1V/div 1V/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (1ms/div) 
+ 
+ 
+ 
+Time (1ms/div) 
+ 
+ 
+ 
+VOUT = 1.2V, CIN = Open 
+VOUT = 4.2V, CIN = Open 
+VOUT = 1.2V, VIN = 1.8V to 2.8V, CIN = Open 
+VOUT = 3.3V, VIN = 3.8V to 4.8V, CIN = Open 
+VOUT = 1.2V, VIN = 1.8V, IOUT = 1mA to 1A 
+VOUT = 4.2V, VIN = 4.7V, IOUT = 1mA to 1A 
+VOUT 
+VIN 
+VIN 
+VOUT 
+tR = tF = 1μs 
+tR = tF = 1μs 
+tR = tF = 1μs 
+tR = tF = 1μs 
+
+Fast Transient Response, 1A, Low Noise, 
+SGM2039 
+Low Voltage, Low Dropout Linear Regulator 
+ 
+ 
+9 
+FEBRUARY 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, VIN = VEN = (VOUT(NOM) + 0.5V) or 1.8V (whichever is greater), IOUT = 1mA, CIN = COUT = 2.2μF, unless otherwise noted. 
+ 
+ 
+Turn-On - VIN (Fast) 
+ 
+ 
+ 
+Turn-On - VIN (Fast) 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+200mA/div  1V/div     1V/div 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+ 
+ 
+ 
+200mA/div 1V/div 1V/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (20μs/div) 
+ 
+ 
+ 
+Time (20μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Turn-On/Off - EN Driven 
+ 
+ 
+ 
+Turn-On/Off - EN Driven 
+ 
+ 
+ 
+VEN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+IOUT 
+ 
+    1V/div     500mV/div  50mA/div 
+ 
+ 
+ 
+VEN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+IOUT  
+ 
+ 
+1V/div        1V/div  100mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (200μs/div) 
+ 
+ 
+ 
+Time (200μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     Power Supply Rejection Ratio vs. Frequency 
+     Power Supply Rejection Ratio vs. Frequency 
+ 
+ 
+ 
+ 
+0
+20
+40
+60
+80
+100
+120
+0.01
+0.1
+1
+10
+100
+1000
+10000
+Power Supply Rejection Ratio (dB) 
+Frequency (kHz) 
+IOUT = 30mA, CIN = 0μF 
+VOUT = 1.8V, VIN = 2.8V 
+0
+20
+40
+60
+80
+100
+120
+0.01
+0.1
+1
+10
+100
+1000
+10000
+Power Supply Rejection Ratio (dB) 
+Frequency (kHz) 
+IOUT = 30mA, CIN = 0μF 
+VOUT = 3.3V, VIN = 4.3V 
+VOUT = 1.2V 
+VOUT = 4.2V 
+VOUT = 1.2V 
+VOUT = 3.3V 
+VOUT 
+VIN 
+VIN 
+VOUT 
+
+Fast Transient Response, 1A, Low Noise, 
+SGM2039 
+Low Voltage, Low Dropout Linear Regulator 
+ 
+ 
+10 
+FEBRUARY 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, VIN = VEN = (VOUT(NOM) + 0.5V) or 1.8V (whichever is greater), IOUT = 1mA, CIN = COUT = 2.2μF, unless otherwise noted. 
+ 
+     Output Noise Density vs. Frequency 
+     Output Voltage vs. Temperature 
+ 
+ 
+     Output Voltage vs. Temperature 
+     Output Voltage vs. Temperature 
+ 
+ 
+     Output Voltage vs. Temperature 
+     Output Voltage vs. Temperature 
+ 
+ 
+ 
+ 
+0
+0.3
+0.6
+0.9
+1.2
+1.5
+1.8
+0.01
+0.1
+1
+10
+100
+Output Noise Density (μV/√Hz) 
+Frequency (kHz) 
+ IOUT = 30mA 
+VOUT = 1.8V, VIN = 2.3V 
+VOUT = 4.2V, VIN = 4.7V 
+1.196
+1.198
+1.200
+1.202
+1.204
+1.206
+1.208
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Output Voltage (V) 
+Temperature (℃) 
+VOUT = 1.2V 
+1.792
+1.794
+1.796
+1.798
+1.800
+1.802
+1.804
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Output Voltage (V) 
+Temperature (℃) 
+VOUT = 1.8V 
+2.492
+2.494
+2.496
+2.498
+2.500
+2.502
+2.504
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Output Voltage (V) 
+Temperature (℃) 
+VOUT = 2.5V 
+3.288
+3.290
+3.292
+3.294
+3.296
+3.298
+3.300
+3.302
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Output Voltage (V) 
+Temperature (℃) 
+VOUT = 3.3V 
+4.190
+4.192
+4.194
+4.196
+4.198
+4.200
+4.202
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Output Voltage (V) 
+Temperature (℃) 
+VOUT = 4.2V 
+
+Fast Transient Response, 1A, Low Noise, 
+SGM2039 
+Low Voltage, Low Dropout Linear Regulator 
+ 
+ 
+11 
+FEBRUARY 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, VIN = VEN = (VOUT(NOM) + 0.5V) or 1.8V (whichever is greater), IOUT = 1mA, CIN = COUT = 2.2μF, unless otherwise noted. 
+ 
+     Line Regulation vs. Temperature 
+     Load Regulation vs. Temperature 
+ 
+ 
+     Dropout Voltage vs. Temperature 
+     Dropout Voltage vs. Temperature 
+ 
+ 
+     Output Current Limit vs. Temperature 
+     Quiescent Current vs. Temperature 
+ 
+ 
+ 
+ 
+-0.04
+-0.03
+-0.02
+-0.01
+0
+0.01
+0.02
+0.03
+0.04
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Line Regulation (%/V) 
+Temperature (℃) 
+VIN = VEN = (VOUT(NOM) + 0.5V) to 5.5V 
+VOUT = 1.2V 
+VOUT = 1.8V 
+VOUT = 3.3V 
+VOUT = 4.2V 
+-3
+-2
+-1
+0
+1
+2
+3
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Load Regulation (mV) 
+Temperature (℃) 
+IOUT = 1mA to 1A 
+VOUT = 1.2V 
+VOUT = 1.8V 
+VOUT = 3.3V 
+VOUT = 4.2V 
+0
+50
+100
+150
+200
+250
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Dropout Voltage (mV) 
+Temperature (℃) 
+VOUT = 1.8V 
+IOUT = 500mA 
+IOUT = 1000mA 
+0
+20
+40
+60
+80
+100
+120
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Dropout Voltage (mV) 
+Temperature (℃) 
+IOUT = 500mA 
+IOUT = 1000mA 
+VOUT = 3.3V 
+1.1
+1.2
+1.3
+1.4
+1.5
+1.6
+1.7
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Output Current Limit (A) 
+Temperature (℃) 
+VOUT = 1.8V 
+VOUT = 3.3V 
+45
+50
+55
+60
+65
+70
+75
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Quiescent Current (μA) 
+Temperature (℃) 
+IOUT = 0mA  
+VOUT = 1.8V 
+VOUT = 3.3V 
+
+Fast Transient Response, 1A, Low Noise, 
+SGM2039 
+Low Voltage, Low Dropout Linear Regulator 
+ 
+ 
+12 
+FEBRUARY 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, VIN = VEN = (VOUT(NOM) + 0.5V) or 1.8V (whichever is greater), IOUT = 1mA, CIN = COUT = 2.2μF, unless otherwise noted. 
+ 
+     Shutdown Current vs. Temperature 
+     Enable Input Current vs. Temperature 
+ 
+ 
+     Enable Threshold Voltage vs. Temperature 
+     Output Discharge Resistance vs. Temperature 
+     (SGM2039A option only) 
+ 
+ 
+     Dropout Voltage vs. Output Current 
+     Dropout Voltage vs. Output Current 
+ 
+ 
+ 
+ 
+0
+0.4
+0.8
+1.2
+1.6
+2
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Shutdown Current (μA) 
+Temperature (℃) 
+VIN = 5.5V, VEN = 0V, VOUT = 3.3V  
+0
+0.05
+0.1
+0.15
+0.2
+0.25
+0.3
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Enable Input Current (μA) 
+Temperature (℃) 
+VOUT = 3.3V 
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Enable Threshold Voltage (V) 
+Temperature (℃) 
+VIN = 5.5V 
+VIL  
+VIH  
+25
+30
+35
+40
+45
+50
+55
+-40 -25 -10
+5
+20
+35
+50
+65
+80
+95 110 125
+Output Discharge Resistance (Ω) 
+Temperature (℃) 
+VIN = 5.5V, VEN = 0V, VOUT = 1.8V 
+0
+50
+100
+150
+200
+250
+0
+0.2
+0.4
+0.6
+0.8
+1
+Dropout Voltage (mV) 
+Output Current (A) 
+TJ = -40℃ 
+TJ = +25℃ 
+TJ = +125℃ 
+VOUT = 1.8V 
+0
+30
+60
+90
+120
+150
+0
+0.2
+0.4
+0.6
+0.8
+1
+Dropout Voltage (mV) 
+Output Current (A) 
+TJ = -40℃ 
+TJ = +25℃ 
+TJ = +125℃ 
+VOUT = 3.3V 
+
+Fast Transient Response, 1A, Low Noise, 
+SGM2039 
+Low Voltage, Low Dropout Linear Regulator 
+ 
+ 
+13 
+FEBRUARY 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, VIN = VEN = (VOUT(NOM) + 0.5V) or 1.8V (whichever is greater), IOUT = 1mA, CIN = COUT = 2.2μF, unless otherwise noted. 
+ 
+     Quiescent Current vs. Input Voltage 
+     Ground Current vs. Output Current 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+40
+50
+60
+70
+80
+90
+100
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Quiescent Current (μA) 
+Input Voltage (V) 
+VOUT = 1.8V, IOUT = 0mA  
+TJ = -40℃ 
+TJ = +25℃ 
+TJ = +125℃ 
+0
+200
+400
+600
+800
+1000
+1200
+1400
+1600
+0
+0.2
+0.4
+0.6
+0.8
+1
+Ground Current (μA) 
+Output Current (A) 
+TJ = -40℃ 
+TJ = +25℃ 
+TJ = +125℃ 
+VOUT = 1.8V 
+
+Fast Transient Response, 1A, Low Noise, 
+SGM2039 
+Low Voltage, Low Dropout Linear Regulator 
+ 
+ 
+14 
+FEBRUARY 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+The SGM2039 is a low noise, fast transient response 
+high performance LDO and provides 1A output current. 
+These features make the device a reliable solution to 
+solve many challenging problems in the generation of 
+clean 
+and 
+accurate 
+power 
+supply. 
+The 
+high 
+performance also makes the SGM2039 useful in a 
+variety of applications. The SGM2039 provides 
+protection functions for output overload, output 
+short-circuit condition and overheating. 
+The SGM2039 provides an EN pin as an external chip 
+enable control to enable/disable the device. When the 
+regulator is in shutdown state, the shutdown current 
+consumes as low as 0.15μA (TYP). 
+ 
+Input Capacitor Selection (CIN) 
+The input decoupling capacitor should be placed as 
+close as possible to the IN pin for ensuring the device 
+stability. 1μF or larger X7R or X5R ceramic capacitor is 
+selected to get good dynamic performance. 
+ 
+Output Capacitor Selection (COUT) 
+The output capacitor should be placed as close as 
+possible to the OUT pin. 2.2μF or larger X7R or X5R 
+ceramic capacitor is selected to get good dynamic 
+performance. The minimum effective capacitance of COUT 
+that SGM2039 can remain stable is 1.5μF. For ceramic 
+capacitor, temperature, DC bias and package size will 
+change the effective capacitance, so enough margin of 
+COUT must be considered in design. Additionally, COUT 
+with larger capacitance and lower ESR will help 
+increase the high frequency PSRR and improve the 
+load transient response. 
+ 
+Adjustable Regulator 
+The output voltage of the SGM2039A/B-ADJ can be 
+adjusted from 0.8V to 5.0V. The ADJ pin will be 
+connected to two external resistors as shown in Figure 6, 
+the output voltage is determined by the following 
+equation: 
+1
+OUT
+ADJ
+2
+R
+V
+V
+1+R
+
+
+=
+×
+
+
+              (1)
+ 
+where: 
+VOUT is output voltage and VREF is the adjustable 
+reference voltage, VADJ = 0.8V. 
+One parallel capacitor (CFF) with R1 can be used to 
+improve the feedback loop stability and PSRR, 
+increase the transient response and reduce the output 
+noise. R1 and R2 can be calculated for any output 
+voltage range using Equation 1. Choose R2 ≤ 16kΩ to 
+maintain a 50μA minimum load. 
+COUT
+2.2μF 
+GND
+IN
+OUT
+CIN
+2.2μF
+VIN
+VOUT
+SGM2039-
+ADJ
+ADJ
+R1
+R2
+EN
+ON
+OFF
+CFF
+*
+*Option
+ 
+ 
+Figure 6. Adjustable Output Voltage Application 
+ 
+Enable Operation 
+The EN pin of the SGM2039 is used to enable/disable 
+the device and to deactivate/activate the output 
+automatic discharge function (SGM2039A only). 
+When the EN pin voltage is lower than 0.4V, the device 
+is in shutdown state. There is no current flowing from IN 
+to OUT pins. In this state, the automatic discharge 
+transistor is active to discharge the output voltage 
+through a 38Ω (TYP) resistor. 
+When the EN pin voltage is higher than 1.0V, the device 
+is in active state. The output voltage is regulated to the 
+expected value and the automatic discharge transistor 
+is turned off. 
+The EN pin is pulled down by an internal 120nA (TYP) 
+current source when the EN pin is floated. This current 
+source will ensure the SGM2039 in shutdown state and 
+reduce the power dissipation in system. 
+ 
+Reverse Current Protection 
+The PMOS power transistor has an inherent body 
+diode. This body diode will be forward biased when 
+VOUT > VIN. When VOUT > VIN, the reverse current 
+flowing from the OUT pin to the IN pin will damage the 
+SGM2039. If VOUT > VIN event would happen in system, 
+one external diode will be added between OUT pin and 
+IN pin in circuit design to protect the SGM2039. 
+ 
+Output Current Limit and Short-Circuit 
+Protection 
+When overload events happen, the output current is 
+internally limited to 1.45A (TYP). When the OUT pin is 
+shorted to ground, the short-circuit protection will limit 
+the output current to 1.45A (TYP). 
+ 
+Thermal Shutdown 
+The SGM2039 can detect the temperature of die. When 
+the die temperature exceeds the threshold value of 
+thermal shutdown, the SGM2039 will be in shutdown 
+state and it will remain in this state until the die 
+temperature decreases to +145℃. 
+ 
+ 
+ 
+
+Fast Transient Response, 1A, Low Noise, 
+SGM2039 
+Low Voltage, Low Dropout Linear Regulator 
+ 
+ 
+15 
+FEBRUARY 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+FEBRUARY 2023 ‒ REV.A to REV.A.1 
+Page 
+Updated Adjustable Output Voltage Range........................................................................................................................................................ 
+All 
+ 
+Changes from Original (DECEMBER 2022) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00208.001 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+XTDFN-1.6×1.2-8L 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.340 
+- 
+0.400 
+A1 
+0.000 
+- 
+0.050 
+A2 
+0.127 REF 
+D 
+1.500 
+1.600 
+1.700 
+E 
+1.100 
+1.200 
+1.300 
+D1 
+1.250 
+1.300 
+1.350 
+E1 
+0.250 
+0.300 
+0.350 
+b 
+0.130 
+0.180 
+0.230 
+e 
+0.400 BSC 
+L 
+0.150 
+0.200 
+0.250 
+L1 
+0.110 REF 
+L2 
+0.050 REF 
+k 
+0.150 
+0.200 
+0.250 
+eee 
+0.050 
+NOTE: This drawing is subject to change without notice.
+ 
+ 
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+D
+E
+L
+b
+e
+E1
+A1
+A
+D1
+1.25
+0.40
+0.18
+1.30
+0.30
+RECOMMENDED LAND PATTERN (Unit: mm)
+N1
+N4
+N5
+N8
+A2
+0.55
+L1
+k
+L2
+PIN 1#
+C
+SEATING PLANE
+eee C
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+XTDFN-1.6×1.2-8L 
+7″ 
+9.5 
+1.37 
+1.77 
+0.55 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 

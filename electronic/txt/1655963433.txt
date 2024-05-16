@@ -1,0 +1,1761 @@
+ 
+SGM4822/SGM4823/SGM4825/SGM4826 
+Single/Dual-Input, Fixed-Gain 
+Microphone Amplifiers with Integrated Bias 
+ 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+SEPTEMBER 2018 – REV. A 
+GENERAL DESCRIPTION 
+The SGM4822/SGM4825 (single-input) and SGM4823/ 
+SGM4826 (dual-input) are low noise, low power, 
+rail-to-rail, 
+fixed-gain 
+microphone 
+amplifiers 
+with 
+integrated bias. The SGM4822/SGM4823 support 
+power supply voltage from 3.3V to 5.5V and the 
+SGM4825/SGM4826 support wide power supply 
+voltage from 2.7V to 5.5V. The devices are suitable for 
+portable audio applications. They feature low THD+N = 
+0.009% in active mode, 2.6MHz bandwidth and forced 
+shutdown mode.  
+The SGM4822/SGM4823 power-saving features include 
+automatic switching between low power monitor mode 
+and low noise active mode, and the devices also 
+provide latched push-pull output to wake up external 
+MCU 
+in 
+sleeping 
+mode. 
+Two 
+inputs 
+of 
+the 
+SGM4823/SGM4826 allow two microphones to be 
+multiplexed into one output. 
+The devices operate over an ambient temperature 
+range of -40℃ to +85℃. 
+FEATURES 
+● Very Low Noise: 30nV/√Hz at 1kHz, Gain = 20dB 
+● Very Low THD+N: 0.009%, Gain = 20dB 
+● Wide Supply Voltage Range: 
+3.3V to 5.5V (SGM4822/SGM4823) 
+2.7V to 5.5V (SGM4825/SGM4826) 
+● Low Quiescent Current:  
+ 0.1µA in Forced Shutdown Mode 
+(SGM4822/SGM4823) 
+ 4µA in Monitor Mode at VCC = 3.3V 
+ 660μA in Active Mode 
+● Low Noise Microphone Bias Voltage: 2.3V 
+● Rail-to-Rail Outputs 
+● 20dB Fixed-Gain 
+● Automatic Switching between Low Power 
+Monitor Mode and Low Noise Active Mode 
+(SGM4822/SGM4823) 
+● Latched Push-Pull Output to Wake Up External  
+MCU in Sleeping Mode (SGM4822/SGM4823) 
+● -40℃ to +85℃ Operating Temperature Range 
+ 
+ 
+APPLICATIONS 
+Laptop Computers 
+Smart Phones 
+Digital Cameras 
+VCRs 
+ 
+ 
+ 
+
+SGM4822/SGM4823 
+Single/Dual-Input, Fixed-Gain 
+SGM4825/SGM4826 
+Microphone Amplifiers with Integrated Bias 
+ 
+ 
+2 
+SEPTEMBER 2018 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM4822B-23 
+(Gain = 20dB, VBIAS = 2.3V) 
+SOT-23-8 
+-40℃ to +85℃ 
+SGM4822B-23YN8G/TR 
+GTBXX 
+Tape and Reel, 3000 
+SGM4823B-23 
+(Gain = 20dB, VBIAS = 2.3V) 
+MSOP-10 
+-40℃ to +85℃ 
+SGM4823B-23YMS10G/TR 
+GX2 
+YMS10 
+XXXXX 
+Tape and Reel, 4000 
+SGM4825B-23 
+(Gain = 20dB, VBIAS = 2.3V) 
+SOT-23-6 
+-40℃ to +85℃ 
+SGM4825B-23YN6G/TR 
+GTCXX 
+Tape and Reel, 3000 
+SGM4826B-23 
+(Gain = 20dB, VBIAS = 2.3V) 
+SOT-23-8 
+-40℃ to +85℃ 
+SGM4826B-23YN8G/TR 
+GTDXX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XX = Date Code. XXXXX = Date Code and Vendor Code. 
+SOT-23-6/SOT-23-8 
+MSOP-10 
+Date Code - Year 
+Date Code - Month 
+Serial Number
+YYY X X
+ 
+Date Code - Week
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+VCC to GND 
+........................................................ -0.3V to +6V 
+All Other Pins 
+........................................ -0.3V to (VCC + 0.3V) 
+Continuous Current (IN, IN1, IN2, SHDN, WAKEUP, RESET, 
+IN1/IN2) ...................................................................... ±20mA 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ........................ 
+-65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+2000V 
+MM 
+................................................................................. 
+300V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Supply Voltage (SGM4822/SGM4823) ............... 
+3.3V to 5.5V 
+Supply Voltage (SGM4825/SGM4826) ............... 
+2.7V to 5.5V 
+Operating Temperature Range ....................... 
+-40℃ to +85℃ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+
+SGM4822/SGM4823 
+Single/Dual-Input, Fixed-Gain 
+SGM4825/SGM4826 
+Microphone Amplifiers with Integrated Bias 
+ 
+ 
+3 
+SEPTEMBER 2018 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+  SGM4822 (TOP VIEW) 
+  SGM4823 (TOP VIEW) 
+SGM4822
+1
+8
+7
+6
+GND
+OUT
+IN
+BIAS
+VCC
+4
+5
+WAKEUP
+RESET
+SHDN
+2
+3
+ 
+SGM4823
+1
+2
+3
+10
+9
+8
+GND
+OUT
+VCC
+BIAS
+IN1
+4
+7
+IN2
+5
+6
+WAKEUP
+RESET
+SHDN
+IN1/IN2
+ 
+  SOT-23-8 
+  MSOP-10 
+ 
+ 
+  SGM4825 (TOP VIEW) 
+   SGM4826 (TOP VIEW) 
+ 
+SGM4825
+6
+5
+GND
+OUT
+IN
+BIAS
+VCC
+3
+4
+SHDN
+1
+2
+ 
+SGM4826
+1
+8
+7
+6
+GND
+OUT
+IN1
+BIAS
+VCC
+4
+5
+IN2
+SHDN
+2
+3
+IN1/IN2
+ 
+  SOT-23-6 
+  SOT-23-8 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+SGM4822 
+SGM4823 
+SGM4825 
+SGM4826 
+1 
+5 
+‒ 
+‒ 
+WAKEUP Output to Wake up External Equipment in Sleeping Mode. 
+2 
+3 
+1 
+2 
+SHDN 
+Active Low Shutdown Input. Logic high enables the device. Logic low 
+disables the device and turns it into shutdown mode. Do not leave this pin 
+floating. 
+3 
+2 
+2 
+3 
+GND 
+Ground. 
+4 
+1 
+3 
+4 
+OUT 
+Amplifier Output. 
+5 
+10 
+4 
+5 
+VCC 
+Positive Supply. Connect a 0.1μF capacitor between VCC pin and GND pin. 
+6 
+9 
+5 
+6 
+BIAS 
+Low Noise Microphone Bias Output. 
+7 
+‒ 
+6 
+‒ 
+IN 
+Amplifier Input. 
+8 
+6 
+‒ 
+‒ 
+RESET 
+WAKEUP Reset Pin and Set SGM4822/SGM4823 to Monitor Mode. 
+‒ 
+8 
+‒ 
+7 
+IN1 
+Amplifier Input 1. 
+‒ 
+7 
+‒ 
+8 
+IN2 
+Amplifier Input 2. 
+‒ 
+4 
+‒ 
+1 
+IN1/IN2 
+Input Selection Pin. When this pin is pulled high, IN1 is selected. While this 
+pin is pulled low, IN2 is selected. 
+ 
+ 
+
+SGM4822/SGM4823 
+Single/Dual-Input, Fixed-Gain 
+SGM4825/SGM4826 
+Microphone Amplifiers with Integrated Bias 
+ 
+ 
+4 
+SEPTEMBER 2018 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VCC = 3.3V to 5V, VGND = 0V, RL = open, SHDN = VCC, Full = -40℃ to +85℃, typical values are at TA = +25℃, unless otherwise 
+noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+General 
+Supply Voltage Range 
+VCC 
+SGM4822/SGM4823 
+3.3 
+ 
+5.5 
+V 
+SGM4825/SGM4826 
+2.7 
+ 
+5.5 
+Supply Current 
+ICC 
+In shutdown, SHDN = GND (SGM4822/3) 
+ 
+0.1 
+2 
+µA 
+In shutdown, SHDN = GND (SGM4825/6) 
+ 
+1.5 
+4 
+In monitor mode, RESET = 1.6V, VCC = 3.3V 
+ 
+4 
+8 
+In monitor mode, RESET = 1.6V, VCC = 5V 
+ 
+15 
+20 
+In active mode 
+ 
+660 
+1050 
+Amplifier Output Bias Voltage 
+VOUT_DC 
+VCC = 3.3V 
+1.39 
+1.55 
+1.71 
+V 
+VCC = 5V 
+2.26 
+2.55 
+2.74 
+Input Resistance 
+RIN 
+ 
+ 
+115 
+ 
+kΩ 
+Voltage Gain 
+AV 
+ 
+19.6 
+20 
+20.4 
+dB 
+Power Supply Rejection Ratio 
+PSRROUT 
+Input referred 
+ 
+55 
+ 
+dB 
+Output Voltage Swing 
+VOH 
+RL = 10kΩ to VCC/2 
+ 
+VCC - 0.0045 
+ 
+V 
+RL = 1kΩ to VCC/2 
+VCC - 0.055 
+VCC - 0.038 
+ 
+VOL 
+RL = 10kΩ to VCC/2 
+ 
+0.0035 
+ 
+RL = 1kΩ to VCC/2 
+ 
+0.03 
+0.05 
+Output Short-Circuit Current 
+IOUT_SC 
+VCC = 3.3V, sinking or sourcing 
+28 
+45 
+ 
+mA 
+VCC = 5V, sinking or sourcing 
+70 
+100 
+ 
+Small-Signal -3dB Bandwidth 
+BW 
+VOUT = 10mVP-P 
+ 
+2.6 
+ 
+MHz 
+Output Capacitive Load Stability 
+CL 
+No sustained oscillations 
+ 
+50 
+ 
+pF 
+Output Impedance 
+ZOUT 
+f = 1kHz 
+ 
+0.02 
+ 
+Ω 
+Output Slew Rate 
+SR 
+VOUT = 1V step 
+ 
+4.8 
+ 
+V/µs 
+Amplifier Input Voltage Noise 
+Density 
+en 
+Inputs at AC GND, f = 1kHz, Gain = 20dB 
+ 
+30 
+ 
+nV/√Hz 
+Total Integrated Input Noise 
+Vn 
+Inputs at AC GND,  
+A-weighted, BW = 22Hz to 22kHz,  
+ 
+2.3 
+ 
+µVRMS 
+Off-Isolation 
+ 
+Input referred,  
+SGM4823/SGM4826 
+1kHz 
+ 
+97 
+ 
+dB 
+10kHz 
+ 
+96 
+ 
+Total Harmonic Distortion + Noise 
+THD+N 
+f = 1kHz, Gain = 20dB, VOUT = 1VP-P, 
+BW = 22Hz to 22kHz 
+ 
+0.009 
+ 
+% 
+Bias 
+Bias Output Voltage Range 
+VBIAS 
+ 
+2.21 
+2.3 
+2.42 
+V 
+Power Supply Rejection Ratio  
+(VCC to BIAS) 
+PSRRBIAS 
+ 
+ 
+55 
+ 
+dB 
+BIAS Current Limit 
+IBIAS_SC 
+BIAS short to GND, VCC = 3.3V 
+18 
+40 
+ 
+mA 
+BIAS short to GND, VCC = 5V 
+40 
+80 
+ 
+BIAS Capacitive Load Stability 
+CBIAS 
+No sustained oscillations 
+ 
+50 
+ 
+pF 
+Total Integrated BIAS Noise 
+Vn 
+A-weighted, BW = 22Hz to 22kHz 
+ 
+30 
+ 
+µVRMS 
+Threshold of Comparator at Audio Monitor Circuit (Internal Bias Voltage + Vtha) 
+Threshold of Audio Signal 
+VTHA 
+SGM4822/SGM4823 
+ 
+0.2 
+ 
+V 
+ 
+ 
+
+SGM4822/SGM4823 
+Single/Dual-Input, Fixed-Gain 
+SGM4825/SGM4826 
+Microphone Amplifiers with Integrated Bias 
+ 
+ 
+5 
+SEPTEMBER 2018 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(VCC = 3.3V to 5V, VGND = 0V, RL = open, SHDN = VCC, Full = -40℃ to +85℃, typical values are at TA = +25℃, unless otherwise 
+noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Digital Inputs (RESET, SHDN, IN1/IN2, WAKEUP) 
+Logic Low Threshold 
+VIL 
+ 
+ 
+ 
+0.4 
+V 
+Logic High Threshold 
+VIH 
+ 
+2 
+ 
+ 
+V 
+Logic Input Current 
+IIN 
+SHDN = GND or VCC 
+ 
+ 
+±1 
+µA 
+Shutdown Enable Time 
+t SHDN_ON 
+95% of settled value 
+ 
+25 
+ 
+µs 
+Shutdown Disable Time 
+t SHDN_OFF  
+ 
+ 
+100 
+ 
+ns 
+IN1/IN2 Select Time 
+tSEL 
+ 
+ 
+40 
+ 
+µs 
+ 
+ 
+ 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+TA = +25℃, VCC = 5V, VGND = 0V, RL = open, SHDN = VCC, unless otherwise noted. 
+ 
+ 
+ 
+ 
+1 
+ 
+0.5 
+ 
+ 
+0.2 
+ 
+0.1 
+ 
+0.05 
+ 
+ 
+0.02 
+ 
+0.01 
+ 
+0.005 
+ 
+ 
+0.002 
+ 
+0.001 
+THD+N vs. Frequency 
+ 
+ 
+ 
+ 
+10 
+ 
+5 
+ 
+ 
+2 
+ 
+1 
+ 
+0.5 
+ 
+ 
+0.2 
+ 
+0.1 
+ 
+0.05 
+ 
+ 
+0.02 
+ 
+0.01 
+ 
+0.006 
+THD+N vs. Output Voltage 
+ 
+Total Harmonic Distortion + Noise (%) 
+ 
+ 
+Total Harmonic Distortion + Noise (dB) 
+ 
+ 
+ 
+0.02     0.05    0.1    0.2       0.5     1      2        5     10     20 
+ 
+ 
+ 
+0      250m    500m    750m     1      1.25      1.5      1.75      2 
+ 
+ 
+ 
+Frequency (kHz) 
+ 
+ 
+ 
+Output Voltage (VRMS) 
+ 
+ 
+     Gain vs. Frequency 
+     Off-Isolation vs. Frequency 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+-10
+-5
+0
+5
+10
+15
+20
+25
+0.005
+0.05
+0.5
+5
+50
+500
+5000
+Output Voltage Gain (dB) 
+Frequency (kHz) 
+VOUT = 10mVP-P 
+ 
+-120
+-100
+-80
+-60
+-40
+-20
+0
+0.01
+0.1
+1
+10
+100
+Crosstalk (dB) 
+Frequency (kHz) 
+VIN1 = 100mVRMS 
+ 
+IN1 to OUT with IN2 selected 
+BW = 22Hz to 22kHz 
+VOUT = 1VP-P 
+BW = 22Hz to 22kHz 
+f = 1kHz 
+
+SGM4822/SGM4823 
+Single/Dual-Input, Fixed-Gain 
+SGM4825/SGM4826 
+Microphone Amplifiers with Integrated Bias 
+ 
+ 
+6 
+SEPTEMBER 2018 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, VCC = 5V, VGND = 0V, RL = open, SHDN = VCC, unless otherwise noted. 
+ 
+     PSRROUT vs. Frequency 
+     PSRRBIAS vs. Frequency 
+ 
+ 
+     Supply Current vs. Temperature 
+     VBIAS vs. Temperature 
+ 
+ 
+     Supply Current vs. Supply Voltage 
+ 
+ 
+ 
+ 
+ 
+-80
+-70
+-60
+-50
+-40
+-30
+-20
+-10
+0
+10
+0.01
+0.1
+1
+10
+100
+1000
+Power Supply Rejection Ratio (dB) 
+Frequency (kHz) 
+VRIPPLE = 100mVP-P 
+Input referred 
+ 
+-90
+-80
+-70
+-60
+-50
+-40
+-30
+-20
+-10
+0
+10
+0.01
+0.1
+1
+10
+100
+1000
+Power Supply Rejection Ratio 
+(VCC to BIAS) (dB) 
+Frequency (kHz) 
+VRIPPLE = 100mVP-P 
+ 
+200
+300
+400
+500
+600
+700
+800
+900
+-50
+-25
+0
+25
+50
+75
+100
+Supply Current (μA) 
+Temperature (℃) 
+2.280
+2.285
+2.290
+2.295
+2.300
+2.305
+2.310
+-50
+-25
+0
+25
+50
+75
+100
+Bias Output Voltage (V) 
+Temperature (℃) 
+200
+300
+400
+500
+600
+700
+800
+2.0
+2.5
+3.0
+3.5
+4.0
+4.5
+5.0
+5.5
+6.0
+Supply Current (μA) 
+Supply Voltage (V) 
+
+SGM4822/SGM4823 
+Single/Dual-Input, Fixed-Gain 
+SGM4825/SGM4826 
+Microphone Amplifiers with Integrated Bias 
+ 
+ 
+7 
+SEPTEMBER 2018 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, VCC = 5V, VGND = 0V, RL = open, SHDN = VCC, unless otherwise noted. 
+ 
+ 
+Small Signal Pulse Response 
+ 
+ 
+ 
+Large Signal Pulse Response 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IN 
+ 
+ 
+ 
+ 
+ 
+OUT 
+ 
+        5mV/div      50mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IN 
+ 
+ 
+ 
+ 
+ 
+OUT 
+ 
+        100mV/div    1V/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (1μs/div) 
+ 
+ 
+ 
+Time (500ns/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Out of Shutdown Waveform Input Unconnected 
+ 
+ 
+ 
+Switch between Two Inputs 
+ 
+ 
+ 
+ 
+ 
+ 
+SHDN
+ 
+ 
+BIAS 
+ 
+ 
+ 
+OUT 
+ 
+        2V/div     2V/div    2V/div 
+ 
+ 
+ 
+ 
+ 
+ 
+OUT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IN1/ IN2  
+ 
+1V/div           1V/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (1ms/div) 
+ 
+ 
+ 
+Time (200μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Output Overdriven 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+OUT 
+ 
+ 
+ 
+ 
+ 
+IN 
+ 
+            1V/div       50mV/div 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (2μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CL = 10pF 
+CL = 10pF 
+IN2 = 200mVP-P at 20kHz 
+IN1 = 100mVP-P at 10kHz 
+ 
+VCC = 3.3V 
+
+SGM4822/SGM4823 
+Single/Dual-Input, Fixed-Gain 
+SGM4825/SGM4826 
+Microphone Amplifiers with Integrated Bias 
+ 
+ 
+8 
+SEPTEMBER 2018 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAM 
+VBIAS 
+Generator
+Gain = x
+OUT
+WAKEUP
+IN
+BIAS
+VCC
+SGM4822
+VBIAS
+Control
+SHDN
+RESET
+Voice Wake Up
+IN1
+IN2
+VBIAS 
+Generator
+OUT
+WAKEUP
+BIAS
+VCC
+SGM4823
+VBIAS
+Control
+SHDN
+RESET
+IN1/IN2
+Gain = x
+Voice Wake Up
+IN1/IN2
+ 
+ 
+ 
+
+SGM4822/SGM4823 
+Single/Dual-Input, Fixed-Gain 
+SGM4825/SGM4826 
+Microphone Amplifiers with Integrated Bias 
+ 
+ 
+9 
+SEPTEMBER 2018 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAM (continued) 
+VBIAS 
+Generator
+Gain = x
+OUT
+IN
+BIAS
+VCC
+SGM4825
+VBIAS
+SHDN
+IN1
+IN2
+VBIAS 
+Generator
+OUT
+BIAS
+VCC
+SGM4826
+VBIAS
+SHDN
+IN1/IN2
+Gain = x
+ 
+Figure 1. Block Diagram 
+ 
+ 
+
+SGM4822/SGM4823 
+Single/Dual-Input, Fixed-Gain 
+SGM4825/SGM4826 
+Microphone Amplifiers with Integrated Bias 
+ 
+ 
+10 
+SEPTEMBER 2018 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+Changes from Original (SEPTEMBER 2018) to REV.A 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00035.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOT-23-8 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+1.050 
+1.250 
+0.041 
+0.049 
+A1 
+0.000 
+0.100 
+0.000 
+0.004 
+A2 
+1.050 
+1.150 
+0.041 
+0.045 
+b 
+0.300 
+0.500 
+0.012 
+0.020 
+c 
+0.100 
+0.200 
+0.004 
+0.008 
+D 
+2.820 
+3.020 
+0.111 
+0.119 
+E 
+1.500 
+1.700 
+0.059 
+0.067 
+E1 
+2.650 
+2.950 
+0.104 
+0.116 
+e 
+0.650 BSC 
+0.026 BSC 
+e1 
+0.975 BSC 
+0.038 BSC 
+L 
+0.300 
+0.600 
+0.012 
+0.024 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+E
+E1
+b
+D
+A1
+A2
+A
+c
+L
+θ
+0.2
+e
+e1
+2.59
+0.99
+0.4
+0.65
+RECOMMENDED LAND PATTERN (Unit: mm)
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00015.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+MSOP-10 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.820 
+1.100 
+0.032 
+0.043 
+A1 
+0.020 
+0.150 
+0.001 
+0.006 
+A2 
+0.750 
+0.950 
+0.030 
+0.037 
+b 
+0.180 
+0.280 
+0.007 
+0.011 
+c 
+0.090 
+0.230 
+0.004 
+0.009 
+D 
+2.900 
+3.100 
+0.114 
+0.122 
+E 
+2.900 
+3.100 
+0.114 
+0.122 
+E1 
+4.750 
+5.050 
+0.187 
+0.199 
+e 
+0.500 BSC 
+0.020 BSC 
+L 
+0.400 
+0.800 
+0.016 
+0.031 
+θ 
+0° 
+6° 
+0° 
+6° 
+ 
+ 
+ 
+ 
+b
+E1
+E
+e
+D
+A1
+L
+c
+A
+A2
+θ
+4.8
+0.5
+0.3
+1.02
+RECOMMENDED LAND PATTERN (Unit: mm)
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00034.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOT-23-6 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+1.050 
+1.250 
+0.041 
+0.049 
+A1 
+0.000 
+0.100 
+0.000 
+0.004 
+A2 
+1.050 
+1.150 
+0.041 
+0.045 
+b 
+0.300 
+0.500 
+0.012 
+0.020 
+c 
+0.100 
+0.200 
+0.004 
+0.008 
+D 
+2.820 
+3.020 
+0.111 
+0.119 
+E 
+1.500 
+1.700 
+0.059 
+0.067 
+E1 
+2.650 
+2.950 
+0.104 
+0.116 
+e 
+0.950 BSC 
+0.037 BSC 
+e1 
+1.900 BSC 
+0.075 BSC 
+L 
+0.300 
+0.600 
+0.012 
+0.024 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+ 
+ 
+E
+E1
+e
+e1
+b
+D
+A1
+A2
+A
+c
+L
+θ
+0.2
+2.59
+0.99
+0.95
+0.69
+RECOMMENDED LAND PATTERN (Unit: mm)
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+SOT-23-8 
+7″ 
+9.5 
+3.17 
+3.23 
+1.37 
+4.0 
+4.0 
+2.0 
+8.0 
+Q3 
+MSOP-10 
+13″ 
+12.4 
+5.20 
+3.30 
+1.20 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+SOT-23-6 
+7″ 
+9.5 
+3.17 
+3.23 
+1.37 
+4.0 
+4.0 
+2.0 
+8.0 
+Q3 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 
+ 
+ 

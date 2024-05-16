@@ -1,0 +1,748 @@
+ 
+SGM9140 
+26MHz, Video Driver with 
+Y/C Mixer and Chroma Mute 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+NOVEMBER 2012 –REV. A. 2 
+GENERAL DESCRIPTION 
+The SGM9140 is a low voltage video amplifier with Y/C 
+mixer which can operate from 2.8V to 5.5V power 
+supply. It is designed for portable video system and 
+energy saving products. 
+The SGM9140 has chroma mute and power-save 
+functions. 
+SGM9140 provides two gain options (6.4dB or 12.4dB) 
+for different applications. 
+The SGM9140 is available in a Green MSOP-8 
+package. It operates over an ambient temperature 
+range of -40℃ to +85℃. 
+FEATURES 
+● Supply Voltage Range:: 2.8V to 5.5V 
+● Internal Clamp (Y-Input)/Bias (C-Input) MIX 
+Circuit 
+● Quiescent Current: 9mA (TYP) 
+● Power-Save Mode Current: 1μA (TYP) 
+● Support 6.4dB and 12.4dB Gains 
+● Available in a Green MSOP-8 Package 
+● -40℃ to +85℃ Operating Temperature Range 
+ 
+ 
+APPLICATIONS 
+Cable and Satellite Set-Top Boxes 
+Portable and Handheld Products 
+Communication Devices 
+Digital Cameras 
+DVC Players 
+ 
+ 
+ 
+ 
+
+26MHz, Video Driver with 
+SGM9140 
+Y/C Mixer and Chroma Mute 
+ 
+ 
+2 
+NOVEMBER 2012 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM9140A 
+(12.4dB Gain) 
+MSOP-8 
+-40℃ to +85℃ 
+SGM9140AYMS8G/TR 
+SGM9140A 
+YMS8 
+XXXXX 
+Tape and Reel, 3000 
+SGM9140B 
+(6.4dB Gain) 
+MSOP-8 
+-40℃ to +85℃ 
+SGM9140BYMS8G/TR 
+SGM9140B 
+YMS8 
+XXXXX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code and Vendor Code. 
+Date Code - Week
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+Supply Voltage, VCC 
+.......................................................... 6V 
+Junction Temperature .................................................. 150℃ 
+Storage Temperature Range 
+........................ -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................. 260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................ 8000V 
+MM 
+................................................................................ 400V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Voltage Range................................... 2.8V to 5.5V 
+Operating Temperature Range ...................... -40℃ to +85℃ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+
+26MHz, Video Driver with 
+SGM9140 
+Y/C Mixer and Chroma Mute 
+ 
+ 
+3 
+NOVEMBER 2012 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+(TOP VIEW) 
+  
+5
+6
+7
+8
+1
+2
+3
+4
+YIN
+GND
+VOUT
+VCC
+SAG
+CMUTE
+PS
+CIN
+ 
+MSOP-8 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1 
+YIN 
+S-Video Signal Y Input. 
+2 
+GND 
+Ground. 
+3 
+VOUT 
+Video Signal Output. 
+4 
+SAG 
+SAG Correction Input. 
+5 
+VCC 
+Power Supply. 
+6 
+PS 
+Power Save. 
+7 
+CMUTE 
+C-mute Input. 
+8 
+CIN 
+S-Video Signal C Input. 
+ 
+ 
+CONTROL TERMINAL EXPLANATION 
+PARAMETER 
+STATUS 
+NOTE 
+Chroma Mute 
+H 
+Chroma Mute: ON 
+L 
+Chroma Mute: OFF 
+OPEN 
+Chroma Mute: OFF 
+Power Save 
+H 
+Power Save: OFF 
+L 
+Power Save: ON 
+OPEN 
+Power Save: ON 
+ 
+ 
+
+26MHz, Video Driver with 
+SGM9140 
+Y/C Mixer and Chroma Mute 
+ 
+ 
+4 
+NOVEMBER 2012 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VCC = 3V, TA = +25℃, VOUT = 2VPP, RL = 150Ω connected to GND, referenced to 400kHz, unless otherwise noted.) 
+PARAMETER 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Operating Voltage Range (VCC) 
+ 
+2.8 
+ 
+5.5 
+V 
+Quiescent Current (IQ) 
+No Signal 
+ 
+9.0 
+11.6 
+mA 
+Power Save Mode Current (IS) 
+Power Save Mode 
+ 
+1.0 
+2.0 
+μA 
+Maximum Output Voltage (VOM) 
+f = 1kHz, THD = 1% 
+ 
+2.4 
+ 
+VPP 
+Voltage Gain (GV) 
+SGM9140A 
+11.9 
+12.4 
+12.9 
+dB 
+SGM9140B 
+5.9 
+6.4 
+6.9 
+-0.1dB Bandwidth 
+SGM9140A 
+ 
+18 
+ 
+MHz 
+SGM9140B 
+ 
+16 
+ 
+-1dB Bandwidth 
+SGM9140A 
+ 
+22 
+ 
+MHz 
+SGM9140B 
+ 
+20 
+ 
+-3dB Bandwidth 
+SGM9140A 
+ 
+26 
+ 
+MHz 
+SGM9140B 
+ 
+23 
+ 
+Frequency Characteristics (Gf) 
+YIN = 10MHz/100kHz 
+SGM9140A 
+ 
+0.3 
+ 
+dB 
+SGM9140B 
+ 
+0.1 
+ 
+Differential Gain (DG) 
+VCC = 3V, 4.43MHz 
+ 
+0.4 
+ 
+% 
+Differential Phase (DP) 
+VCC = 3V, 4.43MHz 
+ 
+0.2 
+ 
+deg 
+Chroma Mute Crosstalk (CT) 
+CIN = 4.43MHz, 0.1VPP 
+ 
+-52 
+ 
+dB 
+Signal-to-Noise Ratio (SNR) (1) 
+100kHz to 5MHz 
+ 
+65 
+ 
+dB 
+Second Order Distortion (HV) 
+VOUT = 1.4VPP, 3.58MHz, 
+CIN = AC to GND 
+and RL = 75Ω 
+SGM9140A 
+ 
+-39 
+ 
+dB 
+SGM9140B 
+ 
+-41.5 
+ 
+Input Resistance 
+Chroma Input 
+ 
+21 
+ 
+kΩ 
+Mute Switch Change Voltage 
+VthMH 
+1.4 
+ 
+ 
+V 
+VthML 
+ 
+ 
+0.4 
+Power Save Switch Change Voltage 
+VthPH 
+1.4 
+ 
+ 
+V 
+VthPL 
+ 
+ 
+0.4 
+ 
+NOTES:  
+1. SNR = 20 × log (714mV/rms noise); 
+2. Sine Video Signal. 
+ 
+ 
+ 
+
+26MHz, Video Driver with 
+SGM9140 
+Y/C Mixer and Chroma Mute 
+ 
+ 
+5 
+NOVEMBER 2012 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+At VCC = 5V, TA = +25℃, RL = 150Ω, all outputs AC-coupled with 220μF, unless otherwise noted. 
+ 
+Frequency Response
+-15
+-12
+-9
+-6
+-3
+0
+3
+0.1
+1
+10
+100
+Frequency (MHz)
+Normalized Gain (dB)
+SGM9140A
+ 
+Frequency Response
+-15
+-12
+-9
+-6
+-3
+0
+3
+0.1
+1
+10
+100
+Frequency (MHz)
+Normalized Gain (dB)
+SGM9140B
+ 
+ 
+ 
+Crosstalk vs. Supply Voltage
+-56
+-55
+-54
+-53
+-52
+-51
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Supply Voltage (V)
+Crosstalk (dB)
+SGM9140A
+SGM9140B
+ 
+Voltage Gain vs. Supply Voltage
+4
+6
+8
+10
+12
+14
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Supply Voltage (V)
+Voltage Gain (dB)
+SGM9140A
+SGM9140B
+ 
+ 
+ 
+Quiescent Current vs. Supply Voltage
+7
+8
+9
+10
+11
+12
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Supply Voltage (V)
+Quiescent Current (mA)
+ 
+ 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00014.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+MSOP-8 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.820 
+1.100 
+0.032 
+0.043 
+A1 
+0.020 
+0.150 
+0.001 
+0.006 
+A2 
+0.750 
+0.950 
+0.030 
+0.037 
+b 
+0.250 
+0.380 
+0.010 
+0.015 
+c 
+0.090 
+0.230 
+0.004 
+0.009 
+D 
+2.900 
+3.100 
+0.114 
+0.122 
+E 
+2.900 
+3.100 
+0.114 
+0.122 
+E1 
+4.750 
+5.050 
+0.187 
+0.199 
+e 
+0.650 BSC 
+0.026 BSC 
+L 
+0.400 
+0.800 
+0.016 
+0.031 
+θ 
+0° 
+6° 
+0° 
+6° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+E1
+E
+e
+D
+A1
+L
+c
+A
+A2
+θ
+b
+RECOMMENDED LAND PATTERN (Unit: mm)
+1.02
+0.41
+0.65
+4.8
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+MSOP-8 
+13″ 
+12.4 
+5.20 
+3.30 
+1.50 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

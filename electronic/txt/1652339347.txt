@@ -1,0 +1,1207 @@
+ 
+SGM44602 
+4Ω, High Speed, Low Voltage 
+Dual, DPDT Analog Switch 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+MAY2016–REV.A. 4 
+GENERAL DESCRIPTION 
+The SGM44602 is a dual, double-pole/double-throw 
+(DPDT), TTL/CMOS compatible analog switch. It 
+operates from a 1.8V to 5.5V single power supply. 
+The SGM44602 features high-speed, low on-resistance, 
+low voltage and high bandwidth. The high performances 
+make it very suitable for multiple applications, such as 
+portable equipment, audio and video signal routing, etc. 
+In addition, the SGM44602 can be used as a quad 
+bidirectional 2-channel multiplexer/demultiplexer because 
+it has four SPDT switches. Low power consumption is 
+also one of the important reasons that make it a good 
+choice. 
+The SGM44602 is available in a Green TQFN-2.6×1.8-16L 
+package. It operates over an ambient temperature 
+range of -40℃ to +85℃. 
+ 
+ 
+FEATURES 
+● Single Supply Voltage Range: 1.8V to 5.5V 
+● -3dB Bandwidth: 300MHz 
+● Low On-Resistance: 4Ω (TYP) 
+● Low On-Resistance Flatness 
+● High Off-Isolation: -75dB at 1MHz 
+● Low Crosstalk: -100dB at 1MHz 
+● Fast Switching Times (V+ = 5V): 
+tON: 32ns 
+tOFF: 26ns 
+● Rail-to-Rail Input and Output Operation 
+● TTL/CMOS Compatible 
+● -40℃ to +85℃ Operating Temperature Range 
+● Available in a Green TQFN-2.6×1.8-16L Package 
+ 
+ 
+APPLICATIONS 
+Cellular Phones 
+Portable Equipment 
+Medical Equipment 
+Sample-and-Hold Circuits 
+Personal Digital Assistants 
+Battery-Powered Systems 
+Audio and Video Signal Routing 
+ 
+ 
+ 
+ 
+ 
+ 
+
+4Ω, High Speed, Low Voltage 
+SGM44602 
+Dual, DPDT Analog Switch 
+ 
+ 
+2 
+MAY 2016 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM44602 
+TQFN-2.6×1.8-16L 
+-40℃ to +85℃ 
+SGM44602YTQA16/TR 
+44602 
+XXXXX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code and Vendor Code. 
+Date Code - Week
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+V+ to GND 
+................................................................. 
+0V to 6V 
+Analog, Digital Voltage Range 
+.................-0.3V to (V+) + 0.3V 
+Continuous Current NO, NC, or COM 
+....................... ±100mA 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Temperature Range ....................... 
+-40℃ to +85℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged by ESD if you don’t 
+pay attention to ESD protection. SGMICRO recommends that 
+all integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because very small parametric changes could cause the 
+device not to meet its published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+
+4Ω, High Speed, Low Voltage 
+SGM44602 
+Dual, DPDT Analog Switch 
+ 
+ 
+3 
+MAY 2016 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+(TOP VIEW) 
+8
+5
+6
+7
+13
+16
+15
+14
+4
+1
+2
+3
+9
+12
+11
+10
+NC1
+IN1-4
+NO2 COM2
+COM1
+NO1
+V+
+NC4
+NC2
+GND
+NO3
+COM3
+COM4 NO4
+NC
+NC3
+ 
+TQFN-2.6×1.8-16L 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1, 5, 9, 13 
+NCX 
+Normally Closed Pins. 
+2 
+IN1-4 
+Digital Control Input Pin to Connect the COM Pins to the NO or NC Pins. 
+6 
+GND 
+Ground. 
+10 
+N.C. 
+Not Internally Connected. 
+14 
+V+ 
+Positive Power Supply Pin. 
+15, 3, 7, 11 
+NOX 
+Normally Open Pins. 
+16, 4, 8, 12 
+COMX 
+Common Pins. 
+ 
+ 
+ 
+FUNCTION TABLE 
+IN1-4 
+FUNCTION 
+NC1, 2, 3 and 4 
+NO1, 2, 3 and 4 
+0 
+ON 
+OFF 
+1 
+OFF 
+ON 
+ 
+ 
+ 
+
+4Ω, High Speed, Low Voltage 
+SGM44602 
+Dual, DPDT Analog Switch 
+ 
+ 
+4 
+MAY 2016 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(V+ = 4.5V to 5.5V, GND = 0V, VIH = 1.6V, VIL = 0.5V, Full = -40℃ to +85℃. Typical values are at V+ = 5V, TA = +25℃, unless 
+otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN 
+TYP 
+MAX 
+UNITS 
+Analog Switch 
+Analog Signal Range 
+VNO, VNC, VCOM 
+ 
+Full 
+0 
+ 
+V+ 
+V 
+On-Resistance 
+RON 
+V+ = 4.5V, 0V ≤ VNO or VNC ≤ V+, 
+ICOM = -100mA, Test Circuit 1 
++25℃ 
+ 
+4 
+6 
+Ω 
+Full 
+ 
+ 
+7 
+On-Resistance Match between 
+Channels 
+∆RON 
+V+ = 4.5V, 0V ≤ VNO or VNC ≤ V+, 
+ICOM = -100mA, Test Circuit 1 
++25℃ 
+ 
+0.4 
+2.5 
+Ω 
+Full 
+ 
+ 
+3 
+On-Resistance Flatness 
+RFLAT(ON) 
+V+ = 4.5V, 0V ≤ VNO or VNC ≤ V+, 
+ICOM = -100mA, Test Circuit 1 
++25℃ 
+ 
+2 
+3 
+Ω 
+Full 
+ 
+ 
+3.5 
+Source Off Leakage Current 
+INC(OFF), INO(OFF) 
+V+ = 5.5V, VNO or VNC = 3.3V/0.3V,  
+VCOM = 0.3V/3.3V 
+Full 
+ 
+ 
+1 
+μA 
+Channel On Leakage Current 
+INC(ON), INO(ON), 
+ICOM(ON) 
+V+ = 5.5V, VCOM = 0.3V/3.3V,  
+VNO or VNC = 0.3V/3.3V or floating 
+Full 
+ 
+ 
+1 
+μA 
+Digital Inputs 
+Input High Voltage 
+VINH 
+ 
+Full 
+1.6 
+ 
+ 
+V 
+Input Low Voltage 
+VINL 
+ 
+Full 
+ 
+ 
+0.5 
+V 
+Input Leakage Current 
+IIN 
+V+ = 5.5V, VIN = 0V or 5.5V 
+Full 
+ 
+ 
+1 
+μA 
+Dynamic Characteristics 
+Turn-On Time 
+tON 
+VNC or VNO = 3V, RL = 300Ω, CL = 35pF,  
+Test Circuit 2 
++25℃ 
+ 
+32 
+ 
+ns 
+Turn-Off Time 
+tOFF 
++25℃ 
+ 
+26 
+ 
+ns 
+Break-Before-Make Time Delay 
+tD 
+VNC or VNO = 3V, RL = 300Ω, CL = 35pF,  
+Test Circuit 4 
++25℃ 
+ 
+15.5 
+ 
+ns 
+Charge Injection 
+Q 
+VS = GND, RS = 0Ω, CL = 1nF, 
+Q = CL × VOUT, Test Circuit 3 
++25℃ 
+ 
+4.8 
+ 
+pC 
+Off Isolation 
+OISO 
+Signal = 0dBm, RL = 50Ω, 
+Test Circuit 5 
+1MHz 
++25℃ 
+ 
+-75 
+ 
+dB 
+10MHz 
++25℃ 
+ 
+-55 
+ 
+Channel-to-Channel Crosstalk 
+XTALK 
+Signal = 0dBm, RL = 50Ω, 
+Test Circuit 6 
+1MHz 
++25℃ 
+ 
+-100 
+ 
+dB 
+10MHz 
++25℃ 
+ 
+-60 
+ 
+-3dB Bandwidth  
+BW 
+Signal = 0dBm, RL = 50Ω, Test Circuit 7 
++25℃ 
+ 
+300 
+ 
+MHz 
+Channel On Capacitance 
+CNC(ON), CNO(ON), 
+CCOM(ON) 
+ 
++25℃ 
+ 
+45 
+ 
+pF 
+Power Requirements 
+Power Supply Range 
+V+ 
+ 
+Full 
+1.8 
+ 
+5.5 
+V 
+Power Supply Current 
+I+ 
+V+ = 5.5V, VIN = 0V or V+ 
+Full 
+ 
+ 
+1 
+μA 
+ 
+ 
+ 
+
+4Ω, High Speed, Low Voltage 
+SGM44602 
+Dual, DPDT Analog Switch 
+ 
+ 
+5 
+MAY 2016 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(V+ = 2.7V to 3.6V, VIH = 1.6V, VIL = 0.4V, Full = -40℃ to +85℃. Typical values are at V+ = 3V, TA = +25℃, unless otherwise 
+noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN 
+TYP 
+MAX 
+UNITS 
+Analog Switch 
+Analog Signal Range 
+VNO, VNC, VCOM 
+ 
+Full 
+0 
+ 
+V+ 
+V 
+On-Resistance 
+RON 
+V+ = 2.7V, 0V ≤ VNO or VNC ≤ V+, 
+ICOM = -10mA, Test Circuit 1 
++25℃ 
+ 
+10 
+15 
+Ω 
+Full 
+ 
+ 
+18 
+On-Resistance Match between 
+Channels 
+∆RON 
+V+ = 2.7V, 0V ≤ VNO or VNC ≤ V+, 
+ICOM = -100mA, Test Circuit 1 
++25℃ 
+ 
+1 
+3 
+Ω 
+Full 
+ 
+ 
+4 
+On-Resistance Flatness 
+RFLAT(ON) 
+V+ = 2.7V, 0V ≤ VNO or VNC ≤ V+, 
+ICOM = -100mA, Test Circuit 1 
++25℃ 
+ 
+6 
+9 
+Ω 
+Full 
+ 
+ 
+12 
+Source Off Leakage Current 
+INC(OFF), INO(OFF) 
+V+ = 3.6V, VNO or VNC = 3.3V/0.3V,  
+VCOM = 0.3V/3.3V 
+Full 
+ 
+ 
+1 
+μA 
+Channel On Leakage Current 
+INC(ON), INO(ON), 
+ICOM(ON) 
+V+ = 3.6V, VCOM = 0.3V/3.3V,  
+VNO or VNC = 0.3V/3.3V or floating 
+Full 
+ 
+ 
+1 
+μA 
+Digital Inputs 
+Input High Voltage 
+VINH 
+ 
+Full 
+1.5 
+ 
+ 
+V 
+Input Low Voltage 
+VINL 
+ 
+Full 
+ 
+ 
+0.4 
+V 
+Input Leakage Current 
+IIN 
+V+ = 2.7V, VIN = 0V or 2.7V 
+Full 
+ 
+ 
+1 
+μA 
+Dynamic Characteristics 
+Turn-On Time 
+tON 
+VNC or VNO = 1.5V, RL = 300Ω, CL = 35pF, 
+Test Circuit 2 
++25℃ 
+ 
+34 
+ 
+Ns 
+Turn-Off Time 
+tOFF 
++25℃ 
+ 
+40 
+ 
+Ns 
+Break-Before-Make Time Delay 
+tD 
+VNC or VNO = 1.5V, RL = 300Ω, CL = 35pF, 
+Test Circuit 4 
++25℃ 
+ 
+20 
+ 
+Ns 
+Charge Injection 
+Q 
+VS = GND, RS = 0Ω, CL = 1.0nF, 
+Q = CL × VOUT, Test Circuit 3 
++25℃ 
+ 
+3.4 
+ 
+pC 
+Off Isolation 
+OISO 
+Signal = 0dBm, RL = 50Ω, 
+Test Circuit 5 
+1MHz 
++25℃ 
+ 
+-75 
+ 
+dB 
+10MHz 
++25℃ 
+ 
+-55 
+ 
+Channel-to-Channel 
+Crosstalk 
+XTALK 
+Signal = 0dBm, RL = 50Ω, 
+Test Circuit 6 
+1MHz 
++25℃ 
+ 
+-100 
+ 
+dB 
+10MHz 
++25℃ 
+ 
+-60 
+ 
+-3dB Bandwidth 
+BW 
+Signal = 0dBm, RL = 50Ω, Test Circuit 7 
++25℃ 
+ 
+300 
+ 
+MHz 
+Channel On Capacitance 
+CNC(ON), CNO(ON), 
+CCOM(ON) 
+ 
++25℃ 
+ 
+45 
+ 
+pF 
+ 
+ 
+ 
+
+4Ω, High Speed, Low Voltage 
+SGM44602 
+Dual, DPDT Analog Switch 
+ 
+ 
+6 
+MAY 2016 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+ 
+ 
+On Response vs. Frequency
+-9
+-6
+-3
+0
+3
+0.1
+1
+10
+100
+1000
+Frequency (MHz)
+On Response (dB)
+V+ = +4.2V
+TA = +25℃
+ 
+On Response vs. Frequency
+-9
+-6
+-3
+0
+3
+0.1
+1
+10
+100
+1000
+Frequency (MHz)
+On Response (dB)
+V+ = +3V
+TA = +25℃
+ 
+ 
+ 
+Response vs. Frequency
+-140
+-120
+-100
+-80
+-60
+-40
+-20
+0
+20
+0.01
+0.1
+1
+10
+100
+1000
+Frequency (MHz)
+On Response (dB)
+V+ = +4.2V
+TA = +25℃
+OFF-ISOLATION
+CROSSTALK
+ 
+Response vs. Frequency
+-140
+-120
+-100
+-80
+-60
+-40
+-20
+0
+20
+0.01
+0.1
+1
+10
+100
+1000
+Frequency (MHz)
+On Response (dB)
+V+ = +3V
+TA = +25℃
+OFF-ISOLATION
+CROSSTALK
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+4Ω, High Speed, Low Voltage 
+SGM44602 
+Dual, DPDT Analog Switch 
+ 
+ 
+7 
+MAY 2016 
+SG Micro Corp 
+www.sg-micro.com 
+TEST CIRCUITS 
+RON = V1/ICOM
+NO or NC  
+COM
+VNO or VNC
+ICOM
+GND
+IN
+V1
+ 
+ 
+Test Circuit 1. On Resistance 
+ 
+VOUT 
+NO or NC  
+COM
+VNO or VNC
+V+
+GND
+RL
+CL
+IN
+V+
+VOUT 
+VIN 
+50%
+90%
+50%
+90%
+tON 
+tOFF 
+0.1μF
+V+
+0V
+0V
+VNO or VNC
+tR < 5ns
+tF < 5ns
+VIN 
+ 
+ 
+Test Circuit 2. Switching Times (tON, tOFF) 
+ 
+ 
+VS
+RS
+VOUT 
+NO or NC  
+COM
+V+
+GND
+CL
+IN
+V+
+0.1μF
+VOUT 
+ΔVOUT 
+V+
+VIN 
+0V
+tR < 5ns
+tF < 5ns
+VIN 
+Q = ΔVOUT × CL
+ 
+ 
+Test Circuit 3. Charge Injection 
+ 
+ 
+
+4Ω, High Speed, Low Voltage 
+SGM44602 
+Dual, DPDT Analog Switch 
+ 
+ 
+8 
+MAY 2016 
+SG Micro Corp 
+www.sg-micro.com 
+TEST CIRCUITS (continued) 
+ 
+VOUT 
+VIN 
+50%
+90%
+tD 
+VNO or VNC
+0V
+VOUT 
+NO
+COM
+VNO or VNC
+V+
+GND
+RL
+CL
+IN
+V+
+0.1μF
+NC
+0V
+V+
+tR < 5ns
+tF < 5ns
+VIN 
+ 
+ 
+Test Circuit 4. Break-Before-Make Time Delay (tD) 
+ 
+NO or NC
+COM
+V+
+GND
+CL
+IN
+V+
+0.1μF
+VOUT 
+Network
+Analyzer
+50Ω
+50Ω
+VIN 
+50Ω
+ 
+ 
+Test Circuit 5. Off Isolation 
+ 
+V+
+V+
+0.1μF
+COM
+NO or NC
+IN1
+IN2
+VOUT 
+NO or NC
+COM
+GND
+RL
+CL
+N.C.
+Channel-to-Channel Crosstalk = -20 log (VNO or VNC/VOUT)
+RL
+CL
+Network
+Analyzer
+50Ω
+50Ω
+VIN 
+ 
+ 
+Test Circuit 6. Channel-to-Channel Crosstalk 
+ 
+ 
+ 
+
+4Ω, High Speed, Low Voltage 
+SGM44602 
+Dual, DPDT Analog Switch 
+ 
+ 
+9 
+MAY 2016 
+SG Micro Corp 
+www.sg-micro.com 
+TEST CIRCUITS (continued) 
+ 
+NO or NC
+COM
+V+
+GND
+CL
+IN
+V+
+0.1μF
+VOUT 
+Network
+Analyzer
+50Ω
+50Ω
+VIN 
+ 
+ 
+Test Circuit 7. -3dB Bandwidth 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+MAY 2016 ‒ REV.A.3 to REV.A.4 
+Page 
+Updated Tape and Reel Information section ...................................................................................................................................................... 
+11 
+ 
+JANUARY 2013 ‒ REV.A.2 to REV.A.3 
+Page 
+Added Recommended Land Pattern Information ............................................................................................................................................... 
+10 
+Added Tape and Reel Information 
+................................................................................................................................................................ 11, 12 
+ 
+MAY 2011 ‒ REV.A.1 to REV.A.2 
+Page 
+Updated Package Description ........................................................................................................................................................................... 
+All 
+ 
+DECEMBER 2008 ‒ REV.A to REV.A.1 
+Page 
+Changed Absolute Maximum Ratings section 
+...................................................................................................................................................... 
+2 
+ 
+Changes from Original (MAY 2008) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00078.001 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TQFN-2.6×1.8-16L 
+ 
+ 
+ 
+ 
+ 
+NOTE: All linear dimensions are in millimeters. 
+ 
+ 
+ 
+ 
+ 
+ 
+2.600± 0.050
+1.800± 0.050
+0.500± 0.050
+0.200± 0.050
+0.400± 0.050
+0.400 TYP
+BOTTOM VIEW
+TOP VIEW
+SIDE VIEW
+0.750± 0.050
+0.050± 0.050
+0.203 Ref.
+N1
+N2
+N16
+RECOMMENDED LAND PATTERN
+PIN #1 DOT
+BY MARKING
+PIN #1 IDENTIFICATION
+CHAMFER 0.100× 45°
+(× 15)
+1.200 Ref.
+0.8
+0.7
+0.2
+0.4
+3.2
+2.4
+1.8
+1.0
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+TQFN-2.6×1.8-16L 
+7″ 
+9.0 
+2.01 
+2.81 
+0.93 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 
+ 
+ 
+ 
+ 

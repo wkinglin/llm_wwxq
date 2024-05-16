@@ -1,0 +1,2980 @@
+ 
+SGM41100W 
+True Monolithic Li-Ion/Polymer 
+Battery Protector in Tiny Thin Package 
+ 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DECEMBER 2023 – REV. A. 1 
+ 
+GENERAL DESCRIPTION 
+The SGM41100W is designed for primary protection of 
+Li-Ion/polymer rechargeable cells. The product integrates 
+all the protections required for safe operation of polymer 
+rechargeable cells. The device is packaged in a tiny and 
+thin package. Its small solution size leaves more space 
+for fitting the battery cell into a given cavity for small size 
+wearable devices. 
+The SGM41100W integrates all the protections and the 
+required low on-resistance disconnect switch on one 
+die. The protection features include charge and 
+discharge protection, detection and protection of a cell 
+in charge over-voltage, charge over-current, discharge 
+under-voltage, discharge over-current, prohibit charge 
+and discharge when battery lower than certain voltage 
+and battery under-voltage. The product also disconnects 
+the battery pack in the case of deep discharge. 
+The SGM41100W operates in -40℃ to +85℃ temperature 
+range, and is in a thin and low profile UTDFN-1.5×2-6L 
+package. This package with a nominal height of 0.5mm 
+is convenient for small cell packing designs. 
+FEATURES 
+● Ultra-Compact Protection Solution 
+● Pass Resistance: 42mΩ (TYP) 
+● Operation Current: 1.1μA (TYP) 
+● Factory Programmable OVP Threshold Options 
+4.20V to 4.575V with 0.025V per Step 
+● Charge/Discharge Over-Current Protection 
+3 Thresholds Combination Options 
+● Battery Under-Voltage Protection 
+2.6V/2.7V/2.8V/3.0V Options 
+● 50nA Deep Discharge Shutdown 
+● Input Surge Clamping 
+● Input Over-Voltage Safe 
+● Load Short-Circuit Safe 
+● Reverse Polarity Battery Safe 
+● Input Reversed-Attaching Safe 
+● Battery Pack Paralleling Safe 
+● Locked-Off for Delivery/Assembly 
+● Available in a Green UTDFN-1.5×2-6L Package 
+ 
+APPLICATIONS 
+IoT Gadgets 
+Wearable Devices 
+Battery Packs 
+ 
+ 
+TYPICAL APPLICATION 
+M
+P
+PCKP
+Pack P
+Pack N
+BYPS
+BATN
+1μF
+1kΩ 
+SGM
+41100W
+1
+6
+2
+5
+3
+4
+BATN
+PCKN
+PCKN
+ 
+NOTE: The short-circuit of both ends (P and M) of the battery should be avoided during the battery assembly process. 
+ 
+Figure 1. Typical Application Circuit 
+ 
+ 
+
+True Monolithic Li-Ion/Polymer 
+SGM41100W 
+Battery Protector in Tiny Thin Package 
+ 
+ 
+2 
+ 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM41100W-420M01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-420M01YUDT6G/TR 
+GAN 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-420M02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-420M02YUDT6G/TR 
+GAP 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-420M04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-420M04YUDT6G/TR 
+GAQ 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-420N01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-420N01YUDT6G/TR 
+GAR 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-420N02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-420N02YUDT6G/TR 
+GAS 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-420N04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-420N04YUDT6G/TR 
+GAT 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-420O01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-420O01YUDT6G/TR 
+GAU 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-420O02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-420O02YUDT6G/TR 
+GAV 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-420O04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-420O04YUDT6G/TR 
+GAW 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-420P01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-420P01YUDT6G/TR 
+GAX 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-420P02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-420P02YUDT6G/TR 
+GAY 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-420P04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-420P04YUDT6G/TR 
+GAZ 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-423M01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-423M01YUDT6G/TR 
+GBG 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-423M02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-423M02YUDT6G/TR 
+GBH 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-423M04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-423M04YUDT6G/TR 
+GBI 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-423N01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-423N01YUDT6G/TR 
+GBJ 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-423N02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-423N02YUDT6G/TR 
+GBK 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-423N04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-423N04YUDT6G/TR 
+GBL 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-423O01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-423O01YUDT6G/TR 
+GBM 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-423O02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-423O02YUDT6G/TR 
+GBN 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-423O04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-423O04YUDT6G/TR 
+GBP 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-423P01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-423P01YUDT6G/TR 
+GBQ 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-423P02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-423P02YUDT6G/TR 
+GBR 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-423P04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-423P04YUDT6G/TR 
+GBS 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-425M01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-425M01YUDT6G/TR 
+GBT 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-425M02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-425M02YUDT6G/TR 
+GBU 
+XXX 
+Tape and Reel, 3000 
+
+True Monolithic Li-Ion/Polymer 
+SGM41100W 
+Battery Protector in Tiny Thin Package 
+ 
+ 
+3 
+ 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM41100W-425M04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-425M04YUDT6G/TR 
+GBV 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-425N01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-425N01YUDT6G/TR 
+GBW 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-425N02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-425N02YUDT6G/TR 
+GBX 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-425N04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-425N04YUDT6G/TR 
+GBY 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-425O01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-425O01YUDT6G/TR 
+GBZ 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-425O02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-425O02YUDT6G/TR 
+GCG 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-425O04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-425O04YUDT6G/TR 
+GCH 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-425P01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-425P01YUDT6G/TR 
+GCI 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-425P02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-425P02YUDT6G/TR 
+GCJ 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-425P04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-425P04YUDT6G/TR 
+GCK 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-428M01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-428M01YUDT6G/TR 
+GCL 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-428M02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-428M02YUDT6G/TR 
+GCM 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-428M04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-428M04YUDT6G/TR 
+GCN 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-428N01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-428N01YUDT6G/TR 
+GCP 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-428N02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-428N02YUDT6G/TR 
+GCQ 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-428N04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-428N04YUDT6G/TR 
+GCR 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-428O01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-428O01YUDT6G/TR 
+GCS 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-428O02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-428O02YUDT6G/TR 
+GCT 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-428O04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-428O04YUDT6G/TR 
+GCU 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-428P01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-428P01YUDT6G/TR 
+GCV 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-428P02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-428P02YUDT6G/TR 
+GCW 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-428P04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-428P04YUDT6G/TR 
+GCX 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-430M01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-430M01YUDT6G/TR 
+GCY 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-430M02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-430M02YUDT6G/TR 
+GCZ 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-430M04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-430M04YUDT6G/TR 
+GD1 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-430N01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-430N01YUDT6G/TR 
+GD2 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-430N02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-430N02YUDT6G/TR 
+GDG 
+XXX 
+Tape and Reel, 3000 
+
+True Monolithic Li-Ion/Polymer 
+SGM41100W 
+Battery Protector in Tiny Thin Package 
+ 
+ 
+4 
+ 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM41100W-430N04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-430N04YUDT6G/TR 
+GDH 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-430O01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-430O01YUDT6G/TR 
+GDI 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-430O02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-430O02YUDT6G/TR 
+GDJ 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-430O04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-430O04YUDT6G/TR 
+OUB 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-430P01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-430P01YUDT6G/TR 
+GDK 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-430P02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-430P02YUDT6G/TR 
+GDL 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-430P04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-430P04YUDT6G/TR 
+OUC 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-433M01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-433M01YUDT6G/TR 
+GDM 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-433M02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-433M02YUDT6G/TR 
+GDN 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-433M04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-433M04YUDT6G/TR 
+GDP 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-433N01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-433N01YUDT6G/TR 
+GDQ 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-433N02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-433N02YUDT6G/TR 
+GDR 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-433N04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-433N04YUDT6G/TR 
+GDS 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-433O01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-433O01YUDT6G/TR 
+GDT 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-433O02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-433O02YUDT6G/TR 
+GDU 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-433O04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-433O04YUDT6G/TR 
+GDV 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-433P01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-433P01YUDT6G/TR 
+GDW 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-433P02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-433P02YUDT6G/TR 
+GDX 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-433P04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-433P04YUDT6G/TR 
+GDY 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-435M01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-435M01YUDT6G/TR 
+GDZ 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-435M02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-435M02YUDT6G/TR 
+GE1 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-435M04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-435M04YUDT6G/TR 
+GEG 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-435N01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-435N01YUDT6G/TR 
+GEH 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-435N02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-435N02YUDT6G/TR 
+GEI 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-435N04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-435N04YUDT6G/TR 
+GEJ 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-435O01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-435O01YUDT6G/TR 
+GEK 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-435O02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-435O02YUDT6G/TR 
+GEL 
+XXX 
+Tape and Reel, 3000 
+
+True Monolithic Li-Ion/Polymer 
+SGM41100W 
+Battery Protector in Tiny Thin Package 
+ 
+ 
+5 
+ 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM41100W-435O04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-435O04YUDT6G/TR 
+OUD 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-435P01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-435P01YUDT6G/TR 
+GEM 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-435P02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-435P02YUDT6G/TR 
+GEN 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-435P04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-435P04YUDT6G/TR 
+OUE 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-438M01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-438M01YUDT6G/TR 
+GEP 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-438M02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-438M02YUDT6G/TR 
+GEQ 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-438M04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-438M04YUDT6G/TR 
+GER 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-438N01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-438N01YUDT6G/TR 
+GES 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-438N02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-438N02YUDT6G/TR 
+GET 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-438N04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-438N04YUDT6G/TR 
+GEU 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-438O01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-438O01YUDT6G/TR 
+GEV 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-438O02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-438O02YUDT6G/TR 
+GEW 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-438O04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-438O04YUDT6G/TR 
+GEX 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-438P01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-438P01YUDT6G/TR 
+GEY 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-438P02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-438P02YUDT6G/TR 
+GEZ 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-438P04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-438P04YUDT6G/TR 
+GFG 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-440M01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-440M01YUDT6G/TR 
+GFH 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-440M02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-440M02YUDT6G/TR 
+GFI 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-440M04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-440M04YUDT6G/TR 
+GFJ 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-440N01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-440N01YUDT6G/TR 
+GFK 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-440N02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-440N02YUDT6G/TR 
+GFL 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-440N04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-440N04YUDT6G/TR 
+GFM 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-440O01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-440O01YUDT6G/TR 
+GFN 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-440O02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-440O02YUDT6G/TR 
+GFP 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-440O04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-440O04YUDT6G/TR 
+GFQ 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-440P01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-440P01YUDT6G/TR 
+GFR 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-440P02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-440P02YUDT6G/TR 
+GFS 
+XXX 
+Tape and Reel, 3000 
+
+True Monolithic Li-Ion/Polymer 
+SGM41100W 
+Battery Protector in Tiny Thin Package 
+ 
+ 
+6 
+ 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM41100W-440P04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-440P04YUDT6G/TR 
+GFT 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-443M01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-443M01YUDT6G/TR 
+GFU 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-443M02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-443M02YUDT6G/TR 
+GFV 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-443M04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-443M04YUDT6G/TR 
+GFW 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-443N01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-443N01YUDT6G/TR 
+GFX 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-443N02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-443N02YUDT6G/TR 
+GFY 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-443N04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-443N04YUDT6G/TR 
+GFZ 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-443O01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-443O01YUDT6G/TR 
+GGA 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-443O02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-443O02YUDT6G/TR 
+GGH 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-443O04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-443O04YUDT6G/TR 
+GGI 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-443P01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-443P01YUDT6G/TR 
+GGJ 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-443P02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-443P02YUDT6G/TR 
+GGK 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-443P04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-443P04YUDT6G/TR 
+GGL 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-445M01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-445M01YUDT6G/TR 
+GGM 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-445M02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-445M02YUDT6G/TR 
+GGN 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-445M04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-445M04YUDT6G/TR 
+GGP 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-445N01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-445N01YUDT6G/TR 
+GGQ 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-445N02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-445N02YUDT6G/TR 
+GGR 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-445N04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-445N04YUDT6G/TR 
+GGS 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-445O01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-445O01YUDT6G/TR 
+GGT 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-445O02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-445O02YUDT6G/TR 
+GGU 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-445O04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-445O04YUDT6G/TR 
+OUF 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-445P01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-445P01YUDT6G/TR 
+GGV 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-445P02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-445P02YUDT6G/TR 
+GGW 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-445P04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-445P04YUDT6G/TR 
+OV0 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-448M01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-448M01YUDT6G/TR 
+GGX 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-448M02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-448M02YUDT6G/TR 
+GGY 
+XXX 
+Tape and Reel, 3000 
+
+True Monolithic Li-Ion/Polymer 
+SGM41100W 
+Battery Protector in Tiny Thin Package 
+ 
+ 
+7 
+ 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM41100W-448M04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-448M04YUDT6G/TR 
+GGZ 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-448N01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-448N01YUDT6G/TR 
+GH3 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-448N02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-448N02YUDT6G/TR 
+GH7 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-448N04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-448N04YUDT6G/TR 
+GHA 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-448O01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-448O01YUDT6G/TR 
+GHD 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-448O02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-448O02YUDT6G/TR 
+GHG 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-448O04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-448O04YUDT6G/TR 
+GHH 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-448P01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-448P01YUDT6G/TR 
+GHI 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-448P02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-448P02YUDT6G/TR 
+GHJ 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-448P04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-448P04YUDT6G/TR 
+GHK 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-450M01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-450M01YUDT6G/TR 
+GHL 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-450M02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-450M02YUDT6G/TR 
+GHM 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-450M04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-450M04YUDT6G/TR 
+GHN 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-450N01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-450N01YUDT6G/TR 
+GHP 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-450N02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-450N02YUDT6G/TR 
+GHQ 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-450N04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-450N04YUDT6G/TR 
+GHR 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-450O01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-450O01YUDT6G/TR 
+GHS 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-450O02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-450O02YUDT6G/TR 
+GHT 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-450O04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-450O04YUDT6G/TR 
+GHU 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-450P01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-450P01YUDT6G/TR 
+GHV 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-450P02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-450P02YUDT6G/TR 
+GHW 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-450P04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-450P04YUDT6G/TR 
+GHX 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-453M01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-453M01YUDT6G/TR 
+GHY 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-453M02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-453M02YUDT6G/TR 
+GHZ 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-453M04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-453M04YUDT6G/TR 
+GI4 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-453N01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-453N01YUDT6G/TR 
+GI5 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-453N02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-453N02YUDT6G/TR 
+GI6 
+XXX 
+Tape and Reel, 3000 
+
+True Monolithic Li-Ion/Polymer 
+SGM41100W 
+Battery Protector in Tiny Thin Package 
+ 
+ 
+8 
+ 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM41100W-453N04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-453N04YUDT6G/TR 
+GI7 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-453O01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-453O01YUDT6G/TR 
+GI9 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-453O02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-453O02YUDT6G/TR 
+GIF 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-453O04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-453O04YUDT6G/TR 
+GIG 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-453P01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-453P01YUDT6G/TR 
+GIH 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-453P02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-453P02YUDT6G/TR 
+GII 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-453P04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-453P04YUDT6G/TR 
+GIJ 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-455M01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-455M01YUDT6G/TR 
+GIK 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-455M02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-455M02YUDT6G/TR 
+GIL 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-455M04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-455M04YUDT6G/TR 
+GIM 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-455N01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-455N01YUDT6G/TR 
+GIN 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-455N02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-455N02YUDT6G/TR 
+GIP 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-455N04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-455N04YUDT6G/TR 
+GIQ 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-455O01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-455O01YUDT6G/TR 
+GIR 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-455O02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-455O02YUDT6G/TR 
+GIS 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-455O04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-455O04YUDT6G/TR 
+GIT 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-455P01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-455P01YUDT6G/TR 
+GIU 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-455P02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-455P02YUDT6G/TR 
+GIV 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-455P04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-455P04YUDT6G/TR 
+GIW 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-458M01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-458M01YUDT6G/TR 
+GIX 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-458M02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-458M02YUDT6G/TR 
+GIY 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-458M04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-458M04YUDT6G/TR 
+GIZ 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-458N01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-458N01YUDT6G/TR 
+GJ6 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-458N02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-458N02YUDT6G/TR 
+GJB 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-458N04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-458N04YUDT6G/TR 
+GJG 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-458O01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-458O01YUDT6G/TR 
+GJH 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-458O02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-458O02YUDT6G/TR 
+GJI 
+XXX 
+Tape and Reel, 3000 
+
+True Monolithic Li-Ion/Polymer 
+SGM41100W 
+Battery Protector in Tiny Thin Package 
+ 
+ 
+9 
+ 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM41100W-458O04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-458O04YUDT6G/TR 
+GJJ 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-458P01 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-458P01YUDT6G/TR 
+GJK 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-458P02 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-458P02YUDT6G/TR 
+GJL 
+XXX 
+Tape and Reel, 3000 
+SGM41100W-458P04 UTDFN-1.5×2-6L 
+-40℃ to +85℃ 
+SGM41100W-458P04YUDT6G/TR 
+GJM 
+XXX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XXX = Date Code and Trace Code. 
+Y Y Y  
+X X X
+Date Code - Year
+Trace Code 
+Serial Number
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+DEVICE DESCRIPTION 
+ 
+ 
+ 
+ 
+Model : SGM41100W-AAABCC 
+Over-Voltage Threshold Options 
+Option Code "AAA" 
+420 
+423 
+425 
+428 
+430 
+433 
+435 
+438 
+Over-Voltage Threshold 
+VOV (V) 
+4.20 
+4.225 
+4.25 
+4.275 
+4.30 
+4.325 
+4.35 
+4.375 
+Option Code "AAA" 
+440 
+443 
+445 
+448 
+450 
+453 
+455 
+458 
+Over-Voltage Threshold 
+VOV (V) 
+4.40 
+4.425 
+4.45 
+4.475 
+4.50 
+4.525 
+4.55 
+4.575 
+Under-Voltage Threshold Options 
+Option Code "B" 
+M 
+N 
+O 
+P 
+Under-Voltage Threshold 
+VUV (V) 
+2.6 
+2.7 
+2.8 
+3.0 
+Current Threshold Combination Options 
+Option Code "CC" 
+01 
+02 
+04 
+Charge Over-Current 
+IOC (A) 
+0.156 
+0.19 
+0.35 
+Discharge Over-Current 
+IOD (A) 
+0.169 
+0.30 
+0.56 
+Short-Circuit Current (A) 
+4 × 0.169 
+4 × 0.30 
+4 × 0.56 
+
+True Monolithic Li-Ion/Polymer 
+SGM41100W 
+Battery Protector in Tiny Thin Package 
+ 
+ 
+10 
+ 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+ABSOLUTE MAXIMUM RATINGS 
+Pack P to Pack N, 13V (1), 10mA Clamping (2) 
+.....................5s 
+Pack P to Pack N 
+........................-4.5V or +9V (3), Continuous 
+Pack P to BATN 
+........................................... 
+-4.5V (3) or +5.5V 
+Pack P to Pack N Short-Circuit (4) ........................ Continuous 
+Pack P to Pack N Attachment Inrush/Outrush (5) 
+.... +9V/-4.5V 
+Pack P to BATN Attachment Inrush/Outrush (6) 
+............. ±4.5V 
+Surge Current (7) ............................................................ 
+±20A 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+CDM ............................................................................ 
+1000V 
+NOTES: 
+1. Evaluation at VBAT = 4.5V. 
+2. The clamping may reach 10mA at an input voltage > 13V. 
+3. Test with a voltage regulated supply that has 2A current 
+limit and increase the voltage progressively for less than 
+1V/ms slope rate. Apply a voltage to the device under test 
+from 0V to given voltages. 
+4. The device is tested after being installed on the circuit 
+board in Figure 1. Clip a 4.5V 5A power source onto the P 
+and M to simulate a battery and short the Pack P and the 
+Pack N with an 80mΩ wire. 
+5. The device is tested after being installed on the circuit 
+board in Figure 1. Connect a 3.2V supply and 2A sinking 
+resistor RSINK as showed in Figure 2 to the P and M for inrush 
+test. Clip a 4.5V 5A supply for outrush test. 
+6. The device is tested after being installed on the circuit 
+board in Figure 1 with the circuit in Figure 3. 
+7. Parallel or connect in reverse polarity two battery packs of 
+Figure 1. Limit the battery pack impedance to limit the surge 
+current to 20A. 
+RECOMMENDED OPERATING CONDITIONS 
+Supply Voltage Range 
+........................................... 0V to 5.5V 
+Battery Voltage Range ............................................ 0 to 4.5V 
+Junction Temperature Range ........................ -40℃ to +85℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+The DUT
+in Figure 1 
+Circuit
+(No Battery)
+Pack P
+Pack N
+M
+P
+Power Source
+Inrush Test: 3.2V
+Outrush Test: 4.5V
+Power Source
+Outrush Test: 4.5V
+Inrush Test: 9V
+RSINK
+CBAT
+100μF
+CSRC
+100μF
+RSRC 80mΩ
+RSLMT
+Inrush
+Outrush
+RSINK:
+Inrush test: 1.6Ω
+Outrush test: open
+RSLMT:
+Inrush test: 0Ω
+Outrush test: 4.5Ω
+Inrush test: to Pack P
+Outrush test: to Pack N
+Inrush test: to Pack N
+Outrush test: to Pack P
+ 
+Figure 2. Test Set-Up for Pack P to Pack N Attachment Inrush/Outrush 
+ 
+The DUT
+in Figure 1 
+Circuit
+(No Battery)
+Pack P
+Pack N
+M
+P
+Inrush
+Outrush
+CLOAD
+100μF
+RLOAD
+Inrush test: to N
+Outrush test: to P
+Inrush test: to P
+Outrush test: to N
+Power Source
+4.5V
+CSRC
+100μF
+RSRC 80mΩ
+RSLMT 4.5Ω
+ 
+Figure 3. Test Set-Up for Pack P to BATN Attachment Inrush/Outrush 
+ 
+ 
+
+True Monolithic Li-Ion/Polymer 
+SGM41100W 
+Battery Protector in Tiny Thin Package 
+ 
+ 
+11 
+ 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+(TOP VIEW) 
+6
+5
+4
+PCKP
+PCKN
+PCKN
+BYPS
+BATN
+BATN
+NC
+1
+2
+3
+ 
+UTDFN-1.5×2-6L 
+ 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+TYPE 
+FUNCTION 
+1 
+PCKP 
+P 
+Internal Connection. No external connection. 
+2, 3 
+PCKN 
+P 
+Power Input and Output, the Battery Pack Cathode. Short this pin to BATN pin to 
+release off the locked-open state, and make the output path closed. 
+4, 5 
+BATN 
+G 
+Ground of Internal Circuit. Connect to the battery cathode end. 
+6 
+BYPS 
+P 
+Power Supply Pin and Disconnection Locked-Off Triggering Input. Place a 1μF 
+capacitor between this pin and BATN pin, and place a 1kΩ resistor between the pin 
+and the positive connection of the battery pack. 
+Shorting this pin to PCKN pin momentarily places the circuit into locked-open state. 
+Exposed 
+Pad 
+NC 
+NC 
+Not Connected Internally. Connect to BATN pin externally is recommended. 
+ 
+NOTE: G = Ground, P = Power for the Circuit, NC = Not Connected. 
+ 
+ 
+ 
+
+True Monolithic Li-Ion/Polymer 
+SGM41100W 
+Battery Protector in Tiny Thin Package 
+ 
+ 
+12 
+ 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(TJ = +25℃, ICHG = IDIS = 200mA, VBAT = 3.7V, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Charge Over-Voltage Threshold 
+VOV 
+SGM41100W-420_ _ _ 
+TJ = +25℃ 
+4.180 
+4.200 
+4.220 
+V 
+TJ = -20℃ to +55℃ 
+4.165 
+4.235 
+TJ = -40℃ to +85℃ 
+4.145 
+4.255 
+SGM41100W-423_ _ _ 
+TJ = +25℃ 
+4.205 
+4.225 
+4.245 
+TJ = -20℃ to +55℃ 
+4.190 
+4.260 
+TJ = -40℃ to +85℃ 
+4.170 
+4.280 
+SGM41100W425_ _ _ 
+TJ = +25℃ 
+4.230 
+4.250 
+4.270 
+TJ = -20℃ to +55℃ 
+4.215 
+4.285 
+TJ = -40℃ to +85℃ 
+4.195 
+4.305 
+SGM41100W-428_ _ _ 
+TJ = +25℃ 
+4.255 
+4.275 
+4.295 
+TJ = -20℃ to +55℃ 
+4.240 
+4.310 
+TJ = -40℃ to +85℃ 
+4.220 
+4.330 
+SGM41100W-430_ _ _ 
+TJ = +25℃ 
+4.280 
+4.300 
+4.320 
+TJ = -20℃ to +55℃ 
+4.265 
+4.335 
+TJ = -40℃ to +85℃ 
+4.245 
+4.355 
+SGM41100W-433_ _ _ 
+TJ = +25℃ 
+4.305 
+4.325 
+4.345 
+TJ = -20℃ to +55℃ 
+4.290 
+4.360 
+TJ = -40℃ to +85℃ 
+4.270 
+4.380 
+SGM41100W-435_ _ _ 
+TJ = +25℃ 
+4.330 
+4.350 
+4.370 
+TJ = -20℃ to +55℃ 
+4.315 
+4.385 
+TJ = -40℃ to +85℃ 
+4.295 
+4.405 
+SGM41100W-438_ _ _ 
+TJ = +25℃ 
+4.355 
+4.375 
+4.395 
+TJ = -20℃ to +55℃ 
+4.340 
+4.410 
+TJ = -40℃ to +85℃ 
+4.320 
+4.430 
+SGM41100W-440_ _ _ 
+TJ = +25℃ 
+4.380 
+4.400 
+4.420 
+TJ = -20℃ to +55℃ 
+4.365 
+4.435 
+TJ = -40℃ to +85℃ 
+4.345 
+4.455 
+SGM41100W-443_ _ _ 
+TJ = +25℃ 
+4.405 
+4.425 
+4.445 
+TJ = -20℃ to +55℃ 
+4.390 
+4.460 
+TJ = -40℃ to +85℃ 
+4.370 
+4.480 
+SGM41100W-445_ _ _ 
+TJ = +25℃ 
+4.430 
+4.450 
+4.470 
+TJ = -20℃ to +55℃ 
+4.415 
+4.485 
+TJ = -40℃ to +85℃ 
+4.395 
+4.505 
+SGM41100W-448_ _ _ 
+TJ = +25℃ 
+4.455 
+4.475 
+4.495 
+TJ = -20℃ to +55℃ 
+4.440 
+4.510 
+TJ = -40℃ to +85℃ 
+4.420 
+4.530 
+SGM41100W-450_ _ _ 
+TJ = +25℃ 
+4.480 
+4.500 
+4.520 
+TJ = -20℃ to +55℃ 
+4.465 
+4.535 
+TJ = -40℃ to +85℃ 
+4.445 
+4.555 
+ 
+ 
+
+True Monolithic Li-Ion/Polymer 
+SGM41100W 
+Battery Protector in Tiny Thin Package 
+ 
+ 
+13 
+ 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(TJ = +25℃, ICHG = IDIS = 200mA, VBAT = 3.7V, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Charge Over-Voltage Threshold 
+VOV 
+SGM41100W-453_ _ _ 
+TJ = +25℃ 
+4.505 
+4.525 
+4.545 
+V 
+TJ = -20℃ to +55℃ 
+4.490 
+4.560 
+TJ = -40℃ to +85℃ 
+4.470 
+4.580 
+SGM41100W-455_ _ _ 
+TJ = +25℃ 
+4.530 
+4.550 
+4.570 
+TJ = -20℃ to +55℃ 
+4.515 
+4.585 
+TJ = -40℃ to +85℃ 
+4.495 
+4.605 
+SGM41100W-458_ _ _ 
+TJ = +25℃ 
+4.555 
+4.575 
+4.595 
+TJ = -20℃ to +55℃ 
+4.540 
+4.610 
+TJ = -40℃ to +85℃ 
+4.520 
+4.630 
+OV Release Hysteresis 
+VOVHYS 
+Charger voltage lower 
+than battery voltage 
+TJ = +25℃ 
+100 
+150 
+200 
+mV 
+TJ = -40℃ to +85℃ 
+95 
+205 
+Battery Under-Voltage Threshold (1) 
+VUV 
+SGM41100W-_ _ _ M_ _ 
+TJ = +25℃ 
+2.545 
+2.600 
+2.655 
+V 
+TJ = -40℃ to +85℃ 
+2.515 
+2.685 
+SGM41100W-_ _ _ N_ _ 
+TJ = +25℃ 
+2.645 
+2.700 
+2.755 
+TJ = -40℃ to +85℃ 
+2.615 
+2.785 
+SGM41100W-_ _ _ O_ _ 
+TJ = +25℃ 
+2.745 
+2.800 
+2.855 
+TJ = -40℃ to +85℃ 
+2.715 
+2.885 
+SGM41100W-_ _ _ P_ _ 
+TJ = +25℃ 
+2.945 
+3.000 
+3.055 
+TJ = -40℃ to +85℃ 
+2.915 
+3.085 
+UV Release Hysteresis 
+VUVHYS 
+When a charging supply 
+is applied 
+TJ = +25℃ 
+75 
+100 
+125 
+mV 
+TJ = -40℃ to +85℃ 
+70 
+130 
+Shutdown Voltage 
+VSHDN 
+TJ = +25℃ 
+1.35 
+1.5 
+1.65 
+V 
+TJ = -40℃ to +85℃ 
+1.1 
+1.9 
+Charging Prohibition Voltage (1) 
+VNOCHG 
+TJ = +25℃ 
+1.5 
+1.6 
+1.7 
+V 
+TJ = -40℃ to +85℃ 
+1.4 
+1.8 
+Discharge Over-Current 
+IOD 
+SGM41100W-_ _ _ _ 01 
+TJ = +25℃ 
+0.140 
+0.169 
+0.200 
+A 
+TJ = -40℃ to +85℃ 
+0.105 
+0.235 
+SGM41100W-_ _ _ _ 02 
+TJ = +25℃ 
+0.270 
+0.300 
+0.330 
+TJ = -40℃ to +85℃ 
+0.225 
+0.375 
+SGM41100W-_ _ _ _ 04 
+TJ = +25℃ 
+0.500 
+0.560 
+0.620 
+TJ = -40℃ to +85℃ 
+0.435 
+0.685 
+Charge Over-Current 
+IOC 
+SGM41100W-_ _ _ _ 01 
+TJ = +25℃ 
+0.130 
+0.156 
+0.200 
+A 
+TJ = -40℃ to +85℃ 
+0.100 
+0.225 
+SGM41100W-_ _ _ _ 02 
+TJ = +25℃ 
+0.165 
+0.190 
+0.215 
+TJ = -40℃ to +85℃ 
+0.120 
+0.260 
+SGM41100W-_ _ _ _ 04 
+TJ = +25℃ 
+0.310 
+0.350 
+0.390 
+TJ = -40℃ to +85℃ 
+0.250 
+0.450 
+ 
+ 
+ 
+
+True Monolithic Li-Ion/Polymer 
+SGM41100W 
+Battery Protector in Tiny Thin Package 
+ 
+ 
+14 
+ 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(TJ = +25℃, ICHG = IDIS = 200mA, VBAT = 3.7V, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Pass Resistance 
+RP 
+TJ = +25℃ 
+ 
+42 
+52 
+mΩ 
+TJ = -40℃ to +85℃ 
+ 
+62 
+Operating Current 
+IOP 
+TJ = +25℃ 
+ 
+1.1 
+1.5 
+μA 
+TJ = -40℃ to +85℃ 
+ 
+2.0 
+Shutdown Current 
+ISHDN 
+The stable current 
+flowing into the device 
+when it is in any of 
+following shutdown 
+conditions that the 
+battery voltage is 
+lower than VUV (then 
+VSHDN, VNOCHG if the 
+battery voltage further 
+drops), the device is 
+set into latched-off 
+TJ = +25℃ 
+ 
+ 
+0.05 
+μA 
+TJ = -40℃ to +85℃ 
+ 
+ 
+0.30 
+Over-Voltage Detection Delay (2) 
+tOVPD 
+TJ = +25℃ 
+923 
+1066 
+1209 
+ms 
+TJ = -40℃ to +85℃ 
+537 
+1342 
+Under-Voltage Detection Delay (2) 
+tUVPD 
+TJ = +25℃ 
+115 
+144 
+188 
+ms 
+TJ = -40℃ to +85℃ 
+67 
+208 
+Discharge Over-Current Detection Delay (2) 
+tODD 
+TJ = +25℃ 
+57 
+80 
+113 
+ms 
+TJ = -40℃ to +85℃ 
+33 
+125 
+Discharge Over-Current Retry Time (2) 
+tRETRY 
+TJ = +25℃ 
+461 
+528 
+609 
+ms 
+TJ = -40℃ to +85℃ 
+268 
+676 
+Charge Over-Current Detection Delay (2) 
+tOCD 
+TJ = +25℃ 
+57 
+80 
+113 
+ms 
+TJ = -40℃ to +85℃ 
+33 
+125 
+Discharge Short-Circuit Detection Delay 
+tOCSD 
+TJ = +25℃ 
+0.196 
+0.3 
+0.5 
+ms 
+TJ = -40℃ to +85℃ 
+0.14 
+0.7 
+Discharge Short-Circuit Current 
+ISC 
+ 
+ 
+4 × IOD 
+ 
+A 
+NOTES:  
+1. VUV and VSHDN variation seat in the same side deviation and no range overlaps. 
+2. The TYP value and MAX value are combination of the detection delay time and a possible polling period of about 32ms, while 
+the MIN value represents the minimum detection delay with portion of a polling period added, as the pass path cutting action is 
+synchronized to the internal polling. 
+ 
+ 
+ 
+
+True Monolithic Li-Ion/Polymer 
+SGM41100W 
+Battery Protector in Tiny Thin Package 
+ 
+ 
+15 
+ 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+TJ = +25℃, ICHG = IDIS = 50mA, VBAT = 3.7V, unless otherwise noted. 
+ 
+      Normalized Charge Over-Voltage vs. Charge Current 
+      Normalized Charge Over-Voltage vs. Temperature 
+ 
+ 
+      Normalized Charge Over-Current vs. Battery Voltage 
+     Normalized Charge Over-Current vs. Temperature 
+ 
+ 
+     Normalized Discharge Over-Current vs. Battery Voltage 
+     Normalized Discharge Over-Current vs. Temperature 
+ 
+ 
+ 
+ 
+-1.5%
+-1.0%
+-0.5%
+0.0%
+0.5%
+1.0%
+1.5%
+0
+0.05
+0.1
+0.15
+0.2
+0.25
+0.3
+Normalized VOVP 
+Charge Current (A) 
+Normalized to ICHG = 0.035A at TJ = +25℃ 
+-0.6%
+-0.4%
+-0.2%
+0.0%
+0.2%
+0.4%
+0.6%
+-10
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+Normalized VOVP 
+Temperature (℃) 
+ICHG = 0.035A 
+ICHG = 0.135A 
+ICHG = 0.235A 
+Normalized to ICHG = 0.035A at TJ = +25℃ 
+-3%
+-2%
+-1%
+0%
+1%
+2%
+3%
+2.7
+2.9
+3.1
+3.3
+3.5
+3.7
+3.9
+4.1
+4.3
+4.5
+Normalized IOC 
+Battery Voltage (V) 
+Normalized to VBAT = 3.7V at TJ = +25℃ 
+-3.0%
+-2.0%
+-1.0%
+0.0%
+1.0%
+2.0%
+3.0%
+-10
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+Normalized IOC 
+Temperature (℃) 
+VBAT = 3.7V 
+VBAT = 4.0V 
+VBAT = 4.3V 
+Normalized to VBAT = 3.7V at TJ = +25℃ 
+-3%
+-2%
+-1%
+0%
+1%
+2%
+3%
+2.7
+2.9
+3.1
+3.3
+3.5
+3.7
+3.9
+4.1
+4.3
+4.5
+Normalized IOD 
+Battery Voltage (V) 
+Normalized to VBAT = 3.7V at TJ = +25℃ 
+-1.5%
+-1.0%
+-0.5%
+0.0%
+0.5%
+1.0%
+1.5%
+-10
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+Normalized IOD 
+Temperature (℃) 
+Normalized to VBAT = 3.7V at TJ = +25℃ 
+VBAT = 3.7V 
+VBAT = 4.0V 
+VBAT = 4.3V 
+
+True Monolithic Li-Ion/Polymer 
+SGM41100W 
+Battery Protector in Tiny Thin Package 
+ 
+ 
+16 
+ 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, ICHG = IDIS = 50mA, VBAT = 3.7V, unless otherwise noted. 
+ 
+     On-Resistance vs. Battery Voltage 
+     On-Resistance vs. Discharge Current 
+ 
+ 
+      On-Resistance vs. Temperature 
+ 
+ 
+ 
+ 
+ 
+41.0
+41.5
+42.0
+42.5
+43.0
+43.5
+44.0
+2.7
+2.9
+3.1
+3.3
+3.5
+3.7
+3.9
+4.1
+4.3
+4.5
+On-Resistance (mΩ) 
+Battery Voltage (V) 
+41.8
+42.0
+42.2
+42.4
+42.6
+42.8
+43.0
+43.2
+43.4
+43.6
+43.8
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+On-Resistance (mΩ) 
+Discharge Current (A) 
+VBAT = 3.7V 
+30
+35
+40
+45
+50
+55
+60
+-10
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+On-Resistance (mΩ) 
+Temperature (℃) 
+VBAT = 3.7V 
+
+True Monolithic Li-Ion/Polymer 
+SGM41100W 
+Battery Protector in Tiny Thin Package 
+ 
+ 
+17 
+ 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION 
+The SGM41100W monitors voltage and current applied 
+on battery cell connected between PCKP and BATN, 
+and opens the connection between battery and pack 
+terminal with its internal switches when a fault condition 
+is detected. 
+ 
+Voltage Related Protections 
+When battery voltage reaches over-voltage threshold 
+(VOV), the charge path is open-circuit. The path closes 
+again when the charger voltage is lower than battery 
+voltage and the battery voltage falls back about VOVHYS 
+below the over-voltage threshold (VOV). 
+In order to protect the battery from discharge 
+under-voltage status when battery voltage falls below 
+VUV for tUVPD or VSHDN instantly, the discharge path is 
+open-circuit, the device enters into shutdown with only 
+very low resistive leakage flowing into it, which helps to 
+keep the battery from harmful exhausted condition as 
+long as possible. The path closes again when a 
+charging supply is applied and the battery voltage rises 
+to about VUVHYS above the VUV threshold. 
+Charge an exhausted battery: While the battery is 
+over-discharged the battery could be in the following 
+states. 
+a) Battery voltage below VNOCHG: The charge path or 
+discharge path is open correspondingly when the 
+applied bias condition is settled. 
+b) Battery voltage is in the range of VNOCHG to VUV (if 
+there is such voltage gap): The path switch is on for 
+144ms (tUVPD) in every 132ms and off for 2ms when 
+charge current flows through the body diode. During 
+this period, the charger will see the terminal voltage 
+steps up/down.  
+c) Battery voltage above under-voltage threshold: In 
+this condition, the chip enters normal operation and 
+charge and discharge modes are allowed. 
+ 
+When battery voltage is between VSHDN and VNOCHG, 
+there is about 150μs circuit settle time when a pulse 
+charge current may flow through. 
+When the battery voltage is in the range of 0.5V ~ 0.7V, 
+and the external voltage applied on the device is also 
+too low to start full operation, the charging current flows 
+through the path switch's body diode. 
+ 
+Current Related Protections 
+When discharge over-current condition occurs and 
+keeps for discharge over-current detection delay (tODD), 
+the discharge path opens. The path closes again after 
+tRETRY for retrying. The SGM41100W keeps retrying until 
+the over-current condition is released or the battery 
+discharges to low when the SGM41100W turns into 
+battery under-voltage protection state. 
+During a charging condition if a charge over-current is 
+identified, the SGM41100W enters the locked-off state. 
+This state can be reset by charger removal (pack 
+removal). 
+Short-circuit protection: When discharge current 
+exceeds the over-current threshold, discharge path 
+disconnects instantly in tOCSD, in order to protect the 
+battery from potential over-current stress. After this 
+disconnection, the SGM41100W stays in the locked-off 
+non-conducting state until being reactivated. 
+Burst load outrush: In many systems, overload 
+conditions will occur momentarily. The device allows for 
+this short duration discharge condition by allowing the 
+discharge path to remain closed even after a discharge 
+over-current is detected for duration of discharge 
+over-current detection delay. 
+When a charge over-current condition is identified, and 
+after charge over-current detection deglitch, the charge 
+path is cut off. The device restores to the conducting 
+state when the PCKP to PCKN voltage drops about 
+3mV lower than the battery voltage. 
+Parallel battery packs: When paralleling two battery 
+packs utilizing SGM41100Ws, a momentary current 
+surge may cause charge over-current protection in the 
+pack with the lower voltage. The higher voltage pack 
+could enter a discharge over-current protection. The 
+charge over-current or discharge over-current protection 
+resets only after the higher voltage battery pack 
+discharges to a voltage slightly lower than the lower 
+voltage pack. After this discharge, both packs will 
+conduct. 
+ 
+ 
+
+True Monolithic Li-Ion/Polymer 
+SGM41100W 
+Battery Protector in Tiny Thin Package 
+ 
+ 
+18 
+ 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+It is highly recommended that the packs should be 
+placed into a locked-open non-conducting state first (by 
+connecting PCKP to PCKN momentarily) before being 
+paralleled to avoid current overstress. When a charge 
+supply is applied to the paralleled packs, the 
+locked-open state will release. 
+Battery delivery state: It is recommended to deliver a 
+battery pack in a locked-off non-conducting state to 
+avoid unintentional shorting during production handling 
+or transportation. The circuit of Figure 1 places the 
+SGM41100W into a locked-off state after battery 
+attachment by momentarily shorting BYPS and PCKN. 
+Pack activation: In order to release the pack from 
+locked-off state and to place it into a conducting state, 
+apply a charging input, or connect PCKN to BATN 
+momentarily. 
+Caution: The battery short or load side terminal short 
+outside the protection circuit′s loop during battery 
+attaching may cause excessive high surge current and 
+excessive high current-breaking voltage surge, which 
+may cause damage or degrade the life duration of 
+battery and protection circuit. It is recorded that the 
+accidental anode to ground plane shorting causes 
+heavy surge, which can actually be avoided by leaving 
+enough clearance around the anode pad on PCB or 
+soldering/attaching the anode firstly in assembly (as the 
+short between cathode to ground will not cause 
+excessive surge). 
+ 
+Surge, ESD and Reversed Attachment 
+The SGM41100W absorbs voltage surge applied 
+between PCKP and PCKN, by passing the surge 
+current through its switch and the battery. Surge may 
+occur when attaching the pack or battery cell. 
+The SGM41100W survives either if a cell is placed in 
+reverse or a charge input is attached in reverse, but not 
+both at the same time. Any of these reverse 
+attachments, short circuits, inrush surges and outrush 
+will cause overstress. Do not test those cases in normal 
+production inspection, as this kind of test itself may 
+cause performance degradation or even damage the 
+device. 
+Caution about ESD damage to the battery: The 
+battery pack might be the biggest element in equipment 
+and induce much during an ESD event. Careful design 
+of guided discharge path is desired for the equipment 
+case sealing air-gap discharge over the battery and 
+those connect to the battery closely. 
+Caution on electrochemical corrosion: As a battery 
+can apply potential over the electrodes continuously 
+and cause electrochemical corrosion, the corrosion 
+product may spread in the hollow beneath a surface 
+mount device and cause leakage. Moisture-proof 
+coating is recommended, especially when using 
+compact devices. 
+ 
+Cautions for Evaluation Test 
+Some types of electronic load simulators may have 
+excessive inrush current, and some BPM testers may 
+have voltage transition surges, which may trigger the 
+protection of the SGM41100W. Careful attention is 
+required for doing such evaluations with these kinds of 
+equipment. External voltage and current limits within 
+the conditions specified in the Absolute Maximum 
+Ratings section of this datasheet are required. 
+ 
+Select Protection Parameters 
+Battery models from different vendors may be 
+customized for different applications. Consult the 
+battery vendor for protection limits for specific battery 
+model.  
+Parameters for the protection circuit and of the charger 
+circuit affecting same variables should be set for proper 
+charge or discharge protection sequence. For example, 
+the over-voltage threshold of the battery should be 
+50mV ~ 100mV higher than constant voltage threshold 
+of the charger. 
+Cautions on parameter misalignment: If the VOV is 
+lower than the full charge voltage of the battery charger, 
+the protection circuit cuts off the battery charge path 
+before the battery is fully charged, and turns into the 
+non-conductive locked-off state; if the IOC is lower than 
+the charge current, the protection circuit also turns itself 
+into the locked-off state. In either VOV or IOC, the charger 
+input should be removed and then reapplied for 
+activating the protection circuit from the locked-off state 
+to the conducting state. If the charger is not removed 
+after a VOV or IOV event, the battery will not be charged 
+even if the battery voltage is depleted. 
+ 
+ 
+ 
+ 
+
+True Monolithic Li-Ion/Polymer 
+SGM41100W 
+Battery Protector in Tiny Thin Package 
+ 
+ 
+19 
+ 
+DECEMBER 2023 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+DECEMBER 2023 ‒ REV.A to REV.A.1 
+Page 
+Updated Features section 
+.................................................................................................................................................................................... 
+1 
+ 
+Changes from Original (SEPTEMBER 2021) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00115.001 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+UTDFN-1.5×2-6L 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.500 
+0.600 
+0.020 
+0.024 
+A1 
+0.000 
+0.050 
+0.000 
+0.002 
+A2 
+0.152 REF 
+0.006 REF 
+D 
+1.400 
+1.600 
+0.055 
+0.063 
+D1 
+1.000 
+1.200 
+0.039 
+0.047 
+E 
+1.900 
+2.100 
+0.075 
+0.083 
+E1 
+0.800 
+1.000 
+0.031 
+0.039 
+k 
+0.300 REF 
+0.012 REF 
+b 
+0.200 
+0.300 
+0.008 
+0.012 
+b1 
+0.180 REF 
+0.007 REF 
+e 
+0.500 BSC 
+0.020 BSC 
+L 
+0.200 
+0.300 
+0.008 
+0.012 
+ 
+NOTE: This drawing is subject to change without notice. 
+ 
+ 
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+D
+E
+b
+E1
+D1
+e
+k
+N3
+N1
+N6
+A
+A2
+A1
+L
+0.25
+0.50
+0.90
+1.10
+0.55
+RECOMMENDED LAND PATTERN (Unit: mm)
+2.60
+b1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+UTDFN-1.5×2-6L 
+7″ 
+9.5 
+1.70 
+2.30 
+0.75 
+4.0 
+4.0 
+2.0 
+8.0 
+Q2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 

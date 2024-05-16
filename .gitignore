@@ -1,3 +1,15 @@
 /GoLLIE
-Qwen-Agent/
-KG_Construct/
+/Qwen-Agent
+/knowledge_graph
+/KG_Construct
+**/log.*
+**/app.log
+electronic/pdfs
+electronic/llama_index/electronic_emb
+electronic/llama_index/doc_emb
+electronic/app.log
+electronic/log.1
+zlib_process/book
+zlib_process/book200
+zlib_process/output
+zlib_process/output1

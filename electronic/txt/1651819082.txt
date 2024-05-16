@@ -1,0 +1,1541 @@
+ 
+SGM2034 
+1μA Ultra-Low Current Consumption and 
+Low Dropout CMOS Voltage Regulator 
+ 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+NOVEMBER 2020–REV.A.3 
+ 
+GENERAL DESCRIPTION 
+The SGM2034 is an ultra-low current consumption, low 
+dropout voltage and high accuracy linear regulator. It is 
+capable of supplying 250mA output current with only 
+1μA (TYP) current consumption. The typical dropout 
+voltage is only 70mV at 100mA. The operating input 
+voltage range is from 1.7V to 7.5V and fixed output 
+voltages are 1.2V, 1.8V, 2.5V, 2.8V, 3.0V, 3.3V, 3.6V, 
+3.8V, 4.0V, 4.5V and 5.0V. 
+Other features include short-circuit current limit and 
+thermal shutdown protection. 
+The SGM2034 is available in Green SOT-23-3 and 
+SOT-89-3 packages. It operates over an operating 
+temperature range of -40℃ to +85℃. 
+FEATURES 
+● Operating Input Voltage Range: 1.7V to 7.5V 
+● Fixed Outputs of 1.2V, 1.8V, 2.5V, 2.8V, 3.0V, 3.3V, 
+3.6V, 3.8V, 4.0V, 4.5V and 5.0V 
+● 250mA Output Current 
+● High Output Voltage Accuracy: ±1.2% at +25℃ 
+● Ultra-Low Quiescent Current: 1μA (TYP) 
+● Low Dropout Voltage: 70mV (TYP) at 100mA 
+● Low Reverse Leakage Current: 
+0.4μA (TYP) when VOUT > VIN 
+● Current Limiting and Thermal Protection 
+● -40℃ to +85℃ Operating Temperature Range 
+● Available in Green SOT-23-3 and SOT-89-3 
+Packages 
+ 
+APPLICATIONS 
+Wearable Device 
+Smart Phone 
+Portable Equipment 
+ 
+ 
+ 
+ 
+TYPICAL APPLICATION 
+GND
+IN
+OUT
+CIN
+1μF
+COUT
+0.22μF
+VIN
+VOUT
+SGM2034
+ 
+ 
+Figure 1. Typical Application Circuit 
+  
+ 
+
+1μA Ultra-Low Current Consumption and 
+SGM2034 
+Low Dropout CMOS Voltage Regulator 
+ 
+ 
+2 
+NOVEMBER 2020 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM2034-1.2 
+SOT-23-3 
+-40℃ to +85℃ 
+SGM2034-1.2YN3G/TR 
+M90XX 
+Tape and Reel, 3000 
+SOT-89-3 
+-40℃ to +85℃ 
+SGM2034-1.2YK3G/TR 
+M8FXX 
+Tape and Reel, 1000 
+SGM2034-1.8 
+SOT-23-3 
+-40℃ to +85℃ 
+SGM2034-1.8YN3G/TR 
+GRCXX 
+Tape and Reel, 3000 
+SOT-89-3 
+-40℃ to +85℃ 
+SGM2034-1.8YK3G/TR 
+GR2XX 
+Tape and Reel, 1000 
+SGM2034-2.5 
+SOT-23-3 
+-40℃ to +85℃ 
+SGM2034-2.5YN3G/TR 
+M56XX 
+Tape and Reel, 3000 
+SOT-89-3 
+-40℃ to +85℃ 
+SGM2034-2.5YK3G/TR 
+M57XX 
+Tape and Reel, 1000 
+SGM2034-2.8 
+SOT-23-3 
+-40℃ to +85℃ 
+SGM2034-2.8YN3G/TR 
+GR4XX 
+Tape and Reel, 3000 
+SOT-89-3 
+-40℃ to +85℃ 
+SGM2034-2.8YK3G/TR 
+GR3XX 
+Tape and Reel, 1000 
+SGM2034-3.0 
+SOT-23-3 
+-40℃ to +85℃ 
+SGM2034-3.0YN3G/TR 
+GP9XX 
+Tape and Reel, 3000 
+SOT-89-3 
+-40℃ to +85℃ 
+SGM2034-3.0YK3G/TR 
+M2EXX 
+Tape and Reel, 1000 
+SGM2034-3.3 
+SOT-23-3 
+-40℃ to +85℃ 
+SGM2034-3.3YN3G/TR 
+GRDXX 
+Tape and Reel, 3000 
+SOT-89-3 
+-40℃ to +85℃ 
+SGM2034-3.3YK3G/TR 
+GR5XX 
+Tape and Reel, 1000 
+SGM2034-3.6 
+SOT-23-3 
+-40℃ to +85℃ 
+SGM2034-3.6YN3G/TR 
+GR7XX 
+Tape and Reel, 3000 
+SOT-89-3 
+-40℃ to +85℃ 
+SGM2034-3.6YK3G/TR 
+GR6XX 
+Tape and Reel, 1000 
+SGM2034-3.8 
+SOT-23-3 
+-40℃ to +85℃ 
+SGM2034-3.8YN3G/TR 
+CKEXX 
+Tape and Reel, 3000 
+SGM2034-4.0 
+SOT-23-3 
+-40℃ to +85℃ 
+SGM2034-4.0YN3G/TR 
+M97XX 
+Tape and Reel, 3000 
+SOT-89-3 
+-40℃ to +85℃ 
+SGM2034-4.0YK3G/TR 
+M98XX 
+Tape and Reel, 1000 
+SGM2034-4.5 
+SOT-89-3 
+-40℃ to +85℃ 
+SGM2034-4.5YK3G/TR 
+GR8XX 
+Tape and Reel, 1000 
+SGM2034-5.0 
+SOT-23-3 
+-40℃ to +85℃ 
+SGM2034-5.0YN3G/TR 
+GREXX 
+Tape and Reel, 3000 
+SOT-89-3 
+-40℃ to +85℃ 
+SGM2034-5.0YK3G/TR 
+GRAXX 
+Tape and Reel, 1000 
+ 
+MARKING INFORMATION 
+NOTE: XX = Date Code. 
+Date Code - Year 
+Date Code - Week 
+Serial Number
+YYY X X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ 
+
+1μA Ultra-Low Current Consumption and 
+SGM2034 
+Low Dropout CMOS Voltage Regulator 
+ 
+ 
+3 
+NOVEMBER 2020 
+SG Micro Corp 
+www.sg-micro.com 
+ABSOLUTE MAXIMUM RATINGS 
+IN to GND ............................................................ -0.3V to 8V 
+OUT to GND ........................................................ -0.3V to 6V 
+Package Thermal Resistance 
+SOT-23-3, θJA .......................................................... 283℃/W 
+SOT-89-3, θJA .......................................................... 101℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... 
+-65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+8000V 
+MM 
+................................................................................. 
+400V 
+CDM ............................................................................ 
+1000V 
+ 
+ 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Input Voltage Range ........................................... 
+1.7V to 7.5V 
+Input Effective Capacitance, CIN ......................... 0.5µF (MIN) 
+Output Effective Capacitance, COUT 
+................. 
+0.1μF to 10μF 
+Operating Junction Temperature Range 
+........ 
+-40℃ to +85℃ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+PIN CONFIGURATIONS 
+(TOP VIEW) 
+(TOP VIEW) 
+2
+3
+1
+IN
+GND
+OUT
+ 
+GND
+IN
+OUT
+1
+2
+3
+IN
+ 
+SOT-23-3 
+SOT-89-3 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+SOT-23-3 
+SOT-89-3 
+1 
+1 
+GND 
+Ground Pin. 
+2 
+3 
+OUT 
+Regulator Output Pin. It is recommended to use a ceramic capacitor with effective 
+capacitance in the range of 0.1μF to 10μF to get good power supply decoupling. 
+This ceramic capacitor should be placed as close as possible to OUT pin. 
+3 
+2 
+IN 
+Input Supply Voltage Pin. It is recommended to use a 1μF or larger ceramic 
+capacitor from IN pin to ground. This ceramic capacitor should be placed as close as 
+possible to IN pin. 
+ 
+ 
+
+1μA Ultra-Low Current Consumption and 
+SGM2034 
+Low Dropout CMOS Voltage Regulator 
+ 
+ 
+4 
+NOVEMBER 2020 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VIN = VOUT(NOM) + 1V, IOUT = 0.1mA, CIN = 1uF and COUT = 0.22μF, Full = -40℃ to +85℃, typical values are at TJ = +25℃, unless 
+otherwise noted.) 
+ 
+NOTES: 
+1. The dropout voltage is defined as the difference between VIN and VOUT when VOUT falls to 95% × VOUT(NOM). 
+2. Reverse leakage current is the current flows from the output to the input when VOUT > VIN. 
+3. Output voltage temperature coefficient is defined as the worst-case voltage change divided by the total temperature range. 
+ 
+ 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN 
+TYP 
+MAX 
+UNITS 
+Input Voltage Range 
+VIN 
+ 
+Full 
+1.7 
+ 
+7.5 
+V 
+Output Voltage Accuracy 
+VOUT 
+VIN = (VOUT(NOM) + 1V) to 7.5V 
++25℃ 
+-1.2 
+ 
+1.2 
+% 
+Maximum Output Current 
+ 
+ 
++25℃ 
+250 
+ 
+ 
+mA 
+Output Current Limit 
+ILIMIT 
+ 
++25℃ 
+280 
+480 
+ 
+mA 
+Supply Pin Current 
+IQ 
+No load 
+Full 
+ 
+1.0 
+1.5 
+μA 
+Dropout Voltage
+ (1) 
+VDROP 
+IOUT = 100mA 
+1.8V ≤ VOUT(NOM) < 2.5V 
++25℃ 
+ 
+145 
+200 
+mV 
+2.5V ≤ VOUT(NOM) < 3.3V 
++25℃ 
+ 
+100 
+130 
+3.3V ≤ VOUT(NOM) < 4.2V 
++25℃ 
+ 
+85 
+110 
+4.2V ≤ VOUT(NOM) < 5.2V 
++25℃ 
+ 
+75 
+100 
+Line Regulation 
+∆
+∆
+×
+OUT
+IN
+OUT
+V
+V
+V
+ VIN = (VOUT(NOM) + 1V) to 7.5V 
++25℃ 
+ 
+0.002 
+0.1 
+%/V 
+Load Regulation 
+ΔVOUT 
+IOUT = 0.1mA to 250mA 
++25℃ 
+ 
+3 
+15 
+mV 
+Short Current Limit 
+ISHORT 
+VOUT = 0V 
++25℃ 
+ 
+100 
+ 
+mA 
+Reverse Leakage Current 
+(2) 
+IRL 
+VIN = 1.7V, VOUT = 5.5V 
++25℃ 
+ 
+0.4 
+ 
+μA 
+Power Supply Rejection Ratio 
+PSRR 
+IOUT = 30mA, VOUT = 1.8V, 
+ΔVRIPPLE = 0.2VP-P 
+f = 217Hz 
++25℃ 
+ 
+38 
+ 
+dB 
+f = 1kHz 
++25℃ 
+ 
+27 
+ 
+Output Voltage Temperature 
+Coefficient 
+(3) 
+∆
+∆
+×
+OUT
+J
+OUT
+V
+T
+V
+ 
+ 
+Full 
+ 
+18 
+ 
+ppm/℃ 
+Thermal Shutdown Temperature 
+TSHDN 
+ 
+ 
+165 
+ 
+℃ 
+Thermal Shutdown Hysteresis 
+ΔTSHDN 
+ 
+ 
+30 
+ 
+℃ 
+
+1μA Ultra-Low Current Consumption and 
+SGM2034 
+Low Dropout CMOS Voltage Regulator 
+ 
+ 
+5 
+NOVEMBER 2020 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+TJ = +25℃, VIN = VOUT(NOM) + 1V, CIN = 1μF and COUT = 0.22μF, unless otherwise noted. 
+ 
+ 
+Line Transient Response 
+ 
+ 
+ 
+Line Transient Response 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+        500mV/div    200mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+  
+        500mV/div    200mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Load Transient Response 
+ 
+ 
+ 
+Load Transient Response 
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+  
+50mA/div     200mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+ 
+ 
+ 
+VOUT 
+  
+50mA/div     200mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+Time (200μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Load Transient Response 
+ 
+ 
+ 
+Load Transient Response 
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+ 
+ 
+VOUT 
+  
+        50mA/div   200mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+  
+50mA/div    100mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+Time (100μs/div) 
+ 
+ 
+ 
+VOUT = 1.8V, VIN = 2.8V to 3.8V, IOUT = 50mA 
+VOUT = 5V, VIN = 6V to 7V, IOUT = 50mA 
+VOUT = 1.8V, IOUT = 1mA to 50mA 
+VOUT = 1.8V, IOUT = 50mA to 100mA 
+VOUT = 5V, IOUT = 1mA to 50mA 
+VOUT = 5V, IOUT = 50mA to 100mA 
+
+1μA Ultra-Low Current Consumption and 
+SGM2034 
+Low Dropout CMOS Voltage Regulator 
+ 
+ 
+6 
+NOVEMBER 2020 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, VIN = VOUT(NOM) + 1V, CIN = 1μF and COUT = 0.22μF, unless otherwise noted. 
+ 
+ 
+Power-Up Output Waveform 
+ 
+ 
+ 
+Power-Up Output Waveform 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+    5V/div      1V/div 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+5V/div   2V/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (5ms/div) 
+ 
+ 
+ 
+Time (5ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     Power Supply Rejection Ratio vs. Frequency 
+     Power Supply Rejection Ratio vs. Frequency 
+ 
+ 
+     Dropout Voltage vs. Output Current 
+     Dropout Voltage vs. Output Current 
+ 
+ 
+ 
+ 
+0
+10
+20
+30
+40
+50
+60
+70
+0.01
+0.1
+1
+10
+100
+1000
+Power Supply Rejection Ratio (dB) 
+Frequency (kHz) 
+VOUT = 1.8V, IOUT = 30mA 
+COUT = 0.1μF   
+COUT = 1μF   
+0
+10
+20
+30
+40
+50
+60
+70
+0.01
+0.1
+1
+10
+100
+1000
+Power Supply Rejection Ratio (dB) 
+Frequency (kHz) 
+VOUT = 5V, IOUT = 30mA 
+COUT = 1μF 
+COUT = 0.1μF 
+0
+100
+200
+300
+400
+0
+50
+100
+150
+200
+250
+300
+Dropout Voltage (mV) 
+Output Current (mA) 
+VOUT = 1.8V 
+0
+50
+100
+150
+200
+0
+50
+100
+150
+200
+250
+300
+Dropout Voltage (mV) 
+Output Current (mA) 
+VOUT = 5V 
+VOUT = 1.8V, VIN = 0V to 7.5V, IOUT = 30mA 
+VOUT = 5V, VIN = 0V to 7.5V, IOUT = 30mA 
+
+1μA Ultra-Low Current Consumption and 
+SGM2034 
+Low Dropout CMOS Voltage Regulator 
+ 
+ 
+7 
+NOVEMBER 2020 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, VIN = VOUT(NOM) + 1V, CIN = 1μF and COUT = 0.22μF, unless otherwise noted. 
+ 
+     Ground Pin Current vs. Output Current 
+     Ground Pin Current vs. Output Current 
+ 
+ 
+     Output Voltage vs. Output Current 
+     Output Voltage vs. Output Current 
+ 
+ 
+     Output Voltage vs. Input Voltage 
+     Output Voltage vs. Input Voltage 
+ 
+ 
+ 
+ 
+0
+20
+40
+60
+80
+100
+120
+140
+0
+50
+100
+150
+200
+250
+Ground Pin Current (μA) 
+Output Current (mA) 
+VOUT = 1.8V 
+0
+20
+40
+60
+80
+100
+120
+140
+0
+50
+100
+150
+200
+250
+Ground Pin Current (μA) 
+Output Current (mA) 
+VOUT = 5V 
+0.0
+0.3
+0.6
+0.9
+1.2
+1.5
+1.8
+2.1
+0
+100
+200
+300
+400
+500
+600
+Output Voltage (V) 
+Output Current (mA) 
+VOUT = 1.8V 
+0.0
+1.0
+2.0
+3.0
+4.0
+5.0
+6.0
+0
+100
+200
+300
+400
+500
+600
+Output Voltage (V) 
+Output Current (mA) 
+VOUT = 5V 
+1.60
+1.64
+1.68
+1.72
+1.76
+1.80
+1.84
+1.7
+2.7
+3.7
+4.7
+5.7
+6.7
+7.7
+Output Voltage (V) 
+Intput Voltage (V) 
+VOUT = 1.8V, IOUT = 30mA 
+1.0
+2.0
+3.0
+4.0
+5.0
+6.0
+1.7
+2.7
+3.7
+4.7
+5.7
+6.7
+7.7
+Output Voltage (V) 
+Intput Voltage (V) 
+VOUT = 5V, IOUT = 30mA 
+
+1μA Ultra-Low Current Consumption and 
+SGM2034 
+Low Dropout CMOS Voltage Regulator 
+ 
+ 
+8 
+NOVEMBER 2020 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, VIN = VOUT(NOM) + 1V, CIN = 1μF and COUT = 0.22μF, unless otherwise noted. 
+ 
+     Supply Pin Current vs. Input Voltage 
+     Supply Pin Current vs. Input Voltage 
+ 
+ 
+     Supply Pin Current vs. Temperature 
+     Output Voltage vs. Temperature 
+ 
+ 
+ 
+ 
+-0.5
+0.0
+0.5
+1.0
+1.5
+2.0
+0
+2
+4
+6
+8
+Supply Pin Current (μA) 
+Intput Voltage (V) 
+VOUT = 1.8V, IOUT = 0mA 
+-0.5
+0.0
+0.5
+1.0
+1.5
+2.0
+0
+2
+4
+6
+8
+Supply Pin Current (μA) 
+Intput Voltage (V) 
+VOUT = 5V, IOUT = 0mA 
+0.92
+0.96
+1.00
+1.04
+1.08
+-40
+-15
+10
+35
+60
+85
+Supply Pin Current (μA) 
+Temperature (℃) 
+VOUT = 5V, IOUT = 0mA 
+1.794
+1.796
+1.798
+1.800
+1.802
+-40
+-15
+10
+35
+60
+85
+Output Voltage (V) 
+Temperature (℃) 
+VOUT  = 1.8V, IOUT = 0.1mA 
+
+1μA Ultra-Low Current Consumption and 
+SGM2034 
+Low Dropout CMOS Voltage Regulator 
+ 
+ 
+9 
+NOVEMBER 2020 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAM 
+OUT
+Reference Voltage 
+Circuit
+Over-Current and 
+Over-Temperature 
+Protection Circuit
+IN
+GND
+-
++
+ 
+ 
+Figure 2. Block Diagram 
+ 
+APPLICATION INFORMATION 
+Input Capacitor Selection (CIN) 
+The input decoupling capacitor is necessary to be 
+connected as close as possible to the IN pin for 
+ensuring the device stability. 1μF or larger X7R or X5R 
+ceramic capacitor is selected to get good dynamic 
+performance. 
+When VIN is required to provide large current 
+instantaneously, a large effective input capacitor is 
+required. Multiple input capacitors can limit the input 
+tracking inductance. Adding more input capacitors is 
+available to restrict the ringing and to keep it below the 
+device absolute maximum ratings. 
+ 
+Output Capacitor Selection (COUT) 
+The output decoupling capacitor should be located as 
+close as possible to the OUT pin. 0.22μF or larger X7R 
+or X5R ceramic capacitor is selected to get good 
+dynamic 
+performance. 
+The 
+minimum 
+effective 
+capacitance of COUT that SGM2034 can remain stable 
+is 0.1μF. For ceramic capacitor, temperature, DC bias 
+and package size will change the effective capacitance, 
+so enough margin of COUT must be considered in 
+design. Larger capacitance and lower ESR COUT will 
+help improve the load transient response and increase 
+the high frequency PSRR. 
+ 
+Output Current Limit and Short-Circuit 
+Protection 
+When overload events happen, the output current is 
+internally limited to 480mA (TYP). When the OUT pin is 
+shorted to ground, the short-circuit protection will limit 
+the output current to 100mA (TYP). 
+ 
+Reverse Current Protection 
+The SGM2034 incorporates reverse current protection 
+circuit that prevents current flow backwards through the 
+pass element when the output voltage is greater than 
+the input voltage. A comparator senses the difference 
+between the input and output voltages. When the 
+difference between the output voltage and input voltage 
+exceeds 800mV (TYP), the gate of the PFET is 
+switched to VOUT and the PFET is turned off. Otherwise，
+the gate voltage of the PFET is unfixed, and the reverse 
+current may be (VOUT - VIN) / RON, RON = VDROP / IOUT. 
+ 
+ 
+ 
+
+1μA Ultra-Low Current Consumption and 
+SGM2034 
+Low Dropout CMOS Voltage Regulator 
+ 
+ 
+10 
+NOVEMBER 2020 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+NOVEMBER 2020 ‒ REV.A.2 to REV.A.3 
+Page 
+Updated Application Information section 
+...................................................................................................................................................................9 
+ 
+SEPTEMBER 2019 ‒ REV.A.1 to REV.A.2 
+Page 
+Added SGM2034-4.0YN3G/TR and SGM2034-4.0YK3G/TR versions 
+...................................................................................................................All 
+ 
+JULY 2019 ‒ REV.A to REV.A.1 
+Page 
+Added SGM2034-3.8YN3G/TR and SGM2034-4.5YK3G/TR versions 
+...................................................................................................................All 
+ 
+Changes from Original (DECEMBER 2018) to REV.A 
+Page 
+Changed from product preview to production data .................................................................................................................................................All 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00032.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOT-23-3 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+1.050 
+1.250 
+0.041 
+0.049 
+A1 
+0.000 
+0.100 
+0.000 
+0.004 
+A2 
+1.050 
+1.150 
+0.041 
+0.045 
+b 
+0.300 
+0.500 
+0.012 
+0.020 
+c 
+0.100 
+0.200 
+0.004 
+0.008 
+D 
+2.820 
+3.020 
+0.111 
+0.119 
+E 
+1.500 
+1.700 
+0.059 
+0.067 
+E1 
+2.650 
+2.950 
+0.104 
+0.116 
+e 
+0.950 BSC 
+0.037 BSC 
+e1 
+1.900 BSC 
+0.075 BSC 
+L 
+0.300 
+0.600 
+0.012 
+0.024 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+ 
+ 
+ 
+ 
+E
+E1
+e1
+e
+b
+D
+A
+A2
+A1
+c
+L
+θ
+0.2
+0.95
+0.69
+0.99
+2.59
+1.90
+RECOMMENDED LAND PATTERN (Unit: mm)
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00045.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOT-89-3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+1.400 
+1.600 
+0.055 
+0.063 
+b 
+0.320 
+0.520 
+0.013 
+0.020 
+b1 
+0.400 
+0.580 
+0.016 
+0.023 
+c 
+0.350 
+0.440 
+0.014 
+0.017 
+D 
+4.400 
+4.600 
+0.173 
+0.181 
+D1 
+1.550 REF 
+0.061 REF 
+E 
+2.300 
+2.600 
+0.091 
+0.102 
+E1 
+3.940 
+4.250 
+0.155 
+0.167 
+e 
+1.500 TYP 
+0.060 TYP 
+e1 
+3.000 TYP 
+0.118 TYP 
+L 
+0.900 
+1.200 
+0.035 
+0.047 
+ 
+ 
+ 
+ 
+ 
+RECOMMENDED LAND PATTERN (Unit: mm)
+c
+L
+A
+E
+D
+D1
+b1
+e1
+e
+b
+E1
+2.0
+3.0
+0.7
+1.5
+45°
+1.0
+1.5
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+SOT-23-3 
+7″ 
+9.0 
+3.20 
+3.30 
+1.30 
+4.0 
+4.0 
+2.0 
+8.0 
+Q3 
+SOT-89-3 
+7″ 
+13.2 
+4.85 
+4.45 
+1.85 
+4.0 
+8.0 
+2.0 
+12.0 
+Q3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 
+ 
+ 

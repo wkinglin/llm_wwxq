@@ -1,0 +1,651 @@
+ 
+ 
+SGM72022A 
+General Purpose DPDT Transfer Switch 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+SEPTEMBER 2022 - REV.A 
+GENERAL DESCRIPTION 
+The SGM72022A is a double-pole/double-throw (DPDT) 
+transfer switch, which supports from 0.4GHz to 5.8GHz. 
+The device features low insertion loss and high 
+isolation, which make it suitable for high linearity and 
+2G/3G/4G/5G applications. 
+The SGM72022A has the ability to integrate DPDT 
+transfer switch and GPIO controller on an SOI chip. 
+Internal driver and decoder for switch control signals 
+are offered by the GPIO controller, which makes it 
+flexible in RF path routing and band selection. 
+No external DC blocking capacitors are required on the 
+RF paths as long as no external DC voltage is applied, 
+which can save PCB area and cost. 
+The SGM72022A is available in a Green ULGA-1.1×
+1.5-10L package. 
+ 
+BLOCK DIAGRAM 
+Supply and Logic 
+ 
+RF3
+RF1
+ 
+RF4
+RF2
+VCTL
+VDD
+ 
+ 
+Figure 1. SGM72022A Block Diagram 
+ 
+FEATURES 
+● Low Insertion Loss 
+● Operating Frequency Range: 0.4GHz to 5.8GHz 
+● High Isolation 
+● GPIO Interface for 1.3V to VDD Control Logic 
+● Broadband Performance Suitable for All Cellular 
+Modulation Schemes up to 5.8GHz 
+● Ultra-Low Current Consumption 
+● Linearity and Harmonic Performance Ideally 
+Suited for LTE Applications 
+● No External DC Blocking Capacitors Required 
+● Available in a Green ULGA-1.1×1.5-10L Package 
+ 
+APPLICATIONS 
+2G/3G/4G/5G Applications 
+ 
+ 
+ 
+LOGIC TRUTH TABLE 
+VCTL 
+ACTIVE PATH 
+L 
+RF1 to RF3, RF2 to RF4 
+H 
+RF1 to RF4, RF2 to RF3 
+ 
+ 
+ 
+ 
+
+ 
+SGM72022A 
+General Purpose DPDT Transfer Switch 
+ 
+ 
+2 
+SEPTEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM72022A 
+ULGA-1.1×1.5-10L 
+-40℃ to +85℃ 
+SGM72022AYULU10G/TR 
+6G 
+XX 
+Tape and Reel, 5000 
+ 
+MARKING INFORMATION 
+NOTE: XX = Date Code.  
+YY  
+X X
+Date Code - Year
+Date Code - Week
+Serial Number
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Supply Voltage, VDD ....................................................... 
+.3.6V 
+Control Voltage, VCTL ...................................................... 
+3.6V 
+Maximum Input Power ........................................................... 
+ 
+...................................... 
+39dBm (1:1 VSWR, +25℃, 25%DC) 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -55℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+2000V 
+CDM ............................................................................ 
+2000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Temperature Range ...................... -40℃ to +85℃ 
+Operating Frequency Range 
+..................... 0.4GHz to 5.8GHz 
+Supply Voltage Range, VDD ................................ 
+1.7V to 3.3V 
+Control Low Voltage, VCTL_L 
+................................. 
+0V to 0.45V 
+Control High Voltage, VCTL_H 
+............................... 
+1.3V to 3.3V 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+
+ 
+SGM72022A 
+General Purpose DPDT Transfer Switch 
+ 
+ 
+3 
+SEPTEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+(TOP VIEW) 
+GND
+RF3
+GND
+GND
+VCTL
+4
+5
+6
+3
+2
+7
+8
+9
+10
+GND
+RF1
+RF2
+RF4
+VDD
+1
+ 
+ULGA-1.1×1.5-10L 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1, 3, 5, 7 
+GND 
+Ground. 
+2 
+RF3 
+RF Port 3. 
+4 
+RF1 
+RF Port 1. 
+6 
+RF2 
+RF Port 2. 
+8 
+RF4 
+RF Port 4. 
+9 
+VCTL 
+Logic Control. 
+10 
+VDD 
+Supply Voltage. 
+ 
+ 
+ 
+
+ 
+SGM72022A 
+General Purpose DPDT Transfer Switch 
+ 
+ 
+4 
+SEPTEMBER 2022 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(TA = +25℃, VDD = 1.7V to 3.3V, typical values are at VDD = 2.8V, PIN = 0dBm, input and output resistance = 50Ω, unless 
+otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+DC Characteristics 
+Supply Voltage 
+VDD 
+ 
+1.7 
+2.8 
+3.3 
+V 
+Supply Current 
+IVDD 
+ 
+ 
+60 
+80 
+μA 
+Control Voltage 
+VCTL_H 
+High 
+1.3 
+1.8 
+3.3 
+V 
+VCTL_L 
+Low 
+0 
+ 
+0.45 
+Control Current 
+ICTL 
+ 
+ 
+2 
+8 
+μA 
+Switching Time 
+tSW 
+10% VCTL to 90% RF  
+ 
+2 
+3 
+μs 
+Turn-On Time 
+tON 
+50% VDD to 90% RF 
+ 
+ 
+20 
+μs 
+RF Characteristics 
+Insertion Loss 
+(RF1/RF2 to RF3/RF4) 
+IL 
+f0 = 0.4GHz to 1.0GHz 
+ 
+0.30 
+0.50 
+dB 
+f0 = 1.0GHz to 2.0GHz 
+ 
+0.32 
+0.60 
+f0 = 2.0GHz to 2.7GHz 
+ 
+0.34 
+0.70 
+f0 = 3.0GHz to 3.8GHz 
+ 
+0.47 
+0.80 
+f0 = 4.8GHz to 5.8GHz 
+ 
+0.66 
+1.15 
+Isolation 
+(RF1/RF2 to RF3/RF4; 
+RF1 to RF2, RF3 to RF4) 
+ISO 
+f0 = 0.4GHz to 1.0GHz 
+30 
+33 
+ 
+dB 
+f0 = 1.0GHz to 2.0GHz 
+27 
+30 
+ 
+f0 = 2.0GHz to 2.7GHz 
+20 
+22 
+ 
+f0 = 3.0GHz to 3.8GHz 
+16 
+19 
+ 
+f0 = 4.8GHz to 5.8GHz 
+14 
+18 
+ 
+2nd Harmonic 
+2f0 
+f0 = 824MHz to 915MHz, PIN = 35dBm 
+ 
+-88 
+ 
+dBc 
+3rd Harmonic 
+3f0 
+f0 = 824MHz to 915MHz, PIN = 35dBm 
+ 
+-80 
+ 
+dBc 
+Input Return Loss 
+(RF1/RF2 to RF3/RF4)  
+RL 
+f0 = 0.4GHz to 5.8GHz 
+ 
+-15 
+ 
+dB 
+0.1dB Compression Point 
+(RF1/RF2 to RF3/RF4) 
+P0.1dB 
+f0 = 0.4GHz to 5.8GHz 
+ 
+38 
+ 
+dBm 
+VSWR 
+(RF1, RF2, RF3, RF4) 
+VSWR 
+f0 = 0.4GHz to 5.8GHz 
+ 
+1.5 
+ 
+ 
+2nd Order Intermodulation 
+IMD2 
+f1 > 800MHz at 20dBm, f2 > 2.5GHz at -15dBm 
+ 
+-105 
+ 
+dBm 
+3rd Order Intermodulation 
+IMD3 
+f1 > 800MHz at 20dBm, f2 > 2.5GHz at -15dBm 
+ 
+-105 
+ 
+dBm 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00278.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+ULGA-1.1×1.5-10L 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.500 
+0.550 
+0.600 
+A1 
+0.150 
+0.180 
+0.210 
+A2 
+0.370 REF 
+b 
+0.150 
+0.200 
+0.250 
+D 
+1.050 
+1.100 
+1.150 
+E 
+1.450 
+1.500 
+1.550 
+e 
+0.400 BSC 
+L 
+0.150 
+0.200 
+0.250 
+L1 
+0.000 
+0.050 
+0.100 
+eee 
+0.100 
+ 
+NOTE: This drawing is subject to change without notice.
+ 
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+PIN 1#
+0.20
+0.40
+RECOMMENDED LAND PATTERN (Unit: mm)
+D
+E
+e
+L
+b
+A1
+A2
+A
+e
+0.40
+L1
+L1
+0.20
+SEATING PLANE
+eee C
+C
+1.00
+1.40
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1 
+Quadrant 
+DD0001 
+ 
+ 
+ULGA-1.1×1.5-10L 
+7″ 
+9.5 
+1.3 
+1.7 
+0.75 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 

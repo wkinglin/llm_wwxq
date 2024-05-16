@@ -1,0 +1,1153 @@
+ 
+SGM2529 
+5A, 5V Electronic Fuse (eFuse) 
+with Thermal Shutdown 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+OCTOMBER 2020 – REV. A 
+GENERAL DESCRIPTION 
+The SGM2529 is a compact electronic fuse (eFuse) 
+with a complete set of protection functions. The 
+SGM2529 provides excellent accuracy, making it very 
+suitable for many system protection applications. 
+It provides accurate over-voltage (OV) and under- 
+voltage lockout (UVLO) protections, which ensure tight 
+supervision of bus voltages and eliminate the need for 
+supervisor circuits. The over-voltage (OV) protection 
+will clamp the eFuse output at a fixed level during input 
+voltage surges. During the input voltage transient, the 
+internal FET remains on, which allows the load to 
+continue to operate. If the transient duration remains 
+long, the accumulated heat will cause the eFuse 
+thermal shutdown. Once in thermal shutdown, latch-off 
+and auto-retry thermal options are available. 
+The SGM2529 is available in a Green TDFN-3×3-10L 
+package.  
+ 
+FEATURES 
+● 5V Electronic Fuse with Surge up to 30V 
+● Extremely Low RDS(ON) for the Integrated 
+Protection Switch: 26mΩ (TYP) 
+● 3-State ENABLE/FAULT Pin, Bidirectional Interface 
+● Programmable Soft-Start Time 
+● Programmable Current Limit up to 5A 
+● Thermal Shutdown Options: 
+ SGM2529A: Thermal Latch-Off with VCLAMP 
+ SGM2529B: Thermal Auto-Retry with VCLAMP 
+ SGM2529C: Thermal Latch-Off without VCLAMP 
+● Fault Output for Thermal Shutdown 
+● Accurate Under-Voltage Lockout 
+● Accurate Over-Voltage Clamp (SGM2529A and 
+SGM2529B) 
+● Available in a Green TDFN-3×3-10L Package 
+ 
+ 
+APPLICATIONS 
+Hard Drives 
+PCIE SSD 
+Motherboard Power Management 
+ 
+ 
+ 
+ 
+
+5A, 5V Electronic Fuse (eFuse) 
+SGM2529 
+with Thermal Shutdown 
+ 
+ 
+2 
+OCTOMBER 2020 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM2529A 
+TDFN-3×3-10L 
+-40℃ to +125℃ 
+SGM2529AXTD10G/TR 
+SGM 
+2529AD 
+XXXXX 
+Tape and Reel, 4000 
+SGM2529B 
+TDFN-3×3-10L 
+-40℃ to +125℃ 
+SGM2529BXTD10G/TR 
+SGM 
+2529BD 
+XXXXX 
+Tape and Reel, 4000 
+SGM2529C 
+TDFN-3×3-10L 
+-40℃ to +125℃ 
+SGM2529CXTD10G/TR 
+SGM 
+2529CD 
+XXXXX 
+Tape and Reel, 4000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code. 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Operating Input Voltage Range (VCC to GND) (1) 
+Steady-State .................................................. -0.3V to 18V 
+Transient (100ms) .......................................... -0.6V to 25V 
+VCC, SOURCE, ILIMIT to GND 
+.............................. -0.3V to 25V 
+dV/dt, ENABLE/FAULT to GND ........................ -0.3V to 5.5V 
+Package Thermal Resistance 
+TDFN-3×3-10L, θJA 
+.................................................... 90℃/W 
+TDFN-3×3-10L, θJB 
+.................................................... 54℃/W 
+TDFN-3×3-10L, θJC 
+.................................................... 52℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+2000V 
+CDM ............................................................................ 
+1000V 
+ 
+NOTE: 1. Negative voltage will not damage device provided 
+that the power dissipation is limited to the rated allowable 
+power for the package. 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Operating Junction Temperature Range ...... -40℃ to +125℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+
+5A, 5V Electronic Fuse (eFuse) 
+SGM2529 
+with Thermal Shutdown 
+ 
+ 
+3 
+OCTOMBER 2020 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+(TOP VIEW) 
+4
+1
+3
+5
+2
+7
+10
+8
+6
+9
+GND
+dV/dt
+ENABLE/FAULT
+ILIMIT
+NC
+SOURCE
+SOURCE
+SOURCE
+SOURCE
+SOURCE
+VCC
+ 
+TDFN-3×3-10L 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1 
+GND 
+Ground. 
+2 
+dV/dt 
+Internal dV/dt Circuit. Leaving this pin open will allow the device to ramp up in 1.4ms. An 
+external capacitor between this pin and GND will set the slew rate according to the 
+application requirements.  
+3 
+ENABLE/ 
+FAULT 
+Enable or Fault Pin. This pin is a 3-state, bidirectional interface. Asserting ENABLE/FAULT 
+pin high enables the device. When the thermal shutdown occurs, the device sinks current 
+from ENABLE/FAULT, and pulls the pin low to alert the host (this pin is used as output 
+port).   
+4 
+ILIMIT 
+Current Limit Pin. This pin is used to set the overload and short-circuit current limit levels by 
+placing a resistor.  
+5 
+NC 
+No Connection. 
+6 - 10 
+SOURCE 
+Power Output Pins.  
+Exposed 
+Pad 
+VCC 
+Power Input Pin. Power input and supply voltage of the device. 
+ 
+ 
+ 
+ 
+
+5A, 5V Electronic Fuse (eFuse) 
+SGM2529 
+with Thermal Shutdown 
+ 
+ 
+4 
+OCTOMBER 2020 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(TJ = +25℃, VCC = 5V and dV/dt pin is open, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Power FET 
+Delay Time 
+tDLY 
+Enabling of chip to ID = 100mA with 1A resistive load 
+ 
+352 
+ 
+µs 
+Kelvin On-Resistance 
+RDS(ON) 
+TJ = +25℃ 
+21 
+26 
+31 
+mΩ 
+TJ = +135℃ 
+ 
+40 
+ 
+Off-State Output Voltage 
+VOFF 
+VCC = 10V, VGS = 0V, RL = ∞ 
+ 
+20 
+200 
+mV 
+Continuous Current 
+ID 
+ 
+ 
+5 
+ 
+A 
+Thermal Latch 
+Shutdown Temperature 
+TSD 
+ 
+ 
+158 
+ 
+℃ 
+Thermal Hysteresis 
+THYST 
+Decrease in die temperature for turn-on; does not 
+apply to latch-off options. 
+ 
+22 
+ 
+℃ 
+Under/Over-Voltage Protection 
+Output Clamping Voltage 
+VCLAMP 
+Over-voltage protection, VCC = 10V 
+6.2 
+6.55 
+6.9 
+V 
+Under-Voltage Lockout 
+VUVLO 
+Turn on, voltage going high 
+3.5 
+3.7 
+3.9 
+V 
+UVLO Hysteresis 
+VHYST 
+ 
+ 
+0.2 
+ 
+V 
+Current Limit 
+Kelvin Short-Circuit Current Limit 
+ILIM-SC 
+RLIMIT = 77Ω 
+0.5 
+0.95 
+1.4 
+A 
+Kelvin Overload Current Limit 
+ILIM-OL 
+RLIMIT = 77Ω 
+ 
+3.3 
+ 
+A 
+dV/dt Circuit 
+Output Voltage Ramp Time 
+tSLEW 
+Enable to VOUT = 4.7V 
+0.9 
+1.4 
+1.9 
+ms 
+Maximum Capacitor Voltage 
+VMAX 
+ 
+ 
+ 
+5.3 
+V 
+ENABLE/FAULT Pin 
+Logic Level Low 
+VIN-LOW 
+Output disabled 
+0.43 
+0.53 
+0.63 
+V 
+Logic Level Mid 
+VIN-MID 
+Thermal fault, output disabled 
+1.32 
+1.42 
+1.52 
+V 
+Logic Level High 
+VIN-HIGH 
+Output enabled 
+1.94 
+2.04 
+2.14 
+V 
+High State Maximum Voltage 
+VIN-MAX 
+ 
+4.9 
+5.1 
+5.3 
+V 
+Logic Low Sink Current 
+IIN-LOW 
+VENABLE = 0V 
+ 
+-13 
+-19 
+µA 
+Power Supply 
+Quiescent Current 
+IQ 
+Operating 
+ 
+102 
+130 
+µA 
+Shutdown 
+ 
+47 
+ 
+ 
+ 
+ 
+ 
+
+5A, 5V Electronic Fuse (eFuse) 
+SGM2529 
+with Thermal Shutdown 
+ 
+ 
+5 
+OCTOMBER 2020 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+TJ = +25℃, unless otherwise noted. 
+ 
+      UVLO Turn-On Voltage vs. Temperature 
+     UVLO Hysteresis vs. Temperature 
+ 
+ 
+     Current Limit vs. RLIMIT for Direct Current Sensing 
+    Current Limit vs. RLIMIT for Kelvin Current Sensing 
+ 
+ 
+      On-Resistance vs. Supply Voltage 
+    Output Voltage dV/dt Rate vs. Temperature 
+ 
+ 
+ 
+ 
+3.62
+3.64
+3.66
+3.68
+3.70
+3.72
+3.74
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+VUVLO (V) 
+Temperature (℃) 
+0.16
+0.17
+0.18
+0.19
+0.20
+0.21
+0.22
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+VHYST (V) 
+Temperature (℃) 
+0.1
+1
+10
+10
+100
+Current Limit (A)  
+RLIMIT for Direct Current Sensing (Ω) 
+SC 
+OL 
+0.1
+1
+10
+10
+100
+Current Limit (A)  
+RLIMIT for Kelvin Current Sensing (Ω) 
+SC 
+OL 
+25
+26
+27
+28
+29
+30
+31
+3
+3.5
+4
+4.5
+5
+5.5
+6
+On-Resistance (mΩ) 
+Supply Voltage (V) 
+ILOAD = 0.5A 
+1.32
+1.34
+1.36
+1.38
+1.40
+1.42
+1.44
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Ramp Time (ms) 
+Temperature (℃) 
+
+5A, 5V Electronic Fuse (eFuse) 
+SGM2529 
+with Thermal Shutdown 
+ 
+ 
+6 
+OCTOMBER 2020 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHA RACTERISTICS (continued) 
+TJ = +25℃, unless otherwise noted. 
+ 
+     Output Clamping Voltage vs. Temperature 
+    Output Clamping Voltage vs. Temperature 
+ 
+ 
+     Output Clamping Voltage vs. Temperature 
+      Direct Current Sensing Levels vs. Temperature 
+ 
+ 
+     Kelvin Current Sensing Levels vs. Temperature 
+     Kelvin Current Sensing Levels vs. Temperature 
+ 
+ 
+ 
+ 
+6.54
+6.55
+6.56
+6.57
+6.58
+6.59
+6.60
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Voltage (V) 
+Temperature (℃) 
+ILOAD = 0A 
+SGM2529A and SGM2529B 
+6.48
+6.49
+6.50
+6.51
+6.52
+6.53
+6.54
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Voltage (V) 
+Temperature (℃) 
+ILOAD = 0.1A 
+SGM2529A and SGM2529B 
+6.45
+6.46
+6.47
+6.48
+6.49
+6.50
+6.51
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Voltage (V) 
+Temperature (℃) 
+ILOAD = 0.5A 
+SGM2529A and SGM2529B 
+0
+1
+2
+3
+4
+5
+6
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Current Limit (A) 
+Temperature (℃) 
+RLIMIT = 27Ω 
+OL 
+SC 
+0
+1
+2
+3
+4
+5
+6
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Current Limit (A) 
+Temperature (℃) 
+RLIMIT = 15Ω 
+OL 
+SC 
+0
+1
+2
+3
+4
+5
+6
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Current Limit (A) 
+Temperature (℃) 
+RLIMIT = 33Ω 
+OL 
+SC 
+
+5A, 5V Electronic Fuse (eFuse) 
+SGM2529 
+with Thermal Shutdown 
+ 
+ 
+7 
+OCTOMBER 2020 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TJ = +25℃, unless otherwise noted. 
+ 
+     Body Diode Forward Characteristics 
+  Input Transient Response 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VCC 
+VLOAD 
+ 
+2V/div   2V/div 
+ 
+ 
+ 
+Time (500μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+0
+100
+200
+300
+400
+500
+600
+700
+800
+0.5
+0.55
+0.6
+0.65
+0.7
+0.75
+0.8
+Current (mA) 
+Forward Voltage (V) 
+VCC = 5V to 10V 
+ILOAD = 0.1A 
+
+5A, 5V Electronic Fuse (eFuse) 
+SGM2529 
+with Thermal Shutdown 
+ 
+ 
+8 
+OCTOMBER 2020 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL APPLICATION CIRCUITS 
++5V
+ENABLE
+GND
+VCC
+ENABLE/
+FAULT
+GND
+SOURCE
+ILIMIT
+dV/dt
+RLIMIT
+Load
+SGM2529
+1
+2
+3
+4
+6, 7, 8, 9, 10
+11
+ 
+Figure 1. Application Circuit with Direct Current Sensing 
+ 
++5V
+ENABLE
+GND
+VCC
+ENABLE/
+FAULT
+GND
+SOURCE
+ILIMIT
+dV/dt
+RLIMIT
+Load
+SGM2529
+1
+2
+3
+4
+7, 8, 9, 10
+11
+6
+ 
+Figure 2. Application Circuit with Kelvin Current Sensing 
+ 
+ENABLE
+VCC
+ENABLE/
+FAULT
+GND
+SOURCE
+ILIMIT
+RLIMIT
+Load
+SGM2529
+VCC
+ENABLE/
+FAULT
+GND
+SOURCE
+ILIMIT
+dV/dt
+RLIMIT
+Load
+SGM2529
+dV/dt
+ 
+Figure 3. Common Thermal Shutdown 
+ 
+ 
+
+5A, 5V Electronic Fuse (eFuse) 
+SGM2529 
+with Thermal Shutdown 
+ 
+ 
+9 
+OCTOMBER 2020 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAM 
+UVLO
+ENABLE/
+FAULT
+VCC
+SOURCE
+ILIMIT
+dV/dt
+GND
+SGM2529
+Enable
+Thermal
+Shutdown
+Charge 
+Pump
+Logic 
+Control
+Voltage 
+Clamp
+Current 
+Limit
+dV/dt 
+Control
+IIN_LOW
+ 
+ 
+NOTE 1: SGM2529A and SGM2529B versions. 
+Figure 4. Block Diagram 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+Changes from Original (OCTOMBER 2020) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00060.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TDFN-3×3-10L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.700 
+0.800 
+0.028 
+0.031 
+A1 
+0.000 
+0.050 
+0.000 
+0.002 
+A2 
+0.203 REF 
+0.008 REF 
+D 
+2.900 
+3.100 
+0.114 
+0.122 
+D1 
+2.300 
+2.600 
+0.091 
+0.103 
+E 
+2.900 
+3.100 
+0.114 
+0.122 
+E1 
+1.500 
+1.800 
+0.059 
+0.071 
+k 
+0.200 MIN 
+0.008 MIN 
+b 
+0.180 
+0.300 
+0.007 
+0.012 
+e 
+0.500 TYP 
+0.020 TYP 
+L 
+0.300 
+0.500 
+0.012 
+0.020 
+ 
+RECOMMENDED LAND PATTERN (Unit: mm)
+1.7
+2.8
+2.4
+0.6
+0.24
+0.5
+A
+N10
+N5
+N1
+D1
+E1
+SIDE VIEW
+BOTTOM VIEW
+TOP VIEW
+A1
+A2
+k
+b
+L
+e
+D
+E
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+TDFN-3×3-10L 
+13″ 
+12.4 
+3.35 
+3.35 
+1.13 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

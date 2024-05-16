@@ -1,0 +1,668 @@
+ 
+ 
+74HC245 
+Octal Bus Transceiver with 3-State Outputs 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+SEPTEMBER 2023 – REV. A 
+ 
+GENERAL DESCRIPTION 
+The 74HC245 is an 8-bit bus transceiver with 3-state 
+outputs. The supply voltage can accept any voltage 
+from 2.0V to 5.5V. The An and Bn are 8-bit data 
+input-output ports. DIR is the direction control input and 
+OE
+ത
+ത
+ത
+ത
+ത is the output enable input. 
+When DIR is set high, it allows transmission from An to 
+Bn. When DIR is set low, it allows transmission from Bn 
+to An. OE
+ത
+ത
+ത
+ത
+ത can be used to make the outputs disabled 
+so that the buses are effectively isolated. The clamp 
+diodes of inputs allow the use of current limiting 
+resistors to connect inputs to the voltage exceeding 
+supply voltage. 
+ 
+LOGIC DIAGRAM 
+A0
+DIR
+2
+1
+B0
+18
+19
+A7
+9
+B7
+11
+A1
+3
+B1
+17
+OE
+ 
+ 
+ 
+ 
+FEATURES 
+● Wide Operating Voltage Range: 2.0V to 5.5V 
+● +7.8mA/-7.8mA Output Current 
+● CMOS Low Power Consumption 
+● High Noise Immunity 
+● Octal Bus Interface with Bidirectional Translation  
+● 3-State Non-Inverting Outputs 
+● -40℃ to +125℃ Operating Temperature Range 
+● Available in Green SOIC-20 and TSSOP-20 
+Packages 
+ 
+ 
+ 
+APPLICATIONS 
+Network Switch 
+Telecom Equipment 
+ 
+ 
+FUNCTION TABLE 
+CONTROL INPUT 
+INPUT/OUTPUT 
+OE
+തതതതത 
+DIR 
+An 
+Bn 
+L 
+L 
+An = Bn 
+Inputs 
+L 
+H 
+Inputs 
+Bn = An 
+H 
+X 
+Z 
+Z 
+H = High Voltage Level 
+L = Low Voltage Level 
+Z = High-Impedance State 
+X = Don’t Care 
+ 
+ 
+
+ 
+74HC245 
+Octal Bus Transceiver with 3-State Outputs 
+ 
+ 
+2 
+SEPTEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+74HC245 
+SOIC-20 
+-40℃ to +125℃ 
+74HC245XS20G/TR 
+74HC245XS20 
+XXXXX 
+Tape and Reel, 1500 
+TSSOP-20 
+-40℃ to +125℃ 
+74HC245XTS20G/TR 
+0HGXTS20 
+XXXXX 
+Tape and Reel, 4000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code. 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS (1) 
+Supply Voltage Range, VCC .............................. -0.5V to 7.0V 
+Input Voltage Range, VI
+ (2) .... -0.5V to MIN(7.0V, VCC + 0.5V) 
+Output Voltage Range, VO
+ (2) -0.5V to MIN(7.0V, VCC + 0.5V) 
+Input Clamp Current, IIK (VI < -0.5V or VI > VCC + 0.5V) 
+ 
+........................................................................................ ±20mA 
+Output Clamp Current, IOK (VO < -0.5V or VO > VCC + 0.5V)
+ 
+........................................................................................ ±20mA 
+Continuous Output Current, IO (-0.5V < VO < VCC + 0.5V)
+ 
+.................................................................................... ±35mA 
+Continuous Current through VCC or GND 
+.................... ±70mA 
+Junction Temperature (3) 
+............................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+6000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Supply Voltage Range, VCC ................................ 
+2.0V to 5.5V 
+Input Voltage Range, VI .......................................... 0V to VCC 
+Output Voltage Range, VO ...................................... 0V to VCC 
+Output Current, IO ..................................................... .±7.8mA 
+Input Transition Rise or Fall Rate, Δt/ΔV 
+VCC = 2.0V ..................................................... 625ns/V (MAX) 
+VCC = 4.5V ..................................................... 139ns/V (MAX) 
+VCC = 5.5V ....................................................... 83ns/V (MAX) 
+Operating Temperature Range .................... -40℃ to +125℃ 
+ 
+OVERSTRESS CAUTION 
+1. Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods may 
+affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+2. The input and output negative voltage ratings may be 
+exceeded if the input and output clamp current ratings are 
+observed. 
+3. The performance capability of a high-performance integrated 
+circuit in conjunction with its thermal environment can create 
+junction temperatures which are detrimental to reliability. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+
+ 
+74HC245 
+Octal Bus Transceiver with 3-State Outputs 
+ 
+ 
+3 
+SEPTEMBER 2023 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+(TOP VIEW) 
+20
+19
+18
+17
+16
+15
+14
+13
+1
+2
+3
+4
+5
+6
+7
+8
+DIR
+A0
+A1
+A2
+A3
+A4
+A5
+GND
+VCC
+B0
+B1
+B2
+B3
+B5
+B4
+9
+10
+12
+11
+A6
+A7
+B6
+B7
+OE
+ 
+SOIC-20/TSSOP-20 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1 
+DIR 
+Direction Control Input. 
+2, 3, 4, 5, 6, 7, 8, 9 
+A0, A1, A2, A3, A4, A5, A6, A7 Data Inputs/Outputs. 
+10 
+GND 
+Ground. 
+18, 17, 16, 15, 14, 13, 12, 11 
+B0, B1, B2, B3, B4, B5, B6, B7 Data Inputs/Outputs. 
+19 
+OE
+ത
+ത
+ത
+ത
+ത 
+Output Enable Input (Active Low). 
+20 
+VCC 
+Supply Voltage. 
+ 
+ 
+ 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00181.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOIC-20 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+2.350 
+2.650 
+0.093 
+0.104 
+A1 
+0.100 
+0.300 
+0.004 
+0.012 
+A2 
+2.100 
+2.500 
+0.083 
+0.098 
+b 
+0.330 
+0.510 
+0.013 
+0.020 
+c 
+0.204 
+0.330 
+0.008 
+0.013 
+D 
+12.520 
+13.000 
+0.493 
+0.512 
+E 
+7.400 
+7.600 
+0.291 
+0.299 
+E1 
+10.210 
+10.610 
+0.402 
+0.418 
+e 
+1.27 BSC 
+0.050 BSC 
+L 
+0.400 
+1.270 
+0.016 
+0.050 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+e
+D
+E
+E1
+A2
+A1
+A
+b
+c
+L
+θ
+2.20
+1.27
+0.60
+9.61
+RECOMMENDED LAND PATTERN (Unit: mm)
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00021.002 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TSSOP-20 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+- 
+- 
+1.200 
+A1 
+0.050 
+- 
+0.150 
+A2 
+0.800 
+- 
+1.050 
+b 
+0.190 
+- 
+0.300 
+c 
+0.090 
+- 
+0.200 
+D 
+6.400 
+- 
+6.600 
+E 
+4.300 
+- 
+4.500 
+E1 
+6.200 
+- 
+6.600 
+e 
+0.650 BSC 
+L 
+0.450 
+- 
+0.750 
+H 
+0.250 TYP 
+θ 
+0° 
+- 
+8° 
+ccc 
+0.100 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+3. Reference JEDEC MO-153. 
+ 
+ 
+E1
+E
+e
+b
+A
+A1
+A2
+θ
+L
+H
+c
+D
+1.78
+0.65
+0.42
+RECOMMENDED LAND PATTERN (Unit: mm)
+5.94
+ccc C
+SEATING PLANE
+C
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+SOIC-20 
+13″ 
+24.4 
+10.90 
+13.30 
+3.00 
+4.0 
+12.0 
+2.0 
+24.0 
+Q1 
+TSSOP-20 
+13″ 
+16.4 
+6.80 
+6.90 
+1.50 
+4.0 
+8.0 
+2.0 
+16.0 
+Q1 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+ 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

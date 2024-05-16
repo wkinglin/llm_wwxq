@@ -1,0 +1,2106 @@
+ 
+SGM61280 
+8A, 23V, Synchronous 
+Buck Converter with 3.3V LDO 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+MARCH 2024 – REV. A 
+ 
+ 
+ 
+GENERAL DESCRIPTION 
+The SGM61280 is a high efficiency and miniature size 
+synchronous Buck converter for wide input voltage 
+applications. 
+The SGM61280, 8A synchronous Buck converter with 
+integrated low RDSON MOSFET switches, provides 
+SGM61280-3.3 efficient fixed output voltage version. 
+The device uses constant on-time (COT) control for fast 
+transient response and supports input voltage range 
+from 4.5V to 23V for the SGM61280-3.3. 
+The SGM61280 is available in a space-saving Green 
+UTQFN-3×3-12AL package. 
+ 
+APPLICATIONS 
+Industrial Low Power Systems 
+Laptops and Notebook Computers 
+LCD Monitors and TVs 
+Green Electronics and Appliances 
+DSP, FPGA and ASIC Power Supplies 
+FEATURES 
+● 8A Output Current 
+● Fixed Output Voltage 
+● Wide Input Voltage Range: 
+ 4.5V to 23V Input Range for SGM61280-3.3 
+● Constant On-Time (COT) Control 
+● Low RDSON MOSFET Switches (21mΩ/6mΩ) 
+● Fast Transient Response, Accurate Regulation 
+● Supports All Low ESR MLCC Output Capacitors 
+● Fixed Switching Frequency 
+● LDO Output Voltage 
+● Internal Soft-Start 
+● Integrated Output Discharge Resistance 
+● Cycle-by-Cycle Valley Over-Current Protection 
+● Input Under-Voltage Lockout 
+● Thermal Shutdown Protection 
+● Output Over/Under-Voltage Protection 
+● Audio Avoid Mode (AAM) to Avoid PFM Acoustic 
+Noise 
+● Available in a Green UTQFN-3×3-12AL Package 
+ 
+ 
+ 
+TYPICAL APPLICATION 
+VOUT
+3.3V/8A
+SW
+VIN
+EN
+BST
+FB
+PGND
+VCC
+OUT
+C1, 2
+2 × 10μF
+CVCC
+1μF
+C4 to C9
+22μF × 6
+CBST
+0.1μF
+RBST
+10Ω
+RFF
+1kΩ
+REN
+10kΩ
+L
+1μH
+VIN
+4.5V to 23V
+CFF
+100pF
+LDO3
+CLDO3
+4.7μF
+PG
+AGND
+RPG
+100kΩ
+C3
+0.1μF
+SGM61280-3.3
+C10
+0.1μF
+ 
+Figure 1. SGM61280-3.3 Typical Application 
+ 
+ 
+
+8A, 23V, Synchronous 
+SGM61280 
+Buck Converter with 3.3V LDO 
+ 
+2 
+MARCH 2024 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM61280-3.3 
+UTQFN-3×3-12AL 
+-40℃ to +125℃ 
+SGM61280-3.3XUSD12G/TR 
+SGM029 
+XUSD12 
+XXXXX 
+Tape and Reel, 4000 
+ 
+MARKING INFORMATION 
+NOTE: XXXXX = Date Code, Trace Code and Vendor Code. 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Supply Voltage, VIN 
+............................................ -0.3V to 27V 
+Enable Pin Voltage, VEN 
+..................................... -0.3V to 27V 
+FB Pin Voltage, VFB .......................................... -0.3V to 4.5V 
+OUT Pin Voltage, VOUT ..................................... -0.3V to 4.5V 
+Switch Voltage 
+SW (DC) 
+............................................. -0.3V to (VIN + 0.3V) 
+SW (AC, Less than 30ns) 
+.................................. -6V to 28V 
+BST Voltage, VBST 
+......................... (VSW - 0.3V) to (VSW + 6V) 
+Other I/O Pin Voltages 
+......................................... -0.3V to 6V 
+Power Dissipation, PD @ TA = +25℃ 
+UTQFN-3×3-12AL.......................................................... 
+1.5W 
+Package Thermal Resistance 
+UTQFN-3×3-12AL, θJA 
+............................................ 81.8℃/W 
+Junction Temperature 
+................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+4000V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Supply Input Voltage, VIN 
+................................. 
+4.5V to 23V (1) 
+Operating Junction Temperature Range 
+...... -40℃ to +125℃ 
+NOTE: 1. VUVLO_RISING is 4.6V but VUVLO_FALLING is lower than 
+4.5V, so input must be > 4.6V for startup, and after startup 
+SGM61280-3.3V can work down to 4.5V input voltage. 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods may 
+affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in circuit 
+design, or specifications without prior notice. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+8A, 23V, Synchronous 
+SGM61280 
+Buck Converter with 3.3V LDO 
+ 
+3 
+MARCH 2024 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+ (TOP VIEW) 
+ 
+SW
+                     4
+PGND
+6
+EN
+ 3
+BST
+1
+SW
+ 2
+                     5
+VIN
+12
+11
+10
+9
+8
+7
+FB
+LDO3
+OUT
+VCC
+AGND
+PG
+ 
+UTQFN-3×3-12AL 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+TYPE 
+FUNCTION 
+1 
+BST 
+I 
+Upper Gate Driver Supply Bootstrap Input. Place a 0.1µF/10V ceramic capacitor CBST in series 
+with a 10Ω RBST resistor between BST and SW pins as close as possible to the IC. 
+2, 3 
+SW 
+O 
+Switching Node Output of the Internal Switches. These pins connect to one terminal of the output 
+inductor and the bootstrap circuit. Keep this trace short with minimal copper area to minimize noise 
+coupling, but it should be enough to carry inductor current.  
+4 
+PGND 
+G 
+Power Ground. 
+5 
+VIN 
+I 
+Input Supply Pin. Decouple this pin to PGND with at least 10µF ceramic capacitor as close as 
+possible to these two pins. 
+6 
+EN 
+I 
+Enable Input. Applying a logic high voltage (above 0.8V and below VIN) to EN pin enables the 
+device and a logic low (below 0.4V) will shut it down. EN pin should not be left open.  
+This pin is also used to activate the audio avoid mode (AAM) to prevent audio noise at light loads. 
+The AAM is allowed if the VEN voltage is in the 0.8V to 1.6V range. The device is enabled without 
+AAM if VEN is between 2.3V and VIN. 
+7 
+PG 
+O 
+Open-Drain Power Good Indicator. With a pull-up resistor, this output will go high when the VOUT 
+is above 91% of is nominal value. Pull it up to VCC or a 5.6V or less voltage rail with a resistor (like 
+100kΩ). 
+8 
+AGND 
+G 
+Analog Ground. Decouple VCC to AGND with a 1µF ceramic capacitor. 
+9 
+VCC 
+O 
+5.6V Internal Supply Linear Regulator Output. Connect a 1μF ceramic capacitor between VCC and 
+AGND pins as close to the device as possible. 
+10 
+OUT 
+O 
+Output Feedback Pin. OUT is an input pin into the IC and must be connected to the output capacitor 
+(regulation point). Output discharge (55Ω) is also through this pin when the device is disabled. It 
+also replaces VIN as input source of the LDO regulator when the VOUT is high enough (> 3.1V for 
+SGM61280-3.3). 
+11 
+LDO3 
+O 
+3.3V LDO Output. It is the power supply source for the internal analog and gate driving circuits, 
+and it supplies up to 100mA to external loads. It must be decoupled to PGND with at least a 4.7µF 
+ceramic capacitor. 
+12 
+FB 
+I 
+Feedback Input Pin. Connect the output voltage with an RC network for closed loop control. Keep 
+this line away from noise sources such as SW node. 
+ 
+NOTE: I = input, O = output, G = ground. 
+ 
+ 
+
+8A, 23V, Synchronous 
+SGM61280 
+Buck Converter with 3.3V LDO 
+ 
+4 
+MARCH 2024 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VIN = 12V, typical values are measured at TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Input Supply 
+Shutdown Current into VIN 
+ISD 
+VEN = 0V 
+45 
+68 
+90 
+µA 
+Quiescent Current into VIN 
+IQ 
+VEN = 2.3V, no switching 
+100 
+140 
+180 
+µA 
+Under-Voltage Lockout 
+Under-Voltage Lockout Threshold 
+VUVLO 
+VIN rising  
+ 
+ 
+4.6 
+V 
+Under-Voltage Lockout Hysteresis 
+VUVLO_HYS 
+ 
+ 
+0.2 
+ 
+V 
+Logic Input Threshold 
+EN Input Low Threshold 
+VEN_L 
+Shutdown  
+ 
+ 
+0.4 
+V 
+EN Input High Threshold 
+VEN_H 
+Enabled 
+0.8 
+ 
+ 
+V 
+Allow Audio Avoid Mode 
+VEN_H1 
+Anti-Sound mode 
+ 
+ 
+1.6 
+V 
+Do not Allow Audio Avoid Mode 
+VEN_H2 
+Normal mode 
+2.3 
+ 
+ 
+V 
+Output Voltage 
+Output Voltage 
+VOUT 
+ 
+3.18 
+3.3 
+3.42 
+V 
+VCC Regulator Voltage 
+VCC 
+Internal regulator 
+5.2 
+5.6 
+6 
+V 
+Discharge Pull-Down Resistance 
+RDIS 
+VEN = 0V 
+33 
+55 
+73 
+Ω 
+Soft-Start 
+Soft-Start Time 
+tSS 
+From EN rising to PG release to high 
+1.15 
+1.9 
+2.6 
+ms 
+Output Rising Time 
+tR 
+VOUT rising from 10% to 90% 
+ 
+0.6 
+ 
+ms 
+Power Switch 
+High-side Switch On-Resistance 
+RON_HS 
+ 
+14 
+21 
+26 
+mΩ 
+Low-side Switch On-Resistance 
+RON_LS 
+ 
+4 
+6 
+9 
+mΩ 
+Current Limit 
+Low-side Switch Current Limit 
+ILIM_LS 
+ 
+8 
+12.6 
+17 
+A 
+Switching Frequency 
+PWM Switching Frequency 
+fSW 
+ILOAD = 8A 
+400 
+470 
+530 
+kHz 
+Timer Control 
+Minimum On-Time 
+tON_MIN 
+VIN = VIN_MAX 
+ 
+85 
+ 
+ns 
+Minimum Off-Time 
+tOFF_MIN 
+ 
+105 
+178 
+240 
+ns 
+Audio Avoid Mode (AAM) 
+Operation Period 
+tASMD 
+ 
+ 
+29 
+ 
+μs 
+Output Over-Voltage Protection 
+Output Over-Voltage Threshold 
+OVPTH 
+VOUT% (rising) 
+115 
+121 
+127 
+% 
+Output Over-Voltage Hysteresis 
+OVPHYS 
+VOUT% 
+ 
+5 
+ 
+% 
+Output Over-Voltage Delay Time 
+tOVP_DLY 
+ 
+ 
+20 
+ 
+µs 
+Output Under-Voltage Protection 
+Output Under-Voltage Threshold 
+UVP_TH 
+VFB% (falling) 
+54 
+62 
+70 
+% 
+Output Under-Voltage Delay Time 
+tUVP_DLY 
+FB forced below UV threshold 
+ 
+20 
+ 
+µs 
+UVP Blanking Time 
+tUVP_BLANK 
+From EN_HTH 
+ 
+1.9 
+ 
+ms 
+ 
+ 
+ 
+
+8A, 23V, Synchronous 
+SGM61280 
+Buck Converter with 3.3V LDO 
+ 
+5 
+MARCH 2024 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS (continued) 
+(VIN = 12V, typical values are measured at TA = +25℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+MIN 
+TYP 
+MAX 
+UNITS 
+Power Good 
+PG Threshold 
+PGTH_LtoH 
+VOUT% (rising) 
+85 
+91  
+97 
+% 
+PG Hysteresis 
+PGHYS 
+ 
+ 
+15 
+ 
+% 
+PG Delay Time 
+tPG_DLY 
+PG from low to high 
+ 
+10 
+ 
+µs 
+LDO Regulator 
+LDO Output Voltage 
+VLDO3 
+ 
+ 
+3.3 
+ 
+V 
+LDO Dropout Voltage 
+VDROPOUT 
+ 
+ 
+154 
+ 
+mV 
+LDO Output Current Limit 
+LDO_ILM 
+ 
+150 
+ 
+ 
+mA 
+Bypass MOS RON 
+RON_BP 
+ 
+ 
+1.67 
+ 
+Ω 
+Thermal Protection 
+OTP Shutdown Threshold 
+TSD 
+ 
+ 
+154 
+ 
+℃ 
+OTP Hysteresis 
+THYS 
+ 
+ 
+19  
+ 
+℃ 
+ 
+ 
+ 
+
+8A, 23V, Synchronous 
+SGM61280 
+Buck Converter with 3.3V LDO 
+ 
+6 
+MARCH 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+ 
+ 
+     Quiescent Current vs. Input Voltage 
+     Shutdown Current vs. Input Voltage 
+ 
+ 
+     VLDO3 Voltage vs. IVLDO3 Current 
+     Efficiency vs. Load Current 
+  
+ 
+     Output Voltage vs. Load Current 
+     Switching Frequency vs. Load Current 
+ 
+ 
+ 
+ 
+110
+120
+130
+140
+150
+4
+9
+14
+19
+24
+Quiescent Current (μA)
+Input Voltage (V)
+40
+50
+60
+70
+80
+4
+9
+14
+19
+24
+Shutdown Current (μA)
+Input Voltage (V)
+3.245
+3.265
+3.285
+3.305
+3.325
+0
+25
+50
+75
+100
+VLDO3 Voltage (V)
+IVLDO3 Current (mA)
+60
+70
+80
+90
+100
+0.01
+0.1
+1
+10
+Efficiency (%)
+Load Current (A)
+VIN = 7.4V        
+VIN = 12V         
+VIN = 19V        
+At 3.3V Normal Mode
+3.1
+3.2
+3.3
+3.4
+3.5
+0.01
+0.1
+1
+10
+Output Voltage (V)
+Load Current (A)
+VIN = 7.4V        
+VIN = 12V         
+VIN = 19V        
+0
+125
+250
+375
+500
+0
+2
+4
+6
+8
+Switching Frequency (kHz)
+Load Current (A)
+VIN = 7.4V        
+VIN = 12V         
+VIN = 19V        
+
+8A, 23V, Synchronous 
+SGM61280 
+Buck Converter with 3.3V LDO 
+ 
+7 
+MARCH 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+ 
+ 
+ 
+EN Startup 
+ 
+ 
+ 
+EN Stop 
+ 
+ 
+ 
+ 
+EN 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+IL 
+ 
+PG 
+ 
+  2V/div  2V/div  5A/div  5V/div 
+ 
+ 
+ 
+ 
+EN 
+ 
+VOUT 
+ 
+ 
+IL 
+ 
+ 
+ 
+PG 
+ 
+ 
+  2V/div    2V/div    5A/div  5V/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (300μs/div) 
+ 
+ 
+ 
+Time (20μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Load Transient 
+ 
+ 
+ 
+Over-Current Limit 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+SW 
+ 
+ 
+ 
+IOUT 
+ 
+      100mV/div  10V/div    5A/div 
+ 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+IL 
+ 
+ 
+ 
+SW 
+ 
+          1V/div   10A/div    1V/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (40μs/div) 
+ 
+ 
+ 
+Time (15μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Output Under-Voltage Protection 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+SW 
+ 
+ 
+ 
+PG 
+ 
+           1V/div   10V/div   5V/div 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (20μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT = 0.8A to 8A 
+AC Coupled 
+
+8A, 23V, Synchronous 
+SGM61280 
+Buck Converter with 3.3V LDO 
+ 
+8 
+MARCH 2024 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAM 
+SGM61280-3.3
+PWM,
+Protect
+& ILIM
+Control
+Logic
+VIN
+UVLO
+EN
+PG
+OUT
+FB
+AGND
+BST
+SW
+PGND
+VCC
+LDO3
+Soft-Start
+Thermal 
+Shutdown
+VIN
+VREF
+OUT
+5V Out
+Regulator
+3.3V Out
+Regulator
+Current
+Sense
+LDO 
+Switch 
+Control
+VCC
+ 
+Figure 2. SGM61280-3.3 Block Diagram 
+ 
+ 
+ 
+ 
+
+8A, 23V, Synchronous 
+SGM61280 
+Buck Converter with 3.3V LDO 
+ 
+9 
+MARCH 2024 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION 
+Overview 
+The SGM61280 is a wide input voltage synchronous 
+Buck converter with constant on-time (COT) control and 
+integrated low RDSON power MOSFETs. The COT control 
+loop allows stable operation and fast transient response 
+even with low ESR output ceramic capacitors and no 
+complicated external compensation. It can deliver 8A 
+output current due to its integrated synchronous Buck 
+converter with low RDSON switches. The VIN input range for 
+SGM61280-3.3 is from 4.5V to 23V. 
+The proprietary technology used in the COT control for 
+this device, provides excellent load and line regulation 
+and very fast transient response along with high flexibility. 
+Transient response is almost instantaneous because the 
+COT is not clock-based unlike other methods using 
+clocked PWM where the loop reacts to the events in the 
+next clock cycles. Therefore, the inductor current reacts 
+to deviations immediately to keep the output in regulation. 
+This device can employ both low ESR (like POSCAP or 
+SP-CAP) and ultra-low ESR ceramic capacitors for 
+output capacitance. 
+A linear regulator with 100mA output capacity is provided 
+in the device. If VOUT exceeds 3.1V, the regulator source 
+will automatically switch from the input (VIN) to the output 
+(VOUT) through OUT pin to minimize the losses. 
+ 
+Under-Voltage Lockout (UVLO) 
+The input voltage (VIN) is continuously monitored and if 
+it falls below the under-voltage lockout falling threshold, 
+the device shuts down. The UVLO is necessary to avoid 
+device malfunction due to low supply voltage such as 
+insufficient gate voltage for turning the power switches 
+to fully on-state. 
+The UVLO is non-latching and if VIN exceeds the under-
+voltage lockout rising threshold (if EN is logic high), 
+device will exit shutdown and resume switching. 
+ 
+Enable Input (EN) 
+The active-high EN input pin can be used to enable or 
+shutdown the device and to allow the audio avoid 
+mode (AAM). If EN is a logic low voltage (below 0.4V), 
+device will shut down. If EN is a logic high (above 0.8V) 
+and VIN > VUVLO, the device will be enabled. 
+This pin is also used to activate the audio avoid mode 
+(AAM) to prevent audio noise at light loads. If the EN 
+voltage is in the 0.8V to 1.6V range, the device is 
+allowed to enter AAM during light load PFM to prevent 
+acoustic noise. 
+The LDO3 output and VCC are in on-state as long as VIN > 
+VUVLO. See Table 1 for the SGM61280 power logic. 
+Table 1. SGM61280 Regulator States vs. EN Input 
+Device 
+EN 
+VCC 
+VOUT 
+LDO3 
+SGM61280-3.3 
+High 
+ON 
+Enabled 
+ON 
+Low 
+ON 
+Disabled 
+ON 
+ 
+Bootstrap Circuit (CBST and RBST) 
+The high-side (HS) switch gate driver needs a voltage 
+higher than VIN to turn on the gate of the high-side N-
+MOSFET switch (for example, 5V + VIN or higher). The 
+external bootstrap capacitor (CBST) is used to provide 
+this higher voltage for supplying the HS gate driver. CBST 
+is charged through the internal bootstrap diode from 
+VCC when the low-side (LS) switch turns on and SW 
+node is at around 0V. When the LS switch turns off and 
+HS switch turns on, the SW voltage will rise to the VIN 
+rail voltage and the CBST voltage will supply the HS 
+driver.  
+Refer to Figure 1 for CBST and RBST combinations. Use 
+a 0.1μF ceramic capacitor (CBST) with lower ESR and a 
+series 10Ω resistor (RBST) between the BST and the SW 
+pins for bootstrapping.  
+The RBST helps to control the turn-on time of the HS 
+switch and is good to compromise the switching loss 
+and the EMI radiation. The gate driver is designed for 
+fast turn-on and minimal switching loss (that is, for good 
+efficiency). But the additional resistance of the RBST can 
+slow down the turn-on (VSW rising) to reduce the EMI at 
+the expense of small increase in the switching loss due 
+to the longer turn-on time of the HS switch. 
+ 
+Soft-Start 
+An internal 0.6ms (TYP) soft-start ramp circuit is 
+implemented to gradually increase the PWM reference 
+voltage for output regulation, in order to limit the startup 
+inrush current from the source and to prevent unwanted 
+over-current protection trips during power-up. This timer 
+starts when EN goes high (if VIN > VUVLO) or when VIN 
+exceeds the under-voltage lockout rising threshold if EN 
+is already high. 
+ 
+ 
+
+8A, 23V, Synchronous 
+SGM61280 
+Buck Converter with 3.3V LDO 
+ 
+10 
+MARCH 2024 
+SG Micro Corp 
+www.sg-micro.com 
+DETAILED DESCRIPTION (continued) 
+VCC and LDO3 (Linear Regulators) 
+VCC regulator is powered from VIN to power the internal 
+circuitry and the gate drivers. It should be decoupled 
+with a 1μF ceramic capacitor close to the device.  
+The LDO3 (3.3V) can deliver 100mA to external loads. 
+The LDO should be decoupled with at least 4.7μF 
+ceramic capacitor. When VOUT exceeds above 3.1V, the 
+source of the LDO will automatically switch from VIN to 
+OUT by an internal MOSFET to minimize LDO losses. 
+ 
+Power Good Indicator Output (PG) 
+The PG pin is an open-drain output with a pull-up 
+resistor which will go to logic high if the output voltage is 
+near its expected value. It is recommended to connect 
+a 100kΩ pull-up resistor to a high rail which is not larger 
+than 5V. VPG will be pulled low, if VOUT drops below 85% 
+(TYP) of its nominal value and will go high if it exceeds 
+91% of the nominal regulation value. 
+PG is held low during soft-start state. To avoid false 
+signaling, PG responds with a 10μs delay and changes 
+state if at the end of this delay, the new state is still valid. 
+ 
+Output Over/Under-Voltage Protection 
+An over-voltage protection (OVP) is triggered if the VOUT 
+exceeds the over-voltage threshold (above regulation) 
+for about 20μs or longer. Upon OVP trip, the HS switch 
+remains off and the LS switch remains on until the 
+inductor current drops to zero and then the device will 
+shut down. 
+Output voltage is also protected against under-voltage 
+protection (UVP). If the output voltage falls and remains 
+below the under-voltage threshold for about 20μs, the 
+device shuts down.  
+After OVP or UVP, the device will shut down in latch-off 
+mode and will not restart automatically. An EN toggle or 
+VIN power cycling is needed to restart the device. 
+ 
+Pulse Frequency Modulation Mode (PFM) 
+In light loads, the SGM61280 can enter the PFM mode 
+to keep the efficiency high. Light load condition is 
+detected at the CCM and DCM boundary condition in 
+which inductor valley current reaches to zero due to the 
+output current drop. 
+In PFM, upon detection of zero inductor current, the LS 
+switch turns off and the output capacitor will take longer 
+time to discharge (tOFF extends) until the VOUT (or VFB) 
+drops to the level needed to begin a new cycle (HS turn 
+on or tON pulse). 
+ 
+Audio Avoid Mode (AAM) 
+To avoid acoustic noise when the PFM frequency drops 
+below audible range (20kHz), the AAM can be activated 
+by bringing the EN voltage between 0.8V and 1.6V. In 
+this mode, a special diode emulation mode will be 
+activated to keep the minimum switching period to about 
+30μs (about 33.3kHz), which is called audio avoid mode. 
+This mode can keep the switching frequency above the 
+hearing range even in no load condition. 
+ 
+Output Current Limit (OCP) 
+A cycle-by-cycle valley current detection is implemented 
+to limit the output current. During tOFF portion of each 
+cycle (in which LS is conducting), the current of the 
+synchronous rectifier (LS switch) is monitored by 
+measuring 
+its 
+drain-to-source 
+voltage 
+that 
+is 
+proportional to its current. This measurement is 
+temperature compensated for better accuracy. If the 
+valley current exceeds the threshold, the one-shot timer 
+that produces the constant on-time (for the tON period) 
+will be disabled and not allowed until the inductor 
+current, which is going through LS during tOFF, drops 
+below the valley current limit. During current limiting, the 
+output voltage will drop because the required load 
+current is not supplied by the inductor. If the output 
+voltage drops below the output UVP level (see Output 
+Over/Under-Voltage Protection section), the device will 
+shut down and stop switching to avoid over-temperature. 
+ 
+Thermal Shutdown 
+The die temperature (TJ) is constantly monitored for 
+over-temperature protection (OTP). If TJ exceeds the 
+TSD threshold (+154°C, TYP), the device shuts down to 
+avoid damage. OTP is a latch-off mode protection and 
+an EN toggle or VIN power cycling is needed to restart 
+the device. 
+ 
+ 
+
+8A, 23V, Synchronous 
+SGM61280 
+Buck Converter with 3.3V LDO 
+ 
+11 
+MARCH 2024 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+Typical Application 
+The schematic of a typical application circuit that is used for SGM61280-3.3 evaluation module is given in Figure 3. 
+VOUT
+3.3V/8A
+SW
+VIN
+EN
+BST
+FB
+PGND
+VCC
+OUT
+C1, 2
+2 × 10μF
+CVCC
+1μF
+C4 to C9
+22μF × 6
+CBST
+0.1μF
+RBST
+10Ω
+RFF
+1kΩ
+REN
+10kΩ
+L
+1μH
+VIN
+4.5V to 23V
+CFF
+100pF
+LDO3
+CLDO3
+4.7μF
+PG
+AGND
+RPG
+100kΩ
+C3
+0.1μF
+SGM61280-3.3
+C10
+0.1μF
+ 
+Figure 3. SGM61280-3.3 Typical Application Circuit 
+ 
+Input Capacitor Selection 
+For the input capacitor selection, SGM61280 requires 
+high-quality ceramic decoupling capacitors, such as 
+X5R or X7R or similar. These types of capacitors are 
+commonly used for power regulator capacitors due to 
+their stable dielectric material, which results in less 
+capacitance variation and greater temperature stability. 
+When choosing the input capacitors, the voltage rating 
+of capacitor should have a safe margin from maximum 
+input voltage. Choosing an input capacitor with a 
+voltage rating 1.5 times higher than the maximum input 
+voltage is a safe design practice. The input RMS current 
+can be calculated by Equation 1: 
+2
+2
+OUT
+OUT
+L
+RMS
+OUT
+IN
+IN
+V
+V
+I
+I
+1
+I
+V
+V
+12
+
+
+
+
+=
+×
+−
+×
++
+
+
+
+
+
+
+
+
+Δ
+        (1) 
+To select a suitable capacitor for the RMS current rating, 
+it is recommended to use multiple capacitors with low 
+Equivalent Series Resistance (ESR) in parallel to form 
+a capacitor bank. Therefore, two 10μF low ESR 
+capacitors are placed at the input. The input ripple 
+voltage can be calculated by Equation 2: 
+OUT
+OUT
+OUT
+IN
+IN
+SW
+OUT
+IN
+I
+V
+V
+1
+C
+f
+V
+V
+
+
+×
+=
+×
+−
+
+
+×
+×
+
+
+ΔV
+       (2) 
+ 
+Inductor  
+When selecting an inductor, it is important to specify 
+both the inductance and the peak current required. 
+Inductor selection is usually flexible, and depending on 
+the tradeoff between size, cost, and circuit efficiency. 
+Lower inductor values can reduce size and cost, and 
+improve transient response. However, the inductor 
+ripple current and output voltage ripple are increased, 
+and the efficiency is also reduced due to the higher peak 
+current. In contrast, higher inductance values result in 
+higher efficiency, but at the cost of increased physical 
+size or increased resistance due to the need for more 
+turns of wire. In addition, the transient response will be 
+slower due to the additional time it takes to change the 
+current in the inductor. The approximate inductor value 
+can be calculated by using Equation 3: 
+(
+)
+OUT
+IN
+OUT
+IN
+SW
+L
+V
+V
+V
+L
+V
+f
+I
+×
+−
+=
+×
+× Δ
+               (3) 
+With the selected inductor value, the ripple current (ΔIL) 
+and the corresponding peak inductor current IL_PEAK can 
+be calculated using Equation 4 and Equation 5: 
+(
+)
+OUT
+IN
+OUT
+L
+IN
+SW
+V
+V
+V
+V
+f
+L
+×
+−
+=
+×
+×
+ΔI
+             (4) 
+L
+L _PEAK
+OUT _MAX
+I
+I
+2
+=
++ ΔI               (5) 
+where, 
+IOUT_MAX is the maximum load current. To ensure the full-
+load range requirement, the saturation current rating 
+(ISAT) must be larger than the IL_PEAK. To achieve optimal 
+efficiency, select an inductor with low DC resistance that 
+meets size and cost requirements. An inductor with a 
+shielded ferrite core is the best choice for the application, 
+which minimizes the core losses and causes fewer EMI 
+and noise issues. 
+ 
+
+8A, 23V, Synchronous 
+SGM61280 
+Buck Converter with 3.3V LDO 
+ 
+12 
+MARCH 2024 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+Output Capacitor Selection 
+To achieve the best performance, ceramic capacitors 
+are recommended to be used at the output. The 
+capacitance should be chosen based on the desired 
+output ripple level and the transient response, including 
+over-shoot and undershoot during the load transient.  
+In a Buck converter, the output ripple is mainly caused 
+by the inductor current ripple and its effect on the output 
+capacitor ESR and storage charge, which are called 
+ESR ripple and capacitance ripple, respectively. Due to 
+the extremely low ESR and relatively small capacitance 
+of ceramic capacitors, the amplitudes of the two types 
+of ripple are similar. In applications where ripple 
+performance is important, both ESR ripple and 
+capacitive ripple should be considered. 
+RIPPLE
+RIPPLE_ESR
+RIPPLE_C
+V
+ = V
+ + V
+        (6) 
+RIPPLE_ESR
+L
+ESR
+V
+R
+=
+× +
+ΔI
+             (7) 
+L
+RIPPLE_C
+SW
+OUT
+V
+f
+8
+C
+=
+×
+×
+ΔI
+             (8) 
+In most applications, transient response is usually the 
+more stringent criterion. The output capacitor must 
+either supply the increased load current or absorb the 
+excess inductor current (as the load current decreases) 
+until the control loop can readjust the inductor current to 
+the new load level. Typically, COT structure has a very 
+fast transient response and small output transients. 
+However, under some application conditions, such as at 
+low output voltages and low duty cycles, the use of small 
+ceramic capacitors increases the magnitude of output 
+voltage variation when the load changes fast. The 
+following section describes the calculation of worst-case 
+voltage variations in response to very fast load steps. 
+The following function is to calculate the ESR step: 
+ESR_STEP
+OUT
+ESR
+V
+ = I
+R
+×
+Δ
+              (9)
+ 
+The magnitude of the capacitive sag is determined by 
+various factors, including the load step, the capacitance 
+of the output capacitor, the inductance value, the 
+voltage difference between the input and output, and the 
+maximum duty cycle. The maximum duty cycle in a 
+quick transition is influenced by the on-time and 
+minimum off-time because the COT control method 
+increases current by spacing out on-times with minimal 
+off-times as fast as possible. To find the estimated on-
+time (ignoring parasitic effects) and maximum duty cycle 
+for a specific input and output voltage, following 
+Equations can be used: 
+OUT
+ON
+IN
+SW
+V
+t
+ = V
+f
+×
+                (10) 
+ON
+MAX
+ON
+OFF _MIN
+t
+D
+ = t
+t
++
+           (11) 
+The effective on-time duration may be slightly extended 
+as the integrated circuit adjusts for voltage reductions 
+within the circuit. However, these adjustments can be 
+disregarded as the on-time duration is increased to 
+account for the voltage losses. The output voltage SAG 
+can be determined by calculating it as Equation 12: 
+(
+)
+2
+OUT
+SAG
+OUT
+IN_MAX
+MAX
+OUT
+L
+I
+V
+ = 2
+C
+V
+D
+V
+×
+×
+×
+×
+−
+Δ
+    (12) 
+The magnitude of the capacitive SOAR is determined by 
+the load step, the capacitance of the output capacitor, 
+the inductance value, and the output voltage, as shown 
+in Equation 13: 
+(
+)
+2
+OUT
+SOAR
+OUT
+OUT
+L
+I
+V
+ = 2
+C
+V
+×
+×
+×
+Δ
+             (13) 
+Many applications typically do not encounter immediate 
+full-load changes, and the integrated circuit's high 
+switching frequency and rapid transient response can 
+effectively manage voltage regulation under all 
+circumstances. However, in scenarios involving low-
+voltage CPU cores or DDR memory supply applications, 
+especially devices operating at high clock frequencies 
+and rapidly switching between sleep modes, voltage 
+sag or soar can cause problems. In such cases, 
+mitigating excessive voltage transients can be achieved 
+by either increasing the quantity of ceramic output 
+capacitors or incorporating additional bulk capacitance. 
+For applications characterized by significant rapid 
+transients, it is advisable to calculate over-shoot and 
+undershoot to ensure that over-voltage protection and 
+under-voltage protection mechanisms are not triggered. 
+ 
+ 
+ 
+
+8A, 23V, Synchronous 
+SGM61280 
+Buck Converter with 3.3V LDO 
+ 
+13 
+MARCH 2024 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+Feed-Forward Capacitor CFF Design  
+To enhance adaptability and performance of the 
+SGM61280, 
+a 
+feed-forward 
+capacitor 
+CFF 
+is 
+incorporated into the feedback loop of the integrated 
+compensator within the IC. The purpose of adding a 
+feed-forward loop is to improve the transient response 
+by modifying the gain and phase characteristics. Adding 
+CFF in the feedback network forms a new zero and a 
+high-frequency pole in the loop, which results in 
+increased gain and phase at mid-frequencies, thereby 
+extending the bandwidth and enhancing phase margin. 
+In addition, the pole reduces high-frequency noise. 
+These properties enable SGM61280 to obtain faster 
+response during load transients. 
+VOUT
+SW
+PGND
+L
+SGM61280
+FB
+CFF
+OUT
+COUT
+ 
+Figure 4. Feedback Loop with Feed-Forward Capacitor 
+The transfer function of the feed-forward network, the 
+positions of the zero and the pole can be determined by 
+the following three Equations: 
+(
+)
+FB_S
+1
+1
+OUT _ S
+2
+1
+2
+FF
+S
+1
+1
+V
+R
+1
+ = 
+R
+S
+V
+1
+1
+R
+R / /R
+C
++
+×
++
+×
+     (14)
+ 
+(
+)
+P
+1
+2
+FF
+1
+f  = 2π
+R / /R
+C
+×
+×
+            (15) 
+Z
+1
+FF
+1
+f  = 2π
+R
+C
+×
+×
+                  (16) 
+where, 
+R1 and R2 are internal dividing resistors of the 
+SGM61280. The peak value of the phase boost after the 
+introduction of CFF can be expressed by the following 
+function: 
+PH_MAX
+Z
+P
+f
+ = f
+f
+×
+                (17) 
+In order to achieve the maximum phase boost, the 
+original bandwidth of the system must be at the 
+maximum phase boost frequency. Therefore, to choose 
+the 
+appropriate 
+feed-forward 
+capacitance, 
+it 
+is 
+necessary to determine the original bandwidth position 
+of the system. The bandwidth of the converter is 
+approximated by observing the voltage deviation 
+frequency during the load step of the converter, as 
+shown in Figure 5. 
+t
+BW
+VOUT
+IOUT
+ 
+Figure 5. A Simply Way to Get the BW 
+Then, the Equation between the bandwidth and the 
+feed-forward CFF can be expressed as following: 
+1
+FF
+FF
+1
+2
+1
+1
+1
+1
+BW = 
+2π
+R
+C
+2π
+C
+R
+R
+
+
+×
++
+
+
+×
+×
+×
+
+
+  (18) 
+The CFF can be obtained by calculating as Equation 19: 
+FF
+1
+1
+2
+1
+1
+1
+1
+C
+ = 2π
+BW
+R
+R
+R
+
+
++
+
+
+×
+
+
+            (19) 
+It is important to note that the introduction of feed-
+forward capacitor could inject bias voltage to the VOUT, 
+which could lead to the deviation of VOUT. If the output 
+value exceeds the specification value, the CFF value 
+needs to be decreased. The internal dividing resistors of 
+the SGM61280 are shown in Table 2. 
+Table 2. Internal Dividing Resistors for SGM61280-3.3 
+ 
+SGM61280-3.3 
+R1 
+180kΩ 
+R2 
+40kΩ 
+ 
+ 
+ 
+
+8A, 23V, Synchronous 
+SGM61280 
+Buck Converter with 3.3V LDO 
+ 
+14 
+MARCH 2024 
+SG Micro Corp 
+www.sg-micro.com 
+LAYOUT INFORMATION
+Designing a good PCB layout has a significant impact 
+on the performance of a switching power supply. For the 
+SGM61280, the layout design can be more critical due 
+to the high switching frequency, high output current and 
+more sensitivity of the COT controllers to the noise. One 
+of the goals of a good layout is to minimize the EMI 
+radiations and the influence (coupling) of the switching 
+noise on the sensitive feedback routes. The voltage 
+gradients induced on the ground planes or other 
+sensitive routes should be minimized to avoid switching 
+instability and deviation from regulation point.  
+The following layout guidelines are recommended to get 
+the best performance from the SGM61280. 
+• Consider short, straight, and wide copper traces for 
+the main current paths. 
+• Place the input capacitor and the output capacitor 
+close to the device with the shortest possible 
+connection traces. 
+• Keep the SW node area minimal. Also keep this node 
+and the components directly connected to it away 
+from sensitive copper traces and feedback elements 
+(such as FB and OUT pins). Avoid using vias for SW 
+node and make it thick and short for high current.  
+• Along with the SW, the PGND pin serves as a main 
+heatsinking path. Connect PGND to a large ground 
+plane and stitch it with thermal vias to ground planes 
+on the other layers and specifically to the back side of 
+the PCB for heat sinking and noise reduction. 
+• Feedback route must be wide and away from the SW 
+node. The input of the 100mA LDO is supplied directly 
+from the OUT feedback line. 
+• For less parasitic inductance, use multiple vias under 
+the device close to VIN, PGND and the decoupling 
+capacitors pads. 
+ 
+ 
+Figure 6. Top Layer 
+ 
+ 
+ 
+ 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+Changes from Original (MARCH 2024) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00269.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+UTQFN-3×3-12AL 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.510 
+0.550 
+0.600 
+A1 
+0.000 
+- 
+0.050 
+A2 
+0.152 REF 
+b 
+0.180 
+0.230 
+0.280 
+D 
+2.900 
+3.000 
+3.100 
+E 
+2.900 
+3.000 
+3.100 
+e 
+0.450 BSC 
+e1 
+0.720 BSC 
+e2 
+0.900 BSC 
+k 
+0.500 REF 
+k1 
+0.950 REF 
+L 
+0.250 
+0.350 
+0.450 
+L1 
+0.800 
+0.900 
+1.000 
+L2 
+1.730 
+1.830 
+1.930 
+eee 
+- 
+0.080 
+- 
+ 
+NOTE: This drawing is subject to change without notice. 
+ 
+PIN 1#
+SIDE VIEW
+RECOMMENDED LAND PATTERN (Unit: mm)
+TOP VIEW
+BOTTOM VIEW
+N1
+N12
+D
+E
+e
+b
+e1
+e2
+e
+e1
+L1
+L2
+k
+k1
+L
+0.45
+0.23
+0.45
+0.72
+2.13
+1.20
+0.72
+0.90
+0.65
+3.60
+2.915
+A1
+A2
+A
+SEATING PLANE
+C
+eee C
+2.465
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+UTQFN-3×3-12AL 
+13" 
+12.4 
+3.30 
+3.30 
+0.80 
+4.0 
+8.0 
+2.0 
+12.0 
+Q2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

@@ -1,0 +1,2037 @@
+ 
+SGM8954-1/SGM8954-2 
+High Precision, Low Power, Rail-to-Rail I/O, 
+CMOS Operational Amplifiers 
+ 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+DECEMBER 2018 – REV. A 
+  
+GENERAL DESCRIPTION 
+The single SGM8954-1 and dual SGM8954-2 are low 
+power, high precision CMOS operational amplifiers, 
+which can operate from 1.8V to 5.5V single supply or 
+from ±0.9V to ±2.75V dual power supplies, while 
+consuming only 9μA quiescent current per amplifier. 
+The SGM8954-1/2 support rail-to-rail input and output 
+operation. The input common mode voltage range is 
+from (-VS) - 0.1V to (+VS) + 0.1V, and the output range is 
+from (-VS) + 0.0055V to (+VS) - 0.0055V. 
+The SGM8954-1/2 are designed to provide optimal 
+performance in low voltage and low power systems. 
+They have high impedance inputs and zero-drift 35μV 
+(MAX) offset voltage. These specifications make 
+SGM8954-1/2 appropriate for a wide range of 
+applications requiring high precision, such as high 
+linearity driver of high precision ADC. 
+The SGM8954-1 is available in Green SOT-23-5, SOIC-8 
+and UTDFN-1.6×1.6-6L packages. The SGM8954-2 is 
+available in Green SOIC-8, MSOP-8 and TDFN-2×2-8L 
+packages. They are specified over the extended 
+industrial temperature range (-40℃ to +125℃). 
+ 
+FEATURES 
+● Low Input Offset Voltage: 8μV (TYP), 35μV (MAX) 
+● Low Noise: 1μVP-P at 0.1Hz to 10Hz 
+● Unity-Gain Stable 
+● Gain-Bandwidth Product: 110kHz 
+● Integrated RFI Filter 
+● Rail-to-Rail Input and Output 
+● Support Single or Dual Power Supplies:  
+1.8V to 5.5V or ±0.9V to ±2.75V 
+● Quiescent Current: 9μA/Amplifier (TYP) 
+● -40℃ to +125℃ Operating Temperature Range 
+● Small Packaging: 
+SGM8954-1 Available in Green SOT-23-5, SOIC-8  
+and UTDFN-1.6×1.6-6L Packages 
+SGM8954-2 Available in Green SOIC-8, MSOP-8  
+and TDFN-2×2-8L Packages 
+ 
+APPLICATIONS 
+Industrial Equipment 
+Battery-Powered Equipment 
+Sensor Signal Conditioning 
+ 
+ 
+ 
+
+SGM8954-1 
+High Precision, Low Power, Rail-to-Rail I/O, 
+SGM8954-2 
+CMOS Operational Amplifiers 
+ 
+ 
+2 
+DECEMBER 2018 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM8954-1 
+SOT-23-5 
+-40℃ to +125℃ 
+SGM8954-1XN5G/TR 
+MBBXX 
+Tape and Reel, 3000 
+SOIC-8 
+-40℃ to +125℃ 
+SGM8954-1XS8G/TR 
+SGM 
+89541XS8 
+XXXXX 
+Tape and Reel, 4000 
+UTDFN-1.6×1.6-6L 
+-40℃ to +125℃ 
+SGM8954-1XUDN6G/TR 
+H6X 
+Tape and Reel, 3000 
+SGM8954-2 
+SOIC-8 
+-40℃ to +125℃ 
+SGM8954-2XS8G/TR 
+SGM 
+89542XS8 
+XXXXX 
+Tape and Reel, 4000 
+MSOP-8 
+-40℃ to +125℃ 
+SGM8954-2XMS8G/TR 
+SGM89542 
+XMS8 
+XXXXX 
+Tape and Reel, 4000 
+TDFN-2×2-8L 
+-40℃ to +125℃ 
+SGM8954-2XTDE8G/TR 
+MH8 
+XXXX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: X = Date Code. XX = Date Code. XXXX = Date Code and Trace Code. XXXXX = Date Code, Trace Code and Vendor Code. 
+SOT-23-5 
+SOIC-8/MSOP-8 
+Date Code - Year 
+Date Code - Week 
+Serial Number
+YYY X X
+ 
+Trace Code 
+Vendor Code 
+Date Code - Year
+X
+X
+X
+X
+X
+ 
+ 
+ 
+UTDFN-1.6×1.6-6L 
+TDFN-2×2-8L 
+Date Code - Quarter 
+Serial Number
+YY X
+ 
+Date Code - Year
+Trace Code 
+Serial Number
+Y Y Y
+X
+X
+X
+X
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ 
+ 
+
+SGM8954-1 
+High Precision, Low Power, Rail-to-Rail I/O, 
+SGM8954-2 
+CMOS Operational Amplifiers 
+ 
+ 
+3 
+DECEMBER 2018 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+ABSOLUTE MAXIMUM RATINGS 
+Supply Voltage 
+................................................................... 
+6V 
+Input Common Mode Voltage Range 
+ 
+.................................................... (-VS) - 0.3V to (+VS) + 0.3V 
+Junction Temperature ................................................. 
++150℃ 
+Storage Temperature Range 
+......................... 
+-65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+8000V 
+MM 
+................................................................................. 
+400V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Specified Voltage Range .................................... 
+1.8V to 5.5V 
+Operating Temperature Range ..................... 
+-40℃ to +125℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+PIN CONFIGURATIONS 
+ 
+ 
+SGM8954-1 (TOP VIEW) 
+SGM8954-1 (TOP VIEW) 
+  SGM8954-1 (TOP VIEW) 
+NC
+-IN
++IN
+8
+7
+6
+5
+1
+2
+3
+4
+NC
+OUT
+NC
+-VS
++VS
+NC = NO CONNECT
++
+_
+ 
+3
+2
+1
+4
+5
+OUT
+-VS
++VS
++IN
+-IN
++
+_
+ 
+NC
+-VS
+3
+2
+1
+4
+6
+5
+-IN
+OUT
++VS
++IN
+Exposed
+Pad
+ 
+SOT-23-5 
+ UTDFN-1.6×1.6-6L 
+SOIC-8 
+ 
+ SGM8954-2 (TOP VIEW) 
+SGM8954-2 (TOP VIEW) 
+5
+6
+7
+8
+1
+2
+3
+4
+OUTB
++INB
+-INA
++INA
+-VS
+OUTA
++VS
+-INB
++
+_
++
+_
+ 
+1
+4
+3
+2
+8
+5
+6
+7
+OUTB
++INB
++INA
+-VS
+OUTA
++VS
+-INB
+Exposed
+Pad
+-INA
+ 
+SOIC-8/MSOP-8 
+TDFN-2×2-8L 
+ 
+NOTE: For UTDFN-1.6×1.6-6L and TDFN-2×2-8L packages, exposed pad can be connected to -VS or left floating. 
+ 
+ 
+
+SGM8954-1 
+High Precision, Low Power, Rail-to-Rail I/O, 
+SGM8954-2 
+CMOS Operational Amplifiers 
+ 
+ 
+4 
+DECEMBER 2018 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(At TA = +25℃, VS = 1.8V to 5.5V, VCM = +VS/2, VOUT = +VS/2 and RL = 10kΩ to +VS/2, Full = -40℃ to +125℃, unless otherwise 
+noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN 
+TYP 
+MAX 
+UNITS 
+Input Characteristics 
+Input Offset Voltage 
+VOS 
+ 
++25℃ 
+ 
+8 
+35 
+μV 
+Full 
+ 
+ 
+40 
+Input Offset Voltage Drift 
+ΔVOS/ΔT  
+Full 
+ 
+55 
+ 
+nV/℃ 
+Input Bias Current 
+IB 
+ 
++25℃ 
+ 
+60 
+500 
+pA 
+Input Offset Current 
+IOS 
+ 
++25℃ 
+ 
+110 
+700 
+pA 
+Input Common Mode Voltage Range 
+VCM 
+ 
+Full 
+(-VS) - 0.1 
+ 
+(+VS) + 0.1 
+V 
+Common Mode Rejection Ratio 
+CMRR 
+(-VS) - 0.1V < VCM < (+VS) + 0.1V 
++25℃ 
+93 
+108 
+ 
+dB 
+Full 
+90 
+ 
+ 
+Open-Loop Voltage Gain 
+AOL 
+(-VS) + 0.1V < VOUT < (+VS) - 0.1V, RL = 10kΩ 
++25℃ 
+106 
+125 
+ 
+dB 
+Full 
+103 
+ 
+ 
+Output Characteristics 
+Output Voltage Swing from Rail 
+ 
+RL = 10kΩ 
++25℃ 
+ 
+5.5 
+10 
+mV 
+Full 
+ 
+ 
+11 
+Output Short-Circuit Current 
+ISC 
+VS = 1.8V 
++25℃ 
+5.5 
+8 
+ 
+mA 
+VS = 5.5V 
++25℃ 
+17 
+26 
+ 
+Power Supply 
+Specified Voltage Range 
+VS 
+ 
+Full 
+1.8 
+ 
+5.5 
+V 
+Power Supply Rejection Ratio 
+PSRR 
+VS = 1.8V to 5.5V 
++25℃ 
+ 
+1.8 
+10 
+μV/V 
+Full 
+ 
+ 
+14 
+Quiescent Current/Amplifier 
+IQ 
+IOUT = 0 
++25℃ 
+ 
+9 
+13 
+μA 
+Full 
+ 
+ 
+15.5 
+Dynamic Performance 
+Gain-Bandwidth Product 
+GBP 
+CL = 100pF 
++25℃ 
+ 
+110 
+ 
+kHz 
+Phase Margin 
+φO 
+CL = 100pF 
++25℃ 
+ 
+80 
+ 
+° 
+Slew Rate 
+SR 
+G = 1 
++25℃ 
+ 
+0.04 
+ 
+V/μs 
+Overload Recovery Time 
+ 
+G = -10 
++25℃ 
+ 
+16 
+ 
+μs 
+Noise 
+Input Voltage Noise 
+ 
+f = 0.1Hz to 10Hz 
++25℃ 
+ 
+1 
+ 
+μVP-P 
+Input Voltage Noise Density 
+en 
+f = 1kHz 
++25℃ 
+ 
+65 
+ 
+nV/ Hz  
+Input Current Noise Density 
+in 
+f = 1kHz 
++25℃ 
+ 
+360 
+ 
+fA/ Hz  
+ 
+ 
+ 
+
+SGM8954-1 
+High Precision, Low Power, Rail-to-Rail I/O, 
+SGM8954-2 
+CMOS Operational Amplifiers 
+ 
+ 
+5 
+DECEMBER 2018 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+At TA = +25℃, VS = 5V, RL = 10kΩ and CL = 100pF, unless otherwise noted. 
+ 
+     Quiescent Current vs. Temperature 
+     Output Short-Circuit Current vs. Temperature 
+ 
+ 
+     CMRR vs. Temperature 
+     PSRR vs. Temperature 
+ 
+ 
+      Input Offset Voltage vs. Temperature  
+      Input Offset Voltage vs. Supply Voltage  
+ 
+ 
+ 
+ 
+6
+7
+8
+9
+10
+11
+12
+-50
+-25
+0
+25
+50
+75
+100
+125
+Quiescent Current/Amplifier (μA) 
+Temperature (℃) 
+0
+10
+20
+30
+40
+50
+60
+-50
+-25
+0
+25
+50
+75
+100
+125
+Output Short-Circuit Current (mA) 
+Temperature (℃) 
+ISINK 
+ISOURCE 
+0
+1
+2
+3
+4
+5
+6
+-50
+-25
+0
+25
+50
+75
+100
+125
+Common Mode Rejection Ratio (μV/V) 
+Temperature (℃) 
+VS = 1.8V 
+ 
+VS = 5.5V 
+ 
+0
+0.5
+1
+1.5
+2
+2.5
+3
+-50
+-25
+0
+25
+50
+75
+100
+125
+Power Supply Rejection Ratio (μV/V) 
+Temperature (℃) 
+-20
+-10
+0
+10
+20
+30
+-50
+-25
+0
+25
+50
+75
+100
+125
+Input Offset Voltage (μV) 
+Temperature (℃) 
+10 Typical Units Shown 
+-20
+-10
+0
+10
+20
+30
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+Input Offset Voltage (μV) 
+Supply Voltage (V) 
+10 Typical Units Shown 
+
+SGM8954-1 
+High Precision, Low Power, Rail-to-Rail I/O, 
+SGM8954-2 
+CMOS Operational Amplifiers 
+ 
+ 
+6 
+DECEMBER 2018 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TA = +25℃, VS = 5V, RL = 10kΩ and CL = 100pF, unless otherwise noted. 
+ 
+      Input Offset Voltage vs. Input Common Mode Voltage 
+      Input Offset Voltage vs. Input Common Mode Voltage 
+ 
+ 
+     Output Voltage Swing vs. Output Current (Maximum Supply) 
+     Quiescent Current vs. Supply Voltage 
+ 
+ 
+      Input Bias Current vs. Input Common Mode Voltage 
+      Input Bias Current vs. Input Common Mode Voltage 
+ 
+ 
+ 
+ 
+-20
+-10
+0
+10
+20
+30
+-0.4
+0
+0.4
+0.8
+1.2
+1.6
+2
+Input Offset Voltage (μV) 
+Input Common Mode Voltage (V) 
+10 Typical Units Shown 
+VS = 1.8V 
+-20
+-10
+0
+10
+20
+30
+-1
+0
+1
+2
+3
+4
+5
+6
+Input Offset Voltage (μV) 
+Input Common Mode Voltage (V) 
+10 Typical Units Shown 
+VS = 5.5V 
+ 
+0
+1
+2
+3
+4
+5
+6
+0
+8
+16
+24
+32
+40
+48
+Output Voltage (V) 
+Output Current (mA) 
+VS = 5.5V 
++25℃ 
+-40℃ 
++85℃ 
++125℃ 
+-5
+0
+5
+10
+15
+20
+25
+0
+1
+2
+3
+4
+5
+6
+Quiescent Current (μA) 
+Supply Voltage (V) 
+-150
+-100
+-50
+0
+50
+100
+150
+-0.4
+0
+0.4
+0.8
+1.2
+1.6
+2
+Input Bias Current (pA) 
+Input Common Mode Voltage (V) 
+VS = 1.8V 
+-IB 
++IB 
+-150
+-100
+-50
+0
+50
+100
+150
+-1
+0
+1
+2
+3
+4
+5
+6
+Input Bias Current (pA) 
+Input Common Mode Voltage (V) 
+VS = 5.5V 
+-IB 
++IB 
+
+SGM8954-1 
+High Precision, Low Power, Rail-to-Rail I/O, 
+SGM8954-2 
+CMOS Operational Amplifiers 
+ 
+ 
+7 
+DECEMBER 2018 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TA = +25℃, VS = 5V, RL = 10kΩ and CL = 100pF, unless otherwise noted. 
+ 
+      Large-Signal Step Response  
+    Small-Signal Step Response 
+ 
+ 
+     Positive Overload Recovery 
+     Negative Overload Recovery 
+ 
+ 
+     Large-Signal Settling Time (Positive) 
+     Large-Signal Settling Time (Negative) 
+ 
+ 
+ 
+ 
+Output Voltage (500mV/div) 
+Time (100μs/div) 
+G = 1, VOUT = 2VP-P 
+Output Voltage (10mV/div) 
+Time (100μs/div) 
+G = 1, VOUT = 40mVP-P 
+Time (50μs/div) 
+0V 
+0V 
+1V/div 
+250mV/div 
+VIN 
+VOUT 
+G = -10 
+Time (50μs/div) 
+0V 
+0V 
+1V/div 
+250mV/div 
+VIN 
+VOUT 
+G = -10 
+Time (1ms/div) 
+ 1V/div 
+1mV/div 
+G = -1 
+VIN 
+VOUT 
+Time (1ms/div) 
+1V/div 
+1mV/div 
+G = -1 
+VIN 
+VOUT 
+
+SGM8954-1 
+High Precision, Low Power, Rail-to-Rail I/O, 
+SGM8954-2 
+CMOS Operational Amplifiers 
+ 
+ 
+8 
+DECEMBER 2018 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TA = +25℃, VS = 5V, RL = 10kΩ and CL = 100pF, unless otherwise noted. 
+ 
+     No Phase Reversal  
+  Maximum Output Voltage vs. Frequency  
+ 
+ 
+     +IN EMIRR vs. Frequency 
+  PSRR vs. Frequency (Referred-to-Input) 
+ 
+ 
+     Closed-Loop Gain vs. Frequency 
+   Open-Loop Gain and Phase vs. Frequency 
+ 
+ 
+ 
+ 
+-3
+-2
+-1
+0
+1
+2
+3
+Input and Output Voltage (V) 
+Time (1ms/div) 
+VIN 
+VOUT 
+G = 1 
+RL = No load 
+CL = No load 
+0
+1
+2
+3
+4
+5
+6
+10
+100
+1000
+10000
+Output Voltage (V) 
+Frequency (Hz) 
+VS = 5V 
+VS = 1.8V 
+G = 1 
+0
+20
+40
+60
+80
+100
+120
+10
+100
+1000
+10000
++IN EMIRR (dB) 
+Frequency (MHz) 
+PRF = -16dBm 
+-120
+-100
+-80
+-60
+-40
+-20
+0
+10
+100
+1000
+10000
+100000
+Power Supply Rejection Ratio (dB) 
+Frequency (Hz) 
+PSRR- 
+PSRR+ 
+-40
+-20
+0
+20
+40
+60
+0.01
+0.1
+1
+10
+100
+1000
+Closed-Loop Gain (dB) 
+Frequency (kHz) 
+G = 10 
+G = 1 
+G = 100 
+G = -1 
+-180
+-150
+-120
+-90
+-60
+-30
+0
+-40
+-20
+0
+20
+40
+60
+80
+0.01
+0.1
+1
+10
+100
+1000
+Phase (degree) 
+Open-Loop Gain (dB) 
+Frequency (kHz) 
+Open-Loop Gain 
+Phase  
+
+SGM8954-1 
+High Precision, Low Power, Rail-to-Rail I/O, 
+SGM8954-2 
+CMOS Operational Amplifiers 
+ 
+ 
+9 
+DECEMBER 2018 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+At TA = +25℃, VS = 5V, RL = 10kΩ and CL = 100pF, unless otherwise noted. 
+ 
+      Channel Separation vs. Frequency 
+     Small-Signal Overshoot vs. Capacitive Load 
+ 
+ 
+     Input Voltage Noise Density vs. Frequency 
+     0.1Hz to 10Hz Input Voltage Noise 
+ 
+ 
+     Input Offset Voltage Production Distribution 
+     Input Offset Voltage Drift Distribution 
+ 
+ 
+ 
+ 
+-160
+-140
+-120
+-100
+-80
+-60
+10
+100
+1000
+10000
+100000
+Channel Separation (dB) 
+Frequency (Hz) 
+VIN = 4.99VP-P 
+VIN = 1VP-P 
+0
+10
+20
+30
+40
+50
+60
+10
+100
+1000
+Small-Signal Overshoot (%) 
+Load Capacitance (pF) 
+G = 1 
+10
+100
+1000
+10
+100
+1000
+10000
+Input Voltage Noise Density (nV/√Hz) 
+Frequency (Hz) 
+Input Voltage Noise (0.2μV/div) 
+Time (1s/div) 
+0
+3
+6
+9
+12
+15
+-18
+-16
+-14
+-12
+-10
+-8
+-6
+-4
+-2
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+24
+Percentage of Amplifiers (%) 
+Input Offset Voltage (μV) 
+3150 Samples  
+1 Production Lot 
+ 
+0
+5
+10
+15
+20
+25
+0
+10 20 30 40 50 60 70 80 90 100110120
+Percentage of Amplifiers (%) 
+Input Offset Voltage Drift (nV/℃) 
+-40℃ ≤ TA ≤ +125℃ 
+ 
+-40℃ ≤ TA ≤ +125℃ 
+ 
+
+SGM8954-1 
+High Precision, Low Power, Rail-to-Rail I/O, 
+SGM8954-2 
+CMOS Operational Amplifiers 
+ 
+ 
+10 
+DECEMBER 2018 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+Rail-to-Rail Input 
+When SGM8954-1/2 work at the power supply between 
+1.8V and 5.5V, the input common mode voltage range 
+is from (-VS) - 0.1V to (+VS) + 0.1V. In Figure 1, the ESD 
+diodes between the inputs and the power supply rails 
+will clamp the input voltage not to exceed the rails. 
+ 
+ 
+ 
+Figure 1. Input Equivalent Circuit 
+ 
+Input Current-Limit Protection 
+For ESD diode clamping protection, when the current 
+flowing through ESD diode exceeds the maximum 
+rating value, the ESD diode and amplifier will be 
+damaged, so current-limit protection will be added in 
+some applications. One resistor is selected to limit the 
+current not to exceed the maximum rating value. In 
+Figure 2, a series input resistor is used to limit the input 
+current to less than 10mA, but the drawback of this 
+current-limit resistor is that it contributes thermal noise 
+at the amplifier input. If this resistor must be added, its 
+value must be selected as small as possible. 
+ 
+ 
+ 
+Figure 2. Input Current-Limit Protection 
+ 
+Rail-to-Rail Output 
+The SGM8954-1/2 support rail-to-rail output operation. 
+In single power supply application, for example, when 
++VS = 5.5V, -VS = GND, 10kΩ load resistor is tied from 
+OUT pin to +VS/2, the typical output swing range is from 
+0.0055V to 5.4945V. 
+ 
+Driving Capacitive Loads 
+The SGM8954-1/2 are unity-gain stable with heavy 
+capacitive load. If greater capacitive load must be 
+driven in application, the circuit in Figure 3 can be used. 
+In this circuit, the IR drop voltage generated by RISO is 
+compensated by feedback loop. 
+ 
+ 
+ 
+Figure 3. Circuit to Drive Heavy Capacitive Load 
+ 
+Power Supply Decoupling and Layout 
+A clean and low noise power supply is very important in 
+amplifier circuit design, besides of input signal noise, 
+the power supply is one of important source of noise to 
+the amplifiers through +VS and -VS pins. Power supply 
+bypassing is an effective method to clear up the noise 
+at power supply, and the low impedance path to ground 
+of decoupling capacitor will bypass the noise to GND. 
+In application, 10μF ceramic capacitor paralleled with 
+0.1μF or 0.01μF ceramic capacitor is used in Figure 4. 
+The ceramic capacitors should be placed as close as 
+possible to +VS and -VS power supply pins.  
+ 
+ 
+ 
+Figure 4. Amplifier Power Supply Bypassing 
+ 
+ 
+VP
+VN
++VS
+-VS
++
+_
+VOUT
++
+_
+VIN
+IOVERLOAD
+10mA MAX
++VS
+RISO
+VIN
+VOUT
+CF
+RF
++
+_
+CL
+VN
+VP
+10μF
+0.1μF
+VOUT
++
+_
++VS
+-VS (GND)
+VN
+VP
+10μF
+0.1μF
+VOUT
++
+_
++VS
+10μF
+0.1μF
+-VS
+
+SGM8954-1 
+High Precision, Low Power, Rail-to-Rail I/O, 
+SGM8954-2 
+CMOS Operational Amplifiers 
+ 
+ 
+11 
+DECEMBER 2018 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION (continued) 
+Grounding 
+In low speed application, one node grounding technique 
+is the simplest and most effective method to eliminate 
+the noise generated by grounding. In high speed 
+application, the general method to eliminate noise is to 
+use a complete ground plane technique, and the whole 
+ground plane will help distribute heat and reduce EMI 
+noise pickup. 
+ 
+Reduce Input-to-Output Coupling 
+To reduce the input-to-output coupling, the input traces 
+must be placed as far away from the power supply or 
+output traces as possible. The sensitive trace must not 
+be placed in parallel with the noisy trace in same layer. 
+They must be placed perpendicularly in different layers 
+to reduce the crosstalk. These PCB layout techniques 
+will help to reduce unwanted positive feedback and 
+noise. 
+ 
+Typical Application Circuits 
+Difference Amplifier 
+The circuit in Figure 5 is a design example of classical 
+difference amplifier. If R4/R3 = R2/R1, then VOUT = (VP - 
+VN) × R2/R1 + VREF. 
+ 
+ 
+ 
+Figure 5. Difference Amplifier 
+ 
+High Input Impedance Difference Amplifier 
+The circuit in Figure 6 is a design example of high input 
+impedance difference amplifier, the added amplifiers at 
+the input are used to increase the input impedance and 
+eliminate drawback of low input impedance in Figure 5. 
+ 
+ 
+ 
+Figure 6. High Input Impedance Difference Amplifier 
+ 
+Active Low-Pass Filter 
+The circuit in Figure 7 is a design example of active 
+low-pass filter, the DC gain is equal to -R2/R1 and the 
+-3dB corner frequency is equal to 1/2πR2C. In this design, 
+the filter bandwidth must be less than the bandwidth of 
+the amplifier, the resistor values must be selected as 
+low as possible to reduce ringing or oscillation generated 
+by the parasitic parameters in PCB layout. 
+ 
+ 
+ 
+Figure 7. Active Low-Pass Filter 
+ 
+ 
+VN
+VOUT
+R1
+R2
+R4
++
+_
+R3
+VP
+VREF
+VN
+VOUT
+R1
++
+_
++
+_
++
+_
+R2
+R3
+VREF
+VP
+R4
+VIN
+VOUT
+R1
+R2
+R3 = R1 // R2
++
+_
+C
+
+SGM8954-1 
+High Precision, Low Power, Rail-to-Rail I/O, 
+SGM8954-2 
+CMOS Operational Amplifiers 
+ 
+ 
+12 
+DECEMBER 2018 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+Changes from Original (DECEMBER 2018) to REV.A  
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00033.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOT-23-5 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+1.050 
+1.250 
+0.041 
+0.049 
+A1 
+0.000 
+0.100 
+0.000 
+0.004 
+A2 
+1.050 
+1.150 
+0.041 
+0.045 
+b 
+0.300 
+0.500 
+0.012 
+0.020 
+c 
+0.100 
+0.200 
+0.004 
+0.008 
+D 
+2.820 
+3.020 
+0.111 
+0.119 
+E 
+1.500 
+1.700 
+0.059 
+0.067 
+E1 
+2.650 
+2.950 
+0.104 
+0.116 
+e 
+0.950 BSC 
+0.037 BSC 
+e1 
+1.900 BSC 
+0.075 BSC 
+L 
+0.300 
+0.600 
+0.012 
+0.024 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+ 
+ 
+ 
+ 
+E
+E1
+e
+e1
+b
+D
+A1
+A2
+A
+c
+L
+θ
+0.2
+RECOMMENDED LAND PATTERN (Unit: mm)
+1.90
+2.59
+0.99
+0.69
+0.95
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00070.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+UTDFN-1.6×1.6-6L 
+ 
+ 
+ 
+ 
+NOTE: All linear dimensions are in millimeters. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+1.600± 0.050
+1.600± 0.050
+PIN #1 DOT
+BY MARKING
+PIN #1 IDENTIFICATION
+CHAMFER R0.10
+0.350± 0.050
+0.250± 0.050
+0.500 Bsc
+0.500± 0.050
+0.152 Ref
+0.000-0.050
+0.550± 0.050
+1.260± 0.050
+0.5
+2.0
+0.5
+0.25
+1.26
+0.5
+RECOMMENDED LAND PATTERN 
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00056.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+TDFN-2×2-8L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.700 
+0.800 
+0.028 
+0.031 
+A1 
+0.000 
+0.050 
+0.000 
+0.002 
+A2 
+0.203 REF 
+0.008 REF 
+D 
+1.900 
+2.100 
+0.075 
+0.083 
+D1 
+1.100 
+1.300 
+0.043 
+0.051 
+E 
+1.900 
+2.100 
+0.075 
+0.083 
+E1 
+0.500 
+0.700 
+0.020 
+0.028 
+k 
+0.200 MIN 
+0.008 MIN 
+b 
+0.180 
+0.300 
+0.007 
+0.012 
+e 
+0.500 TYP 
+0.020 TYP 
+L 
+0.250 
+0.450 
+0.010 
+0.018 
+ 
+ 
+ 
+RECOMMENDED LAND PATTERN (Unit: mm)
+0.50
+0.24
+1.20
+0.60
+L
+A1
+A2
+A
+N8
+N1
+N4
+k
+e
+D1
+E1
+b
+E
+D
+SIDE VIEW
+BOTTOM VIEW
+TOP VIEW
+1.95
+0.65
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00014.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+MSOP-8 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.820 
+1.100 
+0.032 
+0.043 
+A1 
+0.020 
+0.150 
+0.001 
+0.006 
+A2 
+0.750 
+0.950 
+0.030 
+0.037 
+b 
+0.250 
+0.380 
+0.010 
+0.015 
+c 
+0.090 
+0.230 
+0.004 
+0.009 
+D 
+2.900 
+3.100 
+0.114 
+0.122 
+E 
+2.900 
+3.100 
+0.114 
+0.122 
+E1 
+4.750 
+5.050 
+0.187 
+0.199 
+e 
+0.650 BSC 
+0.026 BSC 
+L 
+0.400 
+0.800 
+0.016 
+0.031 
+θ 
+0° 
+6° 
+0° 
+6° 
+ 
+ 
+ 
+ 
+ 
+ 
+E1
+E
+e
+D
+A1
+L
+c
+A
+A2
+θ
+b
+RECOMMENDED LAND PATTERN (Unit: mm)
+1.02
+0.41
+0.65
+4.8
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX00010.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOIC-8 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+1.350 
+1.750 
+0.053 
+0.069 
+A1 
+0.100 
+0.250 
+0.004 
+0.010 
+A2 
+1.350 
+1.550 
+0.053 
+0.061 
+b 
+0.330 
+0.510 
+0.013 
+0.020 
+c 
+0.170 
+0.250 
+0.006 
+0.010 
+D 
+4.700 
+5.100 
+0.185 
+0.200 
+E 
+3.800 
+4.000 
+0.150 
+0.157 
+E1 
+5.800 
+6.200 
+0.228 
+0.244 
+e 
+1.27 BSC 
+0.050 BSC 
+L 
+0.400 
+1.270 
+0.016 
+0.050 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+ 
+ 
+ 
+D
+E
+E1
+e
+b
+A
+A2
+A1
+c
+L
+θ
+1.27
+0.6
+2.2
+5.2
+RECOMMENDED LAND PATTERN (Unit: mm)
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+SOT-23-5 
+7″ 
+9.5 
+3.20 
+3.20 
+1.40 
+4.0 
+4.0 
+2.0 
+8.0 
+Q3 
+UTDFN-1.6×1.6-6L 
+7″ 
+9.0 
+1.78 
+1.78 
+0.69 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+TDFN-2×2-8L 
+7″ 
+9.5 
+2.30 
+2.30 
+1.10 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+MSOP-8 
+13″ 
+12.4 
+5.20 
+3.30 
+1.50 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+SOIC-8 
+13″ 
+12.4 
+6.40 
+5.40 
+2.10 
+4.0 
+8.0 
+2.0 
+12.0 
+Q1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+13″ 
+386 
+280 
+370 
+5 
+ 
+ 

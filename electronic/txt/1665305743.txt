@@ -1,0 +1,1872 @@
+ 
+SGM2206 
+Dual Low Noise, 
+Low Dropout Regulator with Enable 
+ 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+JULY 2019 – REV.A.1 
+  
+GENERAL DESCRIPTION 
+The SGM2206 is a dual low noise, high PSRR, low 
+quiescent current and low dropout voltage linear 
+regulator. It is capable of supplying 150mA per channel 
+output current with typical dropout voltage of only 
+150mV. The operating input voltage range is from 1.7V 
+to 7.5V and output voltage range is from 1.2V to 5.0V. 
+Other features include logic-controlled shutdown mode, 
+short-circuit current limit and thermal shutdown 
+protection. 
+The SGM2206 is suitable for applications which need 
+low noise and fast line and load transient responses, 
+such as smartphone and many other portable 
+equipment. 
+The SGM2206 is available in a Green UTDFN-1.2×1.2-6AL 
+package and allows for small footprint and dense PCB 
+layout. It operates over an ambient temperature range 
+of -40℃ to +85℃. 
+FEATURES 
+● Operating Input Voltage Range: 1.7V to 7.5V 
+● Fixed Output Voltage Range: 1.2V to 5.0V 
+● Output Voltage Accuracy: ±0.8% at +25℃ 
+● Output Current: 150mA per Channel 
+● High PSRR: 60dB (TYP) at 1kHz 
+● Low Output Noise: 70μVRMS (TYP) 
+● Low Quiescent Current: 35μA (TYP) per Channel 
+● Current Limiting and Thermal Protection 
+● Fast Line and Load Transient Responses 
+● -40℃ to +85℃ Operating Temperature Range 
+● Available in a Green UTDFN-1.2×1.2-6AL Package 
+ 
+APPLICATIONS 
+Smartphone 
+PAD 
+USB Interface 
+Fingerprint Modular 
+Radio Frequency Supplies 
+Portable Electronic Devices 
+Wireless Network Equipment  
+ 
+ 
+TYPICAL APPLICATION 
+VIN = 5.0V
+CIN
+0.47μF
+COUT1
+0.47μF
+COUT2
+0.47μF
+VOUT1
+VOUT2
+VIN
+EN1
+EN2
+OUT1
+OUT2
+SGM2206
+GND
+1
+2
+3
+4
+6
+5
+ 
+Figure 1. Typical Application Circuit 
+ 
+ 
+
+Dual Low Noise, 
+SGM2206 
+Low Dropout Regulator with Enable 
+ 
+ 
+2 
+JULY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+ORDERING 
+NUMBER 
+VOUT1 
+VOUT2 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM2206-AYUDX6G/TR 
+3.3V 
+1.8V 
+UTDFN-1.2×1.2-6AL 
+-40℃ to +85℃ 
+9F 
+XX 
+Tape and Reel, 5000 
+SGM2206-BYUDX6G/TR 
+1.2V 
+1.8V 
+UTDFN-1.2×1.2-6AL 
+-40℃ to +85℃ 
+A0 
+XX 
+Tape and Reel, 5000 
+SGM2206-CYUDX6G/TR 
+1.5V 
+2.8V 
+UTDFN-1.2×1.2-6AL 
+-40℃ to +85℃ 
+A1 
+XX 
+Tape and Reel, 5000 
+SGM2206-DYUDX6G/TR 
+1.8V 
+1.5V 
+UTDFN-1.2×1.2-6AL 
+-40℃ to +85℃ 
+A2 
+XX 
+Tape and Reel, 5000 
+SGM2206-EYUDX6G/TR 
+1.8V 
+1.8V 
+UTDFN-1.2×1.2-6AL 
+-40℃ to +85℃ 
+A3 
+XX 
+Tape and Reel, 5000 
+SGM2206-FYUDX6G/TR 
+1.8V 
+2.8V 
+UTDFN-1.2×1.2-6AL 
+-40℃ to +85℃ 
+A4 
+XX 
+Tape and Reel, 5000 
+SGM2206-GYUDX6G/TR 
+1.8V 
+3.3V 
+UTDFN-1.2×1.2-6AL 
+-40℃ to +85℃ 
+A5 
+XX 
+Tape and Reel, 5000 
+SGM2206-HYUDX6G/TR 
+2.5V 
+1.8V 
+UTDFN-1.2×1.2-6AL 
+-40℃ to +85℃ 
+A6 
+XX 
+Tape and Reel, 5000 
+SGM2206-IYUDX6G/TR 
+2.8V 
+1.2V 
+UTDFN-1.2×1.2-6AL 
+-40℃ to +85℃ 
+A7 
+XX 
+Tape and Reel, 5000 
+SGM2206-JYUDX6G/TR 
+2.8V 
+1.8V 
+UTDFN-1.2×1.2-6AL 
+-40℃ to +85℃ 
+A8 
+XX 
+Tape and Reel, 5000 
+SGM2206-KYUDX6G/TR 
+2.8V 
+2.5V 
+UTDFN-1.2×1.2-6AL 
+-40℃ to +85℃ 
+A9 
+XX 
+Tape and Reel, 5000 
+SGM2206-LYUDX6G/TR 
+2.8V 
+3.3V 
+UTDFN-1.2×1.2-6AL 
+-40℃ to +85℃ 
+AA 
+XX 
+Tape and Reel, 5000 
+SGM2206-MYUDX6G/TR 
+3.0V 
+1.8V 
+UTDFN-1.2×1.2-6AL 
+-40℃ to +85℃ 
+AB 
+XX 
+Tape and Reel, 5000 
+SGM2206-NYUDX6G/TR 
+3.0V 
+2.8V 
+UTDFN-1.2×1.2-6AL 
+-40℃ to +85℃ 
+AC 
+XX 
+Tape and Reel, 5000 
+SGM2206-OYUDX6G/TR 
+3.0V 
+3.0V 
+UTDFN-1.2×1.2-6AL 
+-40℃ to +85℃ 
+AD 
+XX 
+Tape and Reel, 5000 
+SGM2206-PYUDX6G/TR 
+3.3V 
+2.8V 
+UTDFN-1.2×1.2-6AL 
+-40℃ to +85℃ 
+AE 
+XX 
+Tape and Reel, 5000 
+SGM2206-QYUDX6G/TR 
+3.3V 
+3.0V 
+UTDFN-1.2×1.2-6AL 
+-40℃ to +85℃ 
+AF 
+XX 
+Tape and Reel, 5000 
+SGM2206-RYUDX6G/TR 
+3.3V 
+3.3V 
+UTDFN-1.2×1.2-6AL 
+-40℃ to +85℃ 
+B0 
+XX 
+Tape and Reel, 5000 
+SGM2206-SYUDX6G/TR 
+3.6V 
+1.2V 
+UTDFN-1.2×1.2-6AL 
+-40℃ to +85℃ 
+B1 
+XX 
+Tape and Reel, 5000 
+SGM2206-TYUDX6G/TR 
+5.0V 
+4.4V 
+UTDFN-1.2×1.2-6AL 
+-40℃ to +85℃ 
+B2 
+XX 
+Tape and Reel, 5000 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+MARKING INFORMATION 
+NOTE: XX = Date Code. 
+YY  
+X X
+Date Code - Year
+Date Code - Week
+Serial Number
+ 
+ 
+ 
+
+Dual Low Noise, 
+SGM2206 
+Low Dropout Regulator with Enable 
+ 
+ 
+3 
+JULY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+ABSOLUTE MAXIMUM RATINGS 
+Input Voltage 
+...................................................................... 
+8V 
+Input Voltage at EN Pins 
+...................................... -0.3V to 6V 
+Output Voltage, VOUT ........................................... -0.3V to 6V 
+Output Current, IOUT .................................................... 
+200mA 
+Package Thermal Resistance 
+UTDFN-1.2×1.2-6AL, θJA ......................................... 213℃/W 
+Junction Temperature ................................................. 
++150℃ 
+Storage Temperature Range ....................... -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ............................ 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................. 
+5000V 
+MM 
+................................................................................. 
+300V 
+CDM ............................................................................ 
+1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Input Voltage Range ........................................... 
+1.7V to 7.5V 
+Output Current Range .................................... 
+0mA to 150mA 
+Operating Temperature Range ...................... -40℃ to +85℃ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+ 
+
+Dual Low Noise, 
+SGM2206 
+Low Dropout Regulator with Enable 
+ 
+ 
+4 
+JULY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATION 
+ (TOP VIEW) 
+3
+2
+4
+6
+5
+GND
+OUT1
+OUT2
+EN1
+VIN
+EN2
+1
+ 
+ UTDFN-1.2×1.2-6AL 
+ 
+ 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+1 
+OUT1 
+Channel 1 Regulator Output Pin. It is recommended to use a minimum 0.47μF 
+ceramic capacitor to get good power supply decoupling. This ceramic capacitor 
+should be placed as close as possible to OUT1 pin. 
+2 
+OUT2 
+Channel 2 Regulator Output Pin. It is recommended to use a minimum 0.47μF 
+ceramic capacitor to get good power supply decoupling. This ceramic capacitor 
+should be placed as close as possible to OUT2 pin. 
+3 
+GND 
+Ground. 
+4 
+EN2 
+Channel 2 Enable Control Pin. Drive EN2 high to turn on the channel 2 regulator. 
+Drive EN2 low to turn off the channel 2 regulator. This pin must not be floated. 
+5 
+VIN 
+Input Supply Voltage Pin. 
+6 
+EN1 
+Channel 1 Enable Control Pin. Drive EN1 high to turn on the channel 1 regulator. 
+Drive EN1 low to turn off the channel 1 regulator. This pin must not be floated. 
+ 
+ 
+
+Dual Low Noise, 
+SGM2206 
+Low Dropout Regulator with Enable 
+ 
+ 
+5 
+JULY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(TA = +25℃, VIN = VOUT(NOM) + 1.0V, IOUT = 1mA, CIN = COUT1 = COUT2 = 0.47μF, Full = -40℃ to +85℃, unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN 
+TYP 
+MAX 
+UNITS 
+Input Voltage Range 
+VIN 
+ 
+Full 
+1.7 
+ 
+7.5 
+V 
+Output Voltage Accuracy 
+VOUT 
+VIN = (VOUT(NOM) + 1.0V) to 7.5V, 
+IOUT = 1mA to 150mA 
++25℃ 
+-0.8 
+ 
+0.8 
+% 
+VIN = (VOUT(NOM) + 1.0V) to 7.5V, 
+IOUT = 1mA to 140mA 
+Full 
+-1.5 
+ 
+1.5 
+Maximum Output Current 
+ 
+ 
++25℃ 
+150 
+ 
+ 
+mA 
+Ground Pin Current 
+IQ 
+EN1 = High, EN2 = Low, or 
+EN2 = High, EN1 = Low, No Load 
++25℃ 
+ 
+35 
+45 
+μA 
+EN1 and EN2 = High, No Load 
++25℃ 
+ 
+62 
+75 
+Shutdown Supply Current 
+ISHDN 
+EN1 and EN2 = Low, No Load 
++25℃ 
+ 
+0.55 
+0.75 
+μA 
+Fold-Back Short Current 
+ 
+VOUT Short to Ground 
++25℃ 
+ 
+55 
+ 
+mA 
+Power Supply Rejection Ratio 
+PSRR 
+VIN = VOUT(NOM) + 1.0V, ΔVRIPPLE = 0.2VP-P 
+VOUT(NOM) ≥ 1.8V, IOUT = 30mA, f = 1kHz 
++25℃ 
+ 
+60 
+ 
+dB 
+Output Voltage Noise 
+en 
+IOUT = 30mA, f = 10Hz to 100kHz 
++25℃ 
+ 
+70 
+ 
+μVRMS 
+Dropout Voltage (1) 
+VDROP 
+IOUT = 150mA 
+1.7V < VOUT(NOM) ≤ 2.1V 
++25℃ 
+ 
+250 
+300 
+mV 
+2.1V < VOUT(NOM) ≤ 2.5V 
++25℃ 
+ 
+190 
+220 
+2.5V < VOUT(NOM) ≤ 3.0V 
++25℃ 
+ 
+160 
+210 
+3.0V < VOUT(NOM) ≤ 3.6V 
++25℃ 
+ 
+150 
+200 
+Line Regulation 
+OUT
+IN
+OUT
+V
+V
+V
+ 
+×
+∆
+∆
+ VIN = (VOUT(NOM) + 1.0V) to 7.5V, IOUT = 1mA 
++25℃ 
+ 
+0.0015 
+0.06 
+%/V 
+Load Regulation 
+OUT
+LOAD
+OUT
+V
+I
+V
+ 
+×
+D
+D
+ VIN = VOUT(NOM) + 1.0V, IOUT = 1mA to 150mA 
++25℃ 
+ 
+2.5 
+7 
+mV 
+Output Voltage Temperature 
+Coefficient 
+ 
+IOUT = 50mA 
+Full 
+ 
+±25 
+ 
+ppm/℃ 
+Enable Input Low Voltage 
+ 
+ 
+Full 
+ 
+ 
+0.3 
+V 
+Enable Input High Voltage 
+ 
+ 
+Full 
+1.3 
+ 
+5.5 
+V 
+Enable Input Leakage 
+ 
+ 
++25℃ 
+-1 
+ 
+1 
+μA 
+Over-Current Protection 
+OCP 
+ 
+Full 
+140 
+200 
+265 
+mA 
+On-Resistance of N-Channel 
+for Auto-Discharge 
+ 
+VIN = 4.0V, VEN = 0V, Disabled, 
+Channel 1 & Channel 2 
++25℃ 
+ 
+80 
+ 
+Ω 
+ 
+NOTE: 
+1. The dropout voltage is defined as the difference between VIN and VOUT when VOUT falls to 98% × VOUT(NOM). 
+ 
+ 
+
+Dual Low Noise, 
+SGM2206 
+Low Dropout Regulator with Enable 
+ 
+ 
+6 
+JULY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+TA = +25℃, VIN = VOUT(NOM) + 1.0V, CIN = COUT1 = COUT2 = 0.47μF, unless otherwise noted. 
+ 
+ 
+Line Transient Response 
+ 
+ 
+ 
+Line Transient Response 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+VOUT 
+  
+          1V/div   20mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+          1V/div   20mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (10μs/div) 
+ 
+ 
+ 
+Time (10μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Load Transient Response 
+ 
+ 
+ 
+Load Transient Response 
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+  
+50mA/div     100mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+ 
+ 
+VOUT 
+  
+100mA/div  100mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (40μs/div) 
+ 
+ 
+ 
+Time (40μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Load Transient Response 
+ 
+ 
+ 
+Load Transient Response 
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+  
+          50mA/div  100mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+ 
+ 
+VOUT 
+  
+100mA/div  100mV/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (40μs/div) 
+ 
+ 
+ 
+Time (40μs/div) 
+ 
+ 
+ 
+VOUT = 1.8V, IOUT = 30mA, 
+tR = tF = 5μs, CIN = None 
+VOUT = 3.3V, IOUT = 30mA, 
+tR = tF = 5μs, CIN = None 
+ 
+VOUT = 1.8V, IOUT = 50mA to 100mA 
+VOUT = 1.8V, IOUT = 0.1mA to 150mA 
+VOUT = 3.3V, IOUT = 50mA to 100mA 
+VOUT = 3.3V, IOUT = 0.1mA to 150mA 
+
+Dual Low Noise, 
+SGM2206 
+Low Dropout Regulator with Enable 
+ 
+ 
+7 
+JULY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, VIN = VOUT(NOM) + 1.0V, CIN = COUT1 = COUT2 = 0.47μF, unless otherwise noted. 
+ 
+ 
+Turn-On Waveform 
+ 
+ 
+ 
+Turn-Off Waveform 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VEN 
+ 
+ 
+ 
+VOUT 
+ 
+    1V/div      1V/div 
+ 
+ 
+ 
+VEN 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+              1V/div   1V/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (50μs/div) 
+ 
+ 
+ 
+Time (50μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Turn-On Waveform 
+ 
+ 
+ 
+Turn-Off Waveform 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VEN 
+ 
+ 
+ 
+VOUT 
+ 
+1V/div      1V/div 
+ 
+ 
+ 
+VEN 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+1V/div   1V/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (50μs/div) 
+ 
+ 
+ 
+Time (50μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Turn-On Waveform 
+ 
+ 
+ 
+Turn-Off Waveform 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VEN 
+ 
+ 
+ 
+VOUT 
+ 
+    1V/div      1V/div 
+ 
+ 
+ 
+VEN 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+1V/div    1V/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (50μs/div) 
+ 
+ 
+ 
+Time (50μs/div) 
+ 
+ 
+ 
+VOUT = 1.8V, IOUT = 0mA 
+VOUT = 1.8V, IOUT = 0mA 
+VOUT = 1.8V, IOUT = 30mA 
+VOUT = 1.8V, IOUT = 50mA 
+VOUT = 1.8V, IOUT = 30mA 
+VOUT = 1.8V, IOUT = 50mA 
+
+Dual Low Noise, 
+SGM2206 
+Low Dropout Regulator with Enable 
+ 
+ 
+8 
+JULY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, VIN = VOUT(NOM) + 1.0V, CIN = COUT1 = COUT2 = 0.47μF, unless otherwise noted. 
+ 
+ 
+Turn-On Waveform 
+ 
+ 
+ 
+Turn-Off Waveform 
+ 
+ 
+ 
+ 
+ 
+ 
+VEN 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+  2V/div      1V/div 
+ 
+ 
+VEN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+          2V/div            1V/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (50μs/div) 
+ 
+ 
+ 
+Time (50μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Turn-On Waveform 
+ 
+ 
+ 
+Turn-Off Waveform 
+ 
+ 
+ 
+ 
+ 
+ 
+VEN 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+2V/div      1V/div 
+ 
+ 
+VEN 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+2V/div           1V/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (50μs/div) 
+ 
+ 
+ 
+Time (50μs/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Turn-On Waveform 
+ 
+ 
+ 
+Turn-Off Waveform 
+ 
+ 
+ 
+ 
+ 
+ 
+VEN 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+  2V/div      1V/div 
+ 
+ 
+VEN 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+2V/div            1V/div 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Time (50μs/div) 
+ 
+ 
+ 
+Time (50μs/div) 
+ 
+ 
+ 
+VOUT = 3.3V, IOUT = 0mA 
+VOUT = 3.3V, IOUT = 0mA 
+VOUT = 3.3V, IOUT = 30mA 
+VOUT = 3.3V, IOUT = 50mA 
+VOUT = 3.3V, IOUT = 30mA 
+VOUT = 3.3V, IOUT = 50mA 
+
+Dual Low Noise, 
+SGM2206 
+Low Dropout Regulator with Enable 
+ 
+ 
+9 
+JULY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, CIN = COUT1 = COUT2 = 0.47μF, unless otherwise noted. 
+ 
+     Power Supply Rejection Ratio vs. Frequency 
+     Power Supply Rejection Ratio vs. Frequency 
+ 
+ 
+     Power Supply Rejection Ratio vs. Input Voltage 
+     Power Supply Rejection Ratio vs. Input Voltage 
+ 
+ 
+     Output Voltage vs. Output Current 
+     Output Voltage vs. Output Current 
+ 
+ 
+ 
+ 
+0
+20
+40
+60
+80
+100
+120
+0.1
+1
+10
+100
+1000
+Power Supply Rejection Ratio (dB) 
+Frequency (kHz) 
+VIN = 2.8V + ΔVRIPPLE = 0.2VP-P,  
+CIN = 1µF, COUT = 0.47µF 
+IOUT = 30mA 
+IOUT = 1mA 
+IOUT = 150mA 
+0
+20
+40
+60
+80
+100
+120
+0.1
+1
+10
+100
+1000
+Power Supply Rejection Ratio (dB) 
+Frequency (kHz) 
+VIN = 4.3V + ΔVRIPPLE = 0.2VP-P, 
+CIN = 1µF, COUT = 0.47µF 
+IOUT = 30mA 
+IOUT = 1mA 
+IOUT = 150mA 
+0
+10
+20
+30
+40
+50
+60
+70
+1.8
+2.8
+3.8
+4.8
+5.8
+6.8
+7.8
+Power Supply Rejection Ratio (dB) 
+Input Voltage (V) 
+VOUT = 1.8V 
+fIN = 0.1kHz 
+fIN = 1kHz 
+fIN = 10kHz 
+fIN = 100kHz 
+0
+10
+20
+30
+40
+50
+60
+70
+3.3
+3.8
+4.3
+4.8
+5.3
+5.8
+6.3
+6.8
+7.3
+7.8
+Power Supply Rejection Ratio (dB) 
+Input Voltage (V) 
+VOUT = 3.3V 
+fIN = 0.1kHz 
+fIN = 1kHz 
+fIN = 10kHz 
+fIN = 100kHz 
+0.0
+0.3
+0.6
+0.9
+1.2
+1.5
+1.8
+2.1
+0
+50
+100
+150
+200
+250
+Output Voltage (V) 
+Output Current (mA) 
+VOUT = 1.8V 
+VIN = 2.8V 
+VIN = 4.2V 
+VIN = 5.0V 
+VIN = 5.5V 
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+0
+50
+100
+150
+200
+250
+Output Voltage (V) 
+Output Current (mA) 
+VOUT = 3.3V 
+VIN = 4.3V 
+VIN = 5.0V 
+VIN = 5.5V 
+
+Dual Low Noise, 
+SGM2206 
+Low Dropout Regulator with Enable 
+ 
+ 
+10 
+JULY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, CIN = COUT1 = COUT2 = 0.47μF, unless otherwise noted. 
+ 
+     Output Voltage vs. Input Voltage 
+     Output Voltage vs. Input Voltage 
+ 
+ 
+     Supply Current vs. Input Voltage 
+     Supply Current vs. Input Voltage 
+ 
+ 
+     Dropout Voltage vs. Output Current 
+     Dropout Voltage vs. Output Current 
+ 
+ 
+ 
+ 
+0.0
+0.3
+0.6
+0.9
+1.2
+1.5
+1.8
+2.1
+0
+1
+2
+3
+4
+5
+6
+7
+8
+Output Voltage (V) 
+Intput Voltage (V) 
+VOUT = 1.8V 
+IOUT = 1mA 
+IOUT = 30mA 
+IOUT = 50mA 
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+0
+1
+2
+3
+4
+5
+6
+7
+8
+Output Voltage (V) 
+Intput Voltage (V) 
+VOUT = 3.3V 
+IOUT = 1mA 
+IOUT = 30mA 
+IOUT = 50mA 
+0
+10
+20
+30
+40
+50
+0
+1
+2
+3
+4
+5
+6
+7
+8
+Supply Current (μA) 
+Intput Voltage (V) 
+VOUT = 1.8V 
+0
+10
+20
+30
+40
+50
+0
+1
+2
+3
+4
+5
+6
+7
+8
+Supply Current (μA) 
+Intput Voltage (V) 
+VOUT = 3.3V 
+0
+50
+100
+150
+200
+250
+0
+30
+60
+90
+120
+150
+Dropuut Voltage (mV) 
+Output Current (mA) 
+VOUT = 1.8V 
+-40℃ 
++85℃ 
++25℃ 
+0
+50
+100
+150
+200
+0
+30
+60
+90
+120
+150
+Dropuut Voltage (mV) 
+Output Current (mA) 
+VOUT = 3.3V 
+-40℃ 
++85℃ 
++25℃ 
+
+Dual Low Noise, 
+SGM2206 
+Low Dropout Regulator with Enable 
+ 
+ 
+11 
+JULY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, CIN = COUT1 = COUT2 = 0.47μF, unless otherwise noted. 
+ 
+     Output Voltage vs. Temperature 
+     Output Voltage vs. Temperature 
+ 
+ 
+     Dropout Voltage vs. Set Output Voltage 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1.76
+1.77
+1.78
+1.79
+1.80
+1.81
+1.82
+1.83
+1.84
+-50
+-25
+0
+25
+50
+75
+100
+Output Voltage (V) 
+Temperature (℃) 
+VOUT  = 1.8V 
+3.26
+3.27
+3.28
+3.29
+3.30
+3.31
+3.32
+3.33
+3.34
+-50
+-25
+0
+25
+50
+75
+100
+Output Voltage (V) 
+Temperature (℃) 
+VOUT = 3.3V 
+0
+50
+100
+150
+200
+250
+1.5
+2.0
+2.5
+3.0
+3.5
+Dropout Voltage (mV) 
+Set Output Voltage (V) 
+IOUT = 10mA 
+IOUT = 30mA 
+IOUT = 50mA 
+IOUT = 150mA 
+
+Dual Low Noise, 
+SGM2206 
+Low Dropout Regulator with Enable 
+ 
+ 
+12 
+JULY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+FUNCTIONAL BLOCK DIAGRAM 
+ 
+GND
+OUT1
+OUT2
+EN1
+VIN
+EN2
+R1_1
+R2_1
+Current Limit
+R1_2
+R2_2
+VREF
+Current Limit
+ 
+ 
+Figure 2. Block Diagram 
+ 
+ 
+
+Dual Low Noise, 
+SGM2206 
+Low Dropout Regulator with Enable 
+ 
+ 
+13 
+JULY 2019 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+Input Capacitor Selection (CIN) 
+The input decoupling capacitor should be placed as 
+close as possible to the IN pin for ensuring the device 
+stability. 0.47μF or larger X7R or X5R ceramic 
+capacitor is selected to get good dynamic performance. 
+When VIN is required to provide large current 
+instantaneously, a large effective input capacitor is 
+required. Multiple input capacitors can limit the input 
+tracking inductance. Adding more input capacitors is 
+available to restrict the ringing and to keep it below the 
+device absolute maximum ratings. 
+ 
+Output Capacitor Selection (COUT1, COUT2) 
+The output decoupling capacitors should be placed as 
+close as possible to the OUTx pins. 0.47μF or larger 
+X7R or X5R ceramic capacitors are selected to get 
+good dynamic performance. For ceramic capacitors, 
+temperature, DC bias and package size will change the 
+effective capacitance, so enough margins of COUT1 and 
+COUT2 must be considered in design. Additionally, COUT1 
+and COUT2 with larger capacitance and lower ESR will 
+help increase the high frequency PSRR and improve 
+the load transient response. 
+ 
+Enable Operation 
+The ENx pins of the SGM2206 are used to 
+enable/disable the device. 
+When the ENx pins voltages are low, the device is in 
+shutdown state. There is no current flowing from IN to 
+OUTx pins. When the ENx pins voltages are high, the 
+device is in active state. The output voltage is regulated 
+to expected value. 
+ 
+Output Current Limit and Short-Circuit 
+Protection 
+When overload events happen, the output current is 
+internally limited to 200mA (TYP). When the OUT pin is 
+shorted to ground, the short-circuit protection will limit 
+the output current to 55mA (TYP). 
+ 
+Layout Guidelines 
+To get good PSRR, low output noise and high transient 
+response performance, the input and output bypass 
+capacitors must be placed as close as possible to the 
+IN pin and OUTx pins separately. VIN and VOUT had 
+better use separate ground planes and these ground 
+planes are single point connected to the GND pin. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+JULY 2019 ‒ REV.A to REV.A.1 
+Page 
+Updated ABSOLUTE MAXIMUM RATINGS ........................................................................................................................................................ 
+3 
+ 
+Changes from Original (SEPTEMBER 2018) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00149.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+UTDFN-1.2×1.2-6AL 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions In Millimeters 
+MIN 
+MOD 
+MAX 
+A 
+0.500 
+0.550 
+0.600 
+A1 
+ 
+ 
+0.050 
+A2 
+0.152 REF 
+e 
+0.400 BSC 
+D 
+1.150 
+1.200 
+1.250 
+E 
+1.150 
+1.200 
+1.250 
+b 
+0.130 
+0.180 
+0.230 
+L 
+0.200 
+0.250 
+0.300 
+ 
+TOP VIEW
+BOTTOM VIEW
+SIDE VIEW
+D
+E
+L
+b
+e
+A1
+A
+1.80
+0.40
+0.18
+RECOMMENDED LAND PATTERN (Unit: mm)
+N1
+N3
+N4
+N6
+A2
+0.55
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+UTDFN-1.2×1.2-6AL 
+7″ 
+9.0 
+1.35 
+1.35 
+0.73 
+4.0 
+4.0 
+2.0 
+8.0 
+Q1 
+ 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 

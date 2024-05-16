@@ -1,0 +1,1599 @@
+ 
+ 
+SGM2203 
+150mA, High Voltage Regulator 
+ 
+ 
+SG Micro Corp 
+www.sg-micro.com 
+MARCH 2024 – REV. B. 2 
+ 
+GENERAL DESCRIPTION 
+The SGM2203 is a high voltage and low power 
+consumption linear regulator. It is capable of supplying 
+150mA output current. The operating input voltage is 
+up to 36V. The output voltage range is from 2.5V to 12V 
+in fixed output version. 
+Other features include current limit and thermal 
+shutdown protection. 
+The SGM2203 is available in Green SOT-23, SOT-23-5 
+and SOT-89-3 packages. It operates over an operating 
+temperature range of -40℃ to +85℃. 
+FEATURES 
+ High Input Voltage: Up to 36V 
+ Fixed Output Voltages: 2.5V, 2.8V, 3.0V, 3.3V, 3.5V,  
+3.6V, 4.0V, 4.2V, 5.0V, 5.75V, 8.0V, 9.0V and 12V 
+ 150mA Output Current 
+ Output Voltage Accuracy: ±3% at +25℃ 
+ Low Dropout Voltage 
+ Low Power Consumption: 4.2μA (TYP) 
+ Low Temperature Coefficient 
+ Current Limiting and Thermal Protection 
+ -40℃ to +85℃ Operating Temperature Range 
+ Available in Green SOT-23, SOT-23-5 and  
+SOT-89-3 Packages 
+ 
+ 
+APPLICATIONS 
+Palmtops 
+High-Power Boost Applications 
+Power Source for Battery-Powered Equipment 
+Home Electric/Electronic Appliances 
+ 
+ 
+ 
+ 
+TYPICAL APPLICATION 
+ 
+GND
+VIN
+VOUT
+CIN
+COUT
+VIN
+VOUT
+SGM2203
+ 
+ 
+Figure 1. Typical Application Circuit 
+ 
+ 
+
+ 
+SGM2203 
+150mA, High Voltage Regulator 
+ 
+ 
+2 
+MARCH 2024 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE/ORDERING INFORMATION 
+MODEL 
+VOUT 
+(V) 
+PACKAGE 
+DESCRIPTION 
+SPECIFIED 
+TEMPERATURE 
+RANGE 
+ORDERING 
+NUMBER 
+PACKAGE 
+MARKING 
+PACKING 
+OPTION 
+SGM2203-2.5 
+2.5 
+SOT-23 
+-40℃ to +85℃ 
+SGM2203-2.5YN3LG/TR 
+SW6XX 
+Tape and Reel, 3000 
+SGM2203-2.8 
+2.8 
+SOT-23 
+-40℃ to +85℃ 
+SGM2203-2.8YN3LG/TR 
+SW7XX 
+Tape and Reel, 3000 
+SGM2203-3.0 
+3.0 
+SOT-23 
+-40℃ to +85℃ 
+SGM2203-3.0YN3LG/TR 
+SW8XX 
+Tape and Reel, 3000 
+SGM2203-3.3 
+3.3 
+SOT-23 
+-40℃ to +85℃ 
+SGM2203-3.3YN3LG/TR 
+SW9XX 
+Tape and Reel, 3000 
+SGM2203-3.6 
+3.6 
+SOT-23 
+-40℃ to +85℃ 
+SGM2203-3.6YN3LG/TR 
+SWAXX 
+Tape and Reel, 3000 
+SGM2203-5.0 
+5.0 
+SOT-23 
+-40℃ to +85℃ 
+SGM2203-5.0YN3LG/TR 
+SWBXX 
+Tape and Reel, 3000 
+SGM2203-2.5 
+2.5 
+SOT-89-3 
+-40℃ to +85℃ 
+SGM2203-2.5YK3G/TR 
+SWCXX 
+Tape and Reel, 1000 
+SGM2203-3.3 
+3.3 
+SOT-89-3 
+-40℃ to +85℃ 
+SGM2203-3.3YK3G/TR 
+SWDXX 
+Tape and Reel, 1000 
+SGM2203-3.6 
+3.6 
+SOT-89-3 
+-40℃ to +85℃ 
+SGM2203-3.6YK3G/TR 
+SWFXX 
+Tape and Reel, 1000 
+SGM2203-4.0 
+4.0 
+SOT-89-3 
+-40℃ to +85℃ 
+SGM2203-4.0YK3G/TR 
+CG2XX 
+Tape and Reel, 1000 
+SGM2203-4.2 
+4.2 
+SOT-89-3 
+-40℃ to +85℃ 
+SGM2203-4.2YK3G/TR 
+RD5XX 
+Tape and Reel, 1000 
+SGM2203-5.0 
+5.0 
+SOT-89-3 
+-40℃ to +85℃ 
+SGM2203-5.0YK3G/TR 
+SWEXX 
+Tape and Reel, 1000 
+SGM2203-5.75 
+5.75 
+SOT-89-3 
+-40℃ to +85℃ 
+SGM2203-5.75YK3G/TR 
+CG3XX 
+Tape and Reel, 1000 
+SGM2203-8.0 
+8.0 
+SOT-89-3 
+-40℃ to +85℃ 
+SGM2203-8.0YK3G/TR 
+G74XX 
+Tape and Reel, 1000 
+SGM2203-12 
+12 
+SOT-89-3 
+-40℃ to +85℃ 
+SGM2203-12YK3G/TR 
+G3FXX 
+Tape and Reel, 1000 
+SGM2203-3.0 
+3.0 
+SOT-89-3 (L-Type) 
+-40℃ to +85℃ 
+SGM2203-3.0YK3LG/TR 
+SX0XX 
+Tape and Reel, 1000 
+SGM2203-3.3 
+3.3 
+SOT-89-3 (L-Type) 
+-40℃ to +85℃ 
+SGM2203-3.3YK3LG/TR 
+G75XX 
+Tape and Reel, 1000 
+SGM2203-3.5 
+3.5 
+SOT-89-3 (L-Type) 
+-40℃ to +85℃ 
+SGM2203-3.5YK3LG/TR 
+G7EXX 
+Tape and Reel, 1000 
+SGM2203-4.0 
+4.0 
+SOT-89-3 (L-Type) 
+-40℃ to +85℃ 
+SGM2203-4.0YK3LG/TR 
+GF3XX 
+Tape and Reel, 1000 
+SGM2203-5.0 
+5.0 
+SOT-89-3 (L-Type) 
+-40℃ to +85℃ 
+SGM2203-5.0YK3LG/TR 
+SX1XX 
+Tape and Reel, 1000 
+SGM2203-8.0 
+8.0 
+SOT-89-3 (L-Type) 
+-40℃ to +85℃ 
+SGM2203-8.0YK3LG/TR 
+SX2XX 
+Tape and Reel, 1000 
+SGM2203-9.0 
+9.0 
+SOT-89-3 (L-Type) 
+-40℃ to +85℃ 
+SGM2203-9.0YK3LG/TR 
+SX3XX 
+Tape and Reel, 1000 
+SGM2203-12 
+12 
+SOT-89-3 (L-Type) 
+-40℃ to +85℃ 
+SGM2203-12YK3LG/TR 
+G40XX 
+Tape and Reel, 1000 
+SGM2203-3.0 
+3.0 
+SOT-23-5 
+-40℃ to +85℃ 
+SGM2203-3.0YN5G/TR 
+GDFXX 
+Tape and Reel, 3000 
+SGM2203-3.3 
+3.3 
+SOT-23-5 
+-40℃ to +85℃ 
+SGM2203-3.3YN5G/TR 
+GE0XX 
+Tape and Reel, 3000 
+SGM2203-5.0 
+5.0 
+SOT-23-5 
+-40℃ to +85℃ 
+SGM2203-5.0YN5G/TR 
+GJ9XX 
+Tape and Reel, 3000 
+SGM2203-4.2 
+4.2 
+SOT-23-5 (L-Type) 
+-40℃ to +85℃ 
+SGM2203-4.2YN5LG/TR 
+GN9XX 
+Tape and Reel, 3000 
+ 
+MARKING INFORMATION 
+NOTE: XX = Date Code. 
+Date Code - Year 
+Date Code - Month 
+Serial Number
+YYY X X
+ 
+ 
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If 
+you have additional comments or questions, please contact your SGMICRO representative directly. 
+ 
+ 
+
+ 
+SGM2203 
+150mA, High Voltage Regulator 
+ 
+ 
+3 
+MARCH 2024 
+SG Micro Corp 
+www.sg-micro.com 
+ABSOLUTE MAXIMUM RATINGS 
+VIN to GND 
+........................................................ 
+-0.3V to 44V 
+VOUT to GND, VOUT ≤ 5.0V ......... 
+-0.3V to MIN(VIN + 0.3V, 6V) 
+VOUT to GND, VOUT > 5.0V .......-0.3V to MIN(VIN + 0.3V, 15V) 
+Power Dissipation, PD @ TA = +25℃ 
+SOT-23 ....................................................................... 0.49W 
+SOT-23-5 .................................................................... 0.61W 
+SOT-23-5 (L-Type) 
+...................................................... 0.71W 
+SOT-89-3 .................................................................... 1.76W 
+SOT-89-3 (L-Type) 
+...................................................... 1.13W 
+Package Thermal Resistance 
+SOT-23, θJA 
+........................................................... 
+252.4℃/W 
+SOT-23, θJB 
+............................................................. 
+92.9℃/W 
+SOT-23, θJC .......................................................... 
+142.4℃/W 
+SOT-23-5, θJA ....................................................... 
+204.8℃/W 
+SOT-23-5, θJB ......................................................... 
+87.5℃/W 
+SOT-23-5, θJC ....................................................... 
+134.1℃/W 
+SOT-23-5 (L-Type), θJA ......................................... 
+175.3℃/W 
+SOT-23-5 (L-Type), θJB ........................................... 
+55.8℃/W 
+SOT-23-5 (L-Type), θJC 
+......................................... 
+100.9℃/W 
+SOT-89-3, θJA ......................................................... 
+70.8℃/W 
+SOT-89-3, θJB ......................................................... 
+25.1℃/W 
+SOT-89-3, θJC ....................................................... 
+101.5℃/W 
+SOT-89-3 (L-Type), θJA ............................................ 
+110℃/W 
+SOT-89-3 (L-Type), θJB ........................................... 
+64.3℃/W 
+SOT-89-3 (L-Type), θJC 
+......................................... 
+131.1℃/W 
+Junction Temperature ................................................ 
++150℃ 
+Storage Temperature Range 
+........................ -65℃ to +150℃ 
+Lead Temperature (Soldering, 10s) ........................... 
++260℃ 
+ESD Susceptibility 
+HBM 
+............................................................................ 4000V 
+MM 
+................................................................................ 200V 
+CDM ........................................................................... 1000V 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Input Voltage Range 
+........................................... 2.7V to 36V 
+Operating Temperature Range ....................... 
+-40℃ to +85℃ 
+ 
+OVERSTRESS CAUTION 
+Stresses beyond those listed in Absolute Maximum Ratings 
+may cause permanent damage to the device. Exposure to 
+absolute maximum rating conditions for extended periods 
+may affect reliability. Functional operation of the device at any 
+conditions beyond those indicated in the Recommended 
+Operating Conditions section is not implied. 
+ 
+ESD SENSITIVITY CAUTION 
+This integrated circuit can be damaged if ESD protections are 
+not considered carefully. SGMICRO recommends that all 
+integrated circuits be handled with appropriate precautions. 
+Failure to observe proper handling and installation procedures 
+can cause damage. ESD damage can range from subtle 
+performance degradation to complete device failure. Precision 
+integrated circuits may be more susceptible to damage 
+because even small parametric changes could cause the 
+device not to meet the published specifications. 
+ 
+DISCLAIMER 
+SG Micro Corp reserves the right to make any change in 
+circuit design, or specifications without prior notice. 
+ 
+ 
+
+ 
+SGM2203 
+150mA, High Voltage Regulator 
+ 
+ 
+4 
+MARCH 2024 
+SG Micro Corp 
+www.sg-micro.com 
+PIN CONFIGURATIONS 
+  (TOP VIEW) 
+  (TOP VIEW) 
+(TOP VIEW) 
+2
+3
+1
+VIN
+GND
+VOUT
+ 
+VOUT
+4
+NC
+5
+NC
+3
+GND
+1
+VIN
+2
+ 
+NC
+4
+NC
+5
+VOUT
+3
+VIN
+1
+GND
+2
+ 
+  SOT-23 
+  SOT-23-5 
+SOT-23-5 (L-Type) 
+(TOP VIEW) 
+(TOP VIEW) 
+GND
+VIN
+VOUT
+1
+2
+3
+GND
+ 
+GND
+VIN
+VOUT
+1
+2
+3
+VIN
+ 
+SOT-89-3 
+SOT-89-3 (L-Type) 
+ 
+ 
+ 
+PIN DESCRIPTION 
+PIN 
+NAME 
+FUNCTION 
+SOT-23 
+SOT-23-5 SOT-23-5 
+(L-Type) SOT-89-3 SOT-89-3 
+(L-Type) 
+1 
+1 
+2 
+2 
+1 
+GND 
+Ground. 
+2 
+3 
+5 
+1 
+3 
+VOUT 
+Regulator Output Pin. It is recommended to use an 
+output capacitor with effective capacitance in the range 
+of 1μF to 10μF to ensure stability. The capacitor should 
+be located very close to this pin. 
+3 
+2 
+1 
+3 
+2 
+VIN 
+Regulator Input Pin. Up to 36V input voltage. It is 
+recommended to use a 1μF or larger ceramic capacitor 
+from VIN pin to ground to get good power supply 
+decoupling. This ceramic capacitor should be placed as 
+close as possible to VIN pin. 
+‒ 
+4, 5 
+3, 4 
+‒ 
+‒ 
+NC 
+No Connection. 
+ 
+ 
+ 
+ 
+
+ 
+SGM2203 
+150mA, High Voltage Regulator 
+ 
+ 
+5 
+MARCH 2024 
+SG Micro Corp 
+www.sg-micro.com 
+ELECTRICAL CHARACTERISTICS 
+(VIN = (VOUT + 2V) or 4V, whichever is greater, CIN = 1μF, COUT = 1μF. Full = -40℃ to +85℃, typical values are at TA = +25℃, 
+unless otherwise noted.) 
+PARAMETER 
+SYMBOL 
+CONDITIONS 
+TEMP 
+MIN 
+TYP 
+MAX 
+UNITS 
+Input Voltage Range 
+VIN 
+VOUT < 3.3V 
+Full 
+2.7 
+ 
+32 
+V 
+VOUT ≥ 3.3V 
+Full 
+2.7 
+ 
+36 
+Output Voltage Accuracy 
+VOUT 
+IOUT = 1mA 
++25℃ 
+-3 
+ 
+3 
+% 
+Ground Pin Current 
+IGND 
+No load 
++25℃ 
+ 
+4.2 
+5.5 
+μA 
+Full 
+ 
+ 
+6.5 
+IOUT = 50mA 
++25℃ 
+ 
+4.2 
+ 
+Maximum Output Current 
+IOUT 
+ 
++25℃ 
+150 
+ 
+ 
+mA 
+Dropout Voltage (1) 
+VDROP 
+IOUT = 150mA, VOUT ≥ 2.5V 
++25℃ 
+ 
+1300 
+1850 
+mV 
+Full 
+ 
+ 
+2400 
+Line Regulation 
+OUT
+IN
+OUT
+V
+V
+V
+∆
+∆
+×
+ 
+VIN = VOUT + 2V or 4V to 32V, 
+IOUT = 1mA 
+VOUT < 3.3V 
++25℃ 
+ 
+0.005 
+0.012 
+%/V 
+VIN = VOUT + 2V to 36V, 
+IOUT = 1mA 
+VOUT ≥ 3.3V 
++25℃ 
+ 
+0.005 
+0.012 
+Load Regulation 
+ΔVOUT 
+VIN = VOUT + 2V or 4V, IOUT = 1mA to 150mA 
++25℃ 
+ 
+10 
+25 
+mV 
+Power Supply Rejection Ratio 
+PSRR 
+VOUT = 3.3V, IOUT = 10mA 
+f = 217Hz 
++25℃ 
+ 
+55 
+ 
+dB 
+f = 1kHz 
++25℃ 
+ 
+40 
+ 
+Output Voltage Temperature 
+Coefficient 
+OUT
+A
+OUT
+V
+T
+V
+∆
+∆
+×
+ IOUT = 1mA 
+Full 
+ 
+68 
+ 
+ppm/℃ 
+Thermal Protection 
+Thermal Shutdown Temperature 
+TSHDN 
+ 
+ 
+150 
+ 
+℃ 
+Thermal Shutdown Hysteresis 
+ΔTSHDN 
+ 
+ 
+20 
+ 
+℃ 
+ 
+NOTE: 
+1. The dropout voltage is defined as VIN - VOUT, when VOUT is 95% of the value of VOUT for VIN = VOUT + 2V. 
+ 
+ 
+
+ 
+SGM2203 
+150mA, High Voltage Regulator 
+ 
+ 
+6 
+MARCH 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+TA = +25℃, VIN = 5.3V, VOUT = 3.3V, CIN = 1μF, COUT = 1μF, unless otherwise noted. 
+ 
+ 
+Load-Transient Response 
+ 
+ 
+ 
+Line-Transient Response 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+ 
+  100mV/div   50mA/div 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+   1V/div    100mV/div 
+ 
+Time (2ms/div) 
+ 
+ 
+ 
+Time (1ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Power-Up/Power-Down Output Waveform 
+ 
+ 
+ 
+Power Ramp-Up/Ramp-Down Output Waveform 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+  
+            2V/div       2V/div 
+ 
+ 
+ 
+ 
+VIN 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+     2V/div        2V/div 
+ 
+Time (4ms/div) 
+ 
+ 
+ 
+Time (5ms/div) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Output Short Waveform 
+ 
+ 
+ 
+Thermal Protection Waveform 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+    2V/div  100mA/div 
+ 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+ 
+ 1V/div     100mA/div 
+ 
+Time (50ms/div) 
+ 
+ 
+ 
+Time (4ms/div) 
+ 
+ 
+ 
+ 
+VIN = 0V to 5.3V, IOUT = 50mA 
+ 
+VIN = 0V to 6.3V, IOUT = 50mA 
+ 
+IOUT = 10mA to 100mA 
+VIN = 5.3V to 6.3V, IOUT = 50mA 
+
+ 
+SGM2203 
+150mA, High Voltage Regulator 
+ 
+ 
+7 
+MARCH 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, VIN = 5.3V, VOUT = 3.3V, CIN = 1μF, COUT = 1μF, unless otherwise noted. 
+ 
+ 
+Pulse Load Current Output Waveform 
+ 
+     Power Supply Rejection Ratio vs. Frequency 
+ 
+ 
+ 
+ 
+VOUT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IOUT 
+ 
+ 
+       1V/div            100mA/div 
+ 
+ 
+ 
+Time (20ms/div) 
+ 
+     Dropout Voltage vs. Temperature 
+     Dropout Voltage vs. Output Current 
+ 
+ 
+     Ground Pin Current vs. Temperature 
+     Maximum Pulse Current vs. Headroom Voltage 
+ 
+ 
+ 
+ 
+0
+20
+40
+60
+80
+100
+0.01
+0.1
+1
+10
+100
+PSRR (dB) 
+Frequency (kHz) 
+IOUT = 10mA 
+∆VRIP = 0.2VP-P 
+300
+350
+400
+450
+500
+550
+600
+-50
+-25
+0
+25
+50
+75
+100
+Dropout Voltage (mV) 
+Temperature (℃) 
+IOUT = 50mA 
+0
+400
+800
+1200
+1600
+0
+25
+50
+75
+100
+125
+150
+Dropput Voltage (mV) 
+Output Current (mA) 
+3.0
+3.5
+4.0
+4.5
+5.0
+5.5
+-50
+-25
+0
+25
+50
+75
+100
+Ground Pin Current (μA) 
+Temperature (℃) 
+VIN = 36V, No Load 
+0
+100
+200
+300
+400
+500
+0
+5
+10
+15
+20
+25
+30
+35
+40
+Maximum Pulse Current (mA) 
+Headroom Voltage (V) 
+Pulse Width 0.6ms 
+
+ 
+SGM2203 
+150mA, High Voltage Regulator 
+ 
+ 
+8 
+MARCH 2024 
+SG Micro Corp 
+www.sg-micro.com 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+TA = +25℃, VIN = 5.3V, VOUT = 3.3V, CIN = 1μF, COUT = 1μF, unless otherwise noted. 
+ 
+     Ground Pin Current vs. Input Voltage 
+ 
+ 
+ 
+ 
+ 
+-1
+0
+1
+2
+3
+4
+5
+0
+4
+8
+12
+16
+20
+24
+28
+32
+36
+Ground Pin Current (μA) 
+Intput Voltage (V) 
+VOUT = 3.3V, IOUT = 0mA 
+
+ 
+SGM2203 
+150mA, High Voltage Regulator 
+ 
+ 
+9 
+MARCH 2024 
+SG Micro Corp 
+www.sg-micro.com 
+APPLICATION INFORMATION 
+Input Capacitor Selection (CIN) 
+The input decoupling capacitor should be placed as 
+close as possible to the VIN pin for ensuring the device 
+stability. 1μF or larger X7R or X5R ceramic capacitor is 
+selected to get good dynamic performance. 
+When VIN is required to provide large current 
+instantaneously, a large effective input capacitor is 
+required. Multiple input capacitors can limit the input 
+tracking inductance. Adding more input capacitors is 
+available to restrict the ringing and to keep it below the 
+device absolute maximum ratings. 
+ 
+Output Capacitor Selection (COUT) 
+The output capacitor should be placed as close as 
+possible to the VOUT pin. COUT with the effective 
+capacitance in the range of 1μF to 10μF X7R or X5R 
+ceramic capacitor is selected to get good dynamic 
+performance. For ceramic capacitor, temperature, DC 
+bias and package size will change the effective 
+capacitance, so enough margin of COUT must be 
+considered in design. Additionally, COUT with larger 
+capacitance and lower ESR will help increase the high 
+frequency PSRR and improve the load transient 
+response. 
+ 
+Thermal Shutdown 
+When the die temperature exceeds the threshold value 
+of thermal shutdown, the SGM2203 will be in shutdown 
+state and it will remain in this state until the die 
+temperature decreases to +130℃. 
+ 
+ 
+ 
+REVISION HISTORY 
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version. 
+ 
+MARCH 2024 ‒ REV.B.1 to REV.B.2 
+Page 
+Updated Typical Performance Characteristics ..................................................................................................................................................... 
+8 
+ 
+NOVEMBER 2023 ‒ REV.B to REV.B.1 
+Page 
+Updated Power Dissipation.................................................................................................................................................................................. 
+3 
+Updated Package Thermal Resistance 
+................................................................................................................................................................ 
+3 
+ 
+JULY 2022 ‒ REV.A.4 to REV.B 
+Page 
+Updated Package Thermal Resistance 
+................................................................................................................................................................ 
+3 
+ 
+OCTOBER 2020 ‒ REV.A.3 to REV.A.4 
+Page 
+Updated Package/Ordering Information section 
+................................................................................................................................................... 
+2 
+ 
+FEBRUARY 2020 ‒ REV.A.2 to REV.A.3 
+Page 
+Updated Marking Information 
+............................................................................................................................................................................... 
+3 
+ 
+MAY 2019 ‒ REV.A.1 to REV.A.2 
+Page 
+Added SGM2203-4.0YK3G/TR and SGM2203-5.75YK3G/TR versions ............................................................................................................. 
+All 
+ 
+AUGUST 2017 ‒ REV.A to REV.A.1 
+Page 
+Added SOT-23-5 package ................................................................................................................................................................................ 
+2-4 
+ 
+Changes from Original (JUNE 2017) to REV.A 
+Page 
+Changed from product preview to production data 
+............................................................................................................................................. 
+All 
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00031.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOT-23 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+0.900 
+1.150 
+0.035 
+0.045 
+A1 
+0.000 
+0.100 
+0.000 
+0.004 
+A2 
+0.900 
+1.050 
+0.035 
+0.041 
+b 
+0.300 
+0.500 
+0.012 
+0.020 
+c 
+0.080 
+0.150 
+0.003 
+0.006 
+D 
+2.800 
+3.000 
+0.110 
+0.118 
+E 
+1.200 
+1.400 
+0.047 
+0.055 
+E1 
+2.250 
+2.550 
+0.089 
+0.100 
+e 
+0.950 BSC 
+0.037 BSC 
+e1 
+1.900 BSC 
+0.075 BSC 
+L 
+0.550 REF 
+0.022 REF 
+L1 
+0.300 
+0.500 
+0.012 
+0.020 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+E
+E1
+e1
+e
+b
+D
+A
+A2
+A1
+c
+L1
+θ
+0.25
+L
+2.29
+0.76
+0.76
+0.95
+RECOMMENDED LAND PATTERN (Unit: mm)
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00033.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOT-23-5 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+1.050 
+1.250 
+0.041 
+0.049 
+A1 
+0.000 
+0.100 
+0.000 
+0.004 
+A2 
+1.050 
+1.150 
+0.041 
+0.045 
+b 
+0.300 
+0.500 
+0.012 
+0.020 
+c 
+0.100 
+0.200 
+0.004 
+0.008 
+D 
+2.820 
+3.020 
+0.111 
+0.119 
+E 
+1.500 
+1.700 
+0.059 
+0.067 
+E1 
+2.650 
+2.950 
+0.104 
+0.116 
+e 
+0.950 BSC 
+0.037 BSC 
+e1 
+1.900 BSC 
+0.075 BSC 
+L 
+0.300 
+0.600 
+0.012 
+0.024 
+θ 
+0° 
+8° 
+0° 
+8° 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+E
+E1
+e
+e1
+b
+D
+A1
+A2
+A
+c
+L
+θ
+0.2
+RECOMMENDED LAND PATTERN (Unit: mm)
+1.90
+2.59
+0.99
+0.69
+0.95
+
+ 
+PACKAGE INFORMATION 
+ 
+ 
+ 
+TX00045.000 
+SG Micro Corp 
+www.sg-micro.com 
+PACKAGE OUTLINE DIMENSIONS 
+SOT-89-3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Dimensions 
+In Millimeters 
+Dimensions 
+In Inches 
+MIN 
+MAX 
+MIN 
+MAX 
+A 
+1.400 
+1.600 
+0.055 
+0.063 
+b 
+0.320 
+0.520 
+0.013 
+0.020 
+b1 
+0.400 
+0.580 
+0.016 
+0.023 
+c 
+0.350 
+0.440 
+0.014 
+0.017 
+D 
+4.400 
+4.600 
+0.173 
+0.181 
+D1 
+1.550 REF 
+0.061 REF 
+E 
+2.300 
+2.600 
+0.091 
+0.102 
+E1 
+3.940 
+4.250 
+0.155 
+0.167 
+e 
+1.500 TYP 
+0.060 TYP 
+e1 
+3.000 TYP 
+0.118 TYP 
+L 
+0.900 
+1.200 
+0.035 
+0.047 
+ 
+NOTES: 
+1. Body dimensions do not include mode flash or protrusion. 
+2. This drawing is subject to change without notice. 
+ 
+ 
+ 
+ 
+RECOMMENDED LAND PATTERN (Unit: mm)
+c
+L
+A
+E
+D
+D1
+b1
+e1
+e
+b
+E1
+2.0
+3.0
+0.7
+1.5
+45°
+1.0
+1.5
+
+ 
+PACKAGE INFORMATION 
+ 
+TX10000.000 
+SG Micro Corp 
+www.sg-micro.com 
+TAPE AND REEL INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+KEY PARAMETER LIST OF TAPE AND REEL 
+Package Type 
+Reel 
+Diameter 
+Reel Width 
+W1 
+(mm) 
+A0 
+(mm) 
+B0 
+(mm) 
+K0 
+(mm) 
+P0 
+(mm) 
+P1 
+(mm) 
+P2 
+(mm) 
+W 
+(mm) 
+Pin1  
+Quadrant 
+DD0001 
+ 
+ 
+SOT-23 
+7″ 
+9.5 
+3.15 
+2.77 
+1.22 
+4.0 
+4.0 
+2.0 
+8.0 
+Q3 
+SOT-23-5 
+7″ 
+9.5 
+3.20 
+3.20 
+1.40 
+4.0 
+4.0 
+2.0 
+8.0 
+Q3 
+SOT-89-3 
+7″ 
+13.2 
+4.85 
+4.45 
+1.85 
+4.0 
+8.0 
+2.0 
+12.0 
+Q3 
+ 
+ 
+ 
+Reel Width (W1)
+Reel Diameter
+REEL DIMENSIONS 
+TAPE DIMENSIONS 
+DIRECTION OF FEED 
+P2
+P0
+W
+P1
+A0
+K0
+B0
+Q1
+Q2
+Q4
+Q3
+Q3
+Q4
+Q2
+Q1
+Q3
+Q4
+Q2
+Q1
+ 
+ 
+
+ 
+PACKAGE INFORMATION 
+ 
+TX20000.000 
+SG Micro Corp 
+www.sg-micro.com 
+CARTON BOX DIMENSIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE: The picture is only for reference. Please make the object as the standard. 
+ 
+ 
+KEY PARAMETER LIST OF CARTON BOX 
+Reel Type 
+Length 
+(mm) 
+Width 
+(mm) 
+Height 
+(mm) 
+Pizza/Carton 
+DD0002 
+7″ (Option) 
+368 
+227 
+224 
+8 
+7″ 
+442 
+410 
+224 
+18 
+ 
+ 
+ 
+ 
