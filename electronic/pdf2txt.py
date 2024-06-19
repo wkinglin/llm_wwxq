@@ -71,7 +71,9 @@ def get_name(documents, separator: list):
     separator = [item[:-2] for item in separator]
     # print(separator)
     
+    product_name_list = []
     product_name = pages[0].page_content.strip().split(" ")[0]
+    
     name = []
 
     if product_name in total_product_name: return []
@@ -86,18 +88,27 @@ def get_name(documents, separator: list):
             name.extend(name1)
             break
     
+    if "/" in product_name:
+        product_name_list = product_name.split("/")
+        product_name_list_process = []
+        for product in product_name_list:
+            if not product.startswith("SGM"):
+                if len(product_name_list_process)>0:
+                    product_name_list_process[-1] = product_name_list_process[-1]+product
+            else:
+                product_name_list_process.append(product)
+        name.extend(product_name_list_process)
+        
     # 去重
     name.append(product_name)
     name = list(set(name))
-    print(name)
-    
+
     total_name = ""
     for item in name:
         if item == "SGMICRO": continue
         total_name = total_name + item + ";"
     print(total_name)
     
-
     es_input_id = (
         f"curl -XPOST 'http://localhost:9200/electronic_product_id/_create/{total_index}' "
         f"-H 'Content-Type: application/json' "
@@ -226,13 +237,21 @@ def get_pdf_raw(pdf_path: str, output_path: str) -> str:
         table = doc.get_toc()  
         text = "\n".join([page.get_text() for page in doc])
     pathlib.Path(output_path).write_bytes(text.encode())
+    return table
 
+def get_pdf_html(pdf_path: str, output_path: str) -> str:
+    table = []
+    # 打开PDF文件
+    with fitz.open(pdf_path) as doc:  # open document
+        table = doc.get_toc()  
+        text = "\n".join([page.get_text("md") for page in doc])
+    pathlib.Path(output_path).write_bytes(text.encode())
     return table
 
 if __name__ == "__main__":
-    dir = "./pdfs"
+    dir = "./test_pdfs"
     
-    with open("content_name.sh","w") as f:
+    with open("content_product_add.jsonl","w") as f:
         for root, dirs, files in os.walk(dir):
             for file in files:
                 file_name = file.split(".")[0]
@@ -244,9 +263,11 @@ if __name__ == "__main__":
 
                 # 在使用extract时 路径以extract为准
                 pdf_path = root + '/' + file
-                output_path = parent_directory + '/txt/' + file_name_txt
+                # output_path = parent_directory + '/txt/' + file_name_txt
+                output_path = "./test/" + file_name_txt
 
-                table = get_pdf_raw(pdf_path,output_path)
+                # table = get_pdf_raw(pdf_path,output_path)
+                table = get_pdf_html(pdf_path, output_path)
                 # print(table)
 
                 # 加载
@@ -264,14 +285,12 @@ if __name__ == "__main__":
                 # print(separator)
 
                 # es_list = split_chuck(documents, separator)
-                # json_list = split_chuck_V1(documents, separator)
-                es_list = get_name(documents,separator)
+                json_list = split_chuck_V1(documents, separator)
+                # es_list = get_name(documents,separator)
 
             # with open(f"./shell/content_electronic_{file_name}.sh","w") as f:
-                for item in es_list:
-                    f.write(item+"\n")
+                # for item in es_list:
+                #     f.write(item+"\n")
 
-                # for item in json_list:
-                #     f.write(json.dumps(item)+"\n")
-
-
+                for item in json_list:
+                    f.write(json.dumps(item)+"\n")

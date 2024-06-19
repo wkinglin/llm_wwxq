@@ -8,7 +8,7 @@ from transformers import (
 )
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-model_path = 'zjunlp/OneKE'
+model_path = '/mnt/public/jinweilin/OneKE'
 config = AutoConfig.from_pretrained(model_path, trust_remote_code=True)
 tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
 
@@ -35,7 +35,13 @@ model.eval()
 
 
 system_prompt = '<<SYS>>\nYou are a helpful assistant. 你是一个乐于助人的助手。\n<</SYS>>\n\n'
-sintruct = "{\"instruction\": \"You are an expert in named entity recognition. Please extract entities that match the schema definition from the input. Return an empty list if the entity type does not exist. Please respond in the format of a JSON string.\", \"schema\": [\"person\", \"organization\", \"else\", \"location\"], \"input\": \"284 Robert Allenby ( Australia ) 69 71 71 73 , Miguel Angel Martin ( Spain ) 75 70 71 68 ( Allenby won at first play-off hole )\"}"
+sintruct = """
+{
+    'instruction': 'You are an expert in named entity recognition. Please extract entities that match the schema definition from the input. Return an empty list if the entity type does not exist. Please respond in the format of a JSON string.', 
+    'schema': ['person', 'organization', 'else', 'location'], 
+    'input': '284 Robert Allenby ( Australia ) 69 71 71 73 , Miguel Angel Martin ( Spain ) 75 70 71 68 ( Allenby won at first play-off hole ) China is a good place Jin like to live here'
+}
+"""
 sintruct = '[INST] ' + system_prompt + sintruct + '[/INST]'
 
 input_ids = tokenizer.encode(sintruct, return_tensors="pt").to(device)

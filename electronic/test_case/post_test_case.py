@@ -14,11 +14,13 @@ def askQuestion(question):
     return response.text
 
 try:
-    with open('question2.txt',"r") as f:
-        with open('output2.txt',"a") as ff:
-            for line in f.readlines():
+    with open('question_new1.txt',"r") as f:
+        with open('output_new1.txt',"a") as ff:
+            for index, line in enumerate(f.readlines()):
                 print(line)
                 res = askQuestion(line)
+                ff.write(str(index))
+                ff.write(". "+line)
                 ff.write(res+"\n")
                 ff.flush()
 except Exception as e:

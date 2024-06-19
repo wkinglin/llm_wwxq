@@ -815,6 +815,205 @@ async def create_item(args:argsString):
 
     return result
 
+@app.post("/electronic_search_final")
+async def create_item(args:argsString):
+    global electronic_messages
+
+     # 指定 PDF 切分后 JSONL 文件路径
+    file_path = "electronic_content_duplication.jsonl"
+    recommend_product_list = []
+    product_name_list = []
+    product_alter_name_list= []
+    is_recommend = False
+    answer_total = ""
+
+    # 清理Message中的信息
+    total_length = 0
+    for message in electronic_messages:
+        total_length += len(message['content'])
+    if total_length > 3000:
+        electronic_messages = [{
+            'role': 'system',
+            'content': "You are a helpful assistant"
+        }]
+
+    # 处理query中小写的问题
+    args.query = re.sub(r'sgm', 'SGM', args.query, flags=re.IGNORECASE)
+
+
+    # 问题分类
+    prompt_classification = f"""
+    例子1：推荐一款芯片，要求价格便宜。 答案为1
+    例子2：需要一款单通道高速运算放大器，供电电压为+、-5V，3dB带宽在100MHz以上。 答案为1
+    例子3：之前产品使用了TI的193比较器，目前需要一颗失调电压0.37mV、偏置电流25nA、电压范围2V~30V、封装sop8的比较器，请问圣邦微有相关物料吗？ 答案为1
+    例子4：SGM5200的上电时间需要多久？ 答案为0
+    根据上述例子，请对问题做以下判断，如果问题中需要推荐或查询符合条件的相关产品请返回1，如果问题中需要查询某一款或几款产品的特定信息返回0。问题如下：{args.query}
+"""
+    classification_answer = do_qwen_v2(prompt_classification)
+    
+    try:
+        print(f"分类答案：{classification_answer}")
+        if "1" in classification_answer:
+            classification_answer = 1
+        else:
+            classification_answer = 0    
+    except Exception as e:
+        print(e)
+        print("判断问题类型出错")
+    
+    if classification_answer:
+        print("推荐类问题")
+        # es查询对应索引
+        url = 'http://localhost:9200/electronic_products/_search'
+        headers = {'Content-Type': 'application/json'}
+        data = {
+            "size" : 10,
+            "query" : { "match" : { "content" : args.query }}
+        }
+        # 发送 POST 请求
+        response = requests.post(url, headers=headers, json=data)
+        pcjsondata = json.loads(response.text)
+
+        for hit in pcjsondata['hits']['hits']:
+            product_name = hit["_source"]['product_name']
+            assert type(product_name) == str
+            recommend_product_list.append(product_name)
+        is_recommend = True
+    else:
+        print("查询类问题")      
+        # es查询对应索引
+        url = 'http://localhost:9200/electronic_product_id/_search'
+        headers = {'Content-Type': 'application/json'}
+        data = {
+            "size" : 10,
+            "query" : { "match" : { "total_name" : args.query }}
+        }
+        print(f"es_data:{data}")
+        # 发送 POST 请求
+        response = requests.post(url, headers=headers, json=data)
+        pcjsondata = json.loads(response.text)
+        print(pcjsondata)
+        try:
+            # 正则表达式方法
+            product_pattern = r"SGM\d*[A-Z]*[-\d]*[A-Z]*/?[A-Z]*"
+            query_product = re.findall(product_pattern, args.query)
+
+            for hit in pcjsondata['hits']['hits']:
+                # 获得相关name
+                total_name = hit["_source"]["total_name"]
+                product_name = hit["_source"]['product_name']
+                assert type(total_name) == str
+                assert type(product_name) == str
+
+                # 对于product_name是SGM8958-2类型的产品，添加SGM8958名称
+                total_name_list = total_name.split(";")
+                if "-" in product_name:
+                    total_name_list.append(product_name.split("-")[0])
+
+                # 判断句子中是否有相应的名词
+                flag = False
+                query_flag = False
+                for name in total_name_list:
+                    name = name.strip()
+                    if name != "" and name in args.query:
+                        flag = True
+                    for query_name in query_product:
+                        if name == query_name:
+                            query_flag = True
+                            break
+                    
+                if query_flag:
+                    product_name_list.append(hit["_source"]['product_name'])
+                if flag:
+                    product_alter_name_list.append(hit["_source"]['product_name'])
+                
+            print("产品列表：", product_name_list)
+            print("备选产品列表：", product_alter_name_list)
+
+            # 如果正则表达式提取出的信息有误 则使用备选列表
+            if len(product_name_list) == 0:
+                product_name_list = product_alter_name_list
+
+            # 进行去重
+            product_name_list = list(set(product_name_list))
+        except Exception as e:
+            print(e)
+            return "答案不存在"
+
+    # 只使用es 
+    if is_recommend:
+        product_list = recommend_product_list
+    else:
+        product_list = product_name_list
+   
+    for product_name in product_list:
+        # 简单的问题分解
+        query = args.query
+        if is_recommend:
+            for item in recommend_product_list:
+                if item == product_name: continue
+                else:
+                    query = query.replace(item , "")
+            query = f"请判断{product_name}元器件是否能够满足此问题中的需求，从而完成推荐，问题：" + query
+        print(query)
+
+        document_chuck = []
+        # 打开 JSONL 文件并逐行读取
+        with open(file_path, "r", encoding="utf-8") as file:
+            for line in file:
+                json_item = json.loads(line)
+                if product_name == json_item["product_name"]:
+                    document_chuck.append(json_item)
+        
+        # mongodb方法
+        # document_chuck = mongodb.search_multi(product_name)
+
+        answer_single = product_name + ": \n"
+        index = 1
+
+        for chuck in document_chuck:
+            content = chuck["content"]
+            # prompt_chuck_answer = f"请判断此文件片内是否存在问题答案，如果有请回答，如果没有答案请返回‘答案不存在‘，最后的结果请删除无关的信息。文件内容：{content},问题：{query}"
+            prompt_chuck_answer = rag_prompt_cn.format(question = query, context = content)
+            chuck_answer = do_qwen_v2(prompt_chuck_answer)
+            print(chuck_answer)
+
+            # 模糊答案去除
+            flag = False
+            false_condition = ["没有明确提到", "没有明确列出", "没有明确提及", "答案不存在", "没有在提供的Context中明确给出", "没有在提供的Context中明确提及", "没有在提供的详细描述中明确提及"]
+            for item in false_condition:
+                if item in chuck_answer:
+                    flag = True
+            if flag: continue
+
+            chuck_answer = str(index) + ". " + chuck_answer + "\n"
+            answer_single = answer_single + chuck_answer
+            index += 1
+        
+        answer_total = answer_total + answer_single + "\n"
+        
+    # prompt_total_answer = rag_prompt.format(question = args.query, context = answer_total)
+    prompt_total_answer = multi_prompt.format(question = args.query, context = answer_total)
+    
+    electronic_messages.append({
+        'role': 'user',
+        'content': prompt_total_answer
+    })
+    response = do_qwen_v1(electronic_messages)
+    res = json.loads(response.text)
+    result = res['choices'][0]['message']['content']
+    electronic_messages.append(res['choices'][0]['message'])
+    
+    if len(product_name_list) == 0 and not is_recommend:
+        result = "系统数据库中无相关产品信息，请检查型号是否正确。 " + result
+
+    print("==================")
+    print(prompt_total_answer)
+    print(result)
+    print(electronic_messages)
+
+    return result
+
 
 @app.post("/electronic_search_without_multi_talk")
 async def create_item(args:argsString):
